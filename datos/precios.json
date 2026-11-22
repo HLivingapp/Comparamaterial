@@ -1,0 +1,186 @@
+{
+  "fecha": "2026-11-22",
+  "zona": "Madrid",
+  "tiendas": {
+    "leroy": { "nombre": "Leroy Merlin", "web": "https://www.leroymerlin.es" },
+    "obramat": { "nombre": "Obramat (antes Bricomart)", "web": "https://www.obramat.es" }
+  },
+  "materiales": [
+    {
+      "slug": "cemento-gris-25-kg", "nombre": "Cemento gris 32,5 N", "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg", "unidad": "saco",
+      "consejo": "Para un mortero 1:4 de albañilería se usan unos 6 sacos por m³ de mortero. Para recibir tabiques y pequeñas reparaciones suele ser más práctico el mortero seco ya dosificado.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Saco cemento gris 32,5-N CEM II/B-L MB 25 kg", "precio": 4.29, "porUnidad": "0,17 €/kg", "enlace": "https://www.leroymerlin.es/productos/saco-cemento-gris-32-5-n-cem-ii-b-l-mb-25-kg-85114817.html" },
+        { "tienda": "obramat", "producto": "Cemento 32,5N 25 kg gris", "precio": 4.19, "porUnidad": "0,17 €/kg", "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html" }
+      ]
+    },
+    {
+      "slug": "yeso-controlado-17-kg", "nombre": "Yeso controlado", "categoria": "Albañilería y morteros",
+      "formato": "Saco de 17 kg", "unidad": "saco",
+      "consejo": "Un guarnecido de 1 cm de espesor consume unos 10 kg de yeso por m², así que un saco da para algo menos de 2 m².",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Yeso controlado Longips 17 kg", "precio": 1.83, "enlace": "https://www.leroymerlin.es/productos/yeso-controlado-longips-17-kg-19867470.html" },
+        { "tienda": "obramat", "producto": "Yeso controlado Longips SN 17 kg", "precio": 1.63, "porUnidad": "0,10 €/kg", "nota": "Precio marcado como mejor precio por cantidad", "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html" }
+      ]
+    },
+    {
+      "slug": "ladrillo-hueco-doble", "nombre": "Ladrillo hueco doble 24×11,5×8 cm", "categoria": "Albañilería y morteros",
+      "formato": "Unidad", "unidad": "ud",
+      "consejo": "Con este formato se colocan unos 32 ladrillos por m² de tabique.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Ladrillo hueco doble 24x11,5x8 cm", "precio": 0.29, "enlace": "https://www.leroymerlin.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-17555111.html" },
+        { "tienda": "obramat", "producto": "Ladrillo hueco doble 24x11.5x8 cm", "precio": 0.17, "porUnidad": "≈ 5,44 €/m²", "nota": "Precio marcado como mejor precio por cantidad", "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html" }
+      ]
+    },
+    {
+      "slug": "mortero-seco-m7-5-25-kg", "nombre": "Mortero seco M-7,5", "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg", "unidad": "saco",
+      "consejo": "Un tabique de ladrillo hueco doble consume unos 20 a 25 kg de mortero por m².",
+      "ofertas": [
+        { "tienda": "obramat", "producto": "Mortero seco M7.5 25 kg gris", "precio": 1.79, "nota": "Precio muy bajo: confírmalo en tu tienda", "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html" }
+      ]
+    },
+    {
+      "slug": "mortero-autonivelante-25-kg", "nombre": "Mortero autonivelante 20–50 mm", "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg (Cementos Capa)", "unidad": "saco",
+      "consejo": "Se gastan unos 1,8 kg por m² y por cada mm de espesor. Para recrecer 2 cm hacen falta unos 36 kg por m².",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Mortero autonivelante Cementos Capa 20/50 25 kg gris", "precio": 8.12, "porUnidad": "0,32 €/kg", "enlace": "https://www.leroymerlin.es/productos/mortero-autonivelante-cementos-capa-20-50-25-kg-gris-86672604.html" },
+        { "tienda": "obramat", "producto": "Mortero autonivelante Capafloor 20-50 mm 25 kg", "precio": 6.50, "porUnidad": "0,26 €/kg", "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html" }
+      ]
+    },
+    {
+      "slug": "placa-yeso-laminado-ba-13", "nombre": "Placa de yeso laminado BA 13", "categoria": "Tabiquería seca",
+      "formato": "Placa 2500×1200×13 mm (3 m²)", "unidad": "placa",
+      "consejo": "Un tabique sencillo con una placa por cara necesita unos 2 m² de placa por m² de tabique, es decir, unas 0,7 placas.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Placa de cartón-yeso BA 2500x1200x13 mm (Placo)", "precio": 9.45, "porUnidad": "3,15 €/m²", "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ba-2500x1200x13-mm-15433145.html" },
+        { "tienda": "obramat", "producto": "Placa de yeso laminado BA 2500x1200x13 mm", "precio": 7.70, "porUnidad": "2,57 €/m²", "nota": "Precio marcado como mejor precio por cantidad", "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html" }
+      ]
+    },
+    {
+      "slug": "placa-yeso-laminado-ignifuga-ppf-13", "nombre": "Placa de yeso laminado ignífuga PPF 13", "categoria": "Tabiquería seca",
+      "formato": "Placa 2500×1200×13 mm (3 m²)", "unidad": "placa",
+      "consejo": "Se usa en cuartos de instalaciones, garajes y donde el proyecto pida resistencia al fuego.",
+      "ofertas": [
+        { "tienda": "obramat", "producto": "Placa de yeso laminado Placo PPF 2500x1200x13 mm", "precio": 14.25, "porUnidad": "4,75 €/m²", "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html" }
+      ]
+    },
+    {
+      "slug": "montante-48-mm-3-m", "nombre": "Montante 48 mm", "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m", "unidad": "ud",
+      "consejo": "Los montantes se colocan cada 40 o 60 cm. Un tabique de 1 m de largo y 2,6 m de alto lleva unos 2 o 3 montantes.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Montante para pladur de acero de 3 m y 48 mm", "precio": 2.29, "enlace": "https://www.leroymerlin.es/productos/montante-para-pladur-de-acero-de-3-m-y-48-mm-80134520.html" },
+        { "tienda": "obramat", "producto": "Montante Ingeperfil 48 mm 3 m", "precio": 2.34, "porUnidad": "0,78 €/m", "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html" }
+      ]
+    },
+    {
+      "slug": "canal-48-mm-3-m", "nombre": "Canal 48 mm", "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m", "unidad": "ud",
+      "consejo": "Va en suelo y techo: unos 2 m de canal por cada metro lineal de tabique.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Canal para tabique 3000x48 mm", "precio": 2.40, "enlace": "https://www.leroymerlin.es/productos/canal-para-tabique-3000x48-mm-15436414.html" },
+        { "tienda": "obramat", "producto": "Canal Ingeperfil 48 mm 3 m", "precio": 2.00, "porUnidad": "0,67 €/m", "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html" }
+      ]
+    },
+    {
+      "slug": "pasta-juntas-20-kg", "nombre": "Pasta de juntas preparada", "categoria": "Tabiquería seca",
+      "formato": "Cubo de 20 kg", "unidad": "cubo",
+      "consejo": "Se calculan unos 0,4 a 0,5 kg por m² de placa, así que un cubo da para unos 40 m².",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Pasta para juntas preparada 20 kg (Placo)", "precio": 21.83, "porUnidad": "1,09 €/kg", "enlace": "https://www.leroymerlin.es/productos/pasta-para-juntas-preparada-20-kg-15436330.html" },
+        { "tienda": "obramat", "producto": "Pasta de juntas preparada Placomix Pro 20 kg", "precio": 18.89, "porUnidad": "0,94 €/kg", "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html" }
+      ]
+    },
+    {
+      "slug": "lana-roca-40-mm", "nombre": "Lana de roca 40 mm", "categoria": "Tabiquería seca",
+      "formato": "Panel, precio por m²", "unidad": "m²",
+      "consejo": "Para tabiques de 48 mm se usa panel de 40 mm. Compara siempre por m², porque cada marca vende packs de distinto tamaño.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Aislante lana mineral Rockwool 40 mm (pack 14,58 m² a 21,99 €)", "precio": 1.51, "porUnidad": "por m²", "enlace": "https://www.leroymerlin.es/productos/aislante-lana-mineral-rockwool-14-58-m2-de-40-mm-16874746.html" },
+        { "tienda": "obramat", "producto": "Panel lana de roca Sonorock Eco 135x40x4 cm (pack 8,10 m² a 28,11 €)", "precio": 3.47, "porUnidad": "por m²", "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-eco-135x40x4cm-25046667.html" }
+      ]
+    },
+    {
+      "slug": "cemento-cola-c2te-25-kg", "nombre": "Cemento cola C2TE gris", "categoria": "Cerámica y colocación",
+      "formato": "Saco de 25 kg", "unidad": "saco",
+      "consejo": "Con llana de 6 a 10 mm se gastan de 4 a 6 kg por m²: un saco da para unos 4 a 6 m². Para porcelánico de formato grande, mejor C2TE S1 y doble encolado.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Mortero cola Axton flexible 25 kg gris", "precio": 14.06, "porUnidad": "0,56 €/kg", "enlace": "https://www.leroymerlin.es/productos/mortero-cola-axton-flexible-25-kg-gris-85539167.html" },
+        { "tienda": "obramat", "producto": "Cemento cola Flex Duo Weber C2TE 25 kg gris", "precio": 7.55, "porUnidad": "0,30 €/kg", "nota": "Precio marcado como mejor precio por cantidad", "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html" }
+      ]
+    },
+    {
+      "slug": "porcelanico-60x60-gris", "nombre": "Porcelánico gris 60×60 (gama de entrada)", "categoria": "Cerámica y colocación",
+      "formato": "Precio por m²", "unidad": "m²",
+      "consejo": "Compra entre un 5 % y un 10 % más de lo que mide el suelo para cortes y reposiciones, y todo del mismo lote.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Suelo porcelánico Martins efecto cemento gris 60x60 C1 Artens (caja 1,44 m²)", "precio": 16.99, "porUnidad": "por m²", "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-martins-efecto-cemento-gris-60x60-cm-c1-artens-19483513.html" },
+        { "tienda": "obramat", "producto": "Suelo porcelánico 60x60 Altea gris (caja 1,08 m²)", "precio": 12.95, "porUnidad": "por m²", "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html" }
+      ]
+    },
+    {
+      "slug": "impermeabilizacion-ducha", "nombre": "Impermeabilización de ducha", "categoria": "Cerámica y colocación",
+      "formato": "Kit, lámina o membrana líquida", "unidad": "ud", "comparable": false,
+      "consejo": "Los formatos no son iguales: compara por m² cubiertos. En duchas de obra, impermeabiliza suelo y al menos los primeros 20 cm de pared.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Kit de impermeabilización para ducha Facil Basic L (sumidero y lámina 1,5×1,2 m)", "precio": 59.50, "nota": "Oferta; precio anterior 89,90 €", "enlace": "https://www.leroymerlin.es/productos/kit-de-impermeabilizacion-para-ducha-facil-basic-l-17774876.html" },
+        { "tienda": "obramat", "producto": "Lámina impermeable Revestech Dry50 5×1,2 m (6 m²)", "precio": 47.30, "porUnidad": "7,88 €/m²", "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html" }
+      ]
+    },
+    {
+      "slug": "cable-h07v-k-2-5-mm-100-m", "nombre": "Cable H07V-K 2,5 mm²", "categoria": "Electricidad",
+      "formato": "Rollo de 100 m", "unidad": "rollo",
+      "consejo": "Es la sección de los circuitos de enchufes de uso general (C2). Calcula unos 3 hilos por circuito: fase, neutro y tierra.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Cable Lexman H07V-K 100 m 2,5 mm² marrón", "precio": 45.99, "porUnidad": "0,46 €/m", "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-2-5-mm2-color-marron-19303291.html" }
+      ]
+    },
+    {
+      "slug": "cable-h07v-k-1-5-mm-100-m", "nombre": "Cable H07V-K 1,5 mm²", "categoria": "Electricidad",
+      "formato": "Rollo de 100 m", "unidad": "rollo",
+      "consejo": "Es la sección de los circuitos de alumbrado (C1).",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Cable Lexman H07V-K 100 m 1,5 mm² azul", "precio": 28.82, "porUnidad": "0,29 €/m", "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-1-5-mm2-color-azul-19303270.html" }
+      ]
+    },
+    {
+      "slug": "tubo-corrugado-20-mm-100-m", "nombre": "Tubo corrugado 20 mm", "categoria": "Electricidad",
+      "formato": "Rollo de 100 m", "unidad": "rollo",
+      "consejo": "El de 20 mm admite los circuitos de alumbrado y enchufes. Para el de cocina y horno se suele usar 25 mm.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Tubo corrugado de PVC Lexman 20 mm 100 m", "precio": 15.99, "porUnidad": "0,16 €/m", "enlace": "https://www.leroymerlin.es/productos/tubo-corrugado-de-pvc-lexman-20-mm-100-m-81908936.html" },
+        { "tienda": "obramat", "producto": "Tubo corrugado reforzado negro 20 mm 100 m", "precio": 17.50, "porUnidad": "0,18 €/m", "nota": "Reforzado, no es exactamente el mismo producto", "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html" }
+      ]
+    },
+    {
+      "slug": "tubo-multicapa-16-mm-100-m", "nombre": "Tubo multicapa 16 mm", "categoria": "Fontanería y saneamiento",
+      "formato": "Rollo de 100 m", "unidad": "rollo",
+      "consejo": "Medida habitual para las tomas de agua de baño y cocina en vivienda.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Rollo de tubo de multicapa 100 m Ø16 mm", "precio": 82.99, "porUnidad": "0,83 €/m", "enlace": "https://www.leroymerlin.es/productos/rollo-de-tubo-de-multicapa-100-metros-16-mm-82069868.html" },
+        { "tienda": "obramat", "producto": "Tubo multicapa 16 mm rollo 100 m", "precio": 59.00, "porUnidad": "0,59 €/m", "enlace": "https://www.obramat.es/productos/tubo-multicapa-16mm-rollo-100m-10285261.html" }
+      ]
+    },
+    {
+      "slug": "tubo-pvc-110-mm-3-m", "nombre": "Tubo PVC evacuación Ø110", "categoria": "Fontanería y saneamiento",
+      "formato": "Barra de 3 m", "unidad": "barra",
+      "consejo": "Es el diámetro del inodoro y de la conexión a la bajante.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Tubo de evacuación de agua en PVC 3 m x Ø110 mm", "precio": 7.78, "enlace": "https://www.leroymerlin.es/productos/tubo-de-evacuacion-de-agua-en-pvc-de-3m-x-110mm-87003281.html" },
+        { "tienda": "obramat", "producto": "Tubo 110 mm 3 m PVC", "precio": 6.21, "enlace": "https://www.obramat.es/productos/tubo-110mm-3m-pvc-10106803.html" }
+      ]
+    },
+    {
+      "slug": "pintura-plastica-blanca-mate-15-l", "nombre": "Pintura plástica blanca mate", "categoria": "Pintura",
+      "formato": "Cubo de 15 L, gama profesional", "unidad": "cubo",
+      "consejo": "Rinde unos 8 a 10 m² por litro y mano: un cubo de 15 L da para unos 60 m² a dos manos.",
+      "ofertas": [
+        { "tienda": "leroy", "producto": "Pintura interior Titanlux mate 15 L Blanco y Listo", "precio": 54.99, "porUnidad": "3,67 €/L", "enlace": "https://www.leroymerlin.es/productos/pintura-interior-titanlux-mate-15l-blanco-y-listo-84130494.html" },
+        { "tienda": "obramat", "producto": "Pintura plástica blanca mate 15 L B-30", "precio": 53.00, "porUnidad": "3,53 €/L", "enlace": "https://www.obramat.es/productos/pintura-plastica-blanca-mate-15l-b-30-10565751.html" }
+      ]
+    }
+  ]
+}
