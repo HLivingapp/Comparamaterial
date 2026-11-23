@@ -1,1039 +1,1410 @@
 {
- "fecha": "2026-11-23",
- "zona": "Madrid",
- "tiendas": {
-  "leroy": {
-   "nombre": "Leroy Merlin",
-   "web": "https://www.leroymerlin.es"
+  "fecha": "2026-11-23",
+  "zona": "Madrid",
+  "tiendas": {
+    "leroy": {
+      "nombre": "Leroy Merlin",
+      "web": "https://www.leroymerlin.es"
+    },
+    "obramat": {
+      "nombre": "Obramat (antes Bricomart)",
+      "web": "https://www.obramat.es"
+    }
   },
-  "obramat": {
-   "nombre": "Obramat (antes Bricomart)",
-   "web": "https://www.obramat.es"
-  }
- },
- "materiales": [
-  {
-   "slug": "cemento-gris-25-kg",
-   "nombre": "Cemento gris 32,5 N",
-   "categoria": "Albañilería y morteros",
-   "formato": "Saco de 25 kg",
-   "unidad": "saco",
-   "consejo": "Para un mortero 1:4 de albañilería se usan unos 6 sacos por m³ de mortero. Para recibir tabiques y pequeñas reparaciones suele ser más práctico el mortero seco ya dosificado.",
-   "ofertas": [
+  "materiales": [
     {
-     "tienda": "leroy",
-     "producto": "Saco cemento gris 32,5-N CEM II/B-L MB 25 kg",
-     "precio": 4.29,
-     "porUnidad": "0,17 €/kg",
-     "enlace": "https://www.leroymerlin.es/productos/saco-cemento-gris-32-5-n-cem-ii-b-l-mb-25-kg-85114817.html"
+      "slug": "cemento-gris-25-kg",
+      "nombre": "Cemento gris 32,5 N",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg",
+      "unidad": "saco",
+      "consejo": "Para un mortero 1:4 de albañilería se usan unos 6 sacos por m³ de mortero. Para recibir tabiques y pequeñas reparaciones suele ser más práctico el mortero seco ya dosificado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Saco cemento gris 32,5-N CEM II/B-L MB 25 kg",
+          "precio": 4.29,
+          "porUnidad": "0,17 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/saco-cemento-gris-32-5-n-cem-ii-b-l-mb-25-kg-85114817.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Cemento 32,5N 25 kg gris",
+          "precio": 4.19,
+          "porUnidad": "0,17 €/kg",
+          "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Cemento 32,5N 25 kg gris",
-     "precio": 4.19,
-     "porUnidad": "0,17 €/kg",
-     "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html"
-    }
-   ]
-  },
-  {
-   "slug": "yeso-controlado-17-kg",
-   "nombre": "Yeso controlado",
-   "categoria": "Albañilería y morteros",
-   "formato": "Saco de 17 kg",
-   "unidad": "saco",
-   "consejo": "Un guarnecido de 1 cm de espesor consume unos 10 kg de yeso por m², así que un saco da para algo menos de 2 m².",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Yeso controlado Longips 17 kg",
-     "precio": 1.83,
-     "enlace": "https://www.leroymerlin.es/productos/yeso-controlado-longips-17-kg-19867470.html"
+      "slug": "yeso-controlado-17-kg",
+      "nombre": "Yeso controlado",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 17 kg",
+      "unidad": "saco",
+      "consejo": "Un guarnecido de 1 cm de espesor consume unos 10 kg de yeso por m², así que un saco da para algo menos de 2 m².",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Yeso controlado Longips 17 kg",
+          "precio": 1.83,
+          "enlace": "https://www.leroymerlin.es/productos/yeso-controlado-longips-17-kg-19867470.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Yeso controlado Longips SN 17 kg",
+          "precio": 1.63,
+          "porUnidad": "0,10 €/kg",
+          "nota": "Precio marcado como mejor precio por cantidad",
+          "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Yeso controlado Longips SN 17 kg",
-     "precio": 1.63,
-     "porUnidad": "0,10 €/kg",
-     "nota": "Precio marcado como mejor precio por cantidad",
-     "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html"
-    }
-   ]
-  },
-  {
-   "slug": "ladrillo-hueco-doble",
-   "nombre": "Ladrillo hueco doble 24×11,5×8 cm",
-   "categoria": "Albañilería y morteros",
-   "formato": "Unidad",
-   "unidad": "ud",
-   "consejo": "Con este formato se colocan unos 32 ladrillos por m² de tabique.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Ladrillo hueco doble 24x11,5x8 cm",
-     "precio": 0.29,
-     "enlace": "https://www.leroymerlin.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-17555111.html"
+      "slug": "ladrillo-hueco-doble",
+      "nombre": "Ladrillo hueco doble 24×11,5×8 cm",
+      "categoria": "Albañilería y morteros",
+      "formato": "Unidad",
+      "unidad": "ud",
+      "consejo": "Con este formato se colocan unos 32 ladrillos por m² de tabique.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Ladrillo hueco doble 24x11,5x8 cm",
+          "precio": 0.29,
+          "enlace": "https://www.leroymerlin.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-17555111.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Ladrillo hueco doble 24x11.5x8 cm",
+          "precio": 0.17,
+          "porUnidad": "≈ 5,44 €/m²",
+          "nota": "Precio marcado como mejor precio por cantidad",
+          "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Ladrillo hueco doble 24x11.5x8 cm",
-     "precio": 0.17,
-     "porUnidad": "≈ 5,44 €/m²",
-     "nota": "Precio marcado como mejor precio por cantidad",
-     "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html"
-    }
-   ]
-  },
-  {
-   "slug": "mortero-seco-m7-5-25-kg",
-   "nombre": "Mortero seco M-7,5",
-   "categoria": "Albañilería y morteros",
-   "formato": "Saco de 25 kg",
-   "unidad": "saco",
-   "consejo": "Un tabique de ladrillo hueco doble consume unos 20 a 25 kg de mortero por m².",
-   "ofertas": [
-    {
-     "tienda": "obramat",
-     "producto": "Mortero seco M7.5 25 kg gris",
-     "precio": 1.79,
-     "nota": "Precio muy bajo: confírmalo en tu tienda",
-     "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html"
-    }
-   ]
-  },
-  {
-   "slug": "mortero-autonivelante-25-kg",
-   "nombre": "Mortero autonivelante 20–50 mm",
-   "categoria": "Albañilería y morteros",
-   "formato": "Saco de 25 kg (Cementos Capa)",
-   "unidad": "saco",
-   "consejo": "Se gastan unos 1,8 kg por m² y por cada mm de espesor. Para recrecer 2 cm hacen falta unos 36 kg por m².",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Mortero autonivelante Cementos Capa 20/50 25 kg gris",
-     "precio": 8.12,
-     "porUnidad": "0,32 €/kg",
-     "enlace": "https://www.leroymerlin.es/productos/mortero-autonivelante-cementos-capa-20-50-25-kg-gris-86672604.html"
+      "slug": "mortero-seco-m7-5-25-kg",
+      "nombre": "Mortero seco M-7,5",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg",
+      "unidad": "saco",
+      "consejo": "Un tabique de ladrillo hueco doble consume unos 20 a 25 kg de mortero por m².",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Mortero seco M7.5 25 kg gris",
+          "precio": 1.79,
+          "nota": "Precio muy bajo: confírmalo en tu tienda",
+          "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Mortero autonivelante Capafloor 20-50 mm 25 kg",
-     "precio": 6.5,
-     "porUnidad": "0,26 €/kg",
-     "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html"
-    }
-   ]
-  },
-  {
-   "slug": "placa-yeso-laminado-ba-13",
-   "nombre": "Placa de yeso laminado BA 13",
-   "categoria": "Tabiquería seca",
-   "formato": "Placa 2500×1200×13 mm (3 m²)",
-   "unidad": "placa",
-   "consejo": "Un tabique sencillo con una placa por cara necesita unos 2 m² de placa por m² de tabique, es decir, unas 0,7 placas.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Placa de cartón-yeso BA 2500x1200x13 mm (Placo)",
-     "precio": 9.45,
-     "porUnidad": "3,15 €/m²",
-     "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ba-2500x1200x13-mm-15433145.html"
+      "slug": "mortero-autonivelante-25-kg",
+      "nombre": "Mortero autonivelante 20–50 mm",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg (Cementos Capa)",
+      "unidad": "saco",
+      "consejo": "Se gastan unos 1,8 kg por m² y por cada mm de espesor. Para recrecer 2 cm hacen falta unos 36 kg por m².",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mortero autonivelante Cementos Capa 20/50 25 kg gris",
+          "precio": 8.12,
+          "porUnidad": "0,32 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-autonivelante-cementos-capa-20-50-25-kg-gris-86672604.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Mortero autonivelante Capafloor 20-50 mm 25 kg",
+          "precio": 6.5,
+          "porUnidad": "0,26 €/kg",
+          "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Placa de yeso laminado BA 2500x1200x13 mm",
-     "precio": 7.7,
-     "porUnidad": "2,57 €/m²",
-     "nota": "Precio marcado como mejor precio por cantidad",
-     "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html"
-    }
-   ]
-  },
-  {
-   "slug": "placa-yeso-laminado-ignifuga-ppf-13",
-   "nombre": "Placa de yeso laminado ignífuga PPF 13",
-   "categoria": "Tabiquería seca",
-   "formato": "Placa 2500×1200×13 mm (3 m²)",
-   "unidad": "placa",
-   "consejo": "Se usa en cuartos de instalaciones, garajes y donde el proyecto pida resistencia al fuego.",
-   "ofertas": [
-    {
-     "tienda": "obramat",
-     "producto": "Placa de yeso laminado Placo PPF 2500x1200x13 mm",
-     "precio": 14.25,
-     "porUnidad": "4,75 €/m²",
-     "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html"
-    }
-   ]
-  },
-  {
-   "slug": "montante-48-mm-3-m",
-   "nombre": "Montante 48 mm",
-   "categoria": "Tabiquería seca",
-   "formato": "Perfil de 3 m",
-   "unidad": "ud",
-   "consejo": "Los montantes se colocan cada 40 o 60 cm. Un tabique de 1 m de largo y 2,6 m de alto lleva unos 2 o 3 montantes.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Montante para pladur de acero de 3 m y 48 mm",
-     "precio": 2.29,
-     "enlace": "https://www.leroymerlin.es/productos/montante-para-pladur-de-acero-de-3-m-y-48-mm-80134520.html"
+      "slug": "placa-yeso-laminado-ba-13",
+      "nombre": "Placa de yeso laminado BA 13",
+      "categoria": "Tabiquería seca",
+      "formato": "Placa 2500×1200×13 mm (3 m²)",
+      "unidad": "placa",
+      "consejo": "Un tabique sencillo con una placa por cara necesita unos 2 m² de placa por m² de tabique, es decir, unas 0,7 placas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Placa de cartón-yeso BA 2500x1200x13 mm (Placo)",
+          "precio": 9.45,
+          "porUnidad": "3,15 €/m²",
+          "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ba-2500x1200x13-mm-15433145.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Placa de yeso laminado BA 2500x1200x13 mm",
+          "precio": 7.7,
+          "porUnidad": "2,57 €/m²",
+          "nota": "Precio marcado como mejor precio por cantidad",
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Montante Ingeperfil 48 mm 3 m",
-     "precio": 2.34,
-     "porUnidad": "0,78 €/m",
-     "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html"
-    }
-   ]
-  },
-  {
-   "slug": "canal-48-mm-3-m",
-   "nombre": "Canal 48 mm",
-   "categoria": "Tabiquería seca",
-   "formato": "Perfil de 3 m",
-   "unidad": "ud",
-   "consejo": "Va en suelo y techo: unos 2 m de canal por cada metro lineal de tabique.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Canal para tabique 3000x48 mm",
-     "precio": 2.4,
-     "enlace": "https://www.leroymerlin.es/productos/canal-para-tabique-3000x48-mm-15436414.html"
+      "slug": "placa-yeso-laminado-ignifuga-ppf-13",
+      "nombre": "Placa de yeso laminado ignífuga PPF 13",
+      "categoria": "Tabiquería seca",
+      "formato": "Placa 2500×1200×13 mm (3 m²)",
+      "unidad": "placa",
+      "consejo": "Se usa en cuartos de instalaciones, garajes y donde el proyecto pida resistencia al fuego.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Placa de yeso laminado Placo PPF 2500x1200x13 mm",
+          "precio": 14.25,
+          "porUnidad": "4,75 €/m²",
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Canal Ingeperfil 48 mm 3 m",
-     "precio": 2.0,
-     "porUnidad": "0,67 €/m",
-     "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html"
-    }
-   ]
-  },
-  {
-   "slug": "pasta-juntas-20-kg",
-   "nombre": "Pasta de juntas preparada",
-   "categoria": "Tabiquería seca",
-   "formato": "Cubo de 20 kg",
-   "unidad": "cubo",
-   "consejo": "Se calculan unos 0,4 a 0,5 kg por m² de placa, así que un cubo da para unos 40 m².",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Pasta para juntas preparada 20 kg (Placo)",
-     "precio": 21.83,
-     "porUnidad": "1,09 €/kg",
-     "enlace": "https://www.leroymerlin.es/productos/pasta-para-juntas-preparada-20-kg-15436330.html"
+      "slug": "montante-48-mm-3-m",
+      "nombre": "Montante 48 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m",
+      "unidad": "ud",
+      "consejo": "Los montantes se colocan cada 40 o 60 cm. Un tabique de 1 m de largo y 2,6 m de alto lleva unos 2 o 3 montantes.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Montante para pladur de acero de 3 m y 48 mm",
+          "precio": 2.29,
+          "enlace": "https://www.leroymerlin.es/productos/montante-para-pladur-de-acero-de-3-m-y-48-mm-80134520.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Montante Ingeperfil 48 mm 3 m",
+          "precio": 2.34,
+          "porUnidad": "0,78 €/m",
+          "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Pasta de juntas preparada Placomix Pro 20 kg",
-     "precio": 18.89,
-     "porUnidad": "0,94 €/kg",
-     "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html"
-    }
-   ]
-  },
-  {
-   "slug": "lana-roca-40-mm",
-   "nombre": "Lana de roca 40 mm",
-   "categoria": "Tabiquería seca",
-   "formato": "Panel, precio por m²",
-   "unidad": "m²",
-   "consejo": "Para tabiques de 48 mm se usa panel de 40 mm. Compara siempre por m², porque cada marca vende packs de distinto tamaño.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Aislante lana mineral Rockwool 40 mm (pack 14,58 m² a 21,99 €)",
-     "precio": 1.51,
-     "porUnidad": "por m²",
-     "enlace": "https://www.leroymerlin.es/productos/aislante-lana-mineral-rockwool-14-58-m2-de-40-mm-16874746.html"
+      "slug": "canal-48-mm-3-m",
+      "nombre": "Canal 48 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m",
+      "unidad": "ud",
+      "consejo": "Va en suelo y techo: unos 2 m de canal por cada metro lineal de tabique.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Canal para tabique 3000x48 mm",
+          "precio": 2.4,
+          "enlace": "https://www.leroymerlin.es/productos/canal-para-tabique-3000x48-mm-15436414.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Canal Ingeperfil 48 mm 3 m",
+          "precio": 2,
+          "porUnidad": "0,67 €/m",
+          "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Panel lana de roca Sonorock Eco 135x40x4 cm (pack 8,10 m² a 28,11 €)",
-     "precio": 3.47,
-     "porUnidad": "por m²",
-     "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-eco-135x40x4cm-25046667.html"
-    }
-   ]
-  },
-  {
-   "slug": "cemento-cola-c2te-25-kg",
-   "nombre": "Cemento cola C2TE gris",
-   "categoria": "Cerámica y colocación",
-   "formato": "Saco de 25 kg",
-   "unidad": "saco",
-   "consejo": "Con llana de 6 a 10 mm se gastan de 4 a 6 kg por m²: un saco da para unos 4 a 6 m². Para porcelánico de formato grande, mejor C2TE S1 y doble encolado.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Mortero cola Axton flexible 25 kg gris",
-     "precio": 14.06,
-     "porUnidad": "0,56 €/kg",
-     "enlace": "https://www.leroymerlin.es/productos/mortero-cola-axton-flexible-25-kg-gris-85539167.html"
+      "slug": "pasta-juntas-20-kg",
+      "nombre": "Pasta de juntas preparada",
+      "categoria": "Tabiquería seca",
+      "formato": "Cubo de 20 kg",
+      "unidad": "cubo",
+      "consejo": "Se calculan unos 0,4 a 0,5 kg por m² de placa, así que un cubo da para unos 40 m².",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pasta para juntas preparada 20 kg (Placo)",
+          "precio": 21.83,
+          "porUnidad": "1,09 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/pasta-para-juntas-preparada-20-kg-15436330.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Pasta de juntas preparada Placomix Pro 20 kg",
+          "precio": 18.89,
+          "porUnidad": "0,94 €/kg",
+          "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Cemento cola Flex Duo Weber C2TE 25 kg gris",
-     "precio": 7.55,
-     "porUnidad": "0,30 €/kg",
-     "nota": "Precio marcado como mejor precio por cantidad",
-     "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html"
-    }
-   ]
-  },
-  {
-   "slug": "porcelanico-60x60-gris",
-   "nombre": "Porcelánico gris 60×60 (gama de entrada)",
-   "categoria": "Cerámica y colocación",
-   "formato": "Precio por m²",
-   "unidad": "m²",
-   "consejo": "Compra entre un 5 % y un 10 % más de lo que mide el suelo para cortes y reposiciones, y todo del mismo lote.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Suelo porcelánico Martins efecto cemento gris 60x60 C1 Artens (caja 1,44 m²)",
-     "precio": 16.99,
-     "porUnidad": "por m²",
-     "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-martins-efecto-cemento-gris-60x60-cm-c1-artens-19483513.html"
+      "slug": "lana-roca-40-mm",
+      "nombre": "Lana de roca 40 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Panel, precio por m²",
+      "unidad": "m²",
+      "consejo": "Para tabiques de 48 mm se usa panel de 40 mm. Compara siempre por m², porque cada marca vende packs de distinto tamaño.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Aislante lana mineral Rockwool 40 mm (pack 14,58 m² a 21,99 €)",
+          "precio": 1.51,
+          "porUnidad": "por m²",
+          "enlace": "https://www.leroymerlin.es/productos/aislante-lana-mineral-rockwool-14-58-m2-de-40-mm-16874746.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Panel lana de roca Sonorock Eco 135x40x4 cm (pack 8,10 m² a 28,11 €)",
+          "precio": 3.47,
+          "porUnidad": "por m²",
+          "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-eco-135x40x4cm-25046667.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Suelo porcelánico 60x60 Altea gris (caja 1,08 m²)",
-     "precio": 12.95,
-     "porUnidad": "por m²",
-     "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html"
-    }
-   ]
-  },
-  {
-   "slug": "impermeabilizacion-ducha",
-   "nombre": "Impermeabilización de ducha",
-   "categoria": "Cerámica y colocación",
-   "formato": "Kit, lámina o membrana líquida",
-   "unidad": "ud",
-   "comparable": false,
-   "consejo": "Los formatos no son iguales: compara por m² cubiertos. En duchas de obra, impermeabiliza suelo y al menos los primeros 20 cm de pared.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Kit de impermeabilización para ducha Facil Basic L (sumidero y lámina 1,5×1,2 m)",
-     "precio": 59.5,
-     "nota": "Oferta; precio anterior 89,90 €",
-     "enlace": "https://www.leroymerlin.es/productos/kit-de-impermeabilizacion-para-ducha-facil-basic-l-17774876.html"
+      "slug": "cemento-cola-c2te-25-kg",
+      "nombre": "Cemento cola C2TE gris",
+      "categoria": "Cerámica y colocación",
+      "formato": "Saco de 25 kg",
+      "unidad": "saco",
+      "consejo": "Con llana de 6 a 10 mm se gastan de 4 a 6 kg por m²: un saco da para unos 4 a 6 m². Para porcelánico de formato grande, mejor C2TE S1 y doble encolado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mortero cola Axton flexible 25 kg gris",
+          "precio": 14.06,
+          "porUnidad": "0,56 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-cola-axton-flexible-25-kg-gris-85539167.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Cemento cola Flex Duo Weber C2TE 25 kg gris",
+          "precio": 7.55,
+          "porUnidad": "0,30 €/kg",
+          "nota": "Precio marcado como mejor precio por cantidad",
+          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Lámina impermeable Revestech Dry50 5×1,2 m (6 m²)",
-     "precio": 47.3,
-     "porUnidad": "7,88 €/m²",
-     "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html"
-    }
-   ]
-  },
-  {
-   "slug": "cable-h07v-k-2-5-mm-100-m",
-   "nombre": "Cable H07V-K 2,5 mm²",
-   "categoria": "Electricidad",
-   "formato": "Rollo de 100 m",
-   "unidad": "rollo",
-   "consejo": "Es la sección de los circuitos de enchufes de uso general (C2). Calcula unos 3 hilos por circuito: fase, neutro y tierra.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Cable Lexman H07V-K 100 m 2,5 mm² marrón",
-     "precio": 45.99,
-     "porUnidad": "0,46 €/m",
-     "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-2-5-mm2-color-marron-19303291.html"
-    }
-   ]
-  },
-  {
-   "slug": "cable-h07v-k-1-5-mm-100-m",
-   "nombre": "Cable H07V-K 1,5 mm²",
-   "categoria": "Electricidad",
-   "formato": "Rollo de 100 m",
-   "unidad": "rollo",
-   "consejo": "Es la sección de los circuitos de alumbrado (C1).",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Cable Lexman H07V-K 100 m 1,5 mm² azul",
-     "precio": 28.82,
-     "porUnidad": "0,29 €/m",
-     "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-1-5-mm2-color-azul-19303270.html"
-    }
-   ]
-  },
-  {
-   "slug": "tubo-corrugado-20-mm-100-m",
-   "nombre": "Tubo corrugado 20 mm",
-   "categoria": "Electricidad",
-   "formato": "Rollo de 100 m",
-   "unidad": "rollo",
-   "consejo": "El de 20 mm admite los circuitos de alumbrado y enchufes. Para el de cocina y horno se suele usar 25 mm.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Tubo corrugado de PVC Lexman 20 mm 100 m",
-     "precio": 15.99,
-     "porUnidad": "0,16 €/m",
-     "enlace": "https://www.leroymerlin.es/productos/tubo-corrugado-de-pvc-lexman-20-mm-100-m-81908936.html"
+      "slug": "porcelanico-60x60-gris",
+      "nombre": "Porcelánico gris 60×60 (gama de entrada)",
+      "categoria": "Cerámica y colocación",
+      "formato": "Precio por m²",
+      "unidad": "m²",
+      "consejo": "Compra entre un 5 % y un 10 % más de lo que mide el suelo para cortes y reposiciones, y todo del mismo lote.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo porcelánico Martins efecto cemento gris 60x60 C1 Artens (caja 1,44 m²)",
+          "precio": 16.99,
+          "porUnidad": "por m²",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-martins-efecto-cemento-gris-60x60-cm-c1-artens-19483513.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Suelo porcelánico 60x60 Altea gris (caja 1,08 m²)",
+          "precio": 12.95,
+          "porUnidad": "por m²",
+          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Tubo corrugado reforzado negro 20 mm 100 m",
-     "precio": 17.5,
-     "porUnidad": "0,18 €/m",
-     "nota": "Reforzado, no es exactamente el mismo producto",
-     "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html"
-    }
-   ]
-  },
-  {
-   "slug": "tubo-multicapa-16-mm-100-m",
-   "nombre": "Tubo multicapa 16 mm",
-   "categoria": "Fontanería y saneamiento",
-   "formato": "Rollo de 100 m",
-   "unidad": "rollo",
-   "consejo": "Medida habitual para las tomas de agua de baño y cocina en vivienda.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Rollo de tubo de multicapa 100 m Ø16 mm",
-     "precio": 82.99,
-     "porUnidad": "0,83 €/m",
-     "enlace": "https://www.leroymerlin.es/productos/rollo-de-tubo-de-multicapa-100-metros-16-mm-82069868.html"
+      "slug": "impermeabilizacion-ducha",
+      "nombre": "Impermeabilización de ducha",
+      "categoria": "Cerámica y colocación",
+      "formato": "Kit, lámina o membrana líquida",
+      "unidad": "ud",
+      "comparable": false,
+      "consejo": "Los formatos no son iguales: compara por m² cubiertos. En duchas de obra, impermeabiliza suelo y al menos los primeros 20 cm de pared.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Kit de impermeabilización para ducha Facil Basic L (sumidero y lámina 1,5×1,2 m)",
+          "precio": 59.5,
+          "nota": "Oferta; precio anterior 89,90 €",
+          "enlace": "https://www.leroymerlin.es/productos/kit-de-impermeabilizacion-para-ducha-facil-basic-l-17774876.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Lámina impermeable Revestech Dry50 5×1,2 m (6 m²)",
+          "precio": 47.3,
+          "porUnidad": "7,88 €/m²",
+          "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Tubo multicapa 16 mm rollo 100 m",
-     "precio": 59.0,
-     "porUnidad": "0,59 €/m",
-     "enlace": "https://www.obramat.es/productos/tubo-multicapa-16mm-rollo-100m-10285261.html"
-    }
-   ]
-  },
-  {
-   "slug": "tubo-pvc-110-mm-3-m",
-   "nombre": "Tubo PVC evacuación Ø110",
-   "categoria": "Fontanería y saneamiento",
-   "formato": "Barra de 3 m",
-   "unidad": "barra",
-   "consejo": "Es el diámetro del inodoro y de la conexión a la bajante.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Tubo de evacuación de agua en PVC 3 m x Ø110 mm",
-     "precio": 7.78,
-     "enlace": "https://www.leroymerlin.es/productos/tubo-de-evacuacion-de-agua-en-pvc-de-3m-x-110mm-87003281.html"
+      "slug": "cable-h07v-k-2-5-mm-100-m",
+      "nombre": "Cable H07V-K 2,5 mm²",
+      "categoria": "Electricidad",
+      "formato": "Rollo de 100 m",
+      "unidad": "rollo",
+      "consejo": "Es la sección de los circuitos de enchufes de uso general (C2). Calcula unos 3 hilos por circuito: fase, neutro y tierra.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cable Lexman H07V-K 100 m 2,5 mm² marrón",
+          "precio": 45.99,
+          "porUnidad": "0,46 €/m",
+          "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-2-5-mm2-color-marron-19303291.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Tubo 110 mm 3 m PVC",
-     "precio": 6.21,
-     "enlace": "https://www.obramat.es/productos/tubo-110mm-3m-pvc-10106803.html"
-    }
-   ]
-  },
-  {
-   "slug": "pintura-plastica-blanca-mate-15-l",
-   "nombre": "Pintura plástica blanca mate",
-   "categoria": "Pintura",
-   "formato": "Cubo de 15 L, gama profesional",
-   "unidad": "cubo",
-   "consejo": "Rinde unos 8 a 10 m² por litro y mano: un cubo de 15 L da para unos 60 m² a dos manos.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Pintura interior Titanlux mate 15 L Blanco y Listo",
-     "precio": 54.99,
-     "porUnidad": "3,67 €/L",
-     "enlace": "https://www.leroymerlin.es/productos/pintura-interior-titanlux-mate-15l-blanco-y-listo-84130494.html"
+      "slug": "cable-h07v-k-1-5-mm-100-m",
+      "nombre": "Cable H07V-K 1,5 mm²",
+      "categoria": "Electricidad",
+      "formato": "Rollo de 100 m",
+      "unidad": "rollo",
+      "consejo": "Es la sección de los circuitos de alumbrado (C1).",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cable Lexman H07V-K 100 m 1,5 mm² azul",
+          "precio": 28.82,
+          "porUnidad": "0,29 €/m",
+          "enlace": "https://www.leroymerlin.es/productos/cable-lexman-h07v-k-100-metros-1-5-mm2-color-azul-19303270.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "Pintura plástica blanca mate 15 L B-30",
-     "precio": 53.0,
-     "porUnidad": "3,53 €/L",
-     "enlace": "https://www.obramat.es/productos/pintura-plastica-blanca-mate-15l-b-30-10565751.html"
-    }
-   ]
-  },
-  {
-   "slug": "inodoro-completo",
-   "nombre": "Inodoro completo",
-   "categoria": "Baño y cocina",
-   "formato": "Taza, cisterna y asiento, salida dual",
-   "unidad": "ud",
-   "consejo": "Mide la distancia del desagüe a la pared antes de elegir: la salida dual sirve para tubo al suelo o a pared. Comprueba que el pack incluye fijaciones y que la cisterna es de doble descarga (3/6 L).",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Pack WC Universal AKRON II S/DUAL con tapa amortiguada blanco",
-     "precio": 99,
-     "nota": "Cisterna 3/4,5 L con mecanismo sin montar; no incluye fijaciones taza-suelo.",
-     "enlace": "https://www.leroymerlin.es/productos/pack-wc-universal-akron-ii-s-dual-con-tapa-amortiguada-blanco-94862203.html"
+      "slug": "tubo-corrugado-20-mm-100-m",
+      "nombre": "Tubo corrugado 20 mm",
+      "categoria": "Electricidad",
+      "formato": "Rollo de 100 m",
+      "unidad": "rollo",
+      "consejo": "El de 20 mm admite los circuitos de alumbrado y enchufes. Para el de cocina y horno se suele usar 25 mm.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Tubo corrugado de PVC Lexman 20 mm 100 m",
+          "precio": 15.99,
+          "porUnidad": "0,16 €/m",
+          "enlace": "https://www.leroymerlin.es/productos/tubo-corrugado-de-pvc-lexman-20-mm-100-m-81908936.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Tubo corrugado reforzado negro 20 mm 100 m",
+          "precio": 17.5,
+          "porUnidad": "0,18 €/m",
+          "nota": "Reforzado, no es exactamente el mismo producto",
+          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "PACK WC COMPAQ SALIDA DUAL",
-     "precio": 99,
-     "nota": "Cisterna 3/6 L con mecanismo sin montar; tapa amortiguada.",
-     "enlace": "https://www.obramat.es/productos/pack-wc-compaq-salida-dual-10872463.html"
-    }
-   ]
-  },
-  {
-   "slug": "mueble-bano-80",
-   "nombre": "Mueble de baño 80 cm con lavabo",
-   "categoria": "Baño y cocina",
-   "formato": "Mueble 80 cm con lavabo",
-   "unidad": "ud",
-   "consejo": "Confirma si el precio incluye lavabo, espejo y válvula, porque muchos muebles se venden sin ellos. En muebles suspendidos verifica que la pared admite el anclaje y deja las tomas de agua a la altura del sifón.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Mueble de baño con lavabo Espacio Olmo 80x45 cm con 2 cajones",
-     "precio": 178,
-     "nota": "Suspendido, con lavabo cerámico; sin espejo.",
-     "enlace": "https://www.leroymerlin.es/productos/mueble-de-bano-con-lavabo-espacio-olmo-80x45-cm-con-2-cajones-93569347.html"
+      "slug": "tubo-multicapa-16-mm-100-m",
+      "nombre": "Tubo multicapa 16 mm",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Rollo de 100 m",
+      "unidad": "rollo",
+      "consejo": "Medida habitual para las tomas de agua de baño y cocina en vivienda.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Rollo de tubo de multicapa 100 m Ø16 mm",
+          "precio": 82.99,
+          "porUnidad": "0,83 €/m",
+          "enlace": "https://www.leroymerlin.es/productos/rollo-de-tubo-de-multicapa-100-metros-16-mm-82069868.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Tubo multicapa 16 mm rollo 100 m",
+          "precio": 59,
+          "porUnidad": "0,59 €/m",
+          "enlace": "https://www.obramat.es/productos/tubo-multicapa-16mm-rollo-100m-10285261.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "CONJUNTO MUEBLE DE BAÑO ANA ROBLE 80CM",
-     "precio": 149,
-     "nota": "Conjunto con lavabo sobre encimera y espejo incluidos; sin grifo.",
-     "enlace": "https://www.obramat.es/productos/conjunto-mueble-de-bano-ana-roble-80cm-25041625.html"
-    }
-   ]
-  },
-  {
-   "slug": "plato-ducha-resina-80x120",
-   "nombre": "Plato de ducha de resina 80x120",
-   "categoria": "Baño y cocina",
-   "formato": "Resina/carga mineral, blanco, 80x120 cm",
-   "unidad": "ud",
-   "consejo": "Revisa si incluye válvula y rejilla, que suelen venderse aparte. Instálalo sobre una base nivelada con pendiente hacia el desagüe y sella el perímetro con silicona sanitaria.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Plato de ducha Remix 120x80 cm blanco",
-     "precio": 129,
-     "nota": "Compuesto mineral de resina con gel coat, efecto piedra; la ficha no indica válvula incluida.",
-     "enlace": "https://www.leroymerlin.es/productos/plato-de-ducha-remix-120x80-cm-blanco-88286915.html"
+      "slug": "tubo-pvc-110-mm-3-m",
+      "nombre": "Tubo PVC evacuación Ø110",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Barra de 3 m",
+      "unidad": "barra",
+      "consejo": "Es el diámetro del inodoro y de la conexión a la bajante.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Tubo de evacuación de agua en PVC 3 m x Ø110 mm",
+          "precio": 7.78,
+          "enlace": "https://www.leroymerlin.es/productos/tubo-de-evacuacion-de-agua-en-pvc-de-3m-x-110mm-87003281.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Tubo 110 mm 3 m PVC",
+          "precio": 6.21,
+          "enlace": "https://www.obramat.es/productos/tubo-110mm-3m-pvc-10106803.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "PLATO DE DUCHA RESINA RECTANGULAR BLANCO 80X120X3CM",
-     "precio": 109,
-     "nota": "Válvula vendida por separado.",
-     "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-80x120x3cm-10720871.html"
-    }
-   ]
-  },
-  {
-   "slug": "mampara-frontal-120",
-   "nombre": "Mampara de ducha frontal corredera 120 cm",
-   "categoria": "Baño y cocina",
-   "formato": "Frontal, 1 fijo + 1 corredera, 120 cm",
-   "unidad": "ud",
-   "consejo": "Mide el hueco en tres alturas y elige un modelo con perfil de ajuste que cubra la diferencia. El vidrio templado de 6 mm o más y el tratamiento antical facilitan el mantenimiento.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Mampara de ducha corredera 1 hoja fija + 1 puerta corredera. Perfil aluminio cromo. Ancho adaptable (118.5-121)x195 cm 5mm",
-     "precio": 194,
-     "nota": "Precio de oferta VentaFlash (antes 239 €). Altura 195 cm; la ficha indica 5 mm en el título y 6 mm en la descripción.",
-     "enlace": "https://www.leroymerlin.es/productos/mampara-de-ducha-corredera-1-hoja-fija-1-puerta-corredera-perfil-aluminio-cromo-ancho-adaptable-118-5-121-x195-cm-5mm-89447280.html"
+      "slug": "pintura-plastica-blanca-mate-15-l",
+      "nombre": "Pintura plástica blanca mate",
+      "categoria": "Pintura",
+      "formato": "Cubo de 15 L, gama profesional",
+      "unidad": "cubo",
+      "consejo": "Rinde unos 8 a 10 m² por litro y mano: un cubo de 15 L da para unos 60 m² a dos manos.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pintura interior Titanlux mate 15 L Blanco y Listo",
+          "precio": 54.99,
+          "porUnidad": "3,67 €/L",
+          "enlace": "https://www.leroymerlin.es/productos/pintura-interior-titanlux-mate-15l-blanco-y-listo-84130494.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Pintura plástica blanca mate 15 L B-30",
+          "precio": 53,
+          "porUnidad": "3,53 €/L",
+          "enlace": "https://www.obramat.es/productos/pintura-plastica-blanca-mate-15l-b-30-10565751.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "MAMPARA DE DUCHA FRONTAL CORREDERA LEXIE 120CM NEGRO",
-     "precio": 206,
-     "nota": "Perfil negro, vidrio transparente 5 mm, altura 195 cm; ancho fijo de 120 cm.",
-     "enlace": "https://www.obramat.es/productos/mampara-de-ducha-frontal-corredera-lexie-120cm-negro-10774141.html"
-    }
-   ]
-  },
-  {
-   "slug": "grifo-lavabo-monomando",
-   "nombre": "Grifo de lavabo monomando",
-   "categoria": "Baño y cocina",
-   "formato": "Monomando, cromado, gama básica",
-   "unidad": "ud",
-   "consejo": "Comprueba la altura del caño según el tipo de lavabo (sobre encimera necesita caño alto). Un cartucho cerámico y un limitador de caudal mejoran la durabilidad y el consumo.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Grifo de lavabo Nerea monomando bajo cromo brillo. Latón.",
-     "precio": 11.79,
-     "nota": "Caño bajo; la ficha no indica desagüe incluido.",
-     "enlace": "https://www.leroymerlin.es/productos/grifo-de-lavabo-nerea-monomando-bajo-cromo-brillo-laton-64292396.html"
+      "slug": "inodoro-completo",
+      "nombre": "Inodoro completo",
+      "categoria": "Baño y cocina",
+      "formato": "Taza, cisterna y asiento, salida dual",
+      "unidad": "ud",
+      "consejo": "Mide la distancia del desagüe a la pared antes de elegir: la salida dual sirve para tubo al suelo o a pared. Comprueba que el pack incluye fijaciones y que la cisterna es de doble descarga (3/6 L).",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack WC Universal AKRON II S/DUAL con tapa amortiguada blanco",
+          "precio": 99,
+          "nota": "Cisterna 3/4,5 L con mecanismo sin montar; no incluye fijaciones taza-suelo.",
+          "enlace": "https://www.leroymerlin.es/productos/pack-wc-universal-akron-ii-s-dual-con-tapa-amortiguada-blanco-94862203.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PACK WC COMPAQ SALIDA DUAL",
+          "precio": 99,
+          "nota": "Cisterna 3/6 L con mecanismo sin montar; tapa amortiguada.",
+          "enlace": "https://www.obramat.es/productos/pack-wc-compaq-salida-dual-10872463.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "GRIFO DE LAVABO MONOMANDO NEREA",
-     "precio": 10.35,
-     "nota": "Latón cromado; incluye latiguillos, sin mención de desagüe.",
-     "enlace": "https://www.obramat.es/productos/grifo-de-lavabo-monomando-nerea-25016679.html"
-    }
-   ]
-  },
-  {
-   "slug": "columna-ducha-termostatica",
-   "nombre": "Columna de ducha termostática",
-   "categoria": "Baño y cocina",
-   "formato": "Columna vista con grifo termostático, rociador y ducha de mano",
-   "unidad": "ud",
-   "consejo": "Verifica la distancia entre tomas (normalmente 15 cm) y que la barra sea regulable para la altura del techo. El termostático necesita presión equilibrada de agua fría y caliente para funcionar bien.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Columna de ducha con grifo termostático Nerea Brillo Rociador 23 cm redondo",
-     "precio": 109,
-     "nota": "Rociador 23 cm; flexo 150 cm.",
-     "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-nerea-brillo-rociador-23-cm-redondo-17364851.html"
+      "slug": "mueble-bano-80",
+      "nombre": "Mueble de baño 80 cm con lavabo",
+      "categoria": "Baño y cocina",
+      "formato": "Mueble 80 cm con lavabo",
+      "unidad": "ud",
+      "consejo": "Confirma si el precio incluye lavabo, espejo y válvula, porque muchos muebles se venden sin ellos. En muebles suspendidos verifica que la pared admite el anclaje y deja las tomas de agua a la altura del sifón.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mueble de baño con lavabo Espacio Olmo 80x45 cm con 2 cajones",
+          "precio": 178,
+          "nota": "Suspendido, con lavabo cerámico; sin espejo.",
+          "enlace": "https://www.leroymerlin.es/productos/mueble-de-bano-con-lavabo-espacio-olmo-80x45-cm-con-2-cajones-93569347.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CONJUNTO MUEBLE DE BAÑO ANA ROBLE 80CM",
+          "precio": 149,
+          "nota": "Conjunto con lavabo sobre encimera y espejo incluidos; sin grifo.",
+          "enlace": "https://www.obramat.es/productos/conjunto-mueble-de-bano-ana-roble-80cm-25041625.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "COLUMNA DE DUCHA TERMOSTATICO NEW BOREAL",
-     "precio": 97,
-     "nota": "Rociador 25 cm; flexo inox 1,5 m.",
-     "enlace": "https://www.obramat.es/productos/columna-de-ducha-termostatico-new-boreal-10952046.html"
-    }
-   ]
-  },
-  {
-   "slug": "grifo-cocina-monomando",
-   "nombre": "Grifo de cocina monomando",
-   "categoria": "Baño y cocina",
-   "formato": "Monomando sobre encimera, caño alto, cromado",
-   "unidad": "ud",
-   "consejo": "Un caño alto y giratorio facilita llenar ollas, pero comprueba que no choca con la ventana o los muebles altos. Si el fregadero no viene perforado, prevé el taladro de 35 mm.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Grifo de cocina monomando caño alto DELINIA Loa cromo brillo",
-     "precio": 42.99,
-     "nota": "Caño alto fijo. Hay un modelo más básico de caño bajo (Nerea, 13,95 €).",
-     "enlace": "https://www.leroymerlin.es/productos/grifo-de-cocina-monomando-cano-alto-delinia-loa-cromo-brillo-84752061.html"
+      "slug": "plato-ducha-resina-80x120",
+      "nombre": "Plato de ducha de resina 80x120",
+      "categoria": "Baño y cocina",
+      "formato": "Resina/carga mineral, blanco, 80x120 cm",
+      "unidad": "ud",
+      "consejo": "Revisa si incluye válvula y rejilla, que suelen venderse aparte. Instálalo sobre una base nivelada con pendiente hacia el desagüe y sella el perímetro con silicona sanitaria.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Plato de ducha Remix 120x80 cm blanco",
+          "precio": 129,
+          "nota": "Compuesto mineral de resina con gel coat, efecto piedra; la ficha no indica válvula incluida.",
+          "enlace": "https://www.leroymerlin.es/productos/plato-de-ducha-remix-120x80-cm-blanco-88286915.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLATO DE DUCHA RESINA RECTANGULAR BLANCO 80X120X3CM",
+          "precio": 109,
+          "nota": "Válvula vendida por separado.",
+          "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-80x120x3cm-10720871.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "MONOMANDO FREG ENCIMERA C/ALTO BRANDON",
-     "precio": 35.3,
-     "nota": "Cromado, caño alto fijo.",
-     "enlace": "https://www.obramat.es/productos/monomando-freg-encimera-c-alto-brandon-10834411.html"
-    }
-   ]
-  },
-  {
-   "slug": "fregadero-inox-1-seno",
-   "nombre": "Fregadero de acero inoxidable 1 seno",
-   "categoria": "Baño y cocina",
-   "formato": "Inox, 1 seno, sobre encimera, ~45 cm",
-   "unidad": "ud",
-   "consejo": "Elige la medida según el ancho del mueble bajo (a partir de 45-50 cm) y comprueba el hueco de encastre. Mira si incluye válvula y sifón, porque si no hay que comprarlos aparte.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Fregadero cocina Delinia Isea sobre encimera 1 seno con sifón 45x45 cm acero inox mueble a partir de 45 cm",
-     "precio": 38.99,
-     "nota": "Incluye válvula, desagüe, sifón y junta.",
-     "enlace": "https://www.leroymerlin.es/productos/fregadero-cocina-delinia-isea-sobre-encimera-1-seno-con-sifon-45x45-cm-acero-inox-mueble-a-partir-de-45-cm-82314077.html"
+      "slug": "mampara-frontal-120",
+      "nombre": "Mampara de ducha frontal corredera 120 cm",
+      "categoria": "Baño y cocina",
+      "formato": "Frontal, 1 fijo + 1 corredera, 120 cm",
+      "unidad": "ud",
+      "consejo": "Mide el hueco en tres alturas y elige un modelo con perfil de ajuste que cubra la diferencia. El vidrio templado de 6 mm o más y el tratamiento antical facilitan el mantenimiento.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mampara de ducha corredera 1 hoja fija + 1 puerta corredera. Perfil aluminio cromo. Ancho adaptable (118.5-121)x195 cm 5mm",
+          "precio": 194,
+          "nota": "Precio de oferta VentaFlash (antes 239 €). Altura 195 cm; la ficha indica 5 mm en el título y 6 mm en la descripción.",
+          "enlace": "https://www.leroymerlin.es/productos/mampara-de-ducha-corredera-1-hoja-fija-1-puerta-corredera-perfil-aluminio-cromo-ancho-adaptable-118-5-121-x195-cm-5mm-89447280.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "MAMPARA DE DUCHA FRONTAL CORREDERA LEXIE 120CM NEGRO",
+          "precio": 206,
+          "nota": "Perfil negro, vidrio transparente 5 mm, altura 195 cm; ancho fijo de 120 cm.",
+          "enlace": "https://www.obramat.es/productos/mampara-de-ducha-frontal-corredera-lexie-120cm-negro-10774141.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "FREGADERO DE COCINA 1 SENO CUADRADO 46x40x20CM",
-     "precio": 29.95,
-     "nota": "Para mueble de 50 cm; incluye kit de desagüe, la ficha no detalla sifón.",
-     "enlace": "https://www.obramat.es/productos/fregadero-de-cocina-1-seno-cuadrado-46x40x20cm-10969406.html"
-    }
-   ]
-  },
-  {
-   "slug": "cisterna-empotrada-bastidor",
-   "nombre": "Cisterna empotrada con bastidor",
-   "categoria": "Baño y cocina",
-   "formato": "Bastidor con cisterna para inodoro suspendido, sin taza",
-   "unidad": "ud",
-   "consejo": "Comprueba la profundidad del bastidor y si la pared o el tabique de pladur soportan la carga. Confirma si el pulsador va incluido y que es compatible con el modelo de cisterna.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Bastidor IDEAL STANDARD Prosys 120 para anclaje WC suspendido con cisterna y pulsador negro mate",
-     "precio": 215,
-     "nota": "Incluye pulsador (negro mate); profundidad 12 cm.",
-     "enlace": "https://www.leroymerlin.es/productos/bastidor-ideal-standard-prosys-120-para-anclaje-wc-suspendido-con-cisterna-y-pulsador-negro-mate-87942832.html"
+      "slug": "grifo-lavabo-monomando",
+      "nombre": "Grifo de lavabo monomando",
+      "categoria": "Baño y cocina",
+      "formato": "Monomando, cromado, gama básica",
+      "unidad": "ud",
+      "consejo": "Comprueba la altura del caño según el tipo de lavabo (sobre encimera necesita caño alto). Un cartucho cerámico y un limitador de caudal mejoran la durabilidad y el consumo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Grifo de lavabo Nerea monomando bajo cromo brillo. Latón.",
+          "precio": 11.79,
+          "nota": "Caño bajo; la ficha no indica desagüe incluido.",
+          "enlace": "https://www.leroymerlin.es/productos/grifo-de-lavabo-nerea-monomando-bajo-cromo-brillo-laton-64292396.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "GRIFO DE LAVABO MONOMANDO NEREA",
+          "precio": 10.35,
+          "nota": "Latón cromado; incluye latiguillos, sin mención de desagüe.",
+          "enlace": "https://www.obramat.es/productos/grifo-de-lavabo-monomando-nerea-25016679.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "BASTIDOR CON CISTERNA DUPLO WC ONE 10.7CM",
-     "precio": 212,
-     "nota": "Roca; pulsador no incluido (sumar el coste de la placa).",
-     "enlace": "https://www.obramat.es/productos/bastidor-con-cisterna-duplo-wc-one-10-7cm-10887562.html"
-    }
-   ]
-  },
-  {
-   "slug": "azulejo-pared-blanco",
-   "nombre": "Azulejo de pared blanco",
-   "categoria": "Baño y cocina",
-   "formato": "Cerámico pasta blanca, blanco mate, 30x60 cm",
-   "unidad": "m²",
-   "consejo": "Calcula los m² de pared y añade un 10% para cortes y roturas. Compra todas las cajas del mismo lote de fabricación para evitar diferencias de tono.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Azulejo cerámico Blanco blanco mate 30x60 cm",
-     "precio": 9.99,
-     "porUnidad": "9,99 €/m² (caja de 1,62 m² a 16,18 €)",
-     "enlace": "https://www.leroymerlin.es/productos/azulejo-ceramico-blanco-blanco-mate-30x60-cm-70693729.html"
+      "slug": "columna-ducha-termostatica",
+      "nombre": "Columna de ducha termostática",
+      "categoria": "Baño y cocina",
+      "formato": "Columna vista con grifo termostático, rociador y ducha de mano",
+      "unidad": "ud",
+      "consejo": "Verifica la distancia entre tomas (normalmente 15 cm) y que la barra sea regulable para la altura del techo. El termostático necesita presión equilibrada de agua fría y caliente para funcionar bien.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Columna de ducha con grifo termostático Nerea Brillo Rociador 23 cm redondo",
+          "precio": 109,
+          "nota": "Rociador 23 cm; flexo 150 cm.",
+          "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-nerea-brillo-rociador-23-cm-redondo-17364851.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "COLUMNA DE DUCHA TERMOSTATICO NEW BOREAL",
+          "precio": 97,
+          "nota": "Rociador 25 cm; flexo inox 1,5 m.",
+          "enlace": "https://www.obramat.es/productos/columna-de-ducha-termostatico-new-boreal-10952046.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "AZULEJO PASTA BLANCA 30X60CM BLANCO MATE",
-     "precio": 9.95,
-     "porUnidad": "9,95 €/m² (caja de 1,62 m² a 16,12 €)",
-     "enlace": "https://www.obramat.es/productos/azulejo-pasta-blanca-30x60cm-blanco-mate-25073574.html"
-    }
-   ]
-  },
-  {
-   "slug": "termo-electrico-80l",
-   "nombre": "Termo eléctrico 80 L",
-   "categoria": "Baño y cocina",
-   "formato": "80 litros, vertical",
-   "unidad": "ud",
-   "consejo": "80 L suele bastar para 2-3 personas con una ducha. Verifica que la pared aguanta unos 130 kg con el termo lleno e instala la válvula de seguridad con desagüe.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Termo eléctrico ROINTE EVIA 80 L Vertical Clase energética B",
-     "precio": 139,
-     "nota": "Clase energética B; envío gratis.",
-     "enlace": "https://www.leroymerlin.es/productos/termo-electrico-rointe-evia-80-l-vertical-clase-energetica-b-72421034.html"
+      "slug": "grifo-cocina-monomando",
+      "nombre": "Grifo de cocina monomando",
+      "categoria": "Baño y cocina",
+      "formato": "Monomando sobre encimera, caño alto, cromado",
+      "unidad": "ud",
+      "consejo": "Un caño alto y giratorio facilita llenar ollas, pero comprueba que no choca con la ventana o los muebles altos. Si el fregadero no viene perforado, prevé el taladro de 35 mm.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Grifo de cocina monomando caño alto DELINIA Loa cromo brillo",
+          "precio": 42.99,
+          "nota": "Caño alto fijo. Hay un modelo más básico de caño bajo (Nerea, 13,95 €).",
+          "enlace": "https://www.leroymerlin.es/productos/grifo-de-cocina-monomando-cano-alto-delinia-loa-cromo-brillo-84752061.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "MONOMANDO FREG ENCIMERA C/ALTO BRANDON",
+          "precio": 35.3,
+          "nota": "Cromado, caño alto fijo.",
+          "enlace": "https://www.obramat.es/productos/monomando-freg-encimera-c-alto-brandon-10834411.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "TERMO ELÉCTRICO 80 LITROS TEKA SHC",
-     "precio": 165,
-     "nota": "Vertical, clase energética B.",
-     "enlace": "https://www.obramat.es/productos/termo-electrico-80-litros-teka-shc-10963274.html"
-    }
-   ]
-  },
-  {
-   "slug": "placa-induccion-60",
-   "nombre": "Placa de inducción 60 cm",
-   "categoria": "Baño y cocina",
-   "formato": "60 cm, 3 zonas, gama básica",
-   "unidad": "ud",
-   "consejo": "Comprueba que la instalación eléctrica tiene un circuito propio de cocina (normalmente 25 A y 6 mm²) y que el hueco de encastre de la encimera coincide con la ficha. Prevé si hará falta renovar menaje no apto para inducción.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Placa de inducción INDESIT ISF13Q60NE con 3 zonas de cocción zona grande de 29cm 7200 W negro 60cm",
-     "precio": 189,
-     "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-indesit-isf13q60ne-con-3-zonas-de-coccion-zona-grande-de-29cm-7200-w-negro-60cm-99129428.html"
+      "slug": "fregadero-inox-1-seno",
+      "nombre": "Fregadero de acero inoxidable 1 seno",
+      "categoria": "Baño y cocina",
+      "formato": "Inox, 1 seno, sobre encimera, ~45 cm",
+      "unidad": "ud",
+      "consejo": "Elige la medida según el ancho del mueble bajo (a partir de 45-50 cm) y comprueba el hueco de encastre. Mira si incluye válvula y sifón, porque si no hay que comprarlos aparte.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Fregadero cocina Delinia Isea sobre encimera 1 seno con sifón 45x45 cm acero inox mueble a partir de 45 cm",
+          "precio": 38.99,
+          "nota": "Incluye válvula, desagüe, sifón y junta.",
+          "enlace": "https://www.leroymerlin.es/productos/fregadero-cocina-delinia-isea-sobre-encimera-1-seno-con-sifon-45x45-cm-acero-inox-mueble-a-partir-de-45-cm-82314077.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "FREGADERO DE COCINA 1 SENO CUADRADO 46x40x20CM",
+          "precio": 29.95,
+          "nota": "Para mueble de 50 cm; incluye kit de desagüe, la ficha no detalla sifón.",
+          "enlace": "https://www.obramat.es/productos/fregadero-de-cocina-1-seno-cuadrado-46x40x20cm-10969406.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "PLACA DE INDUCCIÓN 3 ZONAS TEKA IBC 63900 TTC",
-     "precio": 216,
-     "nota": "3 zonas con 1 booster; hueco de encastre 56 cm.",
-     "enlace": "https://www.obramat.es/productos/placa-de-induccion-3-zonas-teka-ibc-63900-ttc-25029168.html"
-    }
-   ]
-  },
-  {
-   "slug": "silicona-sanitaria",
-   "nombre": "Silicona sanitaria blanca",
-   "categoria": "Baño y cocina",
-   "formato": "Cartucho 280 ml, blanca",
-   "unidad": "ud",
-   "consejo": "Un cartucho de 280 ml da para unos 10-15 m de junta de 5 mm. Usa silicona antimoho en zonas húmedas y la neutra sobre metales o piedra natural, donde la acética puede atacar.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Silicona sanitaria AXTON 280 ml blanco",
-     "precio": 1.96,
-     "nota": "Acética, antimoho.",
-     "enlace": "https://www.leroymerlin.es/productos/silicona-sanitaria-280ml-blanco-90201971.html"
+      "slug": "cisterna-empotrada-bastidor",
+      "nombre": "Cisterna empotrada con bastidor",
+      "categoria": "Baño y cocina",
+      "formato": "Bastidor con cisterna para inodoro suspendido, sin taza",
+      "unidad": "ud",
+      "consejo": "Comprueba la profundidad del bastidor y si la pared o el tabique de pladur soportan la carga. Confirma si el pulsador va incluido y que es compatible con el modelo de cisterna.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Bastidor IDEAL STANDARD Prosys 120 para anclaje WC suspendido con cisterna y pulsador negro mate",
+          "precio": 215,
+          "nota": "Incluye pulsador (negro mate); profundidad 12 cm.",
+          "enlace": "https://www.leroymerlin.es/productos/bastidor-ideal-standard-prosys-120-para-anclaje-wc-suspendido-con-cisterna-y-pulsador-negro-mate-87942832.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "BASTIDOR CON CISTERNA DUPLO WC ONE 10.7CM",
+          "precio": 212,
+          "nota": "Roca; pulsador no incluido (sumar el coste de la placa).",
+          "enlace": "https://www.obramat.es/productos/bastidor-con-cisterna-duplo-wc-one-10-7cm-10887562.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "SILICONA ACIDA PARA BAÑOS Y COCINAS 280ML BLANCA",
-     "precio": 3.95,
-     "nota": "Acética (Bostik) con fungicida.",
-     "enlace": "https://www.obramat.es/productos/silicona-acida-para-banos-y-cocinas-280ml-blanca-10968370.html"
-    }
-   ]
-  },
-  {
-   "slug": "suelo-laminado-ac4-8-mm",
-   "nombre": "Suelo laminado 8 mm",
-   "categoria": "Suelos",
-   "formato": "Precio por m²",
-   "unidad": "m²",
-   "consejo": "Compra entre un 5 y un 10 % más de superficie para cubrir los cortes, y en pasillos o cocinas valora un AC5. Deja las cajas 48 h en la estancia antes de colocar el suelo.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Suelo laminado forte 8mm Easy Line Roble Gris AC4 (caja 1,995 m², 33,79 €)",
-     "precio": 16.98,
-     "porUnidad": "33,79 €/caja",
-     "enlace": "https://www.leroymerlin.es/productos/suelo-laminado-forte-8mm-easy-line-roble-gris-ac4-84693996.html"
+      "slug": "azulejo-pared-blanco",
+      "nombre": "Azulejo de pared blanco",
+      "categoria": "Baño y cocina",
+      "formato": "Cerámico pasta blanca, blanco mate, 30x60 cm",
+      "unidad": "m²",
+      "consejo": "Calcula los m² de pared y añade un 10% para cortes y roturas. Compra todas las cajas del mismo lote de fabricación para evitar diferencias de tono.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Azulejo cerámico Blanco blanco mate 30x60 cm",
+          "precio": 9.99,
+          "porUnidad": "9,99 €/m² (caja de 1,62 m² a 16,18 €)",
+          "enlace": "https://www.leroymerlin.es/productos/azulejo-ceramico-blanco-blanco-mate-30x60-cm-70693729.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "AZULEJO PASTA BLANCA 30X60CM BLANCO MATE",
+          "precio": 9.95,
+          "porUnidad": "9,95 €/m² (caja de 1,62 m² a 16,12 €)",
+          "enlace": "https://www.obramat.es/productos/azulejo-pasta-blanca-30x60cm-blanco-mate-25073574.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "SUELO LAMINADO AC5 8MM MODELO ROBLE KHAKI (paquete 2,22 m², 20,65 €)",
-     "precio": 9.3,
-     "porUnidad": "20,65 €/paquete",
-     "nota": "Obramat no muestra ahora ningún laminado AC4 de 8 mm disponible (los modelos AC4 aparecen como no disponibles), así que se compara con su AC5 de 8 mm, que es de clase superior.",
-     "enlace": "https://www.obramat.es/productos/suelo-laminado-ac5-8mm-modelo-roble-khaki-10807741.html"
-    }
-   ]
-  },
-  {
-   "slug": "suelo-vinilico-spc-click-con-base",
-   "nombre": "Suelo vinílico SPC rígido click con base",
-   "categoria": "Suelos",
-   "formato": "Precio por m²",
-   "unidad": "m²",
-   "consejo": "Si el suelo lleva la base integrada, no pongas otra base debajo. Comprueba que el soporte sea plano (desnivel máximo de unos 2 mm por metro) y compra un 5-8 % extra.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Suelo vinílico clic SPC Lake gris 6,5 mm de espesor 1,767 m2/caja (base integrada)",
-     "precio": 22.95,
-     "porUnidad": "40,39 €/caja",
-     "enlace": "https://www.leroymerlin.es/productos/suelo-vinilico-clic-spc-lake-gris-6-5-mm-de-espesor-1-767-m2-caja-96546629.html"
+      "slug": "termo-electrico-80l",
+      "nombre": "Termo eléctrico 80 L",
+      "categoria": "Baño y cocina",
+      "formato": "80 litros, vertical",
+      "unidad": "ud",
+      "consejo": "80 L suele bastar para 2-3 personas con una ducha. Verifica que la pared aguanta unos 130 kg con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Termo eléctrico ROINTE EVIA 80 L Vertical Clase energética B",
+          "precio": 139,
+          "nota": "Clase energética B; envío gratis.",
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-rointe-evia-80-l-vertical-clase-energetica-b-72421034.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TERMO ELÉCTRICO 80 LITROS TEKA SHC",
+          "precio": 165,
+          "nota": "Vertical, clase energética B.",
+          "enlace": "https://www.obramat.es/productos/termo-electrico-80-litros-teka-shc-10963274.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "SUELO SPC CLIC GROSOR 4 + 1 MM MODELO PADUA (caja 2,24 m², 29 €)",
-     "precio": 12.95,
-     "porUnidad": "29 €/caja",
-     "nota": "El grosor 4+1 mm indica una capa de 1 mm, pero la ficha no confirma de forma explícita que sea una base integrada. Es más fino que el de Leroy (6,5 mm).",
-     "enlace": "https://www.obramat.es/productos/suelo-spc-clic-grosor-4-1-mm-modelo-padua-25105140.html"
-    }
-   ]
-  },
-  {
-   "slug": "base-aislante-laminado",
-   "nombre": "Base aislante para laminado (2-3 mm)",
-   "categoria": "Suelos",
-   "formato": "Precio por m²",
-   "unidad": "m²",
-   "consejo": "Sobre solera o planta baja, usa una base con barrera antihumedad o pon un film de polietileno. Solapa o une las juntas con cinta y no la combines con suelos que ya llevan base.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Base aislante para suelo laminado AXTON Silence 2mm 15m² (rollo 26,85 €)",
-     "precio": 1.79,
-     "porUnidad": "26,85 €/rollo 15 m²",
-     "enlace": "https://www.leroymerlin.es/productos/base-aislante-para-suelo-laminado-axton-silence-2mm-15m2-82282773.html"
+      "slug": "placa-induccion-60",
+      "nombre": "Placa de inducción 60 cm",
+      "categoria": "Baño y cocina",
+      "formato": "60 cm, 3 zonas, gama básica",
+      "unidad": "ud",
+      "consejo": "Comprueba que la instalación eléctrica tiene un circuito propio de cocina (normalmente 25 A y 6 mm²) y que el hueco de encastre de la encimera coincide con la ficha. Prevé si hará falta renovar menaje no apto para inducción.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Placa de inducción INDESIT ISF13Q60NE con 3 zonas de cocción zona grande de 29cm 7200 W negro 60cm",
+          "precio": 189,
+          "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-indesit-isf13q60ne-con-3-zonas-de-coccion-zona-grande-de-29cm-7200-w-negro-60cm-99129428.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLACA DE INDUCCIÓN 3 ZONAS TEKA IBC 63900 TTC",
+          "precio": 216,
+          "nota": "3 zonas con 1 booster; hueco de encastre 56 cm.",
+          "enlace": "https://www.obramat.es/productos/placa-de-induccion-3-zonas-teka-ibc-63900-ttc-25029168.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "BASE SUELO LAMINADO 2 mm (rollo 24 m², 16,32 €)",
-     "precio": 0.68,
-     "porUnidad": "16,32 €/rollo 24 m²",
-     "nota": "Es una base básica. La de Leroy está orientada a reducir el ruido.",
-     "enlace": "https://www.obramat.es/productos/base-suelo-laminado-10893876.html"
-    }
-   ]
-  },
-  {
-   "slug": "rodapie-mdf-lacado-blanco-7-cm",
-   "nombre": "Rodapié MDF lacado blanco ~7 cm",
-   "categoria": "Suelos",
-   "formato": "Precio por pieza",
-   "unidad": "pieza",
-   "consejo": "Calcula el perímetro, resta los huecos de puerta y añade un 10 % por los ingletes. El lacado aguanta mejor los golpes que el acabado melamina o film.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Pack de 5 rodapiés de mdf de 225x7cm blanco (lacado, 15 mm; pack 36,99 €)",
-     "precio": 7.4,
-     "porUnidad": "36,99 €/pack de 5",
-     "nota": "Precio por pieza calculado a partir del pack (36,99 € / 5). Las piezas miden 2,25 m, no 2,4 m.",
-     "enlace": "https://www.leroymerlin.es/productos/pack-de-5-rodapies-de-mdf-de-225x7cm-blanco-82616337.html"
-    }
-   ]
-  },
-  {
-   "slug": "porcelanico-imitacion-madera-20x120",
-   "nombre": "Porcelánico imitación madera 20x120",
-   "categoria": "Suelos",
-   "formato": "Precio por m²",
-   "unidad": "m²",
-   "consejo": "Compra un 10 % extra (un 15 % si colocas en espiga o en diagonal). Para evitar cejas, usa cemento cola C2 y un sistema de nivelación de piezas.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Suelo porcelánico Dynamic efecto madera natural 20x120 cm C1 (caja 2,16 m², 41,02 €)",
-     "precio": 18.99,
-     "porUnidad": "41,02 €/caja",
-     "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-dynamic-efecto-madera-natural-20x120-cm-c1-89534232.html"
+      "slug": "silicona-sanitaria",
+      "nombre": "Silicona sanitaria blanca",
+      "categoria": "Baño y cocina",
+      "formato": "Cartucho 280 ml, blanca",
+      "unidad": "ud",
+      "consejo": "Un cartucho de 280 ml da para unos 10-15 m de junta de 5 mm. Usa silicona antimoho en zonas húmedas y la neutra sobre metales o piedra natural, donde la acética puede atacar.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Silicona sanitaria AXTON 280 ml blanco",
+          "precio": 1.96,
+          "nota": "Acética, antimoho.",
+          "enlace": "https://www.leroymerlin.es/productos/silicona-sanitaria-280ml-blanco-90201971.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "SILICONA ACIDA PARA BAÑOS Y COCINAS 280ML BLANCA",
+          "precio": 3.95,
+          "nota": "Acética (Bostik) con fungicida.",
+          "enlace": "https://www.obramat.es/productos/silicona-acida-para-banos-y-cocinas-280ml-blanca-10968370.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "SUELO PORCELÁNICO 20X120CM FORESTA ROBLE (caja 1,20 m², 19,14 €)",
-     "precio": 15.95,
-     "porUnidad": "19,14 €/caja",
-     "enlace": "https://www.obramat.es/productos/suelo-porcelanico-20x120cm-foresta-roble-25073660.html"
-    }
-   ]
-  },
-  {
-   "slug": "puerta-interior-block-lacada-blanca-72-5",
-   "nombre": "Puerta interior block lacada blanca 72,5 cm",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por unidad (block con marco)",
-   "unidad": "ud",
-   "consejo": "Mide el grosor del tabique para elegir el ancho del marco (extensible o no) y el sentido de apertura. Las tapetas y la manilla suelen venderse aparte.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Puerta de interior abatible ciega maciza lacada Pro Mad blanco apertura izquierda cerco de 7x2 anchura 72.5cm",
-     "precio": 90.0,
-     "nota": "Incluye hoja y block (marco de 70x20 mm extensible), 4 bisagras y cerradura. No incluye manilla ni tapetas.",
-     "enlace": "https://www.leroymerlin.es/productos/puerta-de-interior-abatible-ciega-maciza-lacada-pro-mad-blanco-apertura-izquierda-cerco-de-7x2-anchura-72-5cm-83542429.html"
+      "slug": "suelo-laminado-ac4-8-mm",
+      "nombre": "Suelo laminado 8 mm",
+      "categoria": "Suelos",
+      "formato": "Precio por m²",
+      "unidad": "m²",
+      "consejo": "Compra entre un 5 y un 10 % más de superficie para cubrir los cortes, y en pasillos o cocinas valora un AC5. Deja las cajas 48 h en la estancia antes de colocar el suelo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo laminado forte 8mm Easy Line Roble Gris AC4 (caja 1,995 m², 33,79 €)",
+          "precio": 16.98,
+          "porUnidad": "33,79 €/caja",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-laminado-forte-8mm-easy-line-roble-gris-ac4-84693996.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "SUELO LAMINADO AC5 8MM MODELO ROBLE KHAKI (paquete 2,22 m², 20,65 €)",
+          "precio": 9.3,
+          "porUnidad": "20,65 €/paquete",
+          "nota": "Obramat no muestra ahora ningún laminado AC4 de 8 mm disponible (los modelos AC4 aparecen como no disponibles), así que se compara con su AC5 de 8 mm, que es de clase superior.",
+          "enlace": "https://www.obramat.es/productos/suelo-laminado-ac5-8mm-modelo-roble-khaki-10807741.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "PUERTA INTERIOR EN BLOCK LU5 LACADA BLANCA CIEGA 72,5CM DERECHA",
-     "precio": 139.0,
-     "nota": "Incluye la puerta con marco de MDF, cerco hidrófugo y 4 bisagras. No incluye molduras ni manillas.",
-     "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-lu5-lacada-blanca-ciega-72-5cm-derecha-10822511.html"
-    }
-   ]
-  },
-  {
-   "slug": "manilla-puerta-interior-roseta",
-   "nombre": "Manilla de puerta interior con roseta (juego)",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por juego",
-   "unidad": "juego",
-   "consejo": "Comprueba el grosor de la hoja (35-45 mm es lo habitual) y el cuadradillo de 8 mm. El zamak o el inox duran más que el aluminio en puertas de mucho uso.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Juego de manilla con roseta ancha de aluminio color níquel satinado (modelo 707)",
-     "precio": 14.29,
-     "enlace": "https://www.leroymerlin.es/productos/juego-de-manilla-con-roseta-ancha-de-aluminio-color-niquel-satinado-86141069.html"
+      "slug": "suelo-vinilico-spc-click-con-base",
+      "nombre": "Suelo vinílico SPC rígido click con base",
+      "categoria": "Suelos",
+      "formato": "Precio por m²",
+      "unidad": "m²",
+      "consejo": "Si el suelo lleva la base integrada, no pongas otra base debajo. Comprueba que el soporte sea plano (desnivel máximo de unos 2 mm por metro) y compra un 5-8 % extra.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo vinílico clic SPC Lake gris 6,5 mm de espesor 1,767 m2/caja (base integrada)",
+          "precio": 22.95,
+          "porUnidad": "40,39 €/caja",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-vinilico-clic-spc-lake-gris-6-5-mm-de-espesor-1-767-m2-caja-96546629.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "SUELO SPC CLIC GROSOR 4 + 1 MM MODELO PADUA (caja 2,24 m², 29 €)",
+          "precio": 12.95,
+          "porUnidad": "29 €/caja",
+          "nota": "El grosor 4+1 mm indica una capa de 1 mm, pero la ficha no confirma de forma explícita que sea una base integrada. Es más fino que el de Leroy (6,5 mm).",
+          "enlace": "https://www.obramat.es/productos/suelo-spc-clic-grosor-4-1-mm-modelo-padua-25105140.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "JUEGO DE MANILLA ROSETAS ZAMAK NIQUEL 8844 AYR",
-     "precio": 14.5,
-     "nota": "Es de zamak, frente al aluminio del modelo de Leroy.",
-     "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-zamak-niquel-8844-ayr-10463684.html"
-    }
-   ]
-  },
-  {
-   "slug": "kit-herraje-puerta-corredera",
-   "nombre": "Kit de herraje para puerta corredera vista",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por kit",
-   "unidad": "kit",
-   "consejo": "El riel debe medir al menos el doble del ancho de la hoja. Comprueba el peso máximo, el grosor de la puerta y que el kit incluya guía de suelo y topes.",
-   "comparable": false,
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Guía para puerta interior corredera Artens Belano de aluminio color plata de 186cm",
-     "precio": 51.99,
-     "nota": "Riel de 1,86 m con cierre suave, para puertas de 63-93 cm y hasta 40 kg. No incluye fijaciones de pared y la ficha no detalla los demás componentes.",
-     "enlace": "https://www.leroymerlin.es/productos/guia-para-puerta-interior-corredera-artens-belano-de-aluminio-color-plata-de-186cm-95849383.html"
+      "slug": "base-aislante-laminado",
+      "nombre": "Base aislante para laminado (2-3 mm)",
+      "categoria": "Suelos",
+      "formato": "Precio por m²",
+      "unidad": "m²",
+      "consejo": "Sobre solera o planta baja, usa una base con barrera antihumedad o pon un film de polietileno. Solapa o une las juntas con cinta y no la combines con suelos que ya llevan base.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Base aislante para suelo laminado AXTON Silence 2mm 15m² (rollo 26,85 €)",
+          "precio": 1.79,
+          "porUnidad": "26,85 €/rollo 15 m²",
+          "enlace": "https://www.leroymerlin.es/productos/base-aislante-para-suelo-laminado-axton-silence-2mm-15m2-82282773.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "BASE SUELO LAMINADO 2 mm (rollo 24 m², 16,32 €)",
+          "precio": 0.68,
+          "porUnidad": "16,32 €/rollo 24 m²",
+          "nota": "Es una base básica. La de Leroy está orientada a reducir el ruido.",
+          "enlace": "https://www.obramat.es/productos/base-suelo-laminado-10893876.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "KIT GUIA CORREDERA PUERTA MADERA 2M NEGRO (AMIG)",
-     "precio": 95.0,
-     "nota": "Kit completo: perfil de 2 m, 2 poleas, separadores, topes, guía inferior y tornillería. Para puertas de hasta 100 kg y 100 cm de ancho.",
-     "enlace": "https://www.obramat.es/productos/kit-guia-corredera-puerta-madera-2m-negro-25114093.html"
-    }
-   ]
-  },
-  {
-   "slug": "ventana-pvc-oscilobatiente-1-hoja",
-   "nombre": "Ventana PVC oscilobatiente 1 hoja",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por unidad (medida estándar)",
-   "unidad": "ud",
-   "consejo": "Mide el hueco de obra en tres puntos y quédate con la medida más pequeña. Confirma el sentido de apertura y pide doble acristalamiento bajo emisivo (4/16/4).",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Ventana PVC blanca oscilobatiente 60x100 cm (derecha, doble vidrio 4/16/4 bajo emisivo)",
-     "precio": 209.0,
-     "porUnidad": "60x100 cm",
-     "enlace": "https://www.leroymerlin.es/productos/ventana-pvc-blanca-oscilobatiente-60x100-cm-82709322.html"
+      "slug": "rodapie-mdf-lacado-blanco-7-cm",
+      "nombre": "Rodapié MDF lacado blanco ~7 cm",
+      "categoria": "Suelos",
+      "formato": "Precio por pieza",
+      "unidad": "pieza",
+      "consejo": "Calcula el perímetro, resta los huecos de puerta y añade un 10 % por los ingletes. El lacado aguanta mejor los golpes que el acabado melamina o film.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack de 5 rodapiés de mdf de 225x7cm blanco (lacado, 15 mm; pack 36,99 €)",
+          "precio": 7.4,
+          "porUnidad": "36,99 €/pack de 5",
+          "nota": "Precio por pieza calculado a partir del pack (36,99 € / 5). Las piezas miden 2,25 m, no 2,4 m.",
+          "enlace": "https://www.leroymerlin.es/productos/pack-de-5-rodapies-de-mdf-de-225x7cm-blanco-82616337.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "VENTANA PVC OSCILOBATIENTE BLANCA 70X100CM (doble vidrio 4/16/4 bajo emisivo)",
-     "precio": 179.0,
-     "porUnidad": "70x100 cm",
-     "nota": "Obramat no tiene la medida de 60x100. Esta ventana es 10 cm más ancha que la de Leroy.",
-     "enlace": "https://www.obramat.es/productos/ventana-pvc-oscilobatiente-blanca-70x100cm-25032058.html"
-    }
-   ]
-  },
-  {
-   "slug": "puerta-entrada-blindada",
-   "nombre": "Puerta de entrada blindada estándar",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por unidad (con cerco)",
-   "unidad": "ud",
-   "consejo": "Mide el hueco y el grosor del muro, y fíjate en el número de puntos de cierre y en el tipo de bombín (antibumping). Pregunta si el precio incluye la instalación y la retirada de la puerta vieja.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Puerta de entrada blindada serie 3P liso sapelly / interior liso blanco apertura izquierda 205x86cm",
-     "precio": 339.0,
-     "nota": "Precio de oferta mostrado en la ficha (antes 381 €; la promoción indicaba vigencia hasta el 16/11). Cierre de 3 puntos, con cerco de MDF, mirilla, manilla y pomo.",
-     "enlace": "https://www.leroymerlin.es/productos/puerta-de-entrada-blindada-serie-3p-liso-sapelly-interior-liso-blanco-apertura-izquierda-205x86cm-16146340.html"
+      "slug": "porcelanico-imitacion-madera-20x120",
+      "nombre": "Porcelánico imitación madera 20x120",
+      "categoria": "Suelos",
+      "formato": "Precio por m²",
+      "unidad": "m²",
+      "consejo": "Compra un 10 % extra (un 15 % si colocas en espiga o en diagonal). Para evitar cejas, usa cemento cola C2 y un sistema de nivelación de piezas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo porcelánico Dynamic efecto madera natural 20x120 cm C1 (caja 2,16 m², 41,02 €)",
+          "precio": 18.99,
+          "porUnidad": "41,02 €/caja",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-dynamic-efecto-madera-natural-20x120-cm-c1-89534232.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "SUELO PORCELÁNICO 20X120CM FORESTA ROBLE (caja 1,20 m², 19,14 €)",
+          "precio": 15.95,
+          "porUnidad": "19,14 €/caja",
+          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-20x120cm-foresta-roble-25073660.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "PUERTA ENTRADA BLINDADA SAPELLY Y BLANCO DERECHA",
-     "precio": 333.0,
-     "nota": "Cierre de 3 puntos, con cerco de 11 cm incluido.",
-     "enlace": "https://www.obramat.es/productos/puerta-entrada-blindada-sapelly-y-blanco-derecha-10547950.html"
-    }
-   ]
-  },
-  {
-   "slug": "tapajuntas-lacado-blanco-juego",
-   "nombre": "Tapajuntas lacado blanco (juego)",
-   "categoria": "Puertas y ventanas",
-   "formato": "Precio por kit de 5 piezas",
-   "unidad": "kit",
-   "consejo": "Una puerta necesita 5 tapetas si las pones por las dos caras (2,5 piezas por cara). Elige un ancho que tape la junta entre el marco y el tabique.",
-   "ofertas": [
-    {
-     "tienda": "leroy",
-     "producto": "Kit de 5 tapetas lisas de mdf lacado blanco 70 x 10 x 2200 mm",
-     "precio": 42.99,
-     "enlace": "https://www.leroymerlin.es/productos/kit-de-5-tapetas-lisas-de-mdf-lacado-blanco-70-x-10-x-2200-mm-16238712.html"
+      "slug": "puerta-interior-block-lacada-blanca-72-5",
+      "nombre": "Puerta interior block lacada blanca 72,5 cm",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por unidad (block con marco)",
+      "unidad": "ud",
+      "consejo": "Mide el grosor del tabique para elegir el ancho del marco (extensible o no) y el sentido de apertura. Las tapetas y la manilla suelen venderse aparte.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Puerta de interior abatible ciega maciza lacada Pro Mad blanco apertura izquierda cerco de 7x2 anchura 72.5cm",
+          "precio": 90,
+          "nota": "Incluye hoja y block (marco de 70x20 mm extensible), 4 bisagras y cerradura. No incluye manilla ni tapetas.",
+          "enlace": "https://www.leroymerlin.es/productos/puerta-de-interior-abatible-ciega-maciza-lacada-pro-mad-blanco-apertura-izquierda-cerco-de-7x2-anchura-72-5cm-83542429.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PUERTA INTERIOR EN BLOCK LU5 LACADA BLANCA CIEGA 72,5CM DERECHA",
+          "precio": 139,
+          "nota": "Incluye la puerta con marco de MDF, cerco hidrófugo y 4 bisagras. No incluye molduras ni manillas.",
+          "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-lu5-lacada-blanca-ciega-72-5cm-derecha-10822511.html"
+        }
+      ]
     },
     {
-     "tienda": "obramat",
-     "producto": "KIT MOLDURAS LACADA BLANCO 7 ALA 10 (5 molduras 2200 x 70 mm)",
-     "precio": 32.0,
-     "enlace": "https://www.obramat.es/productos/kit-molduras-lacada-blanco-7-ala-10-10759490.html"
+      "slug": "manilla-puerta-interior-roseta",
+      "nombre": "Manilla de puerta interior con roseta (juego)",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por juego",
+      "unidad": "juego",
+      "consejo": "Comprueba el grosor de la hoja (35-45 mm es lo habitual) y el cuadradillo de 8 mm. El zamak o el inox duran más que el aluminio en puertas de mucho uso.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Juego de manilla con roseta ancha de aluminio color níquel satinado (modelo 707)",
+          "precio": 14.29,
+          "enlace": "https://www.leroymerlin.es/productos/juego-de-manilla-con-roseta-ancha-de-aluminio-color-niquel-satinado-86141069.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "JUEGO DE MANILLA ROSETAS ZAMAK NIQUEL 8844 AYR",
+          "precio": 14.5,
+          "nota": "Es de zamak, frente al aluminio del modelo de Leroy.",
+          "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-zamak-niquel-8844-ayr-10463684.html"
+        }
+      ]
+    },
+    {
+      "slug": "kit-herraje-puerta-corredera",
+      "nombre": "Kit de herraje para puerta corredera vista",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por kit",
+      "unidad": "kit",
+      "consejo": "El riel debe medir al menos el doble del ancho de la hoja. Comprueba el peso máximo, el grosor de la puerta y que el kit incluya guía de suelo y topes.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Guía para puerta interior corredera Artens Belano de aluminio color plata de 186cm",
+          "precio": 51.99,
+          "nota": "Riel de 1,86 m con cierre suave, para puertas de 63-93 cm y hasta 40 kg. No incluye fijaciones de pared y la ficha no detalla los demás componentes.",
+          "enlace": "https://www.leroymerlin.es/productos/guia-para-puerta-interior-corredera-artens-belano-de-aluminio-color-plata-de-186cm-95849383.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "KIT GUIA CORREDERA PUERTA MADERA 2M NEGRO (AMIG)",
+          "precio": 95,
+          "nota": "Kit completo: perfil de 2 m, 2 poleas, separadores, topes, guía inferior y tornillería. Para puertas de hasta 100 kg y 100 cm de ancho.",
+          "enlace": "https://www.obramat.es/productos/kit-guia-corredera-puerta-madera-2m-negro-25114093.html"
+        }
+      ]
+    },
+    {
+      "slug": "ventana-pvc-oscilobatiente-1-hoja",
+      "nombre": "Ventana PVC oscilobatiente 1 hoja",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por unidad (medida estándar)",
+      "unidad": "ud",
+      "consejo": "Mide el hueco de obra en tres puntos y quédate con la medida más pequeña. Confirma el sentido de apertura y pide doble acristalamiento bajo emisivo (4/16/4).",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Ventana PVC blanca oscilobatiente 60x100 cm (derecha, doble vidrio 4/16/4 bajo emisivo)",
+          "precio": 209,
+          "porUnidad": "60x100 cm",
+          "enlace": "https://www.leroymerlin.es/productos/ventana-pvc-blanca-oscilobatiente-60x100-cm-82709322.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "VENTANA PVC OSCILOBATIENTE BLANCA 70X100CM (doble vidrio 4/16/4 bajo emisivo)",
+          "precio": 179,
+          "porUnidad": "70x100 cm",
+          "nota": "Obramat no tiene la medida de 60x100. Esta ventana es 10 cm más ancha que la de Leroy.",
+          "enlace": "https://www.obramat.es/productos/ventana-pvc-oscilobatiente-blanca-70x100cm-25032058.html"
+        }
+      ]
+    },
+    {
+      "slug": "puerta-entrada-blindada",
+      "nombre": "Puerta de entrada blindada estándar",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por unidad (con cerco)",
+      "unidad": "ud",
+      "consejo": "Mide el hueco y el grosor del muro, y fíjate en el número de puntos de cierre y en el tipo de bombín (antibumping). Pregunta si el precio incluye la instalación y la retirada de la puerta vieja.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Puerta de entrada blindada serie 3P liso sapelly / interior liso blanco apertura izquierda 205x86cm",
+          "precio": 339,
+          "nota": "Precio de oferta mostrado en la ficha (antes 381 €; la promoción indicaba vigencia hasta el 16/11). Cierre de 3 puntos, con cerco de MDF, mirilla, manilla y pomo.",
+          "enlace": "https://www.leroymerlin.es/productos/puerta-de-entrada-blindada-serie-3p-liso-sapelly-interior-liso-blanco-apertura-izquierda-205x86cm-16146340.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PUERTA ENTRADA BLINDADA SAPELLY Y BLANCO DERECHA",
+          "precio": 333,
+          "nota": "Cierre de 3 puntos, con cerco de 11 cm incluido.",
+          "enlace": "https://www.obramat.es/productos/puerta-entrada-blindada-sapelly-y-blanco-derecha-10547950.html"
+        }
+      ]
+    },
+    {
+      "slug": "tapajuntas-lacado-blanco-juego",
+      "nombre": "Tapajuntas lacado blanco (juego)",
+      "categoria": "Puertas y ventanas",
+      "formato": "Precio por kit de 5 piezas",
+      "unidad": "kit",
+      "consejo": "Una puerta necesita 5 tapetas si las pones por las dos caras (2,5 piezas por cara). Elige un ancho que tape la junta entre el marco y el tabique.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Kit de 5 tapetas lisas de mdf lacado blanco 70 x 10 x 2200 mm",
+          "precio": 42.99,
+          "enlace": "https://www.leroymerlin.es/productos/kit-de-5-tapetas-lisas-de-mdf-lacado-blanco-70-x-10-x-2200-mm-16238712.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "KIT MOLDURAS LACADA BLANCO 7 ALA 10 (5 molduras 2200 x 70 mm)",
+          "precio": 32,
+          "enlace": "https://www.obramat.es/productos/kit-molduras-lacada-blanco-7-ala-10-10759490.html"
+        }
+      ]
+    },
+    {
+      "slug": "base-enchufe-schuko",
+      "nombre": "Base de enchufe schuko",
+      "categoria": "Electricidad",
+      "formato": "Mecanismo empotrable blanco (pack de 5)",
+      "unidad": "pack 5 ud",
+      "consejo": "El REBT (ITC-BT-25) fija mínimos de tomas por estancia: en un salón de 20 m² son unas 3-4 bases y en cocina hasta 6 circuitos separados. Comprar en pack de 5 sale más barato que por unidad cuando se hace una vivienda entera.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack de 5 Schuko LEXMAN Lika blanco",
+          "precio": 14.49,
+          "porUnidad": "2,90 €/ud",
+          "nota": "Vendido por Leroy Merlin; la ficha no indica si incluye marco",
+          "enlace": "https://www.leroymerlin.es/productos/pack-de-5-schuko-lexman-lika-blanco-83147165.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "5 SCHUKOS MONOBLOCK SERIE ASFORA BLANCO",
+          "precio": 11.15,
+          "porUnidad": "2,23 €/ud",
+          "nota": "Monoblock con marco simple blanco incluido",
+          "enlace": "https://www.obramat.es/productos/5-schukos-monoblock-serie-asfora-blanco-10515911.html"
+        }
+      ]
+    },
+    {
+      "slug": "interruptor-conmutador",
+      "nombre": "Interruptor / conmutador empotrable",
+      "categoria": "Electricidad",
+      "formato": "Mecanismo empotrable blanco (pack de 5)",
+      "unidad": "pack 5 ud",
+      "consejo": "Un conmutador sirve también como interruptor simple, así que comprar todo conmutadores simplifica el pedido y permite encender una luz desde dos puntos. Para pasillos o dormitorios con tres o más puntos de mando necesitarás además un conmutador de cruce.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack de 5 conmutadores LEXMAN Lika blanco",
+          "precio": 13.08,
+          "porUnidad": "2,62 €/ud",
+          "nota": "Vendido por Leroy Merlin",
+          "enlace": "https://www.leroymerlin.es/productos/pack-de-5-conmutadores-lexman-lika-blanco-83147166.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "5 CONMUTADORES MONOBLOCK SERIE ASFORA BLANCO",
+          "precio": 9.24,
+          "porUnidad": "1,85 €/ud",
+          "nota": "Monoblock con marco simple blanco incluido",
+          "enlace": "https://www.obramat.es/productos/5-conmutadores-monoblock-serie-asfora-blanco-10515904.html"
+        }
+      ]
+    },
+    {
+      "slug": "magnetotermico-1p-n-16a",
+      "nombre": "Magnetotérmico 1P+N 16 A",
+      "categoria": "Electricidad",
+      "formato": "Interruptor automático carril DIN, 1 unidad",
+      "unidad": "ud",
+      "consejo": "En vivienda se usa 16 A para los circuitos de enchufes generales y 10 A para alumbrado; la sección del cable manda (16 A pide al menos 2,5 mm²). Revisa el poder de corte (4,5 o 6 kA) y que el ancho en módulos encaje en tu cuadro.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Interruptor magnetotérmico CHINT 1P+N 16A",
+          "precio": 13.25,
+          "nota": "Vendido por Leroy Merlin; la ficha no indica poder de corte ni módulos",
+          "enlace": "https://www.leroymerlin.es/productos/electricidad-y-domotica/cuadros-electricos/interruptores-automaticos/interruptor-magnetotermico-chint-1p-n-16a-16374631.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "AUTOMÁTICO MAGNETOTÉRMICO 1 P+N 1 MODU 16A SOLERA",
+          "precio": 8.83,
+          "nota": "1 módulo, 6 kA",
+          "enlace": "https://www.obramat.es/productos/automatico-magnetotermico-1-p-n-1-modu-16a-solera-10365635.html"
+        }
+      ]
+    },
+    {
+      "slug": "diferencial-2p-40a-30ma",
+      "nombre": "Diferencial 2P 40 A 30 mA",
+      "categoria": "Electricidad",
+      "formato": "Interruptor diferencial bipolar carril DIN, clase AC, 1 unidad",
+      "unidad": "ud",
+      "consejo": "En vivienda el diferencial general suele ser de 40 A y 30 mA; si hay muchos electrodomésticos electrónicos, placas de inducción o cargador de coche, conviene un tipo A o superinmunizado para evitar saltos sin motivo. Cada diferencial debería proteger como máximo unos 5 circuitos.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Diferencial bipolar 40A LEXMAN (30 mA, clase AC)",
+          "precio": 13.66,
+          "nota": "Vendido por Leroy Merlin",
+          "enlace": "https://www.leroymerlin.es/productos/diferencial-bipolar-40a-lexman-89490872.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "DIFERENCIAL 2P 40A 30MA SOLERA (clase AC)",
+          "precio": 12.5,
+          "nota": "La descripción de la ficha menciona 20 A aunque el nombre indica 40 A; comprobar en tienda",
+          "enlace": "https://www.obramat.es/productos/diferencial-2p-40a-30ma-solera-25085735.html"
+        }
+      ]
+    },
+    {
+      "slug": "caja-empotrar-universal",
+      "nombre": "Caja de empotrar universal",
+      "categoria": "Electricidad",
+      "formato": "Caja de mecanismos universal enlazable de 1 elemento (~65 x 65 mm), 1 unidad",
+      "unidad": "ud",
+      "consejo": "Las cajas universales enlazables permiten unir varias para mecanismos dobles o triples; para tabique de pladur hay que usar cajas específicas con garras. Compra un 10 % de más: son muy baratas y alguna se rompe al recibirla con yeso.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Caja mecanismos empotrar FAMATEL 66x66 mm universal",
+          "precio": 0.2,
+          "nota": "Vendido por Leroy Merlin; precio por unidad",
+          "enlace": "https://www.leroymerlin.es/productos/caja-mecanismos-empotrar-famatel-66x66-mm-universal-82046974.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CAJA DE MECANISMOS ELÉCTRICO 65X65MM PARA EMPOTRAR DE INTERIOR",
+          "precio": 0.15,
+          "nota": "Universal enlazable de 1 elemento; precio por unidad",
+          "enlace": "https://www.obramat.es/productos/caja-de-mecanismos-electrico-65x65mm-para-empotrar-de-interior-10016846.html"
+        }
+      ]
+    },
+    {
+      "slug": "cable-h07v-k-6-mm",
+      "nombre": "Cable H07V-K 6 mm²",
+      "categoria": "Electricidad",
+      "formato": "Hilo flexible unipolar H07V-K 6 mm² en rollo",
+      "unidad": "rollo",
+      "comparable": false,
+      "consejo": "El 6 mm² se usa para circuitos de horno/placa (25 A) y para la derivación individual en tramos cortos; necesitarás fase, neutro y tierra, cada uno de su color. Si haces varios circuitos, el rollo de 100 m sale bastante más barato por metro que los de 10 o 25 m.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cable eléctrico LEXMAN H07V-K marrón 6 mm² 25 m",
+          "precio": 28.99,
+          "porUnidad": "1,16 €/m",
+          "nota": "Rollo de 25 m; vendido por Leroy Merlin",
+          "enlace": "https://www.leroymerlin.es/productos/cable-electrico-lexman-h07v-k-marron-6-mm2-25-m-17917606.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "HILO PVC H07V-K 6mm2 NEGRO 100M",
+          "precio": 76,
+          "porUnidad": "0,76 €/m",
+          "nota": "Rollo de 100 m",
+          "enlace": "https://www.obramat.es/productos/hilo-flexible-h07v-k-6mm2-negro-100m-10540642.html"
+        }
+      ]
+    },
+    {
+      "slug": "cable-h07v-k-4-mm-100-m",
+      "nombre": "Cable H07V-K 4 mm² (rollo 100 m)",
+      "categoria": "Electricidad",
+      "formato": "Hilo flexible unipolar H07V-K 4 mm² en rollo",
+      "unidad": "rollo",
+      "comparable": false,
+      "consejo": "El 4 mm² es el habitual para lavadora, lavavajillas, termo eléctrico (circuito C4, 20 A) y aire acondicionado. Compara siempre el precio por metro: entre rollos de 25, 50 y 100 m la diferencia puede ser de casi la mitad.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cable eléctrico LEXMAN H07V-K marrón 4 mm² 50 m",
+          "precio": 37.99,
+          "porUnidad": "0,76 €/m",
+          "nota": "Rollo de 50 m (no se encontró rollo de 100 m vendido por Leroy Merlin); vendido por Leroy Merlin",
+          "enlace": "https://www.leroymerlin.es/productos/cable-electrico-lexman-h07v-k-marron-4-mm2-50-m-19436151.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "HILO PVC H07V-K 4mm2 NEGRO 100M",
+          "precio": 39.9,
+          "porUnidad": "0,40 €/m",
+          "nota": "Rollo de 100 m",
+          "enlace": "https://www.obramat.es/hilo-flexible-h07v-k-4mm2-negro-100m-10540600.html"
+        }
+      ]
+    },
+    {
+      "slug": "downlight-led-18w",
+      "nombre": "Downlight LED empotrable redondo 18 W",
+      "categoria": "Electricidad",
+      "formato": "Downlight LED extraplano redondo blanco ~22 cm, 1 unidad",
+      "unidad": "ud",
+      "consejo": "Antes de comprar mide el hueco de corte del techo: los de 18 W suelen pedir 200-205 mm y no todos los modelos coinciden. Los modelos CCT permiten elegir luz cálida, neutra o fría con el mismo producto, algo útil si aún no lo tienes claro.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Downlight LED empotrable INSPIRE EXTRAFLAT blanco redondo ø22.5 cm 2500 lm 18 W CCT",
+          "precio": 7.99,
+          "nota": "Vendido por Leroy Merlin; luz seleccionable 2700-6000 K",
+          "enlace": "https://www.leroymerlin.es/productos/downlight-led-empotrable-inspire-extraflat-blanco-redondo-22-5-cm-2500-lm-18-w-3-tonos-de-luz-cct-2700k-4000k-6000k-ip20-foco-led-empotrado-para-techos-95494510.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "DOWNLIGHT LED 18W ACABADO BLANCO LUZ BLANCA SECOM",
+          "precio": 6.25,
+          "nota": "ø224 mm, 1500 lm, un solo tono de luz",
+          "enlace": "https://www.obramat.es/productos/downlight-led-18w-acabado-blanco-luz-blanca-secom-10684996.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-corrugado-25-mm",
+      "nombre": "Tubo corrugado 25 mm",
+      "categoria": "Electricidad",
+      "formato": "Tubo corrugado Ø25 mm, rollo de 75 m",
+      "unidad": "rollo 75 m",
+      "consejo": "El Ø25 mm es el habitual para líneas de 4 y 6 mm² o para llevar varios circuitos juntos; para alumbrado y enchufes basta normalmente con Ø20 mm. Si el tubo va por suelo o hormigón, usa el reforzado, que aguanta mejor el pisado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Tubo corrugado de PVC LEXMAN 25 mm 75 m",
+          "precio": 15,
+          "porUnidad": "0,20 €/m",
+          "nota": "Vendido por Leroy Merlin",
+          "enlace": "https://www.leroymerlin.es/productos/tubo-corrugado-de-pvc-lexman-25-mm-75-m-81908942.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TUBO CORRUGADO REFORZADO NEGRO 25MM 75M",
+          "precio": 18.41,
+          "porUnidad": "0,25 €/m",
+          "nota": "Versión reforzada",
+          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-25mm-75m-10158470.html"
+        }
+      ]
+    },
+    {
+      "slug": "cuadro-electrico-empotrable",
+      "nombre": "Cuadro eléctrico empotrable",
+      "categoria": "Electricidad",
+      "formato": "Caja de distribución de empotrar con puerta, 14 módulos, 1 unidad",
+      "unidad": "ud",
+      "consejo": "Cuenta los módulos que vas a montar (IGA, diferenciales, magnetotérmicos, sobretensiones) y suma un 20-30 % de hueco libre para futuras ampliaciones. Una vivienda con electrificación elevada suele necesitar dos filas o más de 18 módulos.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cuadro eléctrico FAMATEL Nuova de 14 módulos (empotrar, con puerta)",
+          "precio": 19.29,
+          "nota": "Precio de la oferta vendida por Leroy Merlin; en la misma ficha un vendedor del marketplace lo ofrece a 13,99 €",
+          "enlace": "https://leroymerlin.es/fp/19463360/cuadro-electrico-famatel-nuova-de-14-modulos"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CUADRO ELÉCTRICO PARA EMPOTRAR DE 14 MÓDULOS IP40 SOLERA",
+          "precio": 10.57,
+          "nota": "Con puerta blanca",
+          "enlace": "https://www.obramat.es/productos/cuadro-electrico-para-empotrar-de-14-modulos-ip40-solera-10833081.html"
+        }
+      ]
+    },
+    {
+      "slug": "aire-acondicionado-split-3000-frigorias",
+      "nombre": "Aire acondicionado split inverter 3000 frigorías",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Split 1x1 inverter con bomba de calor, ~3000 frigorías (3,5 kW), Wi-Fi, sin instalación",
+      "unidad": "ud",
+      "consejo": "Como referencia, 3000 frigorías dan para estancias de unos 25-30 m²; con mucha orientación sur o techos altos conviene subir de potencia. La instalación la debe hacer un instalador habilitado en gases fluorados y suele costar aparte unos 250-400 € según metros de tubería.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Aire acondicionado split 1X1 BROKTON BRST12 A+++ 3000 fg Wi-Fi",
+          "precio": 299,
+          "nota": "Vendido por Leroy Merlin; instalación no incluida",
+          "enlace": "https://www.leroymerlin.es/productos/aire-acondicionado-split-1x1-brokton-brst12-a-3000-fg-wi-fi-93921628.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "AIRE ACONDICIONADO WIFI SPLIT 3010 FRIGORIAS SKYLUXE",
+          "precio": 279,
+          "nota": "Inverter, frío/calor; instalación no incluida",
+          "enlace": "https://www.obramat.es/productos/aire-acondicionado-wifi-split-3010-frigorias-skyluxe-25118137.html"
+        }
+      ]
+    },
+    {
+      "slug": "toallero-electrico-500w",
+      "nombre": "Radiador toallero eléctrico 500 W",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Toallero eléctrico de pared 500 W blanco, 1 unidad",
+      "unidad": "ud",
+      "consejo": "Para un baño de unos 5 m² suelen bastar 500 W; con termostato y programación consume bastante menos que dejarlo siempre encendido. En baño respeta los volúmenes de seguridad: no debe instalarse dentro de la zona de ducha o bañera.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Radiador toallero eléctrico HTW 500w blanco",
+          "precio": 89.95,
+          "nota": "Vendido por Leroy Merlin (precio tomado del listado de la categoría)",
+          "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-htw-500w-blanco-91756580.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TOALLERO ELÉCTRICO 500W BLANCO",
+          "precio": 80,
+          "nota": "Inercia en seco (sin fluido)",
+          "enlace": "https://www.obramat.es/productos/toallero-electrico-500w-blanco-10807552.html"
+        }
+      ]
+    },
+    {
+      "slug": "calentador-gas-estanco-11l",
+      "nombre": "Calentador de gas estanco 11 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Calentador de agua a gas natural, estanco, bajo NOx, 11 L/min, sin instalación",
+      "unidad": "ud",
+      "consejo": "Un calentador de 11 L/min da para una ducha y un grifo a la vez; si hay dos baños que se usan simultáneamente conviene pasar a 14 L. Comprueba el tipo de gas (natural o butano) antes de comprar y recuerda que lo debe instalar un instalador de gas autorizado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Calentador de gas estanco CLIMAX gas natural 11 L",
+          "precio": 229,
+          "nota": "Vendido por Leroy Merlin; instalación no incluida",
+          "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-climax-11-litros-gas-natural-94344415.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CALENTADOR GAS NATURAL ESTANCO BAJO NOx 11L THERMOR TOP SEALED",
+          "precio": 199,
+          "nota": "Instalación no incluida",
+          "enlace": "https://www.obramat.es/productos/calentador-gas-natural-estanco-bajo-nox-11l-thermor-top-sealed-25024770.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-pvc-40-mm-3-m",
+      "nombre": "Tubo PVC evacuación Ø40",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Barra de 3 m",
+      "unidad": "barra",
+      "consejo": "Para desagües de lavabo y bidé basta Ø40; mantén al menos un 1-2 % de pendiente y evita tramos horizontales largos sin ventilación para que el sifón no se vacíe.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Tubo PVC de evacuación Ø40 mm 3 metros",
+          "precio": 2.99,
+          "enlace": "https://www.leroymerlin.es/productos/tubo-pvc-de-evacuacion-40-mm-3-metros-81929203.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TUBO 40MM 3M PVC",
+          "precio": 2.76,
+          "enlace": "https://www.obramat.es/productos/tubo-40mm-3m-pvc-25073183.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-multicapa-20-mm-100-m",
+      "nombre": "Tubo multicapa Ø20",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Rollo de 100 m (sin aislar)",
+      "unidad": "rollo",
+      "consejo": "El Ø20 se usa para la acometida y los tramos generales de la vivienda; usa racores del mismo sistema (prensar o compresión) y calibra el tubo antes de cada unión para evitar fugas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Rollo de Tubo de multicapa 100 metros Ø20 mm",
+          "precio": 101,
+          "porUnidad": "1,01 €/m",
+          "nota": "Precio leído en el listado de categoría",
+          "enlace": "https://www.leroymerlin.es/productos/rollo-de-tubo-de-multicapa-100-metros-20-mm-82069869.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TUBO MULTICAPA 20MM ROLLO 100M",
+          "precio": 82,
+          "porUnidad": "0,82 €/m",
+          "enlace": "https://www.obramat.es/productos/tubo-multicapa-20mm-rollo-100m-25025864.html"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
