@@ -35,6 +35,8 @@ const GSC = process.env.GSC_VERIFICACION || "";
 
 function mejor(m) {
   if (m.comparable === false || m.ofertas.length < 2) return null;
+  const precios = m.ofertas.map((o) => o.precio);
+  if (Math.min(...precios) === Math.max(...precios)) return null;
   return m.ofertas.reduce((a, b) => (b.precio < a.precio ? b : a));
 }
 function ahorroPct(m) {
@@ -114,7 +116,7 @@ function paginaMaterial(m) {
   const precios = m.ofertas.map((o) => o.precio);
   const nombreMin = m.nombre[0].toLowerCase() + m.nombre.slice(1);
   const titulo = `${m.nombre}: mejor precio y ofertas, ${m.ofertas.map((o) => tiendaCorta(o.tienda)).join(" vs ")} (${mesTexto})`;
-  const hayOferta = m.ofertas.some((o) => /oferta|antes/i.test(o.nota || ""));
+  const hayOferta = m.ofertas.some((o) => /oferta|antes \d/i.test(o.nota || ""));
   const descripcion = g
     ? `¿Buscas ${nombreMin} barato? Desde ${eur(g.precio)} en ${tiendaCorta(g.tienda)}. Comparamos precios y ofertas con IVA de ${m.ofertas.length} almacenes en ${zona}, actualizado ${mesTexto}.`
     : `${m.nombre}, ${m.formato.toLowerCase()}: precios con IVA en almacenes de ${zona}, con enlace a cada producto. Actualizado ${mesTexto}.`;
@@ -122,7 +124,7 @@ function paginaMaterial(m) {
   const faq = [
     [`¿Cuánto cuesta ${nombreMin}?`, m.ofertas.length > 1 ? `En ${zona}, ${m.formato.toLowerCase()} cuesta entre ${eur(min)} y ${eur(max)} con IVA en los almacenes que comparamos (${fechaTexto}).` : `En ${zona}, ${m.formato.toLowerCase()} cuesta ${eur(min)} con IVA en ${tiendaCorta(m.ofertas[0].tienda)} (${fechaTexto}).`],
     ...(g ? [[`¿Dónde comprar ${nombreMin} más barato?`, `Hoy el mejor precio está en ${tiendaCorta(g.tienda)}, con ${eur(g.precio)}${pct ? `, un ${pct} % menos que en el almacén más caro` : ""}. Confirma el precio en tu tienda, porque puede variar entre tiendas.`]] : []),
-    [`¿Hay ofertas de ${nombreMin}?`, hayOferta ? `Sí: ${m.ofertas.filter((o) => /oferta|antes/i.test(o.nota || "")).map((o) => `${tiendaCorta(o.tienda)} lo tiene en oferta a ${eur(o.precio)} (${o.nota.toLowerCase()})`).join("; ")}. Revisamos los precios cada semana.` : `Esta semana no hay ofertas destacadas en los almacenes que comparamos. El mejor precio es ${eur(min)}. Revisamos los precios cada semana, así que vuelve a mirar antes de comprar.`],
+    [`¿Hay ofertas de ${nombreMin}?`, hayOferta ? `Sí: ${m.ofertas.filter((o) => /oferta|antes \d/i.test(o.nota || "")).map((o) => { const antes = (o.nota.match(/antes (\d[\d.,]*\s?€)/i) || [])[1]; return `${tiendaCorta(o.tienda)} lo tiene en oferta a ${eur(o.precio)}${antes ? ` (antes ${antes})` : ""}`; }).join("; ")}. Revisamos los precios cada semana.` : `Esta semana no hay ofertas destacadas en los almacenes que comparamos. El mejor precio es ${eur(min)}. Revisamos los precios cada semana, así que vuelve a mirar antes de comprar.`],
     [`¿Cuánto necesito para mi obra?`, m.consejo],
   ];
   const ruta = `${m.slug}/`;
@@ -165,7 +167,7 @@ function paginaMaterial(m) {
 <nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
-${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
+${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
 <h2>Mejor precio de ${esc(nombreMin)} hoy${hayOferta ? " (con oferta)" : ""}</h2>
 <div class="tabla"><table class="ofertas">
 <thead><tr><th>Almacén</th><th>Producto</th><th>Precio</th><th></th></tr></thead>
@@ -188,7 +190,7 @@ function portada() {
   for (const m of cestaItems) for (const o of m.ofertas) cesta[o.tienda] += o.precio;
   const ordenCesta = Object.entries(cesta).sort((a, b) => a[1] - b[1]);
   const [barata, cara] = [ordenCesta[0], ordenCesta[ordenCesta.length - 1]];
-  const pctCesta = Math.round(((cara[1] - barata[1]) / cara[1]) * 100);
+  const victorias = Object.keys(tiendas).map((t) => [t, comparables.filter((m) => mejor(m).tienda === t).length]).sort((a, b) => b[1] - a[1]);
 
   const titulo = `Comparar precios de materiales de obra: mejor precio y ofertas en ${zona} (${mesTexto})`;
   const descripcion = `Compara el precio de ${materiales.length} materiales de obra y reforma (${categorias.join(", ").toLowerCase()}) en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}. Precios con IVA, actualizados cada semana, con enlace a cada producto.`;
@@ -219,7 +221,7 @@ ${materiales.filter((m) => m.categoria === c).map((m) => {
   <h1>Materiales de obra al mejor precio en ${esc(zona)}</h1>
   <p class="sub">${materiales.length} materiales básicos de reforma en ${Object.values(tiendas).map((t) => t.nombre).join(" y ")}. Precios públicos con IVA, consultados el ${fechaTexto}.</p>
   <div class="cifras">
-    <div><b>−${pctCesta} %</b><span>${esc(tiendas[barata[0]].nombre.split(" (")[0])} sale más barato en una cesta de ${cestaItems.length} productos (${eur(barata[1])} frente a ${eur(cara[1])}).</span></div>
+    <div><b>${victorias[0][1]} de ${comparables.length}</b><span>materiales en los que ${esc(tiendaCorta(victorias[0][0]))} tiene el mejor precio. ${victorias.slice(1).map(([t, n]) => `${esc(tiendaCorta(t))} gana en ${n}`).join(", ")}.</span></div>
     <div><b>${materiales.length}</b><span>materiales con enlace directo a la ficha de cada almacén.</span></div>
   </div>
 </section>
