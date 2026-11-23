@@ -53,3 +53,11 @@ a:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
   table.ofertas td.num{grid-column:2;grid-row:1;text-align:right}
   table.ofertas td:last-child{grid-column:1/-1}
 }
+.cats{display:flex;flex-wrap:wrap;gap:6px 14px;width:100%;font-size:.88rem}
+.cats a{color:var(--mu);text-decoration:none}
+.cats a:hover{color:var(--ac);text-decoration:underline}
+tr.cat th a{color:inherit}
+.faq{display:grid;gap:8px}
+.faq details{background:var(--sup);border:1px solid var(--li);border-radius:8px;padding:10px 14px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq details p{margin-top:6px}

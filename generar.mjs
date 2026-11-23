@@ -27,6 +27,12 @@ const [anio, mes, dia] = fecha.split("-").map(Number);
 const fechaTexto = `${dia} de ${MESES[mes - 1]} de ${anio}`;
 const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
+const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const categorias = [...new Set(materiales.map((m) => m.categoria))];
+const rutaCat = (c) => `categoria/${slugify(c)}/`;
+const tiendaCorta = (t) => tiendas[t].nombre.split(" (")[0];
+const GSC = process.env.GSC_VERIFICACION || "";
+
 function mejor(m) {
   if (m.comparable === false || m.ofertas.length < 2) return null;
   return m.ofertas.reduce((a, b) => (b.precio < a.precio ? b : a));
@@ -54,6 +60,7 @@ ${INDEXAR ? "" : '<meta name="robots" content="noindex, follow">\n'}<link rel="c
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:locale" content="es_ES">
 <meta name="theme-color" content="#2f6b4f">
+${GSC ? `<meta name="google-site-verification" content="${esc(GSC)}">\n` : ""}
 <style>${css}</style>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join("\n")}
 </head>
@@ -61,6 +68,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
 <header class="barra"><div class="ancho">
   <a class="marca" href="${raiz}">${esc(NOMBRE)}</a>
   <span class="lema">Precios de materiales de obra en ${esc(zona)}</span>
+  <nav class="cats">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</nav>
 </div></header>
 <main class="ancho">
 ${cuerpo}
@@ -99,10 +107,17 @@ function paginaMaterial(m) {
   const g = mejor(m);
   const pct = ahorroPct(m);
   const precios = m.ofertas.map((o) => o.precio);
-  const titulo = `Precio de ${m.nombre[0].toLowerCase() + m.nombre.slice(1)} (${m.formato.toLowerCase()}) en ${zona} | ${m.ofertas.map((o) => tiendas[o.tienda].nombre.split(" (")[0]).join(" vs ")}, ${mesTexto}`;
+  const nombreMin = m.nombre[0].toLowerCase() + m.nombre.slice(1);
+  const titulo = `Precio de ${nombreMin}: ${m.ofertas.map((o) => tiendaCorta(o.tienda)).join(" vs ")} (${mesTexto})`;
   const descripcion = g
     ? `${m.nombre}, ${m.formato.toLowerCase()}: desde ${eur(g.precio)} en ${tiendas[g.tienda].nombre.split(" (")[0]}. Comparamos precios con IVA de ${m.ofertas.length} almacenes en ${zona}, actualizado ${mesTexto}.`
     : `${m.nombre}, ${m.formato.toLowerCase()}: precios con IVA en almacenes de ${zona}, con enlace a cada producto. Actualizado ${mesTexto}.`;
+  const min = Math.min(...m.ofertas.map((o) => o.precio)), max = Math.max(...m.ofertas.map((o) => o.precio));
+  const faq = [
+    [`¿Cuánto cuesta ${nombreMin}?`, m.ofertas.length > 1 ? `En ${zona}, ${m.formato.toLowerCase()} cuesta entre ${eur(min)} y ${eur(max)} con IVA en los almacenes que comparamos (${fechaTexto}).` : `En ${zona}, ${m.formato.toLowerCase()} cuesta ${eur(min)} con IVA en ${tiendaCorta(m.ofertas[0].tienda)} (${fechaTexto}).`],
+    ...(g ? [[`¿Dónde es más barato ${nombreMin}?`, `Hoy el precio más bajo está en ${tiendaCorta(g.tienda)}, con ${eur(g.precio)}${pct ? `, un ${pct} % menos que en el almacén más caro` : ""}. Confirma el precio en tu tienda, porque puede variar entre tiendas.`]] : []),
+    [`¿Cuánto necesito para mi obra?`, m.consejo],
+  ];
   const ruta = `${m.slug}/`;
   const raiz = "../";
   const otros = materiales.filter((x) => x.categoria === m.categoria && x.slug !== m.slug);
@@ -133,12 +148,14 @@ function paginaMaterial(m) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" },
-      { "@type": "ListItem", position: 2, name: m.nombre, item: SITE + "/" + ruta },
+      { "@type": "ListItem", position: 2, name: m.categoria, item: SITE + "/" + rutaCat(m.categoria) },
+      { "@type": "ListItem", position: 3, name: m.nombre, item: SITE + "/" + ruta },
     ],
   };
 
+  const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
   const cuerpo = `
-<nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(m.categoria)}</nav>
+<nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
 ${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
@@ -149,13 +166,13 @@ ${m.ofertas.map((o) => filaOferta(o, g)).join("\n")}
 </tbody></table></div>
 <section class="consejo"><h2>Cuánto necesitas</h2><p>${esc(m.consejo)} <span class="nota">Dato orientativo: tu reformista lo ajusta a tu obra.</span></p></section>
 ${ctaReformista()}
-${otros.length ? `<section><h2>Más precios de ${esc(m.categoria.toLowerCase())}</h2><ul class="lista">${otros.map((x) => `<li><a href="../${x.slug}/">${esc(x.nombre)}</a> <span>${esc(x.formato)}</span></li>`).join("")}</ul></section>` : ""}
+<section class="faq"><h2>Preguntas frecuentes</h2>${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
+${otros.length ? `<section><h2>Más precios de ${esc(m.categoria.toLowerCase())}</h2><ul class="lista">${otros.map((x) => `<li><a href="../${x.slug}/">Precio de ${esc(x.nombre[0].toLowerCase() + x.nombre.slice(1))}</a> <span>${esc(x.formato)}</span></li>`).join("")}</ul></section>` : ""}
 `;
-  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [producto, migas], raiz }) };
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [producto, migas, faqLd], raiz }) };
 }
 
 function portada() {
-  const categorias = [...new Set(materiales.map((m) => m.categoria))];
   const comparables = materiales.filter((m) => mejor(m));
   const cesta = {};
   for (const t of Object.keys(tiendas)) cesta[t] = 0;
@@ -166,10 +183,10 @@ function portada() {
   const pctCesta = Math.round(((cara[1] - barata[1]) / cara[1]) * 100);
 
   const titulo = `Precios de materiales de obra en ${zona}: comparativa de almacenes (${mesTexto})`;
-  const descripcion = `Compara el precio de cemento, yeso, placa de yeso laminado, cemento cola, cable, multicapa, porcelánico y pintura en Leroy Merlin y Obramat. Precios con IVA y enlace a cada producto.`;
+  const descripcion = `Compara el precio de ${materiales.length} materiales de obra y reforma (${categorias.join(", ").toLowerCase()}) en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}. Precios con IVA, actualizados cada semana, con enlace a cada producto.`;
 
   const tabla = categorias.map((c) => `
-<tr class="cat"><th colspan="4" scope="colgroup">${esc(c)}</th></tr>
+<tr class="cat"><th colspan="4" scope="colgroup"><a href="${rutaCat(c)}">${esc(c)}</a></th></tr>
 ${materiales.filter((m) => m.categoria === c).map((m) => {
     const g = mejor(m);
     const min = Math.min(...m.ofertas.map((o) => o.precio));
@@ -216,12 +233,45 @@ ${ctaReformista()}
   return pagina({ titulo, descripcion, ruta: "", cuerpo, jsonld: [web, lista], raiz: "./" });
 }
 
+function paginaCategoria(c) {
+  const ms = materiales.filter((m) => m.categoria === c);
+  const ruta = rutaCat(c);
+  const raiz = "../../";
+  const cMin = c[0].toLowerCase() + c.slice(1);
+  const titulo = `Precios de ${cMin} en ${zona}: comparativa de almacenes (${mesTexto})`;
+  const descripcion = `${ms.length} precios de ${cMin} comparados en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}: ${ms.slice(0, 5).map((m) => m.nombre.toLowerCase()).join(", ")} y más. Con IVA y enlace a cada producto.`;
+  const filas = ms.map((m) => {
+    const g = mejor(m);
+    const min = Math.min(...m.ofertas.map((o) => o.precio));
+    return `<tr><th scope="row"><a href="${raiz}${m.slug}/">${esc(m.nombre)}</a></th><td>${esc(m.formato)}</td><td class="num">${m.comparable === false ? "Varios" : "desde " + eur(min)}</td><td>${g ? `${esc(tiendaCorta(g.tienda))} <small>−${ahorroPct(m)} %</small>` : "—"}</td></tr>`;
+  }).join("\n");
+  const lista = { "@context": "https://schema.org", "@type": "ItemList", name: titulo, itemListElement: ms.map((m, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/${m.slug}/`, name: m.nombre })) };
+  const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: c, item: SITE + "/" + ruta }] };
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(c)}</nav>
+<h1>Precios de ${esc(cMin)} en ${esc(zona)}</h1>
+<p class="sub">${ms.length} materiales comparados · precios con IVA · ${fechaTexto}</p>
+<div class="tabla"><table>
+<thead><tr><th>Material</th><th>Formato</th><th>Precio</th><th>Más barato</th></tr></thead>
+<tbody>${filas}</tbody></table></div>
+${ctaReformista()}
+<section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
+`;
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [lista, migas], raiz }) };
+}
+
 rmSync(salida, { recursive: true, force: true });
 mkdirSync(salida, { recursive: true });
 writeFileSync(join(salida, "index.html"), portada());
 const rutas = [""];
 for (const m of materiales) {
   const { ruta, html } = paginaMaterial(m);
+  mkdirSync(join(salida, ruta), { recursive: true });
+  writeFileSync(join(salida, ruta, "index.html"), html);
+  rutas.push(ruta);
+}
+for (const c of categorias) {
+  const { ruta, html } = paginaCategoria(c);
   mkdirSync(join(salida, ruta), { recursive: true });
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
