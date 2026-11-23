@@ -70,6 +70,11 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <span class="lema">Precios de materiales de obra en ${esc(zona)}</span>
   <nav class="cats">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</nav>
 </div></header>
+<a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
+  <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
+  <span>En ReformaMejor ven tu presupuesto al momento, calculado con tus tarifas, y te eligen para la visita.</span></span>
+  <span class="banda-btn">Suscríbete y recibe clientes →</span>
+</span></a>
 <main class="ancho">
 ${cuerpo}
 </main>
@@ -88,7 +93,7 @@ function ctaReformista() {
     <h2>¿Eres reformista?</h2>
     <p>En ReformaMejor los clientes ven al momento tu presupuesto calculado con tus tarifas y te eligen para la visita. Pagas por visita y al firmar.</p>
   </div>
-  <a class="boton" href="${esc(REGISTRO)}" rel="noopener">Darme de alta como reformista</a>
+  <a class="boton" href="${esc(REGISTRO)}" rel="noopener">Suscríbete y recibe clientes</a>
 </aside>`;
 }
 

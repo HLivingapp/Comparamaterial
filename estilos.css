@@ -61,3 +61,11 @@ tr.cat th a{color:inherit}
 .faq details{background:var(--sup);border:1px solid var(--li);border-radius:8px;padding:10px 14px}
 .faq summary{cursor:pointer;font-weight:600}
 .faq details p{margin-top:6px}
+.banda{display:block;background:var(--ac);color:var(--acTx);text-decoration:none}
+.banda .ancho{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding-block:18px}
+.banda-txt{display:grid;gap:4px;flex:1 1 360px;min-width:0}
+.banda-txt b{font-size:clamp(1.15rem,2.6vw,1.5rem);line-height:1.2}
+.banda-txt span{opacity:.9;font-size:.95rem}
+.banda-btn{background:var(--acTx);color:var(--ac);font-weight:800;padding:12px 20px;border-radius:8px;white-space:nowrap}
+.banda:hover .banda-btn,.banda:focus-visible .banda-btn{text-decoration:underline}
+.banda:focus-visible{outline:3px solid var(--tx);outline-offset:-3px}
