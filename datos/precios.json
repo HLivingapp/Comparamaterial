@@ -1405,6 +1405,286 @@
           "enlace": "https://www.obramat.es/productos/tubo-multicapa-20mm-rollo-100m-25025864.html"
         }
       ]
+    },
+    {
+      "slug": "llave-paso-empotrar-1-2",
+      "nombre": "Llave de paso de empotrar 1/2\"",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "1 unidad",
+      "unidad": "ud",
+      "consejo": "Compra el embellecedor y el mando a juego aparte y deja la alargadera prevista según el grosor final del alicatado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "MT válvula empotrar roscada 1/2\"",
+          "precio": 8.49,
+          "enlace": "https://www.leroymerlin.es/productos/valvula-empotrar-roscada-1-2-84534095.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Arco válvula empotrar Texas 1/2\" roscar hembra",
+          "precio": 5.2,
+          "nota": "Sin mando; se vende aparte",
+          "enlace": "https://www.obramat.es/productos/valvula-empotrar-texas-1-2-roscar-hembra-10410190.html"
+        }
+      ]
+    },
+    {
+      "slug": "bote-sifonico-110",
+      "nombre": "Bote sifónico PVC 110 mm",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "1 unidad",
+      "unidad": "ud",
+      "consejo": "Colócalo accesible y con pendiente hacia la bajante, y comprueba que la altura encaja en el espesor del recrecido.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Bote sifónico PVC con tapa de expansión, 85 mm de alto",
+          "precio": 4.89,
+          "nota": "La ficha no indica el diámetro; compatible con tapa de 110 mm",
+          "enlace": "https://www.leroymerlin.es/productos/bote-sifonico-t-expansion-alt-85mm-89161421.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Bote sifónico con tapa expansiva (Hidrotecnoagua)",
+          "precio": 4.7,
+          "nota": "La ficha no indica el diámetro (150 mm de ancho, 100 mm de alto)",
+          "enlace": "https://www.obramat.es/productos/bote-sifonico-con-tapa-expansiva-25045323.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-pex-16-mm",
+      "nombre": "Tubo PEX 16 mm",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "rollo",
+      "unidad": "rollo",
+      "consejo": "Usa vaina corrugada en los tramos empotrados y no mezcles sistemas de racor de distintos fabricantes.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Isoltubex PEX-A 16x1,8 rollo 100 m",
+          "precio": 75.99,
+          "porUnidad": "0,76 €/m",
+          "nota": "Rollo de 100 m",
+          "enlace": "https://www.leroymerlin.es/productos/tubo-pex-a-16-x-1-8-rollo-100-m-84972048.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Isoltubex PEX-A 16 mm rollo 25 m",
+          "precio": 21.25,
+          "porUnidad": "0,85 €/m",
+          "nota": "Rollo de 25 m",
+          "enlace": "https://www.obramat.es/productos/rollo-16mm-25m-pex-a-10855124.html"
+        }
+      ]
+    },
+    {
+      "slug": "valvula-clic-clac",
+      "nombre": "Válvula de desagüe clic-clac para lavabo",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "1 unidad",
+      "unidad": "ud",
+      "consejo": "Fíjate en si el lavabo tiene rebosadero: la válvula debe ser con o sin rebosadero según el modelo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Equation válvula click corta 80 mm cromada",
+          "precio": 12.99,
+          "nota": "Con rebosadero",
+          "enlace": "https://www.leroymerlin.es/productos/valvula-click-corta-equation-80mm-cromada-91664555.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Inyectometal válvula click clack lavabo 1 1/4\" cromada",
+          "precio": 5.4,
+          "nota": "La ficha no indica si lleva rebosadero",
+          "enlace": "https://www.obramat.es/productos/valvula-click-clack-lavabo-1-1-4-cromada-25026283.html"
+        }
+      ]
+    },
+    {
+      "slug": "arena-25-kg",
+      "nombre": "Arena fina en saco",
+      "categoria": "Albañilería y morteros",
+      "formato": "saco 25 kg",
+      "unidad": "saco",
+      "consejo": "Para pequeñas reparaciones compensa el saco; para más de una hormigonera, pide arena a granel o en big bag.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Canteras La Belonga arena fina 0-2 mm 25 kg",
+          "precio": 2.2,
+          "porUnidad": "0,09 €/kg",
+          "enlace": "https://www.obramat.es/productos/arena-fina-0-2-mm-25-kg-10214533.html"
+        }
+      ]
+    },
+    {
+      "slug": "yeso-escayola-20-kg",
+      "nombre": "Escayola en saco",
+      "categoria": "Albañilería y morteros",
+      "formato": "saco 17 kg",
+      "unidad": "saco",
+      "consejo": "Amasa pequeñas cantidades: la escayola fragua en pocos minutos y la que endurece no se recupera.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Placo Iberyola escayola blanca 17 kg",
+          "precio": 2.3,
+          "enlace": "https://www.leroymerlin.es/productos/escayola-blanca-iberyola-de-17-kg-19867631.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Placo (Saint-Gobain) Iberyola MN 17 kg",
+          "precio": 2.54,
+          "enlace": "https://www.obramat.es/productos/escayola-placo-iberyola-mn-17-kg-10975356.html"
+        }
+      ]
+    },
+    {
+      "slug": "mortero-monocapa-25-kg",
+      "nombre": "Mortero monocapa",
+      "categoria": "Albañilería y morteros",
+      "formato": "saco 25 kg",
+      "unidad": "saco",
+      "consejo": "Compra todo el monocapa de un mismo lote para evitar diferencias de tono en la fachada.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Molins Revat Raspado blanco 25 kg",
+          "precio": 8.29,
+          "porUnidad": "0,33 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-monocapa-molins-revat-raspado-blanco-25-kg-19002522.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Weber weberpral prisma blanco 25 kg",
+          "precio": 7.42,
+          "porUnidad": "0,30 €/kg",
+          "enlace": "https://www.obramat.es/productos/mortero-monocapa-weberpral-prisma-25-kg-blanco-10484964.html"
+        }
+      ]
+    },
+    {
+      "slug": "placa-pyl-hidrofuga-13",
+      "nombre": "Placa de yeso laminado hidrófuga H1 13 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "placa 3000x1200x13 mm (3,6 m²)",
+      "unidad": "placa",
+      "consejo": "En baños y cocinas usa placa hidrófuga (verde) y trata las juntas y encuentros con banda impermeable antes de alicatar.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Placo PPM 3000x1200x13 mm",
+          "precio": 19.44,
+          "porUnidad": "5,40 €/m²",
+          "nota": "La de 2500x1200 cuesta 16,20 € (5,40 €/m²); precio leído del listado de categoría",
+          "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ppm-3000x1200x13-mm-19645472.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Placo (Saint-Gobain) PPM 3000x1200x13 mm",
+          "precio": 19.44,
+          "porUnidad": "5,40 €/m²",
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ppm-3000x1200x13mm-10649702.html"
+        }
+      ]
+    },
+    {
+      "slug": "cinta-juntas-papel",
+      "nombre": "Cinta de papel para juntas de placa de yeso",
+      "categoria": "Tabiquería seca",
+      "formato": "rollo 150 m x 50 mm",
+      "unidad": "rollo",
+      "consejo": "Humedece ligeramente la cinta y asiéntala sobre una primera capa de pasta para que no salgan burbujas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Standers cinta de papel para juntas 150 m",
+          "precio": 3.6,
+          "enlace": "https://www.leroymerlin.es/productos/cinta-de-papel-para-juntas-standers-de-150-m-18769422.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Semin cinta juntas papel 50 mm x 150 m",
+          "precio": 3.25,
+          "enlace": "https://www.obramat.es/productos/cinta-juntas-50-mm-150-m-10977512.html"
+        }
+      ]
+    },
+    {
+      "slug": "espuma-poliuretano-750-ml",
+      "nombre": "Espuma de poliuretano",
+      "categoria": "Tabiquería seca",
+      "formato": "bote 750 ml",
+      "unidad": "ud",
+      "consejo": "Humedece el hueco antes de aplicar y rellena solo hasta la mitad, porque la espuma expande.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton espuma multiusos 750 ml (aplicación manual)",
+          "precio": 5.9,
+          "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-axton-multiusos-750-ml-para-puertas-ventanas-paredes-y-suelos-en-color-amarillo-tiempo-de-secado-30-minutos-aplicacion-manual-81884788.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Bostik espuma multiusos 750 ml (aplicación manual)",
+          "precio": 5.1,
+          "enlace": "https://www.obramat.es/productos/espuma-de-poliuretano-multiusos-750ml-manual-10563686.html"
+        }
+      ]
+    },
+    {
+      "slug": "xps-40-mm",
+      "nombre": "Panel aislante XPS 40 mm",
+      "categoria": "Aislamiento",
+      "formato": "panel 1250x600x40 mm (0,75 m²)",
+      "unidad": "panel",
+      "consejo": "Para suelos y cubiertas elige XPS de 300 kPa y coloca los paneles a matajuntas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Asfaltos Chova Chovafoam media madera 1,25x0,6 m 40 mm",
+          "precio": 3.89,
+          "porUnidad": "5,19 €/m²",
+          "nota": "Canto a media madera; precio leído del listado de categoría",
+          "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-extruido-xps-asfaltos-chova-chovafoam-media-madera-1-25x0-6m-espesor-40mm-r-1-15-10403666.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Soprema XPS SL 300 kPa 125x60x4 cm",
+          "precio": 4.83,
+          "porUnidad": "6,44 €/m²",
+          "nota": "Canto recto",
+          "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x4cm-soprema-25039375.html"
+        }
+      ]
+    },
+    {
+      "slug": "lamina-antiimpacto",
+      "nombre": "Lámina antiimpacto para suelo",
+      "categoria": "Aislamiento",
+      "formato": "rollo 15x1 m, 5 mm (15 m²)",
+      "unidad": "rollo",
+      "consejo": "Sube la lámina unos centímetros por el perímetro de la pared para que el suelo no transmita el ruido al tabique.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Danosa Impactodan 5 mm rollo 15x1 m",
+          "precio": 35.44,
+          "porUnidad": "2,36 €/m²",
+          "enlace": "https://www.leroymerlin.es/productos/1-ud-rollo-polietileno-danosa-impactodan-espesor-5mm-15x1m-r-0-135-17308452.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Danosa Impactodan 5 mm rollo 15x1 m",
+          "precio": 27,
+          "porUnidad": "1,80 €/m²",
+          "enlace": "https://www.obramat.es/productos/lamina-acustica-impactodan-5-danosa-1500x100x0-5-cm-10390352.html"
+        }
+      ]
     }
   ]
 }
