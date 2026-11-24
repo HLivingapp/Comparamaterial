@@ -1685,6 +1685,204 @@
           "enlace": "https://www.obramat.es/productos/lamina-acustica-impactodan-5-danosa-1500x100x0-5-cm-10390352.html"
         }
       ]
+    },
+    {
+      "slug": "pintura-plastica-blanca-4-l",
+      "nombre": "Pintura plástica blanca mate 4 L",
+      "categoria": "Pintura",
+      "formato": "bote 4 L",
+      "unidad": "bote",
+      "consejo": "Para paredes de obra nueva o muy absorbentes calcula dos manos (unos 10-12 m² por litro y mano) y compra todo del mismo lote para evitar diferencias de tono.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Luxens Basic blanco mate",
+          "precio": 18.99,
+          "porUnidad": "4,75 €/L",
+          "enlace": "https://www.leroymerlin.es/productos/pintura-de-interior-basic-luxens-color-white-mate-4l-para-paredes-y-techos-82680563.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CPP L2000 blanca mate",
+          "precio": 9.95,
+          "porUnidad": "2,49 €/L",
+          "nota": "Gama económica de menor cubrición que la Luxens Basic; precio web sin tienda seleccionada.",
+          "enlace": "https://www.obramat.es/productos/pintura-plastica-blanca-mate-4l-l2000-25055853.html"
+        }
+      ]
+    },
+    {
+      "slug": "imprimacion-selladora-4-l",
+      "nombre": "Fijador / imprimación selladora al agua 4 L",
+      "categoria": "Pintura",
+      "formato": "bote 4 L",
+      "unidad": "bote",
+      "consejo": "Aplica el fijador sobre yeso nuevo, pladur o paredes que dejan polvo antes de pintar: ahorra pintura y evita que la plástica se cuartee.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Luxens fijador acrílico incoloro",
+          "precio": 41.99,
+          "porUnidad": "10,50 €/L",
+          "nota": "Interior; la ficha no dice 'al agua' explícitamente, pero se limpia con agua.",
+          "enlace": "https://www.leroymerlin.es/productos/fijador-acrilico-luxens-de-4l-19380270.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Bruper Fix fondo fijador acrílico",
+          "precio": 26,
+          "porUnidad": "6,50 €/L",
+          "nota": "La ficha no indica la base (agua/disolvente); pensado para sellar albañilería.",
+          "enlace": "https://www.obramat.es/fondo-fijador-bruper-fix-4l-10566101.html"
+        }
+      ]
+    },
+    {
+      "slug": "esmalte-al-agua-750-ml",
+      "nombre": "Esmalte al agua blanco satinado 750 ml",
+      "categoria": "Pintura",
+      "formato": "bote 750 ml",
+      "unidad": "bote",
+      "consejo": "Para puertas y rodapiés lija suave y usa rodillo de espuma o microfibra corta: el esmalte al agua seca rápido, no amarillea y huele poco.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Luxens Multisuperficies blanco satinado",
+          "precio": 13.49,
+          "porUnidad": "17,99 €/L",
+          "enlace": "https://www.leroymerlin.es/productos/esmalte-de-interior-multisuperficies-luxens-color-white-satinado-750ml-para-puertas-ventanas-radiadores-y-muebles-85063262.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Blatem esmalte acrílico satinado blanco",
+          "precio": 8.4,
+          "porUnidad": "11,20 €/L",
+          "enlace": "https://www.obramat.es/productos/esmalte-acrilico-satinado-750ml-blanco-25069077.html"
+        }
+      ]
+    },
+    {
+      "slug": "pintura-fachada-15-l",
+      "nombre": "Pintura de fachada acrílica blanca mate 15 L",
+      "categoria": "Pintura",
+      "formato": "bote 15 L",
+      "unidad": "bote",
+      "consejo": "Pinta fachadas con temperaturas entre 5 y 30 °C, sin lluvia prevista en 24 h y sin sol directo fuerte sobre el paramento.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Luxens fachada blanco mate base agua antigoteo",
+          "precio": 49.99,
+          "porUnidad": "3,33 €/L",
+          "nota": "Acrílica al agua, no pliolite.",
+          "enlace": "https://www.leroymerlin.es/productos/pintura-exterior-color-blanco-para-hormigon-fachada-luxens-mate-15l-base-agua-antigoteo-81887964.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Ferroluz revestimiento fachada mate liso blanco",
+          "precio": 45,
+          "porUnidad": "3,00 €/L",
+          "nota": "Acrílica al agua, no pliolite; la descripción de la ficha dice 4 L por error, el título y el €/L corresponden a 15 L.",
+          "enlace": "https://www.obramat.es/productos/revestimiento-fachada-mate-liso-15l-blanco-25077410.html"
+        }
+      ]
+    },
+    {
+      "slug": "plaste-5-kg",
+      "nombre": "Plaste en polvo 5 kg",
+      "categoria": "Pintura",
+      "formato": "saco 5 kg",
+      "unidad": "saco",
+      "consejo": "Prepara solo la cantidad que vayas a usar antes de que fragüe y lija con grano fino (120-180) antes de imprimar.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton plaste para rellenar en polvo",
+          "precio": 9.99,
+          "porUnidad": "2,00 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/plaste-para-rellenar-en-polvo-axton-5-kg-83978646.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Beissier Extraplas Standard capa media 4H",
+          "precio": 6.8,
+          "porUnidad": "1,36 €/kg",
+          "enlace": "https://www.obramat.es/productos/plaste-en-polvo-capa-media-standard-extraplas-4h-5kg-10094553.html"
+        }
+      ]
+    },
+    {
+      "slug": "cinta-carrocero",
+      "nombre": "Cinta de carrocero 48 mm",
+      "categoria": "Pintura",
+      "formato": "rollo 48 mm x 45-50 m",
+      "unidad": "rollo",
+      "consejo": "Retira la cinta cuando la pintura aún esté fresca o mordiente, tirando en ángulo, para que no arranque la película.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Dexter cinta perfil recto 48 mm x 50 m",
+          "precio": 4.79,
+          "porUnidad": "0,10 €/m",
+          "nota": "Cinta de pintor de calidad superior (perfil recto, superficies lisas).",
+          "enlace": "https://www.leroymerlin.es/productos/cinta-perfil-recto-dexter-50mx48mm-86904474.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Miarco cinta de pintor 48 mm x 45 m",
+          "precio": 1.32,
+          "porUnidad": "0,03 €/m",
+          "nota": "Rollo de 45 m (no 50 m) y gama básica de crepé.",
+          "enlace": "https://www.obramat.es/productos/cinta-de-pintor-48-mm-x-45-m-10559192.html"
+        }
+      ]
+    },
+    {
+      "slug": "rodillo-pintura-22-cm",
+      "nombre": "Rodillo de pintura 22 cm para plástica",
+      "categoria": "Pintura",
+      "formato": "rodillo 22 cm con mango",
+      "unidad": "ud",
+      "consejo": "Humedece el rodillo y escúrrelo antes de empezar, y pinta en W cargándolo en una bandeja con rejilla para no dejar marcas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Ciret rodillo superficies lisas 220 mm pelo largo poliacrílico",
+          "precio": 5.49,
+          "nota": "La descripción incluye mango y varilla de acero, aunque la ficha también indica 'cantidad de recarga: 1'.",
+          "enlace": "https://www.leroymerlin.es/productos/rodillo-para-pintar-superficies-lisas-y-fachadas-lisas-ciret-de-220-mm-de-anchura-48-mm-de-diametro-pelo-largo-mas-de-12-mm-fibra-de-poliacrilico-varilla-de-acero-87742774.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Barbosa rodillo superficies lisas 22 cm",
+          "precio": 3.05,
+          "nota": "Incluye mango (varilla de acero cincado).",
+          "enlace": "https://www.obramat.es/productos/rodillo-superficies-lisas-22cm-10763543.html"
+        }
+      ]
+    },
+    {
+      "slug": "sellador-acrilico-300-ml",
+      "nombre": "Masilla acrílica blanca 300 ml",
+      "categoria": "Pintura",
+      "formato": "cartucho 300 ml",
+      "unidad": "ud",
+      "consejo": "Usa masilla acrílica pintable para sellar juntas de rodapiés, molduras y marcos antes de pintar; en baños y cocinas usa silicona.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "NMC Adefix P5 masilla pintable 310 ml",
+          "precio": 5.29,
+          "nota": "Cartucho de 310 ml; masilla pintable para molduras (la ficha no la define explícitamente como acrílica). Las acrílicas Sika y Quilosa de 300 ml en leroymerlin.es son de vendedores marketplace y se descartaron.",
+          "enlace": "https://www.leroymerlin.es/productos/masilla-pintable-310-ml-82521337.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Baixens masilla acrílica para juntas blanco",
+          "precio": 1.2,
+          "enlace": "https://www.obramat.es/productos/masilla-acrilica-para-juntas-300ml-blanco-10706360.html"
+        }
+      ]
     }
   ]
 }
