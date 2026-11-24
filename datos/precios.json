@@ -1883,6 +1883,260 @@
           "enlace": "https://www.obramat.es/productos/masilla-acrilica-para-juntas-300ml-blanco-10706360.html"
         }
       ]
+    },
+    {
+      "slug": "big-bag-escombros-1-m3",
+      "nombre": "Saco big bag para escombros",
+      "categoria": "Obra y protección",
+      "formato": "1 unidad",
+      "unidad": "ud",
+      "consejo": "Los big bag sin recogida son baratos, pero tendrás que contratar aparte su retirada; si no tienes acceso para camión-grúa, valora el saco con gestión de residuo incluida.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Saco BIG-BAG 80x90 cm sin recogida",
+          "precio": 5.76,
+          "nota": "Precio leído en el listado de categoría (vendido por Leroy Merlin). Sin servicio de recogida; volumen algo inferior a 1 m³.",
+          "enlace": "https://www.leroymerlin.es/productos/saco-big-bag-80x90-cm-sin-recogida-18930562.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Saco BigBag 85x85x90 cm",
+          "precio": 3.7,
+          "nota": "Precio leído en el listado de categoría. Sin recogida (~0,65 m³). Obramat vende también sacos de 1 m³ con gestión de residuo incluida desde 46 € (M3 Municipal).",
+          "enlace": "https://www.obramat.es/productos/saco-bigbag-85x85x90-cm-10983896.html"
+        }
+      ]
+    },
+    {
+      "slug": "sacos-escombro-pack",
+      "nombre": "Sacos de escombro de rafia 50x80 cm",
+      "categoria": "Obra y protección",
+      "formato": "pack 100 sacos",
+      "unidad": "pack",
+      "consejo": "No los llenes de más de 25 kg: un saco de rafia lleno de escombro pesa mucho y se rompe al arrastrarlo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack 100 sacos de rafia standard 50x80 cm",
+          "precio": 20,
+          "porUnidad": "0,20 €/saco",
+          "nota": "Precio leído en el listado de lotes (vendido por Leroy Merlin). También hay pack de 10 por 2 € y saco suelto a 0,20 €.",
+          "enlace": "https://www.leroymerlin.es/productos/pack-100-sacos-de-rafia-standard-50x80-cm-94508008.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Saco rafia 50x80 cm (carga máx. 25 kg)",
+          "precio": 0.18,
+          "porUnidad": "0,18 €/saco",
+          "nota": "Se vende por unidad, no en pack; 100 sacos saldrían por unos 18 €.",
+          "enlace": "https://www.obramat.es/productos/saco-rafia-10983882.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "film-protector-plastico",
+      "nombre": "Plástico protector cubretodo 4x5 m",
+      "categoria": "Obra y protección",
+      "formato": "pieza 4x5 m (20 m²)",
+      "unidad": "ud",
+      "consejo": "Para cubrir muebles al pintar basta el plástico fino; para el suelo de una obra usa uno más grueso o cartón, porque el fino resbala y se rompe.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Dexter plástico de protección 5x4 m (12 µm)",
+          "precio": 1.89,
+          "porUnidad": "0,09 €/m²",
+          "enlace": "https://www.leroymerlin.es/productos/plastico-de-proteccion-dexter-5mx4m-82261725.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Nerpel plástico cubretodo standard reciclado 4x5 m",
+          "precio": 1.1,
+          "porUnidad": "0,06 €/m²",
+          "nota": "Precio leído en el listado de categoría; no indica el grosor. Lleva etiqueta de 'mejor precio por cantidad'. La versión fina cuesta 0,65 € y la extrafuerte 2,50 €.",
+          "enlace": "https://www.obramat.es/productos/plastico-cubretodo-standard-reciclado-4x5-m-10963512.html"
+        }
+      ]
+    },
+    {
+      "slug": "carton-protector-suelos",
+      "nombre": "Rollo de cartón ondulado para proteger suelos",
+      "categoria": "Obra y protección",
+      "formato": "rollo 0,9 x 25 m (22,5 m²)",
+      "unidad": "rollo",
+      "consejo": "Fija las juntas entre tiras con cinta de carrocero y deja el cartón por fuera del rodapié para que el polvo no se meta por debajo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Rollo cartón ondulado superior 0,9 x 25 m",
+          "precio": 9.22,
+          "porUnidad": "0,41 €/m²",
+          "nota": "Precio leído en el listado de categoría (vendido por Leroy Merlin).",
+          "enlace": "https://www.leroymerlin.es/productos/rollo-carton-ondulado-superior-0-9-m-x-25-m-82938434.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Rollo de cartón ondulado 90 cm x 25 m",
+          "precio": 7.95,
+          "porUnidad": "0,35 €/m²",
+          "enlace": "https://www.obramat.es/productos/rollo-de-carton-ondulado-90-cm-x-25-m-10163020.html"
+        }
+      ]
+    },
+    {
+      "slug": "puntal-metalico-3-m",
+      "nombre": "Puntal metálico extensible ~3 m",
+      "categoria": "Obra y protección",
+      "formato": "1 unidad",
+      "unidad": "ud",
+      "consejo": "Apoya siempre el puntal sobre un tablón, tanto arriba como abajo, para repartir la carga y no marcar el suelo ni el techo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Dexter puntal de acero 160-290 cm",
+          "precio": 32.99,
+          "nota": "Altura máxima de 2,9 m; la ficha no indica la carga.",
+          "enlace": "https://www.leroymerlin.es/productos/puntal-de-acero-dexter-160-290-cm-82303550.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Altrad puntal standard tubo Ø48 mm 1,6 a 3 m",
+          "precio": 21,
+          "nota": "Precio leído en el listado de categoría. Llega a 3 m (frente a 2,9 m del de Leroy). El Kenston 160-290 cm cuesta 26,90 €.",
+          "enlace": "https://www.obramat.es/productos/puntal-standard-tubo-48-mm-1-6-a-3-m-25044734.html"
+        }
+      ]
+    },
+    {
+      "slug": "junta-ceramica-5-kg",
+      "nombre": "Mortero de juntas para cerámica 5 kg",
+      "categoria": "Cerámica y colocación",
+      "formato": "saco 5 kg",
+      "unidad": "ud",
+      "consejo": "Compra toda la junta del mismo lote y no la rellenes hasta 24 h después de colocar las baldosas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton Multiplus blanco perla 5 kg (juntas hasta 15 mm)",
+          "precio": 10.49,
+          "porUnidad": "2,10 €/kg",
+          "nota": "Junta flexible, el mismo precio en todos los colores.",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-para-juntas-axton-multiplus-axton-blanco-perla-5kg-85480297.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Junta altas prestaciones 5 kg blanco (juntas hasta 15 mm)",
+          "precio": 8.5,
+          "porUnidad": "1,70 €/kg",
+          "nota": "Junta deformable, equivalente a la de Leroy. La junta convencional de Weber (1-8 mm) cuesta 4,95 €.",
+          "enlace": "https://www.obramat.es/productos/junta-altas-prestaciones-5kg-blanco-25118309.html"
+        }
+      ]
+    },
+    {
+      "slug": "sistema-nivelacion-baldosas",
+      "nombre": "Clips de nivelación para baldosas (junta 2 mm)",
+      "categoria": "Cerámica y colocación",
+      "formato": "pack 250-500 clips",
+      "unidad": "pack",
+      "consejo": "Los clips se rompen y no se reutilizan, pero las cuñas sí: compra un único pack de cuñas y repón solo clips.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Dexter kit 250 clips de nivelación 2 mm",
+          "precio": 19.49,
+          "porUnidad": "0,08 €/clip",
+          "enlace": "https://www.leroymerlin.es/productos/kit-de-250-unidades-de-clips-de-nivelacion-para-baldosas-dexter-de-2mm-86611224.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Peygran calzo junta cerámica 2 mm sistema alicate (bolsa 500)",
+          "precio": 26.95,
+          "porUnidad": "0,05 €/clip",
+          "nota": "Precio leído en el listado de categoría. Bolsa de 500 clips, el doble que en Leroy. El sistema Peygran usa cuñas y alicate propios, que se venden aparte (300 cuñas por 21 €).",
+          "enlace": "https://www.obramat.es/productos/calzo-junta-ceramica-2mm-sistema-alicate-peygran-bolsa-500-piezas-10922814.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "cantonera-aluminio-azulejo",
+      "nombre": "Perfil cantonera de aluminio para azulejo",
+      "categoria": "Cerámica y colocación",
+      "formato": "barra 2,5-2,6 m",
+      "unidad": "ud",
+      "consejo": "Elige la altura del perfil según el grosor de la baldosa más el adhesivo (normalmente 10-12 mm) y córtalo a inglete en las esquinas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Standers perfil esquina cuadrado aluminio plata mate 2,5 m x 12 mm",
+          "precio": 8.99,
+          "porUnidad": "3,60 €/m",
+          "enlace": "https://www.leroymerlin.es/productos/perfil-esquina-y-borde-externo-cuadrado-aluminio-plata-mate-int-ext-2-5mx1-2cm-82009108.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Perfil esquina recta aluminio 10x12x2600 mm plata mate",
+          "precio": 8.95,
+          "porUnidad": "3,44 €/m",
+          "nota": "Barra de 2,6 m. Acabado lacado; la ficha da una altura de 10,5 mm en la descripción y de 12 mm en el nombre.",
+          "enlace": "https://www.obramat.es/productos/perfil-esquina-recta-aluminio-10x12x2600-mm-plata-mate-10272444.html"
+        }
+      ]
+    },
+    {
+      "slug": "rodapie-ceramico",
+      "nombre": "Rodapié cerámico blanco 8x45 cm",
+      "categoria": "Cerámica y colocación",
+      "formato": "pieza 45x8 cm (venta en pack de 4)",
+      "unidad": "ud",
+      "consejo": "Calcula los metros lineales de la estancia restando las puertas y añade un 10 % para cortes y roturas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Artens rodapié cerámico Monocolor 45x8 cm blanco mate",
+          "precio": 1.99,
+          "porUnidad": "4,42 €/m",
+          "nota": "Se vende en pack de 4 piezas (7,96 €, 1,8 m).",
+          "enlace": "https://www.leroymerlin.es/productos/pack-de-4-rodapies-ceramico-monocolor-45x8-cm-blanco-mate-artens-81876546.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Halcón rodapié cerámico 8x45 cm blanco",
+          "precio": 1.35,
+          "porUnidad": "3,00 €/m",
+          "nota": "Se vende en pack de 4 piezas (5,40 €, 1,8 m); el precio por pieza sale de dividir el del pack.",
+          "enlace": "https://www.obramat.es/productos/rodapie-ceramico-8x45cm-blanco-pack-4-unidades-10950016.html"
+        }
+      ]
+    },
+    {
+      "slug": "encimera-laminada-3-m",
+      "nombre": "Encimera laminada de cocina 38 mm",
+      "categoria": "Baño y cocina",
+      "formato": "tablero 360 x 62-63 cm x 38 mm",
+      "unidad": "ud",
+      "consejo": "Sella con silicona los cortes y los huecos del fregadero y la placa: el aglomerado del interior se hincha con el agua.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Delinia/Top Form encimera laminada Chester blanco brillo 360x62 cm 38 mm",
+          "precio": 113,
+          "porUnidad": "31,39 €/m",
+          "nota": "Largo de 3,6 m; no se encontró uno de 3 m en 38 mm.",
+          "enlace": "https://www.leroymerlin.es/productos/encimera-de-cocina-laminada-chester-blanco-brillo-360x62-cm-espesor-38mm-17548846.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Encimera acabado blanco brillo 360x63x3,8 cm",
+          "precio": 99,
+          "porUnidad": "27,50 €/m",
+          "nota": "Precio leído en el listado de categoría. Largo de 3,6 m (no hay de 3 m).",
+          "enlace": "https://www.obramat.es/productos/encimera-acabado-blanco-brillo-360-x-63-x-3-8-cm-10808910.html"
+        }
+      ]
     }
   ]
 }
