@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-11-23",
+  "fecha": "2026-11-24",
   "zona": "Madrid",
   "tiendas": {
     "leroy": {
@@ -2137,6 +2137,287 @@
           "enlace": "https://www.obramat.es/productos/encimera-acabado-blanco-brillo-360-x-63-x-3-8-cm-10808910.html"
         }
       ]
+    },
+    {
+      "slug": "tornillo-placa-yeso-25-mm",
+      "nombre": "Tornillos para placa de yeso 3,5x25 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Caja/bolsa de tornillos fosfatados 3,5x25 mm",
+      "unidad": "caja",
+      "consejo": "Para una placa sencilla sobre perfil de 48 mm basta el tornillo de 25 mm; calcula unos 25-30 tornillos por m² de placa y compra la caja de 1000 si vas a hacer más de un tabique.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Standers tornillo placa de yeso cabeza trompeta PH2 3,5x25 mm (300 uds)",
+          "precio": 4.85,
+          "porUnidad": "1,62 €/100 uds",
+          "nota": "Paquete de 300, no de 1000. La ficha muestra una etiqueta de 'Oferta especial' sin precio tachado. La caja de 1000 (Akifix) solo la vende el marketplace.",
+          "enlace": "https://www.leroymerlin.es/productos/300-tornillo-para-placas-de-yeso-standers-con-cabeza-avellanada-3-5-x-l-25-mm-82222843.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Saint-Gobain Placo TTPC autorroscante placa-chapa 3,5x25 mm (1000 uds)",
+          "precio": 5.9,
+          "porUnidad": "0,59 €/100 uds",
+          "nota": "Bolsa de 1000. Se descartó la caja LOTU de 1000 porque su página muestra precio con IGIC.",
+          "enlace": "https://www.obramat.es/productos/tornillos-autorroscante-placa-chapa-placo-ttpc-3-5x25-mm-1000-uds-10546676.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "guardavivos-pyl",
+      "nombre": "Guardavivos para placa de yeso",
+      "categoria": "Tabiquería seca",
+      "formato": "Perfil esquinero de PVC de 2,5-2,6 m",
+      "unidad": "ud",
+      "consejo": "Coloca guardavivos en todas las esquinas salientes antes de pasar la pasta; protege el canto de golpes y deja la arista recta.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Guardavivos cartón yeso PVC 2,5 m",
+          "precio": 1.35,
+          "porUnidad": "0,54 €/m",
+          "nota": "Mide 2,5 m, no 3 m. La ficha no indica marca.",
+          "enlace": "https://www.leroymerlin.es/productos/guardavivos-carton-yeso-y-pvc-2-5-m-17883460.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Dismat guardavivo yeso laminado PVC perforado 2,6 m",
+          "precio": 0.87,
+          "porUnidad": "0,33 €/m",
+          "nota": "Mide 2,6 m y es de acero galvanizado recubierto de PVC.",
+          "enlace": "https://www.obramat.es/productos/guardavivo-yeso-laminado-pvc-perforado-2-6-m-10452505.html"
+        }
+      ]
+    },
+    {
+      "slug": "malla-fibra-vidrio-mortero",
+      "nombre": "Malla de fibra de vidrio para morteros",
+      "categoria": "Albañilería y morteros",
+      "formato": "Rollo de 1 m de ancho, 90 g/m²",
+      "unidad": "rollo",
+      "consejo": "Embebe la malla en el tercio exterior del mortero, solapando unos 10 cm entre tiras, para evitar fisuras en revocos y encuentros de materiales.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Regarsa malla fibra de vidrio 90 g/m² 1x10 m",
+          "precio": 17.79,
+          "porUnidad": "1,78 €/m²",
+          "nota": "Rollo de 10 m² (1x10 m). No se encontró en Leroy un rollo de 1x50 m vendido por la propia tienda.",
+          "enlace": "https://www.leroymerlin.es/productos/malla-de-fibra-de-vidrio-regarsa-90g-m2-100cmx10m-97255232.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Regarsa malla fibra de vidrio refuerzo mortero 90 g/m² 1x50 m",
+          "precio": 23.45,
+          "porUnidad": "0,47 €/m²",
+          "enlace": "https://www.obramat.es/productos/malla-de-fibra-de-vidrio-de-refuerzo-regarsa-mortero-90-gr-m2-1x50-m-10036880.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "bloque-hormigon-40x20x20",
+      "nombre": "Bloque de hormigón gris 40x20x20",
+      "categoria": "Albañilería y morteros",
+      "formato": "Bloque hueco gris 40x20x20 cm",
+      "unidad": "ud",
+      "consejo": "Calcula 12,5 bloques por m² de muro y compra un 5% extra por roturas; en obra grande pregunta por el precio por palet.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Bloque de hormigón liso gris 40x20x20 cm (fabricante Herarbo)",
+          "precio": 0.87,
+          "nota": "Precio por unidad. La ficha anuncia un 3% de descuento por volumen, no incluido en el precio.",
+          "enlace": "https://www.leroymerlin.es/productos/bloque-de-hormigon-liso-gris-40x20x20-cm-19429403.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Prefabricados Duero bloque de hormigón 40x20x20 cm gris",
+          "precio": 0.82,
+          "nota": "Precio leído en el listado de categoría, no en la ficha. El precio y la referencia dependen del almacén: en el listado hay bloques de 0,71 € a 1,01 € (Herarbo, Pujol, Duero). No se pudo confirmar el almacén de Madrid.",
+          "enlace": "https://www.obramat.es/productos/bloque-de-hormigon-40x20x20-cm-gris-10756123.html"
+        }
+      ]
+    },
+    {
+      "slug": "hormigon-seco-25-kg",
+      "nombre": "Hormigón seco en saco 25 kg",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 25 kg de hormigón H-25",
+      "unidad": "saco",
+      "consejo": "Un saco de 25 kg da unos 12-13 litros de hormigón; para una solera o zapata calcula el volumen y valora si te compensa pedir hormigón en camión.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cemex hormigón seco H-25 25 kg",
+          "precio": 2.99,
+          "porUnidad": "0,12 €/kg",
+          "enlace": "https://www.leroymerlin.es/productos/hormigon-seco-h-25-cemex-25-kg-85776167.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Cemex hormigón seco H-25 25 kg gris",
+          "precio": 2.65,
+          "porUnidad": "0,11 €/kg",
+          "nota": "Comprando el palet completo se ahorra un 5% más.",
+          "enlace": "https://www.obramat.es/productos/hormigon-seco-h-25-cemex-25-kg-gris-25029307.html"
+        }
+      ]
+    },
+    {
+      "slug": "adhesivo-montaje-300-ml",
+      "nombre": "Adhesivo de montaje / sellador MS polímero",
+      "categoria": "Albañilería y morteros",
+      "formato": "Cartucho de 290 ml",
+      "unidad": "cartucho",
+      "consejo": "El polímero MS pega y sella sobre superficies húmedas y admite pintura; aplícalo en cordones verticales para que el adhesivo cure bien.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton Fix & Joint adhesivo de montaje polímero MS 290 ml blanco",
+          "precio": 5.49,
+          "porUnidad": "18,93 €/L",
+          "nota": "Marca propia de Leroy Merlin.",
+          "enlace": "https://www.leroymerlin.es/productos/adhesivo-de-montaaje-exterior-polimero-fix-joint-axton-290-ml-blanco-90111043.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Bostik sellador adhesivo MS H750 290 ml blanco",
+          "precio": 5.65,
+          "porUnidad": "19,48 €/L",
+          "nota": "Primera marca. Comprando la caja completa se ahorra un 5% más.",
+          "enlace": "https://www.obramat.es/productos/sellador-adhesivo-ms-h750-290ml-blanco-10968433.html"
+        }
+      ]
+    },
+    {
+      "slug": "cemento-cola-c1-25-kg",
+      "nombre": "Cemento cola C1 25 kg gris",
+      "categoria": "Cerámica y colocación",
+      "formato": "Saco de 25 kg gris",
+      "unidad": "saco",
+      "consejo": "El C1 sirve para cerámica porosa en interior; para porcelánico, suelos radiantes o exteriores sube a un C2TE.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton mortero cola interior/exterior gris 25 kg",
+          "precio": 4.59,
+          "porUnidad": "0,18 €/kg",
+          "nota": "La ficha no indica la clasificación (C1/C1T). Es la gama básica de marca propia.",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-cola-para-interior-exterior-axton-gris-25-kg-81928500.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Gecol G50 Convencional C1 25 kg gris",
+          "precio": 2.65,
+          "porUnidad": "0,11 €/kg",
+          "enlace": "https://www.obramat.es/productos/cemento-cola-g50-convencional-c1-25kg-gris-25118682.html"
+        }
+      ]
+    },
+    {
+      "slug": "impermeabilizante-terrazas-5-kg",
+      "nombre": "Impermeabilizante líquido elástico para terrazas",
+      "categoria": "Cerámica y colocación",
+      "formato": "Bote de 4 L",
+      "unidad": "bote",
+      "consejo": "Aplica al menos dos manos cruzadas sobre el soporte limpio y seco, y arma con malla las juntas y los encuentros con los petos.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Axton pintura impermeabilizante cubiertas y terrazas 4 L verde",
+          "precio": 16.8,
+          "porUnidad": "4,20 €/L",
+          "nota": "Es una pintura acrílica elástica, no de caucho. La ficha no indica el rendimiento.",
+          "enlace": "https://www.leroymerlin.es/productos/pintura-impermeabilizante-cubiertas-y-terrazas-axton-4l-verde-85066875.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Barpimo impermeabilizante caucho profesional 4 L rojo",
+          "precio": 15,
+          "porUnidad": "3,75 €/L",
+          "nota": "Caucho elástico con un rendimiento de 2-4 m²/L.",
+          "enlace": "https://www.obramat.es/productos/impermeabilizante-caucho-profesional-4l-rojo-25057788.html"
+        }
+      ]
+    },
+    {
+      "slug": "sifon-lavabo",
+      "nombre": "Sifón de botella para lavabo 1 1/4\"",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Sifón de botella cromado 1 1/4\" con salida de 32/40 mm",
+      "unidad": "ud",
+      "consejo": "Antes de comprar, mide la altura entre la válvula y la toma de pared; un sifón extensible te salva si no coinciden.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Equation sifón botella lavabo ABS cromado 1 1/4\" ø40-32 mm",
+          "precio": 22.99,
+          "nota": "Es de ABS cromado. La ficha no dice si incluye válvula.",
+          "enlace": "https://www.leroymerlin.es/productos/sifon-botella-para-lavabo-equation-de-abs-cromado-1-1-4-de-40-32mm-85080379.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Inyectometal sifón lavabo botella extensible 1 1/4\" cromado",
+          "precio": 12.95,
+          "nota": "Es de latón cromado e incluye válvula.",
+          "enlace": "https://www.obramat.es/productos/sifon-lavabo-botella-extensible-1-1-4-cromado-25045277.html"
+        }
+      ]
+    },
+    {
+      "slug": "latiguillo-30-cm",
+      "nombre": "Latiguillo flexible 3/8\" 30 cm",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Latiguillo trenzado inoxidable de 30 cm y rosca de 3/8\"",
+      "unidad": "ud",
+      "consejo": "Comprueba si el grifo pide rosca M10 o 3/8\" y cambia siempre los latiguillos viejos al sustituir el grifo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Equation latiguillo para grifo 30 cm H3/8 - M10 DN8",
+          "precio": 4.39,
+          "nota": "El título indica conexiones H3/8 - M10, pero la ficha habla de macho-hembra 3/8\". La ficha no indica las unidades por paquete.",
+          "enlace": "https://www.leroymerlin.es/productos/latiguillo-para-grifo-equation-30cm-h3-8-l15-m10-dn8-acb-82661544.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Neoperl latiguillo 30 cm 3/8\" hembra DN8",
+          "precio": 0.93,
+          "nota": "Conexión hembra-hembra de 3/8\", no la M10 del grifo. Precio por unidad.",
+          "enlace": "https://www.obramat.es/productos/latiguillo-30cm-3-8-hembra-dn8-10119634.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "radiador-aluminio-6-elementos",
+      "nombre": "Radiador de aluminio para agua caliente",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Radiador de aluminio de 5-6 elementos",
+      "unidad": "radiador",
+      "consejo": "Dimensiona el número de elementos por la potencia que necesita la estancia, no por el ancho del hueco, y revisa la distancia entre ejes si sustituyes uno existente.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Equation 50 radiador de agua aluminio, 6 elementos",
+          "precio": 66,
+          "porUnidad": "11,00 €/elemento",
+          "nota": "Altura de 55,6 cm y 342 W (ΔT30). El Ferroli Xian N 600 de Leroy solo lo vende el marketplace.",
+          "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-equation-50-6-elementos-82313239.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Ferroli Xian 600 radiador de aluminio, 5 elementos",
+          "precio": 47,
+          "porUnidad": "9,40 €/elemento",
+          "nota": "Tiene 5 elementos, no 6, y es otro modelo de altura 600. Compara por €/elemento.",
+          "enlace": "https://www.obramat.es/productos/radiador-de-aluminio-ferroli-xian-600-5-elementos-10538486.html"
+        }
+      ],
+      "comparable": false
     }
   ]
 }
