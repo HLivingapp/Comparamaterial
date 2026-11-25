@@ -1,0 +1,578 @@
+{
+ "cemento-gris-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "mortero-seco-m7-5-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "mortero-autonivelante-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "cemento-cola-c2te-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "hormigon-seco-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "cemento-cola-c1-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "mortero-monocapa-25-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "junta-ceramica-5-kg": {
+  "miniatura": "img/saco-cemento.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
+  "autor": "KVDP",
+  "licencia": "Public domain",
+  "licenciaUrl": "",
+  "archivo": "File:Portland_Cement_Bags.jpg"
+ },
+ "yeso-controlado-17-kg": {
+  "miniatura": "img/saco-yeso.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
+  "autor": "Johnnybam",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:A_bags_of_Cement_in_Awka.jpg"
+ },
+ "yeso-escayola-20-kg": {
+  "miniatura": "img/saco-yeso.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
+  "autor": "Johnnybam",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:A_bags_of_Cement_in_Awka.jpg"
+ },
+ "plaste-5-kg": {
+  "miniatura": "img/saco-yeso.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
+  "autor": "Johnnybam",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:A_bags_of_Cement_in_Awka.jpg"
+ },
+ "arena-25-kg": {
+  "miniatura": "img/arena.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APile_of_Sand_for_Building_in_Anambra_State.jpg",
+  "autor": "Johnnybam",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Pile_of_Sand_for_Building_in_Anambra_State.jpg"
+ },
+ "ladrillo-hueco-doble": {
+  "miniatura": "img/ladrillo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ACeramic_Brick_2020-07-10_017.jpg",
+  "autor": "Chris Light",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Ceramic_Brick_2020-07-10_017.jpg"
+ },
+ "bloque-hormigon-40x20x20": {
+  "miniatura": "img/bloque.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AClose-Up_of_Stacked_Concrete_Blocks_in_Sunlight.jpg",
+  "autor": "Pecid2180",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Close-Up_of_Stacked_Concrete_Blocks_in_Sunlight.jpg"
+ },
+ "placa-yeso-laminado-ba-13": {
+  "miniatura": "img/pladur.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AGib_board_aka_plasterboard_tapered_edges_02.jpg",
+  "autor": "Panamitsu",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Gib_board_aka_plasterboard_tapered_edges_02.jpg"
+ },
+ "placa-yeso-laminado-ignifuga-ppf-13": {
+  "miniatura": "img/pladur.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AGib_board_aka_plasterboard_tapered_edges_02.jpg",
+  "autor": "Panamitsu",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Gib_board_aka_plasterboard_tapered_edges_02.jpg"
+ },
+ "placa-pyl-hidrofuga-13": {
+  "miniatura": "img/pladur.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AGib_board_aka_plasterboard_tapered_edges_02.jpg",
+  "autor": "Panamitsu",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Gib_board_aka_plasterboard_tapered_edges_02.jpg"
+ },
+ "montante-48-mm-3-m": {
+  "miniatura": "img/perfiles.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AMetal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._%28CM014B%2C_07-18-2018%29_%2828645816477%29.jpg",
+  "autor": "MTA Capital Construction Mega Projects",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Metal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._(CM014B,_07-18-2018)_(28645816477).jpg"
+ },
+ "canal-48-mm-3-m": {
+  "miniatura": "img/perfiles.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AMetal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._%28CM014B%2C_07-18-2018%29_%2828645816477%29.jpg",
+  "autor": "MTA Capital Construction Mega Projects",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Metal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._(CM014B,_07-18-2018)_(28645816477).jpg"
+ },
+ "guardavivos-pyl": {
+  "miniatura": "img/perfiles.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AMetal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._%28CM014B%2C_07-18-2018%29_%2828645816477%29.jpg",
+  "autor": "MTA Capital Construction Mega Projects",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Metal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._(CM014B,_07-18-2018)_(28645816477).jpg"
+ },
+ "tornillo-placa-yeso-25-mm": {
+  "miniatura": "img/tornillos.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ADrywall_screw.png",
+  "autor": "User: MrX",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "archivo": "File:Drywall_screw.png"
+ },
+ "lana-roca-40-mm": {
+  "miniatura": "img/lana-roca.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AArrangement_Mineralwolle.jpeg",
+  "autor": "FMI Fachverband Mineralwolleindustrie",
+  "licencia": "CC BY-SA 3.0 de",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "archivo": "File:Arrangement_Mineralwolle.jpeg"
+ },
+ "xps-40-mm": {
+  "miniatura": "img/xps.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ASto_-_Insulation_boards_4.jpg",
+  "autor": "Cjp24",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Sto_-_Insulation_boards_4.jpg"
+ },
+ "azulejo-pared-blanco": {
+  "miniatura": "img/azulejo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AHotel_bathroom_with_toilet%2C_toilet_brush%2C_and_toilet_paper_in_hotel_in_Os%2C_Hordaland%2C_Norway_2018-03-19_E._Also_wall_and_floor_tiles.jpg",
+  "autor": "Wolfmann",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Hotel_bathroom_with_toilet,_toilet_brush,_and_toilet_paper_in_hotel_in_Os,_Hordaland,_Norway_2018-03-19_E._Also_wall_and_floor_tiles.jpg"
+ },
+ "tubo-pvc-110-mm-3-m": {
+  "miniatura": "img/pvc.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
+  "autor": "Steven Pavlov",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+ },
+ "tubo-pvc-40-mm-3-m": {
+  "miniatura": "img/pvc.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
+  "autor": "Steven Pavlov",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+ },
+ "bote-sifonico-110": {
+  "miniatura": "img/pvc.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
+  "autor": "Steven Pavlov",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+ },
+ "sifon-lavabo": {
+  "miniatura": "img/sifon.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ABrass_P_trap.jpg",
+  "autor": "Raquel Baranow",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Brass_P_trap.jpg"
+ },
+ "valvula-clic-clac": {
+  "miniatura": "img/sifon.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ABrass_P_trap.jpg",
+  "autor": "Raquel Baranow",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Brass_P_trap.jpg"
+ },
+ "llave-paso-empotrar-1-2": {
+  "miniatura": "img/llave-paso.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ABall_Valve.jpg",
+  "autor": "Bitjungle",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Ball_Valve.jpg"
+ },
+ "pintura-plastica-blanca-mate-15-l": {
+  "miniatura": "img/pintura.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AOpen_Soy_Paint_Cans_%2810481725136%29.jpg",
+  "autor": "United Soybean Board",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Open_Soy_Paint_Cans_(10481725136).jpg"
+ },
+ "pintura-plastica-blanca-4-l": {
+  "miniatura": "img/pintura.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AOpen_Soy_Paint_Cans_%2810481725136%29.jpg",
+  "autor": "United Soybean Board",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Open_Soy_Paint_Cans_(10481725136).jpg"
+ },
+ "imprimacion-selladora-4-l": {
+  "miniatura": "img/pintura.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AOpen_Soy_Paint_Cans_%2810481725136%29.jpg",
+  "autor": "United Soybean Board",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Open_Soy_Paint_Cans_(10481725136).jpg"
+ },
+ "pintura-fachada-15-l": {
+  "miniatura": "img/pintura.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AOpen_Soy_Paint_Cans_%2810481725136%29.jpg",
+  "autor": "United Soybean Board",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Open_Soy_Paint_Cans_(10481725136).jpg"
+ },
+ "esmalte-al-agua-750-ml": {
+  "miniatura": "img/esmalte.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APaint_bucket_and_brush.jpg",
+  "autor": "Ionenlaser",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Paint_bucket_and_brush.jpg"
+ },
+ "rodillo-pintura-22-cm": {
+  "miniatura": "img/rodillo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APaint-roller_%2823956075297%29.jpg",
+  "autor": "r. nial bradshaw",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Paint-roller_(23956075297).jpg"
+ },
+ "cinta-carrocero": {
+  "miniatura": "img/cinta-carrocero.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AA_Roll_of_Masking_Tape_%2832410678777%29.jpg",
+  "autor": "HireAHelper",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:A_Roll_of_Masking_Tape_(32410678777).jpg"
+ },
+ "silicona-sanitaria": {
+  "miniatura": "img/silicona.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AKartuschenpistole.jpg",
+  "autor": "D-Platoon",
+  "licencia": "CC BY-SA 3.0 de",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "archivo": "File:Kartuschenpistole.jpg"
+ },
+ "sellador-acrilico-300-ml": {
+  "miniatura": "img/silicona.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AKartuschenpistole.jpg",
+  "autor": "D-Platoon",
+  "licencia": "CC BY-SA 3.0 de",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "archivo": "File:Kartuschenpistole.jpg"
+ },
+ "adhesivo-montaje-300-ml": {
+  "miniatura": "img/silicona.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AKartuschenpistole.jpg",
+  "autor": "D-Platoon",
+  "licencia": "CC BY-SA 3.0 de",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "archivo": "File:Kartuschenpistole.jpg"
+ },
+ "inodoro-completo": {
+  "miniatura": "img/inodoro.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AToilet%2C_toilet_paper%2C_toilet_brush%2C_etc._in_a_bathroom_in_small_hotel_in_Tysnes%2C_Hordaland%2C_Norway_2018-03-18_C._Also_wall_and_floor_tiles.jpg",
+  "autor": "Wolfmann",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Toilet,_toilet_paper,_toilet_brush,_etc._in_a_bathroom_in_small_hotel_in_Tysnes,_Hordaland,_Norway_2018-03-18_C._Also_wall_and_floor_tiles.jpg"
+ },
+ "cisterna-empotrada-bastidor": {
+  "miniatura": "img/inodoro.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AToilet%2C_toilet_paper%2C_toilet_brush%2C_etc._in_a_bathroom_in_small_hotel_in_Tysnes%2C_Hordaland%2C_Norway_2018-03-18_C._Also_wall_and_floor_tiles.jpg",
+  "autor": "Wolfmann",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Toilet,_toilet_paper,_toilet_brush,_etc._in_a_bathroom_in_small_hotel_in_Tysnes,_Hordaland,_Norway_2018-03-18_C._Also_wall_and_floor_tiles.jpg"
+ },
+ "mueble-bano-80": {
+  "miniatura": "img/lavabo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ABathroom_sink%2C_New_Orleans%2C_December_2024.jpg",
+  "autor": "Infrogmation",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Bathroom_sink,_New_Orleans,_December_2024.jpg"
+ },
+ "plato-ducha-resina-80x120": {
+  "miniatura": "img/ducha.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AKabina_prysznicowa_Radaway_Furo_SL_Black_KDD.jpg",
+  "autor": "JacekBura",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Kabina_prysznicowa_Radaway_Furo_SL_Black_KDD.jpg"
+ },
+ "mampara-frontal-120": {
+  "miniatura": "img/ducha.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AKabina_prysznicowa_Radaway_Furo_SL_Black_KDD.jpg",
+  "autor": "JacekBura",
+  "licencia": "CC0",
+  "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "archivo": "File:Kabina_prysznicowa_Radaway_Furo_SL_Black_KDD.jpg"
+ },
+ "grifo-lavabo-monomando": {
+  "miniatura": "img/grifo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AChicago_Faucet_Co_faucet.jpg",
+  "autor": "Eric Polk",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Chicago_Faucet_Co_faucet.jpg"
+ },
+ "grifo-cocina-monomando": {
+  "miniatura": "img/grifo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AChicago_Faucet_Co_faucet.jpg",
+  "autor": "Eric Polk",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Chicago_Faucet_Co_faucet.jpg"
+ },
+ "columna-ducha-termostatica": {
+  "miniatura": "img/columna-ducha.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AHigh_speed_shower_filtered.jpg",
+  "autor": "JovanCormac",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:High_speed_shower_filtered.jpg"
+ },
+ "fregadero-inox-1-seno": {
+  "miniatura": "img/fregadero.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AMessy_kitchen_sink.jpg",
+  "autor": "W.carter",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Messy_kitchen_sink.jpg"
+ },
+ "termo-electrico-80l": {
+  "miniatura": "img/termo.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AChauffe-eau_%C3%A9lectrique_50L_mural_vertical.jpg",
+  "autor": "Adoscam",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Chauffe-eau_électrique_50L_mural_vertical.jpg"
+ },
+ "calentador-gas-estanco-11l": {
+  "miniatura": "img/calentador.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AChaudi%C3%A8re_%C3%A0_gaz_Br%C3%B6tje_WGB_28_C_%28ext%C3%A9rieur%29.jpg",
+  "autor": "The RedBurn",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Chaudière_à_gaz_Brötje_WGB_28_C_(extérieur).jpg"
+ },
+ "placa-induccion-60": {
+  "miniatura": "img/induccion.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AInduktionskochplatte.jpg",
+  "autor": "Pic p ter",
+  "licencia": "CC BY 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/3.0",
+  "archivo": "File:Induktionskochplatte.jpg"
+ },
+ "encimera-laminada-3-m": {
+  "miniatura": "img/encimera.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AA_quartz_worktop_by_Gemini_Worktops.jpg",
+  "autor": "Oblackburn23",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:A_quartz_worktop_by_Gemini_Worktops.jpg"
+ },
+ "suelo-laminado-ac4-8-mm": {
+  "miniatura": "img/laminado.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
+  "autor": "Wasrts",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+ },
+ "suelo-vinilico-spc-click-con-base": {
+  "miniatura": "img/laminado.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
+  "autor": "Wasrts",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+ },
+ "base-aislante-laminado": {
+  "miniatura": "img/laminado.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
+  "autor": "Wasrts",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+ },
+ "porcelanico-imitacion-madera-20x120": {
+  "miniatura": "img/laminado.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
+  "autor": "Wasrts",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+ },
+ "rodapie-mdf-lacado-blanco-7-cm": {
+  "miniatura": "img/rodapie.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AFu%C3%9Fbodenleiste.JPG",
+  "autor": "Porsche 997 Carrera",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "archivo": "File:Fußbodenleiste.JPG"
+ },
+ "tapajuntas-lacado-blanco-juego": {
+  "miniatura": "img/rodapie.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AFu%C3%9Fbodenleiste.JPG",
+  "autor": "Porsche 997 Carrera",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "archivo": "File:Fußbodenleiste.JPG"
+ },
+ "manilla-puerta-interior-roseta": {
+  "miniatura": "img/manilla.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ADoor_handle.jpg",
+  "autor": "marya from San Luis Obispo, USA",
+  "licencia": "CC BY 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "archivo": "File:Door_handle.jpg"
+ },
+ "kit-herraje-puerta-corredera": {
+  "miniatura": "img/corredera.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AGillman_Ranch%2C_Barn_Door_5-2012_%287414699686%29.jpg",
+  "autor": "inkknife_2000 (7.5 million views +)",
+  "licencia": "CC BY-SA 2.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "archivo": "File:Gillman_Ranch,_Barn_Door_5-2012_(7414699686).jpg"
+ },
+ "ventana-pvc-oscilobatiente-1-hoja": {
+  "miniatura": "img/ventana.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AUPVC_Sash_Window.jpg",
+  "autor": "Durajoin",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "archivo": "File:UPVC_Sash_Window.jpg"
+ },
+ "puerta-entrada-blindada": {
+  "miniatura": "img/puerta-entrada.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ASenovazne_Namesti_994_2_Praha_1_VDV.jpg",
+  "autor": "Mojmir Churavy",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Senovazne_Namesti_994_2_Praha_1_VDV.jpg"
+ },
+ "interruptor-conmutador": {
+  "miniatura": "img/interruptor.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ARocker_light_switch.jpg",
+  "autor": "DemonDays64",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Rocker_light_switch.jpg"
+ },
+ "magnetotermico-1p-n-16a": {
+  "miniatura": "img/magnetotermico.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
+  "autor": "Zimin.V.G.",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Schneider_Electric_circuit_breakers_Acti9_series_01.jpg"
+ },
+ "diferencial-2p-40a-30ma": {
+  "miniatura": "img/magnetotermico.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
+  "autor": "Zimin.V.G.",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Schneider_Electric_circuit_breakers_Acti9_series_01.jpg"
+ },
+ "cuadro-electrico-empotrable": {
+  "miniatura": "img/magnetotermico.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
+  "autor": "Zimin.V.G.",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Schneider_Electric_circuit_breakers_Acti9_series_01.jpg"
+ },
+ "caja-empotrar-universal": {
+  "miniatura": "img/caja.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ATEM_fitting_boxes.JPG",
+  "autor": "Dmitry G",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "archivo": "File:TEM_fitting_boxes.JPG"
+ },
+ "downlight-led-18w": {
+  "miniatura": "img/downlight.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ARecessed_square_fluorescent_light_fixture_with_two_CFLs.jpg",
+  "autor": "Pancho507",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "archivo": "File:Recessed_square_fluorescent_light_fixture_with_two_CFLs.jpg"
+ },
+ "aire-acondicionado-split-3000-frigorias": {
+  "miniatura": "img/split.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3APanasonic_AIR_CONDITIONER_INDOOR_UNIT_CS-C10KJ2_%282%29.jpg",
+  "autor": "Dinkun Chen",
+  "licencia": "CC BY-SA 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "archivo": "File:Panasonic_AIR_CONDITIONER_INDOOR_UNIT_CS-C10KJ2_(2).jpg"
+ },
+ "toallero-electrico-500w": {
+  "miniatura": "img/toallero.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3ATowel_rails_radiator_with_hanger.jpg",
+  "autor": "MB SRL",
+  "licencia": "CC BY 4.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "archivo": "File:Towel_rails_radiator_with_hanger.jpg"
+ },
+ "radiador-aluminio-6-elementos": {
+  "miniatura": "img/radiador.webp",
+  "pagina": "https://commons.wikimedia.org/wiki/File%3AHeat_radiator.jpg",
+  "autor": "Tiia Monto",
+  "licencia": "CC BY-SA 3.0",
+  "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "archivo": "File:Heat_radiator.jpg"
+ }
+}
