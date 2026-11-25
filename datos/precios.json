@@ -3379,6 +3379,466 @@
           "enlace": "https://www.obramat.es/productos/cinta-americana-4610-50mx50mm-gris-10896046.html"
         }
       ]
+    },
+    {
+      "slug": "mecanismo-descarga-doble-pulsador",
+      "nombre": "Mecanismo de descarga de cisterna doble pulsador 3/6 L",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Descargador universal para cisterna baja",
+      "unidad": "ud",
+      "consejo": "Antes de comprar, mide el diámetro del agujero de la cisterna y la altura disponible. Si la cisterna pierde agua, a veces basta con cambiar la goma obturadora.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Descargador FOMINAYA doble pulsador 3/6L",
+          "precio": 12.99,
+          "enlace": "https://www.leroymerlin.es/productos/descargador-fominaya-doble-pulsador-3-6l-85113432.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Mecanismo descarga con doble pulsador 3-6L 5G Fominaya",
+          "precio": 11.95,
+          "enlace": "https://www.obramat.es/productos/mecanismo-descarga-con-doble-pulsador-3-6l-5g-fominaya-10900953.html"
+        }
+      ]
+    },
+    {
+      "slug": "enchufe-schuko-usb",
+      "nombre": "Enchufe schuko con 2 USB (A+C) empotrable",
+      "categoria": "Electricidad",
+      "formato": "Mecanismo de empotrar",
+      "unidad": "ud",
+      "consejo": "Comprueba que la serie coincide con los marcos y tapas que ya tienes; los cargadores USB empotrados necesitan caja de mecanismos con fondo suficiente.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Toma Schuko + 2USB Serie Iris",
+          "precio": 34.85,
+          "nota": "La ficha no aclara si incluye tapa y marco.",
+          "enlace": "https://www.obramat.es/productos/toma-schuko-2usb-serie-iris-25063944.html"
+        }
+      ]
+    },
+    {
+      "slug": "base-multiple-6-tomas-interruptor",
+      "nombre": "Regleta (base múltiple) 6 tomas con interruptor",
+      "categoria": "Electricidad",
+      "formato": "Con cable 3x1,5 mm², 1,5 m",
+      "unidad": "ud",
+      "consejo": "No encadenes regletas ni conectes a una misma base aparatos de mucha potencia (radiadores, hornos, secadores) a la vez.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Base múltiple 6 tomas con interruptor con cable 3x1.5mm2 1.5 metros",
+          "precio": 9.87,
+          "enlace": "https://www.obramat.es/productos/base-multiple-6-tomas-con-interruptor-con-cable-3x1-5mm2-1-5-metros-10041766.html"
+        }
+      ]
+    },
+    {
+      "slug": "termostato-wifi",
+      "nombre": "Termostato / cronotermostato wifi",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Termostato de pared con app",
+      "unidad": "ud",
+      "consejo": "Revisa que sea compatible con tu caldera o equipo (contacto libre de tensión, OpenTherm…) y si necesita alimentación a 230 V o pilas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Termostato inteligente Garza Aspen con Wifi",
+          "precio": 79.09,
+          "nota": "Termostato inteligente de marca; prestaciones distintas al cronotermostato básico.",
+          "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-garza-aspen-con-wifi-85202827.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Cronotermostato wifi calor/frío (Isoltubex)",
+          "precio": 31.55,
+          "nota": "Cronotermostato wifi básico.",
+          "enlace": "https://www.obramat.es/productos/cronotermostato-wifi-calor-frio-25061589.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "plafon-led-redondo-24w",
+      "nombre": "Plafón LED de techo redondo ~24 W",
+      "categoria": "Electricidad",
+      "formato": "Redondo, 31–35 cm, ~2400–2500 lm",
+      "unidad": "ud",
+      "consejo": "Fíjate en los lúmenes y la temperatura de color más que en los vatios; para pasillos y cocinas suele ir bien luz neutra (4000 K).",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Plafón LED redondo blanco FORLIGHT 2530 lm CCT (3000K-6500K) ø31.5 cm IP20",
+          "precio": 27.99,
+          "nota": "Temperatura de color seleccionable; la ficha no indica vatios.",
+          "enlace": "https://www.leroymerlin.es/productos/plafon-led-redondo-blanco-forlight-2530-lm-color-de-luz-de-calida-a-fria-cct-3000k-6500k-31-5-cm-ip20-88539961.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Plafón LED circular 35cm 24W 2400lm",
+          "precio": 22.95,
+          "enlace": "https://www.obramat.es/productos/plafon-led-circular-35cm-24w-2400lm-25083350.html"
+        }
+      ]
+    },
+    {
+      "slug": "esmalte-radiadores-750ml",
+      "nombre": "Esmalte para radiadores blanco 750 ml",
+      "categoria": "Pintura",
+      "formato": "Bote 750 ml",
+      "unidad": "ud",
+      "consejo": "Pinta siempre con el radiador frío y bien desengrasado; usa un esmalte específico que aguante el calor sin amarillear.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Esmalte para radiadores 750ml blanco (Barpimo)",
+          "precio": 9.5,
+          "porUnidad": "12,67 €/L",
+          "nota": "Acabado satinado.",
+          "enlace": "https://www.obramat.es/productos/esmalte-para-radiadores-750ml-blanco-10472735.html"
+        }
+      ]
+    },
+    {
+      "slug": "perfil-transicion-suelo-83cm",
+      "nombre": "Perfil de transición de suelo aluminio 83 cm",
+      "categoria": "Suelos",
+      "formato": "Aluminio plata, 83 cm",
+      "unidad": "ud",
+      "consejo": "Elige el perfil según la diferencia de altura entre suelos (mismo nivel, desnivel o remate) y deja la junta de dilatación del laminado bajo el perfil.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Perfil de acabado de aluminio gris / plata 83 cm",
+          "precio": 8.99,
+          "nota": "Perfil 2 en 1 con instalación por clic (no adhesivo).",
+          "enlace": "https://www.leroymerlin.es/productos/perfil-de-acabado-de-aluminio-gris-plata-83-cm-19725524.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Perfil de transición adhesivo aluminio estriado plata 83cm",
+          "precio": 4.5,
+          "nota": "Adhesivo, estriado.",
+          "enlace": "https://www.obramat.es/productos/perfil-de-transicion-adhesivo-aluminio-estriado-plata-83cm-10125885.html"
+        }
+      ]
+    },
+    {
+      "slug": "guantes-nitrilo-desechables-juba-576",
+      "nombre": "Guantes de nitrilo desechables",
+      "categoria": "Obra y protección",
+      "formato": "Caja, talla 7",
+      "unidad": "caja",
+      "consejo": "Útiles para morteros, siliconas y pinturas; para manipular ladrillo o cortes usa guantes de trabajo recubiertos, no desechables.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Guantes JUBA nitrilo negro 576 T7",
+          "precio": 7.29,
+          "nota": "Caja de 100 unidades.",
+          "enlace": "https://www.leroymerlin.es/productos/guantes-juba-nitrilo-negro-576-t7-89987883.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Guantes de nitrilo desechables Juba 576NR T7",
+          "precio": 3.9,
+          "nota": "La ficha no indica cuántos guantes trae la caja; confirma en tienda antes de comparar.",
+          "enlace": "https://www.obramat.es/productos/guantes-de-nitrilo-desechables-juba-576nr-t7-25057033.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "gres-exterior-antideslizante-33x33",
+      "nombre": "Gres porcelánico exterior antideslizante C3 33x33",
+      "categoria": "Cerámica y colocación",
+      "formato": "33,3x33,3 cm, gris",
+      "unidad": "m²",
+      "consejo": "Para terrazas y zonas mojadas exige clase C3 y comprueba que sea apto para heladas; coloca con cemento cola C2 y deja juntas de dilatación.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo cerámico Velez efecto cemento grey 33.3x33.3 cm C3 ARTENS",
+          "precio": 9.99,
+          "porUnidad": "Caja de 1 m²",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-velez-efecto-cemento-grey-33-3x33-3-cm-c3-artens-82045416.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Baldosa exterior porcelánico 33.3x33.3cm Gredos gris antideslizante",
+          "precio": 7.95,
+          "porUnidad": "Caja de 1,55 m² (12,32 €)",
+          "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-33-3x33-3cm-gredos-gris-antideslizante-25085749.html"
+        }
+      ]
+    },
+    {
+      "slug": "tarima-exterior-composite",
+      "nombre": "Tarima exterior de composite (WPC)",
+      "categoria": "Suelos",
+      "formato": "Lama 2,2 m, ~2 cm de grosor",
+      "unidad": "m²",
+      "consejo": "Calcula también rastreles y clips, que no van incluidos. Deja separación entre lamas y ventilación bajo la tarima.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Lama composite Tatria 220x11x2cm antracita",
+          "precio": 41.28,
+          "porUnidad": "9,99 € la lama de 220x11 cm",
+          "enlace": "https://www.leroymerlin.es/productos/lama-composite-tatria-220x11x2cm-antracita-95898301.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Lama composite 14.5x2.1 cm 2.2 m marrón",
+          "precio": 34.22,
+          "porUnidad": "10,95 € la lama de 220x14,5 cm",
+          "enlace": "https://www.obramat.es/productos/lama-composite-14-5x2-1-cm-2-2-m-marron-25058922.html"
+        }
+      ]
+    },
+    {
+      "slug": "rodapie-pvc-wpc-blanco",
+      "nombre": "Rodapié PVC/WPC blanco",
+      "categoria": "Suelos",
+      "formato": "Tira de ~2,2–2,4 m",
+      "unidad": "ud",
+      "consejo": "Los rodapiés de PVC o WPC aguantan bien la humedad (cocinas, baños). Compara por metro lineal y comprueba la altura.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Rodapié de pvc de 240x1.2cm blanco LC ARTENS",
+          "precio": 6.29,
+          "porUnidad": "Tira de 2,4 m (≈2,62 €/m)",
+          "nota": "La ficha no deja clara la altura del rodapié.",
+          "enlace": "https://www.leroymerlin.es/productos/rodapie-de-pvc-de-240x1-2cm-blanco-lc-artens-88567783.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Rodapié WPC lacado blanco 2240 x 90 x 12 mm",
+          "precio": 6.75,
+          "porUnidad": "3,01 €/m",
+          "nota": "WPC, 9 cm de alto.",
+          "enlace": "https://www.obramat.es/productos/rodapie-wpc-lacado-blanco-2240-x-90-x-12-mm-25042218.html"
+        }
+      ]
+    },
+    {
+      "slug": "porcelanico-60x120-rectificado",
+      "nombre": "Porcelánico rectificado 60x120",
+      "categoria": "Cerámica y colocación",
+      "formato": "60x120 cm, caja 1,44 m²",
+      "unidad": "m²",
+      "consejo": "Las piezas grandes exigen soporte muy plano, cemento cola C2 con doble encolado y clips de nivelación; calcula un 10 % extra por cortes.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Suelo porcelánico Marmi efecto mármol white 60x120 cm C1 ARTENS",
+          "precio": 23.99,
+          "porUnidad": "Caja de 1,44 m² (34,55 €)",
+          "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-marmi-efecto-marmol-white-60x120-cm-c1-artens-81970172.html"
+        }
+      ]
+    },
+    {
+      "slug": "juego-brocas-hormigon",
+      "nombre": "Juego de brocas para hormigón / mampostería",
+      "categoria": "Obra y protección",
+      "formato": "Estuche de 5–8 brocas",
+      "unidad": "juego",
+      "consejo": "Comprueba el enganche: SDS-Plus solo para martillos percutores; cilíndrico o triangular para taladros normales.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Juego de brocas para hormigón enganche triangular 8 piezas DEXTER PRO",
+          "precio": 24.99,
+          "nota": "8 brocas, enganche triangular; la ficha no indica los diámetros.",
+          "enlace": "https://www.leroymerlin.es/productos/estuche-8-brocas-hormigon-enganche-triangular-dexter-pro-84732121.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Juego 5 brocas mampostería 4 a 8 mm CYL-3 Bosch",
+          "precio": 8.82,
+          "nota": "5 brocas de 4 a 8 mm, enganche cilíndrico.",
+          "enlace": "https://www.obramat.es/productos/juego-5-brocas-mamposteria-4-a-8-mm-cyl-3-bosch-10456075.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "yeso-proyectable-20kg",
+      "nombre": "Yeso de proyección (máquina)",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco de 20 kg",
+      "unidad": "saco",
+      "consejo": "Solo tiene sentido si el yesero trabaja con máquina de proyectar; para aplicar a mano usa yeso controlado o de fraguado lento.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Yeso de proyección Placo Proyal GA 20 kg",
+          "precio": 3.5,
+          "porUnidad": "0,18 €/kg",
+          "nota": "5 % de descuento comprando el palet completo.",
+          "enlace": "https://www.obramat.es/productos/yeso-de-proyeccion-placo-proyal-ga-20-kg-10967432.html"
+        }
+      ]
+    },
+    {
+      "slug": "rasillon-machihembrado-100x25",
+      "nombre": "Rasillón cerámico machihembrado",
+      "categoria": "Albañilería y morteros",
+      "formato": "100x25x3,5 cm",
+      "unidad": "ud",
+      "consejo": "Se usa para tableros de cubierta y cámaras sobre tabiquillos; pide algunas piezas de más porque se rompen en el transporte.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Rasillón machihembrado 100x25x3.5 cm",
+          "precio": 1.6,
+          "enlace": "https://www.obramat.es/productos/rasillon-machihembrado-100x25x3-5-cm-10188234.html"
+        }
+      ]
+    },
+    {
+      "slug": "lama-persiana-pvc-50mm",
+      "nombre": "Lama de persiana PVC blanca 50 mm",
+      "categoria": "Puertas y ventanas",
+      "formato": "Lama de 1,5 m",
+      "unidad": "ud",
+      "consejo": "Mide la altura y el grosor de la lama vieja antes de comprar (estándar 50 mm o mini 37 mm); se cortan a medida con sierra fina.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Lama para persiana de pvc blanco de 1500x50x14 mm",
+          "precio": 2.49,
+          "enlace": "https://www.leroymerlin.es/productos/lama-para-persiana-de-pvc-blanco-de-1500x50x14-mm-18878671.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Lama para persiana PVC 50mm blanca 1.5m",
+          "precio": 1.95,
+          "porUnidad": "1,30 €/m",
+          "enlace": "https://www.obramat.es/productos/lama-para-persiana-pvc-50-mm-blanca-1-5-m-10512362.html"
+        }
+      ]
+    },
+    {
+      "slug": "azulejo-metro-blanco-10x20",
+      "nombre": "Azulejo tipo metro blanco 10x20",
+      "categoria": "Cerámica y colocación",
+      "formato": "10x20 cm, pasta roja",
+      "unidad": "m²",
+      "consejo": "El azulejo metro necesita más cola y más junta que una pieza grande; calcula un 10–15 % extra y usa crucetas de 2 mm.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Azulejo cerámico Metro efecto borde biselado blanco mate 10x20 cm ARTENS",
+          "precio": 10.98,
+          "porUnidad": "Caja de 0,6 m² (6,59 €)",
+          "nota": "Mate, borde biselado.",
+          "enlace": "https://www.leroymerlin.es/productos/azulejo-ceramico-metro-blanco-mate-10x20-cm-artens-84302479.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Azulejo pasta roja 10x20cm Metrotile blanco",
+          "precio": 8.5,
+          "porUnidad": "Caja de 1 m²",
+          "nota": "Brillo.",
+          "enlace": "https://www.obramat.es/productos/azulejo-pasta-roja-10x20cm-metrotile-blanco-25074938.html"
+        }
+      ]
+    },
+    {
+      "slug": "perfil-omega-maestra",
+      "nombre": "Perfil omega (maestra) para techo",
+      "categoria": "Tabiquería seca",
+      "formato": "70/30 mm, 3 m",
+      "unidad": "ud",
+      "consejo": "Para techos de placa de yeso fijados directamente al forjado, coloca las maestras cada 40–60 cm según el espesor de la placa.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Omega maestra Ingeperfil 70/30 mm 3 m",
+          "precio": 3.1,
+          "enlace": "https://www.obramat.es/productos/omega-maestra-ingeperfil-70-30-mm-3-m-25071450.html"
+        }
+      ]
+    },
+    {
+      "slug": "detector-movimiento-techo-empotrar",
+      "nombre": "Detector de movimiento de techo empotrable",
+      "categoria": "Electricidad",
+      "formato": "Empotrable, 230 V",
+      "unidad": "ud",
+      "consejo": "Ideal para pasillos, trasteros y garajes; comprueba que admita la carga LED que vas a conectar.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Detector movimiento empotrar techo",
+          "precio": 9.95,
+          "nota": "Cobertura de unos 6 m de diámetro.",
+          "enlace": "https://www.obramat.es/productos/detector-movimiento-empotrar-techo-10593492.html"
+        }
+      ]
+    },
+    {
+      "slug": "aire-acondicionado-split-4500-frigorias",
+      "nombre": "Aire acondicionado split inverter ~4500 frigorías",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Split 1x1, ~5,2 kW",
+      "unidad": "ud",
+      "consejo": "Para salones grandes (unos 35–45 m²). La instalación no suele estar incluida y debe hacerla un instalador habilitado.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Aire acondicionado wifi split 4472 frigorías Skyluxe Plus",
+          "precio": 659,
+          "nota": "A+++; la ficha no incluye instalación.",
+          "enlace": "https://www.obramat.es/productos/aire-acondicionado-wifi-split-4472-frigorias-skyluxe-plus-25118156.html"
+        }
+      ]
+    },
+    {
+      "slug": "sumidero-ducha-obra",
+      "nombre": "Sumidero para ducha de obra",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Sumidero cuadrado con rejilla",
+      "unidad": "ud",
+      "consejo": "Comprueba el diámetro de salida y que sea sifónico; la impermeabilización debe solaparse bien con el sumidero.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Sumidero sifonado 20x20 cm y ø 80 mm",
+          "precio": 6.83,
+          "nota": "Polipropileno con acabado cromado.",
+          "enlace": "https://www.leroymerlin.es/productos/sumidero-sifonado-20x20-cm-y-80-mm-19315674.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Sumidero plato ducha 15x15cm inox/ABS Gebo",
+          "precio": 30.85,
+          "nota": "Acero inoxidable, salida horizontal para tubo de 40 mm.",
+          "enlace": "https://www.obramat.es/productos/sumidero-plato-ducha-15x15cm-inox-abs-gebo-10630291.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "toma-tv-empotrable",
+      "nombre": "Toma de TV-radio empotrable",
+      "categoria": "Electricidad",
+      "formato": "Mecanismo de empotrar",
+      "unidad": "ud",
+      "consejo": "Distingue entre toma final y de paso según la instalación de antena; si hay satélite necesitas toma TV-R-SAT.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "Toma TV-Radio Serie Europa blanco (Solera)",
+          "precio": 8.37,
+          "enlace": "https://www.obramat.es/productos/toma-tv-radio-serie-europa-blanco-10528441.html"
+        }
+      ]
     }
   ]
 }
