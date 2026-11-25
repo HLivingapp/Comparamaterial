@@ -19,6 +19,37 @@ const INDEXAR = process.env.INDEXAR === "1";
 const datos = JSON.parse(readFileSync(join(aqui, "datos", "precios.json"), "utf8"));
 const { fecha, zona, tiendas, materiales } = datos;
 const css = readFileSync(join(aqui, "estilos.css"), "utf8");
+// Fotos con licencia libre (Wikimedia Commons), opcionales: slug → {miniatura, pagina, autor, licencia}.
+let imagenes = {};
+try { imagenes = JSON.parse(readFileSync(join(aqui, "datos", "imagenes.json"), "utf8")); } catch {}
+
+// Iconos propios por categoría, para los materiales que aún no tienen foto.
+const ICONOS = {
+  "Albañilería y morteros": '<path d="M14 22h36l-4 30H18z"/><path d="M14 22c4-6 32-6 36 0"/><path d="M22 34h20M22 42h20"/>',
+  "Tabiquería seca": '<rect x="12" y="10" width="26" height="44" rx="1"/><path d="M44 10v44M50 10v44M44 16h6M44 48h6"/>',
+  "Cerámica y colocación": '<rect x="10" y="10" width="20" height="20"/><rect x="34" y="10" width="20" height="20"/><rect x="10" y="34" width="20" height="20"/><rect x="34" y="34" width="20" height="20"/>',
+  "Electricidad": '<rect x="14" y="14" width="36" height="36" rx="6"/><circle cx="26" cy="32" r="2.5"/><circle cx="38" cy="32" r="2.5"/><path d="M32 14v-6M32 56v-6"/>',
+  "Fontanería y saneamiento": '<path d="M10 26h22a8 8 0 0 1 8 8v20"/><path d="M10 34h18v20"/><path d="M40 20h14v8H40z"/>',
+  "Pintura": '<rect x="12" y="12" width="34" height="14" rx="3"/><path d="M46 19h6v12H30v8"/><rect x="26" y="39" width="8" height="15" rx="2"/>',
+  "Baño y cocina": '<path d="M10 32h44v6a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12z"/><path d="M16 32V16a5 5 0 0 1 10 0"/><path d="M22 50l-2 6M42 50l2 6"/>',
+  "Suelos": '<path d="M8 44l24-12 24 12-24 12z"/><path d="M8 36l24-12 24 12"/><path d="M20 38l24 12M20 30l24 12" opacity=".6"/>',
+  "Puertas y ventanas": '<rect x="16" y="8" width="32" height="48" rx="1"/><circle cx="41" cy="33" r="2"/><path d="M8 56h48"/>',
+  "Climatización y agua caliente": '<rect x="8" y="14" width="48" height="18" rx="4"/><path d="M14 26h36M18 40c0 4 4 4 4 8s-4 4-4 8M32 40c0 4 4 4 4 8s-4 4-4 8M46 40c0 4 4 4 4 8s-4 4-4 8"/>',
+  "Aislamiento": '<rect x="8" y="20" width="48" height="24" rx="2"/><path d="M8 28c6-6 10 6 16 0s10 6 16 0 10 6 16 0M8 36c6-6 10 6 16 0s10 6 16 0 10 6 16 0"/>',
+  "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
+};
+const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
+function imagen(m, grande = false) {
+  const f = imagenes[m.slug];
+  if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
+  return `<div class="foto"><img src="${esc(f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
+}
+function credito(m) {
+  const f = imagenes[m.slug];
+  if (!f) return "";
+  return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons. Imagen orientativa, no es el producto exacto.</p>`;
+}
+
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const eur = (n) => n.toLocaleString("es-ES", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
@@ -61,17 +92,19 @@ ${INDEXAR ? "" : '<meta name="robots" content="noindex, follow">\n'}<link rel="c
 <meta property="og:description" content="${esc(descripcion)}">
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:locale" content="es_ES">
-<meta name="theme-color" content="#2f6b4f">
+<meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
 ${GSC ? `<meta name="google-site-verification" content="${esc(GSC)}">\n` : ""}
 <style>${css}</style>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join("\n")}
 </head>
 <body>
 <header class="barra"><div class="ancho">
-  <a class="marca" href="${raiz}">${esc(NOMBRE)}</a>
-  <span class="lema">Precios de materiales de obra en ${esc(zona)}</span>
-  <nav class="cats">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</nav>
-</div></header>
+  <a class="marca" href="${raiz}"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1f5fd6"/><path d="M8 20l5-9 4 6 3-4 4 7z" fill="#ffc93c"/><path d="M8 23h16" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>${esc(NOMBRE)}</a>
+  <span class="lema">Compara precios de materiales de obra en ${esc(zona)}</span>
+</div>
+<nav class="cats" aria-label="Categorías"><div class="ancho">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+</header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
   <span>En ReformaMejor ven tu presupuesto al momento, calculado con tus tarifas, y te eligen para la visita.</span></span>
@@ -109,6 +142,19 @@ function filaOferta(o, ganador) {
   <td><a href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en la web</a></td>
 </tr>`;
 }
+
+function tarjeta(m, raiz) {
+  const g = mejor(m);
+  const min = Math.min(...m.ofertas.map((o) => o.precio));
+  return `<li class="tarjeta"><a href="${raiz}${m.slug}/">
+  ${imagen(m)}
+  <span class="t-nombre">${esc(m.nombre)}</span>
+  <span class="t-formato">${esc(m.formato)}</span>
+  <span class="t-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(min)}`}</span>
+  ${g ? `<span class="t-gana">Más barato en ${esc(tiendaCorta(g.tienda))} · −${ahorroPct(m)} %</span>` : `<span class="t-gana neutro">${m.ofertas.length} ${m.ofertas.length === 1 ? "almacén" : "almacenes"}</span>`}
+</a></li>`;
+}
+const rejilla = (ms, raiz) => `<ul class="rejilla">${ms.map((m) => tarjeta(m, raiz)).join("")}</ul>`;
 
 function paginaMaterial(m) {
   const g = mejor(m);
@@ -165,9 +211,16 @@ function paginaMaterial(m) {
   const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
+<section class="ficha">
+<div class="ficha-foto">${imagen(m, true)}${credito(m)}</div>
+<div class="ficha-info">
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
+<p class="ficha-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(Math.min(...precios))}`}</p>
 ${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
+${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}
+</div>
+</section>
 <h2>Mejor precio de ${esc(nombreMin)} hoy${hayOferta ? " (con oferta)" : ""}</h2>
 <div class="tabla"><table class="ofertas">
 <thead><tr><th>Almacén</th><th>Producto</th><th>Precio</th><th></th></tr></thead>
@@ -177,7 +230,7 @@ ${m.ofertas.map((o) => filaOferta(o, g)).join("\n")}
 <section class="consejo"><h2>Cuánto necesitas</h2><p>${esc(m.consejo)} <span class="nota">Dato orientativo: tu reformista lo ajusta a tu obra.</span></p></section>
 ${ctaReformista()}
 <section class="faq"><h2>Preguntas frecuentes</h2>${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
-${otros.length ? `<section><h2>Más precios de ${esc(m.categoria.toLowerCase())}</h2><ul class="lista">${otros.map((x) => `<li><a href="../${x.slug}/">Precio de ${esc(x.nombre[0].toLowerCase() + x.nombre.slice(1))}</a> <span>${esc(x.formato)}</span></li>`).join("")}</ul></section>` : ""}
+${otros.length ? `<section><h2>Más precios de ${esc(m.categoria.toLowerCase())}</h2>${rejilla(otros, raiz)}</section>` : ""}
 `;
   return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [producto, migas, faqLd], raiz }) };
 }
@@ -194,19 +247,6 @@ function portada() {
 
   const titulo = `Comparar precios de materiales de obra: mejor precio y ofertas en ${zona} (${mesTexto})`;
   const descripcion = `Compara el precio de ${materiales.length} materiales de obra y reforma en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}: albañilería, electricidad, fontanería, pintura, cerámica y más. Precios con IVA, actualizados cada semana, con enlace a cada producto.`;
-
-  const tabla = categorias.map((c) => `
-<tr class="cat"><th colspan="4" scope="colgroup"><a href="${rutaCat(c)}">${esc(c)}</a></th></tr>
-${materiales.filter((m) => m.categoria === c).map((m) => {
-    const g = mejor(m);
-    const min = Math.min(...m.ofertas.map((o) => o.precio));
-    return `<tr>
-  <th scope="row"><a href="${m.slug}/">${esc(m.nombre)}</a></th>
-  <td>${esc(m.formato)}</td>
-  <td class="num">${m.comparable === false ? "Varios" : "desde " + eur(min)}</td>
-  <td>${g ? `${esc(tiendas[g.tienda].nombre.split(" (")[0])} <small>−${ahorroPct(m)} %</small>` : "—"}</td>
-</tr>`;
-  }).join("\n")}`).join("\n");
 
   const lista = {
     "@context": "https://schema.org",
@@ -225,11 +265,8 @@ ${materiales.filter((m) => m.categoria === c).map((m) => {
     <div><b>${materiales.length}</b><span>materiales con enlace directo a la ficha de cada almacén.</span></div>
   </div>
 </section>
-<div class="tabla"><table>
-<thead><tr><th>Material</th><th>Formato</th><th>Precio</th><th>Más barato</th></tr></thead>
-<tbody>${tabla}</tbody>
-</table></div>
-${ctaReformista()}
+<nav class="atajos">${categorias.map((c) => `<a href="${rutaCat(c)}">${icono(c)}<span>${esc(c)}</span></a>`).join("")}</nav>
+${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>${esc(c)}</h2><a href="${rutaCat(c)}">Ver todo →</a></div>${rejilla(materiales.filter((m) => m.categoria === c), "")}</section>${i === 2 ? ctaReformista() : ""}`).join("\n")}
 <section class="consejo">
   <h2>Cómo leemos los precios</h2>
   <ul>
@@ -250,11 +287,6 @@ function paginaCategoria(c) {
   const cMin = c[0].toLowerCase() + c.slice(1);
   const titulo = `Materiales de ${cMin} baratos: comparar precios y ofertas en ${zona} (${mesTexto})`;
   const descripcion = `${ms.length} ${ms.length === 1 ? "material" : "materiales"} de ${cMin} comparados en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}: ${ms.slice(0, 5).map((m) => m.nombre.toLowerCase()).join(", ")} y más. Con IVA y enlace a cada producto.`;
-  const filas = ms.map((m) => {
-    const g = mejor(m);
-    const min = Math.min(...m.ofertas.map((o) => o.precio));
-    return `<tr><th scope="row"><a href="${raiz}${m.slug}/">${esc(m.nombre)}</a></th><td>${esc(m.formato)}</td><td class="num">${m.comparable === false ? "Varios" : "desde " + eur(min)}</td><td>${g ? `${esc(tiendaCorta(g.tienda))} <small>−${ahorroPct(m)} %</small>` : "—"}</td></tr>`;
-  }).join("\n");
   const lista = { "@context": "https://schema.org", "@type": "ItemList", name: titulo, itemListElement: ms.map((m, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/${m.slug}/`, name: m.nombre })) };
   const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: c, item: SITE + "/" + ruta }] };
   const cuerpo = `
@@ -262,9 +294,7 @@ function paginaCategoria(c) {
 <h1>Materiales de ${esc(cMin)} baratos en ${esc(zona)}: precios y ofertas</h1>
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
 <p class="sub">${ms.length} materiales comparados · precios con IVA · ${fechaTexto}</p>
-<div class="tabla"><table>
-<thead><tr><th>Material</th><th>Formato</th><th>Precio</th><th>Más barato</th></tr></thead>
-<tbody>${filas}</tbody></table></div>
+${rejilla(ms, raiz)}
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
 `;
