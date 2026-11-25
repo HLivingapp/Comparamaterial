@@ -117,3 +117,34 @@ a:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
 table.comparativa td.barato{background:var(--win);color:var(--winTx)}
 table.comparativa .col-barra{min-width:160px}
 table.comparativa small{font-weight:400}
+.mi-cesta{margin-left:auto;display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--acOsc);text-decoration:none;border:1px solid var(--li);border-radius:999px;padding:6px 14px}
+.mi-cesta svg{width:20px;height:20px}
+.mi-cesta:hover{border-color:var(--ac)}
+.cesta-n{background:var(--ama);color:var(--amaTx);border-radius:999px;font-size:.75rem;padding:1px 7px}
+.acciones{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.boton.secundario{background:var(--sup);color:var(--acOsc);border:2px solid var(--ac);cursor:pointer;font:inherit;font-weight:800}
+.boton.peq{padding:6px 12px;font-size:.85rem}
+.ver-cesta{font-size:.9rem}
+.avisos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.cesta{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:24px;align-items:start}
+.cesta-res{position:sticky;top:12px;background:var(--gris);border-radius:14px;padding:18px;display:grid;gap:10px}
+.cesta-sel{display:grid;gap:10px}
+.cesta-lista,.cat-lista,.totales{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.cesta-lista li,.cat-lista li{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid var(--li);border-radius:10px;padding:10px 12px;background:var(--sup)}
+.cesta-lista li>div:first-child,.cat-lista li>span{min-width:0}
+.cant{display:flex;align-items:center;gap:4px;flex:none}
+.cant button{width:34px;height:34px;border-radius:8px;border:1px solid var(--li);background:var(--sup);font-size:1.1rem;cursor:pointer;color:var(--acOsc)}
+.cant input{width:52px;height:34px;text-align:center;border:1px solid var(--li);border-radius:8px;font:inherit}
+.totales li{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--sup);border:1px solid var(--li);border-radius:10px;padding:10px 12px}
+.totales li.gana{border:2px solid var(--ama);background:var(--win)}
+.totales b,.mixta b{font-size:1.25rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.totales em{font-style:normal;background:var(--ama);color:var(--amaTx);font-size:.72rem;font-weight:700;border-radius:6px;padding:1px 6px;margin-left:4px}
+.mixta{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--acOsc);color:#fff;border-radius:10px;padding:12px}
+.mixta small{color:#c9d5ee}
+.enlace-btn{background:none;border:0;color:var(--mu);text-decoration:underline;cursor:pointer;justify-self:start;font:inherit;font-size:.88rem;padding:0}
+.buscador{display:grid;gap:4px;max-width:420px;font-weight:600}
+.buscador input{font:inherit;padding:10px 12px;border:1px solid #c6cfdc;border-radius:10px}
+.cesta-catalogo{display:grid;gap:8px}
+.cesta-catalogo h3{margin:12px 0 2px;font-size:1rem}
+.cat-lista{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+@media (max-width:820px){.cesta{grid-template-columns:1fr}.cesta-res{position:static}.lema{display:none}}
