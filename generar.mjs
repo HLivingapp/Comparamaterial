@@ -103,7 +103,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <a class="marca" href="${raiz}"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1f5fd6"/><path d="M8 20l5-9 4 6 3-4 4 7z" fill="#ffc93c"/><path d="M8 23h16" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>${esc(NOMBRE)}</a>
   <span class="lema">Compara precios de materiales de obra en ${esc(zona)}</span>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">${Object.keys(tiendas).map(tiendaCorta).join(" vs ")}</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -265,6 +265,7 @@ function portada() {
     <div><b>${materiales.length}</b><span>materiales con enlace directo a la ficha de cada almacén.</span></div>
   </div>
 </section>
+<a class="aviso-comp" href="comparativa/"><b>${Object.keys(tiendas).map(tiendaCorta).join(" vs ")}</b><span>¿Qué almacén es más barato? Mira la comparativa por categorías y la cesta completa →</span></a>
 <nav class="atajos">${categorias.map((c) => `<a href="${rutaCat(c)}">${icono(c)}<span>${esc(c)}</span></a>`).join("")}</nav>
 ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>${esc(c)}</h2><a href="${rutaCat(c)}">Ver todo →</a></div>${rejilla(materiales.filter((m) => m.categoria === c), "")}</section>${i === 2 ? ctaReformista() : ""}`).join("\n")}
 <section class="consejo">
@@ -278,6 +279,82 @@ ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>
 </section>
 `;
   return pagina({ titulo, descripcion, ruta: "", cuerpo, jsonld: [web, lista], raiz: "./" });
+}
+
+function paginaComparativa() {
+  const ids = Object.keys(tiendas);
+  const raiz = "../";
+  const ruta = "comparativa/";
+  const nombres = ids.map(tiendaCorta);
+  // Solo materiales comparables con precio en todos los almacenes.
+  const ambos = materiales.filter((m) => m.comparable !== false && ids.every((t) => m.ofertas.some((o) => o.tienda === t)));
+  const precio = (m, t) => m.ofertas.find((o) => o.tienda === t).precio;
+  const ganador = (m) => { const ps = ids.map((t) => precio(m, t)); const min = Math.min(...ps); return ps.filter((p) => p === min).length > 1 ? null : ids[ps.indexOf(min)]; };
+  const resumen = (ms) => {
+    const r = { n: ms.length, gana: Object.fromEntries(ids.map((t) => [t, 0])), empates: 0, total: Object.fromEntries(ids.map((t) => [t, 0])), optimo: 0 };
+    for (const m of ms) { const g = ganador(m); g ? r.gana[g]++ : r.empates++; for (const t of ids) r.total[t] += precio(m, t); r.optimo += Math.min(...ids.map((t) => precio(m, t))); }
+    return r;
+  };
+  const tot = resumen(ambos);
+  const orden = [...ids].sort((a, b) => tot.total[a] - tot.total[b]);
+  const barata = orden[0], cara = orden[orden.length - 1];
+  const pctCesta = Math.round(((tot.total[cara] - tot.total[barata]) / tot.total[cara]) * 100);
+  const lider = [...ids].sort((a, b) => tot.gana[b] - tot.gana[a])[0];
+  const barra = (r) => `<div class="barra-gana" role="img" aria-label="${ids.map((t) => `${tiendaCorta(t)} gana en ${r.gana[t]}`).join(", ")}${r.empates ? `, ${r.empates} empates` : ""}">${ids.map((t, i) => r.gana[t] ? `<span class="t${i}" style="flex:${r.gana[t]}">${r.gana[t]}</span>` : "").join("")}${r.empates ? `<span class="emp" style="flex:${r.empates}">${r.empates}</span>` : ""}</div>`;
+  const filasCat = categorias.map((c) => {
+    const ms = ambos.filter((m) => m.categoria === c);
+    if (!ms.length) return "";
+    const r = resumen(ms);
+    const o = [...ids].sort((a, b) => r.total[a] - r.total[b]);
+    const pct = Math.round(((r.total[o[o.length - 1]] - r.total[o[0]]) / r.total[o[o.length - 1]]) * 100);
+    return `<tr><th scope="row"><a href="${raiz}${rutaCat(c)}">${esc(c)}</a><small>${r.n} materiales</small></th>${ids.map((t) => `<td class="num">${eur(r.total[t])}</td>`).join("")}<td>${pct ? `<b>${esc(tiendaCorta(o[0]))}</b> <small>${pct} % más barata</small>` : "Prácticamente igual"}</td><td class="col-barra">${barra(r)}</td></tr>`;
+  }).join("\n");
+  const filasMat = ambos.map((m) => {
+    const g = ganador(m);
+    const ps = ids.map((t) => precio(m, t));
+    const dif = Math.max(...ps) - Math.min(...ps);
+    return `<tr><th scope="row"><a href="${raiz}${m.slug}/">${esc(m.nombre)}</a><small>${esc(m.formato)}</small></th>${ids.map((t) => `<td class="num${g === t ? " barato" : ""}">${eur(precio(m, t))}</td>`).join("")}<td class="num">${dif ? eur(dif) : "—"}</td><td>${g ? esc(tiendaCorta(g)) : "Empate"}</td></tr>`;
+  }).join("\n");
+  const titulo = `${nombres.join(" vs ")}: ¿dónde son más baratos los materiales de obra? (${mesTexto})`;
+  const descripcion = `Comparativa de precios entre ${nombres.join(" y ")} en ${zona} con ${ambos.length} materiales de reforma: quién gana en cada categoría, cesta de la compra y diferencia material a material.`;
+  const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: "Comparativa de almacenes", item: SITE + "/" + ruta }] };
+  const faq = [
+    [`¿Qué es más barato, ${nombres.join(" u ")}?`, `En nuestra comparativa de ${ambos.length} materiales de obra en ${zona}, ${tiendaCorta(lider)} tiene el mejor precio en ${tot.gana[lider]}. Comprando la misma cesta, ${tiendaCorta(barata)} sale un ${pctCesta} % más barata (${eur(tot.total[barata])} frente a ${eur(tot.total[cara])}).`],
+    [`¿Merece la pena comprar en los dos almacenes?`, `Si compras cada material donde está más barato, la cesta cuesta ${eur(tot.optimo)}: ${eur(tot.total[barata] - tot.optimo)} menos que comprándolo todo en ${tiendaCorta(barata)}. Para compras pequeñas suele compensar más ir a un solo almacén.`],
+  ];
+  const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › Comparativa de almacenes</nav>
+<section class="hero">
+  <h1>${esc(nombres.join(" vs "))}: ¿dónde es más barato reformar?</h1>
+  <p class="sub">${ambos.length} materiales con precio en los dos almacenes de ${esc(zona)}. Precios públicos con IVA, consultados el ${fechaTexto}.</p>
+  <div class="cifras">
+    <div><b>${tot.gana[lider]} de ${ambos.length}</b><span>materiales en los que ${esc(tiendaCorta(lider))} tiene el mejor precio. ${ids.filter((t) => t !== lider).map((t) => `${esc(tiendaCorta(t))} gana en ${tot.gana[t]}`).join(", ")}${tot.empates ? ` y ${tot.empates} empatan` : ""}.</span></div>
+    <div><b>${pctCesta} %</b><span>más barata la cesta completa en ${esc(tiendaCorta(barata))}: ${eur(tot.total[barata])} frente a ${eur(tot.total[cara])}.</span></div>
+    <div><b>${eur(tot.optimo)}</b><span>si compras cada material en el almacén más barato (${eur(tot.total[barata] - tot.optimo)} menos que todo en ${esc(tiendaCorta(barata))}).</span></div>
+  </div>
+  <div class="leyenda">${ids.map((t, i) => `<span><i class="t${i}"></i>${esc(tiendaCorta(t))}</span>`).join("")}<span><i class="emp"></i>Empate</span></div>
+  ${barra(tot)}
+</section>
+<section class="bloque"><h2>Quién gana en cada categoría</h2>
+<p class="sub">Cesta de la categoría: suma de un formato de cada material comparable. La barra muestra en cuántos materiales gana cada almacén.</p>
+<div class="tabla"><table class="comparativa">
+<thead><tr><th>Categoría</th>${nombres.map((n) => `<th>${esc(n)}</th>`).join("")}<th>Más barata</th><th>Materiales ganados</th></tr></thead>
+<tbody>${filasCat}</tbody></table></div></section>
+${ctaReformista()}
+<section class="bloque"><h2>Material a material</h2>
+<div class="tabla"><table class="comparativa">
+<thead><tr><th>Material</th>${nombres.map((n) => `<th>${esc(n)}</th>`).join("")}<th>Diferencia</th><th>Más barato</th></tr></thead>
+<tbody>${filasMat}</tbody></table></div></section>
+<section class="consejo"><h2>Cómo leer esta comparativa</h2><ul>
+  <li>Solo entran los materiales con precio público en los dos almacenes y formatos comparables (${materiales.length - ambos.length} de ${materiales.length} se quedan fuera).</li>
+  <li>No siempre es el mismo producto: comparamos el equivalente más parecido de cada almacén, y a veces cambia la marca o la gama. Lo explicamos en la ficha de cada material.</li>
+  <li>En Obramat el precio puede variar según la tienda elegida y bajar comprando por palé; en Leroy Merlin, por promociones del día.</li>
+  <li>Los materiales grandes (aire acondicionado, calentador, puertas) pesan mucho en la cesta; por eso también contamos en cuántos materiales gana cada uno.</li>
+</ul></section>
+<section class="faq"><h2>Preguntas frecuentes</h2>${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
+`;
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [migas, faqLd], raiz }) };
 }
 
 function paginaCategoria(c) {
@@ -308,6 +385,12 @@ writeFileSync(join(salida, "index.html"), portada());
 const rutas = [""];
 for (const m of materiales) {
   const { ruta, html } = paginaMaterial(m);
+  mkdirSync(join(salida, ruta), { recursive: true });
+  writeFileSync(join(salida, ruta, "index.html"), html);
+  rutas.push(ruta);
+}
+{
+  const { ruta, html } = paginaComparativa();
   mkdirSync(join(salida, ruta), { recursive: true });
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);

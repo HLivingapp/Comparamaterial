@@ -104,3 +104,16 @@ a:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
 .banda:hover .banda-btn,.banda:focus-visible .banda-btn{text-decoration:underline}
 .banda:focus-visible{outline:3px solid var(--ama);outline-offset:-3px}
 @media (max-width:720px){.ficha-foto .sinfoto{aspect-ratio:16/7}}
+.cats a.destacado{background:var(--ama);color:var(--amaTx);margin-right:6px}
+.cats a.destacado:hover{background:#ffd866}
+.aviso-comp{display:grid;gap:2px;padding:14px 18px;border:2px solid var(--ama);background:var(--win);border-radius:12px;color:var(--tx);text-decoration:none}
+.aviso-comp b{font-size:1.1rem}
+.aviso-comp:hover span{text-decoration:underline}
+.barra-gana{display:flex;height:26px;border-radius:6px;overflow:hidden;font-size:.78rem;font-weight:700;min-width:120px}
+.barra-gana span{display:grid;place-items:center;color:#fff;min-width:22px}
+.t0{background:#1f5fd6}.t1{background:#e0861a}.t2{background:#6b4fbb}.emp{background:#b8c0cc}
+.leyenda{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.85rem;color:var(--mu);margin-top:4px}
+.leyenda i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+table.comparativa td.barato{background:var(--win);color:var(--winTx)}
+table.comparativa .col-barra{min-width:160px}
+table.comparativa small{font-weight:400}
