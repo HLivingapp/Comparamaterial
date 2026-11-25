@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -15,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.despliegue.outputs.page_url }}
+      url: ${{ steps.intento1.outputs.page_url || steps.despliegue.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,8 +27,16 @@ jobs:
         env:
           SITE_URL: https://comparamaterial.com
           INDEXAR: "1"
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
+      # GitHub a veces tarda unos segundos en ver el paquete recién subido
+      - run: sleep 20
+      - id: intento1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.intento1.outcome == 'failure'
+        run: sleep 60
       - id: despliegue
+        if: steps.intento1.outcome == 'failure'
         uses: actions/deploy-pages@v4
