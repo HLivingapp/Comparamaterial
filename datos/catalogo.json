@@ -1,0 +1,683 @@
+{
+  "nota": "Precios públicos con IVA leídos en las páginas de categoría de cada tienda. Un producto por tienda; la comparación entre tiendas está en precios.json.",
+  "productos": [
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "ANTE FAST MORTEROS HENARES 1 KG VERDE",
+      "precio": 14.3,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ante-fast-morteros-henares-1-kg-verde-25044051.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "ASFALTO EN FRÍO IMPRIDAN 30 L",
+      "precio": 115,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/asfalto-en-frio-impridan-30-l-25048504.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "ASFALTO EN FRÍO RAPID 25 KG",
+      "precio": 14.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/asfalto-en-frio-rapid-25-kg-10304840.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "CEMENTO COLA DUR WEBER C1TE 25KG BLANCO",
+      "precio": 4.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cemento-cola-dur-weber-c1te-25kg-blanco-10984456.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "CEMENTO COLA FLEX DUO WEBER C2TE 25KG BLANCO",
+      "precio": 7.6,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-blanco-10547005.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "DESMOLDEANTE PARA HORMIGÓN IMPRESO 10KG NEGRO",
+      "precio": 26.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/desmoldeante-para-hormigon-impreso-10kg-negro-25064884.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "DESMOLDEANTE PARA HORMIGÓN IMPRESO MORTEROS HENARES 10KG DUNA",
+      "precio": 21.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/desmoldeante-para-hormigon-impreso-morteros-henares-10kg-duna-25044052.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "DESMOLDEANTE PARA HORMIGÓN IMPRESO MORTEROS HENARES 10KG NOGAL",
+      "precio": 26.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/desmoldeante-para-hormigon-impreso-morteros-henares-10kg-nogal-25064885.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "DESMOLDEANTE PARA HORMIGÓN IMPRESO PAVICRET 10KG TOSTADO",
+      "precio": 27.59,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/desmoldeante-para-hormigon-impreso-pavicret-10kg-tostado-25043319.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "IMPRIMACIÓN DE FONDO SATEPRO THERM 20 KG BLANCO",
+      "precio": 42.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/imprimacion-de-fondo-satepro-therm-20-kg-blanco-25091201.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO ACRILICO BEYEM TX 25 KG BLANCO",
+      "precio": 54,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-acrilico-beyem-tx-25-kg-blanco-25097641.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO ACRÍLICO WEBER SATE 25 KG ROJO",
+      "precio": 73,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-acrilico-weber-sate-25-kg-rojo-25042620.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO ADHESIVO PARA LANA MINERAL APLICA 25 KG",
+      "precio": 4.84,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-adhesivo-para-lana-mineral-aplica-25-kg-10613582.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO ADHESIVO Y REGULARIZADOR GECOLTHERM 25 KG GRIS",
+      "precio": 12.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-adhesivo-y-regularizador-gecoltherm-25-kg-gris-25088858.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO CAL REVOCO BEYEM 25 KG BLANCO",
+      "precio": 4.11,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-cal-revoco-beyem-25-kg-blanco-25097640.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO COLOREADO PARA HORMIGÓN IMPRESO MORTEROS HENARES 25 KG DUNA",
+      "precio": 7,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-coloreado-para-hormigon-impreso-morteros-henares-25-kg-duna-25044075.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO COLOREADO PARA HORMIGÓN IMPRESO MORTEROS HENARES 25 KG PLATA",
+      "precio": 3,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-coloreado-para-hormigon-impreso-morteros-henares-25-kg-plata-25044078.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO DE REVOCO CEMEX PROYECT FINO 25 KG BLANCO",
+      "precio": 3.51,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-de-revoco-cemex-proyect-fino-25-kg-blanco-25065164.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO DE REVOCO EN CAPA FINA WEBEREV FINO 25 KG BLANCO",
+      "precio": 3.45,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-de-revoco-en-capa-fina-weberev-fino-25-kg-blanco-10260831.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO EXTERIOR REPARACION Y ALISADO R3 COLBAIX CX-62F 20KG BLANCO",
+      "precio": 16,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-exterior-reparacion-y-alisado-r3-colbaix-cx-62f-20kg-blanco-25085969.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO INT/EXT IMPERMEABILIZANTE SELLEDUR RX-512 5KG",
+      "precio": 6,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-int-ext-impermeabilizante-selledur-rx-512-5kg-10800034.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO LUMIDUR CM20 REPARADOR PARA HORMIGÓN IMPRESO 15 KG",
+      "precio": 19.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-lumidur-cm20-reparador-para-hormigon-impreso-15-kg-10768163.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO MONOCAPA WEBERPRAL PRISMA 25 KG GAMUZA",
+      "precio": 7.63,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-monocapa-weberpral-prisma-25-kg-gamuza-10546284.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO MONOCAPA WEBERPRAL PRISMA 25 KG HUESO",
+      "precio": 7.2,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-monocapa-weberpral-prisma-25-kg-hueso-10546291.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO MULTIUSOS M7.5 GECOL 25 KG GRIS",
+      "precio": 2.94,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-multiusos-m7-5-gecol-25-kg-gris-25087975.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO REFRACTARIO 5KG",
+      "precio": 6.3,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-refractario-5kg-10799985.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO RENOVADOR COLORCEM COVER PARA HORMIGÓN IMPRESO CORCHO 15 KG",
+      "precio": 20,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-renovador-colorcem-cover-para-hormigon-impreso-corcho-15-kg-25050234.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO REPARACIÓN HORMIGÓN IMPRESO COLORCEM NOGAL 25KG",
+      "precio": 10,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-reparacion-hormigon-impreso-colorcem-nogal-25kg-25072636.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO REPARADOR R4 SIKA MONOTOP 4200 MULTIFLOW 25KG",
+      "precio": 28.35,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-reparador-r4-sika-monotop-4200-multiflow-25kg-25034955.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO REPARADOR R4 WEBEREP NEOGEL 25 KG.",
+      "precio": 23.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-reparador-r4-weberep-neogel-25-kg-25042666.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO SECO M-10 25 KG BLANCO",
+      "precio": 3.89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-seco-m-10-25-kg-blanco-25063130.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO SECO M7.5 25 KG GRIS",
+      "precio": 1.69,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-25029331.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO SECO M7.5 IDM 25 KG BLANCO",
+      "precio": 3.55,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-idm-25-kg-blanco-10820033.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO SECO MAMPOSTERÍA M7.5 HIDROFUGO TUDSELA VEGUIN 25 KG BLANCO",
+      "precio": 3.35,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-seco-mamposteria-m7-5-hidrofugo-tudsela-veguin-25-kg-blanco-10471041.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO SECO MM30 FASSA 25 KG GRIS",
+      "precio": 1.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-seco-mm30-fassa-25-kg-gris-10792222.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "MORTERO TRANSPIRABLE E IMPERMEABLE SOPRADY MUR CAL 25 KG",
+      "precio": 14.96,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/mortero-transpirable-e-impermeable-soprady-mur-cal-25-kg-25088863.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Albañilería y morteros",
+      "nombre": "PASTA PIGMENTADA PARA HORMIGÓN IMPRESO 0.5KG GRIS CLARO",
+      "precio": 21.84,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pasta-pigmentada-para-hormigon-impreso-0-5kg-gris-claro-10767764.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso BA 2000x1200x13 mm",
+      "precio": 278.28,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-ba-2000x1200x13-mm-97320973.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de cartón-yeso BA 2000x1200x15 mm",
+      "precio": 279,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-ba-2000x1200x15-mm-97320974.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso laminado BA 200 x 90 cm x 13 mm",
+      "precio": 405.12,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-laminado-ba-200-x-90-cm-x-13-mm-97320971.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso laminado PHONIQUE 300 x 120 cm x 13 mm",
+      "precio": 652.2,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-laminado-phonique-300-x-120-cm-x-13-mm-97320968.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso laminado PHONIQUE 300 x 120 cm x 15 mm",
+      "precio": 603.84,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-laminado-phonique-300-x-120-cm-x-15-mm-97320984.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso laminado PPF 250 x 90 cm x 25 mm",
+      "precio": 675.84,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-laminado-ppf-250-x-90-cm-x-25-mm-97320989.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cartón-yeso PHONIQUE 2000x1200x15 mm",
+      "precio": 400.08,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-carton-yeso-phonique-2000x1200x15-mm-97320982.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cemento H20 200 x 120 cm x 12.5 mm",
+      "precio": 2949.5,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-cemento-h20-200-x-120-cm-x-12-5-mm-97320962.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Cemento POWERPANEL H2O 260 x 120 cm x 12.5 mm",
+      "precio": 2099.7,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-cemento-powerpanel-h2o-260-x-120-cm-x-12-5-mm-97320961.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Yeso AQUAROC 250 x 120 cm x 13 mm",
+      "precio": 1394.55,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-yeso-aquaroc-250-x-120-cm-x-13-mm-97320987.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Yeso BA 250 x 90 cm x 25 mm",
+      "precio": 618.2,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-yeso-ba-250-x-90-cm-x-25-mm-97320988.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Yeso PHONIQUE 200 x 120 cm x 13 mm",
+      "precio": 434.7,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-yeso-phonique-200-x-120-cm-x-13-mm-97320964.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Yeso PPF 200 x 120 cm x 13 mm",
+      "precio": 541.8,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-yeso-ppf-200-x-120-cm-x-13-mm-97320966.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Lote de Placa de Yeso PPF 300 x 120 cm x 15 mm",
+      "precio": 822.9,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-placa-de-yeso-ppf-300-x-120-cm-x-15-mm-97320980.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa Cartón-Yeso Ergo 2000x1200x13 mm",
+      "precio": 7.56,
+      "unidad": "ud",
+      "precioM2": 3.15,
+      "enlace": "https://www.leroymerlin.es/productos/placa-carton-yeso-ergo-2000x1200x13-mm-93415091.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa Cartón-Yeso erGO 2000x1200x15 mm",
+      "precio": 9.3,
+      "unidad": "ud",
+      "precioM2": 3.88,
+      "enlace": "https://www.leroymerlin.es/productos/placa-carton-yeso-ergo-2000x1200x15-mm-93415090.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa Cartón-Yeso erGO 3000x1200x15 mm",
+      "precio": 13.95,
+      "unidad": "ud",
+      "precioM2": 3.88,
+      "enlace": "https://www.leroymerlin.es/productos/placa-carton-yeso-ergo-3000x1200x15-mm-93415092.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa Cartón-Yeso laminado 4PRO 2000X1200X13 mm",
+      "precio": 10.28,
+      "unidad": "ud",
+      "precioM2": 4.28,
+      "enlace": "https://www.leroymerlin.es/productos/placa-carton-yeso-laminado-4pro-2000x1200x13-mm-17526565.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa Cartón-Yeso laminado 4PRO PPM 2000x1200x13mm",
+      "precio": 16.85,
+      "unidad": "ud",
+      "precioM2": 7.02,
+      "enlace": "https://www.leroymerlin.es/productos/placa-carton-yeso-laminado-4pro-ppm-2000x1200x13mm-82541509.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso BA 2000x60x13 mm",
+      "precio": 6.22,
+      "unidad": "ud",
+      "precioM2": 5.18,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ba-2000x60x13-mm-15433040.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de cartón-yeso FK 2600x1200x15 mm",
+      "precio": 10.89,
+      "unidad": "ud",
+      "precioM2": 3.49,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-fk-2600x1200x15-mm-19646956.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso FK 2700x1200x13 mm",
+      "precio": 9.15,
+      "unidad": "ud",
+      "precioM2": 2.82,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-fk-2700x1200x13-mm-19156165.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso laminado + perfil led lineal 14.5 x 20 cm x 13 mm",
+      "precio": 65.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-laminado-perfil-led-lineal-14-5-x-20-cm-x-13-mm-86884214.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso laminado FK PPM 2600x1200x13 mm",
+      "precio": 15.74,
+      "unidad": "ud",
+      "precioM2": 5.04,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-laminado-fk-ppm-2600x1200x13-mm-19723186.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso laminado PHONIQUE 300 x 120 cm x 15 mm",
+      "precio": 25.16,
+      "unidad": "ud",
+      "precioM2": 6.99,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-laminado-phonique-300-x-120-cm-x-15-mm-19647271.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de cartón-yeso PHONIQUE 2500x1200x13 mm",
+      "precio": 18.11,
+      "unidad": "ud",
+      "precioM2": 6.04,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-phonique-2500x1200x13-mm-15433110.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Cartón-yeso PPM 2000x1200x13 mm",
+      "precio": 12.96,
+      "unidad": "ud",
+      "precioM2": 5.4,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ppm-2000x1200x13-mm-17526586.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de cartón-yeso PPM 2500x1200x13 mm",
+      "precio": 16.2,
+      "unidad": "ud",
+      "precioM2": 5.4,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-carton-yeso-ppm-2500x1200x13-mm-15433152.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Placa de yeso PPM 200 x 120 cm x 15 mm",
+      "precio": 17.28,
+      "unidad": "ud",
+      "precioM2": 7.2,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-placa-de-yeso-ppm-200-x-120-cm-x-15-mm-85133231.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Yeso AQUAROC 250 x 120 cm x 13 mm",
+      "precio": 92.97,
+      "unidad": "ud",
+      "precioM2": 30.99,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-aquaroc-250-x-120-cm-x-13-mm-16794323.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de yeso con cartón 2000x1200x15mm",
+      "precio": 19.9,
+      "unidad": "ud",
+      "precioM2": 8.29,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-con-carton-2000x1200x15mm-92497256.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Yeso FK 2600X1200X13 260 x 120 cm x 12.5 mm",
+      "precio": 9.03,
+      "unidad": "ud",
+      "precioM2": 2.89,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-fk-2600x1200x13-260-x-120-cm-x-12-5-mm-99435411.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Yeso PHONIQUE 200 x 120 cm x 13 mm",
+      "precio": 14.49,
+      "unidad": "ud",
+      "precioM2": 6.04,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-phonique-200-x-120-cm-x-13-mm-17806285.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa de Yeso PPF 250 x 120 cm x 15 mm",
+      "precio": 19.5,
+      "unidad": "ud",
+      "precioM2": 6.5,
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-ppf-250-x-120-cm-x-15-mm-16782094.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa glasroc x 2400x1200x13 mm",
+      "precio": 65.52,
+      "unidad": "ud",
+      "precioM2": 22.75,
+      "enlace": "https://www.leroymerlin.es/productos/placa-glasroc-x-2400x1200x13-mm-82540981.html",
+      "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Tabiquería seca",
+      "nombre": "Placa habito ppm13 1200x2500x13mm",
+      "precio": 60.87,
+      "unidad": "ud",
+      "precioM2": 20.29,
+      "enlace": "https://www.leroymerlin.es/productos/placa-habito-ppm13-1200x2500x13mm-82540983.html",
+      "fecha": "2026-11-25"
+    }
+  ]
+}
