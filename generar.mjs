@@ -77,7 +77,14 @@ function ahorroPct(m) {
   return Math.round(((max - min) / max) * 100);
 }
 
-const indiceJSON = JSON.stringify(materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, p: eur(Math.min(...m.ofertas.map((o) => o.precio))) }))).replace(/</g, "\\u003c");
+const ALIAS = [
+  [/Tabiquería seca/, "pladur"], [/yeso laminado|pyl/i, "pladur"], [/inodoro|cisterna/i, "wc vater water"],
+  [/azulejo|porcel|cerámic|gres/i, "baldosa"], [/laminado|vinílico|parquet|tarima/i, "tarima suelo parquet"],
+  [/termo|calentador|aerotermo/i, "agua caliente calentador"], [/split|aire acondicionado/i, "aire acondicionado climatizacion"],
+  [/cable|manguera/i, "cableado electricidad"], [/plato de ducha|mampara|columna/i, "ducha"], [/pintura|esmalte|imprimación/i, "pintar"],
+];
+const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
+const indiceJSON = JSON.stringify(materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))) }))).replace(/</g, "\\u003c");
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -128,10 +135,10 @@ document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute
 b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
 var R="${raiz}",I=[];try{I=JSON.parse(document.getElementById("indice").textContent)}catch(e){}
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
-I.forEach(function(m){m.k=nor(m.n+" "+m.f+" "+m.c)});
-var f=document.querySelector(".busca"),q=f.querySelector("input"),res=f.querySelector(".busca-res");
+I.forEach(function(m){m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))});
 var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];return I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})}).slice(0,8)};
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
+document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
 var pinta=function(){var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
 res.innerHTML=r.length?r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
 q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
@@ -139,6 +146,8 @@ res.addEventListener("click",function(e){var b=e.target.closest("button[data-s]"
 f.addEventListener("submit",function(e){var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
 q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
+});
+document.querySelectorAll("[data-buscar]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();var g=document.querySelector(".busca.grande input");g.value=a.getAttribute("data-buscar");g.focus();g.dispatchEvent(new Event("input"))})});
 })();
 </script>
 </body>
@@ -283,6 +292,8 @@ function portada() {
   const cuerpo = `
 <section class="hero">
   <h1>Materiales de obra al mejor precio en ${esc(zona)}</h1>
+  <form class="busca grande" role="search" action="cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-portada">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-portada" name="q" type="search" placeholder="Escribe el material que necesitas…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
+  <p class="sugerencias">Lo más buscado: ${["cemento", "pladur", "cable", "azulejo", "pintura", "plato de ducha", "inodoro", "laminado"].map((t) => `<a href="cesta/?q=${encodeURIComponent(t)}" data-buscar="${t}">${t}</a>`).join("")}</p>
   <p class="sub">${materiales.length} materiales básicos de reforma en ${Object.values(tiendas).map((t) => t.nombre).join(" y ")}. Precios públicos con IVA, consultados el ${fechaTexto}.</p>
   <div class="cifras">
     <div><b>${victorias[0][1]} de ${comparables.length}</b><span>materiales en los que ${esc(tiendaCorta(victorias[0][0]))} tiene el mejor precio. ${victorias.slice(1).map(([t, n]) => `${esc(tiendaCorta(t))} gana en ${n}`).join(", ")}.</span></div>
