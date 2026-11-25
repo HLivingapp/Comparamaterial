@@ -4,7 +4,7 @@
 //   SITE_URL      URL pública final (canonical, sitemap). Sin barra final.
 //   REGISTRO_URL  Página de alta de reformistas en ReformaMejor.
 //   NOMBRE_WEB    Nombre de la web.
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -39,15 +39,15 @@ const ICONOS = {
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
-function imagen(m, grande = false) {
+function imagen(m, raiz, grande = false) {
   const f = imagenes[m.slug];
   if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
-  return `<div class="foto"><img src="${esc(f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
+  return `<div class="foto"><img src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
 }
 function credito(m) {
   const f = imagenes[m.slug];
   if (!f) return "";
-  return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons. Imagen orientativa, no es el producto exacto.</p>`;
+  return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
 }
 
 
@@ -147,11 +147,11 @@ function tarjeta(m, raiz) {
   const g = mejor(m);
   const min = Math.min(...m.ofertas.map((o) => o.precio));
   return `<li class="tarjeta"><a href="${raiz}${m.slug}/">
-  ${imagen(m)}
+  ${imagen(m, raiz)}
   <span class="t-nombre">${esc(m.nombre)}</span>
   <span class="t-formato">${esc(m.formato)}</span>
   <span class="t-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(min)}`}</span>
-  ${g ? `<span class="t-gana">Más barato en ${esc(tiendaCorta(g.tienda))} · −${ahorroPct(m)} %</span>` : `<span class="t-gana neutro">${m.ofertas.length} ${m.ofertas.length === 1 ? "almacén" : "almacenes"}</span>`}
+  ${g ? `<span class="t-gana">Más barato en ${esc(tiendaCorta(g.tienda))} · −${ahorroPct(m)}&nbsp;%</span>` : `<span class="t-gana neutro">${m.ofertas.length} ${m.ofertas.length === 1 ? "almacén" : "almacenes"}</span>`}
 </a></li>`;
 }
 const rejilla = (ms, raiz) => `<ul class="rejilla">${ms.map((m) => tarjeta(m, raiz)).join("")}</ul>`;
@@ -212,7 +212,7 @@ function paginaMaterial(m) {
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
 <section class="ficha">
-<div class="ficha-foto">${imagen(m, true)}${credito(m)}</div>
+<div class="ficha-foto">${imagen(m, raiz, true)}${credito(m)}</div>
 <div class="ficha-info">
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
@@ -303,6 +303,7 @@ ${ctaReformista()}
 
 rmSync(salida, { recursive: true, force: true });
 mkdirSync(salida, { recursive: true });
+if (existsSync(join(aqui, "img"))) cpSync(join(aqui, "img"), join(salida, "img"), { recursive: true });
 writeFileSync(join(salida, "index.html"), portada());
 const rutas = [""];
 for (const m of materiales) {
