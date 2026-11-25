@@ -193,7 +193,7 @@ function portada() {
   const victorias = Object.keys(tiendas).map((t) => [t, comparables.filter((m) => mejor(m).tienda === t).length]).sort((a, b) => b[1] - a[1]);
 
   const titulo = `Comparar precios de materiales de obra: mejor precio y ofertas en ${zona} (${mesTexto})`;
-  const descripcion = `Compara el precio de ${materiales.length} materiales de obra y reforma (${categorias.join(", ").toLowerCase()}) en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}. Precios con IVA, actualizados cada semana, con enlace a cada producto.`;
+  const descripcion = `Compara el precio de ${materiales.length} materiales de obra y reforma en ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}: albañilería, electricidad, fontanería, pintura, cerámica y más. Precios con IVA, actualizados cada semana, con enlace a cada producto.`;
 
   const tabla = categorias.map((c) => `
 <tr class="cat"><th colspan="4" scope="colgroup"><a href="${rutaCat(c)}">${esc(c)}</a></th></tr>
