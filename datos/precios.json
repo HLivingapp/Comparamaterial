@@ -2418,6 +2418,967 @@
         }
       ],
       "comparable": false
+    },
+    {
+      "slug": "placa-yeso-15-mm",
+      "nombre": "Placa de yeso laminado 15 mm hidrófuga-fuego (FK PPM)",
+      "categoria": "Tabiquería seca",
+      "formato": "Placa 2600x1200x15 mm (3,12 m²)",
+      "unidad": "ud",
+      "consejo": "La de 15 mm da más rigidez y mejor aislamiento acústico que la de 13 mm; úsala en tabiques de separación o donde vayas a colgar peso.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Placa de Yeso FK PPM 260 x 120 cm x 15 mm",
+          "precio": 20.53,
+          "porUnidad": "6,58 €/m²",
+          "enlace": "https://www.leroymerlin.es/productos/placa-de-yeso-fk-ppm-260-x-120-cm-x-15-mm-19647040.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLACA DE YESO LAMINADO FK PPM 2600X1200X15MM",
+          "precio": 16.2,
+          "porUnidad": "5,19 €/m²",
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-fk-ppm-2600x1200x15mm-10632790.html"
+        }
+      ]
+    },
+    {
+      "slug": "cemento-cola-flexible-c2s1",
+      "nombre": "Cemento cola flexible gel blanco",
+      "categoria": "Cerámica y colocación",
+      "formato": "Saco de 25 kg",
+      "unidad": "saco",
+      "consejo": "Para porcelánico de gran formato o sobre suelo radiante elige un adhesivo deformable (S1); comprueba la clasificación en el saco.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mortero cola AXTON flexible gel blanco 25 Kg",
+          "precio": 14.35,
+          "porUnidad": "0,57 €/kg",
+          "nota": "La ficha no indica la clase EN 12004",
+          "enlace": "https://www.leroymerlin.es/productos/mortero-cola-axton-flexible-gel-blanco-25-kg-81948529.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CEMENTO COLA FLEX MULTIGEL WEBER C2TES1 25KG BLANCO",
+          "precio": 12.8,
+          "porUnidad": "0,51 €/kg",
+          "nota": "C2TE S1",
+          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-multigel-weber-c2tes1-25kg-blanco-10699850.html"
+        }
+      ]
+    },
+    {
+      "slug": "plato-ducha-80x140",
+      "nombre": "Plato de ducha 80x140 cm blanco",
+      "categoria": "Baño y cocina",
+      "formato": "Plato extraplano 80x140 cm",
+      "unidad": "ud",
+      "consejo": "Revisa si incluye válvula y rejilla y la clase antideslizante (C3 recomendable).",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Plato de ducha Pietra 140x80 cm blanco",
+          "precio": 341.6,
+          "nota": "Piedra reconstituida, incluye rejilla y válvula. Precio de oferta (antes 427 €) con vigencia anunciada hasta el 19/10; puede haber vuelto a 427 €",
+          "enlace": "https://www.leroymerlin.es/productos/plato-de-ducha-pietra-140x80-cm-blanco-82272048.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLATO DE DUCHA RESINA RECTANGULAR BLANCO 80X140X3CM",
+          "precio": 132,
+          "nota": "Resina; la válvula se vende por separado",
+          "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-80x140x3cm-10434011.html"
+        }
+      ]
+    },
+    {
+      "slug": "campana-decorativa-60",
+      "nombre": "Campana extractora decorativa 60 cm",
+      "categoria": "Baño y cocina",
+      "formato": "Campana de pared 60 cm",
+      "unidad": "ud",
+      "consejo": "Si puedes sacar el humo al exterior, la salida canalizada rinde mucho mejor que la recirculación con filtro de carbón.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Campana decorativa CATA 02059504 con 3 velocidades 59.5 cm 578 m/h negro clase A",
+          "precio": 193,
+          "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-cata-02059504-con-3-velocidades-59-5-cm-578-m-h-negro-clase-a-89287950.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CAMPANA COCINA DECORATIVA PIRAMIDAL 60 CM ACABADO INOX CATA V-6000 X",
+          "precio": 95,
+          "enlace": "https://www.obramat.es/productos/campana-cocina-decorativa-piramidal-60-cm-acabado-inox-cata-v-6000-x-25053137.html"
+        }
+      ]
+    },
+    {
+      "slug": "inodoro-suspendido",
+      "nombre": "Taza WC suspendida rimless con tapa",
+      "categoria": "Baño y cocina",
+      "formato": "Taza suspendida con asiento amortiguado",
+      "unidad": "ud",
+      "consejo": "Necesita cisterna empotrada con bastidor y pulsador, que se compran aparte; comprueba la distancia entre anclajes.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Taza WC suspendido SENSEA Easy con tapa amortiguada blanca",
+          "precio": 88.99,
+          "enlace": "https://www.leroymerlin.es/productos/taza-wc-suspendido-sensea-easy-con-tapa-amortiguada-blanca-91427288.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "INODORO SUSPENDIDO TEKA MANACOR PRO SALIDA HORIZONTAL",
+          "precio": 127,
+          "enlace": "https://www.obramat.es/productos/inodoro-suspendido-teka-manacor-pro-salida-horizontal-10927714.html"
+        }
+      ]
+    },
+    {
+      "slug": "lavabo-sobre-encimera",
+      "nombre": "Lavabo sobre encimera cerámico rectangular",
+      "categoria": "Baño y cocina",
+      "formato": "Lavabo de sobreponer ~50x36 cm",
+      "unidad": "ud",
+      "consejo": "Los lavabos sobre encimera necesitan grifo de caño alto o de pared y válvula sin rebosadero si no lo tienen.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Lavabo sobre encimera de cerámica Studio 50x12x36 cm rectangular blanco brillante",
+          "precio": 58.99,
+          "enlace": "https://www.leroymerlin.es/productos/lavabo-sobre-encimera-de-ceramica-studio-50x12x36-cm-rectangular-blanco-brillante-82730376.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "LAVABO SOBREPONER RECTANGULAR 47X36CM BLANCO",
+          "precio": 55,
+          "enlace": "https://www.obramat.es/productos/lavabo-sobreponer-rectangular-47x36cm-blanco-25057389.html"
+        }
+      ]
+    },
+    {
+      "slug": "grifo-banera-ducha-monomando",
+      "nombre": "Grifo bañera-ducha monomando",
+      "categoria": "Baño y cocina",
+      "formato": "Grifo de pared con flexo y teleducha",
+      "unidad": "ud",
+      "consejo": "Comprueba la distancia entre tomas (normalmente 150 mm) y que incluya flexo y teleducha.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "GRIFO BAÑERA MONOMANDO ROCA ALFA CROMADO",
+          "precio": 73,
+          "nota": "Incluye flexo de 1,70 m y mango de ducha",
+          "enlace": "https://www.obramat.es/productos/grifo-banera-monomando-roca-alfa-cromado-25030398.html"
+        }
+      ]
+    },
+    {
+      "slug": "horno-multifuncion",
+      "nombre": "Horno multifunción encastrable",
+      "categoria": "Baño y cocina",
+      "formato": "Horno 60 cm, ~66-70 L",
+      "unidad": "ud",
+      "consejo": "Comprueba la medida del hueco del mueble y que la línea eléctrica de cocina tenga la sección adecuada.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Horno multifunción BALAY 3HB2030X0 66 litros 3.3kW Clase A",
+          "precio": 279,
+          "enlace": "https://www.leroymerlin.es/productos/horno-multifuncion-balay-3hb2030x0-66-litros-3-3kw-clase-a-84450875.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "HORNO MULTIFUNCION ACABADO INOX TEKA HOB6374 SS E00",
+          "precio": 239,
+          "nota": "70 L",
+          "enlace": "https://www.obramat.es/productos/horno-multifuncion-acabado-inox-teka-hob6374-ss-e00-25121600.html"
+        }
+      ]
+    },
+    {
+      "slug": "lavavajillas-integrable-60",
+      "nombre": "Lavavajillas integrable 60 cm",
+      "categoria": "Baño y cocina",
+      "formato": "Lavavajillas 60 cm para empotrar",
+      "unidad": "ud",
+      "consejo": "Distingue entre integrable (panel de mandos visible) y totalmente integrable (queda oculto tras la puerta del mueble).",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Lavavajillas integrable EDESA EHDB-6930-I 13 cubiertos 5 programas con inicio diferido inox 60cm clase C",
+          "precio": 319,
+          "enlace": "https://www.leroymerlin.es/productos/lavavajillas-integrable-edesa-ehdb-6930-i-13-cubiertos-5-programas-con-inicio-diferido-inox-60cm-clase-c-89791082.html"
+        }
+      ]
+    },
+    {
+      "slug": "pintura-antimoho-4l",
+      "nombre": "Pintura antimoho blanca",
+      "categoria": "Pintura",
+      "formato": "Bote de 4 L",
+      "unidad": "bote",
+      "consejo": "Limpia antes el moho con un fungicida y busca la causa (condensación o filtración); la pintura sola no la elimina.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pintura de interior Extra antimoho MONTO color blanco 4L para paredes y techos",
+          "precio": 19.99,
+          "porUnidad": "5,00 €/L",
+          "enlace": "https://www.leroymerlin.es/productos/pintura-de-interior-extra-antimoho-monto-color-blanco-4l-para-paredes-y-techos-82070380.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PINTURA ANTIMOHO AL AGUA FUNGIFIN PLUS 4L BLANCO",
+          "precio": 24.5,
+          "porUnidad": "6,13 €/L",
+          "enlace": "https://www.obramat.es/productos/pintura-antimoho-al-agua-fungifin-plus-4l-blanco-10527223.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-cobre-15",
+      "nombre": "Tubo de cobre 15 mm en barra",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Barra de 15 mm, espesor 1 mm",
+      "unidad": "ud",
+      "consejo": "Compara por metro: las barras se venden en distintos largos.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Barra de cobre 1M 15MM Tradesa",
+          "precio": 8.98,
+          "porUnidad": "8,98 €/m",
+          "nota": "Barra de 1 m",
+          "enlace": "https://www.leroymerlin.es/productos/barra-de-cobre-1m-15mm-tradesa-94543190.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "BARRA 15MM 2.5M COBRE",
+          "precio": 12.45,
+          "porUnidad": "4,98 €/m",
+          "nota": "Barra de 2,5 m",
+          "enlace": "https://www.obramat.es/productos/barra-15mm-2-5m-cobre-10425044.html"
+        }
+      ]
+    },
+    {
+      "slug": "junta-epoxi",
+      "nombre": "Mortero de juntas epoxi",
+      "categoria": "Cerámica y colocación",
+      "formato": "Bote de 2,5 kg",
+      "unidad": "bote",
+      "consejo": "Ideal para duchas y cocinas por ser impermeable y antimanchas, pero endurece rápido: trabaja por zonas pequeñas.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CEMENTO JUNTA EPOXY EASY WEBER 2.5KG BLANCO PURO",
+          "precio": 32.95,
+          "porUnidad": "13,18 €/kg",
+          "enlace": "https://www.obramat.es/productos/cemento-junta-epoxy-easy-weber-2-5kg-blanco-puro-10656751.html"
+        }
+      ]
+    },
+    {
+      "slug": "espejo-bano-led-80",
+      "nombre": "Espejo de baño con luz LED 80x80",
+      "categoria": "Baño y cocina",
+      "formato": "Espejo 80x80 cm con LED",
+      "unidad": "ud",
+      "consejo": "En zona de baño la conexión debe hacerla alguien cualificado y respetando los volúmenes de seguridad; valora el antivaho.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Espejo de baño cuadrado con luz LED Push 80x80 cm táctil color cromo",
+          "precio": 72.99,
+          "nota": "Sin antivaho",
+          "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-con-luz-led-push-tactil-80x80cm-17907232.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "ESPEJO DE BAÑO CON LUZ LED ECO 80X80CM",
+          "precio": 55,
+          "nota": "Sin antivaho",
+          "enlace": "https://www.obramat.es/productos/espejo-de-bano-con-luz-led-eco-80x80cm-10891531.html"
+        }
+      ]
+    },
+    {
+      "slug": "valvula-termostatica-radiador",
+      "nombre": "Válvula / cabezal termostático de radiador",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Pieza para radiador de 1/2\"",
+      "unidad": "ud",
+      "consejo": "Necesitas cuerpo de válvula termostatizable y cabezal compatibles (rosca M28 o M30); confirma la rosca antes de comprar.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Válvula termostática de 1/2\" (15/21 mm) Equation",
+          "precio": 21.24,
+          "nota": "Solo cuerpo de válvula (cabezal M28x1,5 aparte). Oferta, antes 24,99 €",
+          "enlace": "https://www.leroymerlin.es/productos/valvula-termostatica-de-1-2-15-21-mm-equation-85091119.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CABEZAL TERMOSTATICO EROSO",
+          "precio": 12.5,
+          "nota": "Solo cabezal (Orkli); la ficha no indica la rosca",
+          "enlace": "https://www.obramat.es/productos/cabezal-termostatico-eroso-10491054.html"
+        }
+      ]
+    },
+    {
+      "slug": "cable-10-mm",
+      "nombre": "Cable unipolar 10 mm² libre de halógenos",
+      "categoria": "Electricidad",
+      "formato": "Rollo de 50 m",
+      "unidad": "rollo",
+      "consejo": "La sección de 10 mm² suele usarse en derivación individual o líneas de gran potencia; la define el instalador según el boletín.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "HILO FLEXIBLE LIBRE HALÓGENOS H07Z1-K 10mm2 NEGRO 50M",
+          "precio": 83,
+          "porUnidad": "1,66 €/m",
+          "enlace": "https://www.obramat.es/productos/hilo-flexible-libre-halogenos-h07z1-k-10mm2-negro-50m-10577280.html"
+        }
+      ]
+    },
+    {
+      "slug": "mampara-frontal-140",
+      "nombre": "Mampara de ducha frontal corredera 140 cm",
+      "categoria": "Baño y cocina",
+      "formato": "1 fijo + 1 corredera, 140 cm",
+      "unidad": "ud",
+      "consejo": "Mide el hueco en varios puntos y compara grosor del cristal y altura; las de 6-8 mm son más robustas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mampara de ducha frontal 1 fijo 1 puerta corredera transparente Essential perfil aluminio cromo 137-140 x185 cm cristal 4 mm cierre magnético con guía inferior marca Sensea",
+          "precio": 205,
+          "nota": "Cristal 4 mm transparente, 185 cm de alto",
+          "enlace": "https://www.leroymerlin.es/productos/mampara-de-ducha-frontal-1-fijo-1-puerta-corredera-transparente-essential-perfil-aluminio-cromo-137-140-x185-cm-cristal-4-mm-cierre-magnetico-con-guia-inferior-marca-sensea-82204634.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "MAMPARA DE DUCHA FRONTAL CORREDERA LEXIE 140CM CROMO",
+          "precio": 247,
+          "nota": "Cristal 5 mm serigrafiado, 195 cm de alto",
+          "enlace": "https://www.obramat.es/productos/mampara-de-ducha-frontal-corredera-lexie-140cm-cromo-25043214.html"
+        }
+      ]
+    },
+    {
+      "slug": "barniz-madera-interior",
+      "nombre": "Barniz de madera interior incoloro mate al agua",
+      "categoria": "Pintura",
+      "formato": "Bote de 750 ml",
+      "unidad": "bote",
+      "consejo": "Lija suave entre manos y aplica capas finas; el barniz al agua amarillea menos y huele poco.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Barniz de madera interior LUXENS incoloro, acabado mate para mobiliario líquido de 750 ml. Base agua",
+          "precio": 12.79,
+          "porUnidad": "17,05 €/L",
+          "enlace": "https://www.leroymerlin.es/productos/barniz-de-madera-interior-luxens-incoloro-acabado-mate-para-mobiliario-liquido-de-750-ml-base-agua-16699774.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "BARNIZ ACRILICO MATE POLIURETANO 750ML INCOLORO",
+          "precio": 11.99,
+          "porUnidad": "15,99 €/L",
+          "enlace": "https://www.obramat.es/productos/barniz-acrilico-mate-poliuretano-750ml-incoloro-25035162.html"
+        }
+      ]
+    },
+    {
+      "slug": "parquet-multicapa-roble",
+      "nombre": "Parquet multicapa de roble",
+      "categoria": "Suelos",
+      "formato": "Caja de 2,66 m², 13 mm",
+      "unidad": "caja",
+      "consejo": "Deja aclimatar las cajas en la vivienda 48 h y calcula un 5-10 % extra por cortes.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Parquet multicapa Pure roble natural satinado 228.1x19.4 cm",
+          "precio": 107,
+          "porUnidad": "40,23 €/m²",
+          "enlace": "https://www.leroymerlin.es/productos/parquet-multicapa-pure-roble-natural-satinado-228-1x19-4-cm-88759394.html"
+        }
+      ]
+    },
+    {
+      "slug": "caldera-condensacion-24",
+      "nombre": "Caldera de condensación gas natural 24 kW",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Caldera mixta mural 24 kW",
+      "unidad": "ud",
+      "consejo": "La instalación debe hacerla una empresa habilitada de gas; revisa la salida de humos y el certificado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Caldera de condensación gas natural BAXI Neodens Plus 24kw Instalación básica incluida",
+          "precio": 1359,
+          "nota": "Incluye instalación básica (desmontaje, montaje, kit de humos y certificado). Oferta, antes 1.479 €",
+          "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-gas-natural-baxi-neodens-plus-24kw-instalacion-basica-incluida-81968061.html"
+        }
+      ]
+    },
+    {
+      "slug": "bombin-seguridad",
+      "nombre": "Bombín de seguridad antibumping",
+      "categoria": "Puertas y ventanas",
+      "formato": "Bombín ~30x30/35x35 mm, 5 llaves",
+      "unidad": "ud",
+      "consejo": "Mide cada lado del bombín desde el centro de la leva y evita que sobresalga más de 3 mm de la puerta.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Bombín para cerradura AMIG 10.000 de 35X35mm cromo",
+          "precio": 22.95,
+          "nota": "35+35 mm",
+          "enlace": "https://www.leroymerlin.es/productos/bombin-para-cerradura-amig-10-000-de-35x35mm-cromo-84350802.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "BOMBÍN CERRADURA DE ALTA SEGURIDAD 31X31MM CON 5 LLAVES LATON 10000 AMIG",
+          "precio": 16.62,
+          "nota": "31+31 mm",
+          "enlace": "https://www.obramat.es/productos/bombin-cerradura-de-alta-seguridad-31x31mm-con-5-llaves-laton-10000-amig-10631355.html"
+        }
+      ]
+    },
+    {
+      "slug": "lana-roca-60",
+      "nombre": "Panel de lana de roca 60 mm",
+      "categoria": "Aislamiento",
+      "formato": "Paquete de paneles de 60 mm",
+      "unidad": "paquete",
+      "consejo": "Compara por m²: cada marca vende paquetes de distinta superficie. Para tabique con montante 70 encaja bien.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "15 uds de Aislamiento de Lana de roca Geowall ISOVER 1.35x0.6m Espesor 60mm R = 1.75",
+          "precio": 89.02,
+          "porUnidad": "10,99 €/m²",
+          "nota": "8,10 m² por paquete (deducido de precio/m²; el título indica 0,6 m de ancho y la URL 0,4 m)",
+          "enlace": "https://www.leroymerlin.es/productos/15-uds-de-aislamiento-de-lana-de-roca-geowall-isover-1-35x0-4m-espesor-60mm-r-1-75-89752191.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PANEL LANA DE ROCA SONOROCK ECO 135X60X6CM",
+          "precio": 54,
+          "porUnidad": "5,56 €/m²",
+          "nota": "9,72 m² (12 paneles)",
+          "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-eco-135x60x6cm-25046669.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "montante-70",
+      "nombre": "Montante 70 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m",
+      "unidad": "ud",
+      "consejo": "El montante de 70 permite tabiques más rígidos y con más aislamiento que el de 48; colócalo cada 40-60 cm.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "MONTANTE EGA 70 MM 3 M",
+          "precio": 2.95,
+          "porUnidad": "0,98 €/m",
+          "nota": "Acero 0,55 mm",
+          "enlace": "https://www.obramat.es/productos/montante-ega-70-mm-3-m-10188171.html"
+        }
+      ]
+    },
+    {
+      "slug": "canal-70",
+      "nombre": "Canal 70 mm",
+      "categoria": "Tabiquería seca",
+      "formato": "Perfil de 3 m",
+      "unidad": "ud",
+      "consejo": "Usa banda acústica bajo la canal para reducir la transmisión de ruido a suelo y techo.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CANAL PLACO 70 MM 3 M",
+          "precio": 3.06,
+          "porUnidad": "1,02 €/m",
+          "enlace": "https://www.obramat.es/productos/canal-placo-70-mm-3-m-10927126.html"
+        }
+      ]
+    },
+    {
+      "slug": "tira-led-5m",
+      "nombre": "Tira LED blanco neutro 5 m",
+      "categoria": "Electricidad",
+      "formato": "Rollo de 5 m",
+      "unidad": "rollo",
+      "consejo": "Las de 24 V necesitan fuente de alimentación aparte; las de 230 V se enchufan directamente pero solo se cortan en tramos fijos.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Kit tira LED 220-240V SMD 2835 INSPIRE IP20 apto para zonas secas 3100 lm luz blanco neutro 4000K 5 metros corte c/10cm",
+          "precio": 23.48,
+          "nota": "Kit 230 V",
+          "enlace": "https://www.leroymerlin.es/productos/kit-tira-led-220-240v-smd-2835-inspire-ip20-apto-para-zonas-secas-3100-lm-luz-blanco-neutro-4000k-5-metros-corte-c-10cm-87978097.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TIRA LED 24V 5M 9,6W/M LUZ NEUTRA IP20",
+          "precio": 12.96,
+          "nota": "24 V; la ficha no indica si incluye fuente",
+          "enlace": "https://www.obramat.es/productos/tira-led-24v-5m-9-6w-m-luz-neutra-ip20-10844603.html"
+        }
+      ]
+    },
+    {
+      "slug": "ladrillo-perforado-24x11-5x10",
+      "nombre": "Ladrillo perforado 24×11,5×10 cm",
+      "categoria": "Albañilería y morteros",
+      "formato": "Pieza 24×11,5×10 cm",
+      "unidad": "ud",
+      "consejo": "Para muros de carga o fachada a cara vista se usa perforado; calcula unas 50-55 piezas por m² en muro de medio pie y pide un 5 % extra por roturas.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "LADRILLO PERFORADO 24X11.5X10 CM",
+          "precio": 0.29,
+          "nota": "Precio por pieza; 5 % de descuento comprando el palé completo.",
+          "enlace": "https://www.obramat.es/productos/ladrillo-perforado-24x11-5x10-cm-10741444.html"
+        }
+      ]
+    },
+    {
+      "slug": "panel-led-60x60",
+      "nombre": "Panel LED empotrable 60×60",
+      "categoria": "Electricidad",
+      "formato": "Panel 59,5×59,5 cm, ~26,5 W",
+      "unidad": "ud",
+      "consejo": "Comprueba que el panel encaja en la perfilería de tu techo desmontable (60×60 o 59,5×59,5) y elige temperatura de color neutra (4000 K) para cocinas y oficinas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Panel LED cuadrado 3800 lm blanco frío",
+          "precio": 12.49,
+          "nota": "26,5 W, luz fría.",
+          "enlace": "https://www.leroymerlin.es/productos/panel-led-cuadrado-3800-lm-blanco-frio-91894769.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PANEL LED EMPOTRAR 60X60 26.5W LUZ NEUTRA",
+          "precio": 8.54,
+          "nota": "26,5 W, 4000 lm, luz neutra.",
+          "enlace": "https://www.obramat.es/productos/panel-led-empotrar-60x60-26-5w-luz-neutra-25076365.html"
+        }
+      ]
+    },
+    {
+      "slug": "extractor-bano-100-mm",
+      "nombre": "Extractor de baño Ø100 mm",
+      "categoria": "Baño y cocina",
+      "formato": "Extractor axial de pared/techo, conducto 100 mm",
+      "unidad": "ud",
+      "consejo": "En baños sin ventana es casi imprescindible; un modelo con temporizador sigue extrayendo tras apagar la luz. Revisa el ruido (dB) si el baño está junto a un dormitorio.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Extractor baño silent 100 cz S&P 8w - 95 m3/h - conducto 100mm",
+          "precio": 86.23,
+          "nota": "Vendido por un tercero (DROITEK) en el marketplace; oferta -17 % (antes 104 €). Marca S&P.",
+          "enlace": "https://www.leroymerlin.es/productos/extractor-bano-silent-100-cz-s-p-8w-95m3-h-conducto-100mm-13647305.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "EXTRACTOR AXIAL SILENCIOSO 100 NOVOVENT",
+          "precio": 41,
+          "nota": "Marca Novovent, 92-95 m³/h según la ficha.",
+          "enlace": "https://www.obramat.es/productos/extractor-axial-silencioso-100-novovent-10553144.html"
+        }
+      ]
+    },
+    {
+      "slug": "placa-techo-desmontable-60x60",
+      "nombre": "Placa de techo desmontable 60×60",
+      "categoria": "Tabiquería seca",
+      "formato": "Placa 60×60 cm para perfilería vista",
+      "unidad": "m²",
+      "consejo": "Confirma el tipo de borde (recto o escalonado) según la perfilería. Las de lana de roca absorben mejor el sonido; las de escayola son más baratas pero más pesadas y frágiles.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Pack 40 placas Lana de roca Blanco 60x60x1,2 cm",
+          "precio": 7.58,
+          "porUnidad": "109,20 € la caja de 40 placas (~14,4 m²)",
+          "nota": "Lana de roca (fibra mineral), 12 mm.",
+          "enlace": "https://www.leroymerlin.es/productos/pack-40-placas-lana-de-roca-blanco-60x60x1-2-cm-16622123.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLACA DE TECHO ESCAYOLA LISA RECTO-A 60X60X2 CM 6 UDS",
+          "precio": 2.5,
+          "porUnidad": "5,40 € según la ficha (paquete de 6 placas, 2,16 m²)",
+          "nota": "Escayola lisa de 2 cm, no lana de roca: material distinto.",
+          "enlace": "https://www.obramat.es/productos/placa-de-techo-escayola-lisa-recto-a-60x60x2-cm-6-uds-10749795.html"
+        }
+      ]
+    },
+    {
+      "slug": "cable-rz1-k-3g2-5-100-m",
+      "nombre": "Manguera RZ1-K 3G2,5 mm² libre de halógenos",
+      "categoria": "Electricidad",
+      "formato": "Rollo 100 m",
+      "unidad": "rollo",
+      "consejo": "La RZ1-K se usa en zonas comunes, garajes o instalaciones vistas donde se exige cable libre de halógenos. Para el interior de la vivienda en tubo suele bastar con H07V-K.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CABLE LIBRE DE HALÓGENOS RZ1-K 3G 2.5MM2 VERDE 100M",
+          "precio": 162,
+          "porUnidad": "1,62 €/m",
+          "enlace": "https://www.obramat.es/productos/cable-libre-de-halogenos-rz1-k-3g-2-5mm2-verde-100m-10651361.html"
+        }
+      ]
+    },
+    {
+      "slug": "plato-ducha-70x100",
+      "nombre": "Plato de ducha de resina 70×100",
+      "categoria": "Baño y cocina",
+      "formato": "70×100 cm, resina, con rejilla",
+      "unidad": "ud",
+      "consejo": "Mide bien el hueco y la posición del desagüe antes de comprar. Revisa si la válvula viene incluida: a menudo se vende aparte.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Plato de ducha Remix 100x70 cm negro",
+          "precio": 109,
+          "nota": "Enlace a la versión negra; la ficha muestra el blanco y el gris al mismo precio. Incluye rejilla inox.; la ficha no aclara si incluye válvula.",
+          "enlace": "https://www.leroymerlin.es/productos/plato-de-ducha-remix-100x70-cm-negro-88286896.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "PLATO DE DUCHA RESINA RECTANGULAR BLANCO 70X100X3CM",
+          "precio": 80,
+          "nota": "Rejilla incluida; la válvula se vende aparte.",
+          "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-70x100x3cm-25141598.html"
+        }
+      ]
+    },
+    {
+      "slug": "llave-escuadra-1-2-3-8",
+      "nombre": "Llave de escuadra 1/2\"×3/8\"",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Unidad, latón cromado",
+      "unidad": "ud",
+      "consejo": "Pon una llave de escuadra en cada toma de lavabo, inodoro y fregadero para cortar el agua sin dejar la casa sin servicio. Si tu agua es dura, mejor con filtro antical.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Llave escuadra EQUATION antical m1/2-m3/8",
+          "precio": 2.79,
+          "nota": "Con antical.",
+          "enlace": "https://www.leroymerlin.es/productos/llave-escuadra-equation-antical-m1-2-m3-8-88042366.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "LLAVE ESCUADRA Ø1/2\"X3/8\"",
+          "precio": 1.75,
+          "enlace": "https://www.obramat.es/productos/llave-escuadra-1-2-x3-8-10928736.html"
+        }
+      ]
+    },
+    {
+      "slug": "mueble-bano-60",
+      "nombre": "Mueble de baño 60 cm",
+      "categoria": "Baño y cocina",
+      "formato": "60 cm de ancho, ~45 cm de fondo",
+      "unidad": "ud",
+      "consejo": "Comprueba si el precio incluye lavabo y espejo, y deja espacio para el sifón detrás de los cajones. Para baños estrechos hay fondos reducidos de 35-40 cm.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Conjunto de baño con lavabo y espejo Mindoro blanco satinado 60x45 cm con 2 puertas",
+          "precio": 241,
+          "nota": "Conjunto: mueble con lavabo cerámico y espejo.",
+          "enlace": "https://www.leroymerlin.es/productos/conjunto-de-mueble-de-bano-mindoro-60-blanco-84382209.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "MUEBLE DE BAÑO BLUR 60CM BLANCO 2 CAJONES",
+          "precio": 250,
+          "nota": "Solo el mueble: encimera/lavabo, espejo, grifo y válvula se venden aparte.",
+          "enlace": "https://www.obramat.es/productos/mueble-de-bano-blur-60cm-blanco-2-cajones-25099217.html"
+        }
+      ]
+    },
+    {
+      "slug": "disco-diamante-230-mm",
+      "nombre": "Disco de diamante 230 mm para obra",
+      "categoria": "Obra y protección",
+      "formato": "Ø230 mm, para amoladora grande",
+      "unidad": "ud",
+      "consejo": "Usa el disco adecuado al material (hormigón, cerámica, porcelánico) y con la amoladora de 230 mm siempre gafas, guantes y protección auditiva; corta en húmedo si puedes para reducir polvo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Disco de diamante para hormigón - ø230 mm",
+          "precio": 15.56,
+          "nota": "Para hormigón.",
+          "enlace": "https://www.leroymerlin.es/productos/disco-de-diamante-para-hormigon-230-mm-82007388.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "DISCO DE DIAMANTE AMOLADORA CORTE GENERAL DE OBRA SEGMENTADO 230MM STAYER",
+          "precio": 15.56,
+          "nota": "Segmentado, corte general de obra (Stayer).",
+          "enlace": "https://www.obramat.es/productos/disco-de-diamante-amoladora-corte-general-de-obra-segmentado-230mm-stayer-10726940.html"
+        }
+      ]
+    },
+    {
+      "slug": "rodapie-poliestireno-blanco-10-cm",
+      "nombre": "Rodapié de poliestireno blanco ~10 cm",
+      "categoria": "Suelos",
+      "formato": "Tira de 2,2 m, 10-11 cm de alto",
+      "unidad": "ud",
+      "consejo": "El poliestireno no se hincha con la humedad como el MDF, así que va bien en cocinas y baños. Se pega con adhesivo de montaje; mide los metros lineales y suma un 10 % por cortes en esquinas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Rodapié de poliestireno de 220x10cm blanco STIQ XL 110 WHITE ARTENS",
+          "precio": 9.99,
+          "porUnidad": "≈4,54 €/m (cálculo)",
+          "nota": "2,2 m × 10 cm × 15 mm.",
+          "enlace": "https://www.leroymerlin.es/productos/rodapie-de-poliestireno-de-220x10cm-blanco-stiq-xl-110-white-artens-91052772.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "RODAPIE POLIESTIRENO LACADO BLANCO 2200 X 110 X 14 MM",
+          "precio": 9.1,
+          "porUnidad": "4,14 €/m",
+          "nota": "2,2 m × 11 cm × 14 mm.",
+          "enlace": "https://www.obramat.es/productos/rodapie-poliestireno-lacado-blanco-2200-x-110-x-14-mm-25043223.html"
+        }
+      ]
+    },
+    {
+      "slug": "aerotermo-acs-200-l",
+      "nombre": "Aerotermo (bomba de calor ACS) 200 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Ariston Nuos Fit 200 L con wifi",
+      "unidad": "ud",
+      "consejo": "Necesita espacio para el depósito y una toma o conducto de aire; consulta con un instalador antes de cambiar el termo. Suele tener ayudas o deducciones por eficiencia energética: guarda la factura.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Aerotermo ARISTON NUOS FIT WIFI 200",
+          "precio": 1245,
+          "nota": "Envío gratis; la ficha no indica que incluya instalación.",
+          "enlace": "https://www.leroymerlin.es/productos/aerotermo-ariston-nuos-fit-wifi-200-96801789.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "AEROTERMO ACS 200L NUOS FIT S2 ARISTON",
+          "precio": 1209,
+          "nota": "Versión S2, con wifi integrado.",
+          "enlace": "https://www.obramat.es/productos/aerotermo-acs-200l-nuos-fit-s2-ariston-25112024.html"
+        }
+      ]
+    },
+    {
+      "slug": "ventilador-techo-luz-132-cm",
+      "nombre": "Ventilador de techo con luz 132 cm",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Ø132 cm, ~35 W, con mando",
+      "unidad": "ud",
+      "consejo": "Para salones de 20-40 m² va bien un diámetro de 132 cm. Los de motor DC gastan menos y son más silenciosos; comprueba que el techo aguanta el peso y deja al menos 2,3 m hasta las aspas.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Ventilador de techo con luz silencioso DC 35W con mando ø132 cm Misi ARTE CONFORT blanco luz CCT",
+          "precio": 84.99,
+          "nota": "Oferta -15 % (antes 99,99 €), válida del 16 de noviembre al 14 de diciembre. Motor DC.",
+          "enlace": "https://www.leroymerlin.es/productos/ventilador-de-techo-con-luz-silencioso-dc-35w-con-mando-132-cm-misi-arte-confort-blanco-luz-cct-3-aspas-6-velocidades-modo-verano-invierno-brisa-temporizador-recomendado-de-20-a-40m2-83738649.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "VENTILADOR DE TECHO Ø132CM 35W CON LUZ BLANCO",
+          "precio": 85,
+          "nota": "Con mando por infrarrojos; la ficha no indica el tipo de motor.",
+          "enlace": "https://www.obramat.es/productos/ventilador-de-techo-132cm-35w-con-luz-blanco-25061354.html"
+        }
+      ]
+    },
+    {
+      "slug": "radiador-toallero-agua-500",
+      "nombre": "Radiador toallero de agua blanco 50 cm",
+      "categoria": "Climatización y agua caliente",
+      "formato": "≈500×800 mm, para calefacción central",
+      "unidad": "ud",
+      "consejo": "Solo funciona conectado a la calefacción por agua; si no tienes, elige uno eléctrico. Comprueba la distancia entre tomas y que la potencia sea suficiente para el baño.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Radiador Toallero agua ROINTE Elba 500x770mm Blanco",
+          "precio": 37,
+          "nota": "500×770 mm; la ficha da 400 W en el texto y 300 W (ΔT50) en la tabla.",
+          "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-agua-rointe-elba-500x770mm-blanco-82405571.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "RADIADOR TOALLERO AZORES 800X500MM BLANCO",
+          "precio": 37,
+          "nota": "800×500 mm, 339 W.",
+          "enlace": "https://www.obramat.es/productos/radiador-toallero-azores-800x500mm-blanco-25051372.html"
+        }
+      ],
+      "comparable": false
+    },
+    {
+      "slug": "mosquitera-enrollable-ventana",
+      "nombre": "Mosquitera enrollable para ventana",
+      "categoria": "Puertas y ventanas",
+      "formato": "Aluminio blanco, recortable, ~120 cm de ancho",
+      "unidad": "ud",
+      "consejo": "Mide el hueco por dentro en varios puntos y quédate con la medida menor; las recortables se ajustan cortando el cajón y las guías.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Mosquitera enrollable vertical 120x120cm aluminio recortable blanco para ventana tela fibra de vidrio negra Isoxa",
+          "precio": 41.99,
+          "nota": "120×120 cm.",
+          "enlace": "https://www.leroymerlin.es/productos/mosquitera-enrollable-vertical-120x120cm-aluminio-recortable-blanco-para-ventana-tela-fibra-de-vidrio-negra-isoxa-82709209.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "MOSQUITERA ENROLLABLE ALUMINIO BLANCA 120X140CM",
+          "precio": 34.9,
+          "nota": "120×140 cm; recortable (cajón hasta 20 cm, guías hasta 60 cm).",
+          "enlace": "https://www.obramat.es/productos/mosquitera-enrollable-aluminio-blanca-120x140cm-10247860.html"
+        }
+      ]
+    },
+    {
+      "slug": "tubo-ppr-20-mm",
+      "nombre": "Tubo PPR Ø20 mm",
+      "categoria": "Fontanería y saneamiento",
+      "formato": "Barra de 4 m",
+      "unidad": "ud",
+      "consejo": "El PPR se une por termofusión: necesitas el soldador con matrices del diámetro adecuado. Para agua caliente usa tubo con fibra (tipo Faser), que dilata menos.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "BARRA FASER 20MM 4M PPR",
+          "precio": 3.72,
+          "porUnidad": "0,93 €/m",
+          "enlace": "https://www.obramat.es/productos/barra-faser-20mm-4m-ppr-10777256.html"
+        }
+      ]
+    },
+    {
+      "slug": "mortero-reparacion-r4-25-kg",
+      "nombre": "Mortero de reparación estructural R4",
+      "categoria": "Albañilería y morteros",
+      "formato": "Saco 25 kg",
+      "unidad": "saco",
+      "consejo": "Para reparar hormigón o cantos de forjado con armadura a la vista: limpia el óxido y trata las barras antes de aplicar. Si hay grietas estructurales, consulta a un técnico.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "MORTERO REPARADOR R4 KERAKOLL GEOLITE 40 25 KG",
+          "precio": 31.95,
+          "enlace": "https://www.obramat.es/productos/mortero-reparador-r4-kerakoll-geolite-40-25-kg-10519334.html"
+        }
+      ]
+    },
+    {
+      "slug": "cola-blanca-madera-1-kg",
+      "nombre": "Cola blanca para madera",
+      "categoria": "Obra y protección",
+      "formato": "Bote 1 kg",
+      "unidad": "ud",
+      "consejo": "Sirve para carpintería interior; para exteriores o zonas húmedas busca una cola D3. Aprieta las piezas con sargentos mientras seca.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "COLA BLANCA PARA MADERA 1KG",
+          "precio": 3.8,
+          "nota": "Marca Quiadsa.",
+          "enlace": "https://www.obramat.es/productos/cola-blanca-para-madera-1kg-10890285.html"
+        }
+      ]
+    },
+    {
+      "slug": "banera-acrilica-170x70",
+      "nombre": "Bañera acrílica 170×70",
+      "categoria": "Baño y cocina",
+      "formato": "170×70 cm, acrílica, con patas",
+      "unidad": "ud",
+      "consejo": "Comprueba que cabe por la puerta y por el pasillo antes de comprarla. Las de patas necesitan faldón o un murete de obra alicatado.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Bañera rectangular blanca Slim 170x70 cm - Desagüe + patas - OPTIKA",
+          "precio": 324.9,
+          "nota": "Vendida por un tercero (OTITEC) en el marketplace; oferta -23 % (antes 424,90 €). Incluye desagüe y patas, sin faldón.",
+          "enlace": "https://www.leroymerlin.es/productos/banera-rectangular-blanca-slim-170x70-cm-desague-patas-optika-70229533.html"
+        }
+      ]
+    },
+    {
+      "slug": "cinta-aislante-19-mm",
+      "nombre": "Cinta aislante PVC 19 mm",
+      "categoria": "Electricidad",
+      "formato": "Rollo 19 mm",
+      "unidad": "rollo",
+      "consejo": "Úsala para marcar o proteger empalmes; los empalmes en cajas deben ir con bornas o regletas, no solo con cinta.",
+      "comparable": false,
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Cinta aislante 3M de 20x0.01 cm blanco",
+          "precio": 1,
+          "nota": "Marca 3M. La ficha no deja clara la longitud (indica 300 cm en un sitio y 0,01 m en otro).",
+          "enlace": "https://www.leroymerlin.es/productos/cinta-aislante-3m-de-20x0-01-cm-blanco-19715486.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "CINTA AISLANTE 19 MM X 20 M BLANCA",
+          "precio": 0.65,
+          "nota": "Rollo de 20 m.",
+          "enlace": "https://www.obramat.es/productos/cinta-aislante-19-mm-x-20-m-blanca-10041885.html"
+        }
+      ]
+    },
+    {
+      "slug": "cinta-americana-50-m",
+      "nombre": "Cinta americana gris 50 m",
+      "categoria": "Obra y protección",
+      "formato": "Rollo 50 m × 50 mm",
+      "unidad": "rollo",
+      "consejo": "Va bien para fijar plásticos de protección y cerrar sacos, pero en superficies pintadas o delicadas deja restos: ahí usa cinta de carrocero.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CINTA AMERICANA 4610 50MX50MM GRIS",
+          "precio": 4.5,
+          "nota": "Marca Tesa.",
+          "enlace": "https://www.obramat.es/productos/cinta-americana-4610-50mx50mm-gris-10896046.html"
+        }
+      ]
     }
   ]
 }
