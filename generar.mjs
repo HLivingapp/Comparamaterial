@@ -77,6 +77,7 @@ function ahorroPct(m) {
   return Math.round(((max - min) / max) * 100);
 }
 
+const indiceJSON = JSON.stringify(materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, p: eur(Math.min(...m.ofertas.map((o) => o.precio))) }))).replace(/</g, "\\u003c");
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -102,8 +103,10 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
 <header class="barra"><div class="ancho">
   <a class="marca" href="${raiz}"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1f5fd6"/><path d="M8 20l5-9 4 6 3-4 4 7z" fill="#ffc93c"/><path d="M8 23h16" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>${esc(NOMBRE)}</a>
   <span class="lema">Compara precios de materiales de obra en ${esc(zona)}</span>
+  <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
+  <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho">${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -117,6 +120,27 @@ ${cuerpo}
   <p>Precios públicos de las webs de cada almacén, IVA incluido, consultados el ${fechaTexto}. Pueden cambiar según la tienda elegida y las ofertas del día. Confirma siempre el precio en el enlace antes de comprar.</p>
   <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
+<script id="indice" type="application/json">${indiceJSON}</script>
+<script>
+(function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
+var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n});
+document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add");var pinta=function(){b.textContent=c[s]?"✓ En tu cesta ("+c[s]+")":"+ Añadir a mi cesta"};pinta();
+b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
+var R="${raiz}",I=[];try{I=JSON.parse(document.getElementById("indice").textContent)}catch(e){}
+var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
+I.forEach(function(m){m.k=nor(m.n+" "+m.f+" "+m.c)});
+var f=document.querySelector(".busca"),q=f.querySelector("input"),res=f.querySelector(".busca-res");
+var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];return I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})}).slice(0,8)};
+var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
+var pinta=function(){var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
+res.innerHTML=r.length?r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
+q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
+res.addEventListener("click",function(e){var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
+f.addEventListener("submit",function(e){var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
+document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
+q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
+})();
+</script>
 </body>
 </html>
 `;
@@ -152,7 +176,7 @@ function tarjeta(m, raiz) {
   <span class="t-formato">${esc(m.formato)}</span>
   <span class="t-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(min)}`}</span>
   ${g ? `<span class="t-gana">Más barato en ${esc(tiendaCorta(g.tienda))} · −${ahorroPct(m)}&nbsp;%</span>` : `<span class="t-gana neutro">${m.ofertas.length} ${m.ofertas.length === 1 ? "almacén" : "almacenes"}</span>`}
-</a></li>`;
+</a><button type="button" class="t-add" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button></li>`;
 }
 const rejilla = (ms, raiz) => `<ul class="rejilla">${ms.map((m) => tarjeta(m, raiz)).join("")}</ul>`;
 
@@ -218,7 +242,7 @@ function paginaMaterial(m) {
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
 <p class="ficha-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(Math.min(...precios))}`}</p>
 ${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
-${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}
+<div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
 <h2>Mejor precio de ${esc(nombreMin)} hoy${hayOferta ? " (con oferta)" : ""}</h2>
@@ -265,6 +289,7 @@ function portada() {
     <div><b>${materiales.length}</b><span>materiales con enlace directo a la ficha de cada almacén.</span></div>
   </div>
 </section>
+<div class="avisos"><a class="aviso-comp" href="comparativa/"><b>¿Qué tienda es más barata?</b><span>Comparativa entre almacenes por categorías y con la cesta completa →</span></a><a class="aviso-comp" href="cesta/"><b>Haz tu cesta de la compra</b><span>Elige materiales y cantidades y te decimos dónde te sale más barata →</span></a></div>
 <nav class="atajos">${categorias.map((c) => `<a href="${rutaCat(c)}">${icono(c)}<span>${esc(c)}</span></a>`).join("")}</nav>
 ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>${esc(c)}</h2><a href="${rutaCat(c)}">Ver todo →</a></div>${rejilla(materiales.filter((m) => m.categoria === c), "")}</section>${i === 2 ? ctaReformista() : ""}`).join("\n")}
 <section class="consejo">
@@ -278,6 +303,176 @@ ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>
 </section>
 `;
   return pagina({ titulo, descripcion, ruta: "", cuerpo, jsonld: [web, lista], raiz: "./" });
+}
+
+function paginaComparativa() {
+  const ids = Object.keys(tiendas);
+  const raiz = "../";
+  const ruta = "comparativa/";
+  const nombres = ids.map(tiendaCorta);
+  // Solo materiales comparables con precio en todos los almacenes.
+  const ambos = materiales.filter((m) => m.comparable !== false && ids.every((t) => m.ofertas.some((o) => o.tienda === t)));
+  const precio = (m, t) => m.ofertas.find((o) => o.tienda === t).precio;
+  const ganador = (m) => { const ps = ids.map((t) => precio(m, t)); const min = Math.min(...ps); return ps.filter((p) => p === min).length > 1 ? null : ids[ps.indexOf(min)]; };
+  const resumen = (ms) => {
+    const r = { n: ms.length, gana: Object.fromEntries(ids.map((t) => [t, 0])), empates: 0, total: Object.fromEntries(ids.map((t) => [t, 0])), optimo: 0 };
+    for (const m of ms) { const g = ganador(m); g ? r.gana[g]++ : r.empates++; for (const t of ids) r.total[t] += precio(m, t); r.optimo += Math.min(...ids.map((t) => precio(m, t))); }
+    return r;
+  };
+  const tot = resumen(ambos);
+  const orden = [...ids].sort((a, b) => tot.total[a] - tot.total[b]);
+  const barata = orden[0], cara = orden[orden.length - 1];
+  const pctCesta = Math.round(((tot.total[cara] - tot.total[barata]) / tot.total[cara]) * 100);
+  const lider = [...ids].sort((a, b) => tot.gana[b] - tot.gana[a])[0];
+  const barra = (r) => `<div class="barra-gana" role="img" aria-label="${ids.map((t) => `${tiendaCorta(t)} gana en ${r.gana[t]}`).join(", ")}${r.empates ? `, ${r.empates} empates` : ""}">${ids.map((t, i) => r.gana[t] ? `<span class="t${i}" style="flex:${r.gana[t]}">${r.gana[t]}</span>` : "").join("")}${r.empates ? `<span class="emp" style="flex:${r.empates}">${r.empates}</span>` : ""}</div>`;
+  const filasCat = categorias.map((c) => {
+    const ms = ambos.filter((m) => m.categoria === c);
+    if (!ms.length) return "";
+    const r = resumen(ms);
+    const o = [...ids].sort((a, b) => r.total[a] - r.total[b]);
+    const pct = Math.round(((r.total[o[o.length - 1]] - r.total[o[0]]) / r.total[o[o.length - 1]]) * 100);
+    return `<tr><th scope="row"><a href="${raiz}${rutaCat(c)}">${esc(c)}</a><small>${r.n} materiales</small></th>${ids.map((t) => `<td class="num">${eur(r.total[t])}</td>`).join("")}<td>${pct ? `<b>${esc(tiendaCorta(o[0]))}</b> <small>${pct} % más barata</small>` : "Prácticamente igual"}</td><td class="col-barra">${barra(r)}</td></tr>`;
+  }).join("\n");
+  const filasMat = ambos.map((m) => {
+    const g = ganador(m);
+    const ps = ids.map((t) => precio(m, t));
+    const dif = Math.max(...ps) - Math.min(...ps);
+    return `<tr><th scope="row"><a href="${raiz}${m.slug}/">${esc(m.nombre)}</a><small>${esc(m.formato)}</small></th>${ids.map((t) => `<td class="num${g === t ? " barato" : ""}">${eur(precio(m, t))}</td>`).join("")}<td class="num">${dif ? eur(dif) : "—"}</td><td>${g ? esc(tiendaCorta(g)) : "Empate"}</td></tr>`;
+  }).join("\n");
+  const titulo = `${nombres.join(" vs ")}: ¿dónde son más baratos los materiales de obra? (${mesTexto})`;
+  const descripcion = `Comparativa de precios entre ${nombres.join(" y ")} en ${zona} con ${ambos.length} materiales de reforma: quién gana en cada categoría, cesta de la compra y diferencia material a material.`;
+  const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: "Comparativa de almacenes", item: SITE + "/" + ruta }] };
+  const faq = [
+    [`¿Qué es más barato, ${nombres.join(" u ")}?`, `En nuestra comparativa de ${ambos.length} materiales de obra en ${zona}, ${tiendaCorta(lider)} tiene el mejor precio en ${tot.gana[lider]}. Comprando la misma cesta, ${tiendaCorta(barata)} sale un ${pctCesta} % más barata (${eur(tot.total[barata])} frente a ${eur(tot.total[cara])}).`],
+    [`¿Merece la pena comprar en los dos almacenes?`, `Si compras cada material donde está más barato, la cesta cuesta ${eur(tot.optimo)}: ${eur(tot.total[barata] - tot.optimo)} menos que comprándolo todo en ${tiendaCorta(barata)}. Para compras pequeñas suele compensar más ir a un solo almacén.`],
+  ];
+  const faqLd = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › Comparativa de almacenes</nav>
+<section class="hero">
+  <h1>${esc(nombres.join(" vs "))}: ¿dónde es más barato reformar?</h1>
+  <p class="sub">${ambos.length} materiales con precio en los dos almacenes de ${esc(zona)}. Precios públicos con IVA, consultados el ${fechaTexto}.</p>
+  <div class="cifras">
+    <div><b>${tot.gana[lider]} de ${ambos.length}</b><span>materiales en los que ${esc(tiendaCorta(lider))} tiene el mejor precio. ${ids.filter((t) => t !== lider).map((t) => `${esc(tiendaCorta(t))} gana en ${tot.gana[t]}`).join(", ")}${tot.empates ? ` y ${tot.empates} empatan` : ""}.</span></div>
+    <div><b>${pctCesta} %</b><span>más barata la cesta completa en ${esc(tiendaCorta(barata))}: ${eur(tot.total[barata])} frente a ${eur(tot.total[cara])}.</span></div>
+    <div><b>${eur(tot.optimo)}</b><span>si compras cada material en el almacén más barato (${eur(tot.total[barata] - tot.optimo)} menos que todo en ${esc(tiendaCorta(barata))}).</span></div>
+  </div>
+  <div class="leyenda">${ids.map((t, i) => `<span><i class="t${i}"></i>${esc(tiendaCorta(t))}</span>`).join("")}<span><i class="emp"></i>Empate</span></div>
+  ${barra(tot)}
+</section>
+<section class="bloque"><h2>Quién gana en cada categoría</h2>
+<p class="sub">Cesta de la categoría: suma de un formato de cada material comparable. La barra muestra en cuántos materiales gana cada almacén.</p>
+<div class="tabla"><table class="comparativa">
+<thead><tr><th>Categoría</th>${nombres.map((n) => `<th>${esc(n)}</th>`).join("")}<th>Más barata</th><th>Materiales ganados</th></tr></thead>
+<tbody>${filasCat}</tbody></table></div></section>
+${ctaReformista()}
+<section class="bloque"><h2>Material a material</h2>
+<div class="tabla"><table class="comparativa">
+<thead><tr><th>Material</th>${nombres.map((n) => `<th>${esc(n)}</th>`).join("")}<th>Diferencia</th><th>Más barato</th></tr></thead>
+<tbody>${filasMat}</tbody></table></div></section>
+<section class="consejo"><h2>Cómo leer esta comparativa</h2><ul>
+  <li>Solo entran los materiales con precio público en los dos almacenes y formatos comparables (${materiales.length - ambos.length} de ${materiales.length} se quedan fuera).</li>
+  <li>No siempre es el mismo producto: comparamos el equivalente más parecido de cada almacén, y a veces cambia la marca o la gama. Lo explicamos en la ficha de cada material.</li>
+  <li>En Obramat el precio puede variar según la tienda elegida y bajar comprando por palé; en Leroy Merlin, por promociones del día.</li>
+  <li>Los materiales grandes (aire acondicionado, calentador, puertas) pesan mucho en la cesta; por eso también contamos en cuántos materiales gana cada uno.</li>
+</ul></section>
+<section class="faq"><h2>Preguntas frecuentes</h2>${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
+`;
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [migas, faqLd], raiz }) };
+}
+
+function paginaCesta() {
+  const raiz = "../";
+  const ruta = "cesta/";
+  const ids = Object.keys(tiendas);
+  const datosCesta = {
+    tiendas: Object.fromEntries(ids.map((t) => [t, tiendaCorta(t)])),
+    materiales: materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, x: m.comparable === false ? 1 : 0, o: Object.fromEntries(m.ofertas.map((o) => [o.tienda, [o.precio, o.enlace]])) })),
+  };
+  const titulo = `Cesta de la compra de materiales de obra: ¿dónde te sale más barata? (${mesTexto})`;
+  const descripcion = `Elige los materiales de tu reforma y las cantidades y compara el total en ${ids.map(tiendaCorta).join(" y ")}. Te decimos qué tienda sale más barata y cuánto ahorras comprando cada material en la más barata.`;
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › Mi cesta</nav>
+<section class="hero">
+  <h1>Tu cesta de la compra de materiales</h1>
+  <p class="sub">Añade materiales y cantidades. Calculamos el total en cada tienda con precios con IVA del ${fechaTexto}. La cesta se guarda solo en tu navegador.</p>
+</section>
+<div class="cesta">
+  <section class="cesta-sel" aria-labelledby="t-sel">
+    <h2 id="t-sel">Tu cesta</h2>
+    <div id="cesta-vacia" class="nota">Todavía no has añadido nada. Busca materiales abajo y pulsa «Añadir».</div>
+    <ul id="cesta-lista" class="cesta-lista"></ul>
+    <button type="button" id="cesta-vaciar" class="enlace-btn" hidden>Vaciar la cesta</button>
+  </section>
+  <aside class="cesta-res" aria-live="polite" aria-labelledby="t-res">
+    <h2 id="t-res">¿Dónde te sale más barata?</h2>
+    <div id="cesta-totales"><p class="nota">Añade materiales para ver el total en cada tienda.</p></div>
+  </aside>
+</div>
+<section class="bloque">
+  <div class="bloque-cab"><h2>Añadir materiales</h2></div>
+  <label class="buscador"><span>Buscar material</span><input id="cesta-buscar" type="search" placeholder="Ej.: cemento, cable, pintura…" autocomplete="off"></label>
+  <div id="cesta-catalogo" class="cesta-catalogo"></div>
+</section>
+<p class="nota">Los precios son orientativos: cambian según la tienda física elegida y las ofertas del día. Cuando los formatos no son iguales entre tiendas (por ejemplo, rollos de distinta longitud) lo avisamos en la línea.</p>
+${ctaReformista()}
+<script id="datos-cesta" type="application/json">${JSON.stringify(datosCesta).replace(/</g, "\\u003c")}</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById("datos-cesta").textContent);
+var M={};D.materiales.forEach(function(m){M[m.s]=m});
+var ids=Object.keys(D.tiendas);
+var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
+function guarda(){try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})}
+function eur(n){return n.toLocaleString("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2})+" €"}
+function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML}
+function minT(m){var b=null;ids.forEach(function(t){if(m.o[t]&&(b===null||m.o[t][0]<m.o[b][0]))b=t});return b}
+function pinta(){
+  var sl=Object.keys(c).filter(function(s){return M[s]&&c[s]>0});
+  var L=document.getElementById("cesta-lista");L.innerHTML="";
+  document.getElementById("cesta-vacia").hidden=sl.length>0;document.getElementById("cesta-vaciar").hidden=!sl.length;
+  var tot={},falta={},mix=0,mixPor={},aviso=false;ids.forEach(function(t){tot[t]=0;falta[t]=0;mixPor[t]=0});
+  sl.forEach(function(s){var m=M[s],q=c[s],b=minT(m);if(m.x)aviso=true;
+    ids.forEach(function(t){if(m.o[t])tot[t]+=m.o[t][0]*q;else falta[t]++});
+    mix+=m.o[b][0]*q;mixPor[b]++;
+    var li=document.createElement("li");
+    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small>Más barato en <b>'+esc(D.tiendas[b])+'</b>: '+eur(m.o[b][0])+' / ud</small></div>'+
+      '<div class="cant"><button type="button" aria-label="Quitar uno" data-q="-1">−</button><input type="number" min="0" inputmode="numeric" value="'+q+'" aria-label="Cantidad de '+esc(m.n)+'"><button type="button" aria-label="Añadir uno" data-q="1">+</button></div>';
+    li.querySelectorAll("button").forEach(function(bt){bt.onclick=function(){c[s]=Math.max(0,(c[s]||0)+(+bt.dataset.q));if(!c[s])delete c[s];guarda();pinta()}});
+    li.querySelector("input").onchange=function(e){var v=Math.max(0,Math.round(+e.target.value||0));if(v)c[s]=v;else delete c[s];guarda();pinta()};
+    L.appendChild(li)});
+  var R=document.getElementById("cesta-totales");
+  if(!sl.length){R.innerHTML='<p class="nota">Añade materiales para ver el total en cada tienda.</p>';return}
+  var completas=ids.filter(function(t){return !falta[t]}).sort(function(a,b){return tot[a]-tot[b]});
+  var h='<ul class="totales">';
+  ids.slice().sort(function(a,b){return (falta[a]-falta[b])||(tot[a]-tot[b])}).forEach(function(t){
+    var gana=completas.length&&completas[0]===t;
+    h+='<li class="'+(gana?'gana':'')+'"><span>'+esc(D.tiendas[t])+(gana?' <em>Más barata</em>':'')+(falta[t]?'<small>No tiene '+falta[t]+' de tus materiales</small>':'')+'</span><b>'+eur(tot[t])+'</b></li>'});
+  h+='</ul>';
+  var mejorUna=completas.length?tot[completas[0]]:null;
+  h+='<div class="mixta"><span>Comprando cada material donde es más barato<small>'+ids.filter(function(t){return mixPor[t]}).map(function(t){return mixPor[t]+' en '+esc(D.tiendas[t])}).join(" y ")+'</small></span><b>'+eur(mix)+'</b></div>';
+  if(mejorUna!==null&&mejorUna-mix>0.005)h+='<p class="nota">Repartiendo la compra ahorras '+eur(mejorUna-mix)+' frente a comprarlo todo en '+esc(D.tiendas[completas[0]])+'.</p>';
+  if(completas.length>1)h+='<p class="nota">'+esc(D.tiendas[completas[0]])+' te ahorra '+eur(tot[completas[completas.length-1]]-tot[completas[0]])+' frente a '+esc(D.tiendas[completas[completas.length-1]])+'.</p>';
+  if(aviso)h+='<p class="nota">Ojo: algún material tiene formatos distintos según la tienda, así que su total no es exactamente comparable.</p>';
+  R.innerHTML=h}
+function catalogo(q){
+  q=(q||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+  var C=document.getElementById("cesta-catalogo"),h="",cat="";
+  D.materiales.forEach(function(m){var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(q&&txt.indexOf(q)<0)return;
+    if(m.c!==cat){if(cat)h+='</ul>';cat=m.c;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
+    var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir</button></li>'});
+  if(cat)h+='</ul>';C.innerHTML=h||'<p class="nota">No hay materiales con ese nombre.</p>';
+  C.querySelectorAll("button[data-s]").forEach(function(bt){bt.onclick=function(){var s=bt.dataset.s;c[s]=(c[s]||0)+1;guarda();pinta();bt.textContent="✓ Añadido ("+c[s]+")"}})}
+document.getElementById("cesta-buscar").oninput=function(e){catalogo(e.target.value)};
+document.addEventListener("cm-cesta",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}pinta()});
+document.getElementById("cesta-vaciar").onclick=function(){c={};guarda();pinta()};
+catalogo("");pinta();
+var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getElementById("cesta-buscar");ib.value=q0;catalogo(q0)}
+})();
+</script>
+`;
+  const web = { "@context": "https://schema.org", "@type": "WebPage", name: titulo, url: SITE + "/" + ruta };
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [web], raiz }) };
 }
 
 function paginaCategoria(c) {
@@ -308,6 +503,12 @@ writeFileSync(join(salida, "index.html"), portada());
 const rutas = [""];
 for (const m of materiales) {
   const { ruta, html } = paginaMaterial(m);
+  mkdirSync(join(salida, ruta), { recursive: true });
+  writeFileSync(join(salida, ruta, "index.html"), html);
+  rutas.push(ruta);
+}
+for (const f of [paginaComparativa, paginaCesta]) {
+  const { ruta, html } = f();
   mkdirSync(join(salida, ruta), { recursive: true });
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
