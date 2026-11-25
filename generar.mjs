@@ -147,7 +147,7 @@ f.addEventListener("submit",function(e){var r=busca(q.value);if(r.length===1){e.
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
 q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
 });
-document.querySelectorAll("[data-buscar]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();var g=document.querySelector(".busca.grande input");g.value=a.getAttribute("data-buscar");g.focus();g.dispatchEvent(new Event("input"))})});
+document.querySelectorAll("[data-buscar]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var g=document.querySelector(".busca.grande input");g.value=a.getAttribute("data-buscar");g.focus();g.dispatchEvent(new Event("input"))})});
 })();
 </script>
 </body>
