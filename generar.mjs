@@ -325,6 +325,7 @@ ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>
     <li>En Obramat algunos precios son de compra por cantidad; comprando el palé completo se ahorra un 5 % adicional.</li>
     <li>Saltoki solo muestra precios a clientes profesionales con cuenta, por eso no aparece. Brico Depôt está pendiente de añadir.</li>
     <li>Cuando el producto no es idéntico, indicamos marca y formato para que compares lo mismo.</li>
+    <li>El catálogo amplio recoge el precio que muestra cada tienda en sus páginas de categoría. A veces la ficha del producto tiene una oferta más reciente: confirma siempre el precio en el enlace.</li>
   </ul>
 </section>
 `;
