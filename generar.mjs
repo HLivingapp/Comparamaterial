@@ -77,6 +77,7 @@ function ahorroPct(m) {
   return Math.round(((max - min) / max) * 100);
 }
 
+const indiceJSON = JSON.stringify(materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, p: eur(Math.min(...m.ofertas.map((o) => o.precio))) }))).replace(/</g, "\\u003c");
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -102,6 +103,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
 <header class="barra"><div class="ancho">
   <a class="marca" href="${raiz}"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1f5fd6"/><path d="M8 20l5-9 4 6 3-4 4 7z" fill="#ffc93c"/><path d="M8 23h16" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>${esc(NOMBRE)}</a>
   <span class="lema">Compara precios de materiales de obra en ${esc(zona)}</span>
+  <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
   <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
 <nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
@@ -118,11 +120,26 @@ ${cuerpo}
   <p>Precios públicos de las webs de cada almacén, IVA incluido, consultados el ${fechaTexto}. Pueden cambiar según la tienda elegida y las ofertas del día. Confirma siempre el precio en el enlace antes de comprar.</p>
   <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
+<script id="indice" type="application/json">${indiceJSON}</script>
 <script>
 (function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
 var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n});
 document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add");var pinta=function(){b.textContent=c[s]?"✓ En tu cesta ("+c[s]+")":"+ Añadir a mi cesta"};pinta();
-b.addEventListener("click",function(){c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});})();
+b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
+var R="${raiz}",I=[];try{I=JSON.parse(document.getElementById("indice").textContent)}catch(e){}
+var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
+I.forEach(function(m){m.k=nor(m.n+" "+m.f+" "+m.c)});
+var f=document.querySelector(".busca"),q=f.querySelector("input"),res=f.querySelector(".busca-res");
+var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];return I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})}).slice(0,8)};
+var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
+var pinta=function(){var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
+res.innerHTML=r.length?r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
+q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
+res.addEventListener("click",function(e){var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
+f.addEventListener("submit",function(e){var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
+document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
+q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
+})();
 </script>
 </body>
 </html>
@@ -159,7 +176,7 @@ function tarjeta(m, raiz) {
   <span class="t-formato">${esc(m.formato)}</span>
   <span class="t-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(min)}`}</span>
   ${g ? `<span class="t-gana">Más barato en ${esc(tiendaCorta(g.tienda))} · −${ahorroPct(m)}&nbsp;%</span>` : `<span class="t-gana neutro">${m.ofertas.length} ${m.ofertas.length === 1 ? "almacén" : "almacenes"}</span>`}
-</a></li>`;
+</a><button type="button" class="t-add" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button></li>`;
 }
 const rejilla = (ms, raiz) => `<ul class="rejilla">${ms.map((m) => tarjeta(m, raiz)).join("")}</ul>`;
 
@@ -447,8 +464,10 @@ function catalogo(q){
   if(cat)h+='</ul>';C.innerHTML=h||'<p class="nota">No hay materiales con ese nombre.</p>';
   C.querySelectorAll("button[data-s]").forEach(function(bt){bt.onclick=function(){var s=bt.dataset.s;c[s]=(c[s]||0)+1;guarda();pinta();bt.textContent="✓ Añadido ("+c[s]+")"}})}
 document.getElementById("cesta-buscar").oninput=function(e){catalogo(e.target.value)};
+document.addEventListener("cm-cesta",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}pinta()});
 document.getElementById("cesta-vaciar").onclick=function(){c={};guarda();pinta()};
 catalogo("");pinta();
+var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getElementById("cesta-buscar");ib.value=q0;catalogo(q0)}
 })();
 </script>
 `;
