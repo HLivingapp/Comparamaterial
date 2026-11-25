@@ -19,6 +19,9 @@ const INDEXAR = process.env.INDEXAR === "1";
 const datos = JSON.parse(readFileSync(join(aqui, "datos", "precios.json"), "utf8"));
 const { fecha, zona, tiendas, materiales } = datos;
 const css = readFileSync(join(aqui, "estilos.css"), "utf8");
+// Catálogo amplio: un producto por tienda, leído de las páginas de categoría (datos/catalogo.json).
+let catalogo = [];
+try { catalogo = JSON.parse(readFileSync(join(aqui, "datos", "catalogo.json"), "utf8")).productos || []; } catch {}
 // Fotos con licencia libre (Wikimedia Commons), opcionales: slug → {miniatura, pagina, autor, licencia}.
 let imagenes = {};
 try { imagenes = JSON.parse(readFileSync(join(aqui, "datos", "imagenes.json"), "utf8")); } catch {}
@@ -60,6 +63,19 @@ const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
 const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const categorias = [...new Set(materiales.map((m) => m.categoria))];
+// Nombres en mayúsculas de algunas tiendas → frase normal.
+const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
+const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad" };
+const usados = new Set();
+const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.tienda in tiendas).map((p) => {
+  const id = (p.enlace.match(/-(\d+)\.html$/) || [, ""])[1];
+  let slug = "p/" + slugify(bonito(p.nombre)).slice(0, 60).replace(/-$/, "") + "-" + id.slice(-6);
+  while (usados.has(slug)) slug += "x";
+  usados.add(slug);
+  return { slug, nombre: bonito(p.nombre), categoria: p.categoria, formato: FORMATO[p.unidad] || "Unidad", catalogo: true, fechaPrecio: p.fecha,
+    ofertas: [{ tienda: p.tienda, producto: p.nombre, precio: p.precio, ...(p.precioM2 ? { porUnidad: eur(p.precioM2).replace(" €", " €/m²") } : {}), enlace: p.enlace }] };
+});
+const todos = [...materiales, ...productos];
 const rutaCat = (c) => `categoria/${slugify(c)}/`;
 const tiendaCorta = (t) => tiendas[t].nombre.split(" (")[0];
 const GSC = process.env.GSC_VERIFICACION || "";
@@ -84,7 +100,7 @@ const ALIAS = [
   [/cable|manguera/i, "cableado electricidad"], [/plato de ducha|mampara|columna/i, "ducha"], [/pintura|esmalte|imprimación/i, "pintar"],
 ];
 const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
-const indiceJSON = JSON.stringify(materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))) }))).replace(/</g, "\\u003c");
+const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -127,27 +143,26 @@ ${cuerpo}
   <p>Precios públicos de las webs de cada almacén, IVA incluido, consultados el ${fechaTexto}. Pueden cambiar según la tienda elegida y las ofertas del día. Confirma siempre el precio en el enlace antes de comprar.</p>
   <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
-<script id="indice" type="application/json">${indiceJSON}</script>
 <script>
 (function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
 var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n});
 document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add");var pinta=function(){b.textContent=c[s]?"✓ En tu cesta ("+c[s]+")":"+ Añadir a mi cesta"};pinta();
 b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
-var R="${raiz}",I=[];try{I=JSON.parse(document.getElementById("indice").textContent)}catch(e){}
+var R="${raiz}",I=[],cargando=null;
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
-I.forEach(function(m){m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))});
-var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];return I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})}).slice(0,8)};
+var carga=function(){if(!cargando)cargando=fetch(R+"indice.json").then(function(r){return r.json()}).then(function(d){I=d;I.forEach(function(m){m.nk=nor(m.n+" "+(m.a||""));m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))})}).catch(function(){});return cargando};
+var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){return w.every(function(x){return m.nk.indexOf(x)>=0})?0:2};r.sort(function(a,b){return (en(a)+(a.x?1:0))-(en(b)+(b.x?1:0))});return r.slice(0,10)};
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
-var pinta=function(){var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
+var pinta=function(){if(!I.length){carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
 res.innerHTML=r.length?r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
 q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
 res.addEventListener("click",function(e){var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
-f.addEventListener("submit",function(e){var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
+f.addEventListener("submit",function(e){if(!I.length)return;var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
 q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
 });
-document.querySelectorAll("[data-buscar]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();var g=document.querySelector(".busca.grande input");g.value=a.getAttribute("data-buscar");g.focus();g.dispatchEvent(new Event("input"))})});
+document.querySelectorAll("[data-buscar]").forEach(function(a){a.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var g=document.querySelector(".busca.grande input");g.value=a.getAttribute("data-buscar");g.focus();g.dispatchEvent(new Event("input"))})});
 })();
 </script>
 </body>
@@ -297,7 +312,7 @@ function portada() {
   <p class="sub">${materiales.length} materiales básicos de reforma en ${Object.values(tiendas).map((t) => t.nombre).join(" y ")}. Precios públicos con IVA, consultados el ${fechaTexto}.</p>
   <div class="cifras">
     <div><b>${victorias[0][1]} de ${comparables.length}</b><span>materiales en los que ${esc(tiendaCorta(victorias[0][0]))} tiene el mejor precio. ${victorias.slice(1).map(([t, n]) => `${esc(tiendaCorta(t))} gana en ${n}`).join(", ")}.</span></div>
-    <div><b>${materiales.length}</b><span>materiales con enlace directo a la ficha de cada almacén.</span></div>
+    <div><b>${(materiales.length + productos.length).toLocaleString("es-ES")}</b><span>productos con precio y enlace directo a la ficha de cada tienda${productos.length ? `: ${materiales.length} comparados entre tiendas y ${productos.length.toLocaleString("es-ES")} más en el catálogo` : ""}.</span></div>
   </div>
 </section>
 <div class="avisos"><a class="aviso-comp" href="comparativa/"><b>¿Qué tienda es más barata?</b><span>Comparativa entre almacenes por categorías y con la cesta completa →</span></a><a class="aviso-comp" href="cesta/"><b>Haz tu cesta de la compra</b><span>Elige materiales y cantidades y te decimos dónde te sale más barata →</span></a></div>
@@ -310,6 +325,7 @@ ${categorias.map((c, i) => `<section class="bloque"><div class="bloque-cab"><h2>
     <li>En Obramat algunos precios son de compra por cantidad; comprando el palé completo se ahorra un 5 % adicional.</li>
     <li>Saltoki solo muestra precios a clientes profesionales con cuenta, por eso no aparece. Brico Depôt está pendiente de añadir.</li>
     <li>Cuando el producto no es idéntico, indicamos marca y formato para que compares lo mismo.</li>
+    <li>El catálogo amplio recoge el precio que muestra cada tienda en sus páginas de categoría. A veces la ficha del producto tiene una oferta más reciente: confirma siempre el precio en el enlace.</li>
   </ul>
 </section>
 `;
@@ -398,7 +414,7 @@ function paginaCesta() {
   const ids = Object.keys(tiendas);
   const datosCesta = {
     tiendas: Object.fromEntries(ids.map((t) => [t, tiendaCorta(t)])),
-    materiales: materiales.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, x: m.comparable === false ? 1 : 0, o: Object.fromEntries(m.ofertas.map((o) => [o.tienda, [o.precio, o.enlace]])) })),
+    materiales: todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, x: m.comparable === false ? 1 : 0, ...(m.catalogo ? { k: 1 } : {}), o: Object.fromEntries(m.ofertas.map((o) => [o.tienda, [o.precio, o.enlace]])) })),
   };
   const titulo = `Cesta de la compra de materiales de obra: ¿dónde te sale más barata? (${mesTexto})`;
   const descripcion = `Elige los materiales de tu reforma y las cantidades y compara el total en ${ids.map(tiendaCorta).join(" y ")}. Te decimos qué tienda sale más barata y cuánto ahorras comprando cada material en la más barata.`;
@@ -469,7 +485,8 @@ function pinta(){
 function catalogo(q){
   q=(q||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
   var C=document.getElementById("cesta-catalogo"),h="",cat="";
-  D.materiales.forEach(function(m){var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(q&&txt.indexOf(q)<0)return;
+  var w=q.split(/\s+/).filter(Boolean),cuantos=0;
+  D.materiales.forEach(function(m){if(!w.length&&m.k)return;var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(w.length&&!w.every(function(x){return txt.indexOf(x)>=0}))return;if(++cuantos>120)return;
     if(m.c!==cat){if(cat)h+='</ul>';cat=m.c;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
     var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir</button></li>'});
   if(cat)h+='</ul>';C.innerHTML=h||'<p class="nota">No hay materiales con ese nombre.</p>';
@@ -486,8 +503,51 @@ var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getE
   return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [web], raiz }) };
 }
 
+function paginaProducto(m) {
+  const o = m.ofertas[0];
+  const t = tiendaCorta(o.tienda);
+  const ruta = `${m.slug}/`;
+  const raiz = "../../";
+  const [a, me, d] = m.fechaPrecio.split("-").map(Number);
+  const fechaP = `${d} de ${MESES[me - 1]} de ${a}`;
+  const titulo = `${m.nombre}: precio en ${t} (${MESES[me - 1]} ${a})`;
+  const descripcion = `${m.nombre} a ${eur(o.precio)} con IVA en ${t}. Compáralo con productos parecidos de otras tiendas y con los ${materiales.filter((x) => x.categoria === m.categoria).length} materiales de ${m.categoria.toLowerCase()} que comparamos en ${zona}.`;
+  const pal = new Set(slugify(m.nombre).split("-").filter((x) => x.length > 2 && !/^\d+$/.test(x)));
+  const parecido = (x) => slugify(x.nombre).split("-").filter((y) => pal.has(y)).length;
+  const alternativas = productos.filter((x) => x.categoria === m.categoria && x.ofertas[0].tienda !== o.tienda).map((x) => [x, parecido(x)]).filter(([, n]) => n > 0).sort((p, q) => q[1] - p[1] || p[0].ofertas[0].precio - q[0].ofertas[0].precio).slice(0, 8).map(([x]) => x);
+  const comparados = materiales.filter((x) => x.categoria === m.categoria).map((x) => [x, parecido(x)]).sort((p, q) => q[1] - p[1]).slice(0, 4).map(([x]) => x);
+  const producto = { "@context": "https://schema.org", "@type": "Product", name: m.nombre, category: m.categoria, description: descripcion,
+    offers: { "@type": "Offer", price: o.precio.toFixed(2), priceCurrency: "EUR", url: o.enlace, seller: { "@type": "Organization", name: tiendas[o.tienda].nombre } } };
+  const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" },
+    { "@type": "ListItem", position: 2, name: m.categoria, item: SITE + "/" + rutaCat(m.categoria) },
+    { "@type": "ListItem", position: 3, name: m.nombre, item: SITE + "/" + ruta }] };
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
+<section class="ficha">
+<div class="ficha-foto">${imagen(m, raiz, true)}</div>
+<div class="ficha-info">
+<h1>${esc(m.nombre)}</h1>
+<p class="sub">${esc(tiendas[o.tienda].nombre)} · ${esc(m.formato)} · precio con IVA consultado el ${fechaP}</p>
+<p class="ficha-precio">${eur(o.precio)}${o.porUnidad ? `<small> · ${esc(o.porUnidad)}</small>` : ""}</p>
+<p class="resumen">Precio público de la web de ${esc(t)}. Puede cambiar según la tienda elegida; confírmalo en el enlace antes de comprar.</p>
+<div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
+</div>
+</section>
+${alternativas.length ? `<section><h2>Parecidos en otras tiendas</h2>${listaProductos(alternativas, raiz)}</section>` : ""}
+${comparados.length ? `<section><h2>Materiales de ${esc(m.categoria.toLowerCase())} comparados entre tiendas</h2>${rejilla(comparados, raiz)}</section>` : ""}
+${ctaReformista()}
+`;
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [producto, migas], raiz }) };
+}
+
+function listaProductos(ps, raiz) {
+  return `<ul class="prod-lista">${ps.map((m) => { const o = m.ofertas[0]; return `<li data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
+}
+
 function paginaCategoria(c) {
   const ms = materiales.filter((m) => m.categoria === c);
+  const ps = productos.filter((m) => m.categoria === c).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
   const ruta = rutaCat(c);
   const raiz = "../../";
   const cMin = c[0].toLowerCase() + c.slice(1);
@@ -499,8 +559,17 @@ function paginaCategoria(c) {
 <nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(c)}</nav>
 <h1>Materiales de ${esc(cMin)} baratos en ${esc(zona)}: precios y ofertas</h1>
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
-<p class="sub">${ms.length} materiales comparados · precios con IVA · ${fechaTexto}</p>
+<p class="sub">${ms.length} materiales comparados${ps.length ? ` y <a href="#todos">${ps.length} productos más</a>` : ""} · precios con IVA · ${fechaTexto}</p>
 ${rejilla(ms, raiz)}
+${ps.length ? `<section class="bloque" id="todos"><div class="bloque-cab"><h2>Todos los productos de ${esc(cMin)} (${ps.length})</h2></div>
+<p class="sub">Precios públicos con IVA de cada tienda. Filtra por nombre o por tienda.</p>
+<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(tiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t)).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
+${listaProductos(ps, raiz)}</section>
+<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li");
+function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
+function a(){var w=n(f.value).split(/\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
+ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
+f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>` : ""}
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
 `;
@@ -518,6 +587,13 @@ for (const m of materiales) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
+for (const m of productos) {
+  const { ruta, html } = paginaProducto(m);
+  mkdirSync(join(salida, ruta), { recursive: true });
+  writeFileSync(join(salida, ruta, "index.html"), html);
+  rutas.push(ruta);
+}
+writeFileSync(join(salida, "indice.json"), indiceJSON);
 for (const f of [paginaComparativa, paginaCesta]) {
   const { ruta, html } = f();
   mkdirSync(join(salida, ruta), { recursive: true });
