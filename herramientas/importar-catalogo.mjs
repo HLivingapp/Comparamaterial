@@ -51,7 +51,7 @@ const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(
 // Tiendas especializadas: toda su oferta va a una categoría.
 const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación" };
 // Excepciones dentro de las tiendas especializadas, por la categoría de su web.
-const FIJA_EXC = [[/plato|mampara/i, "Baño y cocina"], [/climatiz|aire acondicionado|split/i, "Climatización y agua caliente"]];
+const FIJA_EXC = [[/plato|mampara/i, "Baño y cocina"], [/climatiz|aire acondicionado|split|radiador|emisor|toallero|calefactor|ventilador/i, "Climatización y agua caliente"], [/descalcific/i, "Fontanería y saneamiento"]];
 const fija = (f) => FIJA[f.tienda] && ((FIJA_EXC.find(([r]) => r.test(f.categoriaWeb || "")) || [, FIJA[f.tienda]])[1]);
 const cat = (t) => (CATEGORIA.find(([r]) => r.test(t)) || [, null])[1];
 
