@@ -27,6 +27,10 @@
     "tumaterialelectrico": {
       "nombre": "Tu Material Eléctrico",
       "web": "https://www.tumaterialelectrico.com"
+    },
+    "bricoelectrico": {
+      "nombre": "BricoEléctrico",
+      "web": "https://www.bricoelectrico.com"
     }
   },
   "materiales": [

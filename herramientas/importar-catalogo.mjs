@@ -20,6 +20,7 @@ const PATRON = {
   efectoled: /^https:\/\/(www\.)?efectoled\.com\/es\/[^\s]+\.html$/,
   climaprecio: /^https:\/\/www\.climaprecio\.es\/[^\s]+$/,
   azulejospena: /^https:\/\/tienda\.azulejospena\.es\/producto\/[^\s]+\.html$/,
+  bricoelectrico: /^https:\/\/www\.bricoelectrico\.com\/[a-z0-9-]+\/\d+-[^\s]+\.html(#\/[^\s]*)?$/,
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
@@ -43,7 +44,10 @@ const CATEGORIA = [
 ];
 const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(u) ? "m²" : /caja/i.test(u) ? "caja" : /rollo/i.test(u) ? "rollo" : /^\s*(m|metro|ml)\b/i.test(u) ? "m" : "ud";
 // Tiendas especializadas: toda su oferta va a una categoría.
-const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación" };
+const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación" };
+// Excepciones dentro de las tiendas especializadas, por la categoría de su web.
+const FIJA_EXC = [[/plato|mampara/i, "Baño y cocina"], [/climatiz|aire acondicionado|split/i, "Climatización y agua caliente"]];
+const fija = (f) => FIJA[f.tienda] && ((FIJA_EXC.find(([r]) => r.test(f.categoriaWeb || "")) || [, FIJA[f.tienda]])[1]);
 const cat = (t) => (CATEGORIA.find(([r]) => r.test(t)) || [, null])[1];
 
 const enUso = new Set(precios.materiales.flatMap((m) => m.ofertas.map((o) => o.enlace)));
@@ -51,9 +55,9 @@ const porEnlace = new Map(actual.productos.map((p) => [p.enlace, p]));
 const filas = JSON.parse(readFileSync(origen, "utf8"));
 let nuevos = 0, actualizados = 0, descartados = 0;
 for (const f of filas) {
-  const enlace = String(f.enlace || "").split("?")[0];
+  const enlace = String(f.enlace || "").split("?")[0].replace(/#$/, "");
   const precio = typeof f.precio === "number" ? f.precio : parseFloat(String(f.precio).replace(/\s/g, "").replace(",", "."));
-  const categoria = FIJA[f.tienda] || cat(f.categoriaWeb || "") || cat(f.producto || "");
+  const categoria = fija(f) || cat(f.categoriaWeb || "") || cat(f.producto || "");
   if (!PATRON[f.tienda]?.test(enlace) || !(precio > 0 && precio < 20000) || !f.producto || !categoria || /igic/i.test(f.unidad || "") || enUso.has(enlace)) { descartados++; continue; }
   const p = { tienda: f.tienda, categoria, nombre: String(f.producto).replace(/\s+/g, " ").trim(), precio: Math.round(precio * 100) / 100, unidad: unidad(f.unidad), ...(f.precioM2 > 0 && !/lote/i.test(f.unidad || "") ? { precioM2: f.precioM2 } : {}), enlace, fecha };
   if (porEnlace.has(enlace)) { Object.assign(porEnlace.get(enlace), p); actualizados++; } else { porEnlace.set(enlace, p); nuevos++; }
