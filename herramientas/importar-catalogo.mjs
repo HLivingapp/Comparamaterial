@@ -23,6 +23,7 @@ const PATRON = {
   bricoelectrico: /^https:\/\/www\.bricoelectrico\.com\/[a-z0-9-]+\/\d+-[^\s]+\.html(#\/[^\s]*)?$/,
   mytile: /^https:\/\/www\.mytile\.online\/[a-z0-9-]+\/[a-z0-9-]+-\d+\.html$/,
   maperi: /^https:\/\/www\.maperi\.com\/producto\/[a-z0-9-]+\/?$/,
+  nais: /^https:\/\/nais\.es\/es\/azulejos\/coleccion_[^/\s]+\/producto_\d+_[^/\s]+\/$/,
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
@@ -55,7 +56,7 @@ const CATEGORIA = [
 ];
 const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(u) ? "m²" : /caja/i.test(u) ? "caja" : /rollo/i.test(u) ? "rollo" : /^\s*(m|metro|ml)\b/i.test(u) ? "m" : "ud";
 // Tiendas especializadas: toda su oferta va a una categoría.
-const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación" };
+const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación", nais: "Cerámica y colocación" };
 // Excepciones dentro de las tiendas especializadas, por la categoría de su web.
 const FIJA_EXC = [[/plato|mampara/i, "Baño y cocina"], [/climatiz|aire acondicionado|split|radiador|emisor|toallero|calefactor|ventilador/i, "Climatización y agua caliente"], [/descalcific/i, "Fontanería y saneamiento"]];
 const fija = (f) => FIJA[f.tienda] && ((FIJA_EXC.find(([r]) => r.test(f.categoriaWeb || "")) || [, FIJA[f.tienda]])[1]);
