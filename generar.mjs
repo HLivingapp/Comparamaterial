@@ -4,6 +4,7 @@
 //   SITE_URL      URL pública final (canonical, sitemap). Sin barra final.
 //   REGISTRO_URL  Página de alta de reformistas en ReformaMejor.
 //   NOMBRE_WEB    Nombre de la web.
+import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -18,6 +19,8 @@ const INDEXAR = process.env.INDEXAR === "1";
 
 const datos = JSON.parse(readFileSync(join(aqui, "datos", "precios.json"), "utf8"));
 const { fecha, zona, tiendas, materiales } = datos;
+// Tiendas especializadas: solo catálogo (no entran en la comparativa de materiales básicos).
+const todasTiendas = { ...tiendas, ...(datos.tiendasExtra || {}) };
 const css = readFileSync(join(aqui, "estilos.css"), "utf8");
 // Catálogo amplio: un producto por tienda, leído de las páginas de categoría (datos/catalogo.json).
 let catalogo = [];
@@ -67,8 +70,9 @@ const categorias = [...new Set(materiales.map((m) => m.categoria))];
 const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
 const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad", caja: "Caja", rollo: "Rollo", m: "Precio por metro" };
 const usados = new Set();
-const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.tienda in tiendas).map((p) => {
-  const id = (p.enlace.match(/-(\d+)\.html$/) || [, ""])[1];
+const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.tienda in todasTiendas).map((p) => {
+  // Id estable sacado del enlace: número de referencia de la tienda o, si no tiene, una huella corta del enlace.
+  const id = (p.enlace.match(/-(\d+)\.html$/) || p.enlace.match(/\/p-(\d+)$/) || p.enlace.match(/\/(\d{4,})-[^/]*\.html$/) || [, createHash("sha1").update(p.enlace).digest("hex").slice(0, 6)])[1];
   let slug = "p/" + slugify(bonito(p.nombre)).slice(0, 60).replace(/-$/, "") + "-" + id.slice(-6);
   while (usados.has(slug)) slug += "x";
   usados.add(slug);
@@ -77,7 +81,7 @@ const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.t
 });
 const todos = [...materiales, ...productos];
 const rutaCat = (c) => `categoria/${slugify(c)}/`;
-const tiendaCorta = (t) => tiendas[t].nombre.split(" (")[0];
+const tiendaCorta = (t) => todasTiendas[t].nombre.split(" (")[0];
 const GSC = process.env.GSC_VERIFICACION || "";
 
 function mejor(m) {
@@ -153,7 +157,7 @@ b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-
 var R="${raiz}",I=[],cargando=null;
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
 var carga=function(){if(!cargando)cargando=fetch(R+"indice.json").then(function(r){return r.json()}).then(function(d){I=d;I.forEach(function(m){m.nk=nor(m.n+" "+(m.a||""));m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))})}).catch(function(){});return cargando};
-var busca=function(t){var w=nor(t).split(/\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){return w.every(function(x){return m.nk.indexOf(x)>=0})?0:2};r.sort(function(a,b){return (en(a)+(a.x?1:0))-(en(b)+(b.x?1:0))});return r.slice(0,10)};
+var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){return w.every(function(x){return m.nk.indexOf(x)>=0})?0:2};r.sort(function(a,b){return (en(a)+(a.x?1:0))-(en(b)+(b.x?1:0))});return r.slice(0,10)};
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
 var pinta=function(){if(!I.length){carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
@@ -415,7 +419,8 @@ function paginaCesta() {
   const ruta = "cesta/";
   const ids = Object.keys(tiendas);
   const datosCesta = {
-    tiendas: Object.fromEntries(ids.map((t) => [t, tiendaCorta(t)])),
+    tiendas: Object.fromEntries(Object.keys(todasTiendas).map((t) => [t, tiendaCorta(t)])),
+    principales: ids,
     materiales: todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, x: m.comparable === false ? 1 : 0, ...(m.catalogo ? { k: 1 } : {}), o: Object.fromEntries(m.ofertas.map((o) => [o.tienda, [o.precio, o.enlace]])) })),
   };
   const titulo = `Cesta de la compra de materiales de obra: ¿dónde te sale más barata? (${mesTexto})`;
@@ -451,7 +456,7 @@ ${ctaReformista()}
 (function(){
 var D=JSON.parse(document.getElementById("datos-cesta").textContent);
 var M={};D.materiales.forEach(function(m){M[m.s]=m});
-var ids=Object.keys(D.tiendas);
+var ids=Object.keys(D.tiendas),P={};D.principales.forEach(function(t){P[t]=1});
 var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
 var el={};try{el=JSON.parse(localStorage.getItem("cm-cesta-tienda")||"{}")}catch(e){}
 function guarda(){for(var k in el)if(!c[k])delete el[k];try{localStorage.setItem("cm-cesta",JSON.stringify(c));localStorage.setItem("cm-cesta-tienda",JSON.stringify(el))}catch(e){}var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})}
@@ -467,7 +472,7 @@ function pinta(){
     ids.forEach(function(t){if(m.o[t])tot[t]+=m.o[t][0]*q;else{falta[t]++;faltan[t].push(m.n)}});
     mix+=m.o[b][0]*q;mixPor[b]++;var e=el[s]&&m.o[el[s]]?el[s]:null;if(e){eN++;eTot+=m.o[e][0]*q;ePor[e]=(ePor[e]||0)+1}else{eTot+=m.o[b][0]*q;ePor[b]=(ePor[b]||0)+1}
     var li=document.createElement("li");
-    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small class="por-tienda">'+ids.map(function(t){return m.o[t]?'<span class="pt-g"><button type="button" data-el="'+t+'" title="Comprar en '+esc(D.tiendas[t])+'" class="pt'+(t===b&&Object.keys(m.o).length>1?' pt-gana':'')+(el[s]===t?' pt-el':'')+'">'+(el[s]===t?'✓ ':'')+esc(D.tiendas[t])+': '+eur(m.o[t][0])+'</button>'+'<a class="pt-ir" href="'+esc(m.o[t][1])+'" target="_blank" rel="nofollow noopener" title="Ver en la web de '+esc(D.tiendas[t])+'">Ver en web ↗</a></span>':'<span class="pt-no">'+esc(D.tiendas[t])+': no lo tiene</span>'}).join('')+'</small></div>'+
+    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small class="por-tienda">'+ids.filter(function(t){return P[t]||m.o[t]}).map(function(t){return m.o[t]?'<span class="pt-g"><button type="button" data-el="'+t+'" title="Comprar en '+esc(D.tiendas[t])+'" class="pt'+(t===b&&Object.keys(m.o).length>1?' pt-gana':'')+(el[s]===t?' pt-el':'')+'">'+(el[s]===t?'✓ ':'')+esc(D.tiendas[t])+': '+eur(m.o[t][0])+'</button>'+'<a class="pt-ir" href="'+esc(m.o[t][1])+'" target="_blank" rel="nofollow noopener" title="Ver en la web de '+esc(D.tiendas[t])+'">Ver en web ↗</a></span>':'<span class="pt-no">'+esc(D.tiendas[t])+': no lo tiene</span>'}).join('')+'</small></div>'+
       '<div class="cant"><button type="button" aria-label="Quitar uno" data-q="-1">−</button><input type="number" min="0" inputmode="numeric" value="'+q+'" aria-label="Cantidad de '+esc(m.n)+'"><button type="button" aria-label="Añadir uno" data-q="1">+</button></div>';
     li.querySelectorAll("button[data-el]").forEach(function(bt){bt.onclick=function(){var t=bt.dataset.el;if(el[s]===t)delete el[s];else el[s]=t;guarda();pinta()}});
     li.querySelectorAll("button[data-q]").forEach(function(bt){bt.onclick=function(){c[s]=Math.max(0,(c[s]||0)+(+bt.dataset.q));if(!c[s])delete c[s];guarda();pinta()}});
@@ -477,7 +482,7 @@ function pinta(){
   if(!sl.length){R.innerHTML='<p class="nota">Añade materiales para ver el total en cada tienda.</p>';return}
   var completas=ids.filter(function(t){return !falta[t]}).sort(function(a,b){return tot[a]-tot[b]});
   var h='<h3 class="tot-t">Comprándolo todo en una tienda</h3><ul class="totales">';
-  ids.slice().sort(function(a,b){return (falta[a]-falta[b])||(tot[a]-tot[b])}).forEach(function(t){
+  ids.filter(function(t){return P[t]||falta[t]<sl.length}).sort(function(a,b){return (falta[a]-falta[b])||(tot[a]-tot[b])}).forEach(function(t){
     var gana=completas.length&&completas[0]===t;
     h+='<li class="'+(gana?'gana':'')+(falta[t]===sl.length?' vacia':'')+'"><span>Todo en '+esc(D.tiendas[t])+(gana?' <em>Más barata</em>':'')+(falta[t]?'<small>'+(falta[t]===sl.length?'No tiene ninguno de tus materiales':'Sin '+falta[t]+' de tus '+sl.length+' materiales: '+faltan[t].slice(0,3).map(function(n){return esc(n.length>40?n.slice(0,38)+'…':n)}).join(', ')+(falta[t]>3?'…':''))+'</small>':'<small>Tiene los '+sl.length+' materiales</small>')+'</span><b>'+(falta[t]===sl.length?'—':(falta[t]?'<small>parcial</small> ':'')+eur(tot[t]))+'</b></li>'});
   h+='</ul>';
@@ -492,7 +497,7 @@ function pinta(){
 function catalogo(q){
   q=(q||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
   var C=document.getElementById("cesta-catalogo"),h="",cat="";
-  var w=q.split(/\s+/).filter(Boolean),cuantos=0;
+  var w=q.split(/\\s+/).filter(Boolean),cuantos=0;
   D.materiales.forEach(function(m){if(!w.length&&m.k)return;var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(w.length&&!w.every(function(x){return txt.indexOf(x)>=0}))return;if(++cuantos>120)return;
     if(m.c!==cat){if(cat)h+='</ul>';cat=m.c;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
     var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir</button></li>'});
@@ -524,7 +529,7 @@ function paginaProducto(m) {
   const alternativas = productos.filter((x) => x.categoria === m.categoria && x.ofertas[0].tienda !== o.tienda).map((x) => [x, parecido(x)]).filter(([, n]) => n > 0).sort((p, q) => q[1] - p[1] || p[0].ofertas[0].precio - q[0].ofertas[0].precio).slice(0, 8).map(([x]) => x);
   const comparados = materiales.filter((x) => x.categoria === m.categoria).map((x) => [x, parecido(x)]).sort((p, q) => q[1] - p[1]).slice(0, 4).map(([x]) => x);
   const producto = { "@context": "https://schema.org", "@type": "Product", name: m.nombre, category: m.categoria, description: descripcion,
-    offers: { "@type": "Offer", price: o.precio.toFixed(2), priceCurrency: "EUR", url: o.enlace, seller: { "@type": "Organization", name: tiendas[o.tienda].nombre } } };
+    offers: { "@type": "Offer", price: o.precio.toFixed(2), priceCurrency: "EUR", url: o.enlace, seller: { "@type": "Organization", name: todasTiendas[o.tienda].nombre } } };
   const migas = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" },
     { "@type": "ListItem", position: 2, name: m.categoria, item: SITE + "/" + rutaCat(m.categoria) },
@@ -535,7 +540,7 @@ function paginaProducto(m) {
 <div class="ficha-foto">${imagen(m, raiz, true)}</div>
 <div class="ficha-info">
 <h1>${esc(m.nombre)}</h1>
-<p class="sub">${esc(tiendas[o.tienda].nombre)} · ${esc(m.formato)} · precio con IVA consultado el ${fechaP}</p>
+<p class="sub">${esc(todasTiendas[o.tienda].nombre)} · ${esc(m.formato)} · precio con IVA consultado el ${fechaP}</p>
 <p class="ficha-precio">${eur(o.precio)}${o.porUnidad ? `<small> · ${esc(o.porUnidad)}</small>` : ""}</p>
 <p class="resumen">Precio público de la web de ${esc(t)}. Puede cambiar según la tienda elegida; confírmalo en el enlace antes de comprar.</p>
 <div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
@@ -570,11 +575,11 @@ function paginaCategoria(c) {
 ${rejilla(ms, raiz)}
 ${ps.length ? `<section class="bloque" id="todos"><div class="bloque-cab"><h2>Todos los productos de ${esc(cMin)} (${ps.length})</h2></div>
 <p class="sub">Precios públicos con IVA de cada tienda. Filtra por nombre o por tienda.</p>
-<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(tiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t)).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
+<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t)).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
 ${listaProductos(ps, raiz)}</section>
 <script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
-function a(){var w=n(f.value).split(/\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
+function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
 ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
 f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>` : ""}
 ${ctaReformista()}

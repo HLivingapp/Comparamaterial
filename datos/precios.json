@@ -11,6 +11,28 @@
       "web": "https://www.obramat.es"
     }
   },
+  "tiendasExtra": {
+    "efectoled": {
+      "nombre": "efectoLED",
+      "web": "https://www.efectoled.com"
+    },
+    "climaprecio": {
+      "nombre": "ClimaPrecio",
+      "web": "https://www.climaprecio.es"
+    },
+    "azulejospena": {
+      "nombre": "Azulejos Peña",
+      "web": "https://tienda.azulejospena.es"
+    },
+    "tumaterialelectrico": {
+      "nombre": "Tu Material Eléctrico",
+      "web": "https://www.tumaterialelectrico.com"
+    },
+    "bricoelectrico": {
+      "nombre": "BricoEléctrico",
+      "web": "https://www.bricoelectrico.com"
+    }
+  },
   "materiales": [
     {
       "slug": "cemento-gris-25-kg",
