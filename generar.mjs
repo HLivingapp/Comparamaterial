@@ -7,6 +7,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { ilustracion, fondo } from "./ilustraciones.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -42,14 +43,13 @@ const ICONOS = {
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
+// Dibujos propios y uniformes en lugar de fotos (las fotos libres de Wikimedia no quedaban bien).
 function imagen(m, raiz, grande = false) {
-  const f = imagenes[m.slug];
-  if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
-  return `<div class="foto"><img src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
+  return `<div class="foto dibujo" style="background:${fondo(m.categoria)}">${ilustracion(m.nombre, m.categoria)}</div>`;
 }
 function credito(m) {
+  return "";
   const f = imagenes[m.slug];
-  if (!f) return "";
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
 }
 

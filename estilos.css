@@ -189,3 +189,5 @@ table.comparativa small{font-weight:400}
 .filtro-prod input[type=search]{flex:1 1 260px;font:inherit;padding:10px 12px;border:1px solid var(--li);border-radius:10px}
 .filtro-t{display:flex;gap:12px;color:var(--mu)}
 @media (max-width:520px){.prod-lista li{flex-wrap:wrap}.prod-lista a{flex-basis:100%}.pl-p{margin-left:auto}}
+.foto.dibujo svg{width:78%;height:auto;display:block}
+.ficha-foto .foto.dibujo svg{width:62%}
