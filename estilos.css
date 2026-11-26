@@ -197,3 +197,11 @@ table.comparativa small{font-weight:400}
 .por-tienda .pt-gana{color:#1b7a3a;font-weight:700}
 .por-tienda .pt-no{color:#a33;text-decoration:line-through;text-decoration-thickness:1px}
 @media (max-width:820px){.cesta-res{order:-1}}
+.acc-t{white-space:nowrap}
+.acc-t .t-add{margin-right:10px}
+.por-tienda button.pt{font:inherit;background:none;border:1px solid var(--li);border-radius:6px;padding:1px 6px;cursor:pointer;color:inherit;white-space:nowrap}
+.por-tienda button.pt.pt-gana{color:#1b7a3a;font-weight:700}
+.por-tienda button.pt-el{background:var(--ac);border-color:var(--ac);color:#fff!important}
+.mixta.elegida{background:var(--ac)}
+.mixta.elegida small{color:#e3ebfb}
+@media (max-width:820px){.acc-t{white-space:normal;display:flex!important;gap:8px;flex-wrap:wrap;align-items:center}.acc-t .t-add{margin:0}}
