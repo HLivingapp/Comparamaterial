@@ -12890,6 +12890,2226 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arhus CR Blanco 14,4x89,3",
+      "precio": 67.3,
+      "unidad": "m²",
+      "precioM2": 67.3,
+      "enlace": "https://www.maperi.com/producto/arhus-cr-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arhus CR Blanco 21,8x89,3",
+      "precio": 63.98,
+      "unidad": "m²",
+      "precioM2": 63.98,
+      "enlace": "https://www.maperi.com/producto/arhus-cr-blanco-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arhus CR Negro 14,4x89,3",
+      "precio": 67.3,
+      "unidad": "m²",
+      "precioM2": 67.3,
+      "enlace": "https://www.maperi.com/producto/arhus-cr-negro/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arhus CR Negro 21,8x89,3",
+      "precio": 63.98,
+      "unidad": "m²",
+      "precioM2": 63.98,
+      "enlace": "https://www.maperi.com/producto/arhus-cr-negro-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arue Porcelánico Rectificado 119,3x119,3",
+      "precio": 64.27,
+      "unidad": "m²",
+      "precioM2": 64.27,
+      "enlace": "https://www.maperi.com/producto/arue-porcelanico-rectificado-1193x1193/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arue Porcelánico Rectificado 59,3x119,3",
+      "precio": 55.85,
+      "unidad": "m²",
+      "precioM2": 55.85,
+      "enlace": "https://www.maperi.com/producto/arue/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Arue Porcelánico Rectificado 79,3x179,3",
+      "precio": 67.61,
+      "unidad": "m²",
+      "precioM2": 67.61,
+      "enlace": "https://www.maperi.com/producto/arue-porcelanico-rectificado-793x1793/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Erdek-R Brillo 32x99 cm",
+      "precio": 29.95,
+      "unidad": "m²",
+      "precioM2": 29.95,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-erdek-r-brillo-32x99-cm-6820.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Erdek-R Mate 32x99 cm",
+      "precio": 29.95,
+      "unidad": "m²",
+      "precioM2": 29.95,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-erdek-r-mate-32x99-cm-6824.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Esmirna-R Brillo 32x99 cm",
+      "precio": 32.2,
+      "unidad": "m²",
+      "precioM2": 32.2,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-esmirna-r-brillo-32x99-cm-6821.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Esmirna-R Mate 32x99 cm",
+      "precio": 32.2,
+      "unidad": "m²",
+      "precioM2": 32.2,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-esmirna-r-mate-32x99-cm-6825.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Izmir-R Brillo Carbon 32x99 cm",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-izmir-r-brillo-carbon-32x99-cm-6823.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Izmir-R Brillo Oro 32x99 cm",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-izmir-r-brillo-oro-32x99-cm-6822.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Izmir-R Mate Carbon 32x99 cm",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-izmir-r-mate-carbon-32x99-cm-6827.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Azulejo efecto mármol Izmir-R Mate Oro 32x99 cm",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/erdek-revestimiento-efecto-marmol-vives/vives-azulejo-efecto-marmol-izmir-r-mate-oro-32x99-cm-6826.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 30x30 Porcelánico Antideslizante",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-30x30-porcelanico-antideslizante-7537.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 30x30 Porcelánico mate",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-30x30-porcelanico-mate-7536.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 30x60 Porcelánico Antideslizante",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-30x60-porcelanico-antideslizante-7545.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 30x60 Porcelánico mate",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-30x60-porcelanico-mate-7544.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 60x60 Porcelánico Antideslizante",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-60x60-porcelanico-antideslizante-7559.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Beige 60x60 Porcelánico mate",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-beige-60x60-porcelanico-mate-7558.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 30x30 Porcelánico Antideslizante",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-30x30-porcelanico-antideslizante-7541.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 30x30 Porcelánico mate",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-30x30-porcelanico-mate-7540.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 30x60 Porcelánico Antideslizante",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-30x60-porcelanico-antideslizante-7549.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 30x60 Porcelánico mate",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-30x60-porcelanico-mate-7548.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 60x60 Porcelánico Antideslizante",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-60x60-porcelanico-antideslizante-7563.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Grafito 60x60 Porcelánico mate",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-grafito-60x60-porcelanico-mate-7562.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 30x30 Porcelánico Antideslizante",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-30x30-porcelanico-antideslizante-7539.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 30x30 Porcelánico mate",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-30x30-porcelanico-mate-7538.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 30x60 Porcelánico Antideslizante",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-30x60-porcelanico-antideslizante-7547.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 30x60 Porcelánico mate",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-30x60-porcelanico-mate-7546.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 60x60 Porcelánico Antideslizante",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-60x60-porcelanico-antideslizante-7561.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Gris 60x60 Porcelánico mate",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-60x60-porcelanico-mate-7560.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 30x30 Porcelánico Antideslizante",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-30x30-porcelanico-antideslizante-7524.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 30x30 Porcelánico mate",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-30x30-porcelanico-mate-7523.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 30x60 Porcelánico Antideslizante",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-30x60-porcelanico-antideslizante-7543.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 30x60 Porcelánico mate",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-30x60-porcelanico-mate-7542.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 60x60 Porcelánico Antideslizante",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-60x60-porcelanico-antideslizante-7557.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali Turquesa 60x60 Porcelánico mate",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-turquesa-60x60-porcelanico-mate-7553.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Beige 15x15 Porcelánico rectificado brillo",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-beige-15x15-porcelanico-rectificado-brillo-7518.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Beige 15x15 Porcelánico rectificado mate",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-beige-15x15-porcelanico-rectificado-mate-7517.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Grafito 15x15 Porcelánico rectificado brillo",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-grafito-15x15-porcelanico-rectificado-brillo-7522.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Grafito 15x15 Porcelánico rectificado mate",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-grafito-15x15-porcelanico-rectificado-mate-7521.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Gris 15x15 Porcelánico rectificado brillo",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-gris-15x15-porcelanico-rectificado-brillo-7520.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Gris 15x15 Porcelánico rectificado mate",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-gris-15x15-porcelanico-rectificado-mate-7519.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Turquesa 15x15 Porcelánico rectificado brillo",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-turquesa-15x15-porcelanico-rectificado-brillo-7516.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bali-R Turquesa 15x15 Porcelánico rectificado mate",
+      "precio": 37.5,
+      "unidad": "m²",
+      "precioM2": 37.5,
+      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-r-turquesa-15x15-porcelanico-rectificado-mate-7515.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Banus-R Beige 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-banus-r-beige-45x120-cm-6962.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Banus-R Blanco 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-banus-r-blanco-45x120-cm-6961.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Banus-R Gris 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-banus-r-gris-45x120-cm-6963.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Banus-R Taupe 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-banus-r-taupe-45x120-cm-6964.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belgravia Chelsea-R Bone 45x120 cm",
+      "precio": 32.2,
+      "unidad": "m²",
+      "precioM2": 32.2,
+      "enlace": "https://www.mytile.online/belgravia-azulejo-efecto-piedra-vives/vives-belgravia-chelsea-r-bone-45x120-cm-6831.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belgravia City-R Natural 32x99 cm",
+      "precio": 32.2,
+      "unidad": "m²",
+      "precioM2": 32.2,
+      "enlace": "https://www.mytile.online/belgravia-azulejo-efecto-piedra-vives/vives-belgravia-city-r-natural-32x99-cm-6829.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belgravia-R Natural 32x99 cm",
+      "precio": 29.1,
+      "unidad": "m²",
+      "precioM2": 29.1,
+      "enlace": "https://www.mytile.online/belgravia-azulejo-efecto-piedra-vives/vives-belgravia-r-natural-32x99-cm-6828.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belgravia-R Natural 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/belgravia-azulejo-efecto-piedra-vives/vives-belgravia-r-natural-45x120-cm-6830.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Agadir-R Carbon 60x120",
+      "precio": 49.27,
+      "unidad": "m²",
+      "precioM2": 49.27,
+      "enlace": "https://www.maperi.com/producto/belice-agadir-r-carbon-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Agadir-R Multicolor 60x120",
+      "precio": 49.27,
+      "unidad": "m²",
+      "precioM2": 49.27,
+      "enlace": "https://www.maperi.com/producto/belice-agadir-r-multicolor-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Agadir-R Natural 60x120",
+      "precio": 49.27,
+      "unidad": "m²",
+      "precioM2": 49.27,
+      "enlace": "https://www.maperi.com/producto/belice-agadir-r-natural-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Agadir-R Noce 60x120",
+      "precio": 49.27,
+      "unidad": "m²",
+      "precioM2": 49.27,
+      "enlace": "https://www.maperi.com/producto/belice-agadir-r-noce-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Syote-R Multicolor 80x80",
+      "precio": 43.03,
+      "unidad": "m²",
+      "precioM2": 43.03,
+      "enlace": "https://www.maperi.com/producto/belice-syote-r-multicolor-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Vail-R Carbon 80x80",
+      "precio": 42.84,
+      "unidad": "m²",
+      "precioM2": 42.84,
+      "enlace": "https://www.maperi.com/producto/belice-vail-r-carbon-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Vail-R Natural 80x80",
+      "precio": 42.84,
+      "unidad": "m²",
+      "precioM2": 42.84,
+      "enlace": "https://www.maperi.com/producto/belice-vail-r-natural-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice Vail-R Noce 80x80",
+      "precio": 42.84,
+      "unidad": "m²",
+      "precioM2": 42.84,
+      "enlace": "https://www.maperi.com/producto/belice-vail-r-noce-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Carbón 10x59,3",
+      "precio": 46.48,
+      "unidad": "m²",
+      "precioM2": 46.48,
+      "enlace": "https://www.maperi.com/producto/belice-r-carbon-10x593/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Carbón 19,4x120",
+      "precio": 42.88,
+      "unidad": "m²",
+      "precioM2": 42.88,
+      "enlace": "https://www.maperi.com/producto/belice-r-carbon-194x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Carbón 26x180",
+      "precio": 64.55,
+      "unidad": "m²",
+      "precioM2": 64.55,
+      "enlace": "https://www.maperi.com/producto/belice-carbon/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Natural 10x59,3",
+      "precio": 46.48,
+      "unidad": "m²",
+      "precioM2": 46.48,
+      "enlace": "https://www.maperi.com/producto/belice-r-natural-10x593/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Natural 19,4x120",
+      "precio": 46.3,
+      "unidad": "m²",
+      "precioM2": 46.3,
+      "enlace": "https://www.maperi.com/producto/belice-natural/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Natural 26x180",
+      "precio": 59.26,
+      "unidad": "m²",
+      "precioM2": 59.26,
+      "enlace": "https://www.maperi.com/producto/belice-r-natural-26x180/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Noce 10x59,3",
+      "precio": 46.48,
+      "unidad": "m²",
+      "precioM2": 46.48,
+      "enlace": "https://www.maperi.com/producto/belice-r-noce-10x593/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Noce 19,4x120",
+      "precio": 42.88,
+      "unidad": "m²",
+      "precioM2": 42.88,
+      "enlace": "https://www.maperi.com/producto/belice-r-noce-194x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Belice-R Noce 26x180",
+      "precio": 64.55,
+      "unidad": "m²",
+      "precioM2": 64.55,
+      "enlace": "https://www.maperi.com/producto/belice-noce/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Blomknopp Bone 20x20 Porcelánico adz efecto hidráulico",
+      "precio": 29.5,
+      "unidad": "m²",
+      "precioM2": 29.5,
+      "enlace": "https://www.mytile.online/svenska-porcelanico-hidraulico-antideslizante-vives/vives-blomknopp-bone-20x20-porcelanico-adz-efecto-hidraulico-7700.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bukit 119,3x119,3",
+      "precio": 62.03,
+      "unidad": "m²",
+      "precioM2": 62.03,
+      "enlace": "https://www.maperi.com/producto/bukit-1193-x-1193/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bukit 59,3x119,3",
+      "precio": 54.38,
+      "unidad": "m²",
+      "precioM2": 54.38,
+      "enlace": "https://www.maperi.com/producto/bukit/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Bukit 79,3x179,3",
+      "precio": 67.61,
+      "unidad": "m²",
+      "precioM2": 67.61,
+      "enlace": "https://www.maperi.com/producto/bukit-793x-1793/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Danxia-R Blanco 32x99",
+      "precio": 37.53,
+      "unidad": "m²",
+      "precioM2": 37.53,
+      "enlace": "https://www.maperi.com/producto/32x99-danxia-r-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Danxia-R Crema 32x99",
+      "precio": 37.56,
+      "unidad": "m²",
+      "precioM2": 37.56,
+      "enlace": "https://www.maperi.com/producto/32x99-danxia-r-crema/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Doney 120x60",
+      "precio": 44.44,
+      "unidad": "m²",
+      "precioM2": 44.44,
+      "enlace": "https://www.maperi.com/producto/doney-120x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Doney 59,3x59,3",
+      "precio": 36.63,
+      "unidad": "m²",
+      "precioM2": 36.63,
+      "enlace": "https://www.maperi.com/producto/doney/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Doney 60x60",
+      "precio": 25.03,
+      "unidad": "m²",
+      "precioM2": 25.03,
+      "enlace": "https://www.maperi.com/producto/doney-60x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Faro R Ceniza 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/faro-r-ceniza-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Faro R Tierra 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/faro-r-tierra-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Furnis R Blanco de Vives 32x99",
+      "precio": 31.3,
+      "unidad": "m²",
+      "precioM2": 31.3,
+      "enlace": "https://www.maperi.com/producto/32x99-furnis-r-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Kiruna 120x120",
+      "precio": 58.88,
+      "unidad": "m²",
+      "precioM2": 58.88,
+      "enlace": "https://www.maperi.com/producto/kiruna-120x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Kiruna 60x120",
+      "precio": 45.08,
+      "unidad": "m²",
+      "precioM2": 45.08,
+      "enlace": "https://www.maperi.com/producto/kiruna/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Blanco 30x60",
+      "precio": 24.97,
+      "unidad": "m²",
+      "precioM2": 24.97,
+      "enlace": "https://www.maperi.com/producto/30x60-lambda-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Cemento 30x60",
+      "precio": 24.97,
+      "unidad": "m²",
+      "precioM2": 24.97,
+      "enlace": "https://www.maperi.com/producto/30x60-lambda-cemento/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Cemento 59,3x59,3",
+      "precio": 32.33,
+      "unidad": "m²",
+      "precioM2": 32.33,
+      "enlace": "https://www.maperi.com/producto/lambda-cemento-60x60-copia/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Cemento 59x59 3ª clase",
+      "precio": 32.33,
+      "unidad": "m²",
+      "precioM2": 32.33,
+      "enlace": "https://www.maperi.com/producto/lambda-cemento-59x59-c-3-clase/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Cemento 60x60",
+      "precio": 41.74,
+      "unidad": "m²",
+      "precioM2": 41.74,
+      "enlace": "https://www.maperi.com/producto/60x60-lambda-cemento-1/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Gris 30x60",
+      "precio": 24.97,
+      "unidad": "m²",
+      "precioM2": 24.97,
+      "enlace": "https://www.maperi.com/producto/30x60-lambda-gris/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Gris 59,3x59,3",
+      "precio": 32.33,
+      "unidad": "m²",
+      "precioM2": 32.33,
+      "enlace": "https://www.maperi.com/producto/lambda-gris-59x59/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Gris 59x59 3ª clase",
+      "precio": 32.33,
+      "unidad": "m²",
+      "precioM2": 32.33,
+      "enlace": "https://www.maperi.com/producto/lambda-gris-59x59-clase-3/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Gris 60x60",
+      "precio": 41.74,
+      "unidad": "m²",
+      "precioM2": 41.74,
+      "enlace": "https://www.maperi.com/producto/60x60-lambda-gris/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Lambda Gris 60x60 3ª clase",
+      "precio": 41.74,
+      "unidad": "m²",
+      "precioM2": 41.74,
+      "enlace": "https://www.maperi.com/producto/lambda-gris-clase-3-60x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Manhattan-R Sand 32x99 cm",
+      "precio": 29.1,
+      "unidad": "m²",
+      "precioM2": 29.1,
+      "enlace": "https://www.mytile.online/manhattan-azulejos-efecto-cemento-vives/vives-manhattan-r-sand-32x99-cm-6855.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Manhattan-R Sand 45x120 cm",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/manhattan-azulejos-efecto-cemento-vives/vives-manhattan-r-sand-45x120-cm-6851.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Marne-R Arena 32x99 cm Azulejo imitación Piedra",
+      "precio": 26.6,
+      "unidad": "m²",
+      "precioM2": 26.6,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-marne-r-arena-32x99-cm-azulejo-imitacion-piedra-6803.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Marne-R Blanco 32x99 cm Azulejo imitación Piedra",
+      "precio": 26.6,
+      "unidad": "m²",
+      "precioM2": 26.6,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-marne-r-blanco-32x99-cm-azulejo-imitacion-piedra-6802.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Marne-R Perla 32x99 cm Azulejo imitación Piedra",
+      "precio": 26.6,
+      "unidad": "m²",
+      "precioM2": 26.6,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-marne-r-perla-32x99-cm-azulejo-imitacion-piedra-6804.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mesina-R Multicolor 32x99 cm",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-mesina-r-multicolor-32x99-cm-6897.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mijas-R Beige 32x99 cm",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-mijas-r-beige-32x99-cm-6894.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mijas-R Blanco 32x99 cm",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-mijas-r-blanco-32x99-cm-6893.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mijas-R Gris 32x99 cm",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-mijas-r-gris-32x99-cm-6895.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mijas-R Taupe 32x99 cm",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/stravaganza-azulejos-efecto-piedra-vives/vives-mijas-r-taupe-32x99-cm-6896.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mojácar Cuero 30x30 antideslizante Porcelánico efecto barro",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/mojacar-porcelanico-efecto-barro-vives/vives-mojacar-cuero-30x30-antideslizante-porcelanico-efecto-barro-6756.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mojácar Cuero 30x30 Porcelánico efecto barro",
+      "precio": 20.1,
+      "unidad": "m²",
+      "precioM2": 20.1,
+      "enlace": "https://www.mytile.online/mojacar-porcelanico-efecto-barro-vives/vives-mojacar-cuero-30x30-porcelanico-efecto-barro-6755.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mojácar Cuero 30x60 antideslizante Porcelánico efecto barro",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/mojacar-porcelanico-efecto-barro-vives/vives-mojacar-cuero-30x60-antideslizante-porcelanico-efecto-barro-6758.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mojácar Cuero 30x60 Porcelánico efecto barro",
+      "precio": 20.8,
+      "unidad": "m²",
+      "precioM2": 20.8,
+      "enlace": "https://www.mytile.online/mojacar-porcelanico-efecto-barro-vives/vives-mojacar-cuero-30x60-porcelanico-efecto-barro-6757.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Mosaico Cincel Multicolor 30x30",
+      "precio": 38.31,
+      "unidad": "m²",
+      "precioM2": 38.31,
+      "enlace": "https://www.maperi.com/producto/mosaico-cincel-multicolor-30x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nimos-R Blanco 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-nimos-r-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nimos-R Cemento 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-nimos-r-cemento/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nimos-R Gris 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-nimos-r-gris/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Antracita 14,4x89,3",
+      "precio": 40.9,
+      "unidad": "m²",
+      "precioM2": 40.9,
+      "enlace": "https://www.maperi.com/producto/nora-r-antracita-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Antracita 21,8x89,3",
+      "precio": 38.79,
+      "unidad": "m²",
+      "precioM2": 38.79,
+      "enlace": "https://www.maperi.com/producto/nora-r-antracita-144x893-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Beige 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/nora-r-beige-144x893-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Beige 21,8x89,3",
+      "precio": 38.79,
+      "unidad": "m²",
+      "precioM2": 38.79,
+      "enlace": "https://www.maperi.com/producto/nora-r-beige-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Marron 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/nora-r-marron-144x893-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Marron 21,8x89,3",
+      "precio": 38.79,
+      "unidad": "m²",
+      "precioM2": 38.79,
+      "enlace": "https://www.maperi.com/producto/nora-r-marron-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Noce 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/nora-r-noce-144x893-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nora R Noce 21,8x89,3",
+      "precio": 38.79,
+      "unidad": "m²",
+      "precioM2": 38.79,
+      "enlace": "https://www.maperi.com/producto/nora-r-noce-218x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Balfron-R Arena 32x99 Azulejo Rectificado",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-balfron-r-arena-32x99-azulejo-rectificado-12634.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Balfron-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-balfron-r-blanco-32x99-azulejo-rectificado-12633.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Jaoul-R 45x120 Azulejo Rectificado",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-jaoul-r-45x120-azulejo-rectificado-12644.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Lines-R Arena 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-lines-r-arena-32x99-azulejo-rectificado-12638.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Lines-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-lines-r-blanco-32x99-azulejo-rectificado-12637.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Savoye-R Arena 45x120 Azulejo Rectificado",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-savoye-r-arena-45x120-azulejo-rectificado-12642.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Savoye-R Blanco 45x120 Azulejo Rectificado",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-savoye-r-blanco-45x120-azulejo-rectificado-12643.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Shard-R Arena 32x99 Azulejo Rectificado",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-shard-r-arena-32x99-azulejo-rectificado-12632.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Shard-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 28.9,
+      "unidad": "m²",
+      "precioM2": 28.9,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-shard-r-blanco-32x99-azulejo-rectificado-12631.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Squares-R Arena 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-squares-r-arena-32x99-azulejo-rectificado-12640.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Squares-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-squares-r-blanco-32x99-azulejo-rectificado-12639.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Stripes-R Arena 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-stripes-r-arena-32x99-azulejo-rectificado-12636.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages Stripes-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 54.1,
+      "unidad": "m²",
+      "precioM2": 54.1,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-stripes-r-blanco-32x99-azulejo-rectificado-12635.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages-R Arena 32x99 Azulejo Rectificado",
+      "precio": 27,
+      "unidad": "m²",
+      "precioM2": 27,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-r-arena-32x99-azulejo-rectificado-12630.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages-R Arena 45x120 Azulejo Rectificado",
+      "precio": 30.4,
+      "unidad": "m²",
+      "precioM2": 30.4,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-r-arena-45x120-azulejo-rectificado-12645.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages-R Blanco 32x99 Azulejo Rectificado",
+      "precio": 27,
+      "unidad": "m²",
+      "precioM2": 27,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-r-blanco-32x99-azulejo-rectificado-12629.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Nuages-R Blanco 45x120 Azulejo Rectificado",
+      "precio": 30.4,
+      "unidad": "m²",
+      "precioM2": 30.4,
+      "enlace": "https://www.mytile.online/nuages-revestimiento-efecto-cemento-vives/vives-nuages-r-blanco-45x120-azulejo-rectificado-12641.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Oise-R Arena 32x99 cm Azulejo imitación Piedra",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-oise-r-arena-32x99-cm-azulejo-imitacion-piedra-6800.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Oise-R Blanco 32x99 cm Azulejo imitación Piedra",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-oise-r-blanco-32x99-cm-azulejo-imitacion-piedra-6799.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Oise-R Perla 32x99 cm Azulejo imitación Piedra",
+      "precio": 26,
+      "unidad": "m²",
+      "precioM2": 26,
+      "enlace": "https://www.mytile.online/oise-revestimiento-efecto-piedra-vives/vives-oise-r-perla-32x99-cm-azulejo-imitacion-piedra-6801.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Oriyas-R Natural 59,3x59,3 porcelánico",
+      "precio": 33.4,
+      "unidad": "m²",
+      "precioM2": 33.4,
+      "enlace": "https://www.mytile.online/ceppo-di-gre-porcelanico-efecto-piedra-vives/vives-oriyas-r-natural-593x593-porcelanico-7245.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Avellana 14,4x89,3 cm Antideslizante",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-avellana-144x893-cm-antideslizante-6795.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Avellana 21,8x89,3 cm Antideslizante",
+      "precio": 32.1,
+      "unidad": "m²",
+      "precioM2": 32.1,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-avellana-218x893-cm-antideslizante-6790.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Beige 14,4x89,3 cm Antideslizante",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-beige-144x893-cm-antideslizante-6797.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Beige 21,8x89,3 cm Antideslizante",
+      "precio": 32.1,
+      "unidad": "m²",
+      "precioM2": 32.1,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-beige-218x893-cm-antideslizante-6792.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Blanco 14,4x89,3 cm Antideslizante",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-blanco-144x893-cm-antideslizante-6794.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Blanco 21,8x89,3 cm Antideslizante",
+      "precio": 32.1,
+      "unidad": "m²",
+      "precioM2": 32.1,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-blanco-218x893-cm-antideslizante-6789.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Ceniza 14,4x89,3 cm Antideslizante",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-ceniza-144x893-cm-antideslizante-6796.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR Ceniza 21,8x89,3 cm Antideslizante",
+      "precio": 32.1,
+      "unidad": "m²",
+      "precioM2": 32.1,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-ceniza-218x893-cm-antideslizante-6791.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR musgo 14,4x89,3 cm Antideslizante",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-musgo-144x893-cm-antideslizante-6798.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Orsa-CR musgo 21,8x89,3 cm Antideslizante",
+      "precio": 32.1,
+      "unidad": "m²",
+      "precioM2": 32.1,
+      "enlace": "https://www.mytile.online/orsa-porcelanico-efecto-madera-vives/vives-orsa-cr-musgo-218x893-cm-antideslizante-6793.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Pietra Salerno Beige 51,6x56,5 cm",
+      "precio": 75.9,
+      "unidad": "m²",
+      "precioM2": 75.9,
+      "enlace": "https://www.mytile.online/salerno-porcelanico-efecto-piedra-vives/vives-pietra-salerno-beige-516x565-cm-6932.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Pietra Salerno Ceniza 51,6x56,5 cm",
+      "precio": 75.9,
+      "unidad": "m²",
+      "precioM2": 75.9,
+      "enlace": "https://www.mytile.online/salerno-porcelanico-efecto-piedra-vives/vives-pietra-salerno-ceniza-516x565-cm-6938.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Pietra Salerno Gris 51,6x56,5 cm",
+      "precio": 75.9,
+      "unidad": "m²",
+      "precioM2": 75.9,
+      "enlace": "https://www.mytile.online/salerno-porcelanico-efecto-piedra-vives/vives-pietra-salerno-gris-516x565-cm-6933.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Pietra Salerno Taupe 51,6x56,5 cm",
+      "precio": 75.9,
+      "unidad": "m²",
+      "precioM2": 75.9,
+      "enlace": "https://www.mytile.online/salerno-porcelanico-efecto-piedra-vives/vives-pietra-salerno-taupe-516x565-cm-6939.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Arena 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-arena-60x60-cm-6860.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Arena 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-arena-80x80-rec-6866.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Beige 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-beige-60x60-cm-6861.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Beige 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-beige-80x80-rec-6867.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Grafito 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-grafito-60x60-cm-6863.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Grafito 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-grafito-80x80-rec-6869.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Gris 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-gris-60x60-cm-6864.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Gris 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-gris-80x80-rec-6870.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Natural 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-natural-60x60-cm-6862.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Natural 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-natural-80x80-rec-6868.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Nieve 60x60 cm",
+      "precio": 27.7,
+      "unidad": "m²",
+      "precioM2": 27.7,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-nieve-60x60-cm-6865.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto Barro Laverton Nieve 80x80 rec",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/laverton-pavimento-efecto-barro-vives/vives-porcelanico-efecto-barro-laverton-nieve-80x80-rec-6871.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera espiga Agadir-R Carbon 60x120 cm",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-espiga-agadir-r-carbon-60x120-cm-6903.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera espiga Agadir-R Multicolor 60x120 cm",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-espiga-agadir-r-multicolor-60x120-cm-6904.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera espiga Agadir-R Natural 60x120 cm",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-espiga-agadir-r-natural-60x120-cm-6901.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera espiga Agadir-R Noce 60x120 cm",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-espiga-agadir-r-noce-60x120-cm-6902.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera Syote-R Multicolor 80x80 cm",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-syote-r-multicolor-80x80-cm-7468.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera tangram Vail-R Carbon 80x80 cm",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-tangram-vail-r-carbon-80x80-cm-7467.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera tangram Vail-R Natural 80x80 cm",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-tangram-vail-r-natural-80x80-cm-7465.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto madera tangram Vail-R Noce 80x80 cm",
+      "precio": 35.6,
+      "unidad": "m²",
+      "precioM2": 35.6,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-madera-tangram-vail-r-noce-80x80-cm-7466.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto marqueteria Krabi-R Carbon 120x120 cm",
+      "precio": 49,
+      "unidad": "m²",
+      "precioM2": 49,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-marqueteria-krabi-r-carbon-120x120-cm-6905.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto marqueteria Krabi-R Natural 120x120 cm",
+      "precio": 49,
+      "unidad": "m²",
+      "precioM2": 49,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-marqueteria-krabi-r-natural-120x120-cm-6906.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto marqueteria Krabi-R Noce 120x120 cm",
+      "precio": 49,
+      "unidad": "m²",
+      "precioM2": 49,
+      "enlace": "https://www.mytile.online/agadir-porcelanico-madera-espiga-vives/vives-porcelanico-efecto-marqueteria-krabi-r-noce-120x120-cm-6907.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Bibury Multicolor 14x28 cm",
+      "precio": 19.8,
+      "unidad": "m²",
+      "precioM2": 19.8,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-bibury-multicolor-14x28-cm-6838.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Bibury Sombra 14x28 cm",
+      "precio": 19.8,
+      "unidad": "m²",
+      "precioM2": 19.8,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-bibury-sombra-14x28-cm-6839.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Arena 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-arena-14x28-cm-6832.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Beige 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-beige-14x28-cm-6833.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Grafito 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-grafito14x28-cm-6837.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Gris 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-gris-14x28-cm-6836.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Natural 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-natural-14x28-cm-6834.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico efecto toba Dunster Nieve 14x28 cm",
+      "precio": 19.4,
+      "unidad": "m²",
+      "precioM2": 19.4,
+      "enlace": "https://www.mytile.online/dunster-pavimento-efecto-barro-14x28-vives/vives-porcelanico-efecto-toba-dunster-nieve-14x28-cm-6835.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Arena 117,5x117,5 Clase 2",
+      "precio": 51.2,
+      "unidad": "m²",
+      "precioM2": 51.2,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-arena-1175x1175-clase-2-6945.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Arena 58,3x58,3 Clase 2",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-arena-583x583-clase-2-6940.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Arena 58,7x117,5 Clase 2",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-arena-587x1175-clase-2-6949.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Basalto 117,5x117,5 Clase 2",
+      "precio": 51.2,
+      "unidad": "m²",
+      "precioM2": 51.2,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-basalto-1175x1175-clase-2-6948.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Basalto 58,3x58,3 Clase 2",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-basalto-583x583-clase-2-6944.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Basalto 58,7x117,5 Clase 2",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-basalto-587x1175-clase-2-6952.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Caldera 117,5x117,5 Clase 2",
+      "precio": 51.2,
+      "unidad": "m²",
+      "precioM2": 51.2,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-caldera-1175x1175-clase-2-6947.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Caldera 58,3x58,3 Clase 2",
+      "precio": 31.7,
+      "unidad": "m²",
+      "precioM2": 31.7,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-caldera-583x583-clase-2-6942.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Caldera 58,7x117,5 Clase 2",
+      "precio": 41,
+      "unidad": "m²",
+      "precioM2": 41,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-caldera-587x1175-clase-2-6951.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "mytile",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Porcelánico imitación óxido Yuri-R NT Grafito 117,5x117,5 Clase 2",
+      "precio": 51.2,
+      "unidad": "m²",
+      "precioM2": 51.2,
+      "enlace": "https://www.mytile.online/yuri-porcelanico-efecto-oxido-vives/vives-porcelanico-imitacion-oxido-yuri-r-nt-grafito-1175x1175-clase-2-6946.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rho-R Blanco 32x99",
+      "precio": 31.3,
+      "unidad": "m²",
+      "precioM2": 31.3,
+      "enlace": "https://www.maperi.com/producto/32x99-rho-r-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rho-R Cemento 32x99",
+      "precio": 31.3,
+      "unidad": "m²",
+      "precioM2": 31.3,
+      "enlace": "https://www.maperi.com/producto/32x99-rho-r-cemento/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rho-R Gris 32x99",
+      "precio": 31.3,
+      "unidad": "m²",
+      "precioM2": 31.3,
+      "enlace": "https://www.maperi.com/producto/32x99-rho-r-gris/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Blanco Hexágono 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Cemento Hexágono 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-cemento-exagono/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Crema Hexágono 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-crema-exagono/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Grafito Hexágono 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-grafito-hexagono/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Hexágono Bushmills Multicolor 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-hexagono-bushmills-multicolor/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Hexágono Fingal 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-hexagono-fingal-vives/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Rift Hexágono Igneus Cemento 23x26",
+      "precio": 53.62,
+      "unidad": "m²",
+      "precioM2": 53.62,
+      "enlace": "https://www.maperi.com/producto/23x26-rift-hexagono-igneus-cemento/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Solden 119,3x119,3",
+      "precio": 64.27,
+      "unidad": "m²",
+      "precioM2": 64.27,
+      "enlace": "https://www.maperi.com/producto/solden-1193x1193/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Solden 59,3x119,3",
+      "precio": 54.38,
+      "unidad": "m²",
+      "precioM2": 54.38,
+      "enlace": "https://www.maperi.com/producto/solden/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Solden 79,3x179,3",
+      "precio": 67.61,
+      "unidad": "m²",
+      "precioM2": 67.61,
+      "enlace": "https://www.maperi.com/producto/solden-793x1793/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Verbier 120x120",
+      "precio": 57.17,
+      "unidad": "m²",
+      "precioM2": 57.17,
+      "enlace": "https://www.maperi.com/producto/verbier-120x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Verbier 60x120",
+      "precio": 45.08,
+      "unidad": "m²",
+      "precioM2": 45.08,
+      "enlace": "https://www.maperi.com/producto/verbier/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Yugo R Albero 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/yugo-r-albero-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Yugo R Cielo 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/faro-r-cielo-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Yugo R Mar 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/yugo-r-mar-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Yugo R Volcan 14,4x89,3",
+      "precio": 42.7,
+      "unidad": "m²",
+      "precioM2": 42.7,
+      "enlace": "https://www.maperi.com/producto/yugo-r-volcan-144x893/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Zafora-R Blanco 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-zafora-r-blanco/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Zafora-R Cemento 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-zafora-r-cemento/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Zafora-R Gris 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-zafora-r-gris/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Zafora-R Multicolor 32x99",
+      "precio": 32.51,
+      "unidad": "m²",
+      "precioM2": 32.51,
+      "enlace": "https://www.maperi.com/producto/32x99-zafora-r-multicolor/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "maperi",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Vives Zola Negro Mate 10x20",
+      "precio": 28.59,
+      "unidad": "m²",
+      "precioM2": 28.59,
+      "enlace": "https://www.maperi.com/producto/10x20-zola-negro-mate/",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Aire acondicionado 1x1 HTW EON A+++ 2150 fg WIFI",
