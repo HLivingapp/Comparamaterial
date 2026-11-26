@@ -146,8 +146,10 @@ ${cuerpo}
 <script>
 (function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
 var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n});
-document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add");var pinta=function(){b.textContent=c[s]?"✓ En tu cesta ("+c[s]+")":"+ Añadir a mi cesta"};pinta();
-b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}pinta();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
+var el={};try{el=JSON.parse(localStorage.getItem("cm-cesta-tienda")||"{}")}catch(e){}
+var pintaAdd=function(){document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add"),t=b.getAttribute("data-tienda");if(t)b.textContent=c[s]&&el[s]===t?"✓ En tu cesta ("+c[s]+")":"+ Añadir a la cesta";else b.textContent=c[s]?"✓ En tu cesta ("+c[s]+")":"+ Añadir a mi cesta"})};pintaAdd();
+document.querySelectorAll("[data-add]").forEach(function(b){var s=b.getAttribute("data-add"),t=b.getAttribute("data-tienda");
+b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}try{el=JSON.parse(localStorage.getItem("cm-cesta-tienda")||"{}")}catch(x){}c[s]=(c[s]||0)+1;if(t)el[s]=t;try{localStorage.setItem("cm-cesta",JSON.stringify(c));localStorage.setItem("cm-cesta-tienda",JSON.stringify(el))}catch(e){}pintaAdd();var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})})});
 var R="${raiz}",I=[],cargando=null;
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
 var carga=function(){if(!cargando)cargando=fetch(R+"indice.json").then(function(r){return r.json()}).then(function(d){I=d;I.forEach(function(m){m.nk=nor(m.n+" "+(m.a||""));m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))})}).catch(function(){});return cargando};
@@ -180,14 +182,14 @@ function ctaReformista() {
 </aside>`;
 }
 
-function filaOferta(o, ganador) {
+function filaOferta(o, ganador, slug) {
   const t = tiendas[o.tienda];
   const gana = ganador && ganador === o;
   return `<tr${gana ? ' class="gana"' : ""}>
   <th scope="row">${esc(t.nombre)}${gana ? ' <span class="chip">Más barato</span>' : ""}</th>
   <td>${esc(o.producto)}${o.nota ? `<small>${esc(o.nota)}</small>` : ""}</td>
   <td class="num">${eur(o.precio)}${o.porUnidad ? `<small>${esc(o.porUnidad)}</small>` : ""}</td>
-  <td><a href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en la web</a></td>
+  <td class="acc-t">${slug ? `<button type="button" class="t-add peq" data-add="${esc(slug)}" data-tienda="${esc(o.tienda)}">+ Añadir a la cesta</button>` : ""}<a href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en la web</a></td>
 </tr>`;
 }
 
@@ -273,7 +275,7 @@ ${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombr
 <div class="tabla"><table class="ofertas">
 <thead><tr><th>Almacén</th><th>Producto</th><th>Precio</th><th></th></tr></thead>
 <tbody>
-${m.ofertas.map((o) => filaOferta(o, g)).join("\n")}
+${m.ofertas.map((o) => filaOferta(o, g, m.slug)).join("\n")}
 </tbody></table></div>
 <section class="consejo"><h2>Cuánto necesitas</h2><p>${esc(m.consejo)} <span class="nota">Dato orientativo: tu reformista lo ajusta a tu obra.</span></p></section>
 ${ctaReformista()}
@@ -429,6 +431,7 @@ function paginaCesta() {
     <h2 id="t-sel">Tu cesta</h2>
     <div id="cesta-vacia" class="nota">Todavía no has añadido nada. Busca materiales abajo y pulsa «Añadir».</div>
     <ul id="cesta-lista" class="cesta-lista"></ul>
+    <p id="pt-ayuda" class="nota pt-ayuda" hidden>Toca una tienda en cada material para elegir dónde comprarlo.</p>
     <button type="button" id="cesta-vaciar" class="enlace-btn" hidden>Vaciar la cesta</button>
   </section>
   <aside class="cesta-res" aria-live="polite" aria-labelledby="t-res">
@@ -450,22 +453,24 @@ var D=JSON.parse(document.getElementById("datos-cesta").textContent);
 var M={};D.materiales.forEach(function(m){M[m.s]=m});
 var ids=Object.keys(D.tiendas);
 var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
-function guarda(){try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(e){}var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})}
+var el={};try{el=JSON.parse(localStorage.getItem("cm-cesta-tienda")||"{}")}catch(e){}
+function guarda(){for(var k in el)if(!c[k])delete el[k];try{localStorage.setItem("cm-cesta",JSON.stringify(c));localStorage.setItem("cm-cesta-tienda",JSON.stringify(el))}catch(e){}var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})}
 function eur(n){return n.toLocaleString("es-ES",{minimumFractionDigits:2,maximumFractionDigits:2})+" €"}
 function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML}
 function minT(m){var b=null;ids.forEach(function(t){if(m.o[t]&&(b===null||m.o[t][0]<m.o[b][0]))b=t});return b}
 function pinta(){
   var sl=Object.keys(c).filter(function(s){return M[s]&&c[s]>0});
   var L=document.getElementById("cesta-lista");L.innerHTML="";
-  document.getElementById("cesta-vacia").hidden=sl.length>0;document.getElementById("cesta-vaciar").hidden=!sl.length;
-  var tot={},falta={},faltan={},mix=0,mixPor={},aviso=false;ids.forEach(function(t){tot[t]=0;falta[t]=0;faltan[t]=[];mixPor[t]=0});
+  document.getElementById("cesta-vacia").hidden=sl.length>0;document.getElementById("cesta-vaciar").hidden=!sl.length;document.getElementById("pt-ayuda").hidden=!sl.length;
+  var tot={},falta={},faltan={},mix=0,mixPor={},aviso=false,eTot=0,eN=0,ePor={};ids.forEach(function(t){tot[t]=0;falta[t]=0;faltan[t]=[];mixPor[t]=0});
   sl.forEach(function(s){var m=M[s],q=c[s],b=minT(m);if(m.x)aviso=true;
     ids.forEach(function(t){if(m.o[t])tot[t]+=m.o[t][0]*q;else{falta[t]++;faltan[t].push(m.n)}});
-    mix+=m.o[b][0]*q;mixPor[b]++;
+    mix+=m.o[b][0]*q;mixPor[b]++;var e=el[s]&&m.o[el[s]]?el[s]:null;if(e){eN++;eTot+=m.o[e][0]*q;ePor[e]=(ePor[e]||0)+1}else{eTot+=m.o[b][0]*q;ePor[b]=(ePor[b]||0)+1}
     var li=document.createElement("li");
-    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small class="por-tienda">'+ids.map(function(t){return m.o[t]?'<span class="'+(t===b&&Object.keys(m.o).length>1?'pt-gana':'')+'">'+esc(D.tiendas[t])+': '+eur(m.o[t][0])+'</span>':'<span class="pt-no">'+esc(D.tiendas[t])+': no lo tiene</span>'}).join('')+'</small></div>'+
+    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small class="por-tienda">'+ids.map(function(t){return m.o[t]?'<button type="button" data-el="'+t+'" title="Comprar en '+esc(D.tiendas[t])+'" class="pt'+(t===b&&Object.keys(m.o).length>1?' pt-gana':'')+(el[s]===t?' pt-el':'')+'">'+(el[s]===t?'✓ ':'')+esc(D.tiendas[t])+': '+eur(m.o[t][0])+'</button>':'<span class="pt-no">'+esc(D.tiendas[t])+': no lo tiene</span>'}).join('')+'</small></div>'+
       '<div class="cant"><button type="button" aria-label="Quitar uno" data-q="-1">−</button><input type="number" min="0" inputmode="numeric" value="'+q+'" aria-label="Cantidad de '+esc(m.n)+'"><button type="button" aria-label="Añadir uno" data-q="1">+</button></div>';
-    li.querySelectorAll("button").forEach(function(bt){bt.onclick=function(){c[s]=Math.max(0,(c[s]||0)+(+bt.dataset.q));if(!c[s])delete c[s];guarda();pinta()}});
+    li.querySelectorAll("button[data-el]").forEach(function(bt){bt.onclick=function(){var t=bt.dataset.el;if(el[s]===t)delete el[s];else el[s]=t;guarda();pinta()}});
+    li.querySelectorAll("button[data-q]").forEach(function(bt){bt.onclick=function(){c[s]=Math.max(0,(c[s]||0)+(+bt.dataset.q));if(!c[s])delete c[s];guarda();pinta()}});
     li.querySelector("input").onchange=function(e){var v=Math.max(0,Math.round(+e.target.value||0));if(v)c[s]=v;else delete c[s];guarda();pinta()};
     L.appendChild(li)});
   var R=document.getElementById("cesta-totales");
@@ -475,7 +480,9 @@ function pinta(){
   ids.slice().sort(function(a,b){return (falta[a]-falta[b])||(tot[a]-tot[b])}).forEach(function(t){
     var gana=completas.length&&completas[0]===t;
     h+='<li class="'+(gana?'gana':'')+(falta[t]===sl.length?' vacia':'')+'"><span>Todo en '+esc(D.tiendas[t])+(gana?' <em>Más barata</em>':'')+(falta[t]?'<small>'+(falta[t]===sl.length?'No tiene ninguno de tus materiales':'Sin '+falta[t]+' de tus '+sl.length+' materiales: '+faltan[t].slice(0,3).map(function(n){return esc(n.length>40?n.slice(0,38)+'…':n)}).join(', ')+(falta[t]>3?'…':''))+'</small>':'<small>Tiene los '+sl.length+' materiales</small>')+'</span><b>'+(falta[t]===sl.length?'—':(falta[t]?'<small>parcial</small> ':'')+eur(tot[t]))+'</b></li>'});
-  h+='</ul><h3 class="tot-t">Mezclando tiendas</h3>';
+  h+='</ul>';
+  if(eN)h+='<h3 class="tot-t">Con las tiendas que has elegido</h3><div class="mixta elegida"><span>'+(eN<sl.length?eN+' de '+sl.length+' materiales en la tienda que elegiste, el resto donde es más barato':'Cada material en la tienda que has elegido')+'<small>'+ids.filter(function(t){return ePor[t]}).map(function(t){return ePor[t]+' en '+esc(D.tiendas[t])}).join(" y ")+'</small></span><b>'+eur(eTot)+'</b></div>';
+  h+='<h3 class="tot-t">Mezclando tiendas</h3>';
   var mejorUna=completas.length?tot[completas[0]]:null;
   h+='<div class="mixta"><span>Comprando cada material donde es más barato<small>'+ids.filter(function(t){return mixPor[t]}).map(function(t){return mixPor[t]+' en '+esc(D.tiendas[t])}).join(" y ")+'</small></span><b>'+eur(mix)+'</b></div>';
   if(mejorUna!==null&&mejorUna-mix>0.005)h+='<p class="nota">Repartiendo la compra ahorras '+eur(mejorUna-mix)+' frente a comprarlo todo en '+esc(D.tiendas[completas[0]])+'.</p>';
@@ -493,7 +500,7 @@ function catalogo(q){
   C.querySelectorAll("button[data-s]").forEach(function(bt){bt.onclick=function(){var s=bt.dataset.s;c[s]=(c[s]||0)+1;guarda();pinta();bt.textContent="✓ Añadido ("+c[s]+")"}})}
 document.getElementById("cesta-buscar").oninput=function(e){catalogo(e.target.value)};
 document.addEventListener("cm-cesta",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}pinta()});
-document.getElementById("cesta-vaciar").onclick=function(){c={};guarda();pinta()};
+document.getElementById("cesta-vaciar").onclick=function(){c={};el={};guarda();pinta()};
 catalogo("");pinta();
 var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getElementById("cesta-buscar");ib.value=q0;catalogo(q0)}
 })();
