@@ -458,12 +458,12 @@ function pinta(){
   var sl=Object.keys(c).filter(function(s){return M[s]&&c[s]>0});
   var L=document.getElementById("cesta-lista");L.innerHTML="";
   document.getElementById("cesta-vacia").hidden=sl.length>0;document.getElementById("cesta-vaciar").hidden=!sl.length;
-  var tot={},falta={},mix=0,mixPor={},aviso=false;ids.forEach(function(t){tot[t]=0;falta[t]=0;mixPor[t]=0});
+  var tot={},falta={},faltan={},mix=0,mixPor={},aviso=false;ids.forEach(function(t){tot[t]=0;falta[t]=0;faltan[t]=[];mixPor[t]=0});
   sl.forEach(function(s){var m=M[s],q=c[s],b=minT(m);if(m.x)aviso=true;
-    ids.forEach(function(t){if(m.o[t])tot[t]+=m.o[t][0]*q;else falta[t]++});
+    ids.forEach(function(t){if(m.o[t])tot[t]+=m.o[t][0]*q;else{falta[t]++;faltan[t].push(m.n)}});
     mix+=m.o[b][0]*q;mixPor[b]++;
     var li=document.createElement("li");
-    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small>Más barato en <b>'+esc(D.tiendas[b])+'</b>: '+eur(m.o[b][0])+' / ud</small></div>'+
+    li.innerHTML='<div><a href="../'+s+'/">'+esc(m.n)+'</a><small>'+esc(m.f)+(m.x?' · formatos distintos según la tienda':'')+'</small><small class="por-tienda">'+ids.map(function(t){return m.o[t]?'<span class="'+(t===b&&Object.keys(m.o).length>1?'pt-gana':'')+'">'+esc(D.tiendas[t])+': '+eur(m.o[t][0])+'</span>':'<span class="pt-no">'+esc(D.tiendas[t])+': no lo tiene</span>'}).join('')+'</small></div>'+
       '<div class="cant"><button type="button" aria-label="Quitar uno" data-q="-1">−</button><input type="number" min="0" inputmode="numeric" value="'+q+'" aria-label="Cantidad de '+esc(m.n)+'"><button type="button" aria-label="Añadir uno" data-q="1">+</button></div>';
     li.querySelectorAll("button").forEach(function(bt){bt.onclick=function(){c[s]=Math.max(0,(c[s]||0)+(+bt.dataset.q));if(!c[s])delete c[s];guarda();pinta()}});
     li.querySelector("input").onchange=function(e){var v=Math.max(0,Math.round(+e.target.value||0));if(v)c[s]=v;else delete c[s];guarda();pinta()};
@@ -471,11 +471,11 @@ function pinta(){
   var R=document.getElementById("cesta-totales");
   if(!sl.length){R.innerHTML='<p class="nota">Añade materiales para ver el total en cada tienda.</p>';return}
   var completas=ids.filter(function(t){return !falta[t]}).sort(function(a,b){return tot[a]-tot[b]});
-  var h='<ul class="totales">';
+  var h='<h3 class="tot-t">Comprándolo todo en una tienda</h3><ul class="totales">';
   ids.slice().sort(function(a,b){return (falta[a]-falta[b])||(tot[a]-tot[b])}).forEach(function(t){
     var gana=completas.length&&completas[0]===t;
-    h+='<li class="'+(gana?'gana':'')+'"><span>'+esc(D.tiendas[t])+(gana?' <em>Más barata</em>':'')+(falta[t]?'<small>No tiene '+falta[t]+' de tus materiales</small>':'')+'</span><b>'+eur(tot[t])+'</b></li>'});
-  h+='</ul>';
+    h+='<li class="'+(gana?'gana':'')+(falta[t]===sl.length?' vacia':'')+'"><span>Todo en '+esc(D.tiendas[t])+(gana?' <em>Más barata</em>':'')+(falta[t]?'<small>'+(falta[t]===sl.length?'No tiene ninguno de tus materiales':'Sin '+falta[t]+' de tus '+sl.length+' materiales: '+faltan[t].slice(0,3).map(function(n){return esc(n.length>40?n.slice(0,38)+'…':n)}).join(', ')+(falta[t]>3?'…':''))+'</small>':'<small>Tiene los '+sl.length+' materiales</small>')+'</span><b>'+(falta[t]===sl.length?'—':(falta[t]?'<small>parcial</small> ':'')+eur(tot[t]))+'</b></li>'});
+  h+='</ul><h3 class="tot-t">Mezclando tiendas</h3>';
   var mejorUna=completas.length?tot[completas[0]]:null;
   h+='<div class="mixta"><span>Comprando cada material donde es más barato<small>'+ids.filter(function(t){return mixPor[t]}).map(function(t){return mixPor[t]+' en '+esc(D.tiendas[t])}).join(" y ")+'</small></span><b>'+eur(mix)+'</b></div>';
   if(mejorUna!==null&&mejorUna-mix>0.005)h+='<p class="nota">Repartiendo la compra ahorras '+eur(mejorUna-mix)+' frente a comprarlo todo en '+esc(D.tiendas[completas[0]])+'.</p>';
