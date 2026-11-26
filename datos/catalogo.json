@@ -4,11 +4,69 @@
     {
       "tienda": "leroy",
       "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento burbuja ECO ACTIS de Polietileno 10x1.5m Espesor 8mm R = 1.4",
+      "precio": 51.45,
+      "unidad": "rollo",
+      "precioM2": 3.43,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-burbuja-eco-actis-de-polietileno-10x1-5m-espesor-8mm-r-1-4-89525339.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento burbuja SUPER OPTIMER de Aluminio 10x1.2m Espesor 3mm R = 1.43",
+      "precio": 57.99,
+      "unidad": "rollo",
+      "precioM2": 4.83,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-burbuja-super-optimer-de-aluminio-10x1-2m-espesor-3mm-r-1-43-17839192.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento burbuja SUPER OPTIMER de Aluminio 5x1.2m Espesor 3mm R = 1.43",
+      "precio": 28.99,
+      "unidad": "rollo",
+      "precioM2": 4.83,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-burbuja-super-optimer-de-aluminio-5x1-2m-espesor-3mm-r-1-43-17839185.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento de Fibra de vidrio ECO 037 ISOVER 1.35x0.6m Espesor 50mm R = 1.35",
+      "precio": 63.97,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-de-fibra-de-vidrio-eco-037-isover-1-35x0-6m-espesor-50mm-r-1-35-81995502.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento de Fibra de vidrio IBR 120 ISOVER 9x1.2m Espesor 120mm R = 3",
+      "precio": 64.69,
+      "unidad": "rollo",
+      "precioM2": 5.99,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-de-fibra-de-vidrio-ibr-120-isover-9x1-2m-espesor-120mm-r-3-17852765.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
       "nombre": "1 ud de Aislamiento de Lana de roca Geowall 37 ISOVER 1.35x0.6m Espesor 40mm R = 1.09",
       "precio": 40.72,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-de-lana-de-roca-geowall-37-isover-1-35x0-6m-espesor-40mm-r-1-09-15929354.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento Fibra de vidrio Arena Apta ISOVER 1.35x0.6m Espesor 48mm R = 1.41",
+      "precio": 37.28,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-fibra-de-vidrio-arena-apta-isover-1-35x0-6m-espesor-48mm-r-1-41-82577941.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -22,11 +80,243 @@
     {
       "tienda": "leroy",
       "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento Fibra de vidrio Drywall 37 ISOVER 1.35x0.6m Espesor 50mm R = 1.36",
+      "precio": 41.23,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-fibra-de-vidrio-drywall-37-isover-1-35x0-6m-espesor-50mm-r-1-36-88849358.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento Fibra de vidrio Easywall ISOVER 10x0.6m Espesor 50mm R = 1.3",
+      "precio": 19.69,
+      "unidad": "rollo",
+      "precioM2": 1.64,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-fibra-de-vidrio-easywall-isover-10x0-6m-espesor-50mm-r-1-3-78256620.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento Fibra de vidrio IBR 100 ISOVER 8x1.2m Espesor 100mm R = 2.5",
+      "precio": 45.98,
+      "unidad": "rollo",
+      "precioM2": 4.79,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-fibra-de-vidrio-ibr-100-isover-8x1-2m-espesor-100mm-r-2-5-95578037.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento Fibra de vidrio IBR80 ISOVER 10x1.2m Espesor 80mm R = 2",
+      "precio": 36.92,
+      "unidad": "rollo",
+      "precioM2": 3.08,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-fibra-de-vidrio-ibr80-isover-10x1-2m-espesor-80mm-r-2-95578039.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento multicapa AXTON de Polietileno 1x0.7m Espesor 2mm R = 10",
+      "precio": 5.79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-multicapa-axton-de-polietileno-1x0-7m-espesor-2mm-r-10-82202896.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislamiento multicapa OPTIMER de Polipropileno 7.5x1.2m Espesor 3mm R = 1.43",
+      "precio": 31.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislamiento-multicapa-b0dsgdjyxd-optimer-de-polipropileno-7-5x1-2m-espesor-3mm-r-1-43-97254319.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) CYPSA EPS 2x1m Espesor 20mm R=0.5",
+      "precio": 3.58,
+      "unidad": "ud",
+      "precioM2": 1.79,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-cypsa-eps-2x1m-espesor-20mm-r-0-5-82179984.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) CYPSA EPS 2x1m Espesor 40mm R=1",
+      "precio": 7.18,
+      "unidad": "ud",
+      "precioM2": 3.59,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-cypsa-eps-2x1m-espesor-40mm-r-1-83088968.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) DANOSA Danotherm EPS 1x0.5m Espesor 20mm R=0.54",
+      "precio": 1.19,
+      "unidad": "ud",
+      "precioM2": 2.38,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-danosa-danotherm-eps-1x0-5m-espesor-20mm-r-0-54-95931758.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) DANOSA Danotherm EPS 1x0.5m Espesor 40mm R=1.08",
+      "precio": 2.37,
+      "unidad": "ud",
+      "precioM2": 4.74,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-danosa-danotherm-eps-1x0-5m-espesor-40mm-r-1-08-95931761.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) DANOSA Danotherm EPS 1x0.5m Espesor 60mm R=1.62",
+      "precio": 3.45,
+      "unidad": "ud",
+      "precioM2": 6.9,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-danosa-danotherm-eps-1x0-5m-espesor-60mm-r-1-62-95931759.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) DANOSA Danotherm EPS Grafito 1x0.5m Espesor 60mm R=1.93",
+      "precio": 3.49,
+      "unidad": "ud",
+      "precioM2": 6.98,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-danosa-danotherm-eps-grafito-1x0-5m-espesor-60mm-r-1-93-95931742.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) PUMA Traditerm 1x0.5m Espesor 20mm R=0.54",
+      "precio": 1.49,
+      "unidad": "ud",
+      "precioM2": 2.98,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-puma-traditerm-1x0-5m-espesor-20mm-r-0-54-82808109.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) PUMA Traditerm 1x0.5m Espesor 40mm R=1.05",
+      "precio": 2.89,
+      "unidad": "ud",
+      "precioM2": 5.78,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-puma-traditerm-1x0-5m-espesor-40mm-r-1-05-82808112.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) PUMA Traditerm 1x0.5m Espesor 60mm R=1.55",
+      "precio": 4.35,
+      "unidad": "ud",
+      "precioM2": 8.7,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-puma-traditerm-1x0-5m-espesor-60mm-r-1-55-82808139.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno expandido (EPS) PUMA Traditerm 1x0.5m Espesor 60mm R=2.7",
+      "precio": 3.29,
+      "unidad": "ud",
+      "precioM2": 6.58,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-expandido-eps-puma-traditerm-1x0-5m-espesor-60mm-r-2-7-82808126.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante de Poliestireno extruido (XPS) ASFALTOS CHOVA Chovafoam machihembrado 2.6x0.6m Espesor 40mm R=1.15",
+      "precio": 8.09,
+      "unidad": "ud",
+      "precioM2": 5.19,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-de-poliestireno-extruido-xps-asfaltos-chova-chovafoam-machihembrado-2-6x0-6m-espesor-40mm-r-1-15-15283583.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Aislante multicapa BIG POLYREFLEX de Aluminio 15x1.2m Espesor 8mm R = 1.54",
+      "precio": 92.4,
+      "unidad": "rollo",
+      "precioM2": 5.13,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-aislante-multicapa-big-polyreflex-de-aluminio-15x1-2m-espesor-8mm-r-1-54-93429358.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Kit Aislamiento para cajón de persiana SUPER OPTIMER de Aluminio y burbuja 1.2x0.25m Espesor 3mm R = 0.11",
+      "precio": 7.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-kit-aislamiento-para-cajon-de-persiana-super-optimer-de-aluminio-y-burbuja-1-2x0-25m-espesor-3mm-r-0-11-18053315.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "1 ud de Rollo de aislante acústico Acustidan 2/16 DANOSA de Fibra de vidrio 6x1m Espesor 18mm Reducción acústica 35dB",
+      "precio": 65.94,
+      "unidad": "rollo",
+      "precioM2": 10.99,
+      "enlace": "https://www.leroymerlin.es/productos/1-ud-de-rollo-de-aislante-acustico-acustidan-2-16-danosa-de-fibra-de-vidrio-6x1m-espesor-18mm-reduccion-acustica-35db-17308494.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "10 ud de Aislante de Poliestireno extruido (XPS) THERMOGREEN XPS 1.25x0.6m Espesor 40mm R=1.25",
+      "precio": 40.79,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/10-ud-de-aislante-de-poliestireno-extruido-xps-thermogreen-xps-1-25x0-6m-espesor-40mm-r-1-25-88945770.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
       "nombre": "10 uds de Aislamiento de Lana de roca Geowall 34 ISOVER 1.35x0.6m Espesor 40mm R = 1.15",
       "precio": 67.2,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/10-uds-de-aislamiento-de-lana-de-roca-geowall-34-isover-1-35x0-6m-espesor-40mm-r-1-15-85228195.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "10 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Machihembrado 1.25x0.6m Espesor 40mm R=1.25",
+      "precio": 80.81,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/10-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-machihembrado-1-25x0-6m-espesor-40mm-r-1-25-88493226.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "10 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 40mm R=1.25",
+      "precio": 38.85,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/10-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-40mm-r-1-25-88493224.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "12 m², Capa base aislante para suelos y losas de XPS con película de PET: aislamiento acústico, térmico y de ruido de impacto de 3mm",
+      "precio": 42.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/12-m2-capa-base-aislante-para-suelos-y-losas-de-xps-con-pelicula-de-pet-aislamiento-acustico-termico-y-de-ruido-de-impacto-de-3mm-94340875.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -67,11 +357,59 @@
     {
       "tienda": "leroy",
       "categoria": "Aislamiento",
+      "nombre": "1ud Kit aislante + cinta adhesiva ACTIS ECO Espesor: 5mm 8x0,75m R=1,45",
+      "precio": 30.99,
+      "unidad": "ud",
+      "precioM2": 5.17,
+      "enlace": "https://www.leroymerlin.es/productos/1ud-kit-aislante-cinta-adhesiva-actis-eco-espesor-5mm-8x0-75m-r-1-45-68270755.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "2 uds de Aislamiento de Fibra de vidrio Drywall 37 Rollo ISOVER 10x0.6m Espesor 50mm R = 1.35",
+      "precio": 22.54,
+      "unidad": "rollo",
+      "precioM2": 1.88,
+      "enlace": "https://www.leroymerlin.es/productos/2-uds-de-aislamiento-de-fibra-de-vidrio-drywall-37-rollo-isover-10x0-6m-espesor-50mm-r-1-35-95578042.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
       "nombre": "20 uds de Aislamiento de Lana de roca Acutex ISOVER 1.2x0.6m Espesor 20mm R = 0.55",
       "precio": 115.06,
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/20-uds-de-aislamiento-de-lana-de-roca-acutex-isover-1-2x0-6m-espesor-20mm-r-0-55-82837719.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "3 uds de Aislamiento Fibra de vidrio UNIDAD ISOVER 8.5x0.4m Espesor 60mm R = 1.62",
+      "precio": 24.8,
+      "unidad": "rollo",
+      "precioM2": 2.43,
+      "enlace": "https://www.leroymerlin.es/productos/3-uds-de-aislamiento-fibra-de-vidrio-unidad-isover-8-5x0-4m-espesor-60mm-r-1-62-95578041.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "3 uds de Aislamiento multicapa AXTON de Polietileno 1x0.7m Espesor 2mm R = 10",
+      "precio": 11.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/3-uds-de-aislamiento-multicapa-axton-de-polietileno-1x0-7m-espesor-2mm-r-10-82265366.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "3 uds de Aislamiento multicapa OPTIMER de Aluminio 1.2x0.25m Espesor 5mm R = 0.11",
+      "precio": 17.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/3-uds-de-aislamiento-multicapa-optimer-de-aluminio-1-2x0-25m-espesor-5mm-r-0-11-83321166.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -94,11 +432,38 @@
     {
       "tienda": "leroy",
       "categoria": "Aislamiento",
+      "nombre": "4 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 100mm R=3.1",
+      "precio": 38.85,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/4-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-100mm-r-3-1-88493225.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "4 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 90mm R=2.8",
+      "precio": 32.37,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/4-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-90mm-r-2-8-88876555.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
       "nombre": "45,60 M2 de Lana Mineral de 70mm. Modulado a 40 cms. Para Tabiquería y Trasdosados (4 Paquetes con 3 Rollos C/U de 9,50x0.40 m= 11,40m2)",
       "precio": 385.8,
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/45-60-m2-de-lana-mineral-de-70mm-modulado-a-40-cms-para-tabiqueria-y-trasdosados-4-paquetes-con-3-rollos-c-u-de-9-50x0-40-m-11-40m2-71348485.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "5 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 80mm R=2.5",
+      "precio": 38.85,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/5-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-80mm-r-2-5-88493229.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -121,11 +486,233 @@
     {
       "tienda": "leroy",
       "categoria": "Aislamiento",
+      "nombre": "7 ud de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 60mm R=1.85",
+      "precio": 40.79,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/7-ud-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-60mm-r-1-85-88493230.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
       "nombre": "77,78 M2 de Lana Mineral de 50mm. Para Tabiquería y Trasdosados (6 Paquetes con 16 Placas C/U de 135x60 cm= 12,96 m2)",
       "precio": 467.5,
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/77-78-m2-de-lana-mineral-de-50mm-para-tabiqueria-y-trasdosados-6-paquetes-con-16-placas-c-u-de-135x60-cm-12-96-m2-75122776.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "8 ud de Aislante de Poliestireno extruido (XPS) THERMOGREEN Media madera 1.25x0.6m Espesor 50mm R=1.55",
+      "precio": 38.85,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/8-ud-de-aislante-de-poliestireno-extruido-xps-thermogreen-media-madera-1-25x0-6m-espesor-50mm-r-1-55-88493228.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "8 uds de Aislante de Poliestireno extruido (XPS) THERMOGREEN Canto recto 1.25x0.6m Espesor 50mm R=1.55",
+      "precio": 35.94,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/8-uds-de-aislante-de-poliestireno-extruido-xps-thermogreen-canto-recto-1-25x0-6m-espesor-50mm-r-1-55-92016222.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "AISLAMIENTO TÉRMICO REFLEXIVO AIR BUR TERMIC 10 1.20X10 M 4 MM",
+      "precio": 56,
+      "unidad": "rollo",
+      "precioM2": 4.67,
+      "enlace": "https://www.obramat.es/productos/aislamiento-termico-reflexivo-air-bur-termic-10-1-20x10-m-4-mm-25088843.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "AISLAMIENTO TERMICO REFLEXIVO POLYREFLEX RF1 1.20X15 M POLYREFLEX",
+      "precio": 41,
+      "unidad": "rollo",
+      "precioM2": 2.28,
+      "enlace": "https://www.obramat.es/productos/aislamiento-termico-reflexivo-polyreflex-rf1-1-20x15-m-polyreflex-25083921.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Aislante Térmico 100% Aluminio con Espuma (POR METROS) Ancho 1,20m + Cinta Aluminio",
+      "precio": 19.9,
+      "unidad": "m",
+      "enlace": "https://www.leroymerlin.es/productos/aislante-termico-100-aluminio-con-espuma-por-metros-ancho-1-20m-cinta-aluminio-para-viviendas-portales-radiadores-caravanas-furgonetas-91893961.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Aislante térmico 100% aluminio y burbujas (POR METROS) Ancho 1,20m",
+      "precio": 9.5,
+      "unidad": "m",
+      "enlace": "https://www.leroymerlin.es/productos/aislante-termico-100-aluminio-y-burbujas-por-metros-ancho-1-20m-para-frio-y-calor-viviendas-caravanas-furgonetas-radiadores-buhardillas-95928154.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Aislante Térmico Reflexivo (Rollo 5m x 0,6m + 12 adhesivos doble cara)",
+      "precio": 21.95,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/aislante-termico-reflexivo-rollo-5m-x-0-6m-12-adhesivos-doble-cara-practico-y-facil-de-colocar-en-paredes-radiadores-portales-caravanas-93840716.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Aislante térmico reflexivo 100% aluminio y burbujas (POR METROS) Ancho 1,20m + Cinta aluminio",
+      "precio": 11.5,
+      "unidad": "m",
+      "enlace": "https://www.leroymerlin.es/productos/aislante-termico-reflexivo-100-aluminio-y-burbujas-por-metros-ancho-1-20m-cinta-aluminio-para-frio-y-calor-viviendas-caravanas-garajes-95928153.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Aislante térmico reflexivo con aluminio y espuma (POR METROS) Ancho 60 cm",
+      "precio": 12.5,
+      "unidad": "m",
+      "enlace": "https://www.leroymerlin.es/productos/aislante-termico-reflexivo-con-aluminio-y-espuma-por-metros-ancho-60-cm-aislamiento-para-caravanas-furgonetas-viviendas-radiadores-oficinas-91795593.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante antihumedad suelo laminado DBCOVER 1x15m 2mm espesor",
+      "precio": 74.85,
+      "unidad": "caja",
+      "precioM2": 4.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-antihumedad-suelo-laminado-dbcover-1x15m-2mm-espesor-13930182.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante de suelo laminado de 3mm de capa antihumedad 12m²",
+      "precio": 27.6,
+      "unidad": "rollo",
+      "precioM2": 2.3,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-de-suelo-laminado-de-3mm-de-capa-antihumedad-12m2-13641775.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante para suelo laminado Basic 1.6mm 20m²",
+      "precio": 19.8,
+      "unidad": "ud",
+      "precioM2": 0.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-para-suelo-laminado-basic-1-6mm-20m2-82282769.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante para suelo vinílico AXTON Silence 1.5mm 10.2m²",
+      "precio": 30.51,
+      "unidad": "ud",
+      "precioM2": 2.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-para-suelo-vinilico-axton-silence-1-5mm-10-2m2-82620024.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo ARBITON Smart N 1.5mm capa antihumedad 6.25m²",
+      "precio": 24.94,
+      "unidad": "ud",
+      "precioM2": 3.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-arbiton-smart-n-1-5mm-capa-antihumedad-6-25m2-82880162.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo Cork4U 1.6mm capa antihumedad 10m²",
+      "precio": 59.9,
+      "unidad": "caja",
+      "precioM2": 5.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-cork4u-1-6mm-capa-antihumedad-10m2-81881400.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo laminado 3mm capa antihumedad 48m²",
+      "precio": 76.32,
+      "unidad": "rollo",
+      "precioM2": 1.59,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-laminado-3mm-capa-antihumedad-48m2-82456478.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo laminado AXTON Silence Corkplus 2mm capa antihumedad 10m²",
+      "precio": 49.9,
+      "unidad": "rollo",
+      "precioM2": 4.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-laminado-axton-silence-corkplus-2mm-capa-antihumedad-10m2-83685482.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo laminado Ca20+Film 2mm capa antihumedad 48m²",
+      "precio": 47.52,
+      "unidad": "caja",
+      "precioM2": 0.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-laminado-ca20-film-2mm-capa-antihumedad-48m2-82456477.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo laminado DBCOVER Lmes 1.5mm capa antihumedad 10m²",
+      "precio": 39.9,
+      "unidad": "caja",
+      "precioM2": 3.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-laminado-dbcover-lmes-1-5mm-capa-antihumedad-10m2-85313071.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base aislante suelo laminado Selitac 2.2mm capa antihumedad 15m²",
+      "precio": 41.85,
+      "unidad": "caja",
+      "precioM2": 2.79,
+      "enlace": "https://www.leroymerlin.es/productos/base-aislante-suelo-laminado-selitac-2-2mm-capa-antihumedad-15m2-81907865.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Base latex SPC radiant 1.5mm capa antihumedad 10m²",
+      "precio": 49.9,
+      "unidad": "caja",
+      "precioM2": 4.99,
+      "enlace": "https://www.leroymerlin.es/productos/base-latex-spc-radiant-1-5mm-capa-antihumedad-10m2-82911858.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Capa antihumedad AXTON 0.2mm 16m²",
+      "precio": 31.84,
+      "unidad": "ud",
+      "precioM2": 1.99,
+      "enlace": "https://www.leroymerlin.es/productos/capa-antihumedad-axton-0-2mm-16m2-82282782.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -162,6 +749,120 @@
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/lote-paneles-lana-de-roca-rockwool-alpharock-premium-espesor-40mm-1-35x0-6m-r-1-2-97448511.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Palé 16 paquetes (311m2) panel DRYWALL 37 Espesor 60mm 1,35x0,6m R=1,63",
+      "precio": 680.64,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pale-16-paquetes-311m2-panel-drywall-37-espesor-60mm-1-35x0-6m-r-1-63-97230707.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Palé 18 paquetes (194,40m2) panel DRYWALL 37 Espesor: 60mm 1,35x0,4m R=1,63",
+      "precio": 472.68,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pale-18-paquetes-194-40m2-panel-drywall-37-espesor-60mm-1-35x0-4m-r-1-63-97230713.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Palé 20 rollos (204m2) DRYWALL 37 Espesor: 60mm 8,5x0,6m R=1,62",
+      "precio": 496,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pale-20-rollos-204m2-drywall-37-espesor-60mm-8-5x0-6m-r-1-62-97448515.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Palé 20 rollos (259,20m2) DRYWALL37, Espesor: 50mm 10x0,4m R=1,35",
+      "precio": 450.8,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pale-20-rollos-259-20m2-drywall37-espesor-50mm-10x0-4m-r-1-35-97448517.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Palé 24 paquetes (194,40m2) panel fibra de vidrio ISOVER ARENA APTA Espesor 65mm 1,35x0,6m R=1,91",
+      "precio": 853.44,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pale-24-paquetes-194-40m2-panel-fibra-de-vidrio-isover-arena-apta-espesor-65mm-1-35x0-6m-r-1-91-97230718.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Panel de EPS GV Estabilizado Para Sistema Rasfit Exterior, Espesor (# 50mm). Formato [1000X500]",
+      "precio": 3.7,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/panel-de-eps-gv-estabilizado-para-sistema-rasfit-exterior-espesor-50mm-formato-1000x500-76673493.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA ALPHAROCK PREMIUM 135X40X4CM",
+      "precio": 36.66,
+      "unidad": "ud",
+      "precioM2": 6.79,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-alpharock-premium-135x40x4cm-25048178.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA ALPHAROCK PREMIUM 135X60X4CM",
+      "precio": 55,
+      "unidad": "ud",
+      "precioM2": 6.79,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-alpharock-premium-135x60x4cm-25046700.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA FIREROCK 100X60X3CM",
+      "precio": 9.95,
+      "unidad": "ud",
+      "precioM2": 16.58,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-firerock-100x60x3cm-10937360.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA SMART ACOUSTIK 7 100X60X4CM",
+      "precio": 33.32,
+      "unidad": "ud",
+      "precioM2": 6.17,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-smart-acoustik-7-100x60x4cm-25117676.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA SONOROCK ECO 135X60X4CM",
+      "precio": 44.98,
+      "unidad": "ud",
+      "precioM2": 3.47,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-eco-135x60x4cm-25046668.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL LANA DE ROCA SONOROCK PLUS 135X40X6CM",
+      "precio": 31.95,
+      "unidad": "ud",
+      "precioM2": 8.45,
+      "enlace": "https://www.obramat.es/productos/panel-lana-de-roca-sonorock-plus-135x40x6cm-25101896.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "obramat",
@@ -226,6 +927,486 @@
     {
       "tienda": "obramat",
       "categoria": "Aislamiento",
+      "nombre": "PANEL MULTICAPA CHOVACUSTIC-65 LR70/4 100X60X4CM",
+      "precio": 12.95,
+      "unidad": "ud",
+      "precioM2": 21.58,
+      "enlace": "https://www.obramat.es/productos/panel-multicapa-chovacustic-65-lr70-4-100x60x4cm-10486805.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL ROCKSATE CONTORNO 120X60X2 CM 8UD",
+      "precio": 27.87,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/panel-rocksate-contorno-120x60x2-cm-8ud-25148986.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL ROCKSATE DUO PLUS 120X60X10CM 4UD",
+      "precio": 60,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/panel-rocksate-duo-plus-120x60x10cm-4ud-25148983.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL ROCKSATE DUO PLUS 120X60X12CM 3UD",
+      "precio": 54,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/panel-rocksate-duo-plus-120x60x12cm-3ud-25148988.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL ROCKSATE DUO PLUS 120X60X5CM 7UD",
+      "precio": 53,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/panel-rocksate-duo-plus-120x60x5cm-7ud-25149030.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PANEL ROCKSATE DUO PLUS 120X60X8CM 5UD",
+      "precio": 60,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/panel-rocksate-duo-plus-120x60x8cm-5ud-25148985.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Paquete de 10 uds paneles Poliestireno XPS DANOSA Danopren 40 mm",
+      "precio": 36.2,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/paquete-de-10-uds-paneles-poliestireno-xps-danosa-danopren-40-mm-82629955.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "PERFIL ESQUINERO PVC+MALLA SATE 8X12 CM 2.5 M",
+      "precio": 1.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/perfil-esquinero-pvc-malla-sate-8x12-cm-2-5-m-10524003.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO 10 KG/M3 200X100X4 CM",
+      "precio": 4.3,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-10-kg-m3-200x100x4-cm-25066114.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X2 CM AISLENVAS",
+      "precio": 2.3,
+      "unidad": "ud",
+      "precioM2": 1.15,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x2-cm-aislenvas-25046509.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X2 CM POLIESPOR",
+      "precio": 2.8,
+      "unidad": "ud",
+      "precioM2": 1.4,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x2-cm-poliespor-25047485.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X4 CM AISLENVAS",
+      "precio": 5.74,
+      "unidad": "ud",
+      "precioM2": 2.87,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x4-cm-aislenvas-25046508.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X4 CM POLIESPOR",
+      "precio": 6.65,
+      "unidad": "ud",
+      "precioM2": 3.33,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x4-cm-poliespor-25047484.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X4 CM POLIVAS",
+      "precio": 6.03,
+      "unidad": "ud",
+      "precioM2": 3.02,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x4-cm-polivas-25039378.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 10 KG/M3 200X100X4 CM ROYCLE",
+      "precio": 5.23,
+      "unidad": "ud",
+      "precioM2": 2.62,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-10-kg-m3-200x100x4-cm-roycle-10784501.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 13-15 KG/M3 250X100X2 CM SAN JUAN",
+      "precio": 5.27,
+      "unidad": "ud",
+      "precioM2": 2.11,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-13-15-kg-m3-250x100x2-cm-san-juan-25046575.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 13-15 KG/M3250X100X4 CM SAN JUAN",
+      "precio": 6.8,
+      "unidad": "ud",
+      "precioM2": 2.72,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-13-15-kg-m3250x100x4-cm-san-juan-25046576.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 14 KG/M3 200X100X2 CM",
+      "precio": 5.11,
+      "unidad": "ud",
+      "precioM2": 2.56,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-14-kg-m3-200x100x2-cm-25079760.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS 14 KG/M3 200X100X4 CM",
+      "precio": 10.17,
+      "unidad": "ud",
+      "precioM2": 5.09,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-14-kg-m3-200x100x4-cm-25079758.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS GRAFITO SATE 15 KG/M3 100X50 CM 10 CM ESPESOR",
+      "precio": 4.3,
+      "unidad": "ud",
+      "precioM2": 8.6,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-grafito-sate-15-kg-m3-100x50-cm-10-cm-espesor-25078069.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS GRAFITO SATE 15 KG/M3 100X50 CM 8 CM ESPESOR",
+      "precio": 4.43,
+      "unidad": "ud",
+      "precioM2": 8.86,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-grafito-sate-15-kg-m3-100x50-cm-8-cm-espesor-25079759.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS GRAFITO SATE 17 KG/M3 100X50 CM 8 CM ESPESOR",
+      "precio": 5.12,
+      "unidad": "ud",
+      "precioM2": 10.24,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-grafito-sate-17-kg-m3-100x50-cm-8-cm-espesor-25047486.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 10 KG/M3 200X100 CM 4 CM ESPESOR",
+      "precio": 4.7,
+      "unidad": "ud",
+      "precioM2": 2.35,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-10-kg-m3-200x100-cm-4-cm-espesor-25078076.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 16 KG/M3 100X50 CM 2 CM ESPESOR",
+      "precio": 1.13,
+      "unidad": "ud",
+      "precioM2": 2.26,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-16-kg-m3-100x50-cm-2-cm-espesor-25079761.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 16 KG/M3 100X50 CM 6 CM ESPESOR",
+      "precio": 3.29,
+      "unidad": "ud",
+      "precioM2": 6.58,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-16-kg-m3-100x50-cm-6-cm-espesor-25079757.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 17 KG/M3 100X50 CM 2 CM ESPESOR",
+      "precio": 1.15,
+      "unidad": "ud",
+      "precioM2": 2.3,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-17-kg-m3-100x50-cm-2-cm-espesor-25047487.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 17 KG/M3 100X50 CM 6 CM ESPESOR",
+      "precio": 3.78,
+      "unidad": "ud",
+      "precioM2": 7.56,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-17-kg-m3-100x50-cm-6-cm-espesor-25046506.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO EPS SATE 17 KG/M3 100X50 CM 6 CM ESPESOR",
+      "precio": 3.45,
+      "unidad": "ud",
+      "precioM2": 6.9,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-eps-sate-17-kg-m3-100x50-cm-6-cm-espesor-25047483.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXPANDIDO GRAFITO 13 KG/M2 260X60 CM 4 CM ESPESOR",
+      "precio": 6.9,
+      "unidad": "ud",
+      "precioM2": 4.42,
+      "enlace": "https://www.obramat.es/productos/poliestireno-expandido-grafito-13-kg-m2-260x60-cm-4-cm-espesor-25086784.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO CW XPS 250KPA 260X60X4 CM SOPREMA",
+      "precio": 7.08,
+      "unidad": "ud",
+      "precioM2": 4.54,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-cw-xps-250kpa-260x60x4-cm-soprema-10989993.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO CW XPS 250KPA 260X60X5 CM SOPREMA",
+      "precio": 8.86,
+      "unidad": "ud",
+      "precioM2": 5.68,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-cw-xps-250kpa-260x60x5-cm-soprema-10990000.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO CW XPS 250KPA 260X60X6 CM SOPREMA",
+      "precio": 10.6,
+      "unidad": "ud",
+      "precioM2": 6.79,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-cw-xps-250kpa-260x60x6-cm-soprema-10990014.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO FV XPS 250KPA 260X60X4 CM THERMOGREEN",
+      "precio": 7.49,
+      "unidad": "ud",
+      "precioM2": 4.8,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-fv-xps-250kpa-260x60x4-cm-thermogreen-25047141.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X10 CM THERMOGREEN",
+      "precio": 8.58,
+      "unidad": "ud",
+      "precioM2": 11.44,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x10-cm-thermogreen-25047140.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X4 CM SOPREMA",
+      "precio": 3.44,
+      "unidad": "ud",
+      "precioM2": 4.59,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x4-cm-soprema-10989923.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X4 CM SOPREMA",
+      "precio": 4.83,
+      "unidad": "ud",
+      "precioM2": 6.44,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x4-cm-soprema-25039375.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X4 CM THERMOGREEN",
+      "precio": 3.6,
+      "unidad": "ud",
+      "precioM2": 4.8,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x4-cm-thermogreen-25047119.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X5 CM SOPREMA",
+      "precio": 6.04,
+      "unidad": "ud",
+      "precioM2": 8.05,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x5-cm-soprema-25039379.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X5 CM SOPREMA",
+      "precio": 4.3,
+      "unidad": "ud",
+      "precioM2": 5.73,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x5-cm-soprema-10989930.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X5 CM THERMOGREEN",
+      "precio": 4.5,
+      "unidad": "ud",
+      "precioM2": 6,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x5-cm-thermogreen-25047142.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X6 CM SOPREMA",
+      "precio": 5.16,
+      "unidad": "ud",
+      "precioM2": 6.88,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x6-cm-soprema-10989951.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X6 CM THERMOGREEN",
+      "precio": 5.4,
+      "unidad": "ud",
+      "precioM2": 7.2,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x6-cm-thermogreen-25047143.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X8 CM SOPREMA",
+      "precio": 6.87,
+      "unidad": "ud",
+      "precioM2": 9.16,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x8-cm-soprema-10989965.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO SL XPS 300KPA 125X60X8 CM THERMOGREEN",
+      "precio": 7.28,
+      "unidad": "ud",
+      "precioM2": 9.71,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-sl-xps-300kpa-125x60x8-cm-thermogreen-25047144.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO XPS 300KPA 125X60X6 CM SOPREMA",
+      "precio": 7.25,
+      "unidad": "ud",
+      "precioM2": 9.67,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-xps-300kpa-125x60x6-cm-soprema-25039390.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "POLIESTIRENO EXTRUIDO XPS 300KPA 125X60X8 CM SOPREMA",
+      "precio": 9.66,
+      "unidad": "ud",
+      "precioM2": 12.88,
+      "enlace": "https://www.obramat.es/productos/poliestireno-extruido-xps-300kpa-125x60x8-cm-soprema-25039371.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Rollo 30m² de Base Aislante Eva Flex de espuma caucho para suelo parquet y laminado",
+      "precio": 62.23,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-30m2-de-base-aislante-eva-flex-de-espuma-caucho-para-suelo-parquet-y-laminado-77527734.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Aislamiento",
+      "nombre": "Rollo burbuja reflectante 0,6×3m film aislante aluminio ignífugo B2 barrera térmica radiante",
+      "precio": 16.4,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-burbuja-reflectante-0-6-3m-film-aislante-aluminio-ignifugo-b2-barrera-termica-radiante-aislamiento-ventana-techo-resistencia-humedad-98130627.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
+      "nombre": "ROLLO LANA DE ROCA PROLIT 800X100X3 CM",
+      "precio": 95,
+      "unidad": "rollo",
+      "precioM2": 11.88,
+      "enlace": "https://www.obramat.es/productos/rollo-lana-de-roca-prolit-800x100x3-cm-25085777.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Aislamiento",
       "nombre": "ROLLO LANA DE VIDRIO DECIWOOL 1920X40X4.5 CM",
       "precio": 31.1,
       "unidad": "ud",
@@ -282,6 +1463,15 @@
       "precioM2": 2.78,
       "enlace": "https://www.obramat.es/productos/rollo-lana-de-vidrio-ultracoustic-nero-r-1080x40x7-cm-25105437.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "2 espumas de poliuretano AXTON multiusos 750 ml para puertas, ventanas, paredes y suelos en color amarillo. Tiempo de secado 30 minutos. Aplicación manual.",
+      "precio": 10.07,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/2-espumas-de-poliuretano-axton-multiusos-750-ml-para-puertas-ventanas-paredes-y-suelos-en-color-amarillo-tiempo-de-secado-30-minutos-aplicacion-manual-81884789.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -745,6 +1935,15 @@
     {
       "tienda": "leroy",
       "categoria": "Albañilería y morteros",
+      "nombre": "Eliminador de espuma de poliuretano seca QUILOSA 100 ml",
+      "precio": 15.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/eliminador-de-espuma-de-poliuretano-seca-quilosa-100-ml-81866247.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
       "nombre": "Escayola en polvo BEISSIER 1kg",
       "precio": 5.73,
       "unidad": "ud",
@@ -812,6 +2011,132 @@
       "precio": 3.2,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/esparto-mezcla-rollo-pequeno-4-kg-10446114.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano 750 ml para puertas, ventanas y suelos en color amarillo. Tiempo de secado 30 minutos. Aplicación manual.",
+      "precio": 4.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-750-ml-para-puertas-ventanas-y-suelos-en-color-amarillo-tiempo-de-secado-30-minutos-aplicacion-manual-88879273.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano AXTON 750 ml para tejas en color terracota. Tiempo de secado 25 minutos. Aplicación manual.",
+      "precio": 6.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-axton-750-ml-para-tejas-en-color-terracota-tiempo-de-secado-25-minutos-aplicacion-manual-88879280.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano AXTON 750 ml para tejas en color terracota. Tiempo de secado 30 minutos. Aplicación con pistola.",
+      "precio": 7.19,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-axton-750-ml-para-tejas-en-color-terracota-tiempo-de-secado-30-minutos-aplicacion-con-pistola-88879283.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano AXTON 750 ml para ventanas en color amarillo. Tiempo de secado 30 minutos. Aplicación con pistola.",
+      "precio": 7.65,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-axton-750-ml-para-ventanas-en-color-amarillo-tiempo-de-secado-30-minutos-aplicacion-con-pistola-88879276.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano AXTON proyectable 700 ml para paredes y tejados en color blanco. Tiempo de secado 4 horas. Aplicación con pistola.",
+      "precio": 10.79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-axton-proyectable-700-ml-para-paredes-y-tejados-en-color-blanco-tiempo-de-secado-4-horas-aplicacion-con-pistola-88879281.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano QUILOSA Orbafoam fijación 60 segundos 750 ml para paredes en color amarillo. Tiempo de secado 1 minuto. Aplicación con pistola.",
+      "precio": 13.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-quilosa-orbafoam-fijacion-60-segundos-750-ml-para-paredes-en-color-amarillo-tiempo-de-secado-1-minuto-aplicacion-con-pistola-81870719.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano QUILOSA Orbafoam fijación 60 segundos 750 ml para paredes en color amarillo. Tiempo de secado 1 minuto. Aplicación manual.",
+      "precio": 15.86,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-quilosa-orbafoam-fijacion-60-segundos-750-ml-para-paredes-en-color-amarillo-tiempo-de-secado-1-minuto-aplicacion-manual-81870718.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano SOUDAL Genius Mega 600 ml para puertas, ventanas y paredes en color amarillo. Tiempo de secado 20-25 minutos. Aplicación manual.",
+      "precio": 6.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-soudal-genius-mega-600-ml-para-puertas-ventanas-y-paredes-en-color-amarillo-tiempo-de-secado-20-25-minutos-aplicacion-manual-81884793.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma de poliuretano SOUDAL Profoam 750 ml para puertas, ventanas y paredes en color amarillo. Tiempo de secado 25 minutos. Aplicación con pistola.",
+      "precio": 4.19,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-de-poliuretano-soudal-profoam-750-ml-para-puertas-ventanas-y-paredes-en-color-amarillo-tiempo-de-secado-25-minutos-aplicacion-con-pistola-17668714.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma expansiva 750ml amarillo",
+      "precio": 4.73,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-expansiva-750ml-amarillo-88879286.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma expansiva multiuso AXTON aplicación manual 750ml amarillo",
+      "precio": 6.7,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-expansiva-multiuso-axton-aplicacion-manual-750ml-amarillo-88879290.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma expansiva puertas y ventanas Axton 750ml",
+      "precio": 8.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-expansiva-puertas-y-ventanas-axton-750ml-88879295.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma expansiva puertas y ventanas AXTON aplicación manual 750ml amarillo",
+      "precio": 6.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-expansiva-puertas-y-ventanas-axton-aplicacion-manual-750ml-amarillo-88879289.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Espuma expansiva SOUDAL 750ml",
+      "precio": 17.2,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espuma-expansiva-soudal-750ml-86335857.html",
       "fecha": "2026-11-26"
     },
     {
@@ -1127,6 +2452,24 @@
       "precio": 0.19,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/ladrillo-tosco-ceramico-23-7x10-7x7-cm-17112802.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Limpiador de espuma de poliuretano AXTON 500 ml. Tiempo de acción 1 minuto. Aplicación en spray.",
+      "precio": 4.44,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/limpiador-de-espuma-de-poliuretano-axton-500-ml-tiempo-de-accion-1-minuto-aplicacion-en-spray-81884795.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Albañilería y morteros",
+      "nombre": "Limpiador de espuma húmeda Axton en formato spray 500 ml",
+      "precio": 4.94,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/limpiador-de-espuma-humeda-axton-en-formato-spray-500-ml-88880847.html",
       "fecha": "2026-11-26"
     },
     {
@@ -2554,6 +3897,15 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo Bimando SENSEA Essential Cromo Brillo Rociador 23 cm redondo Barra extensible Sistema antical Con ahorro de agua",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-bimando-sensea-essential-cromo-brillo-rociador-23-cm-redondo-barra-extensible-sistema-antical-con-ahorro-de-agua-82804701.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "Columna de ducha con grifo monomando INDUSTRIAS RAMON SOLER Stockholm Cromo Brillo Rociador 30 cm Redondo extraplano Barra extensible Sistema antical Con ahorro de agua",
       "precio": 201,
       "unidad": "ud",
@@ -2590,6 +3942,42 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo monomando SENSEA Charm Cromo Brillo Rociador 21.5 cm redondo Barra extensible Sistema antical Con ahorro de agua",
+      "precio": 197.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-monomando-sensea-charm-cromo-brillo-rociador-21-5-cm-redondo-barra-extensible-sistema-antical-con-ahorro-de-agua-87928447.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo monomando SENSEA Essential Negro Mate Rociador 23 cm redondo Barra extensible Sistema antical Con ahorro de agua",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-monomando-sensea-essential-negro-mate-rociador-23-cm-redondo-barra-extensible-sistema-antical-con-ahorro-de-agua-93999405.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo monomando SENSEA Icone Cromo Brillo Rociador 30 cm redondo Barra extensible Con ahorro de agua",
+      "precio": 185.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-monomando-sensea-icone-cromo-brillo-rociador-30-cm-redondo-barra-extensible-con-ahorro-de-agua-91795231.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo monomando SENSEA Icone Negro Mate Rociador 30 cm redondo Barra extensible Con ahorro de agua",
+      "precio": 205,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-monomando-sensea-icone-negro-mate-rociador-30-cm-redondo-barra-extensible-con-ahorro-de-agua-91795228.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "Columna de ducha con grifo termostático INDUSTRIAS RAMON SOLER Stockholm Negro Mate Rociador 30 cm Cuadrado extraplano Barra extensible Sistema antical Con ahorro de agua Cuerpo frío antiquemaduras",
       "precio": 269,
       "unidad": "ud",
@@ -2603,6 +3991,33 @@
       "precio": 277,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-roca-mitos-cromo-brillo-rociador-36-x-24-cm-rectangular-barra-extensible-sistema-antical-con-ahorro-de-agua-cuerpo-frio-antiquemaduras-83601180.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo termostático SENSEA Essential Cromo Brillo Rociador redondo Barra extensible Sistema antical Con ahorro de agua Cuerpo frío antiquemaduras",
+      "precio": 154.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-sensea-essential-cromo-brillo-rociador-redondo-barra-extensible-sistema-antical-con-ahorro-de-agua-cuerpo-frio-antiquemaduras-87965630.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo termostático SENSEA Icone Cromo Brillo Rociador 30 cm redondo Barra extensible Con ahorro de agua Cuerpo frío antiquemaduras",
+      "precio": 212.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-sensea-icone-cromo-brillo-rociador-30-cm-redondo-barra-extensible-con-ahorro-de-agua-cuerpo-frio-antiquemaduras-91795227.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Columna de ducha con grifo termostático SENSEA Studio Negro Mate Rociador 25 cm cuadrado Barra extensible Sistema antical Con ahorro de agua Cuerpo frío antiquemaduras",
+      "precio": 216.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/columna-de-ducha-con-grifo-termostatico-sensea-studio-negro-mate-rociador-25-cm-cuadrado-barra-extensible-sistema-antical-con-ahorro-de-agua-cuerpo-frio-antiquemaduras-90346528.html",
       "fecha": "2026-11-26"
     },
     {
@@ -2639,6 +4054,15 @@
       "precio": 249,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/conjunto-de-bano-con-lavabo-y-espejo-zoe-roble-claro-satinado-59-6x45-5-cm-con-2-cajones-85338976.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Conjunto de columna de ducha termostática SENSEA Studio cromado con organizador de ducha para colgar Essential",
+      "precio": 179.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/conjunto-de-columna-de-ducha-termostatica-sensea-studio-cromado-con-organizador-de-ducha-para-colgar-essential-87620664.html",
       "fecha": "2026-11-26"
     },
     {
@@ -3044,6 +4468,87 @@
       "precio": 209,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/encimera-madera-maciza-roble-240-x-63-x-3-8-cm-10809176.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño asimétrico con luz LED Modern meteor 100x90 cm con antivaho, táctil",
+      "precio": 195,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-asimetrico-con-luz-led-modern-meteor-100x90-cm-con-antivaho-tactil-87796742.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño cuadrado con luz LED ALL 80x80 cm con antivaho, táctil, altavoz, Bluetooth color cromo",
+      "precio": 279,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-cuadrado-con-luz-led-all-80x80-cm-con-antivaho-tactil-altavoz-bluetooth-color-cromo-82700076.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño cuadrado con luz LED Push 80x80 cm táctil, altavoz, Bluetooth color cromo",
+      "precio": 98.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-cuadrado-con-luz-led-push-80x80-cm-tactil-altavoz-bluetooth-color-cromo-90099428.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño ovalado con luz LED Modern Pill 40x80 cm con antivaho, táctil",
+      "precio": 133,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-ovalado-con-luz-led-modern-pill-40x80-cm-con-antivaho-tactil-87796738.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño rectangular con luz LED Cosmos 80x70cm con antivaho, táctil, altavoz, Bluetooth color cromo",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-rectangular-con-luz-led-cosmos-80x70cm-con-antivaho-tactil-altavoz-bluetooth-color-cromo-84574405.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño rectangular con luz LED Nerea 80x70 cm color cromo",
+      "precio": 57.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-rectangular-con-luz-led-nerea-80x70-cm-color-cromo-90099417.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño rectangular con luz LED New Frame 120x90 cm con antivaho, táctil color negro",
+      "precio": 299,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-rectangular-con-luz-led-new-frame-120x90-cm-con-antivaho-tactil-color-negro-87732385.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño redondo con luz LED Modern round 80 cm de diámetro con antivaho, táctil",
+      "precio": 143,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-redondo-con-luz-led-modern-round-80-cm-de-diametro-con-antivaho-tactil-87796743.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Espejo de baño redondo con luz LED Teide 80 cm de diámetro",
+      "precio": 125,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/espejo-de-bano-redondo-con-luz-led-teide-80-cm-de-diametro-82459906.html",
       "fecha": "2026-11-26"
     },
     {
@@ -8134,6 +9639,24 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Set de ducha SENSEA - Columna de ducha con grifo mecánico y estante suspendido - Cromo - Studio / Essential",
+      "precio": 194.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/set-de-ducha-sensea-columna-de-ducha-con-grifo-mecanico-y-estante-suspendido-cromo-studio-essential-87620625.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Set de ducha SENSEA - Columna de ducha con grifo termostático y estante suspendido - Negro - Studio / Neo",
+      "precio": 249.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/set-de-ducha-sensea-columna-de-ducha-con-grifo-termostatico-y-estante-suspendido-negro-studio-neo-87620644.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "SOULHOME Mampara de ducha Panel Fijo, 60 cm ancho x 200 cm alto, Perfil Negro mate, Fácil instalación Vidrio de seguridad 8 mm antical",
       "precio": 124,
       "unidad": "ud",
@@ -11880,6 +13403,87 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de condensación BAXI Cubic Eco 24/24",
+      "precio": 871,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-baxi-cubic-eco-24-24-91831088.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de condensación de gas natural BOSCH GC1200 24/30 kW",
+      "precio": 1194.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-de-gas-natural-bosch-gc1200-24-30-kw-89741313.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de condensación de gas natural FERROLI KALIS 24 C",
+      "precio": 821,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-de-gas-natural-ferroli-kalis-24-c-83281986.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de condensación MANAUT Myto Connect 25kw",
+      "precio": 849,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-manaut-myto-connect-25kw-90058274.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de condensación, Ariston, HS Premium 24 + Kit de tres grifos + Kit salida de humos, Clase Energetica A",
+      "precio": 749,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-ariston-hs-premium-24-kit-de-tres-grifos-kit-salida-de-humos-clase-energetica-a-86393319.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de gas condensación Ferroli KALIS 24 C + FERROLI KRONOS RF",
+      "precio": 945,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-condensacion-ferroli-kalis-24-c-ferroli-kronos-rf-98575277.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de gas de condensación FERROLI 34kw",
+      "precio": 878.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-de-condensacion-ferroli-34kw-90398589.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de gas Ferroli Bluehelix Alpha 28 C + CONNECT SMART WIFI",
+      "precio": 1131,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-ferroli-bluehelix-alpha-28-c-connect-smart-wifi-98588047.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera de gas Ferroli Bluehelix Alpha 34 C + CONNECT SMART WIFI",
+      "precio": 1289.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-ferroli-bluehelix-alpha-34-c-connect-smart-wifi-98588039.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Calentador a gas Ariston NEXT EVO X SFT 11",
@@ -11898,12 +13502,30 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador a gas estanco instantaneo, Ariston, Next Evo X 11 litros/minuto con Kit salida de humos, Gas butano/propano, Clase Energetica A",
+      "precio": 379,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-a-gas-estanco-instantaneo-ariston-next-evo-x-11-litros-minuto-con-kit-salida-de-humos-gas-butano-propano-clase-energetica-a-86721808.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Calentador a gas Giatsu ROMBO LOW NOX",
       "precio": 289,
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/calentadores-a-gas/calentador-a-gas-giatsu-rombo-low-nox/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador Atmosférico 14 Litros - GN",
+      "precio": 229,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-atmosferico-14-litros-gn-89320196.html",
       "fecha": "2026-11-26"
     },
     {
@@ -11943,6 +13565,132 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico CLIMAX gas butano 10 L",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-climax-gas-butano-10-l-94344416.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico COINTRA CADI butano 11 L",
+      "precio": 274.85,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-cointra-cadi-butano-11-l-82158582.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico COINTRA gas natural 11 L",
+      "precio": 235,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-cointra-gas-natural-11-l-82158581.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico GILS Atenas butano 11 L con kit de batería solar",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-gils-atenas-butano-11-l-con-kit-de-bateria-solar-97803971.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico HTW CLA butano 11 L con LED",
+      "precio": 190,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-htw-cla-butano-11-l-con-led-95651787.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas atmosférico HTW CLA gas natural 11 L con LED",
+      "precio": 185,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-atmosferico-htw-cla-gas-natural-11-l-con-led-95651788.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco ARISTON NEXT EVO X BLU but-prop 16 L",
+      "precio": 397,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-ariston-next-evo-x-blu-but-prop-16-l-82077272.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco FAGOR FEE gas natural 12 L Instalación básica incluida",
+      "precio": 723,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-fagor-fee-gas-natural-12-l-instalacion-basica-incluida-98390689.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco GILS ITACA12B 12L butano-propano",
+      "precio": 279,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-gils-itaca12b-12l-butano-propano-85163788.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco GILS ITACA12N 12L natural",
+      "precio": 279,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-gils-itaca12n-12l-natural-85163787.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco HTW Cle Nox gas natural 14 L",
+      "precio": 358,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-htw-cle-nox-gas-natural-14-l-82599559.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas estanco HTW HTW-CLE-12NOX2GLP but-prop 12 L",
+      "precio": 293,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-estanco-htw-htw-cle-12nox2glp-but-prop-12-l-98772653.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas HTW UAN estanco nox 11 litros gas butano",
+      "precio": 244.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-htw-uan-estanco-nox-11-litros-gas-butano-85203057.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador de gas HTW UAN estanco nox 11 litros gas natural",
+      "precio": 244.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-de-gas-htw-uan-estanco-nox-11-litros-gas-natural-85203049.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Calentador estanco Giatsu DUAL 11 L",
@@ -11967,6 +13715,69 @@
       "precio": 249,
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/calentadores-a-gas/ariston-fast-r-x-onm-11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas estanco FAGOR FEE-12 NOX gas natural 12L",
+      "precio": 309,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/calentador-gas-estanco-fagor-fee-12-nox-gas-natural-12l-95941382.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico 1000W radiador eléctrico mural programable 24/7 PID silencioso 4 modos IP24 10 m² blanco mate CDHT10E",
+      "precio": 89.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-1000w-radiador-electrico-mural-programable-24-7-pid-silencioso-4-modos-ip24-10-m2-blanco-mate-cdht10e-97436785.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico 1500W radiador eléctrico mural programable 24/7 PID silencioso 4 modos IP24 15 m² blanco mate CDHT15E",
+      "precio": 119.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-1500w-radiador-electrico-mural-programable-24-7-pid-silencioso-4-modos-ip24-15-m2-blanco-mate-cdht15e-97436783.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico WiFi 1000W radiador eléctrico programable 24/7 silencioso IP24 10 m² 4 modos blanco mate CDHTD10A-W",
+      "precio": 127.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-wifi-1000w-radiador-electrico-programable-24-7-silencioso-ip24-10-m2-4-modos-blanco-mate-cdhtd10a-w-97436782.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico WiFi 1500W radiador eléctrico programable 24/7 silencioso IP24 15 m² 4 modos blanco mate CDHTD15A-W",
+      "precio": 159.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-wifi-1500w-radiador-electrico-programable-24-7-silencioso-ip24-15-m2-4-modos-blanco-mate-cdhtd15a-w-97436786.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico WiFi 1500W radiador eléctrico programable 24/7 silencioso IP24 15 m² 4 modos negro CDHTD15A-B",
+      "precio": 159.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-wifi-1500w-radiador-electrico-programable-24-7-silencioso-ip24-15-m2-4-modos-negro-cdhtd15a-b-71385202.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CIARRA Emisor térmico cerámico WiFi 2000W radiador eléctrico programable 24/7 silencioso IP24 20 m² 4 modos blanco mate CDHTD20A-W",
+      "precio": 189.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-emisor-termico-ceramico-wifi-2000w-radiador-electrico-programable-24-7-silencioso-ip24-20-m2-4-modos-blanco-mate-cdhtd20a-w-97436787.html",
       "fecha": "2026-11-26"
     },
     {
@@ -12030,6 +13841,51 @@
       "precio": 0.48,
       "unidad": "m",
       "enlace": "https://www.bricoelectrico.com/tuberia-cobre-aire-acondicionado/43121-coquilla-aislante-6-x-6-1-4-precio-por-metro-8415866638519.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CREATE - WARM TOWEL - Toallero eléctrico de pared 500W sin patas con estante 3 barras",
+      "precio": 71.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-warm-towel-toallero-electrico-de-pared-500w-sin-patas-con-estante-3-barras-86131519.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CREATE - WARM TOWEL - Toallero eléctrico de pared 500W sin patas sin estante",
+      "precio": 69.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-warm-towel-toallero-electrico-de-pared-500w-sin-patas-sin-estante-85543958.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CREATE - WARM TOWEL - Toallero eléctrico de suelo 500W con patas sin estante",
+      "precio": 71.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-warm-towel-toallero-electrico-de-suelo-500w-con-patas-sin-estante-84230104.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CREATE - WARM TOWEL MINI - Toallero eléctrico de pared 150W sin patas sin estante",
+      "precio": 45.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-warm-towel-mini-toallero-electrico-de-pared-150w-sin-patas-sin-estante-85636451.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "CREATE - WARM TOWEL PRO - Toallero eléctrico con calefactor y WiFi 1500W con estante 3 barras",
+      "precio": 108.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-warm-towel-pro-toallero-electrico-con-calefactor-y-wifi-1500w-con-estante-3-barras-86324503.html",
       "fecha": "2026-11-26"
     },
     {
@@ -12242,6 +14098,15 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Rointe Kosmos WiFi 1200W 8 elementos inverter color blanco RAL 9016",
+      "precio": 356.46,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/emisor-termico-rointe-kosmos-wifi-1200w-8-elementos-inverter-color-blanco-ral-9016-70102155.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Emisor térmico seco Teide 1500 w de potencia",
       "precio": 115,
       "unidad": "ud",
@@ -12265,6 +14130,78 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/facula-termo-electrico-doble-tanque-tacdt-80l-long-life-modo-ieco-antibacteriano-ag-deposito-esmaltado-ti-79441610.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Bali blanco 800x500mm 4 soportes + purgador",
+      "precio": 80.58,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-de-agua-bali-blanco-800x500mm-no-electrico-4-soportes-purgador-conexiones-4x1-2-99108762.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Bali cromado 800x500mm 4 soportes + purgador",
+      "precio": 109.24,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-de-agua-bali-cromado-800x500mm-4-soportes-purgador-99394730.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Bali negro 800x500mm 4 soportes + purgador",
+      "precio": 83.64,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-de-agua-bali-negro-800x500mm-no-electrico-4-soportes-purgador-conexiones-4x1-2-99108603.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Gala Cromado 1150x500mm 3 soportes",
+      "precio": 146.88,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-de-agua-gala-cromado-1150x500mm-no-electrico-3-soportes-purgador-conexiones-3x1-2-86792850.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Ocean Blanco 1188x500mm NO Eléctrico 3 soportes",
+      "precio": 58.14,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/toallero-de-agua-ocean-blanco-1188x500mm-no-electrico-3-soportes-95642997.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero de agua Ocean Blanco 803x500mm NO Eléctrico 3 soportes",
+      "precio": 51,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-de-agua-ocean-blanco-803x500mm-no-electrico-3-soportes-purgador-conexiones-3x1-2-91286266.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero Eléc Programable Blanco TD 700W Temporizador 12/24h",
+      "precio": 134.23,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-electrico-fluido-blanco-700w-facil-manejo-boost-2h-temporizador-12-24h-indicador-led-86775868.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Fácula - Toallero Eléctrico Programable Blanco TPB 400W",
+      "precio": 89.76,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-electrico-fluido-blanco-programable-400-w-75722883.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "climaprecio",
@@ -12843,6 +14780,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Kit compuesto de termostato digital Honeywell T87 + receptor BDR91",
+      "precio": 98.6,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/kit-compuesto-de-termostato-digital-honeywell-t87-receptor-bdr91-88327609.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "LG CM18F + UUA1 Confort Conductos",
@@ -13086,6 +15032,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Pack termostato inteligente TADO v3 + kit de extensión inalámbrico",
+      "precio": 246.35,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pack-termostato-inteligente-tado-v3-kit-de-extension-inalambrico-82730139.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Panasonic Depósito Inercia PAW-BTANK50L-2",
@@ -13286,6 +15241,15 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI DUBAL 45 8 elementos",
+      "precio": 131,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-45-8-elementos-82424840.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Radiador de agua BAXI Dubal 60 10 elementos",
       "precio": 175,
       "unidad": "ud",
@@ -13304,11 +15268,83 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI DUBAL 60 3 elementos",
+      "precio": 49.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-60-3-elementos-81988503.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Radiador de agua BAXI DUBAL 60 4 elementos",
       "precio": 69.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-60-4-elementos-81988504.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI Dubal 60 5 elementos",
+      "precio": 151.19,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-60-5-elementos-81988505.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI Dubal 60 7 elementos",
+      "precio": 113,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-60-7-elementos-81988507.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI Dubal 60 blanco 9 elementos",
+      "precio": 146,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-60-blanco-9-elementos-81988509.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua BAXI DUBAL 70 8 elementos",
+      "precio": 297.2,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-baxi-dubal-70-8-elementos-82358057.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua caliente COINTRA Orión HP 500 10 elementos",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-caliente-cointra-orion-hp-500-10-elementos-17872491.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua caliente COINTRA Orión HP 500 6 elementos",
+      "precio": 66,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-caliente-cointra-orion-hp-500-6-elementos-17872470.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua caliente COINTRA Orión HP 500 7 elementos",
+      "precio": 77,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-caliente-cointra-orion-hp-500-7-elementos-19799661.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -13322,11 +15358,29 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua caliente COINTRA Orión HP 600 7 elementos",
+      "precio": 103,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-caliente-cointra-orion-hp-600-7-elementos-17872540.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Radiador de agua EQUATION 50 10 elementos",
       "precio": 107,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-equation-50-10-elementos-82313241.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua EQUATION 50 12 elementos",
+      "precio": 132,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-equation-50-12-elementos-82313242.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -13367,11 +15421,38 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua EQUATION Equation 60 6 elementos",
+      "precio": 75,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-equation-equation-60-6-elementos-82313245.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua EQUATION Equation 60 8 elementos",
+      "precio": 100,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-equation-equation-60-8-elementos-82313246.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Radiador de agua EUROPA C 600 10 elementos",
       "precio": 123.6,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-europa-c-600-10-elementos-85792414.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador de agua EUROPA C 600 7 elementos",
+      "precio": 92.98,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-de-agua-europa-c-600-7-elementos-86760524.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "obramat",
@@ -13547,6 +15628,15 @@
     {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador digital Rointe KATAI 1200W bajo consumo programable 24/7 blanco 8 elementos RAL 9016",
+      "precio": 316.94,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-digital-rointe-katai-1200w-bajo-consumo-programable-24-7-blanco-8-elementos-ral-9016-70102255.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
       "nombre": "Radiador eléctrico Bestherm con inercia seca cerámica 1000 W oveo",
       "precio": 109.9,
       "unidad": "ud",
@@ -13597,6 +15687,69 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/radiador-electrico-rointe-palaos-wifi-1000w-2-elementos-color-blanco-texturado-ral-9016-95654255.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero de agua ROINTE Elba 50 x112 cm blanco 450 w",
+      "precio": 60,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-de-agua-rointe-elba-50-x112-cm-blanco-450-w-82405572.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico Cicsa EZX0750BL21 400W de color blanco",
+      "precio": 99.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-cicsa-ezx0750bl21-400w-de-color-blanco-97318373.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico Cicsa EZX1150BL21 500W de color blanco",
+      "precio": 125,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-cicsa-ezx1150bl21-500w-de-color-blanco-97318372.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico EQUATION 500 W negro recto",
+      "precio": 129,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-equation-500-w-negro-recto-91894267.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico EQUATION 500W blanco curvo",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-equation-500w-blanco-curvo-91894274.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico EQUATION 500W blanco recto",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-equation-500w-blanco-recto-91894272.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador toallero eléctrico Equation Eolto 127 x 50 cm 1500 W blanco hasta 15m2",
+      "precio": 269,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/radiador-toallero-electrico-equation-eolto-127-x-50-cm-1500-w-blanco-hasta-15m2-91894269.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "bricoelectrico",
@@ -14400,6 +16553,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato con cable y wifi Avidsen HomeTemp 2.0 con pantalla táctil, programación semanal y app, blanco (código 127072)",
+      "precio": 47.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-con-cable-y-wifi-avidsen-hometemp-2-0-con-pantalla-tactil-programacion-semanal-y-app-blanco-codigo-127072-95243644.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termostato de pared PAW-A2W-RTWIRED",
@@ -14409,12 +16571,120 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente cableado + placa TADO X kit inicio",
+      "precio": 139,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-cableado-placa-tado-x-kit-inicio-91952851.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente ENERGEEKS Jasper II Wi-Fi",
+      "precio": 69.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-energeeks-jasper-ii-wi-fi-72360829.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente GARZA Smart",
+      "precio": 99.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-garza-smart-82396143.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente NETATMO inalámbrico",
+      "precio": 149,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-netatmo-inalambrico-76220377.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente NETATMO por cable",
+      "precio": 139,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-netatmo-por-cable-76220384.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato inteligente Tado V3+",
+      "precio": 114.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-inteligente-tado-v3-82067329.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termostato Madoka BRC1HHD(W/S/K) para Altherma 3",
       "precio": 177.02,
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/aerotermia/termostato-madoka-brc1hhdwsk-para-altherma-3/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato para aire acondicionado y bomba de calor TADO v3+",
+      "precio": 90.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-para-aire-acondicionado-y-bomba-de-calor-tado-v3-82239352.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termostato Wi-Fi GARZA Smart Teide cableado",
+      "precio": 49.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/termostato-wi-fi-garza-smart-teide-cableado-70924239.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Toallero eléctrico BESTHERM HESTIA 500 W sin fluido blanco",
+      "precio": 94.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/toallero-electrico-bestherm-hestia-500-w-sin-fluido-blanco-92726312.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Toallero Eléctrico NOOR 750W B, Secatoallas de Bajo Consumo con Termostato Digital 24/7, Modo Turbo 2h, Blanco, 110x50.5 cm",
+      "precio": 134.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/toallero-electrico-noor-750w-b-secatoallas-de-bajo-consumo-con-termostato-digital-24-7-modo-turbo-2h-blanco-110x50-5-cm-82417396.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Toallero Eléctrico NYRA 750W WIFI, Secatoallas de Bajo Consumo con Termostato Digital 24/7, Modo Turbo 2h, Blanco, 112x53 cm",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/toallero-electrico-nyra-750w-wifi-secatoallas-de-bajo-consumo-con-termostato-digital-24-7-modo-turbo-2h-blanco-112x53-cm-74974244.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Toallero eléctrico ROINTE ORION 50x77 blanco",
+      "precio": 197.47,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/toallero-electrico-rointe-orion-50x77-blanco-95654276.html",
       "fecha": "2026-11-26"
     },
     {
@@ -27422,6 +29692,213 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CERROJO PUERTA DE SEGURIDAD PARA INTERIOR Y EXTERIOR PINTADO 3 LLAVES CAYS",
+      "precio": 18.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cerrojo-puerta-de-seguridad-para-interior-y-exterior-pintado-3-llaves-cays-10706220.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA CON DESBLOQUEO REDONDA CROMO SATINADO Ø35MM",
+      "precio": 12,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-con-desbloqueo-redonda-cromo-satinado-35mm-10757761.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA CON DESBLOQUEO REDONDA CUERO INGLES Ø35MM",
+      "precio": 8.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-con-desbloqueo-redonda-cuero-ingles-35mm-10757726.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA ROSETA CUADRADA O SET WC 50X50MM MOD.618 NEGRO",
+      "precio": 7.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-roseta-cuadrada-o-set-wc-50x50mm-mod-618-negro-25033998.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA ROSETA CUADRADA O SET WC 50X50MM MOD.618 NEGRO/NÍQUEL",
+      "precio": 8.8,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-roseta-cuadrada-o-set-wc-50x50mm-mod-618-negro-niquel-25033997.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DES-CONDENA ROSETA CUADRADA 50X50MM ZAMAK NIQUEL MOD 618",
+      "precio": 8,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-des-condena-roseta-cuadrada-50x50mm-zamak-niquel-mod-618-10574284.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA CUADRADA ACERO INOXIDABLE 35X35MM",
+      "precio": 5.26,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-cuadrada-acero-inoxidable-35x35mm-10291260.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA CUADRADA ALUMINIO NEGRO",
+      "precio": 10.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-cuadrada-aluminio-negro-25086676.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA REDONDA ACERO INOXIDABLE 30 MM 8816",
+      "precio": 5.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-redonda-acero-inoxidable-30-mm-8816-10154410.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA REDONDA ACERO INOXIDABLE Ø50MM",
+      "precio": 4.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-redonda-acero-inoxidable-50mm-10291253.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA REDONDA ALUMINIO Ø35MM NEGRO",
+      "precio": 5.8,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-redonda-aluminio-35mm-negro-25034025.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "CONDENA/DESCONDENA REDONDA ALUMINIO Ø35MM NIQUEL",
+      "precio": 5.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/condena-descondena-redonda-aluminio-35mm-niquel-25034037.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA ACABADO BLANCO 72,5 CM",
+      "precio": 140,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-acabado-blanco-72-5-cm-10562923.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA ACABADO GRIS 72,5 CM",
+      "precio": 140,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-acabado-gris-72-5-cm-10562762.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA HORIZONTAL RECHAPADA ROBLE 82,5 CM",
+      "precio": 113,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-horizontal-rechapada-roble-82-5-cm-10205286.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LACADA BLANCA 62,5X203CM",
+      "precio": 79,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lacada-blanca-62-5x203cm-10815672.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LACADA BLANCA R04M 72,5 CM",
+      "precio": 158,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lacada-blanca-r04m-72-5-cm-10510500.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LACADA BLANCA VT6 82,5 CM",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lacada-blanca-vt6-82-5-cm-10753344.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LISA ACABADO COLOR ROBLE 72.5 CM",
+      "precio": 30,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lisa-acabado-color-roble-72-5-cm-10597692.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LISA MELAMINA BLANCA CIEGA 72,5CM",
+      "precio": 49,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lisa-melamina-blanca-ciega-72-5cm-10828503.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA LISA VINILO ACABADO OLMO 72,5 CM",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-lisa-vinilo-acabado-olmo-72-5-cm-10696756.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "HOJA VT2 LACADA BLANCA CIEGA 62,5CM",
+      "precio": 79,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/hoja-vt2-lacada-blanca-ciega-62-5cm-10609760.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILA ROSETA ALUMINIO CUADRADA MOD 6017 NEGRO",
+      "precio": 12,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manila-roseta-aluminio-cuadrada-mod-6017-negro-25034045.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Puertas y ventanas",
       "nombre": "Juego de manilla con roseta Berna de zamak niquelado mate",
@@ -27438,6 +29915,159 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/juego-de-manilla-con-roseta-inspire-serie-lee-en-aluminio-84302650.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETA ALUMINIO NEGRO Mod 707 MICEL",
+      "precio": 6.4,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-roseta-aluminio-negro-mod-707-micel-25032456.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETA ALUMINIO NIQUEL SATINADO 707 MICEL",
+      "precio": 4.37,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-roseta-aluminio-niquel-satinado-707-micel-25032455.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ACERO INOXIDABLE MOD RI-403",
+      "precio": 5.5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-acero-inoxidable-mod-ri-403-25086437.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ACERO INOXIDABLE MOD RI-503",
+      "precio": 9.2,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-acero-inoxidable-mod-ri-503-25086435.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ALUMINIO NIQUEL 7624",
+      "precio": 6.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-aluminio-niquel-7624-10702223.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ALUMINIO NIQUEL 8839 AYR",
+      "precio": 6.6,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-aluminio-niquel-8839-ayr-10363185.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ALUMINIO NIQUEL 8848 AYR",
+      "precio": 8.97,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-aluminio-niquel-8848-ayr-10463663.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ALUMINIO NIQUEL SATINADO 7658",
+      "precio": 6.2,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-aluminio-niquel-satinado-7658-10290581.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS ALUMINIO NIQUEL SATINADO 7668",
+      "precio": 8.02,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-aluminio-niquel-satinado-7668-10290910.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS FORJA NEGRA 73172",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-forja-negra-73172-10602473.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLA ROSETAS REDONDA ALUMINIO NIQUEL 7620",
+      "precio": 4.66,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manilla-rosetas-redonda-aluminio-niquel-7620-10290931.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE MANILLAS PLACA CIEGA FORJA NEGRA R 201",
+      "precio": 7,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-manillas-placa-ciega-forja-negra-r-201-10290686.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO DE ROSETA ALUMINIO NEGRO MODELO 9216",
+      "precio": 9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-de-roseta-aluminio-negro-modelo-9216-25086690.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO MANIVELA CON ROSETA REDONDA NEGRO KHOR",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-manivela-con-roseta-redonda-negro-khor-25034015.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO MANIVELA CON ROSETA REDONDA NIQUEL SATINADO DOHA",
+      "precio": 11.8,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-manivela-con-roseta-redonda-niquel-satinado-doha-25034027.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO ROSETA ALUMINIO MOD 9208 NEGRO",
+      "precio": 9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-roseta-aluminio-mod-9208-negro-25086679.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "JUEGO ROSETA NIQUEL SATINADO 606 MICEL",
+      "precio": 6.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/juego-roseta-niquel-satinado-606-micel-25032444.html",
+      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -27467,6 +30097,15 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "MULETILLA SIN ESCUDO FORJA NEGRO 50MM",
+      "precio": 3.57,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/muletilla-sin-escudo-forja-negro-50mm-10291225.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Puertas y ventanas",
       "nombre": "Pack puerta de interior abatible ciega maciza melamina Line Plus Chicago roble apertura izquierda cerco de 7x3 anchura 72.5cm + kit de tapetas",
@@ -27478,10 +30117,199 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PACK SEGURIDAD CERROJO 1PLUS+CILINDRO 30X40MM ORO AMIG",
+      "precio": 54,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pack-seguridad-cerrojo-1plus-cilindro-30x40mm-oro-amig-25044088.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PASADOR MULETILLA 45 MM. ACERO INOXIDABLE 126 AMIG",
+      "precio": 3,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pasador-muletilla-45-mm-acero-inoxidable-126-amig-10385662.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE ENTRADA CON LLAVE CROMO 3B00 TESA",
+      "precio": 33.17,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-entrada-con-llave-cromo-3b00-tesa-10321696.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE ENTRADA CON LLAVE CROMO 600 AMIG",
+      "precio": 16.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-entrada-con-llave-cromo-600-amig-25123620.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE ENTRADA CON LLAVE CROMO 600 AMIG",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-entrada-con-llave-cromo-600-amig-10298750.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE ENTRADA CON LLAVE LATON 600 AMIG",
+      "precio": 16.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-entrada-con-llave-laton-600-amig-25123624.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR DE PASO LATÓN 601 AMIG",
+      "precio": 14.51,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-de-paso-laton-601-amig-25123621.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO CON CONDENA LATON 3B00 TESA",
+      "precio": 26.54,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-con-condena-laton-3b00-tesa-10123113.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO CON CONDENA LATON 602 AMIG",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-con-condena-laton-602-amig-10298596.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO CON CONDENA LATON CROMO 602 AMIG",
+      "precio": 16.94,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-con-condena-laton-cromo-602-amig-25123622.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO CROMO 3B00 TESA",
+      "precio": 23.93,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-cromo-3b00-tesa-10321675.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO LATON 601 AMIG",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-laton-601-amig-10298582.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PARA PUERTA DE INTERIOR PASO LATON CROMO 601 AMIG",
+      "precio": 11.47,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-para-puerta-de-interior-paso-laton-cromo-601-amig-10298610.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA DE ENTRADA CON LLAVE CROMO TULIPA 60/70 TESA",
+      "precio": 23,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-de-entrada-con-llave-cromo-tulipa-60-70-tesa-10381462.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA DE INTERIOR PASO CON CONDENA CROMO TULIPA 60/70 TESA",
+      "precio": 19,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-de-interior-paso-con-condena-cromo-tulipa-60-70-tesa-10381455.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA DE INTERIOR PASO CON LLAVE LATON TULIPA 60/70 TESA",
+      "precio": 23,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-de-interior-paso-con-llave-laton-tulipa-60-70-tesa-10381434.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA DE INTERIOR PASO CROMO TULIPA 60/70 TESA",
+      "precio": 17,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-de-interior-paso-cromo-tulipa-60-70-tesa-10381441.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA ENTRADA TULIPA 3520 CROMO MATE - TESA",
+      "precio": 40.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-entrada-tulipa-3520-cromo-mate-tesa-25024832.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "POMO PUERTA ENTRADA TULIPA 3520 LATON MATE- TESA",
+      "precio": 40.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pomo-puerta-entrada-tulipa-3520-laton-mate-tesa-25024831.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA ABATIBLE EN BLOCK VT5 LACADA BLANCA ACRISTALADA 70,5CM DERECHA",
+      "precio": 195,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-vt5-lacada-blanca-acristalada-70-5cm-derecha-10759805.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA ABATIBLE EN BLOCK VT5 LACADA BLANCA ACRISTALADA 70,5CM IZQUIERDA",
       "precio": 195,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-vt5-lacada-blanca-acristalada-70-5cm-izquierda-10759812.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA ABATIBLE EN BLOCK VT5 LACADA BLANCA CIEGA 70,5CM IZQUIERDA",
+      "precio": 107,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-vt5-lacada-blanca-ciega-70-5cm-izquierda-10759770.html",
       "fecha": "2026-11-26"
     },
     {
@@ -27509,6 +30337,42 @@
       "precio": 109,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/puerta-abatible-en-block-vt5-lacada-blanca-ciega-82-5cm-izquierda-10759686.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA CORREDERA DE CRISTAL MIAMI ANCHO 73 CM PARA RODAMIENTOS",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-corredera-de-cristal-miami-ancho-73-cm-para-rodamientos-10536232.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA CORREDERA DE CRISTAL MIAMI ANCHO 73 CM PARA TAPETA",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-corredera-de-cristal-miami-ancho-73-cm-para-tapeta-10536162.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA CORREDERA DE CRISTAL ORLANDO ANCHO 73 CM PARA RODAMIENTOS",
+      "precio": 120,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-corredera-de-cristal-orlando-ancho-73-cm-para-rodamientos-10536274.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA CORREDERA DE CRISTAL ORLANDO ANCHO 73 CM PARA TAPETA",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-corredera-de-cristal-orlando-ancho-73-cm-para-tapeta-10536183.html",
       "fecha": "2026-11-26"
     },
     {
@@ -27559,6 +30423,24 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK 2C LACADA BLANCA CIEGA 82,5CM DERECHA",
+      "precio": 145,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-2c-lacada-blanca-ciega-82-5cm-derecha-10964212.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK HORIZONTAL RECHAPADA ROBLE CIEGA 82.5CM IZQUIERDA",
+      "precio": 189,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-horizontal-rechapada-roble-ciega-82-5cm-izquierda-25026063.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK LACADA BLANCA 2L 62,5 CM DERECHA",
       "precio": 79,
       "unidad": "ud",
@@ -27604,6 +30486,42 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 60.5CM IZQUIERDA",
+      "precio": 97,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-60-5cm-izquierda-25023440.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 60.5CM IZQUIERDA 211",
+      "precio": 99,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-60-5cm-izquierda-211-25023428.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 62.5CM DERECHA",
+      "precio": 85,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-62-5cm-derecha-25048778.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 70.5CM DERECHA",
+      "precio": 89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-70-5cm-derecha-25023452.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 70.5CM IZQUIERDA",
       "precio": 85,
       "unidad": "ud",
@@ -27631,6 +30549,24 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 72.5CM DERECHA",
+      "precio": 85,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-72-5cm-derecha-25048775.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA LACADA BLANCA CIEGA 82.5CM DERECHA",
+      "precio": 89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-lacada-blanca-ciega-82-5cm-derecha-25060748.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK LISA MELAMINA BLANCA CIEGA 72,5CM DERECHA",
       "precio": 56,
       "unidad": "ud",
@@ -27649,10 +30585,55 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LISA MELAMINA BLANCA CIEGA 82,5CM IZQUIERDA",
+      "precio": 58,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lisa-melamina-blanca-ciega-82-5cm-izquierda-10340932.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LOLA LACADA BLANCA ACRISTALADA 72,5CM DERECHA",
+      "precio": 210,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lola-lacada-blanca-acristalada-72-5cm-derecha-10821804.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LOLA LACADA BLANCA CIEGA 60,5CM DERECHA",
+      "precio": 179,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lola-lacada-blanca-ciega-60-5cm-derecha-10821860.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK LOLA LACADA BLANCA CIEGA 70,5CM IZQUIERDA",
       "precio": 179,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lola-lacada-blanca-ciega-70-5cm-izquierda-10821916.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LOLA LACADA BLANCA CIEGA 82,5CM IZQUIERDA",
+      "precio": 155,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lola-lacada-blanca-ciega-82-5cm-izquierda-10821790.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LOLA LACADA BLANCA PARA ACRISTALAR 70,5CM IZQUIERDA",
+      "precio": 280,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lola-lacada-blanca-para-acristalar-70-5cm-izquierda-10821972.html",
       "fecha": "2026-11-26"
     },
     {
@@ -27676,10 +30657,82 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LU5 LACADA BLANCA CIEGA 80,5CM IZQUIERDA",
+      "precio": 155,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lu5-lacada-blanca-ciega-80-5cm-izquierda-10822826.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LU5 LACADA BLANCA PARA ACRISTALAR 70,5CM IZQUIERDA",
+      "precio": 240,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lu5-lacada-blanca-para-acristalar-70-5cm-izquierda-10822840.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK LU5 LACADA BLANCA PARA ACRISTALAR 80,5CM IZQUIERDA",
+      "precio": 240,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-lu5-lacada-blanca-para-acristalar-80-5cm-izquierda-10822861.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK MELAMINA GRIS T CIEGA 72.5CM IZQUIERDA",
+      "precio": 105,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-melamina-gris-t-ciega-72-5cm-izquierda-10888374.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VINILO NOGAL CIEGA 62,5CM DERECHA",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vinilo-nogal-ciega-62-5cm-derecha-10807776.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VINILO NOGAL PARA ACRISTALAR 70,5CM IZQUIERDA",
+      "precio": 195,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vinilo-nogal-para-acristalar-70-5cm-izquierda-10808070.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT2 LACADA BLANCA CIEGA 62,5CM DERECHA",
+      "precio": 89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-lacada-blanca-ciega-62-5cm-derecha-10609613.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK VT2 LACADA BLANCA CIEGA 62,5CM IZQUIERDA",
       "precio": 89,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-lacada-blanca-ciega-62-5cm-izquierda-10609634.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT2 LACADA BLANCA CIEGA 72,5CM IZQUIERDA",
+      "precio": 89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-lacada-blanca-ciega-72-5cm-izquierda-10609655.html",
       "fecha": "2026-11-26"
     },
     {
@@ -27694,6 +30747,33 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT2 N LACADA BLANCA ACRISTALADA 70.5CM IZQUIERDA",
+      "precio": 179,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-n-lacada-blanca-acristalada-70-5cm-izquierda-25055175.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT2 N LACADA BLANCA CIEGA 62.5CM DERECHA",
+      "precio": 99,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-n-lacada-blanca-ciega-62-5cm-derecha-25056690.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT2 N LACADA BLANCA CIEGA 72.5CM DERECHA",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt2-n-lacada-blanca-ciega-72-5cm-derecha-25055183.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK VT2 N LACADA BLANCA CIEGA 82.5CM IZQUIERDA",
       "precio": 79,
       "unidad": "ud",
@@ -27703,10 +30783,100 @@
     {
       "tienda": "obramat",
       "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT5 LACADA BLANCA CIEGA 62,5CM IZQUIERDA",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-lacada-blanca-ciega-62-5cm-izquierda-10754835.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
       "nombre": "PUERTA INTERIOR EN BLOCK VT5 LACADA BLANCA CIEGA 72,5CM DERECHA",
       "precio": 109,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-lacada-blanca-ciega-72-5cm-derecha-10754842.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT5 LACADA BLANCA PARA ACRISTALAR 72,5CM IZQUIERDA",
+      "precio": 160,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-lacada-blanca-para-acristalar-72-5cm-izquierda-10754891.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT5 LACADA BLANCA PARA ACRISTALAR 92,5CM DERECHA",
+      "precio": 222,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-lacada-blanca-para-acristalar-92-5cm-derecha-25052175.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT5 MELAMINA ROBLE CIEGA 72.5CM IZQUIERDA",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-melamina-roble-ciega-72-5cm-izquierda-25045577.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA INTERIOR EN BLOCK VT5 NORD MELAMINA ROBLE PARA ACRISTALAR 92.5CM IZQUIERDA",
+      "precio": 230,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-interior-en-block-vt5-nord-melamina-roble-para-acristalar-92-5cm-izquierda-25066842.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA PLEGABLE PVC BLANCA 84X205CM",
+      "precio": 46,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-plegable-pvc-blanca-84x205cm-10115021.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA PLEGABLE PVC MADERA CLARA 84X205 CM",
+      "precio": 46,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-plegable-pvc-madera-clara-84x205-cm-10115035.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "PUERTA PLEGABLE PVC MADERA OSCURA 84X205CM",
+      "precio": 46,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/puerta-plegable-pvc-madera-oscura-84x205cm-10115042.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "SET WC - 35mm MOD.616 DORADO",
+      "precio": 1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/set-wc-35mm-mod-616-dorado-10291120.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Puertas y ventanas",
+      "nombre": "SET WC / MULETILLA INOX MOD.8815 PARA PLACA",
+      "precio": 5.9,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/set-wc-muletilla-inox-mod-8815-para-placa-10751881.html",
       "fecha": "2026-11-26"
     },
     {
