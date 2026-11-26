@@ -26,6 +26,10 @@ const PATRON = {
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
+  [/pl[aá]stico de protecci|cubretodo|proteger antes de pintar/i, "Obra y protecci\u00f3n"],
+  [/rodillo|brocha|carrocero|herramientas para pintar|barniz|barnices/i, "Pintura"],
+  [/sif[oó]n|v[aá]lvula|grifer[ií]a de paso|llave de paso|desag[uü]e|descarga|\bpex\b|polietileno reticulado|cisterna/i, "Fontaner\u00eda y saneamiento"],
+  [/silicona|sellador|adhesivo de montaje/i, "Alba\u00f1iler\u00eda y morteros"],
   [/poliestireno|\bxps\b|\beps\b|lana de (roca|vidrio)|aislamiento|aislante|\bsate\b/i, "Aislamiento"],
   [/manilla|pomo|roseta|condena|muletilla|puertas? (de interior|correderas|plegables)/i, "Puertas y ventanas"],
   [/calentador|caldera|emisor|termostato|radiador|toallero/i, "Climatización y agua caliente"],
