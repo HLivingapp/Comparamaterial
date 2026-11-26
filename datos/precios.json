@@ -55,6 +55,10 @@
     "latiendadelazulejo": {
       "nombre": "La Tienda del Azulejo",
       "web": "https://www.latiendadelazulejo.com"
+    },
+    "ikea": {
+      "nombre": "IKEA",
+      "web": "https://www.ikea.com/es/es/"
     }
   },
   "materiales": [
