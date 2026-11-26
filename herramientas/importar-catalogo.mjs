@@ -28,6 +28,7 @@ const PATRON = {
   universoceramiche: /^https:\/\/universoceramiche\.es\/products\/[a-z0-9-]+$/,
   latiendadelazulejo: /^https:\/\/www\.latiendadelazulejo\.com\/producto\/[a-z0-9-]+\/?$/,
   ikea: /^https:\/\/www\.ikea\.com\/es\/(es|en)\/p\/[a-z0-9-]+-s?\d{8}\/?$/,
+  banoidea: /^https:\/\/banoidea\.com\/(en\/)?products\/[a-z0-9-]+(\?variant=\d+)?$/,
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
@@ -61,7 +62,7 @@ const CATEGORIA = [
 ];
 const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(u) ? "m²" : /caja/i.test(u) ? "caja" : /rollo/i.test(u) ? "rollo" : /^\s*(m|metro|ml)\b/i.test(u) ? "m" : "ud";
 // Tiendas especializadas: toda su oferta va a una categoría.
-const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación", nais: "Cerámica y colocación", lamorenica: "Cerámica y colocación", universoceramiche: "Cerámica y colocación", latiendadelazulejo: "Cerámica y colocación", ikea: "Puertas y ventanas" };
+const FIJA = { efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación", nais: "Cerámica y colocación", lamorenica: "Cerámica y colocación", universoceramiche: "Cerámica y colocación", latiendadelazulejo: "Cerámica y colocación", ikea: "Puertas y ventanas", banoidea: "Baño y cocina" };
 // Excepciones dentro de las tiendas especializadas, por la categoría de su web.
 const FIJA_EXC = [[/plato|mampara|fregadero|grifo/i, "Baño y cocina"], [/anclajes? qu[ií]mico/i, "Albañilería y morteros"], [/climatiz|aire acondicionado|split|radiador|emisor|toallero|calefactor|ventilador/i, "Climatización y agua caliente"], [/descalcific/i, "Fontanería y saneamiento"]];
 const fija = (f) => FIJA[f.tienda] && ((FIJA_EXC.find(([r]) => r.test(f.categoriaWeb || "")) || [, FIJA[f.tienda]])[1]);
@@ -72,7 +73,8 @@ const porEnlace = new Map(actual.productos.map((p) => [p.enlace, p]));
 const filas = JSON.parse(readFileSync(origen, "utf8"));
 let nuevos = 0, actualizados = 0, descartados = 0;
 for (const f of filas) {
-  const enlace = String(f.enlace || "").split("?")[0].replace(/#$/, "");
+  // Se quita la parte ?… salvo ?variant= (tiendas Shopify: el precio es el de esa variante).
+  const enlace = String(f.enlace || "").replace(/\?(?!variant=\d+$).*$/, "").replace(/#$/, "");
   const precio = typeof f.precio === "number" ? f.precio : parseFloat(String(f.precio).replace(/\s/g, "").replace(",", "."));
   const categoria = fija(f) || cat(f.categoriaWeb || "") || cat(f.producto || "");
   if (!PATRON[f.tienda]?.test(enlace) || !(precio > 0 && precio < 20000) || !f.producto || !categoria || /igic/i.test(f.unidad || "") || enUso.has(enlace)) { descartados++; continue; }

@@ -59,6 +59,10 @@
     "ikea": {
       "nombre": "IKEA",
       "web": "https://www.ikea.com/es/es/"
+    },
+    "banoidea": {
+      "nombre": "Bañoidea",
+      "web": "https://banoidea.com"
     }
   },
   "materiales": [
