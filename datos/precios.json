@@ -43,6 +43,18 @@
     "nais": {
       "nombre": "NAIS",
       "web": "https://nais.es"
+    },
+    "lamorenica": {
+      "nombre": "Azulejos La Morenica",
+      "web": "https://www.azulejoslamorenica.com"
+    },
+    "universoceramiche": {
+      "nombre": "Universo Ceramiche",
+      "web": "https://universoceramiche.es"
+    },
+    "latiendadelazulejo": {
+      "nombre": "La Tienda del Azulejo",
+      "web": "https://www.latiendadelazulejo.com"
     }
   },
   "materiales": [

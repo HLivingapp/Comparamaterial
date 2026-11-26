@@ -11122,6 +11122,56 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "obramat",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Argenta Azulejo pasta blanca Aster Beige Brillo 30x90",
+      "precio": 12.95,
+      "unidad": "m²",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/azulejo-pasta-blanca-30x90cm-aster-beige-brillo-25073487.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Argenta Azulejo pasta blanca City Lineal Beige 30x75",
+      "precio": 12.95,
+      "unidad": "m²",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/azulejo-pasta-blanca-30x75cm-city-lineal-beige-25073480.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Argenta Suelo porcelánico Carvallo Roble 30x120",
+      "precio": 9.95,
+      "unidad": "m²",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/suelo-porcelanico-30x120cm-carvallo-roble-25073684.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Argenta Suelo porcelánico Leño Cerezo 20x120",
+      "precio": 11.67,
+      "unidad": "m²",
+      "precioM2": 11.67,
+      "enlace": "https://www.obramat.es/productos/suelo-porcelanico-20x120cm-leno-cerezo-25073641.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Argenta Suelo porcelánico Urbasa Beige 30x120",
+      "precio": 9.95,
+      "unidad": "m²",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/suelo-porcelanico-30x120cm-urbasa-beige-25106484.html",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Cerámica y colocación",
       "nombre": "Azulejo cerámico Arctic2 dark blue mate 30x90 cm ARTENS",
@@ -11662,6 +11712,166 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Altai Green porcelánico",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/porcelanico-altai-green-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Altai Sand",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-altai-sand-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Caliope Marine porcelánico",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-porcelanico-caliope-marine-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Caliope Turquoise",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/caliope-turquoise-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Carmen Grey",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-bestile-carmen-grey/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Jungle Beige decorado 60x120",
+      "precio": 119.74,
+      "unidad": "m²",
+      "precioM2": 119.74,
+      "enlace": "https://www.latiendadelazulejo.com/producto/jungle-beige-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Jungle Verde decorado 60x120",
+      "precio": 119.74,
+      "unidad": "m²",
+      "precioM2": 119.74,
+      "enlace": "https://www.latiendadelazulejo.com/producto/decorado-porcelanico-jungle-verde-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Lilya Deco Taupe porcelánico hexagonal",
+      "precio": 34.61,
+      "unidad": "m²",
+      "precioM2": 34.61,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-porcelanico-hexagonal-lilya-deco-taupe-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Nolita Blanco porcelánico 6,5x20",
+      "precio": 36.3,
+      "unidad": "m²",
+      "precioM2": 36.3,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-porcelanico-nolita-blanco-65x20-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Seasons 04 Sky",
+      "precio": 38.25,
+      "unidad": "m²",
+      "precioM2": 38.25,
+      "enlace": "https://www.latiendadelazulejo.com/producto/azulejo-seasons-04-sky-bestile/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Valais Dark decorado 60x120",
+      "precio": 119.74,
+      "unidad": "m²",
+      "precioM2": 119.74,
+      "enlace": "https://www.latiendadelazulejo.com/producto/porcelanico-decorado-valais-dark-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Valais decorado 60x120",
+      "precio": 119.74,
+      "unidad": "m²",
+      "precioM2": 119.74,
+      "enlace": "https://www.latiendadelazulejo.com/producto/porcelanico-decorado-valais-60x120-copia/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Zurbaran Aguamarina 12x24",
+      "precio": 62.36,
+      "unidad": "m²",
+      "precioM2": 62.36,
+      "enlace": "https://www.latiendadelazulejo.com/producto/zurbaran-aguamarina-12x24/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Zurbaran Cobre 12x24",
+      "precio": 62.36,
+      "unidad": "m²",
+      "precioM2": 62.36,
+      "enlace": "https://www.latiendadelazulejo.com/producto/zurbaran-cobre-12x24/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Zurbaran Vainilla 12x24",
+      "precio": 62.36,
+      "unidad": "m²",
+      "precioM2": 62.36,
+      "enlace": "https://www.latiendadelazulejo.com/producto/zurbaran-vainilla-12x24/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "latiendadelazulejo",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Bestile Zurbaran Zafiro 12x24",
+      "precio": 62.36,
+      "unidad": "m²",
+      "precioM2": 62.36,
+      "enlace": "https://www.latiendadelazulejo.com/producto/zurbaran-zafiro-12x24/",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "azulejospena",
       "categoria": "Cerámica y colocación",
       "nombre": "Borada Chroma blanco 3 kg",
@@ -11995,6 +12205,1286 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo efecto papel pintado Flandes Calm Rosa 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-papel-pintado-flandes-calm-rosa-grespania-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo efecto papel pintado Flandes Charleroi Verde 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-papel-pintado-rectificado-flandes-charleroi-verde-grespania-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo efecto papel pintado Flandes Diana 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-papel-pintado-flandes-diana-grespania-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo efecto papel pintado Flandes Vital Verde 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-ceramico-vital-verde-efecto-papel-pintado-multicolor-45x120-grespania/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo efecto piedra Fosil 30x60",
+      "precio": 26.8,
+      "unidad": "m²",
+      "precioM2": 26.8,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-piedra-rectificado-grespania-fosil-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Abaco Calacata 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-marmorea-abaco-calacata-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Calacata 31,5x100",
+      "precio": 30.65,
+      "unidad": "m²",
+      "precioM2": 30.65,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-grespania-marmorea-calacata-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Capitel 100 Blanco 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-grespania-marmorea-capitel-100-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Celosia Calacata 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-grespania-marmorea-celosia-calacata-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Corinto Blanco 30x60",
+      "precio": 28.08,
+      "unidad": "m²",
+      "precioM2": 28.08,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-corinto-blanco-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Corinto Blanco 31,5x100",
+      "precio": 33.86,
+      "unidad": "m²",
+      "precioM2": 33.86,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-marmorea-corinto-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Cuarzo Reno Blanco 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-cuarzo-reno-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Cuarzo Reno Blanco Pulido 30x60",
+      "precio": 26.5,
+      "unidad": "m²",
+      "precioM2": 26.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-cuarzo-reno-blanco-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Estatuario Blanco 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-grespania-marmorea-estatuario-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Jade Cuarzo Reno Gris 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-jade-cuarzo-reno-gris-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Opalo Cuarzo Reno Gris 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-opalo-cuarzo-reno-gris-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Prenaos Blanco 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-recficado-grespania-marmorea-prenaos-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo Marmorea Silex Cuarzo Reno 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-marmorea-silex-cuarzo-reno-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo porcelánico Fango Listelo 7,5x30",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-porcelanico-efecto-arcilla-grespania-fango-listelo-75x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo porcelánico Gracia Listelo Brillo 7,5x30",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-gracia-listelo-brillo-75x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo porcelánico Grao Brillo 20x20",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-linea-mediterranea-porcelanico-grespania-grao-brillo-20x20/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo porcelánico Grao Faro Multicolor 20x20",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-grespania-grao-faro-multicolor-20x20/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo porcelánico Grao Tabarca Brillo 20x20",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-porcelanico-brillo-grespania-grao-tabarca-brillo-20x20/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo rectificado Flandes Blanco 45x120",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-grespania-flandes-blanco-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo relieve Flandes Bruselas Blanco 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-relieve-grespania-flandes-bruselas-blanco-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo relieve Flandes Gante Blanco 45x120",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-rectificado-relieve-grespania-flandes-gante-blanco-45x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo relieve Fosil Fiji 30x60",
+      "precio": 33.21,
+      "unidad": "m²",
+      "precioM2": 33.21,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-piedra-rectificado-relieve-grespania-fosil-fiji-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo relieve Fosil Tobago 30x60",
+      "precio": 29.37,
+      "unidad": "m²",
+      "precioM2": 29.37,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-efecto-piedra-rectificado-relieve-grespania-fosil-tobago-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo White&Co Circle 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-whiteco-circle-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo White&Co Dice Blanco 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-whitecodice-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo White&Co Hexagon 31,5x100",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-whiteco-hexagon-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Azulejo White&Co Tirol Blanco 31,5x100",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/azulejo-grespania-whiteco-tirol-blanco-315x100/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico Boheme 20x20 R10",
+      "precio": 37.07,
+      "unidad": "m²",
+      "precioM2": 37.07,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-boheme-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico efecto cemento Moma 10 120x120 R10",
+      "precio": 48.61,
+      "unidad": "m²",
+      "precioM2": 48.61,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-cementoso-rectificado-grespania-moma-10-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico efecto mármol Palermo Natural 30x60",
+      "precio": 31.81,
+      "unidad": "m²",
+      "precioM2": 31.81,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-palermo-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico efecto mármol Palermo Natural 60x120",
+      "precio": 38.45,
+      "unidad": "m²",
+      "precioM2": 38.45,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-marmol-rectificado-grespania-palermo-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico efecto mármol Palermo Natural 60x60",
+      "precio": 32.04,
+      "unidad": "m²",
+      "precioM2": 32.04,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-marmol-rectificado-grespania-palermo-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico efecto mármol Palermo Natural 80x160",
+      "precio": 51.17,
+      "unidad": "m²",
+      "precioM2": 51.17,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-marmol-rectificado-grespania-palermo-80x160-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Alchemy Pencil 20x20 R10",
+      "precio": 46.05,
+      "unidad": "m²",
+      "precioM2": 46.05,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-alchemy-pencil-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Bolshoi 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-boheme-bolshoi-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Condal Multicolor 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-boheme-condal-multicolor-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Liceo Azul 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-boheme-liceo-azul-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Liceo Negro 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-boheme-liceo-negro-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Liceo Nude 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-boheme-liceo-nude-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Pedrera Navy 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hadraulico-grespania-boheme-pedrera-navy-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Pedrera Negro 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-boheme-pedrera-negro-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Boheme Raval 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-boheme-raval-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Clay Verde 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-clay-verde-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Ducal Fenice Gray 20x20 R10",
+      "precio": 29.22,
+      "unidad": "m²",
+      "precioM2": 29.22,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-ducal-fenice-gray-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Ducal Treviso Brown 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-ducal-treviso-brown-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico hidráulico Ducal Treviso Gray 20x20 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-hidraulico-grespania-ducal-treviso-gray-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico imitación cemento Moma 10 120x120 R11",
+      "precio": 55.03,
+      "unidad": "m²",
+      "precioM2": 55.03,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-cementoso-rectificado-grespania-moma-10-120x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico imitación cemento Pangea Antislip 120x120 R11",
+      "precio": 55.03,
+      "unidad": "m²",
+      "precioM2": 55.03,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-cemento-rectificado-grespania-pangea-antislip-120x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico Pangea 30x60 R10",
+      "precio": 32.6,
+      "unidad": "m²",
+      "precioM2": 32.6,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-pangea-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Porcelánico Pangea Antislip 60x120 R11 C3",
+      "precio": 45.73,
+      "unidad": "m²",
+      "precioM2": 45.73,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-pangea-antislip-60x120-r11-c3/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles 30x60 R10",
+      "precio": 31.93,
+      "unidad": "m²",
+      "precioM2": 31.93,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles 60x120 R10",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles 60x60 R10",
+      "precio": 31.94,
+      "unidad": "m²",
+      "precioM2": 31.94,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles Antislip 120x120 R11",
+      "precio": 53.75,
+      "unidad": "m²",
+      "precioM2": 53.75,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-antislip-120x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles Antislip 30x60 R11",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-antislip-30x60-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles Antislip 60x120 R11",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-antislip-60x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Arles Antislip 60x60 R11",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-piedra-arenisca-rectificado-grespania-arles-antislip-60x60-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Bierzo 80x80",
+      "precio": 47.32,
+      "unidad": "m²",
+      "precioM2": 47.32,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-bierzo-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Bierzo Antislip 120x120",
+      "precio": 56.37,
+      "unidad": "m²",
+      "precioM2": 56.37,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-bierzo-antislip-120x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Bierzo Antislip 60x120 R11",
+      "precio": 47.34,
+      "unidad": "m²",
+      "precioM2": 47.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-bierzo-antislip-60x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Bierzo Antislip 80x80 R11",
+      "precio": 48.28,
+      "unidad": "m²",
+      "precioM2": 48.28,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-bierzo-antislip-80x80-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto barro Abadia 30x30",
+      "precio": 29.38,
+      "unidad": "m²",
+      "precioM2": 29.38,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-barro-grespania-abadia-30x30-2/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto barro Abadia Antislip 30x30",
+      "precio": 34.5,
+      "unidad": "m²",
+      "precioM2": 34.5,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-barro-grespania-abadia-antislip-30x30-r11-c2/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto barro T. Abadia 15x15",
+      "precio": 62.7,
+      "unidad": "m²",
+      "precioM2": 62.7,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-barro-grespania-t-abadia-15x15/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto hormigón Surface 60x120 R10",
+      "precio": 42.2,
+      "unidad": "m²",
+      "precioM2": 42.2,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-cementoso-rectificado-grespania-surface-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto madera Jungla 19,5x120 R10",
+      "precio": 36.69,
+      "unidad": "m²",
+      "precioM2": 36.69,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-jungla-195x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto madera Jungla Antislip 19,5x120 R11",
+      "precio": 44.64,
+      "unidad": "m²",
+      "precioM2": 44.64,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-efecto-madera-grespania-jungla-antislip-195x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto madera Selva 19,5x120 R10",
+      "precio": 36.69,
+      "unidad": "m²",
+      "precioM2": 36.69,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-madera-grespania-selva-rectificado-195x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto madera Selva 26x160 R10",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-madera-rectificado-grespania-selva-26x160-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto madera Selva Antislip 19,5x120 R11",
+      "precio": 44.62,
+      "unidad": "m²",
+      "precioM2": 44.62,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-efecto-madera-grespania-selva-antislip-195x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto metálico Distrito 120x120 R10",
+      "precio": 48.61,
+      "unidad": "m²",
+      "precioM2": 48.61,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-metalico-rectificado-grespania-distrito-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico efecto piedra Bierzo 120x120",
+      "precio": 51.18,
+      "unidad": "m²",
+      "precioM2": 51.18,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-piedra-envenjecida-rectificado-grespania-bierzo-120x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Fosil 60x60 R10",
+      "precio": 31.77,
+      "unidad": "m²",
+      "precioM2": 31.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-efecto-piedra-grespania-fosil-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Fresco Natural 120x120 R10",
+      "precio": 49.9,
+      "unidad": "m²",
+      "precioM2": 49.9,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-fresco-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación barro Abadia 15x30",
+      "precio": 55.02,
+      "unidad": "m²",
+      "precioM2": 55.02,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-barro-grespania-abadia-15x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación cemento Pangea 120x120 R10",
+      "precio": 46.05,
+      "unidad": "m²",
+      "precioM2": 46.05,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-cemento-rectificado-grespania-pangea-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación hormigón Surface 120x120 R10",
+      "precio": 51.18,
+      "unidad": "m²",
+      "precioM2": 51.18,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-hormigon-rectificado-grespania-surface-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación madera Jungla 26x160",
+      "precio": 42.23,
+      "unidad": "m²",
+      "precioM2": 42.23,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-madera-rectificado-grespania-jungla-26x160/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación piedra Fosil 80x80 R10",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-piedra-rectificado-grespania-fosil-80x80-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico imitación pizarra Alpes 60x120 R10",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-pizarra-rectificado-relieve-grespania-alpes-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 30x60 R10",
+      "precio": 31.93,
+      "unidad": "m²",
+      "precioM2": 31.93,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 30x60 R11 antideslizante",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-30x60-r11-antides/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 60x120 R10",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 60x120 R11 antideslizante",
+      "precio": 46.05,
+      "unidad": "m²",
+      "precioM2": 46.05,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-60x120-r11antid/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 60x60 R10",
+      "precio": 31.94,
+      "unidad": "m²",
+      "precioM2": 31.94,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 60x60 R11 antideslizante",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-60x60-r11-antides/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Moma 10 80x80 R10",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-efecto-cemento-moma-10-80x80-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Pangea 60x60 R10",
+      "precio": 32.04,
+      "unidad": "m²",
+      "precioM2": 32.04,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-pangea-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Pangea 80x80 R10",
+      "precio": 39.11,
+      "unidad": "m²",
+      "precioM2": 39.11,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-pangea-80x80-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Pangea Antislip 30x60 R11 C3",
+      "precio": 39.11,
+      "unidad": "m²",
+      "precioM2": 39.11,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-pangea-antislip-30x60-r11-c3/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Pangea Antislip 60x60 R11 C3",
+      "precio": 39.11,
+      "unidad": "m²",
+      "precioM2": 39.11,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-pangea-antislip-60x60-r11-c3/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico piedra arenisca Arles 120x120 R10",
+      "precio": 48.61,
+      "unidad": "m²",
+      "precioM2": 48.61,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-piedra-arenisca-rectificado-grespania-arles-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Selva Base Borgo Multicolor 80x80 R10",
+      "precio": 47.32,
+      "unidad": "m²",
+      "precioM2": 47.32,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-selva-base-borgo-multicolor-80x80-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface 30x60 R10",
+      "precio": 30.65,
+      "unidad": "m²",
+      "precioM2": 30.65,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-cementoso-rectificado-grespania-surface-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface 60x60 R10",
+      "precio": 33.23,
+      "unidad": "m²",
+      "precioM2": 33.23,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-surface-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface 80x80 R10",
+      "precio": 38.36,
+      "unidad": "m²",
+      "precioM2": 38.36,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-surface-80x80-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface Antislip 120x120 R11",
+      "precio": 55.03,
+      "unidad": "m²",
+      "precioM2": 55.03,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-surface-antislip-120x120-r11/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface Antislip 60x120",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-efecto-hormigon-rectificado-grespania-surface-antislip-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface Antislip R11 C3 30x60",
+      "precio": 37.06,
+      "unidad": "m²",
+      "precioM2": 37.06,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-surface-antislip-r11-c3-30x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface Antislip R11 C3 60x60",
+      "precio": 37.07,
+      "unidad": "m²",
+      "precioM2": 37.07,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-surface-antislip-r11-c3-60x60/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Surface Antislip R11 C3 80x80",
+      "precio": 44.12,
+      "unidad": "m²",
+      "precioM2": 44.12,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-rectificado-grespania-surface-antislip-r11-c3-80x80/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo porcelánico Titan Natural 60x120",
+      "precio": 47.34,
+      "unidad": "m²",
+      "precioM2": 47.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-titan-natural-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Alchemy 20x20 R10",
+      "precio": 37.07,
+      "unidad": "m²",
+      "precioM2": 37.07,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-grespania-alchemy-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Alchemy Crayon 20x20 R10",
+      "precio": 44.76,
+      "unidad": "m²",
+      "precioM2": 44.76,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-grespania-alchemy-crayon-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Alpes 30x30 R10",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-relieve-grespania-alpes-30x30-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Alpes 30x60 R10",
+      "precio": 40.91,
+      "unidad": "m²",
+      "precioM2": 40.91,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-relieve-grespania-alpes-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Bierzo 60x120",
+      "precio": 47.34,
+      "unidad": "m²",
+      "precioM2": 47.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-bierzo-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Distrito 30x60 R10",
+      "precio": 33.21,
+      "unidad": "m²",
+      "precioM2": 33.21,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-metalico-rectificado-grespania-distrito-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Distrito 60x120 R10",
+      "precio": 39.64,
+      "unidad": "m²",
+      "precioM2": 39.64,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-metalico-rectificado-grespania-distrito-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Distrito 60x60 R10",
+      "precio": 33.23,
+      "unidad": "m²",
+      "precioM2": 33.23,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-metalico-rectificado-grespania-distrito-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Ducal 20x20 R10",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-grespania-ducal-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico efecto piedra Okyo 20x20",
+      "precio": 38.34,
+      "unidad": "m²",
+      "precioM2": 38.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-imitacion-piedra-grespania-okyo-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Fosil 30x60 R10",
+      "precio": 31.54,
+      "unidad": "m²",
+      "precioM2": 31.54,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-efecto-piedra-rectificado-grespania-fosil-30x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Fresco 60x120 R10",
+      "precio": 40.92,
+      "unidad": "m²",
+      "precioM2": 40.92,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-fresco-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Fresco 60x60 R10",
+      "precio": 31.8,
+      "unidad": "m²",
+      "precioM2": 31.8,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-fresco-60x60-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Lucia Natural 7,5x30",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-mate-grespania-lucia-listelo-75x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Merce Natural 7,5x30",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-relieve-grespania-merce-listelo-75x30/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Moma 10 120x120 R10",
+      "precio": 47.34,
+      "unidad": "m²",
+      "precioM2": 47.34,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-grespania-moma-10-120x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Okyo Tracia Mate 20x20",
+      "precio": 46.05,
+      "unidad": "m²",
+      "precioM2": 46.05,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-grespania-okyo-tracia-mate-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Okyo Vessel 20x20",
+      "precio": 48.61,
+      "unidad": "m²",
+      "precioM2": 48.61,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-grespania-okyo-vessel-20x20-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Pangea 60x120 R10",
+      "precio": 39.11,
+      "unidad": "m²",
+      "precioM2": 39.11,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azuejo-porcelanico-rectificado-grespania-pangea-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico relieve Pangea Tasmania 60x120 R10",
+      "precio": 44.21,
+      "unidad": "m²",
+      "precioM2": 44.21,
+      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-porcelanico-rectificado-relieve-grespania-pangea-tasmania-60x120-r10/",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "lamorenica",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Grespania Suelo/Azulejo porcelánico Surface Brenta 60x120",
+      "precio": 44.77,
+      "unidad": "m²",
+      "precioM2": 44.77,
+      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-cementoso-rectificado-grespania-surface-brenta-60x120/",
+      "fecha": "2026-11-26"
+    },
+    {
       "tienda": "azulejospena",
       "categoria": "Cerámica y colocación",
       "nombre": "Lámina impermeabilizante Kerdi 200 rollo 30 m²",
@@ -12037,6 +13527,726 @@
       "precio": 8.71,
       "unidad": "ud",
       "enlace": "https://tienda.azulejospena.es/producto/perfiles_tecnicos_y_decorativos/listelo_cuadrado_mate_lc_15_largo_1_5x250.html",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Actually White 20x120 rectificado",
+      "precio": 29.73,
+      "unidad": "m²",
+      "precioM2": 29.73,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-actually-white-20x120-cm-rettificato-mc1e",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Allmarble Golden White brillo 60x120 rectificado",
+      "precio": 54.6,
+      "unidad": "m²",
+      "precioM2": 54.6,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-marmo-marazzi-allmarble-golden-white-lucido-60x120-cm-rettificato-m4gm",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Allmarble Sodalite Blu brillo 60x120 rectificado",
+      "precio": 54.6,
+      "unidad": "m²",
+      "precioM2": 54.6,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-marmo-marazzi-allmarble-sodalite-blu-lucido-60x120-cm-rettificato-m9m8",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Appeal Grey 60x60 rectificado",
+      "precio": 19.69,
+      "unidad": "m²",
+      "precioM2": 19.69,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-appeal-grey-60x60-cm-rettificato-m0vh",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Appeal Sand 30x60 rectificado",
+      "precio": 19.69,
+      "unidad": "m²",
+      "precioM2": 19.69,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-appeal-sand-30x60-cm-rettificato-m0wg",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Appeal Taupe estructurado 30x60 rectificado",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-appeal-taupe-strutturato-30x60-cm-rettificato-m0wx",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi ArtCraft A semimate decorado 20x20",
+      "precio": 36.86,
+      "unidad": "m²",
+      "precioM2": 36.86,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-artcraft-a-semimatt-20x20-cm-mh9c",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi ArtCraft Argilla 5,3x30",
+      "precio": 45.73,
+      "unidad": "m²",
+      "precioM2": 45.73,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-artcraft-argilla-5-3x30-cm-mgu6",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi ArtCraft Cotto 21x18,2",
+      "precio": 32.58,
+      "unidad": "m²",
+      "precioM2": 32.58,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-artcraft-cotto-21x18-2-cm-mgsz",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi ArtCraft Piedra pómez 20x20",
+      "precio": 30.86,
+      "unidad": "m²",
+      "precioM2": 30.86,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-artcraft-pomice-20x20-cm-mgsl",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Ash 21x18,2",
+      "precio": 32.59,
+      "unidad": "m²",
+      "precioM2": 32.59,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-cementum-ash-21x18-2-cm-m9vp",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Carbon 21x18,2",
+      "precio": 32.59,
+      "unidad": "m²",
+      "precioM2": 32.59,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-cementum-carbon-21x18-2-cm-m9vu",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Cotto 21x18,2",
+      "precio": 32.59,
+      "unidad": "m²",
+      "precioM2": 32.59,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-cementum-cotto-21x18-2-cm-m9vw",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Cotto 60x60 rectificado",
+      "precio": 31.44,
+      "unidad": "m²",
+      "precioM2": 31.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-cementum-cotto-60x60-cm-rettificato-m9t1",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Sand 21x18,2",
+      "precio": 32.59,
+      "unidad": "m²",
+      "precioM2": 32.59,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-cementum-sand-21x18-2-cm-m9vq",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Sand mosaico 5x5 30x30",
+      "precio": 110.06,
+      "unidad": "m²",
+      "precioM2": 110.06,
+      "enlace": "https://universoceramiche.es/products/mosaico-marazzi-cementum-sand-5x5-30x30-cm-ma92",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Wall Sand 40x120 rectificado",
+      "precio": 59.46,
+      "unidad": "m²",
+      "precioM2": 59.46,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-effetto-cemento-marazzi-cementum-wall-sand-40x120-cm-rettificato-mm3v",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cementum Wall Urban calda decorado 40x120",
+      "precio": 65.46,
+      "unidad": "m²",
+      "precioM2": 65.46,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-cementum-wall-urban-calda-40x120-cm-mmdt",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Cotti D'Italia Terracotta 15x30",
+      "precio": 24.89,
+      "unidad": "m²",
+      "precioM2": 24.89,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cotto-marazzi-cotti-d-italia-terracotta-15x30-cm-mmy7",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Crystal Mosaic Turquesa mosaico cristal 30x30",
+      "precio": 40.61,
+      "unidad": "m²",
+      "precioM2": 40.61,
+      "enlace": "https://universoceramiche.es/products/marazzi-crystal-mosaic-turchese-mosaico-in-cristallo-su-rete-30-30cm",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi D_Segni Micro 1 frío decorado 20x20",
+      "precio": 36.86,
+      "unidad": "m²",
+      "precioM2": 36.86,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-d-segni-micro-1-fredda-20x20-cm-m0ua",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi D_Segni Scaglie Black 20x20",
+      "precio": 30.86,
+      "unidad": "m²",
+      "precioM2": 30.86,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-graniglia-marazzi-d-segni-scaglie-black-20x20-cm-m1ky",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi D_Segni Scaglie Grey 20x20",
+      "precio": 30.86,
+      "unidad": "m²",
+      "precioM2": 30.86,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-graniglia-marazzi-d-segni-scaglie-grey-20x20-cm-m1l0",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi D_Segni Scaglie Yellow 20x20",
+      "precio": 30.86,
+      "unidad": "m²",
+      "precioM2": 30.86,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-graniglia-marazzi-d-segni-scaglie-yellow-20x20-cm-m1l2",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Dover White 30x90",
+      "precio": 31.73,
+      "unidad": "m²",
+      "precioM2": 31.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-dover-white-30x90-cm-m13e",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Dover White 3D Spike 30x90",
+      "precio": 33.73,
+      "unidad": "m²",
+      "precioM2": 33.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-dover-white-struttura-3d-spike-30x90-cm-m13m",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Dust White 33,3x33,3",
+      "precio": 16.88,
+      "unidad": "m²",
+      "precioM2": 16.88,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-dust-white-33-3x33-3-cm-mmt6",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Flora Azzurro 3D Spike 30x90 rectificado",
+      "precio": 32.01,
+      "unidad": "m²",
+      "precioM2": 32.01,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-flora-azzurro-struttura-3d-spike-30x90-cm-rettificato-mp85",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Flora Bianco 3D Spike 30x90 rectificado",
+      "precio": 32.01,
+      "unidad": "m²",
+      "precioM2": 32.01,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-flora-bianco-struttura-3d-spike-30x90-cm-rettificato-mp83",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Intrecci Versailles Nocciola 120x120 rectificado",
+      "precio": 45.17,
+      "unidad": "m²",
+      "precioM2": 45.17,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-intrecci-versailles-nocciola-120x120-cm-rettificato-mek5",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Lume Blue brillo 6x24",
+      "precio": 42.05,
+      "unidad": "m²",
+      "precioM2": 42.05,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-lume-blue-lucido-6x24-cm-m6rr",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Lume Caramel brillo 6x24",
+      "precio": 45.76,
+      "unidad": "m²",
+      "precioM2": 45.76,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-lume-caramel-lucido-6x24-cm-mp8z",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Lume Green brillo 6x24",
+      "precio": 42.05,
+      "unidad": "m²",
+      "precioM2": 42.05,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-lume-green-lucido-6x24-cm-m6rq",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Lume White brillo 6x24",
+      "precio": 42.05,
+      "unidad": "m²",
+      "precioM2": 42.05,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-lume-white-lucido-6x24-cm-m6rn",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Luz Cobalto brillo 5,3x30",
+      "precio": 45.73,
+      "unidad": "m²",
+      "precioM2": 45.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-gres-porcellanato-marazzi-luz-cobalto-lucido-5-3x30-cm-mfms",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Mystone Ardesia Antracite 60x60 rectificado",
+      "precio": 31.44,
+      "unidad": "m²",
+      "precioM2": 31.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-mystone-ardesia-antracite-60x60-cm-rettificato-m03n",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Mystone Pietra Ligure Beige 75x150 rectificado",
+      "precio": 41.16,
+      "unidad": "m²",
+      "precioM2": 41.16,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-mystone-pietra-ligure-beige-75x150-cm-rettificato-mpkg",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Mystone Pietra Ligure Bianco 75x150 rectificado",
+      "precio": 41.16,
+      "unidad": "m²",
+      "precioM2": 41.16,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-mystone-pietra-ligure-bianco-75x150-cm-rettificato-mpkf",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Mystone Silverstone20 Antracite 60x60 rectificado",
+      "precio": 58.9,
+      "unidad": "m²",
+      "precioM2": 58.9,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-mystone-silverstone20-antracite-60x60-cm-rettificato-mld3",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Nobilis Noce Classico 20x120 rectificado",
+      "precio": 30.09,
+      "unidad": "m²",
+      "precioM2": 30.09,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-nobilis-noce-classico-20x120-cm-rettificato-mq91",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Room Wall Olea decoración 30x90",
+      "precio": 27.95,
+      "unidad": "m²",
+      "precioM2": 27.95,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-room-wall-olea-30x90-cm-mp6f",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Scenario Tappeto 2A Nero decoración 20x20",
+      "precio": 40.88,
+      "unidad": "m²",
+      "precioM2": 40.88,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-scenario-tappeto-2a-nero-20x20-cm-m8rf",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Scenario Tappeto 2B Nero decoración 20x20",
+      "precio": 40.88,
+      "unidad": "m²",
+      "precioM2": 40.88,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-scenario-tappeto-2b-nero-20x20-cm-m8rg",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Sentieri Sand 15x15",
+      "precio": 20.3,
+      "unidad": "m²",
+      "precioM2": 20.3,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-sentieri-sand-15x15-cm-mpnq",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi SistemC Architettura Bianco 20x20",
+      "precio": 21.73,
+      "unidad": "m²",
+      "precioM2": 21.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-sistemc-architettura-bianco-20x20-cm-me83",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi SistemC Architettura Nero 20x20",
+      "precio": 21.73,
+      "unidad": "m²",
+      "precioM2": 21.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-sistemc-architettura-nero-20x20-cm-me8z",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi SistemC Città Cemento 20x20",
+      "precio": 20.01,
+      "unidad": "m²",
+      "precioM2": 20.01,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-marazzi-sistemc-citt-cemento-20x20-cm-meff",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi SistemN Neutro Bianco 30x60",
+      "precio": 42.59,
+      "unidad": "m²",
+      "precioM2": 42.59,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-marazzi-sistemn-neutro-bianco-30x60-cm-m83a",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi SistemT Grigio Chiaro Rock 30x30",
+      "precio": 21.73,
+      "unidad": "m²",
+      "precioM2": 21.73,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-granito-marazzi-sistemt-grigio-chiaro-rock-30x30-cm-mrv3",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Stonework Anthracite estructurado 30x60",
+      "precio": 21.72,
+      "unidad": "m²",
+      "precioM2": 21.72,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-stonework-anthracite-strutturato-30x60-cm-mh6t",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Stony Grey 30x60 rectificado",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-stony-grey-30x60-cm-rettificato-mqje",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Stream Ivory 60x60 rectificado",
+      "precio": 19.69,
+      "unidad": "m²",
+      "precioM2": 19.69,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-stream-ivory-60x60-cm-rettificato-m0uv",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Terramater Lichene brillo 18,6x37,5",
+      "precio": 47.46,
+      "unidad": "m²",
+      "precioM2": 47.46,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cotto-marazzi-terramater-lichene-lucido-18-6x37-5-cm-mplv",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Terratech Avorio 75x75 rectificado",
+      "precio": 36.87,
+      "unidad": "m²",
+      "precioM2": 36.87,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-terratech-avorio-75x75-cm-rettificato-m8jd",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Terratech Vinaccia 30x60 rectificado",
+      "precio": 31.44,
+      "unidad": "m²",
+      "precioM2": 31.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-terratech-vinaccia-30x60-cm-rettificato-m8r1",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkchic Noce Italiano 15x120",
+      "precio": 51.46,
+      "unidad": "m²",
+      "precioM2": 51.46,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkchic-noce-italiano-15x120-cm-mh2z",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkchic Noce Italiano 20x120",
+      "precio": 40.31,
+      "unidad": "m²",
+      "precioM2": 40.31,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkchic-noce-italiano-20x120-cm-mh2t",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkchic Noce Italiano 30x120",
+      "precio": 37.45,
+      "unidad": "m²",
+      "precioM2": 37.45,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkchic-noce-italiano-30x120-cm-mh2m",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkheart Beige grip 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkheart-beige-grip-15x90-cm-m161",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkhome Rovere 20x120",
+      "precio": 40.31,
+      "unidad": "m²",
+      "precioM2": 40.31,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkhome-rovere-20x120-cm-mjwf",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkhome Rovere 30x120",
+      "precio": 37.45,
+      "unidad": "m²",
+      "precioM2": 37.45,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkhome-rovere-30x120-cm-mjwk",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkmood Noce 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkmood-noce-15x90-cm-mlnp",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkway Betulla 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkway-betulla-15x90-cm-mla1",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkway Castagno grip 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkway-castagno-grip-15x90-cm-mh7h",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkway Rovere 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkway-rovere-15x90-cm-mla2",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Treverkway Rovere grip 15x90",
+      "precio": 21.44,
+      "unidad": "m²",
+      "precioM2": 21.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-treverkway-rovere-grip-15x90-cm-mh7g",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Uniche Cadiz 60x60 rectificado",
+      "precio": 31.44,
+      "unidad": "m²",
+      "precioM2": 31.44,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-uniche-cadiz-60x60-cm-rettificato-mapx",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Vero Natural 20x120 rectificado",
+      "precio": 40.31,
+      "unidad": "m²",
+      "precioM2": 40.31,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-vero-natural-20x120-cm-rettificato-m7ay",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Vero Natural chevron 11x54",
+      "precio": 32.92,
+      "unidad": "m²",
+      "precioM2": 32.92,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-vero-natural-chevron-11x54-cm-ma8w",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Vero Sabbia 20x120 rectificado",
+      "precio": 40.31,
+      "unidad": "m²",
+      "precioM2": 40.31,
+      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-vero-sabbia-20x120-cm-rettificato-me04",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi White Deco Jungle 60x180",
+      "precio": 70.61,
+      "unidad": "m²",
+      "precioM2": 70.61,
+      "enlace": "https://universoceramiche.es/products/decoro-marazzi-white-deco-jungle-60x180-cm-mf9c",
+      "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "universoceramiche",
+      "categoria": "Cerámica y colocación",
+      "nombre": "Marazzi Work White 3D Spike 30x90",
+      "precio": 33.73,
+      "unidad": "m²",
+      "precioM2": 33.73,
+      "enlace": "https://universoceramiche.es/products/rivestimento-in-pasta-bianca-effetto-cemento-marazzi-work-white-struttura-3d-spike-30x90-cm-m138",
       "fecha": "2026-11-26"
     },
     {
