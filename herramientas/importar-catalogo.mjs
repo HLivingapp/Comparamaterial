@@ -19,6 +19,7 @@ const PATRON = {
   obramat: /^https:\/\/www\.obramat\.es\/productos\/[a-z0-9-]+-\d{6,}\.html$/,
 };
 const CATEGORIA = [
+  [/herramienta|protecci[oó]n de obra|llana|paleta|talocha/i, "Obra y protección"],
   [/placa|yeso laminado|pladur|perfil/i, "Tabiquería seca"],
   [/cemento cola|junta|azulejo|revestimiento|cer[aá]mic/i, "Cerámica y colocación"],
   [/cemento|mortero|yeso|ladrillo|bloque|hormig|arena/i, "Albañilería y morteros"],
@@ -32,6 +33,7 @@ const CATEGORIA = [
   [/puerta|ventana/i, "Puertas y ventanas"],
   [/herramienta|protecci[oó]n de obra|obra/i, "Obra y protección"],
 ];
+const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(u) ? "m²" : /caja/i.test(u) ? "caja" : /rollo/i.test(u) ? "rollo" : /^\s*(m|metro|ml)\b/i.test(u) ? "m" : "ud";
 const cat = (t) => (CATEGORIA.find(([r]) => r.test(t)) || [, null])[1];
 
 const enUso = new Set(precios.materiales.flatMap((m) => m.ofertas.map((o) => o.enlace)));
@@ -43,7 +45,7 @@ for (const f of filas) {
   const precio = typeof f.precio === "number" ? f.precio : parseFloat(String(f.precio).replace(/\s/g, "").replace(",", "."));
   const categoria = cat(f.categoriaWeb || "") || cat(f.producto || "");
   if (!PATRON[f.tienda]?.test(enlace) || !(precio > 0 && precio < 20000) || !f.producto || !categoria || /igic/i.test(f.unidad || "") || enUso.has(enlace)) { descartados++; continue; }
-  const p = { tienda: f.tienda, categoria, nombre: String(f.producto).replace(/\s+/g, " ").trim(), precio: Math.round(precio * 100) / 100, unidad: /lote|pack/i.test(f.unidad || "") ? "lote" : /m²|m2/i.test(f.unidad || "") ? "m²" : "ud", ...(f.precioM2 > 0 && !/lote/i.test(f.unidad || "") ? { precioM2: f.precioM2 } : {}), enlace, fecha };
+  const p = { tienda: f.tienda, categoria, nombre: String(f.producto).replace(/\s+/g, " ").trim(), precio: Math.round(precio * 100) / 100, unidad: unidad(f.unidad), ...(f.precioM2 > 0 && !/lote/i.test(f.unidad || "") ? { precioM2: f.precioM2 } : {}), enlace, fecha };
   if (porEnlace.has(enlace)) { Object.assign(porEnlace.get(enlace), p); actualizados++; } else { porEnlace.set(enlace, p); nuevos++; }
 }
 const productos = [...porEnlace.values()].sort((a, b) => a.categoria.localeCompare(b.categoria, "es") || a.nombre.localeCompare(b.nombre, "es"));

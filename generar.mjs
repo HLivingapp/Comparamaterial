@@ -65,7 +65,7 @@ const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowe
 const categorias = [...new Set(materiales.map((m) => m.categoria))];
 // Nombres en mayúsculas de algunas tiendas → frase normal.
 const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
-const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad" };
+const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad", caja: "Caja", rollo: "Rollo", m: "Precio por metro" };
 const usados = new Set();
 const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.tienda in tiendas).map((p) => {
   const id = (p.enlace.match(/-(\d+)\.html$/) || [, ""])[1];
