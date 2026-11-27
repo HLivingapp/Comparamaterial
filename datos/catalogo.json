@@ -40327,6 +40327,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Ariston KIOS NET 35",
+      "precio": 299,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/Ariston-KIOS-NET-35-4856.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Baxi Anori JSG35 Mono 2",
+      "precio": 367.84,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/baxi-anori-jsg35-3412.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Bomba de calor ACS Ariston Nuos EVO A+ 110",
@@ -40334,6 +40352,15 @@
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/depositos-acs/ariston-nuos-evo-a-110/",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Ariston Nuos Plus S2 WiFi 110",
+      "precio": 1148,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ariston-nuos-plus-s2-wifi-110-4007.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "climaprecio",
@@ -40363,6 +40390,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Domusa Hydrea 150",
+      "precio": 1744,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/domusa-hydrea-150-4287.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Bomba de calor ACS EAS Electric E150WHK",
@@ -40370,6 +40406,42 @@
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/depositos-acs/bomba-de-calor-acs-eas-electric-e150whk/",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Ferroli Egea HT Pie 200",
+      "precio": 1942,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-ht-pie-200--3630.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Ferroli Egea HT Pie 260",
+      "precio": 1981,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-ht-pie-260-3632.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Ferroli Egea LT Mural 120 L",
+      "precio": 1646,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-lt-mural-120-lt-3622.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Ferroli Egea LT Mural 90 L",
+      "precio": 1616,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-lt-mural-90-lt-3621.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "climaprecio",
@@ -40408,6 +40480,42 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Saunier Duval Magna Aqua 100",
+      "precio": 1733,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/saunier-duval-magna-aqua-100-3634.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax Split 150 L",
+      "precio": 1721,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-split-150-3537.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax Split 200 L",
+      "precio": 1772,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-split-200-l-3538.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax Split 270 L",
+      "precio": 1875,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-split-270-l-3539.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Bomba de calor ACS Thermor Aeromax VM 100",
@@ -40415,6 +40523,141 @@
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/depositos-acs/thermor-aeromax-vm-100/",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax VM 100 L",
+      "precio": 1231,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-vm-100-l-3533.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax VM 130 L",
+      "precio": 1300,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-vm-130-3534.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor ACS Thermor Aéromax VM 150 L",
+      "precio": 1335,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/thermor-aeromax-vm-150-l-3535.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Baxi Platinum BC Mural IR32 10 MR",
+      "precio": 3915.56,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor/baxi-platinum-bc-mural-ir32-6-mr-3830.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Baxi Platinum BC Mural IR32 12 MR",
+      "precio": 4237.42,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor/baxi-platinum-bc-mural-ir32-12-mr-3831.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Baxi Platinum BC Mural IR32 6 MR",
+      "precio": 3112.12,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor/baxi-platinum-bc-ir32-4-mr-3828.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Baxi Platinum BC Mural IR32 8 MR",
+      "precio": 3557.4,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor/baxi-platinum-bc-mural-ir32-8-mr-3829.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Ferroli Omnia S 3.2 10",
+      "precio": 4167,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/ferroli-omnia-s-32-10-3608.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Ferroli Omnia S 3.2 4",
+      "precio": 3898,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/ferroli-omnia-s-32-4-3605.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Ferroli Omnia S 3.2 6",
+      "precio": 3599,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/ferroli-omnia-s-32-6-3606.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Ferroli Omnia S 3.2 8",
+      "precio": 3845,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/ferroli-omnia-s-32-8-3607.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Mitsubishi Ecodan Hydrobox ERSD-VM2E + SUZ-SWM40VA",
+      "precio": 4548,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aerotermia/bomba-de-calor-mitsubishi-ecodan-hydrobox-egen-ersd-vm2e-exterior-suz-swm40va-3823.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Panasonic KIT-WC03K3E5",
+      "precio": 3425,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/bombas-de-calor/panasonic-kit-wc03k3e5-4241.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Panasonic KIT-WC05K3E5",
+      "precio": 3559,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/panasonic-kit-wc05k3e5-4242.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Bomba de calor Panasonic KIT-WC07K3E5",
+      "precio": 3903,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/kits-aerotermia/panasonic-kit-wc07k3e5-4243.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -40523,6 +40766,114 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-ferroli-bluehelix-alpha-34-c-connect-smart-wifi-98588039.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Cubic 24 F",
+      "precio": 792.55,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-cubic-2424-f-4066.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Cubic 28 F",
+      "precio": 876.04,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/caldera-de-gas-condensacion-baxi-cubic-2424-f-4067.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens iPlus 24/24 F",
+      "precio": 1074.48,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-iplus-2424-f-2210-4781.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens iPlus 28/28F",
+      "precio": 1237,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/iplus-2828f-4832.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens iPlus 33/33F",
+      "precio": 1437,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-iplus-3333f-4833.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens Lite 24/24F",
+      "precio": 899.03,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-lite-24-24f-2418.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens Lite 24AF",
+      "precio": 1554,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-lite-24af-2420.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Neodens Lite 28/28F",
+      "precio": 966.79,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-lite-2828f-2419.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Platinum iCompact 26/26 F",
+      "precio": 1425.38,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-platinum-icompact-2626-f-4010.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Platinum iCompact 30/30 F",
+      "precio": 1579.05,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-platinum-icompact-3030-f-4011.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Platinum iCompact 36/36 F",
+      "precio": 1783,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-platinum-icompact-3636-f-4013.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Caldera gas Baxi Platinum iPlus 24 AF",
+      "precio": 1946,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-platinum-iplus-24-af-2348.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "climaprecio",
@@ -40912,6 +41263,69 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Ariston Next Evo X SFT 11 Butano",
+      "precio": 423.5,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/ariston-next-evo-x-sft-11-butano-4626.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Ariston Next Evo X SFT 11 Natural",
+      "precio": 417.45,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/ariston-next-evo-x-sft-11-gas-natural-4627.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Baxi 11 FI ECO Natural",
+      "precio": 361.79,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/calentador-a-gas-baxi-11-fi-eco-natural-5031.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Cointra CAMI 11 Butano",
+      "precio": 350.9,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/cointra-cami-11-butano-4620.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Cointra CAMI 11 Natural",
+      "precio": 350.9,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/cointra-cami-11-natural-4621.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Cointra CAMI 6 Butano",
+      "precio": 313.39,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/calentador-a-gas-cointra-cami-6-butano-4618.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Cointra CAMI 6 Natural",
+      "precio": 313.39,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/calentador-a-gas-cointra-cami-6-natural-4619.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Calentador gas estanco FAGOR FEE-12 NOX gas natural 12L",
@@ -40919,6 +41333,33 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/calentador-gas-estanco-fagor-fee-12-nox-gas-natural-12l-95941382.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas HTW CLA11NOXOBI2GLP Butano",
+      "precio": 350.9,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/htw-cla11noxobi2glp-butano-4624.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas HTW CLA11NOXOBI2GLP Natural",
+      "precio": 350.9,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/htw-cla11noxobi2glp-natural-4625.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Calentador gas Svan SCE1100ADB Butano",
+      "precio": 417.45,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/calentadores-de-gas/svan-sce1100adb-butano-4644.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -41263,6 +41704,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Bosch ERO 3000 750W",
+      "precio": 350.9,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/bosch-ero-3000-2122-4819.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Bosch ERO 4000 4 elementos 600W",
+      "precio": 363,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/bosch-ero-4000-2117-4818.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Emisor térmico cerámico Ceramic de 1500 w",
@@ -41288,6 +41747,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/radiador-electrico/1047829-109-emisor-termceramico-country-blanco-contrwifi-3modtemporizador-prog7dproteccion-sobrecalentamiento-58x48x8cm-8435684361208.html#/29-potencia-600w",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Cointra Cosmos 500 WiFi 3 elementos",
+      "precio": 399.3,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/cosmos-wifi-2124-4820.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Cointra Siena 500W",
+      "precio": 337.59,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/cointra-siena-2134-4824.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -41378,6 +41855,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/radiador-electrico/1047827-99-emisor-termico-gaban-x-en-aluminio-blanco-lcd-temporizador-mural-portatil-585x44x55-cm-8435684334721.html#/29-potencia-600w",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Orbegozo RRW 805 negro",
+      "precio": 181.5,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/orbegozo-RRW-negro-2145-4827.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Emisor térmico Orbegozo RRW500 WiFi blanco",
+      "precio": 156.09,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/Orbegozo-RRW-wifi-blanco-2139-4825.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -41486,6 +41981,24 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-electrico-fluido-blanco-programable-400-w-75722883.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Ferroli GIADA S 12 WIFI",
+      "precio": 320,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/ferroli-giada-s-12-wifi-3476.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Ferroli GIADA S 9 WIFI",
+      "precio": 319.44,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/ferroli-giada-s-9-wifi-3860.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "climaprecio",
@@ -42019,6 +42532,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Hisense Brissa CA25YR3B",
+      "precio": 344.85,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/hisense-brissa-ca25yr03-3467.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Hisense Brissa CA35LR03",
+      "precio": 361.79,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/hisense-brissa-ca35lr03-2517.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Hisense Brissa CA35YR03",
@@ -42280,6 +42811,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Midea Solunar 26(09)N8",
+      "precio": 354.53,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/Midea-Solunar-26-09-N8-4867.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Midea Solunar 35(12)N8",
+      "precio": 384.78,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado/Midea-Solunar-35-12-N8-4868.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Mitsubishi Electric MGPEZ-35 VJA Conductos",
@@ -42323,6 +42872,87 @@
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/cassette/mitsubishi-electric-msplz-35vea/",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Baxi Anori-2 LSGT40-2M + JSGNW25 + JSGNW25",
+      "precio": 892,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/anori-2-lsgt40-2m-jsgnw25-jsgnw25-3913.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Baxi Anori-2 LSGT50-2M + JSGNW25 + JSGNW35",
+      "precio": 969,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/baxi-anori-lsgt50-2m-jsgnw25-jsgnw35-3415.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Daitsu Free Max DSM 912KDT U18",
+      "precio": 914,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/aire-acondicionado-2x1-daitsu-free-max-dsm-912u2kdt-u18-3972.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Daitsu Liberty DSM-9U2KDB EUE14 (sin stock)",
+      "precio": 1088,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/aire-acondicionado-2x1-daitsu-liberty-dsm-9u2kdb-eue14-3873.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Ferroli GIADA M WIFI",
+      "precio": 735,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/ferroli-giada-m-wifi-3557.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Haier Geos R+ 25+25 (2U40)",
+      "precio": 912,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado-multisplit/aire-haier-multisplit-2x1-geos-r-2525-2u40-4905.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Haier Geos R+ 25+35 (2U50)",
+      "precio": 1053,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado-multisplit/aire-acondicionado-haier-multisplit-2x1-geos-r-25-35-2u50-4908.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Hisense 2AMW42U4RGC + CF25YR04G x2",
+      "precio": 993,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/hisense-2amw42u4rgc-cf25yr04g-cf25yr04g-3470.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Multisplit 2x1 Midea Breezeless-E 9+9",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/multisplit-2x1/midea-breezeless-mcb1-12n8-m2o-14n8-4160.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -42964,6 +43594,24 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador eléctrico Cointra Teide 1000W",
+      "precio": 286.77,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/radiador-electrico-cointra-teide-2150-4828.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Radiador eléctrico Mithos Kappa New",
+      "precio": 299.86,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/radiadores-electricos/mithos-kappa-new-2129-214.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Radiador eléctrico Rointe Belize Inverter WiFi 1200W blanco",
@@ -43115,6 +43763,15 @@
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/conductos/samsung-kit-071mdkg/",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Samsung Split AR35 F-AR09",
+      "precio": 400,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/aire-acondicionado-samsung/samsung-split-ar35-f-ar0-4914.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "climaprecio",
@@ -43351,6 +44008,24 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Ariston Simat 50L",
+      "precio": 208.5,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/ariston-simat-50l-2144.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Aspes AT5001 Slim 50L vertical",
+      "precio": 163.35,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/aspes-slim-50l-vertical-slim-4367.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termo eléctrico Baxi V 510 100L",
@@ -43387,6 +44062,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Cabel Concept 30L",
+      "precio": 171,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/termo-electrico-cabel-concept-30l-2147.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Cabel Concept 50L",
+      "precio": 175.99,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/termo-electrico-cabel-concept-50l-2148.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termo eléctrico COINTRA BALDO 50L vertical",
@@ -43394,6 +44087,15 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/termo-electrico-cointra-baldo-50l-vertical-98772636.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Cointra TNC Plus-50 S",
+      "precio": 191,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/cointra-aral-tnc-50-s-450.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -43540,6 +44242,33 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico HTW Essential Eco TV-15ESS 15L vertical",
+      "precio": 175.45,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/htw-essential-vertical-4369.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico HTW Evolution TV-30 EVO",
+      "precio": 151.25,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/htw-evolution-tv-30evo-4370.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico HTW Evolution TV-50 EVO",
+      "precio": 193.6,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/htw-evolution-tv-50evo-4371.html",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "climaprecio",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termo eléctrico multiposición Aparici RXI030N",
@@ -43646,6 +44375,33 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/termo-electrico-rointe-evia-50-l-vertical-clase-energetica-b-72421165.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Simat 15 ES EU",
+      "precio": 175.45,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/simat-15-es-eu-4380.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Svan ST3000",
+      "precio": 133.1,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/svan-st3000-4387.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "climahorro",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Termo eléctrico Svan ST8000",
+      "precio": 181.5,
+      "unidad": "ud",
+      "enlace": "https://www.climahorro.es/termos-electricos/svan-st8000-4388.html",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -44656,6 +45412,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Ángulo Interior Mini Canaleta 25x17mm",
+      "precio": 0.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/angulo-interior-para-mini-canaleta-electrica-25x17-mm/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "ÁNGULO PLANO CANAL CLIMA 60 X 100",
@@ -44672,6 +45437,33 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/canaleta-solera/228556-angulo-plano-de-60-x-60-ninguna-8423220088863.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Ángulo Plano Mini Canaleta 25x17mm",
+      "precio": 0.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/angulo-plano-para-mini-canaleta-electrica-25x17-mm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Ángulo Plano Mini Canaleta 40x17mm",
+      "precio": 0.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/angulo-plano-para-mini-canaleta-electrica-40x17-mm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Ángulo Plano Mini Canaleta 60x40mm",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/angulo-plano-para-mini-canaleta-electrica-60x40-mm/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -45338,6 +46130,15 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/portalamparas/228831-arandela-contra-anillo-para-refs-6584-cr-y-6584-ct-color-negro-ninguna-8423220237476.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Aro Blanco Supletorio Cubre Hueco Downlight 20W",
+      "precio": 3.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/aro-blanco-supletorio-cubre-hueco-para-downlight-20w/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -46537,6 +47338,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Bobina Tira LED 220V SMD2835 120LED/m 14.4W/m IP65 50 m",
+      "precio": 115.99,
+      "unidad": "rollo",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/bobinas-de-tiras-led-220v/tira-de-led-720w-220vac-smd2835-120led-m-144w-m-ip65-50-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "BOMBILLA DICROICA LED GU10 5W 3000K",
@@ -47347,6 +48157,69 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Adaptador con Pincho Tira LED 220V sin rectificador",
+      "precio": 1.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/cable-adaptador-con-pincho-para-tira-led-220v-sin-rectificador/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Adaptador Crimpable Tira LED 220V COB Pro",
+      "precio": 2.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/cable-adaptador-crimpable-para-tira-led-220v-ac-cob-pro/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Adaptador II Tira LED 220V SMD2835 sin rectificador",
+      "precio": 1.57,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/cable-adaptador-ii-para-tira-led-220vac-smd2835-120led-m-17w-m-sin-rectificador/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Adaptador Tira LED 220V SMD2835 sin rectificador",
+      "precio": 1.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/cable-adaptador-para-tira-led-220vac-smd2835-120led-m-17w-m-sin-rectificador/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Azul 1.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.4,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-azul-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Azul 2.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.59,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-azul-2-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Azul 6mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 1.2,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-azul-6mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Cable eléctrico 2 x 0,75 mm² LEXMAN H03VVH2-F 10 metros",
@@ -47625,6 +48498,24 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/cable-electricolibre-de-halogenos-h07z1-k-1-5-mm2-color-gris-100-m-81867432.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Gris 1.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.4,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-gris-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Gris 2.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.4,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-gris-2-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -47922,6 +48813,96 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Manguera Negro 3x1.5mm² RV-K",
+      "precio": 1.99,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/manguera/cable-manguera-negro-3-x-1-5mm%c2%b2-rv-k-3g/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Manguera Negro 3x2.5mm² RV-K",
+      "precio": 1.35,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/manguera/cable-manguera-negro-3-x-2-5mm%c2%b2-rv-k-3g-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Manguera Verde 3x1.5mm² RZ1-K (AS) Libre de Halógenos",
+      "precio": 1.45,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/manguera/cable-manguera-verde-3-x-1-5mm%c2%b2-zh-rz1-k-as-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Marrón 1.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.3,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-marron-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Marrón 2.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.55,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-marron-2-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Negro 1.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.4,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-negro-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Negro 2.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.7,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-negro-2-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Negro 6mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 1.1,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-negro-6mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Oxígeno Plano 2x0.5mm²",
+      "precio": 0.65,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-12v-24v/conectores-accesorios-tiras-led/cable-electrico-oxigeno-plano-manguera-2x0-5mm%c2%b2-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Plano 2x0.5mm² para Tiras LED Monocolor",
+      "precio": 0.39,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-12v-24v/conectores-accesorios-tiras-led/cable-electrico-plano-manguera-2x0-5mm%c2%b2-para-tiras-led-monocolor-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "CABLE RV-K 2x1,5MM NEGRO (100 METROS)",
@@ -48127,6 +49108,51 @@
       "unidad": "m",
       "enlace": "https://www.bricoelectrico.com/rz1-k/159535-manguera-flexible-rz1-k-06-1kv-3x4-mm-verde-libre-de-halogeno-al-corte-8432240194374.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Solar 6mm² Rojo/Negro",
+      "precio": 1.71,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/material-electrico-y-accesorios-fotovoltaica/cable-solar-6mm2-hikra-rojo-negro/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Solar HiKra 4mm²",
+      "precio": 0.93,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/material-electrico-y-accesorios-fotovoltaica/cable-solar-hikra-4mm2/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Verde/Amarillo 1.5mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.3,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-verde-amarillo-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Verde/Amarillo 6mm² H07Z1-K (AS) Libre de Halógenos",
+      "precio": 1.6,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-verde-amarillo-6mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cable Verde/Amarillo H07Z1-K (AS) Libre de Halógenos",
+      "precio": 0.4,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/cable/cable-electrico-verde-amarillo-1-5mm%c2%b2-h07z1-k-as-type-2-libre-de-halogenos-corte-a-medida/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -48462,6 +49488,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Caja Universal de Mecanismos Enlazable 65x65x45 mm",
+      "precio": 0.19,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cajas-de-registro-y-empalme/caja-universal-de-mecanismos-enlazable-65x65x45-mm-con-tornillos/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "CAJA UNIVERSAL REDONDA 1 ELEMENTO Ø66X45 MM PLADUR",
@@ -48559,6 +49594,24 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/motor-puerta-basculante-seccional/came-v6000-kit-motor-puerta-basculante-o-seccional/p-479",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Canaleta a Tornillo 25x40mm (2 m)",
+      "precio": 3.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/canaleta-electrica-a-tornillo-25x40mm-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Canaleta con Tapa para Enchufes 100x54mm (2 m)",
+      "precio": 14.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/canaleta-electrica-con-tapa-para-enchufes-100x54mm-2-metros/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -49047,6 +50100,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Clip de Cable PV",
+      "precio": 0.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/clip-de-cable-pv/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "Cofre plástico IP65 para disyuntor SGV2",
@@ -49054,6 +50116,60 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/proteccion-motores/599611-cofre-plastico-ip65-para-disyuntor-sgv2-8445275036453.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Colgadores para Paneles LED 1 m",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/colgadores-para-paneles-led/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Colgadores para Paneles LED 1.5 m",
+      "precio": 3.1,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/colgadores-para-paneles-led-1-5-metro/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector Cable Estanco Tipo T IP68 0.5-4mm²",
+      "precio": 5.89,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/conexion-y-derivacion/conector-en-t-ip68/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector de Cable Estanco IP68 0.5-1.5mm²",
+      "precio": 2.28,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/conexion-y-derivacion/conector-en-i-ip68/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector en Línea Tira LED Monocolor 2835 220V",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/conector-en-linea-para-tira-led-monocolor-2835smd-220vac/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector en Línea Tira LED Monocolor 5050 220V",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/conector-en-linea-para-tira-led-monocolor-5050smd-220vac/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -49099,6 +50215,15 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/conectores-antena/televes-4130-conector-macho-antena-tv/p-390",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector MC4 para Cable 4-6mm² 1500V",
+      "precio": 0.91,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/material-electrico-y-accesorios-fotovoltaica/conector-mc4-i-para-cable-4-6mm2-1500v/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -49234,6 +50359,33 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/niled-subterraneos-conectores-perforacio/niled-rs-95-conector-perforacion-subterraneo/p-115",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector Rápido 3 entradas 32A hasta 4mm²",
+      "precio": 0.65,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/conexion-y-derivacion/conector-rapido-3-entradas-32a-hasta-4mm%c2%b2/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector Rápido 3 entradas 5A",
+      "precio": 0.24,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/cables-electricos-y-mangueras/conexion-y-derivacion/conector-rapido-3-entradas-5a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Conector Rápido L Tira LED IP68 10/8mm 2 pin",
+      "precio": 1.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/conector-rapido-l-para-tira-led-ip68-10mm-8mm-2pin/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -50037,6 +51189,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Controlador Tiras LED RGB 220V 14W con mando",
+      "precio": 6.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/controlador-led-rgb-220v/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Cruzamiento LEXMAN Luxia color blanco",
@@ -50116,6 +51277,15 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-de-empotrar-sin-icp/cuadro-54-elementos-noark-pnf-3x18w/p-645",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cuadro de Protección FV 1000Vdc 2 In 2 Out",
+      "precio": 85.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/cajas-cuadros-electricos/cuadro-de-proteccion-fv-1000vdc-2-in-2-out-1000v/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -50703,6 +51873,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cuadro Eléctrico Superficie 12 Módulos IP65",
+      "precio": 13.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/cajas-cuadros-electricos/cuadro-electrico-de-superficie-para-12-modulos-ip65/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "tumaterialelectrico",
       "categoria": "Electricidad",
       "nombre": "Cuadro eléctrico superficie 14 elementos, Solera 5021",
@@ -50719,6 +51898,15 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-de-superficie-sin-icp/cuadro-electrico-superficie-18-solera-8704/p-301",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cuadro Eléctrico Superficie 24 Módulos IP65",
+      "precio": 18.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/cajas-cuadros-electricos/cuadro-electrico-de-superficie-para-24-modulos-de-superficie-ip65/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -50764,6 +51952,15 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-de-superficie-sin-icp/cuadro-electrico-superficie-56-solera-5271/p-305",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Cuadro Eléctrico Superficie 6 Módulos con Puerta Blanca IP30",
+      "precio": 5.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/cajas-cuadros-electricos/cuadro-electrico-de-superficie-6-modulos-con-puerta-blanca-ip30/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -51421,6 +52618,15 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/downlight-empotrable-cuadrado/1003793-downlberna-18w-6000k-85-265v-1600lm-pf-090-cri-80ra-50-60hz-ip40-4670004718100.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight LED Circular 18W con Sensor de Movimiento",
+      "precio": 14.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/downlight-led-circular-18w-con-sensor-de-movimiento/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "obramat",
@@ -52215,6 +53421,123 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 12W",
+      "precio": 4.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/placa-downlight-led-circular-12w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 20W 2000lm",
+      "precio": 3.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-circular-18w-20w-2000lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 20W 2000lm (Pack 2)",
+      "precio": 6.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-circular-20w-2000lm-pack-2-unidades/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 25W",
+      "precio": 9.37,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/placa-downlight-led-circular-25w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 5W",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-circular-5w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 6W",
+      "precio": 3.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/placa-downlight-led-circular-6w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular 9W",
+      "precio": 3.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-circular-9w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Circular II 20W 2000lm (Pack 2)",
+      "precio": 7.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/panel-led-circular-serie-slim-20w-pack-2-unidades/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Cuadrado 12W",
+      "precio": 4.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-cuadrado-12w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Cuadrado 20W",
+      "precio": 4.65,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-cuadrado-20w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Cuadrado 25W",
+      "precio": 10.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-cuadrado-25w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Cuadrado 6W",
+      "precio": 3.07,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-cuadrado-6w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Downlight Panel LED Cuadrado Níquel 18W (desde)",
+      "precio": 17.28,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/placas-downlight/downlight-panel-led-square-niquel-18w/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "DOWNLIGHT ROMA 12W 4200K 920LM 170MM",
@@ -52530,6 +53853,24 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Doble Empotrable Schuko Blanco IP20 Serie wLine",
+      "precio": 2.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-doble-empotrable-tipo-f-schuko-blanco-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Doble Empotrable Schuko Negro IP20 Serie wLine",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-doble-empotrable-tipo-f-schuko-ip20/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Enchufe doble LEGRAND Niloé Step blanco",
@@ -52537,6 +53878,69 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/enchufe-doble-legrand-niloe-step-blanco-81950540.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Schuko Blanco 16A IP20 Serie wLux",
+      "precio": 2.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/enchufe-empotrable-tipo-f-schuko-blanco-16a-ip20-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Schuko Blanco con Tapa 16A IP44 Serie wLine",
+      "precio": 1.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-empotrable-tipo-f-schuko-blanco-con-tapa-16a-marco-incluido-ip44-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Schuko Gris 16A IP20 Serie wLux",
+      "precio": 2.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/enchufe-empotrable-tipo-f-schuko-gris-16a-ip20-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Schuko Negro 16A IP20 Serie wLux",
+      "precio": 2.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/enchufe-empotrable-tipo-f-schuko-negro-16a-ip20-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Schuko Negro con Tapa 16A IP44 Serie wLine",
+      "precio": 3.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-de-superficie-tipo-f-schuko-16a-ip44/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Tipo F Schuko Blanco Marco Incluido IP20 Serie wLine",
+      "precio": 1.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-empotrable-tipo-f-schuko-blanco-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Empotrable Tipo F Schuko Negro Marco Incluido IP20 Serie wLine",
+      "precio": 2.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-empotrable-tipo-f-schuko-ip20/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -52656,6 +54060,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Enchufe Schuko 16A IP20 Blanco Serie Modern",
+      "precio": 2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-modern/enchufe-tipo-f-schuko-16a-ip20-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Enchufe Schuko con conmutador LEXMAN Trail antracita",
@@ -52762,6 +54175,15 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/enchufe-usb-a-usb-c-30w-simon-27-blanco-95638392.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "End Clamp 30/35 mm Guía Pro Standard XH",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/end-clamp-30-35-mm-para-guia-pro-standard-xh/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -53223,6 +54645,78 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Basculante Cobfix Angle 30W",
+      "precio": 23.52,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/iluminacion-led-tiendas/iluminacion-led-de-acentuacion/foco-downlight-led-cobfix-angle-25w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED CobLow Square 5W IP54 (desde)",
+      "precio": 3.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-coblow-square-7w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED CobMax 7W (desde)",
+      "precio": 4.09,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-cobmax-7w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Cobwill 5W IP54",
+      "precio": 3.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-cobwill-5w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Deep Blanco 5W IP20",
+      "precio": 9.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-deep-blanco-5w-ip20/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Design 3W (desde)",
+      "precio": 4.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-design-3w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Luxtar 15W UGR19",
+      "precio": 10.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-luxtar-15w-ugr-19/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Downlight LED Slim 32W",
+      "precio": 14.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/downlight-led/focos-downlight/foco-downlight-led-slim-32w/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Foco empotrable Fiobbo acero blanco Ø 17 cm, 1 luz, Eglo",
@@ -53248,6 +54742,15 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/foco-empotrado-led-redondo-els-banys-22-5x1-5-cm-de-18w-81933924.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Foco Proyector LED Nomis Rectangular Basculante 36W CCT",
+      "precio": 26.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/iluminacion-led-tiendas/iluminacion-led-de-acentuacion/foco-proyector-led-nomis-rectangular-basculante-36w-cct-seleccionable/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -53392,6 +54895,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/fuentes-alimentacion-24vdc/212386-fuente-alimentacion-75w-100-240vac-a-24vdc-32a-ip20.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Fusible 10x38mm 1000V DC 10A",
+      "precio": 2.1,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/fusible-10x38mm-1000v-dc-10a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Fusible 10x38mm 1000V DC 15A",
+      "precio": 1.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/fusible-10x38mm-1000v-dc-15a/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -54031,6 +55552,24 @@
       "unidad": "lote",
       "enlace": "https://www.bricoelectrico.com/grapas/633265-grapas-negras-o9-mm-bolsa-100-unidades-8428669013292.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Grapa Tira LED 220V",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/grapa-tira-led-220v/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Grapas para Paneles LED",
+      "precio": 1.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/grapas-para-paneles-led/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "tumaterialelectrico",
@@ -54690,6 +56229,24 @@
       "fecha": "2026-11-25"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Inter Clamp (Presor Central) 30/35 mm",
+      "precio": 0.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/inter-clamp-presor-central-de-30-35-mm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Inter Clamp 30/35 mm Guía Pro Standard Aluminio XH",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/inter-clamp-30-35-mm-para-guia-pro-standard-aluminio-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Interruptor + Marco LEGRAND Niloé Monobloc blanco",
@@ -54697,6 +56254,51 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/interruptor-marco-legrand-niloe-monobloc-blanco-81972083.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Automático Estrecho DPN 1P+N Curva C 6kA",
+      "precio": 6.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-automatico-estrecho-dpn-residencial-1pn-10a-curva-c-6ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Automático Industrial 2P Curva C 6kA",
+      "precio": 4.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-automatico-residencial-2p-10a-curva-c-6ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Automático Industrial 4P Curva C 6kA",
+      "precio": 19.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-automatico-residencial-4p-16a-curva-c-6ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Automático Residencial 1P+N Curva C 6kA (desde)",
+      "precio": 2.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-automatico-residencial-1pn-curva-c-6ka-10-40a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Automático Residencial 2P Curva C 6kA (desde)",
+      "precio": 2.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-automatico-residencial-2p-curva-c-6ka-6-40a/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "leroy",
@@ -54789,6 +56391,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor de Transferencia Automática (ATS) 2P",
+      "precio": 33.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/contactores/interruptor-de-transferencia-automaticaats-2p/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Electricidad",
       "nombre": "Interruptor de transferencia manual MTS 1P 40A, conmutador modular I-0-II, para carril DIN",
@@ -54798,6 +56409,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Diferencial 1P+N 30mA 6kA Clase AC",
+      "precio": 12.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/diferenciales-y-protectores/interruptor-diferencial-1pn-40a-30ma-monofasico-6ka-clase-ac/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "efectoled",
       "categoria": "Electricidad",
       "nombre": "Interruptor diferencial 2P 30mA 6kA Clase A Legrand RX3 402059",
@@ -54805,6 +56425,24 @@
       "unidad": "ud",
       "enlace": "https://www.efectoled.com/es/comprar-interruptores-diferenciales/78949-interruptor-diferencial-residencial-2p-30ma-25-40a-6ka-clase-a-legrand-rx3-402059.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Diferencial 2P 30mA Tipo AC",
+      "precio": 10.35,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/diferenciales-y-protectores/interruptor-diferencial-2p-30ma-tipo-ac/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Diferencial Superinmunizado 2P 30mA 6kA Clase A",
+      "precio": 14.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/diferenciales-y-protectores/interruptor-diferencial-1pn-500ma-monofasico-6ka-clase-ac/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "efectoled",
@@ -54931,6 +56569,69 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/mecanismos-efapel-mec-21/110183-interruptor-unipolar-5603011044589.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Cruzamiento Blanco IP20 Serie wLine",
+      "precio": 2.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/enchufe-empotrable-simple-cruzamiento-blanco-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Doble Conmutado Blanco IP20 Serie wLine",
+      "precio": 2.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/interruptor-empotrable-doble-conmutado-blanco-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Simple Blanco IP20 Serie wLine",
+      "precio": 1.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/interruptor-empotrable-simple-blanco-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Simple Conmutado Blanco IP20 Serie wLine",
+      "precio": 1.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/interruptor-empotrable-simple-conmutado-blanco-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Simple Conmutado Negro IP20 Serie wLine",
+      "precio": 2.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/interruptor-empotrable-simple-conmutado/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Simple Conmutado Negro IP20 Serie wLux",
+      "precio": 2.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/interruptor-empotrable-simple-conmutado-negro-ip20-serie/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Empotrable Simple Negro IP20 Serie wLine",
+      "precio": 1.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/interruptor-empotrable-simple-marco-incluido-ip20-serie-wline/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -55120,6 +56821,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/magnetotermico-1-polo-neutro/266323-interruptor-magnetotermico-alpha-residencial-1pn-6a-curva-c-6ka-ninguna-8445275004421.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Magnetotérmico 1P+N 6kA",
+      "precio": 3.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-magnetotermico-1pn-6ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Interruptor Magnetotérmico 2P 6kA",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/interruptores-automaticos/interruptor-magnetotermico-2p-6ka/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -55437,6 +57156,42 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Kit de Superficie Panel 120x30 Blanco",
+      "precio": 11.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/kit-superficie-panel-120x30-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Kit de Superficie Panel 120x60 Blanco",
+      "precio": 15.66,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/kit-de-superficie-de-panel-120x60-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Kit de Superficie Panel 60x30 Blanco",
+      "precio": 6.69,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/kit-de-superficie-de-panel-60x30-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Kit de Superficie Panel 60x60 Blanco 6.2 cm",
+      "precio": 11.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/accesorios-paneles-led/kit-superficie-panel-60x60-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "KIT IP44 MEC 21 TECLA SIMPLE EFAPEL",
@@ -55471,6 +57226,15 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/paneles-led/1002701-kit-suspension-panel-led-sion-4650074610993.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "L Feet para Guía Pro Standard XH 85mm",
+      "precio": 1.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/l-feet-para-guia-pro-standard-xh/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "efectoled",
@@ -56607,6 +58371,60 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable 2 Módulos Serie wLine",
+      "precio": 0.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/marco-de-pc-empotrable-negro-para-2-modulos-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable 3 Módulos Serie wLine (desde)",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wline/marco-de-pc-empotrable-negro-para-3-modulos-serie-wline/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable Blanco 1 Módulo Serie wLux",
+      "precio": 1.29,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/marco-de-pc-empotrable-blanco-para-1-modulo-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable Blanco 2 Módulos Serie wLux",
+      "precio": 2.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/marco-de-pc-empotrable-blanco-para-2-modulos-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable Negro 1 Módulo Serie wLux",
+      "precio": 1.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/marco-de-pc-empotrable-negro-para-1-modulo-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Marco PC Empotrable Negro 2 Módulos Serie wLux",
+      "precio": 2.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/marco-de-pc-empotrable-negro-para-2-modulos-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "MARCO QUÍNTUPLE BLANCO EFAPEL LOGUS 90",
@@ -57093,6 +58911,96 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva 10x15mm (2 m)",
+      "precio": 1.71,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-10x15mm-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva 10x20mm (2 m)",
+      "precio": 1.71,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-10x20mm-2-metros-2/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva 16x16mm (2 m)",
+      "precio": 1.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-16x16mm-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva 16x25mm (2 m)",
+      "precio": 2.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-16x25mm-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva para Mecanismos 12x07 (2 m)",
+      "precio": 1.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-para-mecanismos-12x07-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta Adhesiva para Mecanismos 16x10 (2 m)",
+      "precio": 2.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-adhesiva-para-mecanismos-16x10-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta para Mecanismos 25x17 (2 m)",
+      "precio": 2.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-para-mecanismos-25x17-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta para Mecanismos 40x17 (2 m)",
+      "precio": 3.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-para-mecanismos-40x17-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta para Mecanismos 40x40 (2 m)",
+      "precio": 3.97,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-para-mecanismos-40x40-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Mini Canaleta para Mecanismos 60x40 (2 m)",
+      "precio": 7.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/mini-canaleta-electrica-para-mecanismos-60x40-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "Minicontactor 3P (NO) + 1NC - 4kW - 9A, 24VAC",
@@ -57516,6 +59424,105 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 120x30 42W 4000lm LIFUD CCT",
+      "precio": 26.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-120x30-cm-40w-4000lm-lifud-marco-blanco-lifud-5-anos-de-garantia-cct/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 120x60 80W 6500lm Marco Blanco LIFUD",
+      "precio": 54.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-120x60-cm-72w-marco-blanco/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x30 24W Marco Blanco 2400lm",
+      "precio": 14.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x30-cm-24w-marco-blanco-2400lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 42W High Lumen 5040lm (Pack 8)",
+      "precio": 71.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-marco-blanco-4200lm-pack-8-unidades/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 42W LIFUD High Lumen 5040lm (Pack 2)",
+      "precio": 17.89,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-marco-blanco-4200lm-pack-2-unidades/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 42W Marco Blanco 4200lm No Flicker",
+      "precio": 12.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-lifud-no-flicker-marco-blanco-4200lm-no-flicker-5-anos-de-grantia/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 42W Marco Blanco High Lumen 5040lm (desde)",
+      "precio": 8.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-marco-blanco-4200lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 42W No Flicker Driver Philips",
+      "precio": 19.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-no-flicker-driver-philips/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 48W 4800lm UGR17 LIFUD",
+      "precio": 27.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-48w-4800lm-marco-blanco-ugr-17-lifud/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 60W 6000lm (Pack 2)",
+      "precio": 40.16,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-60w-marco-blanco-6000lm-pack-2-unidades/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED 60x60 60W Marco Blanco 6000lm",
+      "precio": 20.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-60w-marco-blanco-6000lm/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "efectoled",
       "categoria": "Electricidad",
       "nombre": "Panel LED 60x60 cm 40W 4000lm LIFUD",
@@ -57721,6 +59728,42 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/paneles-led/1003474-panel-led-luka-perimetral-60x60-40w-cct-4650230911582.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED Marco Luminoso Epistar 60x60 48W 4800lm",
+      "precio": 17.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/panel-led-marco-luminoso-epistar-60x60-cm-48w-4800lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED Marco Luminoso LIFUD 60x60 42W 4200lm",
+      "precio": 16.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/panel-led-marco-luminoso-epistar-60x60-cm-42w-4200lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED Superficie 40W Rectangular Serie Home 120x30 IP40",
+      "precio": 23.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-de-superficie/panel-led-40w-de-superficie-rectangular-serie-home-120x30-cm-ip40/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Panel LED Superficie 60x30 24W CCT 2400lm",
+      "precio": 19.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-de-superficie/panel-led-60x30-cm-24w-cct-marco-blanco-2400lm/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "obramat",
@@ -57975,6 +60018,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Perfil PVC Tiras LED 220V SMD5050 2 m",
+      "precio": 1.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/perfil-de-pvc-para-tiras-led-220vac-smd5050-60led-m-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "tumaterialelectrico",
       "categoria": "Electricidad",
       "nombre": "Piloto metálico amarillo 230V",
@@ -58038,6 +60090,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón con Sensor Movimiento 2xE27",
+      "precio": 14.94,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-con-sensor-movimiento-2xe27/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "efectoled",
       "categoria": "Electricidad",
       "nombre": "Plafón LED 12W Circular Ø170 mm",
@@ -58074,6 +60135,231 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Dial 24W",
+      "precio": 14.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-dial-24w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Dial 36W",
+      "precio": 16.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-dial-36w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Ice 24W",
+      "precio": 14.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-ice-24w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Ice 36W",
+      "precio": 16.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-ice-36w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Madera CCT 24W 2400lm Ø30 con mando",
+      "precio": 18.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-madera-regulable-cct-24w-2400lm-o30-con-mando-a-distancia/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Sense 15W IP44 1500lm",
+      "precio": 8.1,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-sense-15w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Sense 30W IP44 3000lm",
+      "precio": 10.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-sense-30w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Sense 40W IP44 4000lm",
+      "precio": 13.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-sense-40w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Sense 50W IP44 5000lm",
+      "precio": 24.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-decorativos/plafon-led-circular-sense-50w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Techo 12W 1160lm (desde)",
+      "precio": 3.84,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-12w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Techo 20W 2000lm",
+      "precio": 5.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-de-techo-20w-2000lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Techo 25W 2500lm",
+      "precio": 10.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-25w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Techo 6W 600lm",
+      "precio": 3.63,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-6w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Circular Techo Níquel 20W 2000lm",
+      "precio": 7.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-niquel-20w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Cuadrado Techo 12W 1160lm (desde)",
+      "precio": 4.72,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-cuadrados/plafon-led-cuadrado-12w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Cuadrado Techo 20W 2000lm",
+      "precio": 6.07,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-cuadrados/plafon-led-cuadrado-18w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Cuadrado Techo 25W 2500lm (desde)",
+      "precio": 10.79,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-cuadrados/plafon-led-cuadrado-25w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Magic Altavoz RGB 36W + App",
+      "precio": 45.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-magic-con-altavoz-rgb-36w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Magic Musical Altavoz RGB 30W + App",
+      "precio": 28.92,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-magic-con-altavoz-rgb-30w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Screw 20W IP65 2000lm",
+      "precio": 7.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/iluminacion-exterior/plafones-led-exterior/plafon-led-screw-20w-ip65-2000lm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Screw Oval 20W IP65 2000lm",
+      "precio": 6.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/iluminacion-exterior/plafones-led-exterior/plafon-led-screw-oval-20w-ip65-2000/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Sensor Movimiento 15W PIR 360º (desde)",
+      "precio": 14.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafon-led-con-sensor-movimiento-15w-pir-360o/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón LED Sensor Movimiento 20W PIR 360º",
+      "precio": 23.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafon-led-con-sensor-movimiento-20w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón Panel LED Superficie Blanco 60x30 24W",
+      "precio": 21.68,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-de-superficie/plafon-panel-led-de-superficie-blanco-60x30cm-24w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Plafón Panel LED Superficie Blanco 60x60 42W LIFUD",
+      "precio": 20.69,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-de-superficie/plafon-panel-led-de-superficie-blanco-60x60cm-42w/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "Portacebador 2 A 250 V",
@@ -58081,6 +60367,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/portalamparas/228839-portacebador-2a-250vfijacion-patillas-elasticas-laterembornamiento-rapido-material-termopl-ninguna-8423220237568.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Portafusibles 10x38mm 1000V 32A",
+      "precio": 2.49,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/portafusibles-10x38mm-1000v-32a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Portafusibles 10x38mm 1000V máx 32A",
+      "precio": 3.49,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/portafusibles-10x38mm-1000v-max-32a/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -58398,6 +60702,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Premarco para Marcos Serie wLux (desde)",
+      "precio": 0.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/mecanismos/mecanismos-empotrables/serie-wlux/premarco-para-marcos-serie-wlux/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "Prolongador bipolar 1,5 m 10 A espigas 4,8 mm 3G1,5",
@@ -58504,6 +60817,33 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/prolongadores-y-enrollacables/228956-prolongador-con-clavija-bipolar-con-t-t-lateral-16a-y-250vcon-cable-3g110mm-ninguna-8423220010277.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Protector Sobretensiones DC 2P 1000V 20-40kA",
+      "precio": 19.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/protector-sobretensiones-dc-2p-1000v-20ka-40ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Protector Sobretensiones DC 2P 500V 20-40kA",
+      "precio": 20.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/protector-sobretensiones-dc-2p-500v-20ka-40ka/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Protector Sobretensiones DC 3P 1000V 20-40kA",
+      "precio": 22.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/protector-sobretensiones-dc-3p-1000v-20ka-40ka/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -58630,6 +60970,15 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/sobretensiones/267300-protector-combi-alpha-sobretensiones-pt-4p-63a-clase-c-15ka-imax-en50550-ninguna-8445275014420.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Protector Sobretensiones Transitorias 2P 20-40kA",
+      "precio": 7.1,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/proteccion-contra-sobretensiones/protector-sobretensiones-transitorias-2p-20ka-40ka/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -59188,6 +61537,42 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-estancos/racor-union-cuadros-estancos/p-327",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Rectificador Tira LED 220V SMD2835 12W/m",
+      "precio": 2.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/rectificador-tira-led-220v-smd-2835-12w-m/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Rectificador Tira LED 220V SMD2835 14.4W/m",
+      "precio": 1.68,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/rectificador-tira-led-220v-smd-2835-144w-m/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Rectificador Tira LED 220V SMD2835 14W/m",
+      "precio": 1.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/rectificador-tira-led-220v-smd-2835-14wm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Rectificador Tira LED 220V SMD5050 14W/m",
+      "precio": 1.68,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/rectificador-tira-led-220v/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -60810,6 +63195,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tapa Final Canaleta 100x54",
+      "precio": 1.35,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/tapa-final-para-canaleta-electrica-100x54/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "TAPA FINAL IP65 TIRA LED 220V",
@@ -60817,6 +63211,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/tira-led/216806-tapa-final-ip65-tira-led-220v-8468861587907.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tapa Final Mini Canaleta 25x17",
+      "precio": 0.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/tapa-final-para-mini-canaleta-electrica-25x17/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tapa Final Mini Canaleta 60x40",
+      "precio": 0.8,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/tapa-final-para-mini-canaleta-electrica-60x40/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -61681,6 +64093,24 @@
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/teclas-logus-90-perla/109728-tapa-p-toma-multimarcas-r-tv-sat-2-salid-perl-5603011069469.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tapón Tira LED 220V SMD2835",
+      "precio": 0.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/tapon-para-tira-de-led-220vac-smd2835/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tapón Tira LED 220V SMD2835 700W",
+      "precio": 0.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/accesorios-tiras-led-220v/tapon-para-tira-led-220v-smd2835-120led-m-17w-m/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -62664,6 +65094,60 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 1 m + Rectificador",
+      "precio": 3.98,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-1-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 10 m + Rectificador",
+      "precio": 24.68,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-10-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 2 m + Rectificador",
+      "precio": 6.28,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-2-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 3 m + Rectificador",
+      "precio": 8.58,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-3-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 4 m + Rectificador",
+      "precio": 10.88,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-4-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED 220V SMD2835 120LED/m 14.4W/m 5 m + Rectificador",
+      "precio": 13.18,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/tiras-led/tiras-led-220v/tiras-led-220v-a-medida/tira-led-220vac-smd5050-60ledm-blanco-frio-5-metros/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "TIRA LED 24V 2700K 9,6W/M IP20 (ROLLO 10 M)",
@@ -62799,6 +65283,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tira LED Estanterías Enlazable 12W IP20 980lm",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/componentes-electricos/tira-led-para-estanterias-enlazable-12w-ip20-980lm/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "TIRA LED PROFESIONAL 24V 14,4W 8MM IP20 5M 3000K",
@@ -62824,6 +65317,15 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/toma-de-alimentacion-tipo-f-schuko-niessen-zenit-color-gris-plata-14788151.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Toma de Corriente Schuko 16A 230V carril DIN",
+      "precio": 2.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/aparamenta-modular/otros-componentes-para-cuadros-electricos/toma-de-corriente-schuko-16a-230v/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -62934,6 +65436,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tornillo Suspensión M10x250mm Roscachapa",
+      "precio": 2.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/tornillo-suspension-m10x250-roscachapa/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "TRAMO RECTO CANAL CLIMA CON TAPA 40X70MM (PIEZA 2M)",
@@ -63013,6 +65524,24 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/transformadores-de-tension/transformador-de-tension-40va-chint-400230-48/p-340",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tubo Corrugado Articulado Negro PVC (desde)",
+      "precio": 0.2,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/tubos-corrugados/tubo-corrugado-articulado-negros-pvc-corte-a-medida/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tubo Corrugado Libre de Halógenos Gris PVC (desde)",
+      "precio": 0.55,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/tubos-corrugados/tubo-corrugado-libre-de-halogenos-gris-pvc-corte-a-medida/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -63121,6 +65650,15 @@
       "unidad": "rollo",
       "enlace": "https://www.bricoelectrico.com/tubo-corrugado/124231-tubo-corrugado-negro-mts-rollo-25-diametr-50-8428155919849.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Tubo Corrugado Reforzado Doble Capa Negro PVC (desde)",
+      "precio": 0.35,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/tubos-corrugados/tubo-corrugado-reforzado-negro-pvc-corte-a-medida/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "efectoled",
@@ -63301,6 +65839,24 @@
       "unidad": "rollo",
       "enlace": "https://www.bricoelectrico.com/tubo-flexible-pvc-electroflex/120382-tubo-electroflex-sp-pg-9-8435168814435.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Unión Mini Canaleta 25x17",
+      "precio": 0.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/union-para-mini-canaleta-electrica-25x17/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Electricidad",
+      "nombre": "Unión Mini Canaleta 40x40",
+      "precio": 0.65,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/canalizacion/canaletas/union-para-mini-canaleta-electrica-40x40/",
+      "fecha": "2026-11-27"
     },
     {
       "tienda": "bricoelectrico",
@@ -65949,6 +68505,60 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Back-Up Box SYN-50-XH-10 para Growatt MIN XH",
+      "precio": 324.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/back-up-box-syn-50-xh-10-para-inversor-growatt-min-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Base Batería Growatt APX 5.0",
+      "precio": 42.35,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/base-para-bateria-growatt-apx-5-0/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Base Batería Growatt ARK XH",
+      "precio": 36.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/base-bateria-growatt-ark-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Felicity 16kW 10 años garantía",
+      "precio": 1849.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/bateria-felicity-16kw-para-inversor-growatt-spf-deye-voltronic-victron-solis-mppsolar-10-anos-de-garantia/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Felicity 16kW IP65 (Growatt SPF/Deye/Victron...)",
+      "precio": 1939.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/bateria-felicity-16kw-para-inversor-growatt-spf-deye-voltronic-victron-solis-mpp-solar/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Felicity 5kW 10 años garantía",
+      "precio": 982.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/bateria-felicity-5kw-para-inversor-growatt-spf-deye-voltronic-victron-solis-mppsolar-10-anos-de-garantia/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "Batería gel Eleksol 12V 100Ah C100",
@@ -66003,6 +68613,33 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Litio Growatt ARK XH 5.1 kWh",
+      "precio": 2116.96,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-alto-voltaje/bateria-litio-growatt-ark-xh-5-1kwh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Litio Growatt ARK XH 7.6 kWh",
+      "precio": 2991.22,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-alto-voltaje/bateria-litio-growatt-ark-xh-76kwh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería Litio Growatt AXE 5.0 kWh 48V (SPH/SPF)",
+      "precio": 1184.9,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/bateria-de-litio-axe-50kwh-de-48vcd-growatt-para-inversores-de-sph-y-spf/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "Batería litio Huawei LUNA2000-5-E1 5kWh",
@@ -66018,6 +68655,15 @@
       "precio": 699,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/bateria-litio-3-5kwh-48v-pylontech-us3000c-10928204.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Batería para Inversor Growatt SPF/Deye/Voltronic/Victron",
+      "precio": 898.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/bateria-para-inversor-growatt-spf/",
       "fecha": "2026-11-27"
     },
     {
@@ -66057,12 +68703,84 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "BMS Batería Litio Growatt ARK BDC 95045-A1",
+      "precio": 287.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-alto-voltaje/bms-bateria-litio-growatt-ark-bdc-95045-a1/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Cable de Batería 25mm² con Terminales 1.5 m",
+      "precio": 14.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/cable-de-bateria-25-mm%c2%b2-con-terminales-1-5m/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Cable Solar 6mm² PV H1Z2Z2-K Rojo/Negro",
+      "precio": 1.69,
+      "unidad": "m",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/material-electrico-y-accesorios-fotovoltaica/cable-solar-6mm2-pv-h1z2z2-k-rojo-negro/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Cableado Growatt ARK LV-SPF-SPH",
+      "precio": 37.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/cableado-growatt-ark-lv-spf-sph/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Cables de conexión Batería Growatt ARK",
+      "precio": 55.35,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/cables-de-conexion-para-bateria-ark-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "Cables de conexión batería Pylontech 120A",
       "precio": 18.15,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/cables-de-conexion-bateria-pylontech-120a-10846402.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Caja Combinadora Baterías Felicity BTCB0301-125A 3 In/1 Out",
+      "precio": 155.6,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/felicity-btcb0301-125a-caja-combinadora-de-baterias-3-in-1-out/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Caja Combinadora Baterías Felicity BTCB0602 6 In/2 Out",
+      "precio": 190.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/felicity-btcb0602-caja-combinadora-de-baterias-6-in-2-out/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Datalogger Growatt Shine WiLAN-X2",
+      "precio": 33.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/dispositivo-de-monitorizacion-datalogger-growatt-shine-wilan-x2/",
       "fecha": "2026-11-27"
     },
     {
@@ -66075,12 +68793,138 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Empalme para Guía Pro Standard XH",
+      "precio": 1.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/empalme-para-guia-pro-standard-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "End Clamp (Presor Lateral) 30/35 mm",
+      "precio": 0.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/end-clamp-presor-lateral-de-30-35-mm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "End Clamp 30/35 mm Mini Rail XS",
+      "precio": 0.89,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/end-clamp-30-35-mm-para-mini-rail-xs/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Estación Batería Portátil Runhood Rallye 1200W Plus 648Wh",
+      "precio": 750,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/estacion-bateria-portatil-runhood-rallye-1200w-plus-648wh-con-2-modulos-intercambiables/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Estación Batería Portátil Runhood Rallye 600 648Wh",
+      "precio": 580,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/estacion-bateria-portatil-runhood-rallye-600-648wh-con-modulos-intercambiables/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Estación de Energía Portátil Growatt Infinity 1500W 1512Wh",
+      "precio": 799,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/estacion-de-energia-portatil-growatt-infinity-1500w-1512wh-con-app/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Estación de Energía Portátil Growatt Infinity 2000W",
+      "precio": 967.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/growatt-oferta-estacion-de-energia-portatil-growatt-infinity-2000w/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "damiasolar",
       "categoria": "Fotovoltaica",
       "nombre": "Estructura para panel solar regulable 30 a 60 grados",
       "precio": 55,
       "unidad": "ud",
       "enlace": "https://www.damiasolar.com/estructura-para-panel-solar-regulable-30-a-60-grados.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Growatt AXE 5.0 LV Accessories Package (Cable+Base)",
+      "precio": 86.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/growatt-axe-5-0-lv-accessories-package-cablebase/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Growatt Shine WiFi para Inversor SPF",
+      "precio": 46.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/growatt-shine-wifi-para-inversor-spf/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Guía Pro Standard 1250mm Aluminio XH",
+      "precio": 29.81,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/guia-pro-standard-1250-aluminio/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Guía Pro Standard 2400mm Aluminio XH",
+      "precio": 17.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/guia-pro-standard-2400mm-aluminio-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inter Clamp 30/35 mm Mini Rail XS",
+      "precio": 0.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/inter-clamp-30-35-mm-para-mini-rail-xs/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inter Clamp 30/35 mm Negro Guía Pro Standard XH",
+      "precio": 0.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/inter-clamp-30-35-mm-negro-para-guia-pro-standard/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inversor Aislada Growatt SPF 6000 Plus",
+      "precio": 688.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/inversores-de-conexion-aislada/inversor-growatt-off-grid-spf-6000-plus/",
       "fecha": "2026-11-27"
     },
     {
@@ -66120,6 +68964,42 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inversor Híbrido Monofásico Growatt MIN 6000TL-XH",
+      "precio": 745,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/inversores-hibridos/inversor-monofasico-growatt-min-5000tl-xh-hibrido-con-pantalla-tactil/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inversor Monofásico Growatt MIC 1500TL-X",
+      "precio": 271.4,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/inversores-de-conexion-a-red/inversor-monofasico-growatt-mic-1500tl-x/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inversor Monofásico Growatt MIC 2000TL-X",
+      "precio": 215,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/inversores-de-conexion-a-red/inversor-monofasico-growatt-mic-2000tl-x/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Inversor Off Grid 6000W 48V IVEM6048",
+      "precio": 449.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/inversores-de-conexion-aislada/inversor-off-grid-6000w-48v-ivem6048-2mppt/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "damiasolar",
       "categoria": "Fotovoltaica",
       "nombre": "Inversor onda pura Ecosolar Super Blue 2000W 12V",
@@ -66129,12 +69009,120 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 10kW Monofásico + Batería Litio 11.78kW",
+      "precio": 3221.16,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-10-kw-monofasico-bateria-de-litio-1178-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 10kW Monofásico + Batería Litio 14.3kW",
+      "precio": 3367.14,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-10-kw-monofasico-bateria-de-litio-143-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 10kW Monofásico + Batería Litio 16kW",
+      "precio": 3907.34,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-10-kw-monofasico-bateria-de-litio-16-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 10kW Monofásico + Batería Litio 16kW (variante 2)",
+      "precio": 3387.13,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-10-kw-monofasico-bateria-de-litio-16-kw-2/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 6kW Monofásico + Batería Litio 11.78kW",
+      "precio": 2669.68,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-6-kw-monofasico-bateria-de-litio-1178-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 6kW Monofásico + Batería Litio 14.3kW",
+      "precio": 2815.66,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-6-kw-monofasico-bateria-de-litio-143-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 6kW Monofásico + Batería Litio 16kW",
+      "precio": 2835.65,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-6-kw-monofasico-bateria-de-litio-16-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Autoconsumo Growatt SPM 6kW Monofásico + Batería Litio 16kW (variante 2)",
+      "precio": 3355.86,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-de-autoconsumo-growatt-spm-6-kw-monofasico-bateria-de-litio-16-kw-2/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "damiasolar",
       "categoria": "Fotovoltaica",
       "nombre": "Kit autoconsumo solar 3kW XS G3 monofásico inyección cero",
       "precio": 1960,
       "unidad": "ud",
       "enlace": "https://www.damiasolar.com/kit-autoconsumo-solar-3kw-xs-monofasico-inyeccion-cero.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Inversor Off Grid 6000W 48V IVEM6048 + Batería Felicity 48V 10kW",
+      "precio": 2190.31,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-aislada/kit-inversor-aislada-felicity-5000w-bateria-felicity-48v-106-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Inversor Off Grid 6000W 48V IVEM6048 + Batería Felicity 48V 5kW",
+      "precio": 1307.72,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-aislada/kit-inversor-aislada-felicity-5000w-bateria-felicity-48v-5-12-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Inversor Off Grid 6000W 48V IVEM6048 + Batería Felicity 48V 5kW (10 años)",
+      "precio": 1360.96,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-aislada/kit-inversor-aislada-felicity-5000w-bateria-felicity-48v-53-kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Microinversor Growatt NEO 800W + Panel Flexible 460W",
+      "precio": 312.08,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-microinversor-growatt-neo-800w-panel-solar-flexible-460w-wifi-integrado/",
       "fecha": "2026-11-27"
     },
     {
@@ -66171,6 +69159,60 @@
       "precio": 2495,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/kit-solar-autoconsumo-5-kw-suntaic-hibrido-10-paneles-98426276.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Balcony 600W (microinversor + 2 paneles + estructuras)",
+      "precio": 699.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-balcony-microinversor-2-paneles-estructuras-accesorios/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Batería Trifásico 12 Paneles 6000W Growatt",
+      "precio": 6059.11,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-solar-bateria-trifasico-12-paneles-6000w-33kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Batería Trifásico 15 Paneles 8000W Growatt",
+      "precio": 5760.09,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-solar-bateria-trifasico-15-paneles-8000w-41-25kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Batería Trifásico 18 Paneles 10000W Growatt",
+      "precio": 6779.06,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-solar-trifasico-hibrido-18-paneles-10000w-49-50kwh-dia-growatt-2/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Baterías 11 Paneles 6000W + Batería 16.07kW",
+      "precio": 4847.81,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-solar-baterias-11-paneles-6000w-con-bateria-de-1024kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Baterías 11 Paneles 6000W + Batería 5.12kW",
+      "precio": 3706.66,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-bateria/kit-solar-baterias-11-paneles-6000w-con-bateria-de-512kw/",
       "fecha": "2026-11-27"
     },
     {
@@ -66336,12 +69378,93 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Off-Grid 6000W 48V + Batería Litio 5kWh",
+      "precio": 2863.34,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-aislada/kit-solar-aislada-5000w-y-con-bateria-de-512kw/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Residencial Híbrido 11 Paneles 6000W Growatt",
+      "precio": 2512.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-residencial-hibrido11-paneles-6000w-30kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Residencial Híbrido 6 Paneles 3000W Growatt",
+      "precio": 1543.74,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-residencial-6-paneles-3000w-15kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Residencial Híbrido 8 Paneles 4200W Growatt",
+      "precio": 1991.19,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-residencial-8-paneles-4200w-21-5kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Residencial Híbrido 9 Paneles 5000W Growatt",
+      "precio": 2201.49,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-residencial-hibrido-9-paneles-5000w-25kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Kit Solar Trifásico Híbrido 11 Paneles 6000W Growatt",
+      "precio": 3238.32,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/kit-solares/kit-solar-conexion-a-red/kit-solar-trifasico-hibrido-11-paneles-6000w-30-25kwh-dia-growatt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Micro Inversor 2000W 10 años garantía",
+      "precio": 335,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/micro-inversores/micro-inversor-2000w-10-anos-de-garantia/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "Microinversor Deye SUN-M225G4-4T 2250W",
       "precio": 295,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/microinversor-2250w-deye-sun-m225g4-4t-25118124.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Microinversor Growatt NEO 1000M-X LoRa 2 MPPT",
+      "precio": 185,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/micro-inversores/microinversor-solar-growatt-neo-1000m-x-lora-2-mppt/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Microinversor Growatt NEO 800M-X WiFi 2 MPPT",
+      "precio": 146.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/micro-inversores/microinversor-solar-growatt-neo-800m-x-wifi-2-mppt/",
       "fecha": "2026-11-27"
     },
     {
@@ -66381,12 +69504,66 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Mini Rail 250mm Cubierta Metálica XS",
+      "precio": 2.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/mini-rail-250mm-para-cubierta-metalica-xs/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Módulo Batería Felicity 5kW 10 años garantía",
+      "precio": 872.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/bateria-bajo-voltaje/modulo-de-bateria-felicity-5kw-para-inversor-growatt-spf-deye-voltronic-victron-solis-mppsolar-10-anos-de-garantia/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Módulo Batería Litio Growatt ARK 2.5H-A2 XH",
+      "precio": 890.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-alto-voltaje/modulo-bateria-litio-growatt-ark-2-5h-a1-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Módulo Batería Litio Growatt ARK 2.5L-A2 LV",
+      "precio": 925,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-alto-voltaje/modulo-bateria-litio-growatt-ark-2-5l-a1-lv/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "Módulo DC/DC Huawei LUNA2000-10KW-C1 (para batería LUNA2000)",
       "precio": 889,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/modulo-dc-dc-huawei-luna2000-10kw-c1-25075011.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Monitorización Growatt Shine LAN-X",
+      "precio": 18.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/monitorizacion-growatt-shine-lan-x/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Monitorización Growatt Shine-Link X",
+      "precio": 36.29,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/monitorizacion-growatt-shine-link-x-rf433-5w-ip30/",
       "fecha": "2026-11-27"
     },
     {
@@ -66417,6 +69594,24 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Optimizador Sungo OPT Pro 800W",
+      "precio": 36.3,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/optimizador-sungo-opt-pro-800w-compatible-con-huawei-growatt-deye-fox-saj-sofar/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Optimizador Tigo TS4 IP68",
+      "precio": 52.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/optimizador-tigo-ts4-ip68/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "damiasolar",
       "categoria": "Fotovoltaica",
       "nombre": "Panel solar Ecosolar Advanced 200W 12V monocristalino",
@@ -66432,6 +69627,33 @@
       "precio": 75,
       "unidad": "ud",
       "enlace": "https://www.damiasolar.com/panel-solar-era-solar-75w-12v.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Panel Solar Flexible N-Topcon Phono Solar 460W",
+      "precio": 181.5,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/paneles-solares-fotovoltaicos/panel-solar-flexible-n-topcon-phono-solar-455w-475w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Panel Solar Hanersun 460W Bifacial Full Black 30mm",
+      "precio": 105.45,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/paneles-solares-fotovoltaicos/panel-solar-longi-hi-mo-5m-lr5-54hph-405w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Panel Solar Hanersun 600W N-Type Bifacial 30mm",
+      "precio": 129.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/paneles-solares-fotovoltaicos/placa-solar-bifacial-n-type-tier-1-phono-solar-590w-30mm/",
       "fecha": "2026-11-27"
     },
     {
@@ -66507,6 +69729,24 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Placa Solar Portátil Plegable Flexible Growatt 100W",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/placa-solar-portable-plegable-y-flexible-growatt-100w/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Placa Solar Portátil Plegable Flexible Growatt 200W",
+      "precio": 399,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/baterias-portatiles/placa-solar-portable-plegable-y-flexible-growatt-200w/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "damiasolar",
       "categoria": "Fotovoltaica",
       "nombre": "Regulador solar MPPT 100/50D 50A",
@@ -66516,12 +69756,165 @@
       "fecha": "2026-11-27"
     },
     {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Sellador de Silicona 1527 para Módulos Fotovoltaicos",
+      "precio": 6.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/paneles-solares-fotovoltaicos/sellador-de-silicona-1527-para-modulos-fotovoltaicos/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Sensor de Corriente Toroidal Eastron 100A/40mA",
+      "precio": 9.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/sensor-de-corriente-toroidal-eastron-100a-40ma/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Sensor de Corriente Toroidal Eastron ESCT-B812 5A (desde)",
+      "precio": 62.25,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/sensor-de-corriente-toroidal-eastron-esct-b812-5a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Sensor de Corriente Toroidal Eastron ESCT-T24 5A",
+      "precio": 19.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/sensor-de-corriente-toroidal-eastron-esct-t24-5a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Sensor de Corriente Toroidal Eastron ESCT-T36 5A",
+      "precio": 21.95,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/sensor-de-corriente-toroidal-eastron-esct-t36-300-5a/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Shine WiFi S para Inversor SPH",
+      "precio": 19.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/shine-wifi-s-para-inversor-sph/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Soporte Lateral Batería FLA48100UG1 Pack 4",
+      "precio": 9.2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/baterias/accesorios-para-baterias/soporte-lateral-para-bateria-fla48100ug1-pack-4/",
+      "fecha": "2026-11-27"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Fotovoltaica",
       "nombre": "String box 2-2 1000VDC",
       "precio": 145,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/string-box-2-2-1000vdc-25062774.html",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo para Mini Rail",
+      "precio": 0.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/tornillo-para-mini-rail/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo Suspensión M10x200 Roscachapa",
+      "precio": 2.75,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/tornillo-suspension-m10x200-roscachapa/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo Suspensión M10x200 XH",
+      "precio": 2,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/accesorios-para-estructuras/tornillo-suspension-m10x200-xh/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo Suspensión M10x250 XH",
+      "precio": 2.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/tornillo-suspension-m10x250/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo Suspensión M10x300 XH",
+      "precio": 3.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/tornillo-suspension-m10x300/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Tornillo Suspensión M10x300mm Roscachapa",
+      "precio": 2.55,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/estructuras-para-paneles-solares/tornillo-suspension-m10x300-roscachapa/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Vatímetro Monofásico Growatt SPM",
+      "precio": 72.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/vatimetro-monofasico-growatt-spm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Vatímetro Monofásico SDM120 CT-M 40mA (incl. toroidal)",
+      "precio": 55.15,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/vatimetro-monofasico-sdm120-ct-m-40ma-incluye-1-toroidal-40ma/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Vatímetro Trifásico Growatt TPM",
+      "precio": 108.99,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/vatimetro-trifasico-growatt-tpm/",
+      "fecha": "2026-11-27"
+    },
+    {
+      "tienda": "iluminashop",
+      "categoria": "Fotovoltaica",
+      "nombre": "Vatímetro Trifásico SDM630 TPM-CT-E 40mA (3 toroidales)",
+      "precio": 172.7,
+      "unidad": "ud",
+      "enlace": "https://iluminashop.com/led-producto/material-electrico/energia-solar-fotovoltaica/inversores-solares/accesorios-para-inversores/vatimetro-trifasico-sdm630-tpm-ct-e-40ma-incluir-3-toroidales-40ma/",
       "fecha": "2026-11-27"
     },
     {

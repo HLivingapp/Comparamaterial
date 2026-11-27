@@ -15,6 +15,8 @@ const precios = JSON.parse(readFileSync(join(raiz, "datos", "precios.json"), "ut
 const actual = existsSync(rutaCat) ? JSON.parse(readFileSync(rutaCat, "utf8")) : { productos: [] };
 
 const PATRON = {
+  climahorro: /^https:\/\/www\.climahorro\.es\/[A-Za-z0-9-]+\/[A-Za-z0-9-]+-\d+\.html$/,
+  iluminashop: /^https:\/\/iluminashop\.com\/led-producto\/[^\s?#]+\/$/,
   damiasolar: /^https:\/\/www\.damiasolar\.com\/[a-z0-9-]+\.html$/,
   leroy: /^https:\/\/www\.leroymerlin\.es\/productos\/[a-z0-9-]+-\d{6,}\.html$/,
   obramat: /^https:\/\/www\.obramat\.es\/productos\/[a-z0-9-]+-\d{6,}\.html$/,
@@ -64,9 +66,9 @@ const CATEGORIA = [
 ];
 const unidad = (u = "") => /lote|pack|palet/i.test(u) ? "lote" : /m²|m2/i.test(u) ? "m²" : /caja/i.test(u) ? "caja" : /rollo/i.test(u) ? "rollo" : /^\s*(m|metro|ml)\b/i.test(u) ? "m" : "ud";
 // Tiendas especializadas: toda su oferta va a una categoría.
-const FIJA = { damiasolar: "Fotovoltaica", efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación", nais: "Cerámica y colocación", lamorenica: "Cerámica y colocación", universoceramiche: "Cerámica y colocación", latiendadelazulejo: "Cerámica y colocación", ikea: "Puertas y ventanas", banoidea: "Baño y cocina" };
+const FIJA = { climahorro: "Climatización y agua caliente", iluminashop: "Electricidad", damiasolar: "Fotovoltaica", efectoled: "Electricidad", tumaterialelectrico: "Electricidad", bricoelectrico: "Electricidad", climaprecio: "Climatización y agua caliente", azulejospena: "Cerámica y colocación", mytile: "Cerámica y colocación", maperi: "Cerámica y colocación", nais: "Cerámica y colocación", lamorenica: "Cerámica y colocación", universoceramiche: "Cerámica y colocación", latiendadelazulejo: "Cerámica y colocación", ikea: "Puertas y ventanas", banoidea: "Baño y cocina" };
 // Excepciones dentro de las tiendas especializadas, por la categoría de su web.
-const FIJA_EXC = [[/plato|mampara|fregadero|grifo/i, "Baño y cocina"], [/anclajes? qu[ií]mico/i, "Albañilería y morteros"], [/climatiz|aire acondicionado|split|radiador|emisor|toallero|calefactor|ventilador/i, "Climatización y agua caliente"], [/descalcific/i, "Fontanería y saneamiento"]];
+const FIJA_EXC = [[/solar|fotovolt|inversor|bater[ií]a/i, "Fotovoltaica"], [/plato|mampara|fregadero|grifo/i, "Baño y cocina"], [/anclajes? qu[ií]mico/i, "Albañilería y morteros"], [/climatiz|aire acondicionado|split|radiador|emisor|toallero|calefactor|ventilador/i, "Climatización y agua caliente"], [/descalcific/i, "Fontanería y saneamiento"]];
 const fija = (f) => FIJA[f.tienda] && ((FIJA_EXC.find(([r]) => r.test(f.categoriaWeb || "")) || [, FIJA[f.tienda]])[1]);
 const cat = (t) => (CATEGORIA.find(([r]) => r.test(t)) || [, null])[1];
 
