@@ -35,7 +35,8 @@ const PATRON = {
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
-  [/paneles? solar|placas? solar|fotovolt|microinversor|inversor (h[ií]brido|de red|onda pura)|bater[ií]a (de )?(litio|gel|solar|agm)|kit solar|kit autoconsumo|string box|regulador solar|multiplus|dtu|m[oó]dulo dc\/dc|bcu y base|desconectador de bater|cables de conexi[oó]n bater|estructura para panel/i, "Fotovoltaica"],
+  [/diferencial|cajas? (de )?registro|caja derivaci|tapa para caja/i, "Electricidad"],
+  [/paneles? solar|placas? solar|cable solar|regulador de carga|fotovolt|microinversor|inversor (h[ií]brido|de red|onda pura)|bater[ií]a (de )?(litio|gel|solar|agm)|kit solar|kit autoconsumo|string box|regulador solar|multiplus|dtu|m[oó]dulo dc\/dc|bcu y base|desconectador de bater|cables de conexi[oó]n bater|estructura para panel/i, "Fotovoltaica"],
   [/armario|casoneto|puertas? (blindad|acorazad|abatible|corredera)/i, "Puertas y ventanas"],
   [/pl[aá]stico de protecci|cubretodo|proteger antes de pintar/i, "Obra y protecci\u00f3n"],
   [/rodillo|brocha|carrocero|herramientas para pintar|barniz|barnices/i, "Pintura"],
