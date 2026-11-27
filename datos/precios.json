@@ -445,6 +445,13 @@
           "porUnidad": "0,18 €/m",
           "nota": "Reforzado, no es exactamente el mismo producto",
           "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "TUBO CORRUGADO PVC 20 MM (ROLLO 100 M)",
+          "precio": 21.2,
+          "enlace": "https://www.bricoelectrico.com/tubo-corrugado/124227-tubo-corrugado-negro-mts-rollo-100-diametr-20-8421084143578.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -563,6 +570,13 @@
           "precio": 149,
           "nota": "Conjunto con lavabo sobre encimera y espejo incluidos; sin grifo.",
           "enlace": "https://www.obramat.es/productos/conjunto-mueble-de-bano-ana-roble-80cm-25041625.html"
+        },
+        {
+          "tienda": "banoidea",
+          "producto": "Salgar Bequia mueble de baño con lavabo Blanco Mate 80 cm",
+          "precio": 275,
+          "enlace": "https://banoidea.com/products/salgar-bequia-mueble-lavabo-blanco-mate?variant=53682002166105",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -779,6 +793,13 @@
           "precio": 165,
           "nota": "Vertical, clase energética B.",
           "enlace": "https://www.obramat.es/productos/termo-electrico-80-litros-teka-shc-10963274.html"
+        },
+        {
+          "tienda": "climaprecio",
+          "producto": "Termo eléctrico vertical Centro Confort Mediterráneo 80 Litros",
+          "precio": 159,
+          "enlace": "https://www.climaprecio.es/termos-electricos/termo-electrico-vertical-centro-confort-mediterraneo-80-litros/",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1162,6 +1183,13 @@
           "precio": 8.83,
           "nota": "1 módulo, 6 kA",
           "enlace": "https://www.obramat.es/productos/automatico-magnetotermico-1-p-n-1-modu-16a-solera-10365635.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "INTERRUPTOR MAGNETOTERMICO 1P+N 16A",
+          "precio": 3.02,
+          "enlace": "https://www.bricoelectrico.com/magnetotermico-1-polo-neutro/266325-interruptor-magnetotermico-alpha-residencial-1pn-16a-curva-c-6ka-ninguna-8445275004445.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1186,6 +1214,13 @@
           "precio": 12.5,
           "nota": "La descripción de la ficha menciona 20 A aunque el nombre indica 40 A; comprobar en tienda",
           "enlace": "https://www.obramat.es/productos/diferencial-2p-40a-30ma-solera-25085735.html"
+        },
+        {
+          "tienda": "tumaterialelectrico",
+          "producto": "Diferencial 2P 40A 30mA",
+          "precio": 13.92,
+          "enlace": "https://www.tumaterialelectrico.com/es/diferencial-dos-polos/diferencial-2p-40a-30ma/p-158",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1210,6 +1245,20 @@
           "precio": 0.15,
           "nota": "Universal enlazable de 1 elemento; precio por unidad",
           "enlace": "https://www.obramat.es/productos/caja-de-mecanismos-electrico-65x65mm-para-empotrar-de-interior-10016846.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "CAJA DE MECANISMOS EMPOTRAR UNIVERSAL ENLAZABLE 66X66 MM",
+          "precio": 0.31,
+          "enlace": "https://www.bricoelectrico.com/caja-de-registro-empotrar/201317-caja-universal-multiple-enlazable-64x64x44-ud-emba-400-23001.html",
+          "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "efectoled",
+          "producto": "Caja de mecanismos universal empotrable 65x65x45 mm",
+          "precio": 0.19,
+          "enlace": "https://www.efectoled.com/es/comprar-cajas-de-registro-y-empalme/4502-caja-de-mecanismos-universal-empotrable-65x65x45-mm.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1288,6 +1337,13 @@
           "precio": 6.25,
           "nota": "ø224 mm, 1500 lm, un solo tono de luz",
           "enlace": "https://www.obramat.es/productos/downlight-led-18w-acabado-blanco-luz-blanca-secom-10684996.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "DOWNLIGHT LED EMPOTRABLE REDONDO 18W 3CCT",
+          "precio": 9.02,
+          "enlace": "https://www.bricoelectrico.com/downlight-empotrable-redondo/1019199-18w-downlight-slim-redondo-empotrar-d225-3cct-5600947228106.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1314,6 +1370,13 @@
           "porUnidad": "0,25 €/m",
           "nota": "Versión reforzada",
           "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-25mm-75m-10158470.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "TUBO CORRUGADO PVC 25 MM (ROLLO 75 M)",
+          "precio": 21.3,
+          "enlace": "https://www.bricoelectrico.com/tubo-corrugado/124228-tubo-corrugado-negro-mts-rollo-75-diametr-25-8427418005922.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1362,6 +1425,13 @@
           "precio": 279,
           "nota": "Inverter, frío/calor; instalación no incluida",
           "enlace": "https://www.obramat.es/productos/aire-acondicionado-wifi-split-3010-frigorias-skyluxe-25118137.html"
+        },
+        {
+          "tienda": "climaprecio",
+          "producto": "Aire Acondicionado Split 3000 frigorías",
+          "precio": 339,
+          "enlace": "https://www.climaprecio.es/split-1x1/aire-acondicionado-split-3000-frigorias/",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1386,6 +1456,13 @@
           "precio": 80,
           "nota": "Inercia en seco (sin fluido)",
           "enlace": "https://www.obramat.es/productos/toallero-electrico-500w-blanco-10807552.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "RADIADOR TOALLERO ELECTRICO SCUTI 500W BLANCO",
+          "precio": 129.03,
+          "enlace": "https://www.bricoelectrico.com/toallero-electrico/1047853-155-toallero-electrico-scuti-500w-3modos-display-tactil-anti-hielo-temporizador-89x52x9cm-8435684360768.html#/19-color-blanco",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -1410,6 +1487,13 @@
           "precio": 199,
           "nota": "Instalación no incluida",
           "enlace": "https://www.obramat.es/productos/calentador-gas-natural-estanco-bajo-nox-11l-thermor-top-sealed-25024770.html"
+        },
+        {
+          "tienda": "climaprecio",
+          "producto": "Calentador estanco Giatsu DUAL 11 L",
+          "precio": 269,
+          "enlace": "https://www.climaprecio.es/calentadores-a-gas/calentador-estanco-giatsu-dual-11-l/",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -2994,6 +3078,13 @@
           "precio": 12.96,
           "nota": "24 V; la ficha no indica si incluye fuente",
           "enlace": "https://www.obramat.es/productos/tira-led-24v-5m-9-6w-m-luz-neutra-ip20-10844603.html"
+        },
+        {
+          "tienda": "efectoled",
+          "producto": "Tira LED 24V SMD 120 LED/m 5m 10W/m IP20 Ancho 8mm",
+          "precio": 7.95,
+          "enlace": "https://www.efectoled.com/es/comprar-tiras-led-24v-dc/108138-tira-led-24v-dc-smd2835-120ledm-5m-ip20-ancho-8mm-corte-5cm.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -3035,6 +3126,13 @@
           "precio": 8.54,
           "nota": "26,5 W, 4000 lm, luz neutra.",
           "enlace": "https://www.obramat.es/productos/panel-led-empotrar-60x60-26-5w-luz-neutra-25076365.html"
+        },
+        {
+          "tienda": "efectoled",
+          "producto": "Panel LED 60x60 cm 42W 4200lm PHILIPS Certadrive",
+          "precio": 9.95,
+          "enlace": "https://www.efectoled.com/es/comprar-paneles-led-60x60cm/92773-panel-led-60x60-cm-42w-4200lm-philips-certadrive.html",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -3175,6 +3273,13 @@
           "precio": 250,
           "nota": "Solo el mueble: encimera/lavabo, espejo, grifo y válvula se venden aparte.",
           "enlace": "https://www.obramat.es/productos/mueble-de-bano-blur-60cm-blanco-2-cajones-25099217.html"
+        },
+        {
+          "tienda": "banoidea",
+          "producto": "Salgar Bequia mueble de baño con lavabo Blanco Mate 60 cm",
+          "precio": 249,
+          "enlace": "https://banoidea.com/products/salgar-bequia-mueble-lavabo-blanco-mate?variant=53682002100569",
+          "fecha": "2026-11-26"
         }
       ]
     },
@@ -3534,6 +3639,13 @@
           "producto": "Plafón LED circular 35cm 24W 2400lm",
           "precio": 22.95,
           "enlace": "https://www.obramat.es/productos/plafon-led-circular-35cm-24w-2400lm-25083350.html"
+        },
+        {
+          "tienda": "efectoled",
+          "producto": "Plafón LED 24W Circular Ø295 mm",
+          "precio": 9.85,
+          "enlace": "https://www.efectoled.com/es/comprar-plafones-led/519-plafon-led-24w-circular-o295-mm.html",
+          "fecha": "2026-11-26"
         }
       ]
     },

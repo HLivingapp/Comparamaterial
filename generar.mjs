@@ -187,7 +187,7 @@ function ctaReformista() {
 }
 
 function filaOferta(o, ganador, slug) {
-  const t = tiendas[o.tienda];
+  const t = todasTiendas[o.tienda];
   const gana = ganador && ganador === o;
   return `<tr${gana ? ' class="gana"' : ""}>
   <th scope="row">${esc(t.nombre)}${gana ? ' <span class="chip">Más barato</span>' : ""}</th>
@@ -248,7 +248,7 @@ function paginaMaterial(m) {
         price: o.precio.toFixed(2),
         priceCurrency: "EUR",
         url: o.enlace,
-        seller: { "@type": "Organization", name: tiendas[o.tienda].nombre },
+        seller: { "@type": "Organization", name: todasTiendas[o.tienda].nombre },
       })),
     },
   };
@@ -271,7 +271,7 @@ function paginaMaterial(m) {
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
 <p class="ficha-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(Math.min(...precios))}`}</p>
-${g ? `<p class="resumen">El más barato hoy es <b>${esc(tiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
+${g ? `<p class="resumen">El más barato hoy es <b>${esc(todasTiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
 <div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
