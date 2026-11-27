@@ -63,6 +63,10 @@
     "banoidea": {
       "nombre": "Bañoidea",
       "web": "https://banoidea.com"
+    },
+    "damiasolar": {
+      "nombre": "Damia Solar",
+      "web": "https://www.damiasolar.com"
     }
   },
   "materiales": [
@@ -4003,6 +4007,80 @@
           "producto": "Toma TV-Radio Serie Europa blanco (Solera)",
           "precio": 8.37,
           "enlace": "https://www.obramat.es/productos/toma-tv-radio-serie-europa-blanco-10528441.html"
+        }
+      ]
+    },
+    {
+      "slug": "bateria-litio-pylontech-us5000",
+      "nombre": "Batería de litio Pylontech US5000",
+      "categoria": "Fotovoltaica",
+      "formato": "4,8 kWh, 48 V",
+      "unidad": "ud",
+      "consejo": "Es una de las baterías más usadas en autoconsumo doméstico. Comprueba que tu inversor híbrido es compatible con Pylontech antes de comprarla; se pueden conectar varias en paralelo.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Batería de litio Pylontech US5000 48V 4,8kWh",
+          "precio": 891,
+          "enlace": "https://www.leroymerlin.es/productos/bateria-de-litio-pylontech-us5000-48v-4-8-kwh-85802015.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Batería litio Pylontech US5000 4,8kWh 48V",
+          "precio": 822,
+          "enlace": "https://www.obramat.es/productos/bateria-litio-4-8kwh-48v-pylontech-us5000-25023721.html"
+        }
+      ]
+    },
+    {
+      "slug": "bateria-litio-deye-se-g5-1-pro-b",
+      "nombre": "Batería de litio Deye SE-G5.1 Pro-B",
+      "categoria": "Fotovoltaica",
+      "formato": "5,1 kWh, 48 V",
+      "unidad": "ud",
+      "consejo": "Pensada para inversores híbridos Deye. Revisa la garantía de ciclos y si necesitas soporte de pared o rack.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Batería de litio Deye SE-G Pro-B 100A 5,1kWh",
+          "precio": 875,
+          "enlace": "https://www.leroymerlin.es/productos/bateria-de-litio-deye-se-g-pro-b-100a-5-1-kw-89341219.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Batería litio Deye SE-G5.1 PRO-B 5,1kWh 48V",
+          "precio": 802,
+          "enlace": "https://www.obramat.es/productos/bateria-litio-deye-5-1kwh-48v-se-g5-1-pro-b-25052608.html"
+        }
+      ]
+    },
+    {
+      "slug": "panel-solar-500w",
+      "nombre": "Panel solar de 500 W",
+      "categoria": "Fotovoltaica",
+      "formato": "Módulo monocristalino ~500–505 W, 1 unidad",
+      "unidad": "ud",
+      "consejo": "Compara el precio por vatio y la garantía de producción. Para tejados de vivienda, un kit de 3–5 kW suele llevar entre 6 y 10 paneles de este tamaño. Necesitas inversor, estructura y legalización.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Panel solar Gokin TOPCon bifacial 500W",
+          "precio": 89.25,
+          "nota": "Marca distinta en cada tienda",
+          "enlace": "https://www.leroymerlin.es/productos/panel-solar-gokin-topcon-b-f-500w-97263975.html"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "Panel solar Suntech H54NFB+ 505W N-type full black",
+          "precio": 77,
+          "nota": "Marca distinta en cada tienda",
+          "enlace": "https://www.obramat.es/productos/panel-solar-505w-suntech-n-type-full-black-h54nfb-25y-25138237.html"
+        },
+        {
+          "tienda": "damiasolar",
+          "producto": "Panel solar Ecosolar Advanced 505W half cut monocristalino",
+          "precio": 119,
+          "enlace": "https://www.damiasolar.com/panel-solar-ecosolar-advanced-505w-half-cut-monocristalino.html"
         }
       ]
     }

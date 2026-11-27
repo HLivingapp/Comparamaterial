@@ -31,6 +31,7 @@ try { imagenes = JSON.parse(readFileSync(join(aqui, "datos", "imagenes.json"), "
 
 // Iconos propios por categoría, para los materiales que aún no tienen foto.
 const ICONOS = {
+  "Fotovoltaica": '<path d="M10 40l8-20h28l8 20z"/><path d="M14 30h36M28 20l-3 20M36 20l3 20M32 40v12M24 52h16"/><circle cx="50" cy="10" r="4"/>',
   "Albañilería y morteros": '<path d="M14 22h36l-4 30H18z"/><path d="M14 22c4-6 32-6 36 0"/><path d="M22 34h20M22 42h20"/>',
   "Tabiquería seca": '<rect x="12" y="10" width="26" height="44" rx="1"/><path d="M44 10v44M50 10v44M44 16h6M44 48h6"/>',
   "Cerámica y colocación": '<rect x="10" y="10" width="20" height="20"/><rect x="34" y="10" width="20" height="20"/><rect x="10" y="34" width="20" height="20"/><rect x="34" y="34" width="20" height="20"/>',
