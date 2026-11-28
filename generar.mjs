@@ -10,7 +10,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { generarAmazon, bloqueAmazonArea, AMAZON } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
-import { SUBGRUPOS, subgrupo, area, ORDEN } from "./herramientas/subgrupos.mjs";
+import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -583,16 +583,18 @@ ${ctaReformista()}
   return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [producto, migas], raiz }) };
 }
 
-function listaProductos(ps, raiz) {
-  return `<ul class="prod-lista">${ps.map((m) => { const o = m.ofertas[0]; return `<li data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
+const VISTA_PREVIA = 6;
+function listaProductos(ps, raiz, previa = 0) {
+  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
   const ms = materiales.filter((m) => m.categoria === c);
   const ps = productos.filter((m) => m.categoria === c);
   const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
-  const nombresG = [...(SUBGRUPOS[c] || []).map(([g]) => g), "Otros"];
-  const grupos = nombresG.map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort((a, b) => minimo(a) - minimo(b)), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort((a, b) => minimo(a) - minimo(b)) }))
+  // Primero los productos completos, del más barato al más caro; las piezas sueltas al final.
+  const orden = (a, b) => esPieza(a.nombre) - esPieza(b.nombre) || minimo(a) - minimo(b);
+  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden) }))
     .filter((x) => x.ms.length + x.ps.length);
   const ruta = rutaCat(c);
   const raiz = "../../";
@@ -608,17 +610,17 @@ function paginaCategoria(c) {
 <p class="sub">${ms.length} materiales comparados${ps.length ? ` y ${ps.length} productos más` : ""} · precios con IVA · ${fechaTexto}</p>
 <nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.ms.length + x.ps.length}</small></a>`).join("")}</nav>
 <div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
-<p class="sub">Agrupados por tipo de producto y, dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
-${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
-${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz) : ""}</section>`).join("\n")}
-<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]");
+<p class="sub">Agrupados por tipo de producto: primero lo principal y al final los accesorios. Dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
+<div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
+${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
+<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
 ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
-function g(id){gs.forEach(function(s){s.hidden=!!id&&s.id!==id});bs.forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)})}
-bs.forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);window.scrollTo({top:document.querySelector(".subgrupos").offsetTop-10})})});
+function g(id){cg.classList.toggle("resumen-g",!id);gs.forEach(function(s){s.hidden=!!id&&s.id!==id});bs.forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)})}
+[].concat([].slice.call(bs),[].slice.call(vt)).forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);window.scrollTo({top:document.querySelector(".subgrupos").offsetTop-10})})});
 if(location.hash&&document.getElementById(location.hash.slice(1)))g(location.hash.slice(1));
-f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
+f.addEventListener("input",function(){cg.classList.toggle("resumen-g",!f.value&&!location.hash);a()});cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
 ${bloqueAmazonArea(c, raiz, { esc, eur, icono })}
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
