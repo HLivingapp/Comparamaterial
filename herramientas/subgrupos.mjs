@@ -9,7 +9,7 @@ export const SUBGRUPOS = {
     ["Recambios, desagües y fijaciones", /tornillo|recambio|repuesto|v[aá]lvula|rejilla|rejlla|brazo (de )?sujeci|bisagra|\bjunta|flexo|latiguillo|desag[uü]e|sif[oó]n|fijaci|perlizador|aireador|cartucho|maneta|tap[oó]n|silicona|embellecedor|llave de escuadra|base lavabo|kit de/i],
     ["Muebles de baño", /mueble|conjunto de ba[ñn]o|composici[oó]n|columna auxiliar|armario de ba|armario colgar|m[oó]dulo|pilar/i],
     ["Mamparas", /mampara|frontal|pivotante|panel de ducha|pantalla de ba[ñn]era/i],
-    ["Grifería de baño", (n) => /grifo|monomando|mezclador|termost[aá]tico|grifer/i.test(n) && !/columna|conjunto de ducha|barra (de )?ducha|set de ducha/i.test(n)],
+    ["Grifería de baño", (n) => /grifo|monomando|mezclador|termost[aá]tico|grifer/i.test(n) && !/columna|conjunto de ducha|barra (de )?ducha|set de ducha|orificio|sin grifer|^\W*(lavabo|lavamanos|encimera|fregadero|plato|bañera|inodoro|bid[eé])\b/i.test(n)],
     ["Columnas y duchas", /columna|conjunto de ducha|rociador|teleducha|barra (de )?ducha|brazo de ducha|set de ducha|ducha de mano|equipo de ducha|alcachofa/i],
     ["Platos de ducha", /plato/i],
     ["Bañeras", /ba[ñn]era/i],
