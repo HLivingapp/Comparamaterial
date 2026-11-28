@@ -18,13 +18,22 @@ const NOMBRE = process.env.NOMBRE_WEB || "Comparamaterial";
 const INDEXAR = process.env.INDEXAR === "1";
 
 const datos = JSON.parse(readFileSync(join(aqui, "datos", "precios.json"), "utf8"));
-const { fecha, zona, tiendas, materiales } = datos;
+const { zona, tiendas } = datos;
+// Frescura de precios: cada precio lleva la fecha en que se comprobó por última vez.
+// Más de AVISO_DIAS: se marca «sin comprobar desde…». Más de OCULTAR_DIAS o retirado de la tienda: no se publica.
+const HOY = process.env.HOY || new Date().toISOString().slice(0, 10);
+const AVISO_DIAS = 3, OCULTAR_DIAS = 14;
+const dias = (f) => Math.round((Date.parse(HOY) - Date.parse(f)) / 864e5);
+const vigente = (x) => x.fecha && !x.noDisponible && dias(x.fecha) <= OCULTAR_DIAS;
+const materiales = datos.materiales.map((m) => ({ ...m, ofertas: m.ofertas.map((o) => ({ ...o, fecha: o.fecha || datos.fecha })).filter(vigente) })).filter((m) => m.ofertas.length);
 // Tiendas especializadas: solo catálogo (no entran en la comparativa de materiales básicos).
 const todasTiendas = { ...tiendas, ...(datos.tiendasExtra || {}) };
 const css = readFileSync(join(aqui, "estilos.css"), "utf8");
 // Catálogo amplio: un producto por tienda, leído de las páginas de categoría (datos/catalogo.json).
 let catalogo = [];
-try { catalogo = JSON.parse(readFileSync(join(aqui, "datos", "catalogo.json"), "utf8")).productos || []; } catch {}
+try { catalogo = (JSON.parse(readFileSync(join(aqui, "datos", "catalogo.json"), "utf8")).productos || []).filter(vigente); } catch {}
+// Fecha de referencia: la comprobación más reciente de cualquier precio publicado.
+const fecha = [...materiales.flatMap((m) => m.ofertas.map((o) => o.fecha)), ...catalogo.map((p) => p.fecha)].sort().pop() || datos.fecha;
 // Fotos con licencia libre (Wikimedia Commons), opcionales: slug → {miniatura, pagina, autor, licencia}.
 let imagenes = {};
 try { imagenes = JSON.parse(readFileSync(join(aqui, "datos", "imagenes.json"), "utf8")); } catch {}
@@ -63,6 +72,10 @@ const eur = (n) => n.toLocaleString("es-ES", { minimumFractionDigits: 2, maximum
 const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 const [anio, mes, dia] = fecha.split("-").map(Number);
 const fechaTexto = `${dia} de ${MESES[mes - 1]} de ${anio}`;
+const fechaCorta = (f) => { const [a, m, d] = f.split("-").map(Number); return `${d} de ${MESES[m - 1]}`; };
+// Texto de la fecha de un precio, con aviso si lleva días sin comprobarse.
+const sello = (f) => dias(f) > AVISO_DIAS ? `<small class="f-fecha viejo">Sin comprobar desde el ${fechaCorta(f)}: puede haber cambiado</small>` : `<small class="f-fecha">Comprobado el ${fechaCorta(f)}</small>`;
+const AVISO_PRECIO = "Precio orientativo con IVA tomado de la web de la tienda en la fecha indicada. El precio final es el que marque la tienda al comprar y puede variar.";
 const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
 const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -78,7 +91,7 @@ const productos = catalogo.filter((p) => categorias.includes(p.categoria) && p.t
   while (usados.has(slug)) slug += "x";
   usados.add(slug);
   return { slug, nombre: bonito(p.nombre), categoria: p.categoria, formato: FORMATO[p.unidad] || "Unidad", catalogo: true, fechaPrecio: p.fecha,
-    ofertas: [{ tienda: p.tienda, producto: p.nombre, precio: p.precio, ...(p.precioM2 ? { porUnidad: eur(p.precioM2).replace(" €", " €/m²") } : {}), enlace: p.enlace }] };
+    ofertas: [{ tienda: p.tienda, producto: p.nombre, precio: p.precio, fecha: p.fecha, ...(p.precioM2 ? { porUnidad: eur(p.precioM2).replace(" €", " €/m²") } : {}), enlace: p.enlace }] };
 });
 const todos = [...materiales, ...productos];
 const rutaCat = (c) => `categoria/${slugify(c)}/`;
@@ -145,7 +158,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
 ${cuerpo}
 </main>
 <footer class="pie"><div class="ancho">
-  <p>Precios públicos de las webs de cada almacén, IVA incluido, consultados el ${fechaTexto}. Pueden cambiar según la tienda elegida y las ofertas del día. Confirma siempre el precio en el enlace antes de comprar.</p>
+  <p>Precios públicos de las webs de cada tienda, IVA incluido. Los comprobamos cada día y cada precio muestra la fecha de su última comprobación (la más reciente, el ${fechaTexto}). El precio final es el que marque la tienda al comprar y puede variar según la tienda física y las ofertas del día. Si un precio no se puede comprobar en ${OCULTAR_DIAS} días, lo retiramos.</p>
   <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
 <script>
@@ -193,7 +206,7 @@ function filaOferta(o, ganador, slug) {
   return `<tr${gana ? ' class="gana"' : ""}>
   <th scope="row">${esc(t.nombre)}${gana ? ' <span class="chip">Más barato</span>' : ""}</th>
   <td>${esc(o.producto)}${o.nota ? `<small>${esc(o.nota)}</small>` : ""}</td>
-  <td class="num">${eur(o.precio)}${o.porUnidad ? `<small>${esc(o.porUnidad)}</small>` : ""}</td>
+  <td class="num">${eur(o.precio)}${o.porUnidad ? `<small>${esc(o.porUnidad)}</small>` : ""}${o.fecha ? sello(o.fecha) : ""}</td>
   <td class="acc-t">${slug ? `<button type="button" class="t-add peq" data-add="${esc(slug)}" data-tienda="${esc(o.tienda)}">+ Añadir a la cesta</button>` : ""}<a href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en la web</a></td>
 </tr>`;
 }
@@ -282,6 +295,7 @@ ${g ? `<p class="resumen">El más barato hoy es <b>${esc(todasTiendas[g.tienda].
 <tbody>
 ${m.ofertas.map((o) => filaOferta(o, g, m.slug)).join("\n")}
 </tbody></table></div>
+<p class="aviso-precio">${AVISO_PRECIO}</p>
 <section class="consejo"><h2>Cuánto necesitas</h2><p>${esc(m.consejo)} <span class="nota">Dato orientativo: tu reformista lo ajusta a tu obra.</span></p></section>
 ${ctaReformista()}
 <section class="faq"><h2>Preguntas frecuentes</h2>${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</section>
@@ -543,7 +557,8 @@ function paginaProducto(m) {
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(todasTiendas[o.tienda].nombre)} · ${esc(m.formato)} · precio con IVA consultado el ${fechaP}</p>
 <p class="ficha-precio">${eur(o.precio)}${o.porUnidad ? `<small> · ${esc(o.porUnidad)}</small>` : ""}</p>
-<p class="resumen">Precio público de la web de ${esc(t)}. Puede cambiar según la tienda elegida; confírmalo en el enlace antes de comprar.</p>
+${dias(m.fechaPrecio) > AVISO_DIAS ? `<p class="aviso-viejo">Este precio no se ha podido comprobar desde el ${fechaP}. Puede haber cambiado: míralo en la tienda.</p>` : ""}
+<p class="resumen">${AVISO_PRECIO}</p>
 <div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>

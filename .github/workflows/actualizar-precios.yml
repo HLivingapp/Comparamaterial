@@ -1,0 +1,44 @@
+name: Comprobar precios cada día
+on:
+  schedule:
+    - cron: "17 3 * * *" # cada noche, 04:17 en Madrid (invierno)
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Máximo de productos por web (vacío = todos)"
+        required: false
+concurrency:
+  group: actualizar-precios
+  cancel-in-progress: false
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node herramientas/actualizar-precios.mjs ${{ inputs.limite && format('--limite {0}', inputs.limite) || '' }}
+      - name: Guardar precios comprobados
+        run: |
+          git config user.name "comparamaterial-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos
+          git diff --cached --quiet && exit 0
+          git commit -m "Precios comprobados el $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push origin HEAD:main && break; sleep 10; done
+  # Se publica siempre, aunque no cambie ningún precio, para que las fechas y avisos de antigüedad avancen.
+  publicar:
+    needs: comprobar
+    if: always()
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/publicar.yml
