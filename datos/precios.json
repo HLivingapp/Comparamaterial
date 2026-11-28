@@ -98,7 +98,8 @@
           "producto": "Cemento 32,5N 25 kg gris",
           "precio": 4.19,
           "porUnidad": "0,17 €/kg",
-          "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html"
+          "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -122,7 +123,8 @@
           "precio": 1.63,
           "porUnidad": "0,10 €/kg",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html"
+          "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -146,7 +148,8 @@
           "precio": 0.17,
           "porUnidad": "≈ 5,44 €/m²",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html"
+          "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -163,7 +166,8 @@
           "producto": "Mortero seco M7.5 25 kg gris",
           "precio": 1.79,
           "nota": "Precio muy bajo: confírmalo en tu tienda",
-          "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html"
+          "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -187,7 +191,8 @@
           "producto": "Mortero autonivelante Capafloor 20-50 mm 25 kg",
           "precio": 6.5,
           "porUnidad": "0,26 €/kg",
-          "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html"
+          "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -212,7 +217,8 @@
           "precio": 7.7,
           "porUnidad": "2,57 €/m²",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html"
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -229,7 +235,8 @@
           "producto": "Placa de yeso laminado Placo PPF 2500x1200x13 mm",
           "precio": 14.25,
           "porUnidad": "4,75 €/m²",
-          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html"
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -252,7 +259,8 @@
           "producto": "Montante Ingeperfil 48 mm 3 m",
           "precio": 2.34,
           "porUnidad": "0,78 €/m",
-          "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html"
+          "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -275,7 +283,8 @@
           "producto": "Canal Ingeperfil 48 mm 3 m",
           "precio": 2,
           "porUnidad": "0,67 €/m",
-          "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html"
+          "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -299,7 +308,8 @@
           "producto": "Pasta de juntas preparada Placomix Pro 20 kg",
           "precio": 18.89,
           "porUnidad": "0,94 €/kg",
-          "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html"
+          "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -348,7 +358,8 @@
           "precio": 7.55,
           "porUnidad": "0,30 €/kg",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html"
+          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -370,9 +381,11 @@
         {
           "tienda": "obramat",
           "producto": "Suelo porcelánico 60x60 Altea gris (caja 1,08 m²)",
-          "precio": 12.95,
+          "precio": 13.99,
           "porUnidad": "por m²",
-          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html"
+          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html",
+          "precioAnterior": 12.95,
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -397,7 +410,8 @@
           "producto": "Lámina impermeable Revestech Dry50 5×1,2 m (6 m²)",
           "precio": 47.3,
           "porUnidad": "7,88 €/m²",
-          "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html"
+          "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -453,10 +467,12 @@
         {
           "tienda": "obramat",
           "producto": "Tubo corrugado reforzado negro 20 mm 100 m",
-          "precio": 17.5,
+          "precio": 17.39,
           "porUnidad": "0,18 €/m",
           "nota": "Reforzado, no es exactamente el mismo producto",
-          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html"
+          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html",
+          "precioAnterior": 17.5,
+          "fecha": "2026-11-28"
         },
         {
           "tienda": "bricoelectrico",
@@ -4088,7 +4104,8 @@
           "tienda": "damiasolar",
           "producto": "Panel solar Ecosolar Advanced 505W half cut monocristalino",
           "precio": 119,
-          "enlace": "https://www.damiasolar.com/panel-solar-ecosolar-advanced-505w-half-cut-monocristalino.html"
+          "enlace": "https://www.damiasolar.com/panel-solar-ecosolar-advanced-505w-half-cut-monocristalino.html",
+          "fecha": "2026-11-28"
         }
       ]
     }
