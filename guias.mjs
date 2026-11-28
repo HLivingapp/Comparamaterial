@@ -84,3 +84,10 @@ ${ctaReformista()}
   writeFileSync(join(salida, ruta, "index.html"), pagina({ titulo: `Guías de compra de materiales de obra (${mesTexto})`, descripcion: "Guías para elegir termo eléctrico, caldera de condensación, aerotermia, placas solares y herramientas, con precios reales comparados entre tiendas.", ruta, cuerpo, jsonld: [lista], raiz }));
   rutas.push(ruta);
 }
+
+// Botón «Ver en Amazon» para fichas de material y producto (solo con AMAZON_TAG). Búsqueda por nombre, sin precios ni fotos de Amazon.
+export function botonAmazon(nombre) {
+  if (!AMAZON_TAG) return "";
+  const k = String(nombre).replace(/\([^)]*\)/g, " ").replace(/[«»"“”]/g, " ").split(/\s+/).filter(Boolean).slice(0, 7).join(" ");
+  return `<a class="boton secundario amz" href="${amazonUrl(k).replace(/&/g, "&amp;")}" rel="sponsored nofollow noopener" target="_blank" title="Enlace de afiliado de Amazon">Buscar en Amazon →</a>`;
+}

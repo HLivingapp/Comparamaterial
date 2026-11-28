@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { generarGuias, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
+import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
@@ -290,7 +290,7 @@ function paginaMaterial(m) {
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
 <p class="ficha-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(Math.min(...precios))}`}</p>
 ${g ? `<p class="resumen">El más barato hoy es <b>${esc(todasTiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
-<div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
+<div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button>${botonAmazon(m.nombre)}<a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
 <h2>Mejor precio de ${esc(nombreMin)} hoy${hayOferta ? " (con oferta)" : ""}</h2>
@@ -566,7 +566,7 @@ function paginaProducto(m) {
 <p class="ficha-precio">${eur(o.precio)}${o.porUnidad ? `<small> · ${esc(o.porUnidad)}</small>` : ""}</p>
 ${dias(m.fechaPrecio) > AVISO_DIAS ? `<p class="aviso-viejo">Este precio no se ha podido comprobar desde el ${fechaP}. Puede haber cambiado: míralo en la tienda.</p>` : ""}
 <p class="resumen">${AVISO_PRECIO}</p>
-<div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
+<div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button>${botonAmazon(m.nombre)}<a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
 ${alternativas.length ? `<section><h2>Parecidos en otras tiendas</h2>${listaProductos(alternativas, raiz)}</section>` : ""}
