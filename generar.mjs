@@ -12,6 +12,7 @@ import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./a
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
 import { esquema, medidas } from "./herramientas/esquemas.mjs";
+import { MARCAS } from "./herramientas/marcas.mjs";
 import { prioridad } from "./herramientas/mas-vendidos.mjs";
 import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
@@ -194,7 +195,7 @@ const ALIAS = [
 ];
 const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
 const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(esPieza(m.nombre) || /\bpara\b|^\W*(juego|kit|llave|coquilla|tornillo|recambio|repuesto|soporte|tap[oó]n|tapa|flexo|v[aá]lvula|latiguillo|rejilla|mango)\b/i.test(m.nombre) ? { z: 1 } : {}), ...(fotoDe(m) ? { i: fotoDe(m).miniatura.replace(/^img\/reforma-|\.webp$/g, "") } : {}), u: [...m.ofertas].sort((a, b) => a.precio - b.precio)[0].enlace.replace(/^https:\/\//, ""), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
-function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
+function pagina({ titulo, descripcion, ruta, cuerpo, jsonld = [], raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
 <html lang="es">
@@ -222,7 +223,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
   <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a><a class="destacado" href="${raiz}marcas/">Buscar por marca</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -723,6 +724,48 @@ ${ctaReformista()}
   return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [lista, migas], raiz }) };
 }
 
+// Páginas por marca: todos los productos de la marca en todas las tiendas, del más barato al más caro, por área.
+function marcasConProductos() {
+  const out = [];
+  for (const [grupo, lista] of Object.entries(MARCAS)) for (const [nombre, patron] of lista) {
+    const ps = [...materiales, ...productos].filter((x) => patron.test(x.nombre));
+    if (ps.length >= 3 && !out.some((o) => o.nombre === nombre)) out.push({ grupo, nombre, slug: slugify(nombre), ps });
+  }
+  return out;
+}
+function paginaMarca(mc) {
+  const raiz = "../../", ruta = `marcas/${mc.slug}/`, minimo = (x) => Math.min(...x.ofertas.map((o) => o.precio));
+  const porArea = new Map();
+  for (const x of mc.ps) { const a = x.categoria; if (!porArea.has(a)) porArea.set(a, []); porArea.get(a).push(x); }
+  const areas = [...porArea.entries()].sort((a, b) => categorias.indexOf(a[0]) - categorias.indexOf(b[0]));
+  // Resumen por tienda: cuántos productos de la marca tiene y desde qué precio.
+  const tiendasM = new Map();
+  for (const x of mc.ps) for (const o of x.ofertas) { const t = tiendasM.get(o.tienda) || { n: 0, min: Infinity }; t.n++; t.min = Math.min(t.min, o.precio); tiendasM.set(o.tienda, t); }
+  facetaDe = () => [];
+  const titulo = `${mc.nombre} más barato: qué tienda lo vende a mejor precio (${mesTexto})`;
+  const descripcion = `${mc.ps.length} productos de ${mc.nombre} comparados en ${tiendasM.size} tiendas, del más barato al más caro, con IVA y enlace a cada tienda.`;
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}marcas/">Marcas</a> › ${esc(mc.nombre)}</nav>
+<h1>${esc(mc.nombre)}: dónde comprarlo más barato</h1>
+<p class="resumen">${mc.ps.length} productos de ${esc(mc.nombre)} en ${tiendasM.size} ${tiendasM.size === 1 ? "tienda" : "tiendas"}, ordenados del más barato al más caro. Precios con IVA · ${fechaTexto}.</p>
+<table class="marca-tiendas"><thead><tr><th>Tienda</th><th>Productos</th><th>Desde</th></tr></thead><tbody>${[...tiendasM.entries()].sort((a, b) => b[1].n - a[1].n).map(([t, v]) => `<tr><td>${esc(tiendaCorta(t))}</td><td>${v.n}</td><td>${eur(v.min)}</td></tr>`).join("")}</tbody></table>
+${areas.map(([a, xs]) => `<section class="grupo"><h2>${esc(a)} <small>${xs.length}</small></h2>${listaProductos(xs.filter((x) => x.catalogo || !x.slug.includes("/") || true).sort((p, q) => esPieza(p.nombre) - esPieza(q.nombre) || minimo(p) - minimo(q)), raiz, 30)}</section>`).join("")}
+${ctaReformista()}`;
+  return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, raiz }) };
+}
+function paginaMarcas(lista) {
+  const raiz = "../", ruta = "marcas/";
+  const grupos = Object.keys(MARCAS).map((g) => [g, lista.filter((x) => x.grupo === g)]).filter(([, l]) => l.length);
+  const cuerpo = `
+<nav class="migas"><a href="${raiz}">Materiales</a> › Marcas</nav>
+<h1>Buscar por marca: quién la vende más barata</h1>
+<p class="resumen">Elige una marca y te enseñamos todos sus productos en las tiendas que comparamos, del más barato al más caro.</p>
+<div class="filtro-prod"><input type="search" placeholder="Escribe una marca: Grohe, Miele, Daikin…" aria-label="Buscar marca" data-filtro-marca></div>
+${grupos.map(([g, l]) => `<section class="marcas-g"><h2>${esc(g)}</h2><ul class="marcas-l">${l.map((x) => `<li data-n="${esc(slugify(x.nombre).replace(/-/g, " "))}"><a href="${x.slug}/"><b>${esc(x.nombre)}</b><small>${x.ps.length} productos · desde ${eur(Math.min(...x.ps.map((p) => Math.min(...p.ofertas.map((o) => o.precio)))))}</small></a></li>`).join("")}</ul></section>`).join("")}
+<script>(function(){var q=document.querySelector("[data-filtro-marca]");function n(t){return t.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}q.addEventListener("input",function(){var w=n(q.value);document.querySelectorAll(".marcas-l li").forEach(function(li){li.hidden=w&&li.getAttribute("data-n").indexOf(w)<0});document.querySelectorAll(".marcas-g").forEach(function(s){s.hidden=!s.querySelector("li:not([hidden])")})})})();</script>`;
+  return { ruta, html: pagina({ titulo: `Buscar materiales por marca: ${lista.slice(0, 6).map((x) => x.nombre).join(", ")} y más`, descripcion: `Compara el precio de ${lista.length} marcas de reforma (baño, cerámica, electrodomésticos, climatización) en varias tiendas.`, ruta, cuerpo, raiz }) };
+}
+
 rmSync(salida, { recursive: true, force: true });
 mkdirSync(salida, { recursive: true });
 if (existsSync(join(aqui, "img"))) cpSync(join(aqui, "img"), join(salida, "img"), { recursive: true });
@@ -755,6 +798,8 @@ for (const c of categorias) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
+{ const lm = marcasConProductos();
+  for (const { ruta, html } of [paginaMarcas(lm), ...lm.map(paginaMarca)]) { mkdirSync(join(salida, ruta), { recursive: true }); writeFileSync(join(salida, ruta, "index.html"), html); rutas.push(ruta); } }
 generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
