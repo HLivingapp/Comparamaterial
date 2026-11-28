@@ -52586,6 +52586,15 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Climatización y agua caliente",
+      "nombre": "Ventilador de techo CREATE Wind Calm S silencioso 40 W aspas ABS Ø112 cm sin luz y sin wifi",
+      "precio": 74.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/create-wind-calm-s-ventilador-de-techo-silencioso-de-40-w-con-aspas-tecnicas-de-abs-112-sin-iluminacion-y-sin-wifi-79444006.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Climatización y agua caliente",
       "nombre": "VENTILADOR DE TECHO DC DANI 72W BLANCO",
@@ -95087,6 +95096,16 @@
     {
       "tienda": "obramat",
       "categoria": "Suelos",
+      "nombre": "Suelo laminado AC5 8,5mm modelo Aqua Ural",
+      "precio": 8.9,
+      "unidad": "m²",
+      "precioM2": 8.9,
+      "enlace": "https://www.obramat.es/productos/suelo-laminado-ac5-8-5mm-modelo-aqua-ural-25054443.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Suelos",
       "nombre": "Suelo laminado AC5 8mm Modelo Roble Lama Kronospan",
       "precio": 9.3,
       "unidad": "m²",
@@ -95197,22 +95216,62 @@
     {
       "tienda": "obramat",
       "categoria": "Suelos",
-      "nombre": "SUELO LAMINADO AC6 AQUA 48 HORAS 8+1MM MODELO EVOQUE",
-      "precio": 34.22,
-      "unidad": "ud",
+      "nombre": "Suelo laminado AC6 Aqua 48 horas 8+1mm modelo Evoque",
+      "precio": 14.5,
+      "unidad": "m²",
       "precioM2": 14.5,
       "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48-horas-8-1mm-modelo-evoque-25119438.html",
-      "fecha": "2026-11-25"
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
       "categoria": "Suelos",
-      "nombre": "SUELO LAMINADO AC6 AQUA 48 HORAS 8MM MODELO ATLAS",
+      "nombre": "Suelo laminado AC6 Aqua 48 horas 8+1mm modelo Rhin",
+      "precio": 14.5,
+      "unidad": "m²",
+      "precioM2": 14.5,
+      "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48-horas-8-1mm-modelo-rhin-25119437.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Suelos",
+      "nombre": "Suelo laminado AC6 Aqua 48 horas 8+1mm modelo Ural",
+      "precio": 14.5,
+      "unidad": "m²",
+      "precioM2": 14.5,
+      "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48-horas-8-1mm-modelo-ural-25119313.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Suelos",
+      "nombre": "Suelo laminado AC6 Aqua 48 horas 8mm modelo Atlas",
       "precio": 13.9,
       "unidad": "m²",
       "precioM2": 13.9,
       "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48-horas-8mm-modelo-atlas-25119475.html",
-      "fecha": "2026-11-25"
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Suelos",
+      "nombre": "Suelo laminado AC6 Aqua 48h 8mm modelo Cremona",
+      "precio": 7.41,
+      "unidad": "m²",
+      "precioM2": 7.41,
+      "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48h-8mm-modelo-cremona-25138208.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Suelos",
+      "nombre": "Suelo laminado AC6 Aqua 48h 8mm modelo Roble",
+      "precio": 9.9,
+      "unidad": "m²",
+      "precioM2": 9.9,
+      "enlace": "https://www.obramat.es/productos/suelo-laminado-ac6-aqua-48h-8mm-modelo-roble-25149472.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
