@@ -322,3 +322,6 @@ main>*{min-width:0}
 .br a.br-web{flex:0 0 auto;display:inline-block;padding:6px 10px;color:var(--tx)}
 @media (max-width:520px){.br{flex-wrap:wrap}.br>a:not(.br-web){flex:1 1 calc(100% - 70px)}.br a.br-web{margin-left:auto}
 .cat-lista li{flex-wrap:wrap}.cat-lista li>span{flex:1 1 100%}.cat-lista li .ir-web{margin-left:auto}}
+.prod-lista .amz-ir{text-decoration:none;white-space:nowrap;background:#ffd814;border-color:#f0c400;color:#111}
+.prod-lista .amz-li .pl-t{color:#b45309}
+.amz-fila th{color:#b45309}
