@@ -1280,21 +1280,21 @@
   },
   {
    "asin": "B0BPZ212BY",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence Aero 5275 motor DC"
   },
   {
    "asin": "B0BPYR79B5",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence 4800 Light negro"
   },
   {
    "asin": "B0983BK3QM",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence Aero 4800 Style inox"
@@ -1970,6 +1970,1581 @@
    "grupo": "Cuadro y protecciones",
    "marca": "Hager",
    "nombre": "Interruptor diferencial Hager 63 A 30 mA 2 polos tipo A"
+  },
+  {
+   "asin": "B083WNZ4J7",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm blanco aspas madera Ø132 cm motor DC"
+  },
+  {
+   "asin": "B083WNG21H",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm blanco Ø132 cm mando"
+  },
+  {
+   "asin": "B083WPC8S4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm negro aspas madera oscura Ø132 cm"
+  },
+  {
+   "asin": "B0F4DKL4XQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm S blanco madera Ø112 cm"
+  },
+  {
+   "asin": "B0DYNVYT4J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Wind Calm ratán madera Ø132 cm"
+  },
+  {
+   "asin": "B0F4D5BH81",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm M verde salvia WiFi Ø132 cm"
+  },
+  {
+   "asin": "B094NQDK5V",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm negro WiFi Ø132 cm"
+  },
+  {
+   "asin": "B083WP3SGT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm níquel madera clara Ø132 cm"
+  },
+  {
+   "asin": "B0HBT7QD22",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Carla L motor DC blanco Ø132 cm"
+  },
+  {
+   "asin": "B0C865TPP3",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Rainbow motor DC Ø75 cm"
+  },
+  {
+   "asin": "B0CDX1TTYT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Anne minimalista motor DC"
+  },
+  {
+   "asin": "B07QGFMT53",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz Sulion Baloo 2xE27 motor AC"
+  },
+  {
+   "asin": "B07G5LS9DP",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz Sulion Islas blanco"
+  },
+  {
+   "asin": "B08318RTR4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Morea marrón claro motor DC"
+  },
+  {
+   "asin": "B07LG6J2XB",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Morea marrón motor DC 3 palas"
+  },
+  {
+   "asin": "B09QMLKTNK",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Andros gris motor DC"
+  },
+  {
+   "asin": "B07LG897RW",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Nuu blanco motor DC 3 palas"
+  },
+  {
+   "asin": "B083192WHQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Rodas marrón motor DC"
+  },
+  {
+   "asin": "B08SW8Z2HB",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Winche cromo motor DC"
+  },
+  {
+   "asin": "B08SW9WC8G",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Deco Fan negro/madera motor DC"
+  },
+  {
+   "asin": "B078XG7JTG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Leyte marrón motor DC"
+  },
+  {
+   "asin": "B08SWBHVQL",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Mini Tube Fan negro mate"
+  },
+  {
+   "asin": "B08318V77H",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Hydra blanco motor DC"
+  },
+  {
+   "asin": "B0C9WXW8JN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Genérico",
+   "nombre": "Ventilador de techo sin iluminación, madera motor DC Ø132 cm con mando, apto exterior"
+  },
+  {
+   "asin": "B00WEVOO3W",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Westinghouse",
+   "nombre": "Ventilador de techo sin iluminación, Westinghouse Techno titanio"
+  },
+  {
+   "asin": "B07CV9NR4F",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 96160 Ø160 cm"
+  },
+  {
+   "asin": "B07R738DCZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 99132 blanco Ø132 cm"
+  },
+  {
+   "asin": "B007PRWBQC",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 72120 inox Ø120 cm con mando"
+  },
+  {
+   "asin": "B00D87WJDI",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 77132 plateado Ø132 cm con mando"
+  },
+  {
+   "asin": "B085XH3RJS",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 103132 Ø132 cm silencioso"
+  },
+  {
+   "asin": "B085WML4DZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 106132 Ø132 cm 35 W"
+  },
+  {
+   "asin": "B007PRWB3A",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 50120 cromo 6 aspas"
+  },
+  {
+   "asin": "B0BPZFTLHZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de techo con luz Cecotec EnergySilence LampAero 600 beige motor DC"
+  },
+  {
+   "asin": "B0BQ1PFZ6S",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de techo con luz Cecotec EnergySilence 4800 Light negro y dorado"
+  },
+  {
+   "asin": "B092JBQWXW",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 540 Smart con mando"
+  },
+  {
+   "asin": "B0CV4FM273",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 560 Max Smart con mando"
+  },
+  {
+   "asin": "B0BQ1C77KT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1600 Moskito antimosquitos"
+  },
+  {
+   "asin": "B0BPZK2GT6",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence FanLamp con aro de luz LED motor DC"
+  },
+  {
+   "asin": "B0BPZWMC2L",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1000 Smart Control motor DC"
+  },
+  {
+   "asin": "B0BPZY1D43",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 620 Retrostyle cromado"
+  },
+  {
+   "asin": "B092J642D3",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1010 ExtremeConnected"
+  },
+  {
+   "asin": "B0BQ1DGJ7C",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 9150 Skyline Smart 46\""
+  },
+  {
+   "asin": "B0BPZ1GV9J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 8150 Skyline 42\""
+  },
+  {
+   "asin": "B0BQ1P2WZG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre sin aspas Cecotec EnergySilence 9890 Skyline Bladeless"
+  },
+  {
+   "asin": "B092JB4Z7J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 800 Skyline Smart 36\""
+  },
+  {
+   "asin": "B0BQ1434VV",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 9090 Skyline Smart Light"
+  },
+  {
+   "asin": "B00AZQL7FQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta 80 cm negro/plata con temporizador"
+  },
+  {
+   "asin": "B0BVRGX1LN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta Eole VU6871 ultra silencioso con mando"
+  },
+  {
+   "asin": "B0DSWLKS33",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta Eole Compact VU6220"
+  },
+  {
+   "asin": "B08TV5D5RN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de pie Rowenta Urban Cool VU6720"
+  },
+  {
+   "asin": "B007PRWD9M",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de sobremesa Orbegozo TF 0121"
+  },
+  {
+   "asin": "B00CSU32OG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de sobremesa Orbegozo TM 1915 cabezal orientable"
+  },
+  {
+   "asin": "B07NSLW3JT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Taurus",
+   "nombre": "Ventilador de sobremesa Taurus Greco 16 Elegance 40 W"
+  },
+  {
+   "asin": "B007PRW9S2",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0242 blanco con mando"
+  },
+  {
+   "asin": "B007PRW9Q4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0139"
+  },
+  {
+   "asin": "B085WCSP9W",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0243"
+  },
+  {
+   "asin": "B085WD5HPN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0141 negro 40 cm"
+  },
+  {
+   "asin": "B07F76NW7J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0145 5 aspas 80 W"
+  },
+  {
+   "asin": "B08BP7NJM9",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 40 mm rollo 2 x 5 m"
+  },
+  {
+   "asin": "B098NTXSLK",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 40 mm rollo 2 x 10 m"
+  },
+  {
+   "asin": "B08BP8KMTP",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 40 mm rollo 1 x 10 m"
+  },
+  {
+   "asin": "B08J1CJDH1",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Jardinlife",
+   "nombre": "Césped artificial premium Jardinlife 40 mm rollo 2 x 5 m"
+  },
+  {
+   "asin": "B07PFFR382",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Jardin202",
+   "nombre": "Césped artificial Jardin202 Almería 40 mm rollo"
+  },
+  {
+   "asin": "B07B8CFMD2",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Jardin202",
+   "nombre": "Césped artificial Jardin202 Sevilla 42 mm rollo 2 x 5 m"
+  },
+  {
+   "asin": "B07NS2947Q",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Jardin202",
+   "nombre": "Césped artificial Jardin202 Valencia Premium 30 mm rollo"
+  },
+  {
+   "asin": "B08BNNTYFN",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 30 mm rollo 2 x 5 m"
+  },
+  {
+   "asin": "B0BV2667KG",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 30 mm rollo 1 x 3 m"
+  },
+  {
+   "asin": "B08BNGYMZ9",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 20 mm rollo 1 x 5 m"
+  },
+  {
+   "asin": "B08BNFLYYD",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial 20 mm rollo 1 x 2,5 m"
+  },
+  {
+   "asin": "B0BTZLJCBM",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Césped artificial Benidorm 20 mm rollo 1 x 5 m para terrazas"
+  },
+  {
+   "asin": "B09XTXG8T9",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Cebú",
+   "nombre": "Césped artificial profesional Cebú 20 mm rollo 1 x 5 m alta densidad"
+  },
+  {
+   "asin": "B00K7Y7EX0",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Miarco",
+   "nombre": "Cinta adhesiva de unión para césped artificial Miarco 150 mm x 10 m"
+  },
+  {
+   "asin": "B08NHVRWBB",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Kestkas",
+   "nombre": "Cinta de unión para césped artificial Kestkas 15 cm x 10 m"
+  },
+  {
+   "asin": "B0D74X88TB",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Kestkas",
+   "nombre": "Cinta de unión para césped artificial Kestkas 15 cm x 10 m (2 uds)"
+  },
+  {
+   "asin": "B097ZQY82F",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Spaire",
+   "nombre": "Grapas en U para césped artificial galvanizadas 150 x 25 mm (100 uds)"
+  },
+  {
+   "asin": "B08C7DH953",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "YSHCA",
+   "nombre": "Grapas de fijación en U para césped artificial 200 x 40 mm (100 uds)"
+  },
+  {
+   "asin": "B0C36XPHKD",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Piquetas para césped artificial 50 grapas + 50 arandelas galvanizadas"
+  },
+  {
+   "asin": "B06Y2FMYVF",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "vidaXL",
+   "nombre": "Tarima composite WPC vidaXL con accesorios 16 m² gris"
+  },
+  {
+   "asin": "B0C6MDNNR1",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Eclay",
+   "nombre": "Tarima composite WPC maciza Eclay con accesorios marrón oscuro"
+  },
+  {
+   "asin": "B0F19BZ6WR",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Ateleta",
+   "nombre": "Tarima composite WPC Ateleta gris grafito para exterior"
+  },
+  {
+   "asin": "B0F98YRZ1Z",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "CCLIFE",
+   "nombre": "Losetas encajables composite WPC CCLIFE 30 x 30 cm gris claro"
+  },
+  {
+   "asin": "B09VPX4K48",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Losetas encajables composite WPC 30 x 30 cm gris, 3 m² (33 uds)"
+  },
+  {
+   "asin": "B08YKJ2NWF",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Terre Jardin",
+   "nombre": "Losetas encajables composite efecto madera Terre Jardin (5 uds)"
+  },
+  {
+   "asin": "B08R37GH11",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Outsunny",
+   "nombre": "Losetas encajables de madera Outsunny 30 x 30 cm, 2,40 m² (27 uds)"
+  },
+  {
+   "asin": "B0C7QQHDX2",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Outsunny",
+   "nombre": "Losetas encajables de madera Outsunny 30 x 30 cm natural, 2,43 m²"
+  },
+  {
+   "asin": "B0CHV5XWC6",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Goplus",
+   "nombre": "Losetas encajables de madera de acacia Goplus 30 x 30 cm, 2,43 m²"
+  },
+  {
+   "asin": "B07BRTRF5R",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Casaria",
+   "nombre": "Losetas encajables de madera de acacia Casaria FSC 30 x 30 cm, 2 m²"
+  },
+  {
+   "asin": "B09PM8Q28V",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Yaheetech",
+   "nombre": "Losetas encajables de madera de abeto Yaheetech 30 x 30 cm, 2,6 m²"
+  },
+  {
+   "asin": "B0GQ3GXNKL",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Vounot",
+   "nombre": "Losetas encajables de exterior Vounot 30 x 30 cm antracita con drenaje, 1 m²"
+  },
+  {
+   "asin": "B07DC8X4TC",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "UPP",
+   "nombre": "Losetas encajables de exterior UPP 30 x 30 cm antideslizantes (6 uds)"
+  },
+  {
+   "asin": "B06XXSW4JT",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "UPP",
+   "nombre": "Losetas encajables de exterior UPP 30 x 30 cm efecto piedra (6 uds)"
+  },
+  {
+   "asin": "B07V4KNH6D",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Antihumedades",
+   "nombre": "Losetas encajables autoventiladas antihumedad 30 x 30 cm antracita (12 uds)"
+  },
+  {
+   "asin": "B089YQ9T8J",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Antihumedades",
+   "nombre": "Losetas encajables autoventiladas antihumedad 30 x 30 cm (100 uds, 9 m²)"
+  },
+  {
+   "asin": "B073RDGRPZ",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Genérico",
+   "nombre": "Porcelánico de exterior imitación roble 45 x 90 cm espesor 2 cm"
+  },
+  {
+   "asin": "B005L9BDXI",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Nowebau",
+   "nombre": "Plot regulable para tarima de terraza Nowebau 30-65 mm"
+  },
+  {
+   "asin": "B092MX8HKJ",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Dakota",
+   "nombre": "Plot regulable Arkimede para losas 115-220 mm"
+  },
+  {
+   "asin": "B0C544HY2G",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "XPOtool",
+   "nombre": "Plot regulable para terraza XPOtool 140-210 mm (10 uds)"
+  },
+  {
+   "asin": "B07PGW5MXX",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Trevendo",
+   "nombre": "Plot regulable universal Trevendo para rastreles y losas 30-45 mm (25 uds)"
+  },
+  {
+   "asin": "B0BX28R1JZ",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "Jardinex",
+   "nombre": "Plot regulable Jardinex para losa 17-20 cm"
+  },
+  {
+   "asin": "B09WJ2TD3N",
+   "area": "Terrazas y patios",
+   "grupo": "",
+   "marca": "ACXIN",
+   "nombre": "Plot regulable ACXIN para terraza 30-60 mm (10 uds)"
+  },
+  {
+   "asin": "B0BMQFSLG5",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "LG",
+   "nombre": "Frigorífico americano LG GSQV90PZAE Door-in-Door"
+  },
+  {
+   "asin": "B098PB4CHB",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Samsung",
+   "nombre": "Frigorífico americano Samsung Side by Side Family Hub RS6HA8891SL 614 L"
+  },
+  {
+   "asin": "B0CTR54Q9P",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "LG",
+   "nombre": "Frigorífico americano LG GSGV80EPLL InstaView negro mate 635 L"
+  },
+  {
+   "asin": "B0CZXLGGLK",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "LG",
+   "nombre": "Frigorífico americano LG GSXE90MBAD InstaView 628 L"
+  },
+  {
+   "asin": "B0B3XZB6Q7",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Samsung",
+   "nombre": "Frigorífico americano Samsung RH68B8521S9 Food Showcase 627 L"
+  },
+  {
+   "asin": "B09GB4R9F7",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "LG",
+   "nombre": "Frigorífico americano LG GSXV91MCAE negro mate 635 L"
+  },
+  {
+   "asin": "B07H4HKFNX",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "LG",
+   "nombre": "Frigorífico americano LG GSB470BASZ Total No Frost 642 L"
+  },
+  {
+   "asin": "B0CC43VWND",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "AEG",
+   "nombre": "Placa de inducción con extractor integrado AEG CCE84543FB 80 cm"
+  },
+  {
+   "asin": "B0C82KP6H8",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "Cata",
+   "nombre": "Placa de inducción con extractor integrado Cata AS 600"
+  },
+  {
+   "asin": "B0BN47R1S4",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "Cata",
+   "nombre": "Placa de inducción con extractor integrado Cata AS 750"
+  },
+  {
+   "asin": "B0BKQPDYT8",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "Balay",
+   "nombre": "Placa de inducción con extractor integrado Balay 3EBC989LU 80 cm"
+  },
+  {
+   "asin": "B08TMP7KPB",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "Elica",
+   "nombre": "Placa de inducción con extractor integrado Elica NikolaTesla Fit"
+  },
+  {
+   "asin": "B094DFJ5KL",
+   "area": "Cocina",
+   "grupo": "Placas",
+   "marca": "Klarstein",
+   "nombre": "Placa de inducción con extractor integrado Klarstein Full House 90 cm"
+  },
+  {
+   "asin": "B0BZPT23H3",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Klarstein",
+   "nombre": "Vinoteca (nevera de vinos) Klarstein 2 zonas 51 botellas"
+  },
+  {
+   "asin": "B077SNFCBF",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Klarstein",
+   "nombre": "Vinoteca (nevera de vinos) Klarstein Vinovilla 2 zonas 17 botellas"
+  },
+  {
+   "asin": "B0CJ983GMQ",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Klarstein",
+   "nombre": "Vinoteca (nevera de vinos) Klarstein 18 botellas zona doble"
+  },
+  {
+   "asin": "B0CL4RTB2T",
+   "area": "Cocina",
+   "grupo": "Lavavajillas y electrodomésticos",
+   "marca": "Klarstein",
+   "nombre": "Vinoteca (nevera de vinos) Klarstein 15 botellas"
+  },
+  {
+   "asin": "B01CT64XGO",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma20 doble descarga acero inoxidable cepillado"
+  },
+  {
+   "asin": "B01AME2AYC",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma20 doble descarga cromo brillo/mate"
+  },
+  {
+   "asin": "B01AME2CI6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma20 doble descarga blanco"
+  },
+  {
+   "asin": "B008ET4V0O",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma01 doble descarga cromo"
+  },
+  {
+   "asin": "B0087NH6UY",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma01 doble descarga blanco"
+  },
+  {
+   "asin": "B008ET4UUU",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Pulsador Geberit Sigma01 doble descarga latón"
+  },
+  {
+   "asin": "B002ECZPEI",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Pulsador Grohe Skate Cosmopolitan cromo"
+  },
+  {
+   "asin": "B0D1YM3WN6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Pulsador Grohe Skate Cosmopolitan S negro mate"
+  },
+  {
+   "asin": "B0D1YK4JFH",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Pulsador Grohe Arena Cosmopolitan S negro mate"
+  },
+  {
+   "asin": "B0D1YLCQSN",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Pulsador Grohe Arena Cosmopolitan negro mate"
+  },
+  {
+   "asin": "B003MBSYHA",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Pulsador Grohe Skate Cosmopolitan cromo mate"
+  },
+  {
+   "asin": "B01FJETIMM",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Bastidor Grohe Rapid SL con cisterna empotrada para inodoro suspendido 38745001"
+  },
+  {
+   "asin": "B002BG5YTS",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Bastidor Grohe Rapid SL 38528001 para inodoro suspendido"
+  },
+  {
+   "asin": "B002BG8WAQ",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Bastidor Grohe Rapid SL 38675001 con cisterna empotrada"
+  },
+  {
+   "asin": "B0018I3I2A",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Cisterna empotrada Grohe Rapid SL 38526000"
+  },
+  {
+   "asin": "B0D16G5B28",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Bastidor Geberit Duofix 112 cm con cisterna empotrada Sigma y caja de conexión"
+  },
+  {
+   "asin": "B007F92SFY",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Bastidor Geberit Duofix 112 cm con cisterna Sigma 12 cm para esquina"
+  },
+  {
+   "asin": "B007F92O3K",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Geberit",
+   "nombre": "Bastidor Geberit Duofix 112 cm con cisterna Sigma 12 cm accesible"
+  },
+  {
+   "asin": "B08Y975HSN",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca Duplo WC One Compact con cisterna empotrada A890073020"
+  },
+  {
+   "asin": "B08LMGXJ56",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca Duplo WC bajo ventana con cisterna empotrada"
+  },
+  {
+   "asin": "B071HFX2LV",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca A890090020 con cisterna empotrada"
+  },
+  {
+   "asin": "B00ZQBJKQI",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca Duplo WC Compact con cisterna empotrada 8 cm"
+  },
+  {
+   "asin": "B0BD9FB9CN",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca Duplo WC One autoportante con cisterna empotrada"
+  },
+  {
+   "asin": "B071HFX1MD",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Bastidor Roca A890091200 para bidé suspendido"
+  },
+  {
+   "asin": "B008M6SM2W",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de lavabo hansgrohe Focus 100 monomando cromo"
+  },
+  {
+   "asin": "B003LMYMIU",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de lavabo hansgrohe Focus 70 monomando cromo"
+  },
+  {
+   "asin": "B008M6SMOU",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de lavabo hansgrohe Focus 240 caño alto cromo"
+  },
+  {
+   "asin": "B008M6SNDA",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de lavabo hansgrohe Focus 190 caño alto cromo"
+  },
+  {
+   "asin": "B0747SHLPY",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de bañera hansgrohe Talis E2 monomando cromo"
+  },
+  {
+   "asin": "B00RTFZPS6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de lavabo empotrado Grohe Essence a pared talla L"
+  },
+  {
+   "asin": "B00EXSMJVI",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de lavabo Grohe BauEdge monomando cromo"
+  },
+  {
+   "asin": "B0748QVW3H",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de lavabo Grohe BauEdge con vaciador automático"
+  },
+  {
+   "asin": "B00EXSML0C",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de ducha Grohe BauEdge monomando"
+  },
+  {
+   "asin": "B00RTG2RNG",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de lavabo Grohe Eurosmart con vaciador"
+  },
+  {
+   "asin": "B003NA7TTO",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de lavabo Grohe Essence cromo"
+  },
+  {
+   "asin": "B003TG7A0U",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo de bañera y ducha Grohe Eurosmart"
+  },
+  {
+   "asin": "B01MG2DCK9",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo termostático de ducha hansgrohe Ecostat 1001 CL"
+  },
+  {
+   "asin": "B009X1TES6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo termostático de ducha hansgrohe Ecostat Comfort"
+  },
+  {
+   "asin": "B00W4DCDSI",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo termostático de bañera y ducha Grohe Grohtherm 800"
+  },
+  {
+   "asin": "B00BQVUC14",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Grohe",
+   "nombre": "Grifo termostático de ducha Grohe Grohtherm 2000"
+  },
+  {
+   "asin": "B00ZPU45VA",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de lavabo Roca L20 caño alto cromo"
+  },
+  {
+   "asin": "B0CB722S8C",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de lavabo Roca L20 caño alto negro mate"
+  },
+  {
+   "asin": "B00ZPU5E06",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de lavabo Roca L20 con vaciador cromo"
+  },
+  {
+   "asin": "B01NALUOV6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de lavabo Roca Naia cromo"
+  },
+  {
+   "asin": "B0744MMHCY",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de bañera y ducha empotrado Roca L20"
+  },
+  {
+   "asin": "B0GS9JNLQR",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Imex",
+   "nombre": "Grifo de lavabo Imex caño alto dorado cepillado"
+  },
+  {
+   "asin": "B0CNWBC2D6",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Valaz",
+   "nombre": "Grifo de lavabo Valaz caño alto dorado cepillado PVD"
+  },
+  {
+   "asin": "B08WRMYNMN",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Valaz",
+   "nombre": "Grifo de lavabo empotrado Valaz Júcar dorado cepillado"
+  },
+  {
+   "asin": "B09QM8NQ75",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Valaz",
+   "nombre": "Grifo de lavabo empotrado Valaz negro mate"
+  },
+  {
+   "asin": "B0BZCY375S",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Imex",
+   "nombre": "Grifo de lavabo empotrado Imex Etna negro mate"
+  },
+  {
+   "asin": "B09W34Z78C",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Essebagno",
+   "nombre": "Grifo de lavabo Essebagno Indus caño alto dorado cepillado"
+  },
+  {
+   "asin": "B09VC4PYYF",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Shanfo",
+   "nombre": "Grifo de lavabo Shanfo caño alto negro mate"
+  },
+  {
+   "asin": "B09VBWB723",
+   "area": "Baño",
+   "grupo": "",
+   "marca": "Shanfo",
+   "nombre": "Grifo de lavabo Shanfo caño alto dorado cepillado"
+  },
+  {
+   "asin": "B01AY60M20",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Teka",
+   "nombre": "Grifo de cocina Teka ARK 938 extraíble negro"
+  },
+  {
+   "asin": "B007PS6EDW",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Teka",
+   "nombre": "Grifo de cocina Teka ARK 938 extraíble cromo"
+  },
+  {
+   "asin": "B0CJCB56X5",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Teka",
+   "nombre": "Grifo de cocina Teka Oval 9382 extraíble negro"
+  },
+  {
+   "asin": "B0CFD4WWRF",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Teka",
+   "nombre": "Grifo de cocina Teka Oval 938 cromo"
+  },
+  {
+   "asin": "B07SSGLHPD",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Teka",
+   "nombre": "Grifo de cocina Teka FOT 995 negro y cromo"
+  },
+  {
+   "asin": "B08KJ8CZXP",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de cocina hansgrohe Talis M54 extraíble"
+  },
+  {
+   "asin": "B00FK3XNW4",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de cocina hansgrohe Focus M41 extraíble"
+  },
+  {
+   "asin": "B072891Q3H",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de cocina hansgrohe Talis M51 160 extraíble acero"
+  },
+  {
+   "asin": "B08F9MTKHL",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "hansgrohe",
+   "nombre": "Grifo de cocina hansgrohe Talis Select M51 300 extraíble"
+  },
+  {
+   "asin": "B00R4JQ17Q",
+   "area": "Cocina",
+   "grupo": "",
+   "marca": "Roca",
+   "nombre": "Grifo de cocina Roca L20 caño giratorio"
+  },
+  {
+   "asin": "B016WF7TVE",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Taladro atornillador Makita DF457DWE3 18 V con 3 baterías"
+  },
+  {
+   "asin": "B01EJBK2WG",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Taladro atornillador Makita DDF482RME 18 V 4 Ah"
+  },
+  {
+   "asin": "B07T7ZZQN5",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Taladro atornillador Makita DDF483RFE 18 V sin escobillas"
+  },
+  {
+   "asin": "B0BHDJ77H1",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Taladro atornillador Makita DF488D 18 V 2 baterías"
+  },
+  {
+   "asin": "B0CB66BCBY",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Taladro percutor DeWalt DCD805P2T 18 V XR sin escobillas"
+  },
+  {
+   "asin": "B01E627RF8",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Taladro percutor DeWalt DCD776C3 18 V con 3 baterías"
+  },
+  {
+   "asin": "B07CSQX2P4",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Taladro atornillador DeWalt DCD778D2T 18 V sin escobillas"
+  },
+  {
+   "asin": "B01BU0GH5U",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Taladro percutor DeWalt DCD796D2 18 V sin escobillas"
+  },
+  {
+   "asin": "B01EWNGZ4U",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Kit combo de batería DeWalt DCK266P2 18 V taladro + atornillador de impacto"
+  },
+  {
+   "asin": "B0851TSZJN",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "DeWalt",
+   "nombre": "Kit combo de batería DeWalt DCK422P3T 4 herramientas 18 V"
+  },
+  {
+   "asin": "B07DCH48YK",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Ryobi",
+   "nombre": "Kit combo de batería Ryobi 18 V ONE+ taladro y amoladora"
+  },
+  {
+   "asin": "B0CVM3Y3ZZ",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Ryobi",
+   "nombre": "Kit combo de batería Ryobi 18 V ONE+ 10 herramientas"
+  },
+  {
+   "asin": "B0C8ZDM99B",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Kit combo de batería Einhell taladro y amoladora 18 V 2 baterías 4 Ah"
+  },
+  {
+   "asin": "B01JGIF3DK",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Kit combo de batería Einhell TE-TK 18 Li taladro y amoladora"
+  },
+  {
+   "asin": "B0BS3J3RSV",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Kit combo de batería Einhell taladro, amoladora y sierra de calar 18 V"
+  },
+  {
+   "asin": "B00M95805G",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Metabo",
+   "nombre": "Amoladora Metabo W 9-125 Quick 900 W"
+  },
+  {
+   "asin": "B0CPQ4SL1Z",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Amoladora Bosch Professional GWS 12-125 1200 W"
+  },
+  {
+   "asin": "B01G5BM0KU",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Amoladora Makita 9558NBRZ 125 mm 840 W"
+  },
+  {
+   "asin": "B09QQN7VZ8",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Amoladora de batería Einhell TE-AG 18/115 Li con batería 4 Ah"
+  },
+  {
+   "asin": "B00DP47WQI",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Sierra de calar Makita 4350FCTJ"
+  },
+  {
+   "asin": "B01F2F5EPS",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Sierra de calar pendular Makita M4301 450 W"
+  },
+  {
+   "asin": "B00EOLMTNC",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Sierra circular Makita HS7101J1"
+  },
+  {
+   "asin": "B00KMVOXC8",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Lijadora orbital Einhell TE-OS 2520 E"
+  },
+  {
+   "asin": "B00IIPNQFK",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Einhell",
+   "nombre": "Lijadora excéntrica Einhell TE-RS 40 E"
+  },
+  {
+   "asin": "B00MUUCIGC",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Llave de impacto Makita DTW450RMJ 18 V 1/2\""
+  },
+  {
+   "asin": "B0742K8G43",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Llave de impacto Makita DTW285RTJ 18 V sin escobillas"
+  },
+  {
+   "asin": "B01AVXACYO",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Llave de impacto Makita DTW1002Z 18 V 1050 Nm"
+  },
+  {
+   "asin": "B01LBV53L2",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Martillo demoledor Bosch Professional GSH 5 SDS-max"
+  },
+  {
+   "asin": "B0001D1QOK",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Martillo demoledor Bosch Professional GSH 11 E SDS-max"
+  },
+  {
+   "asin": "B008HRG8J0",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Martillo demoledor Bosch Professional GSH 11 VC 1700 W"
+  },
+  {
+   "asin": "B004PR81ZU",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Martillo demoledor Makita HM0870C SDS-max 1100 W"
+  },
+  {
+   "asin": "B003A6L79O",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Martillo demoledor Makita HM1203C SDS-max"
+  },
+  {
+   "asin": "B01LAGFEBW",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Makita",
+   "nombre": "Martillo demoledor Makita HM1213C SDS-max"
+  },
+  {
+   "asin": "B00DRDM1Q8",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Nivel láser de líneas cruzadas Bosch Quigo con pinza MM 2"
+  },
+  {
+   "asin": "B07NXB6PRS",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Nivel láser de líneas cruzadas Bosch Quigo verde con trípode"
+  },
+  {
+   "asin": "B01AU5SNW6",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Juego de brocas SDS-plus Bosch Professional 7x"
+  },
+  {
+   "asin": "B09417H2Q1",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Juego de brocas SDS-plus Bosch Expert 7X"
+  },
+  {
+   "asin": "B06VV4279G",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Bosch",
+   "nombre": "Disco de diamante Bosch universal 125 mm"
+  },
+  {
+   "asin": "B01M3OA105",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Hailo",
+   "nombre": "Escalera de tijera Hailo EasyClix XXL aluminio 5 peldaños"
+  },
+  {
+   "asin": "B00UNDOVPE",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Hailo",
+   "nombre": "Escalera telescópica multifunción Hailo MTL 4 x 5 peldaños"
+  },
+  {
+   "asin": "B091Q6JFYC",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Hailo",
+   "nombre": "Escalera de tijera Hailo D60 doble 2 x 5 peldaños"
+  },
+  {
+   "asin": "B00LD0VO1A",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Hailo",
+   "nombre": "Escalera de tijera Hailo EasyClix XXL 6 peldaños"
+  },
+  {
+   "asin": "B000PS9Y4K",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Marshalltown",
+   "nombre": "Llana dentada Marshalltown 4,5 mm para baldosas"
+  },
+  {
+   "asin": "B003UWV194",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Rubi",
+   "nombre": "Llana dentada RUBIflex 6 x 6"
+  },
+  {
+   "asin": "B09CV3B3Z1",
+   "area": "Herramientas",
+   "grupo": "",
+   "marca": "Mivos",
+   "nombre": "Llana dentada Mivos 12 x 12 inox"
   }
  ]
 }
