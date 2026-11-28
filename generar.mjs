@@ -65,6 +65,20 @@ const ICONOS = {
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
+// Foto de cada subgrupo en los botones de tipo: fotos propias de reformas cuando las hay.
+const FOTO_GRUPO = { "Muebles de baño": "mueble-bano-1", "Inodoros y cisternas": "inodoro-1", "Lavabos": "lavabo-1", "Platos de ducha": "plato-ducha-1", "Mamparas": "mampara-2", "Bañeras": "banera-2", "Columnas y duchas": "columna-ducha-1", "Grifería de baño": "grifo-lavabo-2", "Espejos": "espejo-bano-1", "Accesorios de baño": "toallero-1",
+  "Fregaderos": "fregadero-1", "Grifería de cocina": "grifo-cocina-1", "Encimeras": "encimera-1", "Placas": "placa-1", "Hornos": "horno-2", "Campanas": "campana-1", "Lavavajillas y electrodomésticos": "muebles-cocina-1",
+  "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Downlights": "downlight-2", "Mecanismos: interruptores y enchufes": "enchufe-1", "Cables e hilos": "cableado-1",
+  "Puertas de interior abatibles": "puerta-interior-1", "Puertas de entrada y blindadas": "puerta-entrada-1", "Manillas, pomos y condenas": "manilla-1", "Ventanas de PVC": "ventana-1", "Ventanas de aluminio": "ventana-2", "Balconeras": "balconera-1",
+  "Armarios y módulos": "armario-1", "Frentes y puertas de armario": "armario-2", "Interiores: cajones, baldas y barras": "armario-4",
+  "Laminado": "suelo-laminado-1", "Vinílico SPC/LVT": "suelo-laminado-3", "Madera y parquet": "suelo-madera-1", "Porcelánico imitación": "suelo-porcelanico-1", "Rodapiés": "rodapie-1",
+  "Formato medio (hasta 60 cm)": "azulejo-bano-2", "Gran formato (más de 60 cm)": "suelo-porcelanico-1", "Mosaico y formato pequeño (hasta 20 cm)": "azulejo-bano-3", "Azulejos y pavimentos (otros)": "azulejo-bano-1",
+  "Pintura plástica": "pintura-3", "Ladrillo y bloque": "ladrillo-1", "Tubería y PVC": "tuberia-pvc-1", "Placas de yeso": "pladur-1" };
+function fotoGrupo(g, ms, c, raiz) {
+  let f = FOTO_GRUPO[g] && existsSync(join(aqui, "img", `reforma-${FOTO_GRUPO[g]}.webp`)) ? `img/reforma-${FOTO_GRUPO[g]}.webp` : null;
+  if (!f) { const m = ms.find((x) => imagenes[x.slug]); if (m) f = imagenes[m.slug].miniatura; }
+  return f ? `<img src="${esc(/^https?:/.test(f) ? f : raiz + f)}" alt="" loading="lazy" decoding="async" width="240" height="180">` : `<i>${icono(c)}</i>`;
+}
 function imagen(m, raiz, grande = false) {
   const f = imagenes[m.slug];
   if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
@@ -606,6 +620,7 @@ function paginaCategoria(c) {
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(c)}</nav>
 <h1>Materiales de ${esc(cMin)} baratos en ${esc(zona)}: precios y ofertas</h1>
+<section class="tipos" aria-label="Elige un tipo de producto"><h2>¿Qué buscas? Elige un tipo</h2><div class="tipos-g">${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${fotoGrupo(x.g, x.ms, c, raiz)}<span>${esc(x.g === "Otros" ? "Otros productos" : x.g)}</span><small>${x.ms.length + x.ps.length} ${x.ms.length + x.ps.length === 1 ? "producto" : "productos"}</small></a>`).join("")}</div></section>
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
 <p class="sub">${ms.length} materiales comparados${ps.length ? ` y ${ps.length} productos más` : ""} · precios con IVA · ${fechaTexto}</p>
 <nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.ms.length + x.ps.length}</small></a>`).join("")}</nav>
@@ -613,12 +628,13 @@ function paginaCategoria(c) {
 <p class="sub">Agrupados por tipo de producto: primero lo principal y al final los accesorios. Dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
 <div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
 ${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
-<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
+<script>(function(){var f=document.querySelector("[data-filtro]"),tg=document.querySelectorAll(".tipos-g [data-g]"),sb=document.querySelector(".subgrupos"),tp=document.querySelector(".tipos"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
 ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
-function g(id){cg.classList.toggle("resumen-g",!id);gs.forEach(function(s){s.hidden=!!id&&s.id!==id});bs.forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)})}
-[].concat([].slice.call(bs),[].slice.call(vt)).forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);window.scrollTo({top:document.querySelector(".subgrupos").offsetTop-10})})});
+function g(id){cg.classList.toggle("resumen-g",!id);gs.forEach(function(s){s.hidden=!!id&&s.id!==id});[].concat([].slice.call(bs),[].slice.call(tg)).forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)});setTimeout(function(){var a1=sb.querySelector(".on");if(a1)sb.scrollLeft=a1.offsetLeft-20},120)}
+[].concat([].slice.call(bs),[].slice.call(vt),[].slice.call(tg)).forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);var d=id?document.getElementById(id):document.querySelector(".grupos");window.scrollTo({top:d.getBoundingClientRect().top+window.pageYOffset-70})})});
+if("IntersectionObserver" in window)new IntersectionObserver(function(e){sb.classList.toggle("fija",!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(tp);
 if(location.hash&&document.getElementById(location.hash.slice(1)))g(location.hash.slice(1));
 f.addEventListener("input",function(){cg.classList.toggle("resumen-g",!f.value&&!location.hash);a()});cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
 ${bloqueAmazonArea(c, raiz, { esc, eur, icono })}
