@@ -8,6 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { generarGuias, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -148,7 +149,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
   <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -160,7 +161,7 @@ ${cuerpo}
 </main>
 <footer class="pie"><div class="ancho">
   <p>Precios públicos de las webs de cada tienda, IVA incluido. Los comprobamos cada día y cada precio muestra la fecha de su última comprobación (la más reciente, el ${fechaTexto}). El precio final es el que marque la tienda al comprar y puede variar según la tienda física y las ofertas del día. Si un precio no se puede comprobar en ${OCULTAR_DIAS} días, lo retiramos.</p>
-  <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
+  <p>${AMAZON_TAG ? `${esc(NOMBRE)} no vende materiales. Algunos enlaces son de afiliado: si compras, la tienda nos paga una pequeña comisión y a ti te cuesta lo mismo. ${esc(AVISO_AMAZON)}` : `${esc(NOMBRE)} no vende materiales ni cobra a los almacenes.`} Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
 <script>
 (function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
@@ -638,6 +639,7 @@ for (const c of categorias) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
+generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${rutas.map((r) => `  <url><loc>${SITE}/${r}</loc><lastmod>${fecha}</lastmod></url>`).join("\n")}
