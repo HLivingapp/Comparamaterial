@@ -267,3 +267,9 @@ main>*{min-width:0}
 .bloque-cab a{white-space:normal}
 .filtro-t{flex-wrap:wrap}
 .amz-rejilla{grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr))}
+/* Vista «Todo» de un área: cada subgrupo enseña sus primeros productos y un enlace a ver todos. */
+.resumen-g .prod-lista li.mas{display:none}
+.grupos:not(.resumen-g) .ver-todos{display:none}
+.ver-todos{margin:.7rem 0 1.6rem}
+.subgrupos .on small{color:inherit;opacity:.85}
+.ver-todos a{font-weight:600}
