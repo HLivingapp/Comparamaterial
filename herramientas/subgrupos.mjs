@@ -9,6 +9,8 @@ const VINOTECA = /vinoteca|nevera (de|para) vinos?|enfriador de vinos?|armario (
 export const MUEBLE_COCINA = /composici[oó]n de cocina|columna de cocina|semi ?columna|frente de caj[oó]n|m[oó]dulo (de )?cocina|casco (de )?cocina|puerta (de )?cocina|muebles? (bajo|alto|de cocina|fregadero|para fregadero|columna|horno|esquin|rinc)|m[oó]dulo (bajo|alto|columna|de cocina|fregadero|horno|esquin)|columna (de |para )?(horno|frigo|nevera|despensa)|armario (bajo|alto|de pared|de columna|de esquina|para (horno|frigo|fregadero))|cocina (completa|modular|en kit|lineal)|kit de cocina|frente de (cocina|lavavajillas)|puerta (de|para) (mueble de )?cocina|\b(metod|delinia|enhet|knoxhult)\b/i;
 export const SUBGRUPOS = {
   "Baño": [
+    ["Pulsadores de inodoro", /pulsador|placa de accionamiento|placa de descarga|sigma\s?\d|placa (de )?mando/i],
+    ["Bastidores y cisternas empotradas", (n) => /bastidor|cisterna empotrad|cisterna oculta|duplo|\brapid ?sl\b|tece ?profil|in-?wall|pack wc bastidor/i.test(n) && !/^\W*(inodoro|taza)/i.test(n)],
     ["Recambios, desagües y fijaciones", /tornillo|recambio|repuesto|v[aá]lvula|rejilla|rejlla|brazo (de )?sujeci|bisagra|\bjunta|flexo|latiguillo|desag[uü]e|sif[oó]n|fijaci|perlizador|aireador|cartucho|maneta|tap[oó]n|silicona|embellecedor|llave de escuadra|base lavabo|kit de/i],
     ["Muebles de baño", /mueble|conjunto de ba[ñn]o|composici[oó]n|columna auxiliar|armario de ba|armario colgar|m[oó]dulo|pilar/i],
     ["Mamparas", /mampara|frontal|pivotante|panel de ducha|pantalla de ba[ñn]era/i],
@@ -136,11 +138,20 @@ export const SUBGRUPOS = {
     ["Paneles de listones y acústicos", /list[oó]n|tablilla|ac[uú]stic|panel|paliller/i],
     ["Frisos, zócalos y revestimientos de madera", /friso|z[oó]calo|revestimiento|madera|lama|tablero|ranurad/i],
   ],
+  "Puertas correderas": [
+    ["Correderas empotradas (casoneto)", /casoneto|empotrad|armaz[oó]n|cajet[ií]n|scrigno|krona/i],
+    ["Kits de guía de superficie", (n) => /gu[ií]a|carril|herraje|kit|convertidor|pinza|guiador|freno|tope|rueda|soft ?close|amortiguador/i.test(n) && !/^\W*(\w+ )?(pack )?puerta|pack puerta|\+ ?gu[ií]a|con herrajes/i.test(n)],
+    ["Tiradores y uñeros", /^\W*(\w+ )?(tirador|u[ñn]ero|cazoleta|manilla)/i],
+    ["Packs puerta + guía de superficie", /pack|\+ ?gu[ií]a|con herrajes|con gu[ií]a|kit completo|incluye (gu[ií]a|carril|herraje)/i],
+    ["Puertas correderas de cristal", /cristal|vidrio/i],
+    ["Puertas de madera tipo granero", /pino|madera maciza|granero|r[uú]stic|barn|tablas/i],
+    ["Hojas correderas lacadas y melamina", /corredera|puerta/i],
+  ],
   "Puertas": [
+    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|\bext\./i],
+    ["Tapajuntas y molduras", /tapajuntas|tapeta|moldura|jamba|forrar marco/i],
     ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra|roseta|bomb[ií]n|set wc|bocallave|manill[oó]n|escudo|mirilla/i],
-    ["Guías y herrajes", /carril|gu[ií]a|rueda|kit|herraje|tope|convertidor|freno/i],
-    ["Tapajuntas y molduras", /tapajuntas|moldura|jamba/i],
-    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|entrada/i],
+    ["Guías y herrajes", (n) => /carril|gu[ií]a|rueda|kit|herraje|tope|convertidor|freno/i.test(n) && !/^\W*(\w+ )?(pack |conjunto de )?puerta/i.test(n)],
     ["Puertas correderas", /corredera|plegable/i],
     ["Puertas de interior abatibles", /puerta|hoja|block|conjunto/i],
   ],
@@ -179,6 +190,32 @@ export const SUBGRUPOS = {
     ["Poliestireno (XPS/EPS)", /poliestireno|xps|eps/i],
     ["Láminas y bases", /l[aá]mina|base|rollo|capa|aislante|multicapa|burbuja|reflex/i],
   ],
+  "Domótica": [
+    ["Persianas y cortinas", /persiana|cortina|estor/i],
+    ["Termostatos y válvulas", /termostato|v[aá]lvula|cabezal/i],
+    ["Cerraduras inteligentes", /cerradura|smart lock|\block\b/i],
+    ["Cámaras y videoporteros", /c[aá]mara|videotimbre|videoportero|timbre|doorbell|\bcam\b/i],
+    ["Sensores y alarmas", /sensor|detector|alarma|sirena/i],
+    ["Iluminación inteligente", /bombilla|tira led|l[aá]mpara|foco|panel led/i],
+    ["Enchufes inteligentes", /enchufe|regleta/i],
+    ["Interruptores y módulos", /interruptor|m[oó]dulo|rel[eé]|pulsador/i],
+    ["Altavoces y controladores", /hub|altavoz|pasarela|gateway|bridge|echo|nest|pantalla/i],
+  ],
+  "Herramientas": [
+    ["Kits y combos de batería", /^\W*(kit|combo|pack)\b.*(taladro|atornillador|amoladora|sierra|martillo|bater[ií]a)/i],
+    ["Brocas, discos y puntas", /\bbroca|\bdisco|\bpuntas?\b|\btaco|corona/i],
+    ["Llaves y atornilladores de impacto", /impacto/i],
+    ["Martillos percutores y demoledores", /martillo (percutor|perforador|demoledor|combinado)|perforador|cinceladora|demoledor|\bsds-?plus\b.*martillo/i],
+    ["Taladros y atornilladores", /taladro|atornillador|drill/i],
+    ["Amoladoras y radiales", /amoladora|radial|miniamoladora/i],
+    ["Sierras", /sierra|tronzadora|ingletadora/i],
+    ["Lijadoras y multiherramientas", /lijadora|multiherramienta|oscilante|cepillo el[eé]ctrico|fresadora/i],
+    ["Medición y nivel láser", /l[aá]ser|nivel|\bmetro\b|flex[oó]metro|medidor|disto/i],
+    ["Cortadoras de azulejo", /cortadora|corta ?azulejo|cortador de cer/i],
+    ["Aspiradores de obra", /aspirador/i],
+    ["Herramienta de albañil y pintor", /paleta|llana|peine|esp[aá]tula|remolinador|rascador|talocha|palet[ií]n|cuchilla|martillo|maza|cincel|cortafr/i],
+    ["Escaleras", /escalera/i],
+  ],
   "Obra y protección": [
     ["Herramienta de mano", (n) => /peine|paleta|llana|talocha|esp[aá]tula|paletin|remolinador|rascador|cuchilla|cutter|nivel|metro|martillo de|maza/i.test(n) && !/taladro|amoladora|atornillador|lijadora|percutor|demoledor|bater[ií]a/i.test(n)],
     ["Herramienta eléctrica", /taladro|amoladora|atornillador|lijadora|sierra|cinceladora|multiherramienta|martillo (percutor|demoledor)/i],
@@ -206,7 +243,7 @@ export const SUBGRUPOS = {
   ],
 };
 export const VISTA = {
-  "Baño": ["Muebles de baño", "Inodoros y cisternas", "Lavabos", "Platos de ducha", "Mamparas", "Bañeras", "Columnas y duchas", "Grifería de baño", "Espejos", "Accesorios de baño", "Recambios, desagües y fijaciones"],
+  "Baño": ["Muebles de baño", "Inodoros y cisternas", "Bastidores y cisternas empotradas", "Pulsadores de inodoro", "Lavabos", "Platos de ducha", "Mamparas", "Bañeras", "Columnas y duchas", "Grifería de baño", "Espejos", "Accesorios de baño", "Recambios, desagües y fijaciones"],
   "Cocina": ["Muebles de cocina", "Fregaderos", "Grifería de cocina", "Encimeras", "Placas", "Placas con extracción integrada", "Campanas", "Extractores de encimera", "Hornos", "Microondas", "Frigoríficos americanos", "Frigoríficos integrables", "Frigoríficos y congeladores", "Vinotecas", "Lavavajillas", "Recambios y accesorios"],
   "Calefacción y agua caliente": ["Termos hasta 50 L", "Termos de 65 a 90 L", "Termos de 100 L o más", "Termos (otros)", "Calentadores de gas", "Calderas de gas", "Otras calderas", "Aerotermia y bombas de calor", "Radiadores y emisores", "Termostatos y válvulas", "Accesorios de instalación"],
   "Aire acondicionado": ["Splits de pared", "Multisplit", "Conductos y cassette", "Suelo-techo y techo", "Portátiles", "Splits y unidades (otros)", "Calefactores y ventiladores", "Accesorios de instalación"],
@@ -217,6 +254,7 @@ export const VISTA = {
   "Terrazas y patios": ["Porcelánico de exterior y piscina", "Porcelánico de 2 cm (sobre plots)", "Tarima composite", "Tarima de madera", "Losetas y baldosas encajables", "Césped artificial", "Plots, rastreles y fijaciones", "Accesorios para césped"],
   "Suelos": ["Laminado AC4", "Laminado AC5", "Laminado AC6", "Laminado (otras clases)", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
   "Decoración y revestimientos": ["Papel pintado vinílico", "Papel pintado tejido no tejido", "Papel pintado (otros)", "Papel pintado infantil", "Murales y fotomurales", "Pósters y láminas", "Paneles de listones y acústicos", "Frisos, zócalos y revestimientos de madera", "Colas y herramientas para papel"],
+  "Puertas correderas": ["Packs puerta + guía de superficie", "Puertas correderas de cristal", "Puertas de madera tipo granero", "Hojas correderas lacadas y melamina", "Kits de guía de superficie", "Correderas empotradas (casoneto)", "Tiradores y uñeros"],
   "Puertas": ["Puertas de interior abatibles", "Puertas correderas", "Puertas de entrada y blindadas", "Manillas, pomos y condenas", "Tapajuntas y molduras", "Guías y herrajes"],
   "Ventanas": ["Ventanas de PVC", "Ventanas de aluminio", "Ventanas de madera", "Balconeras", "Persianas y mosquiteras"],
   "Armarios": ["Armarios y módulos", "Frentes y puertas de armario", "Interiores: cajones, baldas y barras"],
@@ -224,6 +262,8 @@ export const VISTA = {
   "Albañilería y morteros": ["Cemento, mortero y yeso", "Ladrillo y bloque", "Siliconas, selladores y espumas", "Molduras y varillas"],
   "Tabiquería seca": ["Placas de yeso", "Perfiles, montantes y canales"],
   "Aislamiento": ["Lana mineral", "Poliestireno (XPS/EPS)", "Láminas y bases", "Accesorios y fijación"],
+  "Domótica": ["Enchufes inteligentes", "Interruptores y módulos", "Persianas y cortinas", "Termostatos y válvulas", "Iluminación inteligente", "Cámaras y videoporteros", "Cerraduras inteligentes", "Sensores y alarmas", "Altavoces y controladores"],
+  "Herramientas": ["Kits y combos de batería", "Taladros y atornilladores", "Martillos percutores y demoledores", "Amoladoras y radiales", "Sierras", "Lijadoras y multiherramientas", "Llaves y atornilladores de impacto", "Medición y nivel láser", "Cortadoras de azulejo", "Aspiradores de obra", "Herramienta de albañil y pintor", "Brocas, discos y puntas", "Escaleras"],
   "Obra y protección": ["Herramienta eléctrica", "Herramienta de mano", "Brocas y tacos", "Escaleras", "Protección de obra", "Cierrapuertas"],
   "Ventiladores": ["Ventiladores de techo con luz", "Ventiladores de techo sin luz", "Ventiladores de pie y sobremesa", "Ventiladores de pared", "Mandos y accesorios"],
   "Fotovoltaica": ["Kits completos", "Paneles solares", "Inversores", "Baterías", "Reguladores", "Estructura y fijación", "Cable y protecciones", "Medida y monitorización"],
@@ -256,8 +296,8 @@ const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
-  "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Obra y protección"];
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Domótica", "Decoración y revestimientos", "Puertas", "Puertas correderas", "Ventanas", "Armarios", "Pintura",
+  "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Herramientas", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
   if (/ventilador/i.test(nombre) && !/extractor|ventilador de (caldera|horno)|recambio/i.test(nombre) && /Climatizaci|Electricidad|Iluminaci|Ventiladores/.test(categoria)) return "Ventiladores";
@@ -266,9 +306,13 @@ export function area(categoria, nombre) {
   if (categoria === "Puertas y ventanas") {
     if (/ventana|balconera|persiana|mosquitera/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta|bloque de puerta|puerta (corredera|interior|abatible)/i.test(nombre)) return "Ventanas";
     if (/^\W*(spaceo|ikea)|evo'?m|komplement|para m[oó]dulo/i.test(nombre)) return "Armarios";
+    if (/^\W*armario|puerta corredera armario|corredera (de |para )?armario|armario/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta (de )?interior/i.test(nombre) && /armario/i.test(nombre)) return "Armarios";
+    if (/corredera|casoneto|guiador|kit convertidor|pinzas aluminio/i.test(nombre) && !/ventana|balconera|armario/i.test(nombre)) return "Puertas correderas";
     if (/armario|komplement|vestidor|casoneto|zapatero|pantalonero|balda|ikea|spaceo/i.test(nombre) && !/puerta (de )?(interior|entrada|blindad|corredera|abatible|paso)/i.test(nombre)) return "Armarios";
     return "Puertas";
   }
+  // Herramientas de obra y bricolaje: área propia (en los datos vienen en «Obra y protección»).
+  if (categoria === "Obra y protección" && !/pl[aá]stico|\blona\b|fieltro|cart[oó]n|burbuja|protecci[oó]n|cierrapuertas|cuerpo (de )?cierr|\bbrazo\b|cisterna|inodoro|fijaci[oó]n|calentador|escarpia|recambio de rodillo/i.test(nombre)) return "Herramientas";
   if (categoria !== "Baño y cocina") return categoria;
   return COCINA.test(nombre) && !/ba[ñn]o|lavabo|ducha|inodoro|mampara/i.test(nombre) ? "Cocina" : "Baño";
 }
@@ -298,11 +342,19 @@ const color = [["Negro", /negr|black/i], ["Inox / acero", /inox|acero|steel|cepi
 // Filtro «Marca»: [etiqueta, patrón] en orden de popularidad.
 const marcas = (l) => l.map((m) => [m, new RegExp("\\b(" + m.toLowerCase().replace(/ \/ /g, "|").replace(/ /g, "[ -]?") + ")\\b", "i")]);
 const MARCAS_ELECTRO = marcas(["Miele", "Siemens", "Bosch", "Neff", "Balay", "AEG", "Electrolux", "Smeg", "Liebherr", "Samsung", "LG", "Whirlpool", "Teka", "Cata", "Beko", "Candy", "Haier", "Hisense", "Fagor", "Cecotec", "Infiniton", "Mepamsa", "Ciarra", "Corberó", "Edesa", "Brandt", "Midea", "Svan", "EVVO"]);
+const MARCAS_HERR = marcas(["Bosch", "Makita", "DeWalt", "Milwaukee", "Metabo", "Hilti", "Hikoki", "Festool", "Stanley", "Black\\+Decker / Black & Decker", "Ryobi", "Einhell", "Dexter", "Stayer", "Bellota", "Rubi", "Kärcher", "Leica", "Pentrilo", "Fasten"]);
 const MARCAS_AIRE = marcas(["Daikin", "Mitsubishi", "Panasonic", "LG", "Fujitsu / General", "Samsung", "Toshiba", "Haier", "Hisense", "Gree", "Daitsu", "Midea", "Giatsu", "Baxi", "Ferroli"]);
 const MARCAS_AERO = marcas(["Daikin", "Panasonic", "Mitsubishi", "Vaillant", "Saunier Duval", "Baxi", "Ferroli", "Ariston", "Thermor", "LG", "Samsung", "Domusa"]);
 export const FACETAS = {
   "Calefacción y agua caliente": [
     { nombre: "Marca", aplica: (g) => /Aerotermia/.test(g), opciones: MARCAS_AERO },
+  ],
+  "Domótica": [
+    { nombre: "Marca", aplica: () => true, opciones: marcas(["Shelly", "SONOFF", "TP-Link / Tapo", "Philips Hue / Hue", "Aqara", "Netatmo", "tado", "Nuki", "Ring", "Eufy", "Google / Nest", "Amazon / Echo", "Xiaomi", "Somfy", "Yale", "Meross", "LEDVANCE"]) },
+  ],
+  "Herramientas": [
+    { nombre: "Marca", aplica: () => true, opciones: MARCAS_HERR },
+    { nombre: "Alimentación", aplica: (g) => /Kits|Taladros|Martillos|Amoladoras|Sierras|Lijadoras|impacto|Aspiradores/.test(g), opciones: [["A batería", /bater[ií]a|\b1[28] ?v\b|\b36 ?v\b|inal[aá]mbric|power x-change|\bdc[kdf]|cordless/i], ["Con cable", (n) => /\d{3,4} ?w\b|cable|230 ?v/i.test(n) && !/bater[ií]a|\b18 ?v/i.test(n)]] },
   ],
   "Aire acondicionado": [
     { nombre: "Marca", aplica: (g) => !/Accesorios/.test(g), opciones: MARCAS_AIRE },
@@ -316,6 +368,7 @@ export const FACETAS = {
     ] },
   ],
   "Baño": [
+    { nombre: "Marca", aplica: (g) => /Pulsadores|Bastidores|Inodoros/.test(g), opciones: marcas(["Geberit", "Roca", "Grohe", "TECE", "Villeroy & Boch / Villeroy", "Duravit", "Ideal Standard", "Jacob Delafon", "Siamp", "Wirquin", "Sensea", "Fominaya", "Unisan", "Gala"]) },
     // Lavabos, muebles y espejos por estilo (los mismos 4 que en azulejos, con foto de baño real).
     { nombre: "Estilo", aplica: (g) => /Lavabos|Muebles de baño|Espejos/.test(g), opciones: [
       ["Retro", /retro|vintage|cl[aá]sic|pedestal|columna|art ?d[eé]co|victoria|ondulad|estriad|fluted|acanalad|verde|rosa|azul(?!ej)|terracota|lat[oó]n envejecido|ovalad[oa] con marco/i],

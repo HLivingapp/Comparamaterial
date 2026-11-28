@@ -313,7 +313,7 @@ function inodoro(n) {
   const susp = /suspend|mural|colgad/i.test(n), btw = /\bbtw\b|a pared|adosad|back to wall|pie cerrado/i.test(n);
   const bast = /bastidor|duplo|empotrad/i.test(n), cist = /completo|cisterna|compacto|pack inodoro|monobloc|tanque/i.test(n) && !susp && !bast;
   const solo = /^\W*(?:\w+ ){0,3}(tapa|asiento)/i.test(n) && !/inodoro (completo|suspend)/i.test(n);
-  const soloCist = /^\W*(cisterna|casco de cisterna|bastidor|pulsador)/i.test(n) || /^\W*\w+ (\w+ )?(cisterna|bastidor)/i.test(n) && !/inodoro|taza|wc/i.test(n);
+  const soloCist = /^\W*(cisterna|casco de cisterna|bastidor|pulsador|placa)/i.test(n) || /pulsador|placa de accionamiento/i.test(n) && !/inodoro|taza/i.test(n) || /^\W*\w+ (\w+ )?(cisterna|bastidor)/i.test(n) && !/inodoro|taza|wc/i.test(n);
   const ama = /amortigu|soft ?close|ca[ií]da lenta/i.test(n) ? "Tapa amortiguada" : "";
   const rim = /rimless|sin brida|tornado/i.test(n) ? "Sin brida (rimless)" : "";
   const smart = /inteligente|japon|bidet|in-wash|lavado/i.test(n);
@@ -335,6 +335,57 @@ function inodoro(n) {
   const panel = smart ? `<rect x="150" y="80" width="18" height="8" rx="2" fill="#4f565b"/><circle cx="155" cy="84" r="1.6" fill="#7fb3d5"/>` : "";
   const d = `${pared}${suelo(110, 144, susp ? 70 : 64)}${tanque}${taza}<path d="M${susp ? 34 : 40} ${susp ? 70 : 76} L170 ${susp ? 70 : 76}" stroke="#fff" stroke-width="3" opacity=".7"/>${tapa}${pie}${panel}${susp ? `<path d="M60 ${126} v18" stroke="#9aa3a8" stroke-dasharray="2 3"/><text x="66" y="140" font-size="9" fill="#8f989e">sin pie</text>` : ""}`;
   return lienzo(d, [susp ? "Suspendido" : btw ? "A pared (BTW)" : cist ? "Con cisterna" : "De pie", smart ? "Inteligente" : bast ? "Con bastidor" : rim, ama || (cuadr ? "Cuadrado" : "")].filter(Boolean).slice(0, 3));
+}
+
+// Herramientas: dibujo según el tipo, con voltaje, baterías, potencia, disco, peldaños…
+function herramienta(n, g) {
+  EXTRA = [];
+  const V = (n.match(/\b(1[028]|36|54)\s?v\b/i) || [])[1], Ah = (n.match(/(\d(?:[.,]\d)?)\s?ah\b/i) || [])[1], W = (n.match(/(\d{3,4})\s?w\b/i) || [])[1];
+  const nb = (n.match(/(\d)\s*bater[ií]as/i) || [])[1] || (/(\+|con)\s*(1\s*)?bater[ií]a\b/i.test(n) ? "1" : "");
+  const disco = (n.match(/(\d{3})\s?mm/i) || [])[1];
+  const brushless = /brushless|sin escobillas/i.test(n) ? "Brushless" : "";
+  const col = /dewalt|stanley fatmax/i.test(n) ? "#f2b705" : /makita/i.test(n) ? "#1a9aa8" : /bosch professional|\bgbh|\bgsr|\bgws/i.test(n) ? "#1f5fa8" : /bosch/i.test(n) ? "#2e8b57" : /milwaukee|einhell|hilti/i.test(n) ? "#c62828" : /metabo|ryobi|dexter|stayer/i.test(n) ? /ryobi/i.test(n) ? "#9ccc3c" : /dexter/i.test(n) ? "#ff7a00" : "#2e7d32" : "#5b6b7a";
+  const bat = nb || V ? `<rect x="88" y="112" width="44" height="20" rx="3" fill="#2f3437"/><rect x="92" y="116" width="36" height="5" rx="1" fill="#4caf7a"/>` : `<path d="M110 132 q-6 10 10 12 q20 2 30 -6" fill="none" stroke="#2f3437" stroke-width="2.5"/>`;
+  const datos = [V ? `${V} V` : W ? `${W} W` : "", nb ? `${nb} batería${nb === "1" ? "" : "s"}${Ah ? " " + Ah.replace(".", ",") + " Ah" : ""}` : "", brushless, /l[aá]ser/i.test(n) ? (/360/.test(n) ? "360°" : /cruzad/i.test(n) ? "Líneas cruzadas" : (n.match(/(\d{2,3})\s?m\b/) || [])[1] ? `Alcance ${(n.match(/(\d{2,3})\s?m\b/))[1]} m` : "Láser") : ""];
+  let d;
+  if (/Taladros|Kits|impacto/.test(g)) d = `${suelo(118, 140, 56)}<path d="M64 40 L150 40 Q164 40 164 54 L164 64 Q164 76 150 76 L130 76 L126 112 L96 112 L100 76 L64 76 Z" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="164" y="50" width="18" height="16" rx="2" fill="#2f3437"/><rect x="182" y="55" width="${/impacto/.test(g) ? 10 : 26}" height="6" fill="#9aa3a8"/><rect x="104" y="80" width="8" height="12" rx="2" fill="#2f3437"/>${bat}${/Kits/.test(g) ? `<rect x="18" y="86" width="44" height="40" rx="5" fill="${tono(col, 0.85)}" stroke="#2f3437"/><text x="40" y="111" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">KIT</text>` : ""}`;
+  else if (/Martillos/.test(g)) d = `${suelo(118, 140, 64)}<path d="M44 44 L170 44 Q182 44 182 56 L182 70 Q182 82 170 82 L136 82 L132 118 L100 118 L104 82 L44 82 Z" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="182" y="56" width="14" height="14" fill="#2f3437"/><rect x="196" y="60" width="30" height="6" fill="#9aa3a8"/><path d="M52 82 l-10 22 l12 2 l8 -24" fill="#2f3437"/>${bat.replace(/112/g, "118").replace(/116/g, "122")}<text x="110" y="68" text-anchor="middle" font-size="10" font-weight="800" fill="#fff">SDS</text>`;
+  else if (/Amoladoras/.test(g)) d = `${suelo(118, 132, 70)}<rect x="40" y="62" width="120" height="30" rx="14" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="150" y="58" width="24" height="38" rx="4" fill="#2f3437"/><ellipse cx="186" cy="100" rx="34" ry="9" fill="#9aa3a8" stroke="#5f6b73"/><ellipse cx="186" cy="100" rx="8" ry="2.5" fill="#5f6b73"/><rect x="152" y="96" width="10" height="16" fill="#2f3437"/><rect x="20" y="70" width="22" height="14" rx="4" fill="#2f3437"/>`;
+  else if (/Sierras/.test(g)) d = /calar/i.test(n) ? `${suelo(118, 134, 62)}<path d="M66 56 Q66 36 100 36 L160 36 Q176 36 176 52 L176 92 L66 92 Z" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><path d="M92 44 L150 44 Q156 44 156 52 L156 60 L92 60 Z" fill="#fff" opacity=".7"/><rect x="60" y="92" width="122" height="8" fill="#9aa3a8"/><path d="M116 100 l4 32 l6 -32 z" fill="#5f6b73"/>` : `${suelo(118, 136, 74)}<circle cx="120" cy="92" r="40" fill="#9aa3a8" stroke="#5f6b73"/>${Array.from({ length: 24 }, (_, i) => { const a = i * Math.PI / 12; return `<path d="M${120 + 40 * Math.cos(a)} ${92 + 40 * Math.sin(a)} l${4 * Math.cos(a + 1)} ${4 * Math.sin(a + 1)}" stroke="#5f6b73"/>`; }).join("")}<path d="M70 92 A50 50 0 0 1 170 92 L170 74 Q170 40 120 38 Q70 40 70 74 Z" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="40" y="118" width="160" height="8" fill="#c9cfd3" stroke="#8f989e"/><circle cx="120" cy="92" r="6" fill="#2f3437"/>`;
+  else if (/Lijadoras/.test(g)) d = `${suelo(118, 134, 66)}<rect x="62" y="108" width="116" height="16" rx="6" fill="#2f3437"/><path d="M78 108 Q78 70 120 66 Q162 70 162 108 Z" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="104" y="40" width="32" height="30" rx="10" fill="${tono(col, 0.85)}" stroke="#2f3437"/>`;
+  else if (/Medición/.test(g)) d = /metro l[aá]ser|disto|medidor/i.test(n) ? `${suelo(120, 134, 30)}<rect x="104" y="36" width="34" height="92" rx="8" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><rect x="110" y="44" width="22" height="18" rx="2" fill="#cfe6d6"/><text x="121" y="57" text-anchor="middle" font-size="8" font-weight="800" fill="#33393d">3,47</text><line x1="121" y1="36" x2="121" y2="4" stroke="#e53935" stroke-width="1.5" stroke-dasharray="3 2"/>` : `${suelo(120, 138, 40)}<rect x="96" y="66" width="48" height="44" rx="6" fill="${col}" stroke="#2f3437" stroke-width="1.5"/><circle cx="120" cy="88" r="9" fill="#2f3437"/><line x1="8" y1="88" x2="232" y2="88" stroke="#e53935" stroke-width="1.5"/><line x1="120" y1="0" x2="120" y2="66" stroke="#e53935" stroke-width="1.5"/><path d="M104 110 l-8 28 M136 110 l8 28 M120 110 v28" stroke="#5f6b73" stroke-width="2"/>`;
+  else if (/Cortadoras/.test(g)) { const cm = (n.match(/(\d{2,3})\s?cm/i) || [])[1]; d = `${suelo(120, 132, 92)}<rect x="24" y="96" width="192" height="22" rx="3" fill="#dfe5e8" stroke="#8f989e"/><rect x="24" y="86" width="192" height="6" fill="#9aa3a8"/><rect x="100" y="60" width="40" height="26" rx="4" fill="${col}" stroke="#2f3437"/><path d="M120 60 L120 30 L170 22" stroke="#2f3437" stroke-width="5" stroke-linecap="round" fill="none"/>${cm ? cotaH(24, 216, 140, `${cm} cm de corte`) : ""}`; }
+  else if (/Aspiradores/.test(g)) { const L = (n.match(/(\d{2})\s?l\b/i) || [])[1]; d = `${suelo(120, 138, 52)}<rect x="78" y="56" width="84" height="74" rx="10" fill="${/k[aä]rcher/i.test(n) ? "#f2c500" : col}" stroke="#2f3437" stroke-width="1.5"/><rect x="72" y="38" width="96" height="22" rx="8" fill="#2f3437"/><path d="M168 48 q40 0 40 40 l0 30" fill="none" stroke="#2f3437" stroke-width="6"/><circle cx="90" cy="134" r="5" fill="#2f3437"/><circle cx="150" cy="134" r="5" fill="#2f3437"/>${L ? `<text x="120" y="100" text-anchor="middle" font-size="18" font-weight="800" fill="#2f3437">${L} L</text>` : ""}`; }
+  else if (/Escaleras/.test(g)) { const p = (n.match(/(\d{1,2})\s*(?:\+\s*\d{1,2}\s*)*pelda/i) || [])[1]; const k = Math.min(10, Number(p) || 5); d = `${suelo(120, 142, 60)}<path d="M120 8 L70 140 M120 8 L170 140" stroke="${/madera/i.test(n) ? "#b07a45" : "#9aa3a8"}" stroke-width="6" stroke-linecap="round"/>${Array.from({ length: k }, (_, i) => { const y = 24 + (i + 1) * (110 / (k + 1)); const dx = (y - 8) * 50 / 132; return `<line x1="${120 - dx}" y1="${y}" x2="${120 + dx}" y2="${y}" stroke="#5f6b73" stroke-width="3"/>`; }).join("")}`; return lienzo(d, [p ? `${n.match(/\d{1,2}(?:\s*\+\s*\d{1,2})*\s*pelda/i)[0].replace(/\s*pelda/i, "").replace(/\s+/g, "")} peldaños` : "", /madera/i.test(n) ? "Madera" : /alumin/i.test(n) ? "Aluminio" : "", /telesc/i.test(n) ? "Telescópica" : /multiposici|transformable/i.test(n) ? "Multiposición" : ""]); }
+  else if (/albañil/.test(g)) { const llana = /llana|remolinador|talocha|peine/i.test(n); d = llana ? `${suelo(120, 120, 80)}<path d="M40 100 L200 100 L192 112 L48 112 Z" fill="#c9cfd3" stroke="#5f6b73"/>${/peine|dentad/i.test(n) ? Array.from({ length: 16 }, (_, i) => `<rect x="${50 + i * 9}" y="112" width="5" height="5" fill="#9aa3a8"/>`).join("") : ""}<rect x="110" y="84" width="20" height="16" fill="#5f6b73"/><rect x="70" y="62" width="100" height="22" rx="11" fill="${/madera/i.test(n) ? "#b07a45" : "#2f3437"}"/>` : `${suelo(120, 128, 70)}<path d="M40 104 L140 72 L156 104 Z" fill="#c9cfd3" stroke="#5f6b73"/><path d="M150 92 L186 64" stroke="#5f6b73" stroke-width="5"/><rect x="180" y="40" width="16" height="36" rx="7" transform="rotate(38 188 58)" fill="${/madera/i.test(n) ? "#b07a45" : "#2f3437"}"/>`; const fx = n.match(/(\d{2,3})\s?[x×]\s?(\d{2,3})\s?mm/i), mm = (n.match(/(\d{2,3})\s?(mm|cm)/i) || []); return lienzo(d, [fx ? `${fx[1]}×${fx[2]} mm` : mm[1] ? `${mm[1]} ${mm[2].toLowerCase()}` : "", /inox/i.test(n) ? "Inox" : /forjad/i.test(n) ? "Forjada" : "", /madera/i.test(n) ? "Mango de madera" : /bimateria/i.test(n) ? "Mango bimateria" : ""]); }
+  else if (/Brocas/.test(g)) { const m = n.match(/(\d{1,2})\s?x\s?(\d{2,3})\s?mm/i); d = `${suelo(120, 110, 90)}<rect x="30" y="92" width="50" height="12" fill="#5f6b73"/><path d="M80 92 ${Array.from({ length: 10 }, (_, i) => `L${88 + i * 12} ${i % 2 ? 92 : 104}`).join(" ")} L210 98 Z" fill="#9aa3a8" stroke="#5f6b73"/>${m ? cotaH(30, 210, 130, `Ø${m[1]} × ${m[2]} mm`) : ""}`; return lienzo(d, [/sds/i.test(n) ? "SDS-plus" : /hormig|piedra/i.test(n) ? "Hormigón" : /metal|hss/i.test(n) ? "Metal" : /madera/i.test(n) ? "Madera" : ""]); }
+  else return null;
+  return lienzo(d, [...datos, disco && /Amoladoras|Sierras/.test(g) ? `Disco ${disco} mm` : ""].filter(Boolean).slice(0, 3));
+}
+
+// Puertas correderas de superficie: hoja colgada de la guía vista, desplazada a un lado; guías sueltas; casonetos.
+function corredera(n, g) {
+  EXTRA = [];
+  const c = color(n, /pino|madera|natural/i.test(n) ? "#d8b48a" : "#fbfbfa"), st = oscuro(c.hex) ? "#000" : "#7d878d";
+  const gcol = /negr|black/i.test(n) ? "#2f3437" : /blanc/i.test(n) && /gu[ií]a|herraje/i.test(n) ? "#f4f6f7" : "#b9c0c5";
+  const vid = /cristal|vidrio/i.test(n), mate = /mate|satinad|ácido|acido/i.test(n);
+  const an = (n.match(/anchura\s*(\d{2,3}(?:[.,]5)?)/i) || n.match(/\b(\d{2,3}(?:[.,]\d)?)\s*x\s*2[01]\d(?:[.,]\d)?\b/i) || n.match(/\b(\d{2,3}(?:[.,]\d)?)\s*cm\b/i) || [])[1];
+  const lg = (n.match(/(\d{3})\s?cm/i) || [])[1] || ((n.match(/(\d[.,]\d)\s?m\b/i) || [])[1] ? String(Math.round(parseFloat(n.match(/(\d[.,]\d)\s?m\b/i)[1].replace(",", ".")) * 100)) : "");
+  const pared = `<rect x="0" y="0" width="240" height="150" fill="#eef0ee"/><rect x="70" y="26" width="56" height="116" fill="#d5d9d6" stroke="#b9c0c5"/>`;
+  const guia = (x1, x2) => `<rect x="${x1}" y="14" width="${x2 - x1}" height="7" rx="2" fill="${gcol}" stroke="#5f6b73" stroke-width=".8"/>`;
+  const rueda = (x) => `<path d="M${x} 21 v8" stroke="#5f6b73" stroke-width="2.5"/><circle cx="${x}" cy="17" r="4" fill="#5f6b73"/>`;
+  if (/Kits de gu/.test(g)) {
+    const d = `${suelo(120, 92, 96)}${guia(14, 226)}${rueda(70)}${rueda(170)}<rect x="60" y="29" width="120" height="6" fill="#d5dade" opacity=".6"/><path d="M90 60 h60 m-8 -6 l8 6 l-8 6" stroke="#5f6b73" fill="none" stroke-width="1.6"/>${lg ? cotaH(14, 226, 112, `${lg} cm`) : ""}`;
+    return lienzo(d, ["Guía vista", /negr/i.test(n) ? "Negra" : /blanc/i.test(n) ? "Blanca" : /plata|inox|alumin|gris/i.test(n) ? "Plata" : "", /freno|soft|amortig/i.test(n) ? "Con freno" : /cristal|pinza/i.test(n) ? "Para cristal" : ""]);
+  }
+  if (/empotradas/.test(g)) {
+    const d = `<rect x="0" y="10" width="240" height="132" fill="#e7e2da"/><rect x="40" y="22" width="76" height="120" fill="#f6f4ef" stroke="#b9b2a5" stroke-dasharray="4 3"/><rect x="116" y="22" width="76" height="120" fill="#cfd5d9"/><rect x="40" y="22" width="152" height="4" fill="#8f989e"/><rect x="60" y="26" width="72" height="116" fill="${c.hex}" stroke="${st}" stroke-opacity=".6" opacity=".9"/><path d="M150 80 h-30 m8 -6 l-8 6 l8 6" stroke="#5f6b73" fill="none" stroke-width="1.6"/>`;
+    return lienzo(d, ["Empotrada", /ladrillo/i.test(n) ? "Tabique de ladrillo" : /yeso|pladur/i.test(n) ? "Tabique de pladur" : "", an ? `${an} cm` : ""]);
+  }
+  const x = 112, w = 62, y = 24, h = 118;
+  const hoja = vid ? `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${mate ? "#e3ecf0" : "#d4e6ef"}" stroke="${/negr/i.test(n) ? "#2f3437" : "#8f989e"}" stroke-width="${/negr|alumin/i.test(n) ? 3 : 1}" opacity=".95"/><path d="M${x + 10} ${y + 70} L${x + 40} ${y + 12}" stroke="#fff" stroke-width="4" opacity=".7"/>` : `${caja(x, y, w, h, 4, c.hex, st)}${textura(n, x, y, w, h, c.hex)}${/granero|tablas|r[uú]stic|pino/i.test(n) ? `<path d="M${x + 4} ${y + 8} L${x + w - 4} ${y + h - 8} M${x + w - 4} ${y + 8} L${x + 4} ${y + h - 8}" stroke="${tono(c.hex, 0.75)}" stroke-width="5"/>` : ""}`;
+  const d = `${pared}${suelo(x + w / 2, 144, 40)}${guia(60, 196)}${rueda(x + 12)}${rueda(x + w - 12)}${hoja}<rect x="${x + 6}" y="${y + 52}" width="3" height="18" rx="1.5" fill="#5f6b73"/><path d="M104 84 h-26 m8 -6 l-8 6 l8 6" stroke="#5f6b73" fill="none" stroke-width="1.6"/>`;
+  return lienzo(d, [/Packs/.test(g) || /con herrajes|\+ ?gu[ií]a/i.test(n) ? "Con guía" : "Solo hoja", vid ? (mate ? "Cristal mate" : "Cristal") : /roble/i.test(n) ? "Roble" : /nogal/i.test(n) ? "Nogal" : /pino|madera/i.test(n) ? "Madera" : c.et, an ? `${String(an).replace(".", ",")} cm` : ""]);
 }
 
 function generico(n) {
@@ -360,15 +411,17 @@ export function esquema(categoria, nombre) {
 }
 function esquemaTipo(categoria, nombre) {
   const a = area(categoria, nombre), g = subgrupo(a, nombre) || "";
+  if (a === "Herramientas") { const h = herramienta(nombre, g); if (h) return h; }
   if (/recambio|accesorio|driver|conector|manilla|pomo|rodapi|perfil de|adhesivo|cemento|mortero|junta/i.test(g) && !/tira/i.test(g)) return null;
   if (a === "Cerámica y colocación" || /porcel[aá]nico|azulejo|baldos/i.test(g)) return /azulejo|porcel|gres|baldos|cer[aá]mic|pavimento|revestimiento|mosaico|\d\s*[x×]\s*\d/i.test(nombre) ? azulejo(nombre) : null;
   if (/laminado|vin[ií]lico|parquet|madera/i.test(g) && a === "Suelos") return laminado(nombre);
   if (a === "Terrazas y patios") return /Césped artificial/.test(g) ? cesped(nombre) : /Tarima|Losetas/.test(g) ? laminado(nombre) : /Porcel/.test(g) ? azulejo(nombre) : null;
   if (/grifer/i.test(g)) return grifo(nombre, g);
   if (/^termos?/i.test(g) || /\btermo\b|calentador el/i.test(nombre)) return termo(nombre);
+  if (a === "Puertas correderas" && !/Tiradores/.test(g)) return corredera(nombre, g);
   if (a === "Puertas" && /puerta/i.test(nombre) && !/armario/i.test(nombre)) return puerta(nombre);
   if (a === "Ventiladores" && /ventilador/i.test(nombre)) return ventilador(nombre);
-  if (a === "Baño" && /Inodoros/.test(g) && !/tornill|fijaci|junta|manguito|v[aá]lvula|mecanismo|flotador|recambio|kit de/i.test(nombre)) return inodoro(nombre);
+  if (a === "Baño" && /Inodoros|Pulsadores|Bastidores/.test(g) && !/tornill|fijaci|junta|manguito|v[aá]lvula|mecanismo|flotador|recambio|kit de/i.test(nombre)) return inodoro(nombre);
   if (a === "Cocina" && /Muebles de cocina/.test(g)) return mueble(nombre);
   if (a === "Cocina" && /Frigor|Vinotecas|Placas|Campanas|Extractores/.test(g)) return electro(nombre, g);
   if (a === "Iluminación" && !/bombilla|driver|conector/i.test(g + nombre)) return luz(nombre, g);
