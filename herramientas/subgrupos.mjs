@@ -43,13 +43,20 @@ export const SUBGRUPOS = {
     ["Cables e hilos", /cable|hilo|manguera|rollo/i],
     ["Tubos y canaletas", /tubo|corrugado|canaleta|canal|bandeja|manguito|gu[ií]a|[aá]ngulo|abrazadera/i],
     ["Cajas", /caja/i],
-    ["Downlights y focos", /downlight|foco|aro|empotrable/i],
-    ["Paneles y pantallas LED", /panel|pantalla|regleta/i],
-    ["Bombillas", /bombilla|l[aá]mpara|portal[aá]mparas/i],
-    ["Tiras LED", /tira/i],
-    ["Plafones y apliques", /plaf[oó]n|aplique|colgante|farola|baliza|proyector/i],
     ["Emergencias y detectores", /emergencia|detector|sensor/i],
     ["Bornas y conexión", /borna|terminal|conector|puntera|brida|clema/i],
+  ],
+  "Iluminación": [
+    ["Downlights", /downlight|empotrable|aro/i],
+    ["Focos de carril", /carril|track|riel|foco/i],
+    ["Tiras LED y perfiles", /tira|perfil|neón|neon|fuente de alimentaci|driver|controlador/i],
+    ["Paneles y pantallas LED", /panel|pantalla|regleta|lineal/i],
+    ["Bombillas", /bombilla|l[aá]mpara led|gu10|e27|e14|mr16/i],
+    ["Plafones", /plaf[oó]n/i],
+    ["Apliques", /aplique/i],
+    ["Lámparas colgantes", /colgante|suspendida|suspensi[oó]n/i],
+    ["Exterior", /farola|baliza|proyector|exterior|jard[ií]n|estaca|ip6[5-8]/i],
+    ["Portalámparas y accesorios", /portal[aá]mparas|casquillo|florón|embellecedor/i],
   ],
   "Fontanería y saneamiento": [
     ["Tubería y PVC", /tubo|tuber[ií]a|multicapa|pex|pvc|rollo/i],
@@ -146,7 +153,10 @@ export function litros(n) {
 export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); return m ? Math.max(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : 0; }
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
 const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
+// La iluminación sale de Electricidad a un área propia.
+const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 export function area(categoria, nombre) {
+  if (categoria === "Electricidad" && LUZ.test(nombre) && !/interruptor|enchufe|detector|emergencia|magnetot|diferencial|cable|caja|tapa|marco|tecla/i.test(nombre)) return "Iluminación";
   if (categoria === "Puertas y ventanas") {
     if (/ventana|balconera|persiana|mosquitera/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta|bloque de puerta|puerta (corredera|interior|abatible)/i.test(nombre)) return "Ventanas";
     if (/armario|komplement|vestidor|casoneto|zapatero|pantalonero|balda|ikea|spaceo/i.test(nombre) && !/puerta (de )?(interior|entrada|blindad|corredera|abatible|paso)/i.test(nombre)) return "Armarios";
