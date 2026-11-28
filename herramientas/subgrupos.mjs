@@ -92,6 +92,17 @@ export const SUBGRUPOS = {
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /base|perfil|espuma|underlay/i],
   ],
+  "Decoración y revestimientos": [
+    ["Papel pintado vinílico", (n) => /papel pintado|papel de pared/i.test(n) && /vin[ií]l/i.test(n)],
+    ["Papel pintado tejido no tejido", (n) => /papel pintado|papel de pared/i.test(n) && /no tejido|tnt|intiss/i.test(n)],
+    ["Murales y fotomurales", /mural/i],
+    ["Papel pintado infantil", (n) => /papel pintado|papel de pared|mural/i.test(n) && /infantil|ni[ñn]os|beb[eé]/i.test(n)],
+    ["Papel pintado (otros)", /papel pintado|papel de pared/i],
+    ["Colas y herramientas para papel", /cola|adhesivo|esp[aá]tula|cepillo|cuchilla|rodillo/i],
+    ["Pósters y láminas", /p[oó]ster|l[aá]mina|cuadro|print/i],
+    ["Paneles de listones y acústicos", /list[oó]n|tablilla|ac[uú]stic|panel/i],
+    ["Frisos, zócalos y revestimientos de madera", /friso|z[oó]calo|revestimiento|madera|lama/i],
+  ],
   "Puertas": [
     ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|entrada/i],
     ["Puertas correderas", /corredera|plegable/i],
@@ -164,7 +175,7 @@ const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Iluminación", "Puertas", "Ventanas", "Armarios", "Pintura",
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Iluminación", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
   "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {

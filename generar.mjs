@@ -51,6 +51,7 @@ const ICONOS = {
   "Cocina": '<rect x="10" y="22" width="44" height="32" rx="3"/><circle cx="22" cy="32" r="5"/><circle cx="42" cy="32" r="5"/><path d="M10 42h44M18 48h28M26 22v-8h12v8"/>',
   "Aire acondicionado": '<rect x="8" y="14" width="48" height="18" rx="3"/><path d="M14 26h36M20 40l-3 8M32 40v10M44 40l3 8"/>',
   "Calefacción y agua caliente": '<rect x="20" y="6" width="24" height="44" rx="10"/><path d="M28 50v8M36 50v8M27 20h10M27 28h10"/>',
+  "Decoración y revestimientos": '<rect x="10" y="10" width="44" height="44" rx="2"/><path d="M10 40l12-12 10 10 8-8 14 14"/><circle cx="40" cy="22" r="4"/>',
   "Iluminación": '<path d="M24 40a14 14 0 1 1 16 0v6H24z"/><path d="M26 52h12M28 58h8M32 8V4M14 16l-3-3M50 16l3-3"/>',
   "Ventanas": '<rect x="12" y="10" width="40" height="44" rx="2"/><path d="M32 10v44M12 32h40"/>',
   "Armarios": '<rect x="12" y="8" width="40" height="48" rx="2"/><path d="M32 8v48M27 30v6M37 30v6"/>',

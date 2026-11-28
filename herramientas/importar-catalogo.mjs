@@ -35,6 +35,7 @@ const PATRON = {
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
+  [/papel pintado|papel de pared|fotomural|mural|p[oó]ster|l[aá]mina decorativa|panel(es)? de list[oó]n|tablilla|panel ac[uú]stico|friso|z[oó]calo de madera|revestimiento (decorativo|de madera)/i, "Decoración y revestimientos"],
   [/canal[oó]n|bajante/i, "Fontanería y saneamiento"],
   [/taladro|amoladora|atornillador|escaleras?\b|tacos? de nylon|ferreter[ií]a|cierrapuertas/i, "Obra y protección"],
   [/diferencial|cajas? (de )?registro|caja derivaci|tapa para caja/i, "Electricidad"],
