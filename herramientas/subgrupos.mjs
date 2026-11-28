@@ -22,7 +22,7 @@ export const SUBGRUPOS = {
     ["Campanas", /campana/i],
     ["Lavavajillas y electrodomésticos", /lavavajillas|frigor|nevera|microondas/i],
   ],
-  "Climatización y agua caliente": [
+  "Calefacción y agua caliente": [
     ["Termos hasta 50 L", (n) => /termo|acumulador/i.test(n) && !/termostat|termoarcilla|aerotermo/i.test(n) && litros(n) > 0 && litros(n) <= 60],
     ["Termos de 65 a 90 L", (n) => /termo|acumulador/i.test(n) && !/termostat|termoarcilla|aerotermo/i.test(n) && litros(n) > 60 && litros(n) <= 90],
     ["Termos de 100 L o más", (n) => /termo|acumulador/i.test(n) && !/termostat|termoarcilla|aerotermo/i.test(n) && litros(n) > 90],
@@ -30,12 +30,20 @@ export const SUBGRUPOS = {
     ["Calderas de gas", (n) => /caldera/i.test(n) && !/el[eé]ctrica|gasoil|gas[oó]leo|pellet|le[ñn]a|biomasa/i.test(n)],
     ["Otras calderas", /caldera/i],
     ["Aerotermia y bombas de calor", /aerotermo|aerotermia|bomba de calor|interacumulador|dep[oó]sito/i],
-    ["Aire acondicionado", /aire acondicionado|cassette|\b(asy|asg|aug|asy)\b|giada|\d+ ?k\b|\bmudo\b|kios|anori|split|multisplit|conductos|unidad (interior|exterior)|\bfrigor/i],
     ["Radiadores y emisores", /radiador|emisor|toallero|convector|acumulador/i],
     ["Termostatos y válvulas", /termostat|cabezal|v[aá]lvula/i],
-    ["Calefactores y ventiladores", /calefactor|ventilador/i],
     ["Accesorios de instalación", /amortiguador|garrafa|silentblock|coquilla|bomba de condensados|soporte|canal clima|tubo|tuber|controlador|kit/i],
     ["Termos (otros)", /termo/i],
+  ],
+  "Aire acondicionado": [
+    ["Splits de pared", /split|\bmudo\b|kios|anori|\b(asy|asg)\b|giada|pared/i],
+    ["Suelo-techo y techo", /suelo|techo/i],
+    ["Multisplit", /multisplit|multi split|2x1|3x1/i],
+    ["Conductos y cassette", /conductos|cassette|\baug\b/i],
+    ["Portátiles", /port[aá]til/i],
+    ["Calefactores y ventiladores", /calefactor|ventilador/i],
+    ["Accesorios de instalación", /amortiguador|garrafa|silentblock|coquilla|bomba de condensados|soporte|canal clima|tubo|tuber|controlador|kit/i],
+    ["Splits y unidades (otros)", /./],
   ],
   "Electricidad": [
     ["Cuadro y protecciones", /diferencial|magnetot|cuadro|fusible|contactor|guardamotor|\brel[eé]|protector|sobretensi|\bicp\b|limitador|interruptor autom|seccionador|carril din|base modular|cms\d/i],
@@ -43,13 +51,20 @@ export const SUBGRUPOS = {
     ["Cables e hilos", /cable|hilo|manguera|rollo/i],
     ["Tubos y canaletas", /tubo|corrugado|canaleta|canal|bandeja|manguito|gu[ií]a|[aá]ngulo|abrazadera/i],
     ["Cajas", /caja/i],
-    ["Downlights y focos", /downlight|foco|aro|empotrable/i],
-    ["Paneles y pantallas LED", /panel|pantalla|regleta/i],
-    ["Bombillas", /bombilla|l[aá]mpara|portal[aá]mparas/i],
-    ["Tiras LED", /tira/i],
-    ["Plafones y apliques", /plaf[oó]n|aplique|colgante|farola|baliza|proyector/i],
     ["Emergencias y detectores", /emergencia|detector|sensor/i],
     ["Bornas y conexión", /borna|terminal|conector|puntera|brida|clema/i],
+  ],
+  "Iluminación": [
+    ["Downlights", /downlight|empotrable|aro/i],
+    ["Focos de carril", /carril|track|riel|foco/i],
+    ["Tiras LED y perfiles", /tira|perfil|neón|neon|fuente de alimentaci|driver|controlador/i],
+    ["Paneles y pantallas LED", /panel|pantalla|regleta|lineal/i],
+    ["Bombillas", /bombilla|l[aá]mpara led|gu10|e27|e14|mr16/i],
+    ["Plafones", /plaf[oó]n/i],
+    ["Apliques", /aplique/i],
+    ["Lámparas colgantes", /colgante|suspendida|suspensi[oó]n/i],
+    ["Exterior", /farola|baliza|proyector|exterior|jard[ií]n|estaca|ip6[5-8]/i],
+    ["Portalámparas y accesorios", /portal[aá]mparas|casquillo|florón|embellecedor/i],
   ],
   "Fontanería y saneamiento": [
     ["Tubería y PVC", /tubo|tuber[ií]a|multicapa|pex|pvc|rollo/i],
@@ -77,14 +92,36 @@ export const SUBGRUPOS = {
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /base|perfil|espuma|underlay/i],
   ],
-  "Puertas y ventanas": [
-    ["Puertas de interior", /puerta (de )?(interior|paso|abatible|corredera|plegable)|puerta block|puerta lacada|hoja/i],
-    ["Puertas de entrada", /blindad|acorazad|entrada/i],
-    ["Ventanas y balconeras", /ventana|balconera|oscilobatiente/i],
-    ["Armarios y frentes", /armario|komplement|caj[oó]n|zapatero|barra para ropa|cesta|colgador|pantalonero|divisor|frente|balda|costado|trasera|casoneto|vestidor/i],
-    ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra/i],
-    ["Correderas y guías", /carril|gu[ií]a|corredera|rueda|kit/i],
-    ["Puertas (otras)", /puerta/i],
+  "Decoración y revestimientos": [
+    ["Papel pintado vinílico", (n) => /papel pintado|papel de pared/i.test(n) && /vin[ií]l/i.test(n)],
+    ["Papel pintado tejido no tejido", (n) => /papel pintado|papel de pared/i.test(n) && /no tejido|tnt|intiss/i.test(n)],
+    ["Murales y fotomurales", /mural/i],
+    ["Papel pintado infantil", (n) => /papel pintado|papel de pared|mural/i.test(n) && /infantil|ni[ñn]os|beb[eé]/i.test(n)],
+    ["Papel pintado (otros)", /papel pintado|papel de pared/i],
+    ["Colas y herramientas para papel", /cola|adhesivo|esp[aá]tula|cepillo|cuchilla|rodillo/i],
+    ["Pósters y láminas", /p[oó]ster|l[aá]mina|cuadro|print/i],
+    ["Paneles de listones y acústicos", /list[oó]n|tablilla|ac[uú]stic|panel/i],
+    ["Frisos, zócalos y revestimientos de madera", /friso|z[oó]calo|revestimiento|madera|lama/i],
+  ],
+  "Puertas": [
+    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|entrada/i],
+    ["Puertas correderas", /corredera|plegable/i],
+    ["Puertas de interior abatibles", /puerta|hoja|block|conjunto/i],
+    ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra|roseta|bomb[ií]n|set wc/i],
+    ["Tapajuntas y molduras", /tapajuntas|moldura|jamba/i],
+    ["Guías y herrajes", /carril|gu[ií]a|rueda|kit|herraje|tope/i],
+  ],
+  "Ventanas": [
+    ["Balconeras", /balconera/i],
+    ["Ventanas de PVC", /pvc/i],
+    ["Ventanas de aluminio", /alumini/i],
+    ["Ventanas de madera", /madera/i],
+    ["Persianas y mosquiteras", /persiana|mosquitera|caj[oó]n/i],
+  ],
+  "Armarios": [
+    ["Frentes y puertas de armario", /frente|puerta|hoja/i],
+    ["Interiores: cajones, baldas y barras", /komplement|caj[oó]n|balda|barra|zapatero|cesta|colgador|pantalonero|divisor|bandeja|riel/i],
+    ["Armarios y módulos", /armario|casoneto|m[oó]dulo|estructura|vestidor|costado|trasera/i],
   ],
   "Pintura": [
     ["Pintura plástica", /pintura|pl[aá]stica|revestimiento|fachada/i],
@@ -135,7 +172,20 @@ export function litros(n) {
 export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); return m ? Math.max(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : 0; }
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
 const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
+// La iluminación sale de Electricidad a un área propia.
+const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
+// Orden del menú: primero acabados y equipos, al final el material de obra.
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Iluminación", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
+  "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Obra y protección"];
+const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
+  if (categoria === "Climatización y agua caliente") return AIRE.test(nombre) && !/aerotermia|aerotermo|altherma|bomba de calor|termo|caldera|radiador|ecodan|aquarea|hydro|monobloc|bibloc|depósito|interacumulador/i.test(nombre) ? "Aire acondicionado" : "Calefacción y agua caliente";
+  if (categoria === "Electricidad" && LUZ.test(nombre) && !/interruptor|enchufe|detector|emergencia|magnetot|diferencial|cable|caja|tapa|marco|tecla/i.test(nombre)) return "Iluminación";
+  if (categoria === "Puertas y ventanas") {
+    if (/ventana|balconera|persiana|mosquitera/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta|bloque de puerta|puerta (corredera|interior|abatible)/i.test(nombre)) return "Ventanas";
+    if (/armario|komplement|vestidor|casoneto|zapatero|pantalonero|balda|ikea|spaceo/i.test(nombre) && !/puerta (de )?(interior|entrada|blindad|corredera|abatible|paso)/i.test(nombre)) return "Armarios";
+    return "Puertas";
+  }
   if (categoria !== "Baño y cocina") return categoria;
   return COCINA.test(nombre) && !/ba[ñn]o|lavabo|ducha|inodoro|mampara/i.test(nombre) ? "Cocina" : "Baño";
 }
