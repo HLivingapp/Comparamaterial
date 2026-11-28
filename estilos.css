@@ -334,3 +334,9 @@ main>*{min-width:0}
 .marcas-l b{display:block;font-size:1.05rem}.marcas-l small{color:var(--tx2,#5f6b73)}
 .marca-tiendas{border-collapse:collapse;margin:8px 0 18px;min-width:min(100%,420px)}
 .marca-tiendas th,.marca-tiendas td{padding:6px 10px;border-bottom:1px solid #e3e7ea;text-align:left}
+/* Filtros en una caja propia, separada de la barra de tipos y de la lista. */
+.facetas{border:1px solid var(--li);border-radius:14px;padding:12px 14px 14px;background:var(--sup);margin:14px 0 18px}
+.facetas-tit{margin:0 0 4px;font-weight:800;font-size:1.05rem}
+.facetas .faceta{padding-top:8px;border-top:1px solid var(--li)}
+.facetas .facetas-tit + .faceta{border-top:0;padding-top:0}
+.faceta[hidden],.facetas[hidden],.faceta button[hidden]{display:none!important}
