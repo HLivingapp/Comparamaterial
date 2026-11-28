@@ -5452,6 +5452,15 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Brandt BIL7755EN Frigorifico INTEGRABLE, 1 Puerta, Capacidad 304 L, Clase energ. E, Frío ciclico, ST, Súper refrigeración, Fresh zone, Luz LED",
+      "precio": 429,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/brandt-bil7755en-frigorifico-integrable-1-puerta-capacidad-304-l-clase-energ-e-frio-ciclico-st-super-refrigeracion-fresh-zone-luz-led-96568414.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "pereda",
       "categoria": "Baño y cocina",
       "nombre": "Brazo de ducha pared cuadrado de 40 cm cromo brillo latón",
@@ -5632,6 +5641,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana decorativa CATA SYGMA 6010X con 4 velocidades 60 cm 802 m/h inox clase A",
+      "precio": 259,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-cata-sygma-6010x-con-4-velocidades-60-cm-802-m-h-inox-clase-a-89563601.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana Decorativa De Pared APELSON HELIA 901 X 90 cm Inox 610 m³/h clase A+ LED Acero Inoxidable",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-de-pared-apelson-helia-901-x-90-cm-inox-610-m3-h-clase-a-led-acero-inoxidable-76867452.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Baño y cocina",
       "nombre": "CAMPANA DECORATIVA INCLINADA 60CM COLOR NEGRO BEKO BHCA66641BBHS",
@@ -5648,6 +5675,33 @@
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/campana-decorativa-incliinada-90cm-color-negro-beko-bhca96641bbhs-25027355.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana decorativa TURBOAIR CERTOSA con 3 velocidades 60 cm 395 m/h inox clase D",
+      "precio": 74.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-turboair-certosa-con-3-velocidades-60-cm-395-m-h-inox-clase-d-82419261.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana decorativa TURBOAIR Kitty con 3 velocidades 60 cm 650 m/h negro clase A",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-turboair-kitty-con-3-velocidades-60-cm-650-m-h-negro-clase-a-82455950.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana decorativa WHIRLPOOL AKR 62F LT K con 4 velocidades 58.8 cm 495 m/h negro clase A",
+      "precio": 249,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-decorativa-whirlpool-akr-62f-lt-k-con-4-velocidades-58-8-cm-495-m-h-negro-clase-a-83633961.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -5668,6 +5722,24 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana extraplana TEKA TL 63100 MOS B con 2 velocidades 60 cm 406 m³/h negro clase B",
+      "precio": 50.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-extraplana-teka-tl-63100-mos-b-con-2-velocidades-60-cm-406-m-h-negro-clase-b-70435037.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Campana extraplana TEKA TL 63100 MOS X con 2 velocidades 60 cm 406 m³/h inox clase B",
+      "precio": 99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/campana-extraplana-teka-tl-63100-mos-x-con-2-velocidades-60-cm-406-m-h-inox-clase-b-70435199.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Baño y cocina",
       "nombre": "CASCO DE CISTERNA ALTA 10L",
@@ -5684,6 +5756,78 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/ceramia-conjunto-inodoro-de-suelo-con-taza-de-ceramica-con-borde-salida-vertical-color-blanco-eur960new-70830239.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA Campana decorativa de pared 90 cm 406 m³/h A++ 3 velocidades 60 dB recirculación o evacuación filtros de carbón incluidos LED inox VM9201S",
+      "precio": 139.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-campana-decorativa-de-pared-90-cm-406-m3-h-a-3-velocidades-60-db-recirculacion-evacuacion-filtros-de-carbon-incluidos-led-inox-vm9201s-97088278.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA Campana Extractora de Pared 90 cm 706 m³/h Clase Energética A+++ Control Táctil WiFi 4 Velocidades Booster Silenciosa Negro VM9102B",
+      "precio": 279.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-campana-extractora-de-pared-90-cm-706-m3-h-clase-energetica-a-control-tactil-wifi-4-velocidades-booster-silenciosa-negro-vm9102b-97264675.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA Campana Extractora Inclinada 60 cm 692 m³/h Clase A+++ 4 Velocidades Booster Wi-Fi Táctil Vidrio Blanco VM6736NW",
+      "precio": 207.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-campana-extractora-inclinada-60-cm-692-m3-h-clase-a-4-velocidades-booster-wi-fi-tactil-vidrio-blanco-vm6736nw-93036927.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA ONE Placa de inducción con extractor integrado 2 Zonas 39 cm Filtro de Carbón Incluido Booster 505 m³/h Temporizador Con Enchufe CBBEH3952-2B",
+      "precio": 799.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-one-placa-de-induccion-con-extractor-integrado-2-zonas-39-cm-filtro-de-carbon-incluido-booster-505-m3-h-temporizador-con-enchufe-cbbeh3952-2b-75371541.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA ONE Placa de inducción con extractor integrado 2 Zonas 39 cm Sistema Plasma Filtro de Carbón Incluido Booster 505 m³/h Temporizador CDB392BEH",
+      "precio": 769,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-one-placa-de-induccion-con-extractor-integrado-2-zonas-39-cm-sistema-plasma-filtro-de-carbon-incluido-booster-505-m3-h-temporizador-cdb392beh-90785711.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA ONE Placa de inducción con extractor integrado 4 Zonas 59 cm FlexZone Sistema Plasma Filtro de Carbón Incluido Booster 533 m³/h CDB594BBFEH",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-one-placa-de-induccion-con-extractor-integrado-4-zonas-59-cm-flexzone-sistema-plasma-filtro-de-carbon-incluido-booster-533-m3-h-cdb594bbfeh-90785735.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA Placa de Inducción 4 Fuegos 59 cm 7200 W Zona Flex 9 Niveles Boost Temporizador 99 min Función Pausa Negro CD4BFBIH",
+      "precio": 229.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-placa-de-induccion-4-fuegos-59-cm-7200-w-zona-flex-9-niveles-boost-temporizador-99-min-funcion-pausa-negro-cd4bfbih-86143360.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "CIARRA Placa de inducción de 4 fuegos 59 cm 6000W Indicador de calor residual Temporizador 99min Negro CD4BIH-C",
+      "precio": 151.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ciarra-placa-de-induccion-de-4-fuegos-59-cm-6000w-indicador-de-calor-residual-temporizador-99min-negro-cd4bih-c-90785703.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -6583,6 +6727,15 @@
       "precio": 108.88,
       "unidad": "ud",
       "enlace": "https://saneamientospereda.es/grifo-de-cocina/cook-fregadero-cano-flexible-cromo-stock.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Corberó Campana Decorativa VICTORIA760B 70 cm 3 velocidades touch 594 m³/h filtro aluminio y carbón A negro",
+      "precio": 179,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/corbero-campana-decorativa-victoria760b-70-cm-3-velocidades-touch-594-m3-h-filtro-aluminio-y-carbon-a-negro-98728202.html",
       "fecha": "2026-11-28"
     },
     {
@@ -7614,6 +7767,24 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "EVVO Frigorífico 4 puertas F100X Aqua. Inverter. Total No Frost. 359l + 201l. Dispensador de agua",
+      "precio": 899,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/evvo-frigorifico-4-puertas-f100x-aqua-inverter-total-no-frost-359l-201l-dispensador-de-agua-95580633.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "EVVO Frigorífico francés F80X, Inverter, Total No Frost, 327l + 183l",
+      "precio": 799.1,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/evvo-frigorifico-frances-f80x-inverter-total-no-frost-327l-183l-95580798.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "Feel Your Bath Conjunto Mueble de Baño 80 cm Roble Nórdico, Espejo y Encimera Cerámica Blanca, 2 Cajones Soft Close TIGER",
       "precio": 337.46,
       "unidad": "ud",
@@ -8572,6 +8743,267 @@
       "precio": 50.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/frente-de-cajon-de-cocina-vienne-verde-mate-h-38-4-x-l-60-cm-88491445.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "FRIGO 4P HISENSE RQ768N4GBE",
+      "precio": 1318,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigo-4p-hisense-rq768n4gbe-91928881.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico 1 puerta integrable BALAY 3FIE734S Frío ventilado 177.2cm 310L blanco clase E",
+      "precio": 644.58,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-1-puerta-balay-3fie734s-frio-ventilado-177-2cm-310l-blanco-clase-e-91336739.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico 1 puerta integrable BEKO BSSA315K4SN cíclico 177.5cm 309L blanco clase E",
+      "precio": 480.15,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-1-puerta-beko-bssa315k4sn-ciclico-177-5cm-309l-blanco-clase-e-91306368.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico 1 puerta integrable BOSCH KIR81ADD0 cíclico 177.5cm 310L blanco clase D",
+      "precio": 844.27,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-1-puerta-bosch-kir81add0-ciclico-177-5cm-310l-blanco-clase-d-91325355.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico 1 puerta integrable SIEMENS KI81RADD0 Frío ventilado 177.5cm 310L blanco clase D",
+      "precio": 1019,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-1-puerta-siemens-ki81radd0-frio-ventilado-177-5cm-310l-blanco-clase-d-91321687.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico 2 puertas integrable BEKO BDSA250K4SN cíclico 144.8cm 178L blanco clase E",
+      "precio": 367,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-2-puertas-beko-bdsa250k4sn-ciclico-144-8cm-178l-blanco-clase-e-91492186.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico americano BEKO GNO46623MXPN No Frost 180cm 466L inox clase D",
+      "precio": 599,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-beko-gno46623mxpn-no-frost-180cm-466l-inox-clase-d-91220448.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico americano BEKO GNO5323XPN No Frost 177cm 344L inox clase D",
+      "precio": 594.6,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-beko-gno5323xpn-no-frost-177cm-344l-inox-clase-d-90189451.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico Americano EVVO F91DX Aqua Inox. Total No Frost. Motor Inverter. 542L. Dispensador de Agua. Clase E",
+      "precio": 679.22,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-evvo-f91dx-aqua-inox-total-no-frost-motor-inverter-542l-dispensador-de-agua-clase-e-70594284.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorifico Americano Infiniton AMCB-415CD82XET, 415 l, 182.5 cm, Inverter, No Frost, E, Inox",
+      "precio": 667.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-infiniton-amcb-415cd82xet-415-l-182-5-cm-inverter-no-frost-e-inox-92860214.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorifico Americano Infiniton AMCB-505CD90XEH, 505 L, 190 cm, E, Total No Frost, Inox",
+      "precio": 884.49,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-infiniton-amcb-505cd90xeh-505-l-190-cm-e-total-no-frost-inox-71945242.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorifico Americano Infiniton AMCB-580CD90WEC, 190 cm, 456 Litros, E, Cristal Blanco, Total No Frost",
+      "precio": 911.49,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-infiniton-amcb-580cd90wec-190-cm-456-litros-e-cristal-blanco-total-no-frost-75321732.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorifico Americano INFINITON AMCB-580CD90XEH, 456 Litros, 190 cm, Total No Frost, E, Inox",
+      "precio": 764.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-infiniton-amcb-580cd90xeh-456-litros-190-cm-total-no-frost-e-inox-97260990.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorifico Americano Infiniton SBS-506A77BEH, 177 cm, E, No Frost Total, Blanco",
+      "precio": 577.65,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-infiniton-sbs-506a77beh-177-cm-e-no-frost-total-blanco-90162462.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico Americano LG GSBC40SWPE Blanco E",
+      "precio": 939.53,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-lg-gsbc40swpe-blanco-e-92592675.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico Americano Svan, SA18901ENF, 2 Puertas, Capacidad 442 Litros, No Frost, Inverter, Bajo Nivel Sonoro, Display LED, Clase E, Color Blanco",
+      "precio": 551.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-svan-sa18901enf-2-puertas-capacidad-442-litros-no-frost-inverter-bajo-nivel-sonoro-display-led-clase-e-color-blanco-98836556.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico americano WHIRLPOOL WHG2 6574W X5E No Frost 179cm 478L inox clase D",
+      "precio": 1044.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-americano-whirlpool-whg2-6574w-x5e-no-frost-179cm-478l-inox-clase-d-96109705.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable AEG TC6MS18FDS No Frost 177.2cm 249L blanco clase D",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-aeg-tc6ms18fds-no-frost-177-2cm-249l-blanco-clase-d-96109700.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BALAY 3KID834F No Frost 194cm 290L blanco clase D",
+      "precio": 1048.82,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-balay-3kid834f-no-frost-194cm-290l-blanco-clase-d-92292953.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BALAY 3KIE711S cíclico 177cm 183L blanco clase E",
+      "precio": 563.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-balay-3kie711s-ciclico-177cm-183l-blanco-clase-e-89567890.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BEKO BCNA275E4SN No Frost 178cm 254L blanco clase E",
+      "precio": 669.03,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-beko-bcna275e4sn-no-frost-178cm-254l-blanco-clase-e-89194347.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BEKO BCNA306E4SN No Frost 193.5cm 215L blanco clase E",
+      "precio": 595,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-beko-bcna306e4sn-no-frost-193-5cm-215l-blanco-clase-e-86419527.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BOSCH KIN86VFE0 No Frost 177.5cm 260L blanco clase E",
+      "precio": 1115.05,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-bosch-kin86vfe0-no-frost-177-5cm-260l-blanco-clase-e-84507115.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable BOSCH KIV86VSE0 cíclico 177.5cm 183L blanco clase E",
+      "precio": 728.57,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-bosch-kiv86vse0-ciclico-177-5cm-183l-blanco-clase-e-85134719.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable CANDY CNBQT3518E No Frost 177cm 74L blanco clase E",
+      "precio": 566.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-candy-cnbqt3518e-no-frost-177cm-74l-blanco-clase-e-96258653.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable Cecotec Bolero CoolMarket Combi BI-S MC 232 E alto 177 ancho 54cm 232 litros",
+      "precio": 446.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cecotec-a01-eu01-100595-bolero-coolmarket-combi-bi-s-mc-232-e-alto-177-ancho-54cm-capacidad-232-litros-8435771917714-73115496.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable TEKA RBF 43345 FI congelador No Frost 178.5cm 271L blanco clase E",
+      "precio": 546,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-teka-rbf-43345-fi-congelador-no-frost-178-5cm-271l-blanco-clase-e-96523643.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico combi integrable TEKA RBF 78385 FI No Frost 195.5cm 300L blanco clase E",
+      "precio": 764.86,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-combi-integrable-teka-rbf-78385-fi-no-frost-195-5cm-300l-blanco-clase-e-96523345.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Frigorífico Multidoor HAIER HFR5719EWMG 1.90m Inox",
+      "precio": 828.3,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/frigorifico-multidoor-haier-hfr5719ewmg-1-90m-inox-91306076.html",
       "fecha": "2026-11-28"
     },
     {
@@ -9718,6 +10150,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Grupo filtrante WHIRLPOOL WCTH 63F LEB X con 4 velocidades 51.4 cm 710 m/h inox clase B",
+      "precio": 179,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/grupo-filtrante-whirlpool-wcth-63f-leb-x-con-4-velocidades-51-4-cm-710-m-h-inox-clase-b-78174668.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Baño y cocina",
       "nombre": "HORNO ESTÁTICO ACABADO INOX BEKO BIC 22100X",
@@ -9869,6 +10310,15 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/infinitio-lavabo-sobre-encimera-45-5-x-32-5-x-13-5-cm-sin-rebosadero-blanco-mate-satinf4532m-88243623.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "INFINITON Placa Inducción con Extracción HH-W83A874, 8 zonas, Potencia 659 m3/h, A++, Touch control, Modo Boost",
+      "precio": 659,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/infiniton-placa-induccion-con-extraccion-hh-w83a874-8-zonas-potencia-659-m3-h-a-touch-control-modo-boost-92327161.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -14596,6 +15046,249 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción BALAY 3EB865ERS con 3 zonas de cocción zona grande de 28cm 4600 W negro 60cm",
+      "precio": 281.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-balay-3eb865ers-con-3-zonas-de-coccion-zona-grande-de-28cm-4600-w-negro-60cm-84579271.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción BOSCH PID775HC1E con 3 zonas de cocción zona grande de 32cm 7400 W negro 71cm",
+      "precio": 574.14,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-bosch-pid775hc1e-con-3-zonas-de-coccion-zona-grande-de-32cm-7400-w-negro-71cm-92381675.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción BOSCH PVJ61AHC1E con 3 zonas de cocción zona grande de 28cm y zona flex 7400 W negro 60cm",
+      "precio": 610,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-bosch-pvj61ahc1e-con-3-zonas-de-coccion-zona-grande-de-28cm-y-zona-flex-7400-w-negro-60cm-78452481.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción CATA IDF8021 PRO BK con 4 zonas de cocción zona grande de 30cm y zona flex 7200 W negro 80cm",
+      "precio": 939,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-cata-idf8021-pro-bk-con-4-zonas-de-coccion-zona-grande-de-30cm-y-zona-flex-7200-w-negro-80cm-82392728.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción CATA ILM 3080 BK con 3 zonas de cocción zona grande de 30cm 7100 W negro 60cm",
+      "precio": 171,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-cata-placa-ilm-3080-bk-con-3-zonas-de-coccion-zona-grande-de-30cm-7100-w-negro-60cm-96923524.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción CATA ILM 3285 con 3 zonas de cocción zona grande de 28cm 7100 W negro 60cm",
+      "precio": 239,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-cata-ilm-3285-con-3-zonas-de-coccion-zona-grande-de-28cm-7100-w-negro-60cm-92875117.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción Cata INSB6003E2WH 3 zonas bisel frontal",
+      "precio": 283.03,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cata-insb6003e2wh-induccion-3-zonas-bisel-frontal-98830664.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor BALAY 3EBC963ER con 4 zonas de cocción y zona flex 7400W negro 60 cm",
+      "precio": 1057,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-balay-3ebc963er-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-60-cm-91336751.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor BALAY 3EBC989MH con 3 zonas de cocción y zona flex 7400W negro 80 cm",
+      "precio": 1418.12,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-balay-3ebc989mh-con-3-zonas-de-coccion-y-zona-flex-7400w-negro-80-cm-99283555.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor BOSCH PVQ61AH26E con 4 zonas de cocción y zona flex 7400W negro 60 cm",
+      "precio": 1437,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-bosch-pvq61ah26e-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-60-cm-78452458.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor BOSCH PVQ731H26E con 4 zonas de cocción y zona flex 7400W negro 71 cm",
+      "precio": 1289,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-bosch-pvq731h26e-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-71-cm-91325392.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor BOSCH PVS611B16E con 4 zonas de cocción y zona flex 622W negro 60 cm",
+      "precio": 1239,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-bosch-pvs611b16e-con-4-zonas-de-coccion-y-zona-flex-622w-negro-60-cm-89751656.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor CATA 08000405 con 4 zonas de cocción y zona flex 7530W negro 77 cm",
+      "precio": 548.42,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-cata-08000405-con-4-zonas-de-coccion-y-zona-flex-7530w-negro-77-cm-85587242.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor CATA IAS 6024 con 4 zonas de cocción y zona flex 165W negro 60 cm",
+      "precio": 789.36,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-cata-ias-6024-con-4-zonas-de-coccion-y-zona-flex-165w-negro-60-cm-96393292.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor CATA Inducción Aspirante Superficie AS 600 con 4 zonas de cocción y zona flex 135W negro 59 cm",
+      "precio": 617,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-cata-induccion-aspirante-superficie-as-600-con-4-zonas-de-coccion-y-zona-flex-135w-negro-59-cm-88974585.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU MAX BK con 4 zonas de cocción y zona flex 7000W negro 70 cm",
+      "precio": 922.33,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-max-bk-con-4-zonas-de-coccion-y-zona-flex-7000w-negro-70-cm-91492520.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU MAX BK con 4 zonas de cocción y zona flex 7000W negro 83 cm",
+      "precio": 881.02,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-max-bk-con-4-zonas-de-coccion-y-zona-flex-7000w-negro-83-cm-91492519.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU VALUE 3Z con 3 zonas de cocción y zona flex 7400W negro 83 cm",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-value-3z-con-3-zonas-de-coccion-y-zona-flex-7400w-negro-83-cm-71545042.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU VALUE 70CM REC con 4 zonas de cocción y zona flex 7400W negro 70 cm",
+      "precio": 812.68,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-value-70cm-rec-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-70-cm-71312803.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU VALUE 83CM REC con 4 zonas de cocción y zona flex 7400W negro 83 cm",
+      "precio": 1099.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-value-83cm-rec-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-83-cm-71313119.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor MEPAMSA INDU VALUE con 4 zonas de cocción y zona flex 7400W negro 70 cm",
+      "precio": 969.56,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-con-extractor-mepamsa-indu-value-con-4-zonas-de-coccion-y-zona-flex-7400w-negro-70-cm-71545065.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción con extractor WHIRLPOOL WVH60FFB01 4 zonas 60 cm",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-extr-ind4-60-whirlpool-wvh60ffb01-99283545.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción EDESA EIM 6330B/A con 3 zonas de cocción zona grande de 30cm 7100 W negro 60cm",
+      "precio": 203.02,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-edesa-eim-6330b-a-con-3-zonas-de-coccion-zona-grande-de-30cm-7100-w-negro-60cm-89466762.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción Electrolux EIV83443CT integrable 80 cm 4 zonas",
+      "precio": 522.55,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/electrolux-eiv83443ct-integrado-80-cm-con-placa-de-induccion-4-zona-s-98579146.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción FAGOR 3IF305BC con 3 zonas de cocción zona grande de 28cm 7200 W negro 60cm",
+      "precio": 183.51,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-fagor-3if305bc-con-3-zonas-de-coccion-zona-grande-de-28cm-7200-w-negro-60cm-85262597.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción TEKA IBF 63210 SSM BK con 3 zonas de cocción zona grande de 28cm y zona flex 7400 W negro 60cm",
+      "precio": 225.74,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-teka-ibf-63210-ssm-bk-con-3-zonas-de-coccion-zona-grande-de-28cm-y-zona-flex-7400-w-negro-60cm-94267893.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de inducción WHIRLPOOL WS B2360 BF con 3 zonas de cocción zona grande de 28cm 7200 W negro 59 cm",
+      "precio": 355,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-whirlpool-ws-b2360-bf-con-3-zonas-de-coccion-zona-grande-de-28cm-7200-w-negro-59-cm-84799914.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Baño y cocina",
       "nombre": "PLACA INDUCCION 3 ZONAS CONFORTEC CFH6233IND",
@@ -14603,6 +15296,60 @@
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/placa-induccion-3-zonas-confortec-cfh6233ind-10944906.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción Extractora BALAY 3EBC983ER Flex 80 cm",
+      "precio": 1184.85,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-extractora-balay-3ebc983er-flex-80-92320900.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción Extractora TEKA AIR AFF 87601 MST 80cm 6f",
+      "precio": 1385.23,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-extractora-teka-air-aff-87601-mst-80cm-6f-87915289.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción Infiniton IND4N74S42, 4 zonas, 9 Niveles, Negro",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-infiniton-ind4n74s42-4-zonas-9-niveles-negro-70017034.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción LG CBIZ2432B Flex ThinQ",
+      "precio": 429.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-lg-cbiz2432b-flex-thinq-90466730.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción TEKA IKC 63320 MSP 3f Diamante",
+      "precio": 455.45,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-teka-ikc-63320-msp-3f-diamante-87915237.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa Inducción TEKA IZC 63632 Negro Maestro Paellero",
+      "precio": 362.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-induccion-teka-izc-63632-negro-maestro-paellero-88974572.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -15556,6 +16303,15 @@
       "precio": 31.9,
       "unidad": "ud",
       "enlace": "https://saneamientospereda.es/grifo-de-cocina/r9134319-cano-de-32-de-tres.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Refrigerador americano Midea MERF402FIE02 Puerta francesa No Frost Capacidad 391 Litros Clase E Acero inoxidable",
+      "precio": 718.25,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/refrigerador-americano-midea-merf402fie02-puerta-francesa-no-frost-capacidad-391-litros-clase-e-acero-inoxidable-93185203.html",
       "fecha": "2026-11-28"
     },
     {
@@ -18916,6 +19672,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Siemens iQ500 KF96NAXEA nevera puerta lado a lado Independiente 605 L E Negro, Acero inoxidable",
+      "precio": 1651.97,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/siemens-iq500-kf96naxea-nevera-puerta-lado-a-lado-independiente-605-l-e-negro-acero-inoxidable-87518450.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "bricoelectrico",
       "categoria": "Baño y cocina",
       "nombre": "Sistema de filtración de agua Aqua Pure completo",
@@ -19309,6 +20074,15 @@
       "precio": 169.84,
       "unidad": "ud",
       "enlace": "https://saneamientospereda.es/grifo-de-lavabo/targa-lavabo-cuerpo-liso-oro-cepillado-hasta-fin-de-stock.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Taurus - Placa de inducción I6031MT, 3 zonas, 7200 W, zona XL 30 cm, 3 boosters, Multi-Touch",
+      "precio": 164.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taurus-placa-de-induccion-i6031mt-3-zonas-7200-w-zona-xl-30-cm-3-boosters-multi-touch-74869020.html",
       "fecha": "2026-11-28"
     },
     {

@@ -61,7 +61,7 @@ const CATEGORIA = [
   [/columna de ducha|espejo/i, "Baño y cocina"],
   [/espuma de poliuretano|espumas de poliuretano/i, "Albañilería y morteros"],
   [/rodapi/i, "Suelos"],
-  [/placas? de cocina|vitrocer|inducci[oó]n|horno|campana|encimera|fregadero|lavabo|lavamanos/i, "Baño y cocina"],
+  [/placas? de cocina|vitrocer|inducci[oó]n|horno|campana|encimera|fregadero|lavabo|lavamanos|electrodom[eé]stic|frigor[ií]fico|refrigerador|nevera|congelador|vinoteca|lavavajillas|microondas|grupo filtrante/i, "Baño y cocina"],
   [/plaste|masilla(?!.*junta)/i, "Pintura"],
   [/panel(es)? led/i, "Electricidad"],
   [/herramienta|protecci[oó]n de obra|llana|paleta|talocha/i, "Obra y protección"],

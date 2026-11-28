@@ -5,6 +5,7 @@ const ACC_LUZ = /^\W*(toma|juego|rectificador|driver|fuente|transformador|conect
 const ACC_INST = /amortiguador|garrafa|silentblock|coquilla|bomba de condensados|soporte|canal clima|tubo|tuber|controlador|\bkit\b|rollo|cobre|drenaje|\by para\b|sensor|sonda/i;
 const termo = (n) => /termo|acumulador/i.test(n) && !/termostat|termoarcilla|aerotermo/i.test(n);
 // Muebles de cocina: módulos, columnas, cocinas completas (Delinia, METOD…).
+const VINOTECA = /vinoteca|nevera (de|para) vinos?|enfriador de vinos?|armario (de |para )?vinos? refrigerado|botellero refrigerado/i;
 export const MUEBLE_COCINA = /composici[oó]n de cocina|columna de cocina|semi ?columna|frente de caj[oó]n|m[oó]dulo (de )?cocina|casco (de )?cocina|puerta (de )?cocina|muebles? (bajo|alto|de cocina|fregadero|para fregadero|columna|horno|esquin|rinc)|m[oó]dulo (bajo|alto|columna|de cocina|fregadero|horno|esquin)|columna (de |para )?(horno|frigo|nevera|despensa)|armario (bajo|alto|de pared|de columna|de esquina|para (horno|frigo|fregadero))|cocina (completa|modular|en kit|lineal)|kit de cocina|frente de (cocina|lavavajillas)|puerta (de|para) (mueble de )?cocina|\b(metod|delinia|enhet|knoxhult)\b/i;
 export const SUBGRUPOS = {
   "Baño": [
@@ -26,10 +27,17 @@ export const SUBGRUPOS = {
     ["Grifería de cocina", /grifo|monomando/i],
     ["Fregaderos", /fregadero/i],
     ["Encimeras", /encimera/i],
+    ["Vinotecas", VINOTECA],
+    ["Placas con extracción integrada", /(placa|inducci[oó]n).*(extract|extracci|aspirante)|(extract|aspirante).*inducci[oó]n/i],
+    ["Extractores de encimera", /extractor(es)? (de |en )?encimera|downdraft|campana (de |en )?encimera|campana escamoteable|campana retr[aá]ctil/i],
     ["Placas", /placa|vitrocer|inducci/i],
     ["Hornos", /horno/i],
-    ["Campanas", /campana/i],
-    ["Lavavajillas y electrodomésticos", /lavavajillas|frigor|nevera|microondas/i],
+    ["Microondas", /microondas/i],
+    ["Campanas", /campana|grupo filtrante|extractor de cocina/i],
+    ["Frigoríficos americanos", /(frigor[ií]fico|refrigerador|nevera|\bfrigo\b).*(american|lado a lado|side ?by ?side|franc[eé]s|multi ?door|4 ?puertas|\b4p\b)|\b(american|multidoor)\b.*(frigor|nevera)|\bfrigo 4p\b/i],
+    ["Frigoríficos integrables", /(frigor[ií]fico|nevera|congelador|refrigerador).*integrable|integrable.*(frigor|nevera|congelador)/i],
+    ["Frigoríficos y congeladores", /frigor[ií]fico|refrigerador|nevera|\bfrigo\b|congelador/i],
+    ["Lavavajillas", /lavavajillas/i],
   ],
   "Calefacción y agua caliente": [
     ["Termostatos y válvulas", /termostat|cabezal|v[aá]lvula|cronotermo/i],
@@ -199,7 +207,7 @@ export const SUBGRUPOS = {
 };
 export const VISTA = {
   "Baño": ["Muebles de baño", "Inodoros y cisternas", "Lavabos", "Platos de ducha", "Mamparas", "Bañeras", "Columnas y duchas", "Grifería de baño", "Espejos", "Accesorios de baño", "Recambios, desagües y fijaciones"],
-  "Cocina": ["Muebles de cocina", "Fregaderos", "Grifería de cocina", "Encimeras", "Placas", "Hornos", "Campanas", "Lavavajillas y electrodomésticos", "Recambios y accesorios"],
+  "Cocina": ["Muebles de cocina", "Fregaderos", "Grifería de cocina", "Encimeras", "Placas", "Placas con extracción integrada", "Campanas", "Extractores de encimera", "Hornos", "Microondas", "Frigoríficos americanos", "Frigoríficos integrables", "Frigoríficos y congeladores", "Vinotecas", "Lavavajillas", "Recambios y accesorios"],
   "Calefacción y agua caliente": ["Termos hasta 50 L", "Termos de 65 a 90 L", "Termos de 100 L o más", "Termos (otros)", "Calentadores de gas", "Calderas de gas", "Otras calderas", "Aerotermia y bombas de calor", "Radiadores y emisores", "Termostatos y válvulas", "Accesorios de instalación"],
   "Aire acondicionado": ["Splits de pared", "Multisplit", "Conductos y cassette", "Suelo-techo y techo", "Portátiles", "Splits y unidades (otros)", "Calefactores y ventiladores", "Accesorios de instalación"],
   "Electricidad": ["Mecanismos: interruptores y enchufes", "Bases múltiples, clavijas y prolongadores", "Cuadro y protecciones", "Cables e hilos", "Tubos y canaletas", "Cajas", "TV y antena", "Emergencias y detectores", "Bornas y conexión", "Fijación y cinta aislante"],
@@ -244,7 +252,7 @@ export function mmC(n) { const m = String(n).match(/(\d{1,2})\s*mm/i); return m 
 // Lado mayor en cm de un formato tipo «30x60», «7,5x30 cm».
 export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); return m ? Math.max(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : 0; }
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
-const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
+const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|refrigerador|\bfrigo\b|nevera|congelador|vinoteca|microondas|grupo filtrante|grifo (de )?cocina|cocina/i;
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
@@ -289,6 +297,7 @@ const GRIFO = /grifo|monomando|mezclador|termost[aá]tic|columna|teleducha|rocia
 const color = [["Negro", /negr|black/i], ["Inox / acero", /inox|acero|steel|cepillad/i], ["Dorado", /dorad|\boro\b|gold|lat[oó]n cepillado|champagne/i], ["Cromo", /crom/i], ["Blanco", /blanc|white/i]];
 // Filtro «Marca»: [etiqueta, patrón] en orden de popularidad.
 const marcas = (l) => l.map((m) => [m, new RegExp("\\b(" + m.toLowerCase().replace(/ \/ /g, "|").replace(/ /g, "[ -]?") + ")\\b", "i")]);
+const MARCAS_ELECTRO = marcas(["Miele", "Siemens", "Bosch", "Neff", "Balay", "AEG", "Electrolux", "Smeg", "Liebherr", "Samsung", "LG", "Whirlpool", "Teka", "Cata", "Beko", "Candy", "Haier", "Hisense", "Fagor", "Cecotec", "Infiniton", "Mepamsa", "Ciarra", "Corberó", "Edesa", "Brandt", "Midea", "Svan", "EVVO"]);
 const MARCAS_AIRE = marcas(["Daikin", "Mitsubishi", "Panasonic", "LG", "Fujitsu / General", "Samsung", "Toshiba", "Haier", "Hisense", "Gree", "Daitsu", "Midea", "Giatsu", "Baxi", "Ferroli"]);
 const MARCAS_AERO = marcas(["Daikin", "Panasonic", "Mitsubishi", "Vaillant", "Saunier Duval", "Baxi", "Ferroli", "Ariston", "Thermor", "LG", "Samsung", "Domusa"]);
 export const FACETAS = {
@@ -339,6 +348,7 @@ export const FACETAS = {
     { nombre: "Color", aplica: (g) => /Grifer|Columnas|Mamparas|Accesorios/.test(g), opciones: color },
   ],
   "Cocina": [
+    { nombre: "Marca", aplica: (g) => /Placas|Campanas|Extractores|Hornos|Microondas|Frigor|Vinotecas|Lavavajillas/.test(g), opciones: MARCAS_ELECTRO },
     { nombre: "Tipo de mueble", aplica: (g) => /Muebles de cocina/.test(g), opciones: [
       ["Cocinas completas", /cocina (completa|modular|en kit|lineal)|kit de cocina|cocina \d+(,\d+)? ?m\b|^\W*[a-z]+ cocina,/i],
       ["Módulos bajos", (n) => /(mueble|m[oó]dulo|armario) bajo|\bbajo\b/i.test(n) && !/fregadero|esquin|rinc/i.test(n)],
