@@ -64,16 +64,15 @@ export const SUBGRUPOS = {
     ["Cables e hilos", /cable|hilo|manguera|rollo/i],
   ],
   "Iluminación": [
-    ["Drivers, conectores y accesorios", ACC_LUZ],
-    ["Downlights", /downlight|empotrable|\baro\b|placa led/i],
-    ["Focos de carril", /carril|track|riel|foco/i],
-    ["Tiras LED y perfiles", /tira|perfil|ne[oó]n|fuente de alimentaci|driver/i],
-    ["Paneles y pantallas LED", /panel|pantalla|regleta|lineal/i],
-    ["Bombillas", /bombilla|l[aá]mpara led|gu10|e27|e14|mr16/i],
+    ["Drivers, conectores y accesorios", (n) => ACC_LUZ.test(n) || /^\W*gu[ií]a|carril din/i.test(n)],
+    ["Exterior", /farola|baliza|proyector|exterior|jard[ií]n|estaca/i],
+    ["Empotrados: downlights y paneles", (n) => /downlight|empotra|\baro\b|placa led|panel/i.test(n) && !/superficie/i.test(n)],
+    ["Focos de superficie y carril", /carril|track|riel|foco|superficie|spot/i],
+    ["Iluminación decorativa: colgantes, apliques y lámparas", /colgante|suspendida|suspensi[oó]n|aplique|l[aá]mpara(?! led)|ara[ñn]a|personalizable|decorativ/i],
     ["Plafones", /plaf[oó]n/i],
-    ["Apliques", /aplique/i],
-    ["Lámparas colgantes", /colgante|suspendida|suspensi[oó]n/i],
-    ["Exterior", /farola|baliza|proyector|exterior|jard[ií]n|estaca|ip6[5-8]/i],
+    ["Tiras LED y perfiles", /tira|perfil|ne[oó]n|fuente de alimentaci|driver/i],
+    ["Pantallas y regletas", /pantalla|regleta|lineal/i],
+    ["Bombillas", /bombilla|l[aá]mpara led|gu10|e27|e14|mr16/i],
   ],
   "Fontanería y saneamiento": [
     ["Canalones y bajantes", /canal[oó]n|bajante/i],
@@ -97,10 +96,13 @@ export const SUBGRUPOS = {
   "Suelos": [
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /^\W*base|base aislante|perfil|espuma|underlay|transici/i],
-    ["Laminado", /laminad/i],
+    ["Laminado AC6", (n) => /laminad/i.test(n) && /\bac ?6\b|clase 34/i.test(n)],
+    ["Laminado AC5", (n) => /laminad/i.test(n) && /\bac ?5\b|clase 33/i.test(n)],
+    ["Laminado AC4", (n) => /laminad/i.test(n) && /\bac ?4\b|clase 32/i.test(n)],
+    ["Laminado (otras clases)", /laminad/i],
     ["Vinílico SPC/LVT", /vin[ií]lico|spc|lvt|pvc/i],
-    ["Madera y parquet", /parquet|madera|multicapa|tarima/i],
     ["Porcelánico imitación", /porcel|gres|azulejo|pavimento|baldosa|cer[aá]mic|m[aá]rmol/i],
+    ["Madera y parquet", /parquet|madera|multicapa|tarima/i],
   ],
   "Decoración y revestimientos": [
     ["Colas y herramientas para papel", /^\W*(cola|adhesivo|esp[aá]tula|cepillo|cuchilla|rodillo)/i],
@@ -164,6 +166,13 @@ export const SUBGRUPOS = {
     ["Cierrapuertas", /cierrapuertas|cierre ts|brazo/i],
     ["Protección de obra", /pl[aá]stico|lona|fieltro|cart[oó]n|cinta|protec|saco|escombro/i],
   ],
+  "Ventiladores": [
+    ["Ventiladores de techo con luz", (n) => /techo/i.test(n) && /luz|led|l[aá]mpara|light/i.test(n)],
+    ["Ventiladores de techo sin luz", /techo/i],
+    ["Ventiladores de pie y sobremesa", /pie|sobremesa|mesa|torre|columna/i],
+    ["Ventiladores de pared", /pared/i],
+    ["Mandos y accesorios", /mando|receptor|kit|accesorio|soporte|tubo|barra/i],
+  ],
   "Fotovoltaica": [
     ["Estructura y fijación", /estructura|presor|clamp|rail|tornillo|gu[ií]a|fijaci|arriostr|soporte|sellador|perfil|uni[oó]n|tapa/i],
     ["Cable y protecciones", /cable|hilo|fusible|conector|sobretensi|desconect|caja|portafusible|empalme/i],
@@ -181,10 +190,10 @@ export const VISTA = {
   "Calefacción y agua caliente": ["Termos hasta 50 L", "Termos de 65 a 90 L", "Termos de 100 L o más", "Termos (otros)", "Calentadores de gas", "Calderas de gas", "Otras calderas", "Aerotermia y bombas de calor", "Radiadores y emisores", "Termostatos y válvulas", "Accesorios de instalación"],
   "Aire acondicionado": ["Splits de pared", "Multisplit", "Conductos y cassette", "Suelo-techo y techo", "Portátiles", "Splits y unidades (otros)", "Calefactores y ventiladores", "Accesorios de instalación"],
   "Electricidad": ["Mecanismos: interruptores y enchufes", "Bases múltiples, clavijas y prolongadores", "Cuadro y protecciones", "Cables e hilos", "Tubos y canaletas", "Cajas", "TV y antena", "Emergencias y detectores", "Bornas y conexión", "Fijación y cinta aislante"],
-  "Iluminación": ["Downlights", "Paneles y pantallas LED", "Plafones", "Focos de carril", "Tiras LED y perfiles", "Bombillas", "Lámparas colgantes", "Apliques", "Exterior", "Drivers, conectores y accesorios"],
+  "Iluminación": ["Empotrados: downlights y paneles", "Focos de superficie y carril", "Iluminación decorativa: colgantes, apliques y lámparas", "Plafones", "Tiras LED y perfiles", "Pantallas y regletas", "Bombillas", "Exterior", "Drivers, conectores y accesorios"],
   "Fontanería y saneamiento": ["Tubería y PVC", "Codos, tes y uniones", "Llaves y válvulas", "Latiguillos y flexibles", "Desagües, sifones y sumideros", "Cisternas y mecanismos", "Canalones y bajantes"],
   "Cerámica y colocación": ["Formato medio (hasta 60 cm)", "Gran formato (más de 60 cm)", "Mosaico y formato pequeño (hasta 20 cm)", "Azulejos y pavimentos (otros)", "Peldaños, listelos y rodapiés", "Adhesivos, cementos cola e impermeabilizantes", "Juntas y masillas", "Perfiles, cantoneras y nivelación"],
-  "Suelos": ["Laminado", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
+  "Suelos": ["Laminado AC4", "Laminado AC5", "Laminado AC6", "Laminado (otras clases)", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
   "Decoración y revestimientos": ["Papel pintado vinílico", "Papel pintado tejido no tejido", "Papel pintado (otros)", "Papel pintado infantil", "Murales y fotomurales", "Pósters y láminas", "Paneles de listones y acústicos", "Frisos, zócalos y revestimientos de madera", "Colas y herramientas para papel"],
   "Puertas": ["Puertas de interior abatibles", "Puertas correderas", "Puertas de entrada y blindadas", "Manillas, pomos y condenas", "Tapajuntas y molduras", "Guías y herrajes"],
   "Ventanas": ["Ventanas de PVC", "Ventanas de aluminio", "Ventanas de madera", "Balconeras", "Persianas y mosquiteras"],
@@ -194,6 +203,7 @@ export const VISTA = {
   "Tabiquería seca": ["Placas de yeso", "Perfiles, montantes y canales"],
   "Aislamiento": ["Lana mineral", "Poliestireno (XPS/EPS)", "Láminas y bases", "Accesorios y fijación"],
   "Obra y protección": ["Herramienta eléctrica", "Herramienta de mano", "Brocas y tacos", "Escaleras", "Protección de obra", "Cierrapuertas"],
+  "Ventiladores": ["Ventiladores de techo con luz", "Ventiladores de techo sin luz", "Ventiladores de pie y sobremesa", "Ventiladores de pared", "Mandos y accesorios"],
   "Fotovoltaica": ["Kits completos", "Paneles solares", "Inversores", "Baterías", "Reguladores", "Estructura y fijación", "Cable y protecciones", "Medida y monitorización"],
 };
 // Nombres de subgrupo de un área en el orden en que se muestran (más «Otros» al final).
@@ -213,10 +223,11 @@ const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Iluminación", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Calefacción y agua caliente", "Aire acondicionado", "Ventiladores", "Fotovoltaica", "Iluminación", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
   "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
+  if (/ventilador/i.test(nombre) && !/extractor|ventilador de (caldera|horno)|recambio/i.test(nombre) && /Climatizaci|Electricidad|Iluminaci|Ventiladores/.test(categoria)) return "Ventiladores";
   if (categoria === "Climatización y agua caliente") return AIRE.test(nombre) && !/aerotermia|aerotermo|altherma|bomba de calor|termo|caldera|radiador|ecodan|aquarea|hydro|monobloc|bibloc|depósito|interacumulador/i.test(nombre) ? "Aire acondicionado" : "Calefacción y agua caliente";
   if (categoria === "Electricidad" && LUZ.test(nombre) && !/interruptor|enchufe|detector|emergencia|magnetot|diferencial|cable|caja|tapa|marco|tecla/i.test(nombre)) return "Iluminación";
   if (categoria === "Puertas y ventanas") {
@@ -234,3 +245,55 @@ export function subgrupo(categoria, nombre) {
 }
 // Piezas sueltas (tapas, marcos, recambios…): dentro de cada subgrupo van después de los productos completos.
 export const esPieza = (n) => /^\W*(tapa|marco|premarco|tecla|embellecedor|recambio|repuesto|kit de|juego de tornillos|tornillo|soporte|tap[oó]n|conector|accesorio|adaptador|rejilla|v[aá]lvula|brazo|flexo|mango)\b/i.test(n);
+// Explicación corta que sale al principio de algunos subgrupos.
+export const EXPLICA = {
+  "Laminado AC4": "AC4 (clase 32): el más habitual en casa. Aguanta bien salón, pasillo y dormitorios con uso normal.",
+  "Laminado AC5": "AC5 (clase 33): más resistente a golpes y arañazos. Recomendable con niños, mascotas o mucho paso, y en locales pequeños.",
+  "Laminado AC6": "AC6 (clase 34): la máxima resistencia. Para zonas de mucho tráfico; en una vivienda normal suele bastar con AC4 o AC5.",
+  "Laminado (otras clases)": "Laminados en los que la tienda no indica la clase de uso. Fíjate en la ficha: para casa conviene AC4 o más.",
+};
+// Filtros por estilo, color, acabado… dentro de un área: [{nombre, aplica: subgrupos (o todos), opciones: [[etiqueta, prueba]]}].
+const MOLD = /moldura|plaf[oó]n|cuarter[oó]n|\b\dc\b|\blola\b|cl[aá]sic|provenz|relieve/i;
+const RANURA = /\bvt\s?\d|\bvt\b|\bline\b|ranura|rayas|fresad|\b\dl\b|\blu\d/i;
+const GRIFO = /grifo|monomando|mezclador|termost[aá]tic|columna|teleducha|rociador|grifer/i;
+const color = [["Negro", /negr|black/i], ["Inox / acero", /inox|acero|steel|cepillad/i], ["Dorado", /dorad|\boro\b|gold|lat[oó]n cepillado|champagne/i], ["Cromo", /crom/i], ["Blanco", /blanc|white/i]];
+export const FACETAS = {
+  "Cerámica y colocación": [
+    { nombre: "Estilo", aplica: (g) => /formato|Azulejos/.test(g), opciones: [
+      ["Retro", /\bnais\b|retro|vintage|zellige|kasbah|artisan|craft|manual|hidr[aá]ulic|patchwork|encaustic|\bdeco\b|decorado|\bmetro\b|subway|biselad|majolica|colou?r/i],
+      ["Elegante", /m[aá]rmol|marble|calacatta|carrara|statuario|marquina|onyx|[oó]nix|pulid|lappat|polished|\bgold\b|brillo/i],
+      ["Natural", /piedra|stone|pizarra|slate|caliza|travertino|bestile|madera|wood|roble|nogal|\boak\b|natur|terracota|barro|r[uú]stic/i],
+      ["Minimal", (n) => /cemento|concrete|minimal|microcemento|urban|industrial|\bliso|plain|mate|porcelanosa|cosentino|dekton|laminam|ascale|neolith|blanco|gris|grey/i.test(n) && !/hidr[aá]ulic|decorado|m[aá]rmol|madera|piedra/i.test(n)],
+    ] },
+  ],
+  "Baño": [
+    { nombre: "Instalación", aplica: (g) => /Grifer|Columnas/.test(g), opciones: [["Empotrada", /empotr/i], ["Vista (no empotrada)", (n) => GRIFO.test(n) && !/empotr/i.test(n)]] },
+    { nombre: "Color", aplica: (g) => /Grifer|Columnas|Mamparas|Accesorios/.test(g), opciones: color },
+  ],
+  "Cocina": [
+    { nombre: "Color", aplica: (g) => /Grifer|Fregaderos/.test(g), opciones: color },
+  ],
+  "Puertas": [
+    { nombre: "Acabado", aplica: (g) => /Puertas de interior|correderas/.test(g), opciones: [
+      ["Lisas", (n) => /\blisa|\bliso|ciega|enrasad|\bhoja\b/i.test(n) && !MOLD.test(n) && !RANURA.test(n) && !/vidrio|cristal|acristalad/i.test(n)],
+      ["Con molduras", MOLD],
+      ["Con ranuras o rayas", RANURA],
+      ["Con vidrio", /vidrio|cristal|vidriera|acristalad/i],
+    ] },
+    { nombre: "Color", aplica: (g) => /Puertas|Manillas/.test(g), opciones: [["Blanco", /blanc|white|lacad/i], ["Madera", /roble|nogal|haya|sapel|madera|cerezo|pino|wengu/i], ["Negro", /negr|black/i], ["Gris", /gris|grey|gray/i]] },
+  ],
+  "Iluminación": [
+    { nombre: "Color", aplica: () => true, opciones: [["Blanco", /blanc|white/i], ["Negro", /negr|black/i], ["Dorado", /dorad|\boro\b|gold|lat[oó]n/i], ["Madera", /madera|ratán|ratan|mimbre|bamb[uú]/i]] },
+  ],
+  "Ventiladores": [
+    { nombre: "Marca", aplica: () => true, opciones: [["Sulion", /sulion/i], ["Faro", /\bfaro\b/i], ["CREATE / Ikohs", /create|ikohs/i], ["Cecotec", /cecotec/i], ["Leds-C4", /leds[- ]?c4/i], ["Westinghouse", /westinghouse/i], ["Orbegozo", /orbegozo/i], ["Taurus", /taurus/i]] },
+  ],
+};
+const prueba = (t, n) => (typeof t === "function" ? t(n) : t.test(n));
+// Claves de filtro de un producto («estilo:mármol color:negro»), según su área y subgrupo.
+export function facetas(area, g, nombre) {
+  const out = [];
+  for (const f of FACETAS[area] || []) if (f.aplica(g)) for (const [et, t] of f.opciones) if (prueba(t, nombre)) out.push(clave(f.nombre, et));
+  return out;
+}
+export const clave = (f, o) => (f + ":" + o).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9:]+/g, "-");
