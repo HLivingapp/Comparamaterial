@@ -67,6 +67,14 @@
     "damiasolar": {
       "nombre": "Damia Solar",
       "web": "https://www.damiasolar.com"
+    },
+    "climahorro": {
+      "nombre": "Climahorro",
+      "web": "https://www.climahorro.es"
+    },
+    "iluminashop": {
+      "nombre": "IluminaShop",
+      "web": "https://iluminashop.com"
     }
   },
   "materiales": [
