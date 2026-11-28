@@ -193,8 +193,8 @@ export const SUBGRUPOS = {
   "Domótica": [
     ["Persianas y cortinas", /persiana|cortina|estor/i],
     ["Termostatos y válvulas", /termostato|v[aá]lvula|cabezal/i],
-    ["Cerraduras inteligentes", /cerradura/i],
-    ["Cámaras y videoporteros", /c[aá]mara|videotimbre|videoportero|timbre/i],
+    ["Cerraduras inteligentes", /cerradura|smart lock|\block\b/i],
+    ["Cámaras y videoporteros", /c[aá]mara|videotimbre|videoportero|timbre|doorbell|\bcam\b/i],
     ["Sensores y alarmas", /sensor|detector|alarma|sirena/i],
     ["Iluminación inteligente", /bombilla|tira led|l[aá]mpara|foco|panel led/i],
     ["Enchufes inteligentes", /enchufe|regleta/i],
