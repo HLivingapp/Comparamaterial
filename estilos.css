@@ -292,3 +292,6 @@ main>*{min-width:0}
 .tipos-g a small{padding:0 12px 11px}
 .tipos-g a.on i{background:transparent;color:var(--acTx)}
 @media (max-width:640px){.tipos-g a{padding:0}.tipos-g a img,.tipos-g a i{height:92px}.tipos-g a span{padding:8px 10px 0;font-size:.95rem}.tipos-g a small{padding:0 10px 9px}}
+.prod-lista .amz-ir{text-decoration:none;white-space:nowrap;background:#ffd814;border-color:#f0c400;color:#111}
+.prod-lista .amz-li .pl-t{color:#b45309}
+.amz-fila th{color:#b45309}

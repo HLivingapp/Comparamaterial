@@ -1,5 +1,5 @@
 {
- "nota": "Productos concretos de Amazon.es por ASIN. Sin precios ni fotos copiados: solo nombre propio, marca y enlace de afiliado. Precio y foto los añade herramientas/amazon-api.mjs cuando haya acceso a la API (datos/amazon-api.json).",
+ "nota": "Productos concretos de Amazon.es por ASIN. Salen mezclados con el resto, en su área y subgrupo (Domótica en Electricidad, Herramientas en Obra y protección). Sin precios ni fotos copiados: solo nombre propio, marca y enlace de afiliado. «material» = slug del material comparado al que se añade Amazon como una tienda más. Precio y foto los añade herramientas/amazon-api.mjs cuando haya API (datos/amazon-api.json).",
  "productos": [
   {
    "asin": "B08696DRQS",
@@ -1197,6 +1197,30 @@
    "grupo": "Fregaderos",
    "marca": "Korman",
    "nombre": "Fregadero inox bajo encimera 50 × 40 cm"
+  },
+  {
+   "asin": "B0D3LNM9CG",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Ariston",
+   "nombre": "Termo eléctrico Ariston Velis Pro WiFi 80 L plano multiposición",
+   "material": "termo-ariston-velis-pro-wifi-80-l"
+  },
+  {
+   "asin": "B06XGV4VVJ",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Cointra",
+   "nombre": "Termo eléctrico Cointra TNC Plus 80 L vertical",
+   "material": "termo-cointra-tnc-plus-80-l-vertical"
+  },
+  {
+   "asin": "B0C6D3RJCJ",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Calderas",
+   "marca": "Ariston",
+   "nombre": "Caldera de condensación Ariston Clas One WiFi 24 con kits",
+   "material": "caldera-ariston-clas-one-wifi-24-ff"
   }
  ]
 }

@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { generarAmazon, bloqueAmazonArea, AMAZON } from "./amazon.mjs";
+import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza } from "./herramientas/subgrupos.mjs";
 
@@ -172,7 +172,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
   <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a>${AMAZON.length ? `<a class="destacado" href="${raiz}amazon/">En Amazon</a>` : ""}${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -318,7 +318,7 @@ ${g ? `<p class="resumen">El más barato hoy es <b>${esc(todasTiendas[g.tienda].
 <div class="tabla"><table class="ofertas">
 <thead><tr><th>Almacén</th><th>Producto</th><th>Precio</th><th></th></tr></thead>
 <tbody>
-${m.ofertas.map((o) => filaOferta(o, g, m.slug)).join("\n")}
+${m.ofertas.map((o) => filaOferta(o, g, m.slug)).join("\n")}${filasAmazonMaterial(m.slug, { esc, eur })}
 </tbody></table></div>
 <p class="aviso-precio">${AVISO_PRECIO}</p>
 <section class="consejo"><h2>Cuánto necesitas</h2><p>${esc(m.consejo)} <span class="nota">Dato orientativo: tu reformista lo ajusta a tu obra.</span></p></section>
@@ -598,18 +598,24 @@ ${ctaReformista()}
 }
 
 const VISTA_PREVIA = 6;
-function listaProductos(ps, raiz, previa = 0) {
-  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
+function listaProductos(ps, raiz, previa = 0, amz = []) {
+  // Productos de Amazon: con precio de la API entran ordenados por precio; sin precio, al final del grupo.
+  const conP = amz.filter((p) => precioAmazon(p) != null), sinP = amz.filter((p) => precioAmazon(p) == null);
+  const items = ps.map((m) => ({ m, v: m.ofertas[0].precio, pz: esPieza(m.nombre) }));
+  for (const a of conP) { const v = precioAmazon(a), pz = esPieza(a.nombre); const k = items.findIndex((x) => x.pz > pz || (x.pz === pz && x.v > v)); items.splice(k < 0 ? items.length : k, 0, { a, v, pz }); }
+  for (const a of sinP) items.push({ a });
+  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
   const ms = materiales.filter((m) => m.categoria === c);
   const ps = productos.filter((m) => m.categoria === c);
+  const amz = amazonDeArea(c);
   const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
   // Primero los productos completos, del más barato al más caro; las piezas sueltas al final.
   const orden = (a, b) => esPieza(a.nombre) - esPieza(b.nombre) || minimo(a) - minimo(b);
-  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden) }))
-    .filter((x) => x.ms.length + x.ps.length);
+  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), amz: amz.filter((p) => subgrupo(c, p.nombre) === g) }))
+    .map((x) => ({ ...x, n: x.ms.length + x.ps.length + x.amz.length })).filter((x) => x.n);
   const ruta = rutaCat(c);
   const raiz = "../../";
   const cMin = c[0].toLowerCase() + c.slice(1);
@@ -620,14 +626,14 @@ function paginaCategoria(c) {
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(c)}</nav>
 <h1>Materiales de ${esc(cMin)} baratos en ${esc(zona)}: precios y ofertas</h1>
-<section class="tipos" aria-label="Elige un tipo de producto"><h2>¿Qué buscas? Elige un tipo</h2><div class="tipos-g">${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${fotoGrupo(x.g, x.ms, c, raiz)}<span>${esc(x.g === "Otros" ? "Otros productos" : x.g)}</span><small>${x.ms.length + x.ps.length} ${x.ms.length + x.ps.length === 1 ? "producto" : "productos"}</small></a>`).join("")}</div></section>
+<section class="tipos" aria-label="Elige un tipo de producto"><h2>¿Qué buscas? Elige un tipo</h2><div class="tipos-g">${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${fotoGrupo(x.g, x.ms, c, raiz)}<span>${esc(x.g === "Otros" ? "Otros productos" : x.g)}</span><small>${x.n} ${x.n === 1 ? "producto" : "productos"}</small></a>`).join("")}</div></section>
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
 <p class="sub">${ms.length} materiales comparados${ps.length ? ` y ${ps.length} productos más` : ""} · precios con IVA · ${fechaTexto}</p>
-<nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.ms.length + x.ps.length}</small></a>`).join("")}</nav>
-<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
+<nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length + amz.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.n}</small></a>`).join("")}</nav>
+<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}${amz.length ? `<label><input type="checkbox" checked value="Amazon"> Amazon</label>` : ""}</span></div>
 <p class="sub">Agrupados por tipo de producto: primero lo principal y al final los accesorios. Dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
-<div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
-${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
+<div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.n})</small></h2></div>
+${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length + x.amz.length ? listaProductos(x.ps, raiz, VISTA_PREVIA, x.amz) : ""}${x.ps.length + x.amz.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.n} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
 <script>(function(){var f=document.querySelector("[data-filtro]"),tg=document.querySelectorAll(".tipos-g [data-g]"),sb=document.querySelector(".subgrupos"),tp=document.querySelector(".tipos"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
@@ -637,7 +643,6 @@ function g(id){cg.classList.toggle("resumen-g",!id);gs.forEach(function(s){s.hid
 if("IntersectionObserver" in window)new IntersectionObserver(function(e){sb.classList.toggle("fija",!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(tp);
 if(location.hash&&document.getElementById(location.hash.slice(1)))g(location.hash.slice(1));
 f.addEventListener("input",function(){cg.classList.toggle("resumen-g",!f.value&&!location.hash);a()});cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
-${bloqueAmazonArea(c, raiz, { esc, eur, icono })}
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
 `;
@@ -674,7 +679,6 @@ for (const c of categorias) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
-generarAmazon({ salida, rutas, pagina, esc, eur, icono, SITE, mesTexto, rutaCat, categorias });
 generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
