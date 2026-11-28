@@ -93,7 +93,7 @@ let EXTRA = [];
 function lienzo(dibujo, etiquetas) {
   const clave = (e) => e.toLowerCase().replace(/litros/, "l").replace(/\s+/g, "");
   const vistos = new Set(); const t = [etiquetas[0], ...EXTRA, ...etiquetas.slice(1)].filter((e) => e && !vistos.has(clave(e)) && vistos.add(clave(e))).slice(0, 4);
-  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
+  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } if (y < 116) { y = 116; return ""; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
   // Si hay dos filas de etiquetas, el dibujo se reduce para que no lo tapen.
   const dos = y < 146, g = dos ? `<g transform="translate(24 -2) scale(.8)">${dibujo}</g>` : dibujo;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 240 188" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">${DEFS}<rect y="-8" width="240" height="188" fill="url(#fondo)"/>${g}${chips}</svg>`;
@@ -222,6 +222,63 @@ function mueble(n) {
   return lienzo(`<g transform="translate(14 0) scale(.88)">${d}${cota}</g>`, [tipo, c.et]);
 }
 
+function cesped(n) {
+  const mm = (n.match(/(\d{1,2})\s*mm/i) || [])[1], h = mm ? Math.min(64, 14 + Number(mm) * 1.2) : 40, pt = (n.match(/(\d{2,3}[.,]?\d{3})\s*puntadas/i) || [])[1];
+  // Corte del césped en perspectiva: base, briznas de dos verdes y cota de la altura de la fibra.
+  let hojas = "";
+  for (let i = 0; i < 70; i++) { const x = 30 + i * 2.6, a = ((i * 37) % 11) - 5, hh = h * (0.75 + ((i * 53) % 10) / 40); hojas += `<path d="M${x} 112 q${a / 2} ${-hh / 2} ${a} ${-hh}" stroke="${i % 3 ? "#5f9e4a" : "#87b85e"}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`; }
+  const rollo = (n.match(/(\d+(?:[.,]\d+)?)\s*x\s*(\d+(?:[.,]\d+)?)\s*m\b/i) || []);
+  EXTRA = [];
+  return lienzo(`<g transform="translate(-14 -40) scale(1.12)">${suelo(122, 122, 98)}<path d="M26 112 h190 l8 -6 h-190 z" fill="#c9b99a"/><rect x="26" y="112" width="190" height="8" fill="#a8977a"/>${hojas}<path d="M34 112 l8 -6" stroke="#8a7a5f"/></g>${mm ? etq(120, 98, `fibra ${mm} mm`) : ""}`,
+    [mm ? `${mm} mm` : "Césped", pt ? `${pt.replace(/[.,]/, ".")} pt/m²` : "", rollo[1] ? `Rollo ${rollo[1]}×${rollo[2]} m` : ""]);
+}
+
+// Electrodomésticos de cocina: frigoríficos, placas, campanas y extractores de encimera.
+function electro(n, g) {
+  const ac = /inox|acero/i.test(n) ? "#d3d8db" : /negr|black|\bbk\b|cristal negro/i.test(n) ? "#2f3437" : "#f6f7f7";
+  const st = ac === "#2f3437" ? "#000" : "#7d878d";
+  const l = litros(n);
+  const alto = (() => { const m = n.match(/(\d{3}(?:[.,]\d)?)\s*cm\b/i) || n.match(/\b(1[.,]\d{2})\s*m\b/i); if (!m) return 0; const v = parseFloat(m[1].replace(",", ".")); return v < 3 ? Math.round(v * 100) : v; })();
+  const anchoCm = (n.match(/\b([3-9]\d)\s*cm\b/i) || [])[1];
+  const zonas = (n.match(/(\d)\s*(zonas|fuegos|f\b)/i) || [])[1];
+  const caudal = (n.match(/(\d{3})\s*m(?:³|3)?\s*\/\s*h/i) || [])[1];
+  const nf = /no ?frost/i.test(n) ? "No Frost" : "";
+  const clase = (n.match(/clase (?:energ[eé]tica |energ\. )?([A-G]\+{0,3})\b/i) || n.match(/,\s*([A-E])\s*,/) || [])[1];
+  EXTRA = [];
+  const tir = (x, y, h) => `<rect x="${x}" y="${y}" width="3" height="${h}" rx="1.5" fill="#8f989e"/>`;
+  if (/Frigor|Vinotecas/.test(g)) {
+    const amer = /americanos/.test(g), integ = /integrables/.test(g), vino = /Vinotecas/.test(g);
+    const x = amer ? 70 : 92, w = amer ? 96 : 56, y = 6, h = 132, f = integ ? "#fbfbfa" : ac;
+    let d = `${suelo(x + w / 2 + 6, 142, w * 0.62)}${caja(x, y, w, h, amer ? 20 : 16, f, st)}${integ ? "" : `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#met)" opacity=".5"/>`}`;
+    if (amer && /franc|4 ?p|multi|cuatro/i.test(n)) d += `<line x1="${x + w / 2}" y1="${y}" x2="${x + w / 2}" y2="${y + 78}" stroke="${st}" stroke-opacity=".6"/><line x1="${x}" y1="${y + 78}" x2="${x + w}" y2="${y + 78}" stroke="${st}" stroke-opacity=".6"/><line x1="${x}" y1="${y + 105}" x2="${x + w}" y2="${y + 105}" stroke="${st}" stroke-opacity=".6"/>${tir(x + w / 2 - 6, y + 30, 30)}${tir(x + w / 2 + 3, y + 30, 30)}`;
+    else if (amer) d += `<line x1="${x + w / 2}" y1="${y}" x2="${x + w / 2}" y2="${y + h}" stroke="${st}" stroke-opacity=".6"/>${tir(x + w / 2 - 6, y + 40, 44)}${tir(x + w / 2 + 3, y + 40, 44)}${/dispens|agua|hielo|aqua/i.test(n) ? `<rect x="${x + 10}" y="${y + 34}" width="24" height="34" rx="3" fill="#4f565b"/><rect x="${x + 15}" y="${y + 40}" width="14" height="8" rx="1" fill="#7fb3d5"/>` : ""}`;
+    else if (vino) d += `<rect x="${x + 5}" y="${y + 6}" width="${w - 10}" height="${h - 18}" rx="2" fill="#30383d" opacity=".85"/>` + Array.from({ length: 7 }, (_, i) => `<line x1="${x + 7}" y1="${y + 22 + i * 15}" x2="${x + w - 7}" y2="${y + 22 + i * 15}" stroke="#9aa3a8"/><ellipse cx="${x + 18}" cy="${y + 18 + i * 15}" rx="6" ry="3" fill="#7a2e3a"/><ellipse cx="${x + 34}" cy="${y + 18 + i * 15}" rx="6" ry="3" fill="#7a2e3a"/>`).join("") + tir(x + w - 8, y + 30, 40);
+    else { const k = /1 puerta|una puerta/i.test(n) ? 0 : /2 puertas|dos puertas/i.test(n) && !/combi/i.test(n) ? 36 : 82; if (k) d += `<line x1="${x}" y1="${y + k}" x2="${x + w}" y2="${y + k}" stroke="${st}" stroke-opacity=".6"/>`; d += integ ? `<text x="${x + w / 2}" y="${y + 70}" text-anchor="middle" font-size="9" fill="#8f989e">va dentro</text><text x="${x + w / 2}" y="${y + 81}" text-anchor="middle" font-size="9" fill="#8f989e">del mueble</text>` : tir(x + w - 8, y + 12, k ? Math.min(24, k - 18) : 40) + (k ? tir(x + w - 8, y + k + 8, 24) : ""); }
+    if (alto) d += cotaV(x + w + (amer ? 36 : 32), y, y + h, `${alto} cm`);
+    return lienzo(d, [l ? `${l} L` : "", amer ? (/franc|4 ?p|multi/i.test(n) ? "Puerta francesa" : "2 puertas") : integ ? "Integrable" : vino ? "Vinoteca" : "", nf, clase ? `Clase ${clase.toUpperCase()}` : ""]);
+  }
+  if (/Placas/.test(g)) {
+    const x = 34, y = 40, w = 172, h = 86, vit = "#24292c";
+    let d = `${suelo(120, 134, 92)}<path d="M${x} ${y + h} L${x + 22} ${y} L${x + w + 22} ${y} L${x + w} ${y + h} Z" fill="${vit}" stroke="#000"/><path d="M${x} ${y + h} L${x + 22} ${y} L${x + 92} ${y} L${x + 50} ${y + h} Z" fill="#fff" opacity=".07"/><path d="M${x} ${y + h} L${x + w} ${y + h} L${x + w} ${y + h + 4} L${x} ${y + h + 4} Z" fill="#111"/>`;
+    const zc = (cx, cy, r) => `<ellipse cx="${cx}" cy="${cy}" rx="${r}" ry="${r * 0.55}" fill="none" stroke="#9aa3a8" stroke-width="1.3"/><ellipse cx="${cx}" cy="${cy}" rx="${r * 0.55}" ry="${r * 0.3}" fill="none" stroke="#6b7378"/>`;
+    if (/extracci/.test(g)) d += zc(x + 40, y + 24, 16) + zc(x + 32, y + 62, 18) + zc(x + 150, y + 24, 16) + zc(x + 142, y + 62, 18) + `<path d="M${x + 88} ${y + 8} L${x + 106} ${y + 8} L${x + 96} ${y + 78} L${x + 78} ${y + 78} Z" fill="#3b4246" stroke="#6b7378"/>` + Array.from({ length: 9 }, (_, i) => `<line x1="${x + 88 - i * 1.25}" y1="${y + 15 + i * 7}" x2="${x + 105 - i * 1.25}" y2="${y + 15 + i * 7}" stroke="#7d878d"/>`).join("") + `<path d="M${x + 92} ${y - 4} q-6 -10 2 -18 M${x + 100} ${y - 4} q-6 -10 2 -18" stroke="#9aa3a8" fill="none" stroke-dasharray="2 2"/>`;
+    else { const k = Number(zonas) || 4; const pos = k <= 2 ? [[60, 42, 22], [124, 42, 22]] : k === 3 ? [[52, 26, 18], [44, 62, 22], [130, 44, 26]] : [[54, 24, 16], [44, 62, 20], [140, 24, 18], [132, 62, 16]]; d += pos.map(([a, b, r]) => zc(x + a, y + b, r)).join(""); }
+    d += `<rect x="${x + 70}" y="${y + h - 10}" width="36" height="5" rx="2" fill="#5b6368"/>`;
+    if (anchoCm) d += cotaH(x, x + w, y + h + 18, `${anchoCm} cm`);
+    return lienzo(d, [/extracci/.test(g) ? "Con extractor" : /inducci/i.test(n) ? "Inducción" : /gas/i.test(n) ? "Gas" : "Vitrocerámica", zonas ? `${zonas} zonas` : "", caudal ? `${caudal} m³/h` : "", /flex/i.test(n) ? "Zona flex" : ""]);
+  }
+  if (/Campanas|Extractores de encimera/.test(g)) {
+    let d;
+    if (/Extractores/.test(g)) d = `${suelo(120, 138, 90)}${caja(40, 92, 160, 8, 30, "#d7d0c2", "#8f989e")}${caja(70, 30, 100, 62, 6, ac, st)}<rect x="70" y="30" width="100" height="62" fill="url(#met)" opacity=".5"/>${Array.from({ length: 6 }, (_, i) => `<line x1="80" y1="${42 + i * 8}" x2="160" y2="${42 + i * 8}" stroke="${st}" stroke-opacity=".5"/>`).join("")}<path d="M120 28 v-16 m-6 6 l6 -6 l6 6" stroke="#5f6b73" fill="none" stroke-width="1.4"/>`;
+    else if (/extraplana|integrable|grupo filtrante|telesc/i.test(n)) d = `<rect x="40" y="20" width="160" height="40" fill="#dfe5e8" stroke="#8f989e"/>${caja(46, 60, 148, 14, 22, ac, st)}<rect x="46" y="60" width="148" height="14" fill="url(#met)" opacity=".55"/><rect x="56" y="74" width="128" height="4" fill="#8f989e"/><circle cx="80" cy="67" r="2" fill="#4caf7a"/>`;
+    else if (/inclinad|vertical/i.test(n)) d = `<path d="M76 18 L164 18 L164 120 L76 120 Z" fill="${ac}" stroke="${st}" stroke-opacity=".6"/><path d="M76 18 L164 18 L164 120 L76 120 Z" fill="url(#met)" opacity=".5"/><path d="M82 30 L158 30 L158 104 L82 104 Z" fill="#2f3437" opacity=".85"/><path d="M90 104 L150 104 L156 112 L84 112 Z" fill="#8f989e"/>`;
+    else d = `${caja(104, 6, 32, 58, 16, ac, st)}<rect x="104" y="6" width="32" height="58" fill="url(#met)" opacity=".5"/><path d="M40 112 L76 66 L164 66 L200 112 Z" fill="${tono(ac, 0.94)}" stroke="${st}" stroke-opacity=".6"/><path d="M40 112 L76 66 L164 66 L200 112 Z" fill="url(#met)" opacity=".45"/><rect x="38" y="112" width="164" height="10" fill="${ac}" stroke="${st}" stroke-opacity=".6"/><rect x="58" y="122" width="124" height="3" fill="#8f989e"/><circle cx="182" cy="117" r="2" fill="#4caf7a"/>`;
+    if (anchoCm && !/Extractores/.test(g)) d += cotaH(40, 200, /extraplana|integrable|grupo filtrante|telesc/i.test(n) ? 96 : 134, `${anchoCm} cm`);
+    return lienzo(d, [/Extractores/.test(g) ? "De encimera" : /decorativa/i.test(n) ? "Decorativa" : /extraplana/i.test(n) ? "Extraplana" : /grupo filtrante/i.test(n) ? "Grupo filtrante" : "Campana", caudal ? `${caudal} m³/h` : "", clase ? `Clase ${clase.toUpperCase()}` : ""]);
+  }
+  return null;
+}
+
 function generico(n) {
   const f = formato(n);
   if (/\bsaco|\d\s*kg\b/i.test(n) && !f) {
@@ -245,11 +302,13 @@ function esquemaTipo(categoria, nombre) {
   if (/recambio|accesorio|driver|conector|manilla|pomo|rodapi|perfil de|adhesivo|cemento|mortero|junta/i.test(g) && !/tira/i.test(g)) return null;
   if (a === "Cerámica y colocación" || /porcel[aá]nico|azulejo|baldos/i.test(g)) return /azulejo|porcel|gres|baldos|cer[aá]mic|pavimento|revestimiento|mosaico|\d\s*[x×]\s*\d/i.test(nombre) ? azulejo(nombre) : null;
   if (/laminado|vin[ií]lico|parquet|madera/i.test(g) && a === "Suelos") return laminado(nombre);
+  if (a === "Terrazas y patios") return /Césped artificial/.test(g) ? cesped(nombre) : /Tarima|Losetas/.test(g) ? laminado(nombre) : /Porcel/.test(g) ? azulejo(nombre) : null;
   if (/grifer/i.test(g)) return grifo(nombre, g);
   if (/^termos?/i.test(g) || /\btermo\b|calentador el/i.test(nombre)) return termo(nombre);
   if (a === "Puertas" && /puerta/i.test(nombre) && !/armario/i.test(nombre)) return puerta(nombre);
   if (a === "Ventiladores" && /ventilador/i.test(nombre)) return ventilador(nombre);
   if (a === "Cocina" && /Muebles de cocina/.test(g)) return mueble(nombre);
+  if (a === "Cocina" && /Frigor|Vinotecas|Placas|Campanas|Extractores/.test(g)) return electro(nombre, g);
   if (a === "Iluminación" && !/bombilla|driver|conector/i.test(g + nombre)) return luz(nombre, g);
   return null;
 }
