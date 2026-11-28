@@ -30,6 +30,7 @@ jobs:
         env:
           SITE_URL: https://comparamaterial.com
           INDEXAR: "1"
+          AMAZON_TAG: ${{ vars.AMAZON_TAG }}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

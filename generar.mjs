@@ -8,6 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
@@ -156,7 +157,7 @@ ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</sc
   <form class="busca" role="search" action="${raiz}cesta/" method="get" autocomplete="off"><label class="oculto" for="busca-q">Buscar material</label><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="busca-q" name="q" type="search" placeholder="¿Qué material necesitas? Ej.: cemento, cable, pintura…"><button type="submit">Buscar</button><div class="busca-res" hidden></div></form>
   <a class="mi-cesta" href="${raiz}cesta/"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.4 11h11l2-8H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>Mi cesta <span class="cesta-n" hidden></span></a>
 </div>
-<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
+<nav class="cats" aria-label="Categorías"><div class="ancho"><a class="destacado" href="${raiz}comparativa/">Comparar tiendas</a><a class="destacado" href="${raiz}guias/">Guías de compra</a>${categorias.map((c) => `<a href="${raiz}${rutaCat(c)}">${esc(c)}</a>`).join("")}</div></nav>
 </header>
 <a class="banda" href="${esc(REGISTRO)}" rel="noopener"><span class="ancho">
   <span class="banda-txt"><b>¿Eres reformista? Hay clientes que te buscan para hacerles la obra.</b>
@@ -168,7 +169,7 @@ ${cuerpo}
 </main>
 <footer class="pie"><div class="ancho">
   <p>Precios públicos de las webs de cada tienda, IVA incluido. Los comprobamos cada día y cada precio muestra la fecha de su última comprobación (la más reciente, el ${fechaTexto}). El precio final es el que marque la tienda al comprar y puede variar según la tienda física y las ofertas del día. Si un precio no se puede comprobar en ${OCULTAR_DIAS} días, lo retiramos.</p>
-  <p>${esc(NOMBRE)} no vende materiales ni cobra a los almacenes. Las marcas citadas pertenecen a sus dueños.</p>
+  <p>${AMAZON_TAG ? `${esc(NOMBRE)} no vende materiales. Algunos enlaces son de afiliado: si compras, la tienda nos paga una pequeña comisión y a ti te cuesta lo mismo. ${esc(AVISO_AMAZON)}` : `${esc(NOMBRE)} no vende materiales ni cobra a los almacenes.`} Las marcas citadas pertenecen a sus dueños.</p>
 </div></footer>
 <script>
 (function(){var c={};try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}
@@ -295,7 +296,7 @@ function paginaMaterial(m) {
 <p class="sub">${esc(m.formato)} · precios con IVA en ${esc(zona)} · ${fechaTexto}</p>
 <p class="ficha-precio">${m.comparable === false ? `<small>Formatos distintos</small>` : `<small>desde</small> ${eur(Math.min(...precios))}`}</p>
 ${g ? `<p class="resumen">El más barato hoy es <b>${esc(todasTiendas[g.tienda].nombre)}</b> con <b>${eur(g.precio)}</b>${pct ? `, un ${pct} % menos que el más caro` : ""}.</p>` : m.comparable === false ? `<p class="resumen">Los formatos no son iguales entre almacenes, así que aquí no marcamos ganador: compara por lo que cubre cada uno.</p>` : m.ofertas.length > 1 ? `<p class="resumen">Hoy cuesta lo mismo en los dos almacenes: <b>${eur(m.ofertas[0].precio)}</b>. Fíjate en lo que incluye cada uno.</p>` : `<p class="resumen">Solo hemos encontrado precio público en un almacén para este producto.</p>`}
-<div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
+<div class="acciones">${g ? `<a class="boton" href="${esc(g.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(tiendaCorta(g.tienda))} →</a>` : ""}<button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button>${botonAmazon(m.nombre)}<a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
 <h2>Mejor precio de ${esc(nombreMin)} hoy${hayOferta ? " (con oferta)" : ""}</h2>
@@ -571,7 +572,7 @@ function paginaProducto(m) {
 <p class="ficha-precio">${eur(o.precio)}${o.porUnidad ? `<small> · ${esc(o.porUnidad)}</small>` : ""}</p>
 ${dias(m.fechaPrecio) > AVISO_DIAS ? `<p class="aviso-viejo">Este precio no se ha podido comprobar desde el ${fechaP}. Puede haber cambiado: míralo en la tienda.</p>` : ""}
 <p class="resumen">${AVISO_PRECIO}</p>
-<div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button><a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
+<div class="acciones"><a class="boton" href="${esc(o.enlace)}" rel="nofollow noopener" target="_blank">Ver en ${esc(t)} →</a><button type="button" class="boton secundario" data-add="${esc(m.slug)}">+ Añadir a mi cesta</button>${botonAmazon(m.nombre)}<a class="ver-cesta" href="${raiz}cesta/">Ver mi cesta</a></div>
 </div>
 </section>
 ${alternativas.length ? `<section><h2>Parecidos en otras tiendas</h2>${listaProductos(alternativas, raiz)}</section>` : ""}
@@ -653,6 +654,7 @@ for (const c of categorias) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
+generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${rutas.map((r) => `  <url><loc>${SITE}/${r}</loc><lastmod>${fecha}</lastmod></url>`).join("\n")}

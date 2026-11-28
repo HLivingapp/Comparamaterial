@@ -217,6 +217,28 @@ table.comparativa small{font-weight:400}
 .f-fecha.viejo{color:#b45309}
 .aviso-viejo{background:#fff7ed;border:1px solid #fdba74;color:#9a3412;border-radius:10px;padding:10px 12px;font-size:.9rem}
 .aviso-precio{font-size:.85rem;color:#4b5563;margin:.6rem 0 1.2rem}
+/* Guías de compra */
+.guia{max-width:780px;min-width:0}
+.guia .prod-lista,.guia .rejilla{min-width:0}
+.guia h2{margin-top:1.8rem}
+.guia p{line-height:1.65}
+.g-indice{display:flex;flex-wrap:wrap;gap:6px 14px;background:#f3f6fc;border:1px solid var(--li);border-radius:12px;padding:10px 14px;font-size:.92rem}
+.g-tabla{overflow-x:auto}
+.g-tabla table{width:100%;min-width:0;border-collapse:collapse;font-size:.95rem}
+.g-tabla th,.g-tabla td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--li);vertical-align:top}
+.g-tabla thead th{background:#f3f6fc}
+.guia details{border:1px solid var(--li);border-radius:10px;padding:10px 14px;margin:8px 0;background:#fff}
+.guia summary{font-weight:700;cursor:pointer}
+.g-amazon ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.g-amazon a{display:flex;flex-direction:column;gap:4px;border:1px solid var(--li);border-radius:12px;padding:12px 14px;background:#fff;text-decoration:none;color:inherit;font-weight:700}
+.g-amazon a span{color:var(--ac);font-weight:600;font-size:.9rem}
+.g-aviso{font-size:.8rem;color:#6b7280}
+.g-lista{list-style:none;padding:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.g-lista a{display:flex;flex-direction:column;gap:6px;border:1px solid var(--li);border-radius:14px;padding:16px;background:#fff;text-decoration:none;color:inherit;height:100%}
+.g-lista b{font-size:1.05rem}
+.g-lista span{color:#4b5563;font-size:.92rem}
+.g-tabla th,.g-tabla td{white-space:normal}
+@media (max-width:560px){.g-tabla thead{display:none}.g-tabla tr{display:block;border-bottom:1px solid var(--li);padding:8px 0}.g-tabla th,.g-tabla td{display:block;border:0;padding:2px 0}}
 /* Subgrupos de cada área: se pinchan para ver solo ese tipo de producto */
 .subgrupos{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 10px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0}
 .subgrupos a,.subgrupos button{font:inherit;font-size:.92rem;padding:7px 12px;border:1px solid var(--li);border-radius:999px;background:var(--sup);color:inherit;text-decoration:none;cursor:pointer;white-space:nowrap}
