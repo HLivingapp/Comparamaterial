@@ -32,8 +32,12 @@ export function tarjetasAmazon(lista, { esc, eur, icono }) {
 const aviso = (esc) => `<p class="g-aviso">Enlaces de afiliado de Amazon: si compras, Amazon nos paga una pequeña comisión y a ti te cuesta lo mismo. Precio, envío y opiniones, en Amazon.</p>`;
 
 // Bloque para el final de cada página de área.
+// Áreas de Amazon sin página propia en la web: se muestran también en un área cercana.
+const EXTRA = { "Electricidad": ["Domótica"], "Obra y protección": ["Herramientas"] };
+// Orden de la página /amazon/ (lo que pidió el usuario primero).
+const ORDEN_AMZ = ["Baño", "Electricidad", "Domótica", "Iluminación", "Puertas", "Calefacción y agua caliente", "Herramientas", "Cocina", "Pintura", "Suelos", "Decoración y revestimientos", "Obra y protección"];
 export function bloqueAmazonArea(area, raiz, ctx) {
-  const ps = AMAZON.filter((p) => p.area === area);
+  const ps = AMAZON.filter((p) => p.area === area || (EXTRA[area] || []).includes(p.area));
   if (!ps.length) return "";
   const grupos = [...new Set(ps.map((p) => p.grupo))];
   return `<section class="bloque amz" id="amazon"><div class="bloque-cab"><h2>También en Amazon <small>(${ps.length})</small></h2><a href="${raiz}amazon/#${slug(area)}">Ver todo en Amazon →</a></div>
@@ -44,20 +48,20 @@ ${aviso(ctx.esc)}</section>`;
 // Página /amazon/ con todos los productos por área y grupo.
 export function generarAmazon(ctx) {
   if (!AMAZON.length) return;
-  const { salida, rutas, pagina, esc, SITE, mesTexto, rutaCat } = ctx;
+  const { salida, rutas, pagina, esc, SITE, mesTexto, rutaCat, categorias } = ctx;
   const ruta = "amazon/", raiz = "../";
-  const areas = [...new Set(AMAZON.map((p) => p.area))];
+  const areas = [...new Set(AMAZON.map((p) => p.area))].sort((a, b) => (ORDEN_AMZ.indexOf(a) + 1 || 99) - (ORDEN_AMZ.indexOf(b) + 1 || 99));
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › Selección en Amazon</nav>
 <h1>Selección de productos para tu reforma en Amazon</h1>
-<p class="resumen">Termos, griferías, inodoros, herrajes de puertas e iluminación que elegimos por marca y uso real en obra. El precio lo ves en Amazon, que lo cambia a menudo.</p>
+<p class="resumen">Mamparas, mecanismos, domótica, griferías, inodoros, termos, iluminación, herrajes y herramientas que elegimos por marca y uso real en obra. El precio lo ves en Amazon, que lo cambia a menudo.</p>
 <nav class="subgrupos" aria-label="Áreas">${areas.map((a) => `<a href="#${slug(a)}">${esc(a)} <small>${AMAZON.filter((p) => p.area === a).length}</small></a>`).join("")}</nav>
-${areas.map((a) => { const ps = AMAZON.filter((p) => p.area === a); return `<section class="bloque" id="${slug(a)}"><div class="bloque-cab"><h2>${esc(a)} <small>(${ps.length})</small></h2><a href="${raiz}${rutaCat(a)}">Comparar precios de ${esc(a.toLowerCase())} en almacenes →</a></div>
+${areas.map((a) => { const ps = AMAZON.filter((p) => p.area === a); return `<section class="bloque" id="${slug(a)}"><div class="bloque-cab"><h2>${esc(a)} <small>(${ps.length})</small></h2>${categorias.includes(a) ? `<a href="${raiz}${rutaCat(a)}">Comparar precios de ${esc(a.toLowerCase())} en almacenes →</a>` : ""}</div>
 ${[...new Set(ps.map((p) => p.grupo))].map((g) => `<h3 class="amz-g">${esc(g)}</h3>${tarjetasAmazon(ps.filter((p) => p.grupo === g), ctx)}`).join("")}</section>`; }).join("\n")}
 ${aviso(esc)}
 `;
   const lista = { "@context": "https://schema.org", "@type": "ItemList", name: "Selección de productos para reformas en Amazon", numberOfItems: AMAZON.length };
   mkdirSync(join(salida, ruta), { recursive: true });
-  writeFileSync(join(salida, ruta, "index.html"), pagina({ titulo: `Productos para reformas en Amazon: termos, grifos, inodoros e iluminación (${mesTexto})`, descripcion: "Selección de termos eléctricos, grifería, inodoros, herrajes de puertas e iluminación en Amazon.es, elegidos por marca y uso en obra.", ruta, cuerpo, jsonld: [lista], raiz }));
+  writeFileSync(join(salida, ruta, "index.html"), pagina({ titulo: `Productos para reformas en Amazon: mamparas, mecanismos, domótica, grifería y más (${mesTexto})`, descripcion: "Selección de mamparas, mecanismos eléctricos, domótica, grifería, inodoros, termos, iluminación y herramientas en Amazon.es, elegidos por marca y uso en obra.", ruta, cuerpo, jsonld: [lista], raiz }));
   rutas.push(ruta);
 }
