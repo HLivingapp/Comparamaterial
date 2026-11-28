@@ -1,12 +1,21 @@
 // Genera /guias/ y una página por guía de compra (contenido en datos/guias.mjs).
 // Enlaces de Amazon solo si existe AMAZON_TAG (ID de afiliado, p. ej. «comparamat-21»).
-import { mkdirSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { mkdirSync, writeFileSync, existsSync } from "node:fs";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import GUIAS from "./datos/guias.mjs";
 
 // ID de afiliado de Amazon (no es secreto). Se puede cambiar con la variable AMAZON_TAG.
 export const AMAZON_TAG = (process.env.AMAZON_TAG || "comparamateri-21").trim();
 export const AVISO_AMAZON = "En calidad de Afiliado de Amazon, Comparamaterial obtiene ingresos por las compras adscritas que cumplen los requisitos aplicables. Comparamaterial participa en el Programa de Afiliados de Amazon EU.";
+// Vídeo explicativo de cada guía: se muestra solo si existe videos/guias/<slug>.mp4
+// (portada opcional: videos/guias/<slug>.jpg). Sin archivo, la guía sale igual que antes.
+const DIR_VIDEOS = join(dirname(fileURLToPath(import.meta.url)), "videos", "guias");
+function videoDe(slug) {
+  if (!existsSync(join(DIR_VIDEOS, `${slug}.mp4`))) return null;
+  return { mp4: `videos/guias/${slug}.mp4`, poster: existsSync(join(DIR_VIDEOS, `${slug}.jpg`)) ? `videos/guias/${slug}.jpg` : null };
+}
+
 export const guiasMenu = GUIAS.map((g) => ({ slug: g.slug, corto: g.corto }));
 
 const amazonUrl = (k) => `https://www.amazon.es/s?k=${encodeURIComponent(k)}&tag=${encodeURIComponent(AMAZON_TAG)}`;
@@ -39,6 +48,8 @@ export function generarGuias(ctx) {
       { "@type": "ListItem", position: 1, name: "Materiales", item: SITE + "/" },
       { "@type": "ListItem", position: 2, name: "Guías de compra", item: SITE + "/guias/" },
       { "@type": "ListItem", position: 3, name: g.corto, item: SITE + "/" + ruta }] };
+    const video = videoDe(g.slug);
+    const jsonVideo = video && video.poster ? { "@context": "https://schema.org", "@type": "VideoObject", name: g.titulo, description: g.descripcion, inLanguage: "es-ES", uploadDate: ctx.fecha, thumbnailUrl: SITE + "/" + video.poster, contentUrl: SITE + "/" + video.mp4 } : null;
     const indice = [["elegir", "Elige rápido"], ...g.secciones.map(([h], i) => [`s${i}`, h]), ...(comparados.length || selecciones.length ? [["precios", "Precios comparados"]] : []), ...(AMAZON_TAG && g.amazon.length ? [["amazon", "En Amazon"]] : []), ["faq", "Preguntas frecuentes"]];
     const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}guias/">Guías de compra</a> › ${esc(g.corto)}</nav>
@@ -46,6 +57,7 @@ export function generarGuias(ctx) {
 <h1>${esc(g.titulo)}</h1>
 <p class="sub">Guía de compra · actualizada el ${fechaTexto} · precios públicos con IVA</p>
 <p class="resumen">${esc(g.intro)}</p>
+${video ? `<figure class="g-video"><video controls playsinline preload="none"${video.poster ? ` poster="${raiz}${video.poster}"` : ""} src="${raiz}${video.mp4}"></video><figcaption>Vídeo generado con IA · contenido orientativo. Los precios actualizados, en esta misma guía.</figcaption></figure>` : ""}
 <nav class="g-indice" aria-label="En esta guía"><b>En esta guía:</b> ${indice.map(([id, t]) => `<a href="#${id}">${esc(t)}</a>`).join("")}</nav>
 <section id="elegir"><h2>Elige rápido</h2>
 <div class="g-tabla"><table><thead><tr><th scope="col">Tu caso</th><th scope="col">Recomendado</th><th scope="col">Por qué</th></tr></thead><tbody>
@@ -67,7 +79,7 @@ ${AMAZON_TAG && g.amazon.length ? `<section id="amazon" class="g-amazon"><h2>Tam
 ${ctaReformista()}
 `;
     mkdirSync(join(salida, ruta), { recursive: true });
-    writeFileSync(join(salida, ruta, "index.html"), pagina({ titulo: `${g.titulo} (${mesTexto})`, descripcion: g.descripcion, ruta, cuerpo, jsonld: [art, faq, migas], raiz }));
+    writeFileSync(join(salida, ruta, "index.html"), pagina({ titulo: `${g.titulo} (${mesTexto})`, descripcion: g.descripcion, ruta, cuerpo, jsonld: [art, faq, migas, ...(jsonVideo ? [jsonVideo] : [])], raiz }));
     rutas.push(ruta);
   }
 

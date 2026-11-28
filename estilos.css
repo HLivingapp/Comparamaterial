@@ -222,6 +222,9 @@ table.comparativa small{font-weight:400}
 .guia .prod-lista,.guia .rejilla{min-width:0}
 .guia h2{margin-top:1.8rem}
 .guia p{line-height:1.65}
+.g-video{margin:14px 0 18px}
+.g-video video{display:block;width:100%;aspect-ratio:16/9;background:#0b1320;border-radius:12px}
+.g-video figcaption{font-size:.82rem;color:#5b6474;margin-top:6px}
 .g-indice{display:flex;flex-wrap:wrap;gap:6px 14px;background:#f3f6fc;border:1px solid var(--li);border-radius:12px;padding:10px 14px;font-size:.92rem}
 .g-tabla{overflow-x:auto}
 .g-tabla table{width:100%;min-width:0;border-collapse:collapse;font-size:.95rem}
