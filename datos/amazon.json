@@ -2,6 +2,209 @@
  "nota": "Productos concretos de Amazon.es por ASIN. Sin precios ni fotos copiados: solo nombre propio, marca y enlace de afiliado. Precio y foto los añade herramientas/amazon-api.mjs cuando haya acceso a la API (datos/amazon-api.json).",
  "productos": [
   {
+   "asin": "B08696DRQS",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 90 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B097F7M2R8",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 120 × 200 cm, cristal 8 mm, perfil negro"
+  },
+  {
+   "asin": "B0869485T8",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 140 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B086953YBJ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 100 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B0985JMSXB",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara frontal corredera (1 puerta + 1 fijo), cristal templado"
+  },
+  {
+   "asin": "B08W5G9CS7",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "Aurlane",
+   "nombre": "Mampara corredera cromada 120 × 200 cm, cristal 8 mm"
+  },
+  {
+   "asin": "B09LCMSXFB",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "Ducha Casa",
+   "nombre": "Mampara frontal corredera 135 × 195 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B0BG2Y58LZ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara frontal corredera sin perfil inferior, 115–120 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B0B4WHZBZ2",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular 2 correderas + 2 fijos, 77–80 × 137–140 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B0BGJM2R58",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular negro mate sin perfil inferior, 77–79 × 97–99 cm"
+  },
+  {
+   "asin": "B0BZ4BGCBZ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular corredera + lateral fijo negro mate, cristal 6 mm"
+  },
+  {
+   "asin": "B0CC5PHQMT",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara de bañera abatible 2 hojas, perfil negro mate, 100 × 140 cm"
+  },
+  {
+   "asin": "B09TP4BPBW",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "SONNI",
+   "nombre": "Mampara de bañera abatible 180° 120 × 140 cm con estabilizador"
+  },
+  {
+   "asin": "B08RWG1XKP",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara de bañera abatible 100 × 140 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B0CJCFBFS6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: kit de enchufe schuko empotrable negro mate"
+  },
+  {
+   "asin": "B0CYQ6NWH3",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: enchufe schuko 16 A blanco mate"
+  },
+  {
+   "asin": "B0CYQ3NHJL",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: marco de 4 elementos blanco mate"
+  },
+  {
+   "asin": "B0DJ2WLFYQ",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: kit de doble enchufe schuko negro"
+  },
+  {
+   "asin": "B0CLRZCCB6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270 iO: kit de enchufe conectado blanco"
+  },
+  {
+   "asin": "B08SQPPXLQ",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 100 iO: tecla de interruptor regulable blanca"
+  },
+  {
+   "asin": "B072QSPFWN",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 100: tecla de interruptor negra"
+  },
+  {
+   "asin": "B0CFYZTBT6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 10: marco de 2 elementos blanco"
+  },
+  {
+   "asin": "B00GQTT9B0",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor monopolar ancho 16 A blanco"
+  },
+  {
+   "asin": "B00GQTSSFS",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: enchufe con toma de tierra blanco"
+  },
+  {
+   "asin": "B0C9LZCD9L",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor antracita"
+  },
+  {
+   "asin": "B01N2QYHDU",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor de persiana blanco"
+  },
+  {
+   "asin": "B01N2QYFBS",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor estanco IP55"
+  },
+  {
+   "asin": "B0CK5JMWXC",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "BSEED",
+   "nombre": "Enchufe empotrable con USB-A y USB-C"
+  },
+  {
+   "asin": "B0BMYGBYXC",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "CNBINGO",
+   "nombre": "Enchufe empotrable con USB-C y USB-A, marco de cristal"
+  },
+  {
    "asin": "B0CJV21FGP",
    "area": "Iluminación",
    "grupo": "Downlights",
@@ -562,104 +765,6 @@
    "nombre": "Termo eléctrico Regent 80 L horizontal"
   },
   {
-   "asin": "B08696DRQS",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara fija walk-in 90 × 200 cm, cristal 8 mm antical"
-  },
-  {
-   "asin": "B097F7M2R8",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara fija walk-in 120 × 200 cm, cristal 8 mm, perfil negro"
-  },
-  {
-   "asin": "B0869485T8",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara fija walk-in 140 × 200 cm, cristal 8 mm antical"
-  },
-  {
-   "asin": "B086953YBJ",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara fija walk-in 100 × 200 cm, cristal 8 mm antical"
-  },
-  {
-   "asin": "B0985JMSXB",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara frontal corredera (1 puerta + 1 fijo), cristal templado"
-  },
-  {
-   "asin": "B08W5G9CS7",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "Aurlane",
-   "nombre": "Mampara corredera cromada 120 × 200 cm, cristal 8 mm"
-  },
-  {
-   "asin": "B09LCMSXFB",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "Ducha Casa",
-   "nombre": "Mampara frontal corredera 135 × 195 cm, cristal 8 mm antical"
-  },
-  {
-   "asin": "B0BG2Y58LZ",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara frontal corredera sin perfil inferior, 115–120 cm, cristal 6 mm"
-  },
-  {
-   "asin": "B0B4WHZBZ2",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara angular 2 correderas + 2 fijos, 77–80 × 137–140 cm, cristal 6 mm"
-  },
-  {
-   "asin": "B0BGJM2R58",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara angular negro mate sin perfil inferior, 77–79 × 97–99 cm"
-  },
-  {
-   "asin": "B0BZ4BGCBZ",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara angular corredera + lateral fijo negro mate, cristal 6 mm"
-  },
-  {
-   "asin": "B0CC5PHQMT",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara de bañera abatible 2 hojas, perfil negro mate, 100 × 140 cm"
-  },
-  {
-   "asin": "B09TP4BPBW",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "SONNI",
-   "nombre": "Mampara de bañera abatible 180° 120 × 140 cm con estabilizador"
-  },
-  {
-   "asin": "B08RWG1XKP",
-   "area": "Baño",
-   "grupo": "Mamparas",
-   "marca": "",
-   "nombre": "Mampara de bañera abatible 100 × 140 cm, cristal 6 mm"
-  },
-  {
    "asin": "B096V1ZL71",
    "area": "Baño",
    "grupo": "Muebles de baño",
@@ -700,111 +805,6 @@
    "grupo": "Extractores",
    "marca": "Airope",
    "nombre": "Extractor de baño 100 mm silencioso con antirretorno"
-  },
-  {
-   "asin": "B0CJCFBFS6",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 270: kit de enchufe schuko empotrable negro mate"
-  },
-  {
-   "asin": "B0CYQ6NWH3",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 270: enchufe schuko 16 A blanco mate"
-  },
-  {
-   "asin": "B0CYQ3NHJL",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 270: marco de 4 elementos blanco mate"
-  },
-  {
-   "asin": "B0DJ2WLFYQ",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 270: kit de doble enchufe schuko negro"
-  },
-  {
-   "asin": "B0CLRZCCB6",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 270 iO: kit de enchufe conectado blanco"
-  },
-  {
-   "asin": "B08SQPPXLQ",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 100 iO: tecla de interruptor regulable blanca"
-  },
-  {
-   "asin": "B072QSPFWN",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 100: tecla de interruptor negra"
-  },
-  {
-   "asin": "B0CFYZTBT6",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Simon",
-   "nombre": "Simon 10: marco de 2 elementos blanco"
-  },
-  {
-   "asin": "B00GQTT9B0",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Niessen",
-   "nombre": "Niessen Zenit: interruptor monopolar ancho 16 A blanco"
-  },
-  {
-   "asin": "B00GQTSSFS",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Niessen",
-   "nombre": "Niessen Zenit: enchufe con toma de tierra blanco"
-  },
-  {
-   "asin": "B0C9LZCD9L",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Niessen",
-   "nombre": "Niessen Zenit: interruptor antracita"
-  },
-  {
-   "asin": "B01N2QYHDU",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Niessen",
-   "nombre": "Niessen Zenit: interruptor de persiana blanco"
-  },
-  {
-   "asin": "B01N2QYFBS",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "Niessen",
-   "nombre": "Niessen Zenit: interruptor estanco IP55"
-  },
-  {
-   "asin": "B0CK5JMWXC",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "BSEED",
-   "nombre": "Enchufe empotrable con USB-A y USB-C"
-  },
-  {
-   "asin": "B0BMYGBYXC",
-   "area": "Electricidad",
-   "grupo": "Mecanismos",
-   "marca": "CNBINGO",
-   "nombre": "Enchufe empotrable con USB-C y USB-A, marco de cristal"
   },
   {
    "asin": "B0F92X39RM",
