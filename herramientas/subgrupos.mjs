@@ -4,6 +4,8 @@
 const ACC_LUZ = /^\W*(toma|juego|rectificador|driver|fuente|transformador|conector|tap[oó]n|tapa|clip|grapa|kit|marco|soporte|borna|portal[aá]mparas|casquillo|flor[oó]n|embellecedor|arandela|condensador|mando|controlador|cable|empalme|uni[oó]n|esquina|accesorio|recambio|repuesto|adaptador|base|regleta de conexi)/i;
 const ACC_INST = /amortiguador|garrafa|silentblock|coquilla|bomba de condensados|soporte|canal clima|tubo|tuber|controlador|\bkit\b|rollo|cobre|drenaje|\by para\b|sensor|sonda/i;
 const termo = (n) => /termo|acumulador/i.test(n) && !/termostat|termoarcilla|aerotermo/i.test(n);
+// Muebles de cocina: módulos, columnas, cocinas completas (Delinia, METOD…).
+export const MUEBLE_COCINA = /composici[oó]n de cocina|columna de cocina|semi ?columna|frente de caj[oó]n|m[oó]dulo (de )?cocina|casco (de )?cocina|puerta (de )?cocina|muebles? (bajo|alto|de cocina|fregadero|para fregadero|columna|horno|esquin|rinc)|m[oó]dulo (bajo|alto|columna|de cocina|fregadero|horno|esquin)|columna (de |para )?(horno|frigo|nevera|despensa)|armario (bajo|alto|de pared|de columna|de esquina|para (horno|frigo|fregadero))|cocina (completa|modular|en kit|lineal)|kit de cocina|frente de (cocina|lavavajillas)|puerta (de|para) (mueble de )?cocina|\b(metod|delinia|enhet|knoxhult)\b/i;
 export const SUBGRUPOS = {
   "Baño": [
     ["Recambios, desagües y fijaciones", /tornillo|recambio|repuesto|v[aá]lvula|rejilla|rejlla|brazo (de )?sujeci|bisagra|\bjunta|flexo|latiguillo|desag[uü]e|sif[oó]n|fijaci|perlizador|aireador|cartucho|maneta|tap[oó]n|silicona|embellecedor|llave de escuadra|base lavabo|kit de/i],
@@ -19,6 +21,7 @@ export const SUBGRUPOS = {
     ["Accesorios de baño", /toallero|portarrollo|jabonera|percha|escobill|dosificador|accesorio|extractor|repisa|estante|tirador|pomo|asa\b/i],
   ],
   "Cocina": [
+    ["Muebles de cocina", MUEBLE_COCINA],
     ["Recambios y accesorios", /^\W*(repuesto|recambio|mango|flexo|v[aá]lvula|sif[oó]n|tap[oó]n|cesta|escurridor|filtro|kit)|repuesto|recambio/i],
     ["Grifería de cocina", /grifo|monomando/i],
     ["Fregaderos", /fregadero/i],
@@ -186,7 +189,7 @@ export const SUBGRUPOS = {
 };
 export const VISTA = {
   "Baño": ["Muebles de baño", "Inodoros y cisternas", "Lavabos", "Platos de ducha", "Mamparas", "Bañeras", "Columnas y duchas", "Grifería de baño", "Espejos", "Accesorios de baño", "Recambios, desagües y fijaciones"],
-  "Cocina": ["Fregaderos", "Grifería de cocina", "Encimeras", "Placas", "Hornos", "Campanas", "Lavavajillas y electrodomésticos", "Recambios y accesorios"],
+  "Cocina": ["Muebles de cocina", "Fregaderos", "Grifería de cocina", "Encimeras", "Placas", "Hornos", "Campanas", "Lavavajillas y electrodomésticos", "Recambios y accesorios"],
   "Calefacción y agua caliente": ["Termos hasta 50 L", "Termos de 65 a 90 L", "Termos de 100 L o más", "Termos (otros)", "Calentadores de gas", "Calderas de gas", "Otras calderas", "Aerotermia y bombas de calor", "Radiadores y emisores", "Termostatos y válvulas", "Accesorios de instalación"],
   "Aire acondicionado": ["Splits de pared", "Multisplit", "Conductos y cassette", "Suelo-techo y techo", "Portátiles", "Splits y unidades (otros)", "Calefactores y ventiladores", "Accesorios de instalación"],
   "Electricidad": ["Mecanismos: interruptores y enchufes", "Bases múltiples, clavijas y prolongadores", "Cuadro y protecciones", "Cables e hilos", "Tubos y canaletas", "Cajas", "TV y antena", "Emergencias y detectores", "Bornas y conexión", "Fijación y cinta aislante"],
@@ -216,10 +219,19 @@ export function litros(n) {
   const m = String(n).match(/(\d{2,3})\s*(?:l\b|litros|lts?\b)/i); if (m) return Number(m[1]);
   const t = [...String(n).matchAll(/(?:^|[^\d])0?(30|35|40|45|50|65|75|80|100|120|125|150|200)(?:[^\d]|$)/g)]; return t.length ? Number(t[t.length - 1][1]) : 0;
 }
+// Ancho en cm de un módulo de cocina. Obramat escribe alto×ancho×fondo («MÓDULO COCINA … 80X60X58CM», puertas «80X45»);
+// el resto, ancho primero («60x76,8x58», IKEA «60x60x80»).
+export function anchoMod(n) {
+  const L = String(n).match(/\bL\.?\s*(\d+(?:[.,]\d+)?)/); if (L) return parseFloat(L[1].replace(",", "."));
+  const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); if (!m) { const c = String(n).match(/\b(\d{2,3})\s*cm\b/i); return c ? Number(c[1]) : 0; }
+  const altoPrimero = /^\W*(kit )?m[oó]dulo cocina|^\W*puerta para mueble de cocina/i.test(n) || (parseFloat(m[1].replace(",", ".")) > 130 && !/cocina,|cocina (en kit|completa)/i.test(n));
+  const v = parseFloat((altoPrimero ? m[2] : m[1]).replace(",", "."));
+  return v > 300 ? v / 10 : v;
+}
 // Lado mayor en cm de un formato tipo «30x60», «7,5x30 cm».
 export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); return m ? Math.max(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : 0; }
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
-const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
+const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
@@ -299,6 +311,19 @@ export const FACETAS = {
     { nombre: "Color", aplica: (g) => /Grifer|Columnas|Mamparas|Accesorios/.test(g), opciones: color },
   ],
   "Cocina": [
+    { nombre: "Tipo de mueble", aplica: (g) => /Muebles de cocina/.test(g), opciones: [
+      ["Cocinas completas", /cocina (completa|modular|en kit|lineal)|kit de cocina|cocina \d+(,\d+)? ?m\b|^\W*[a-z]+ cocina,/i],
+      ["Módulos bajos", (n) => /(mueble|m[oó]dulo|armario) bajo|\bbajo\b/i.test(n) && !/fregadero|esquin|rinc/i.test(n)],
+      ["Bajo fregadero", /fregadero/i],
+      ["Módulos altos", (n) => /(mueble|m[oó]dulo) (alto|de pared|mural)|armario (de pared|mural)|\balto\b/i.test(n) && !/armario alto|columna/i.test(n)],
+      ["Columnas (horno, frigo, despensa)", /columna|despensa|armario alto|estructura alta/i],
+      ["Rinconeros y esquinas", /esquin|rinc/i],
+      ["Puertas y frentes", /^\W*(\w+ )?(puerta|frente|cajón|caj[oó]n)|frente de|puerta (de|para)/i],
+    ] },
+    { nombre: "Ancho del módulo", aplica: (g) => /Muebles de cocina/.test(g), opciones: [
+      ["Hasta 40 cm", (n) => anchoMod(n) > 0 && anchoMod(n) <= 40], ["45 a 60 cm", (n) => anchoMod(n) > 40 && anchoMod(n) <= 60], ["Más de 60 cm", (n) => anchoMod(n) > 60 && anchoMod(n) <= 120],
+    ] },
+    { nombre: "Color del frente", aplica: (g) => /Muebles de cocina/.test(g), opciones: [["Blanco", /blanc|white/i], ["Madera", /roble|nogal|madera|pino|haya|fresno|natural/i], ["Gris o antracita", /gris|grafito|antracita|grey/i], ["Negro", /negr|black/i], ["Verde o azul", /verde|azul|salvia/i]] },
     { nombre: "Color", aplica: (g) => /Grifer|Fregaderos/.test(g), opciones: color },
   ],
   "Puertas": [

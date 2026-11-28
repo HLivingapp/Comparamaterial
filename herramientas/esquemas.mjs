@@ -133,6 +133,40 @@ function luz(n, g) {
 }
 
 // Dibujo genérico con medidas: saco (kg), rollo (m), pieza con cotas (formato) o paquete.
+function mueble(n) {
+  const c = color(n, "#fbfbfa"), st = oscuro(c.hex) ? "#000" : "#8b9399", f = c.hex;
+  const caj = /caj[oó]n|cajones|cajonera/i.test(n);
+  const puertaR = (x, y, w, h, pom = "r") => `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${f}" stroke="${st}" stroke-opacity=".6" stroke-width="1.5"/><rect x="${pom === "r" ? x + w - 9 : x + 5}" y="${y + 8}" width="4" height="${Math.min(22, h / 3)}" rx="2" fill="${st}" fill-opacity=".7"/>`;
+  const cajones = (x, y, w, h, k) => Array.from({ length: k }, (_, i) => `<rect x="${x}" y="${y + i * h / k}" width="${w}" height="${h / k}" fill="${f}" stroke="${st}" stroke-opacity=".6" stroke-width="1.5"/><rect x="${x + w / 2 - 12}" y="${y + i * h / k + 6}" width="24" height="4" rx="2" fill="${st}" fill-opacity=".7"/>`).join("");
+  const bajo = (x, w, tipo) => `<rect x="${x}" y="58" width="${w}" height="7" fill="#d8d2c6" stroke="#9aa3a8"/>${tipo === "c" ? cajones(x, 65, w, 66, 3) : w > 50 ? puertaR(x, 65, w / 2, 66, "r") + puertaR(x + w / 2, 65, w / 2, 66, "l") : puertaR(x, 65, w, 66)}<rect x="${x + 3}" y="131" width="${w - 6}" height="9" fill="#5f666b"/>`;
+  let d, tipo;
+  if (/cocina (completa|modular|en kit|lineal)|kit de cocina|cocina \d|^\W*[a-z]+ cocina,/i.test(n)) {
+    tipo = "Cocina completa";
+    d = [0, 1, 2, 3].map((i) => bajo(20 + i * 50, 50, i === 1 ? "c" : "")).join("") + [0, 1, 2, 3].map((i) => puertaR(20 + i * 50, 4, 50, 40, i % 2 ? "l" : "r")).join("") + `<rect x="78" y="56" width="34" height="4" rx="2" fill="#9aa3a8"/>`;
+  } else if (/columna|despensa|armario alto|estructura alta/i.test(n)) {
+    tipo = /horno/i.test(n) ? "Columna de horno" : /frigo|nevera/i.test(n) ? "Columna de frigorífico" : "Columna";
+    d = /horno/i.test(n) ? puertaR(90, 6, 60, 50) + `<rect x="90" y="56" width="60" height="44" fill="#3d4448" stroke="${st}"/><rect x="96" y="62" width="48" height="30" fill="#6b7378"/>` + cajones(90, 100, 60, 32, 2) : puertaR(90, 6, 60, 62) + puertaR(90, 68, 60, 64);
+    d += `<rect x="92" y="132" width="56" height="8" fill="#5f666b"/>`;
+  } else if (/(mueble|m[oó]dulo|armario) (alto|de pared|mural)|\balto\b/i.test(n)) {
+    tipo = "Módulo alto";
+    d = `<rect x="70" y="20" width="100" height="6" fill="#e7e9ea"/>` + puertaR(70, 26, 50, 80, "r") + puertaR(120, 26, 50, 80, "l");
+  } else if (/fregadero/i.test(n)) {
+    tipo = "Bajo fregadero";
+    d = bajo(70, 100, "") + `<rect x="96" y="56" width="48" height="5" rx="2" fill="#9aa3a8"/><path d="M120 56 v-22 h12" fill="none" stroke="#6b7378" stroke-width="3"/>`;
+  } else if (/esquin|rinc/i.test(n)) {
+    tipo = "Rinconero";
+    d = bajo(60, 60, "") + `<path d="M120 58 l40 -14 v14 z" fill="#d8d2c6" stroke="#9aa3a8"/><path d="M120 65 l40 -14 v76 l-40 14 z" fill="${f}" stroke="${st}" stroke-opacity=".6"/>`;
+  } else if (/^\W*(\w+ )?(puerta|frente)|frente de|puerta (de|para)/i.test(n)) {
+    tipo = "Puerta o frente";
+    d = puertaR(95, 16, 50, 118);
+  } else {
+    tipo = caj ? "Módulo bajo con cajones" : "Módulo bajo";
+    d = bajo(80, 80, caj ? "c" : "");
+  }
+  // Se reduce para que el dibujo quede encima de las dos filas de etiquetas.
+  return lienzo(`<g transform="translate(29 -4) scale(.76)">${d}</g>`, [tipo, c.et]);
+}
+
 function generico(n) {
   const f = formato(n);
   if (/\bsaco|\d\s*kg\b/i.test(n) && !f) return lienzo(`<path d="M78 22 L162 22 L170 128 Q120 140 70 128 Z" fill="#efe9dc" stroke="#9aa3a8" stroke-width="2"/><line x1="78" y1="34" x2="162" y2="34" stroke="#9aa3a8"/>`, []);
@@ -157,6 +191,7 @@ function esquemaTipo(categoria, nombre) {
   if (/^termos?/i.test(g) || /\btermo\b|calentador el/i.test(nombre)) return termo(nombre);
   if (a === "Puertas" && /puerta/i.test(nombre) && !/armario/i.test(nombre)) return puerta(nombre);
   if (a === "Ventiladores" && /ventilador/i.test(nombre)) return ventilador(nombre);
+  if (a === "Cocina" && /Muebles de cocina/.test(g)) return mueble(nombre);
   if (a === "Iluminación" && !/bombilla|driver|conector/i.test(g + nombre)) return luz(nombre, g);
   return null;
 }
