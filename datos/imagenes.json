@@ -184,7 +184,7 @@
     "archivo": "File:Sto_-_Insulation_boards_4.jpg"
   },
   "azulejo-pared-blanco": {
-    "miniatura": "img/reforma-bano.webp",
+    "miniatura": "img/reforma-azulejo-blanco.webp",
     "propia": true
   },
   "tubo-pvc-110-mm-3-m": {
@@ -336,27 +336,19 @@
     "propia": true
   },
   "grifo-lavabo-monomando": {
-    "miniatura": "img/grifo.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AChicago_Faucet_Co_faucet.jpg",
-    "autor": "Eric Polk",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Chicago_Faucet_Co_faucet.jpg"
+    "miniatura": "img/reforma-grifo-lavabo.webp",
+    "propia": true
   },
   "grifo-cocina-monomando": {
-    "miniatura": "img/reforma-cocina.webp",
+    "miniatura": "img/reforma-fregadero.webp",
     "propia": true
   },
   "columna-ducha-termostatica": {
-    "miniatura": "img/columna-ducha.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AHigh_speed_shower_filtered.jpg",
-    "autor": "JovanCormac",
-    "licencia": "CC BY 2.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
-    "archivo": "File:High_speed_shower_filtered.jpg"
+    "miniatura": "img/reforma-columna-ducha.webp",
+    "propia": true
   },
   "fregadero-inox-1-seno": {
-    "miniatura": "img/reforma-cocina.webp",
+    "miniatura": "img/reforma-fregadero.webp",
     "propia": true
   },
   "termo-electrico-80l": {
@@ -376,28 +368,20 @@
     "archivo": "File:Chaudière_à_gaz_Brötje_WGB_28_C_(extérieur).jpg"
   },
   "placa-induccion-60": {
-    "miniatura": "img/reforma-cocina.webp",
+    "miniatura": "img/reforma-placa.webp",
     "propia": true
   },
   "encimera-laminada-3-m": {
-    "miniatura": "img/reforma-cocina-2.webp",
+    "miniatura": "img/reforma-encimera.webp",
     "propia": true
   },
   "suelo-laminado-ac4-8-mm": {
-    "miniatura": "img/laminado.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
-    "autor": "Wasrts",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+    "miniatura": "img/reforma-suelo-madera.webp",
+    "propia": true
   },
   "suelo-vinilico-spc-click-con-base": {
-    "miniatura": "img/laminado.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
-    "autor": "Wasrts",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
+    "miniatura": "img/reforma-suelo-madera.webp",
+    "propia": true
   },
   "base-aislante-laminado": {
     "miniatura": "img/laminado.webp",
@@ -512,28 +496,16 @@
     "archivo": "File:Recessed_square_fluorescent_light_fixture_with_two_CFLs.jpg"
   },
   "aire-acondicionado-split-3000-frigorias": {
-    "miniatura": "img/split.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3APanasonic_AIR_CONDITIONER_INDOOR_UNIT_CS-C10KJ2_%282%29.jpg",
-    "autor": "Dinkun Chen",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Panasonic_AIR_CONDITIONER_INDOOR_UNIT_CS-C10KJ2_(2).jpg"
+    "miniatura": "img/reforma-split.webp",
+    "propia": true
   },
   "toallero-electrico-500w": {
-    "miniatura": "img/toallero.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ATowel_rails_radiator_with_hanger.jpg",
-    "autor": "MB SRL",
-    "licencia": "CC BY 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
-    "archivo": "File:Towel_rails_radiator_with_hanger.jpg"
+    "miniatura": "img/reforma-toallero.webp",
+    "propia": true
   },
   "radiador-aluminio-6-elementos": {
-    "miniatura": "img/radiador.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AHeat_radiator.jpg",
-    "autor": "Tiia Monto",
-    "licencia": "CC BY-SA 3.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "archivo": "File:Heat_radiator.jpg"
+    "miniatura": "img/reforma-radiador.webp",
+    "propia": true
   },
   "inodoro-suspendido": {
     "miniatura": "img/reforma-inodoro.webp",
@@ -564,11 +536,39 @@
     "propia": true
   },
   "horno-multifuncion": {
-    "miniatura": "img/reforma-cocina.webp",
+    "miniatura": "img/reforma-horno.webp",
     "propia": true
   },
   "lavavajillas-integrable-60": {
-    "miniatura": "img/reforma-cocina-2.webp",
+    "miniatura": "img/reforma-encimera.webp",
+    "propia": true
+  },
+  "radiador-toallero-agua-500": {
+    "miniatura": "img/reforma-toallero.webp",
+    "propia": true
+  },
+  "aire-acondicionado-split-4500-frigorias": {
+    "miniatura": "img/reforma-split.webp",
+    "propia": true
+  },
+  "azulejo-metro-blanco-10x20": {
+    "miniatura": "img/reforma-azulejo-blanco.webp",
+    "propia": true
+  },
+  "parquet-multicapa-roble": {
+    "miniatura": "img/reforma-suelo-madera.webp",
+    "propia": true
+  },
+  "espejo-bano-led-80": {
+    "miniatura": "img/reforma-bano.webp",
+    "propia": true
+  },
+  "banera-acrilica-170x70": {
+    "miniatura": "img/reforma-ducha.webp",
+    "propia": true
+  },
+  "grifo-banera-ducha-monomando": {
+    "miniatura": "img/reforma-columna-ducha.webp",
     "propia": true
   }
 }
