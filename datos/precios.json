@@ -75,6 +75,14 @@
     "iluminashop": {
       "nombre": "IluminaShop",
       "web": "https://iluminashop.com"
+    },
+    "bricomoraleja": {
+      "nombre": "Bricolaje Moraleja",
+      "web": "https://www.bricomoraleja.com"
+    },
+    "pereda": {
+      "nombre": "Saneamientos Pereda",
+      "web": "https://saneamientospereda.es"
     }
   },
   "materiales": [
