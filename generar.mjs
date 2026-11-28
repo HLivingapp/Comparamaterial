@@ -84,7 +84,7 @@ const AVISO_PRECIO = "Precio orientativo con IVA tomado de la web de la tienda e
 const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
 const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const categorias = [...new Set(materiales.map((m) => m.categoria))];
+const categorias = [...new Set([...materiales.map((m) => m.categoria), ...catalogo.map((p) => p.categoria).filter((c) => SUBGRUPOS[c])])];
 // Nombres en mayúsculas de algunas tiendas → frase normal.
 const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
 const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad", caja: "Caja", rollo: "Rollo", m: "Precio por metro" };
