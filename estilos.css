@@ -328,3 +328,9 @@ main>*{min-width:0}
 
 /* Medidas y datos clave de cada producto, bien visibles también en el móvil. */
 .prod-lista .pl-d{display:block;margin-top:2px;font-size:.88rem;font-weight:700;color:var(--tx)}
+/* Búsqueda por marca */
+.marcas-l{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.marcas-l a{display:block;padding:12px 14px;border:1px solid var(--borde,#d9dee2);border-radius:10px;text-decoration:none;color:inherit;background:#fff}
+.marcas-l b{display:block;font-size:1.05rem}.marcas-l small{color:var(--tx2,#5f6b73)}
+.marca-tiendas{border-collapse:collapse;margin:8px 0 18px;min-width:min(100%,420px)}
+.marca-tiendas th,.marca-tiendas td{padding:6px 10px;border-bottom:1px solid #e3e7ea;text-align:left}
