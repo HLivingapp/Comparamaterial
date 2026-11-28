@@ -190,6 +190,17 @@ export const SUBGRUPOS = {
     ["Poliestireno (XPS/EPS)", /poliestireno|xps|eps/i],
     ["Láminas y bases", /l[aá]mina|base|rollo|capa|aislante|multicapa|burbuja|reflex/i],
   ],
+  "Domótica": [
+    ["Persianas y cortinas", /persiana|cortina|estor/i],
+    ["Termostatos y válvulas", /termostato|v[aá]lvula|cabezal/i],
+    ["Cerraduras inteligentes", /cerradura/i],
+    ["Cámaras y videoporteros", /c[aá]mara|videotimbre|videoportero|timbre/i],
+    ["Sensores y alarmas", /sensor|detector|alarma|sirena/i],
+    ["Iluminación inteligente", /bombilla|tira led|l[aá]mpara|foco|panel led/i],
+    ["Enchufes inteligentes", /enchufe|regleta/i],
+    ["Interruptores y módulos", /interruptor|m[oó]dulo|rel[eé]|pulsador/i],
+    ["Altavoces y controladores", /hub|altavoz|pasarela|gateway|bridge|echo|nest|pantalla/i],
+  ],
   "Herramientas": [
     ["Kits y combos de batería", /^\W*(kit|combo|pack)\b.*(taladro|atornillador|amoladora|sierra|martillo|bater[ií]a)/i],
     ["Brocas, discos y puntas", /\bbroca|\bdisco|\bpuntas?\b|\btaco|corona/i],
@@ -251,6 +262,7 @@ export const VISTA = {
   "Albañilería y morteros": ["Cemento, mortero y yeso", "Ladrillo y bloque", "Siliconas, selladores y espumas", "Molduras y varillas"],
   "Tabiquería seca": ["Placas de yeso", "Perfiles, montantes y canales"],
   "Aislamiento": ["Lana mineral", "Poliestireno (XPS/EPS)", "Láminas y bases", "Accesorios y fijación"],
+  "Domótica": ["Enchufes inteligentes", "Interruptores y módulos", "Persianas y cortinas", "Termostatos y válvulas", "Iluminación inteligente", "Cámaras y videoporteros", "Cerraduras inteligentes", "Sensores y alarmas", "Altavoces y controladores"],
   "Herramientas": ["Kits y combos de batería", "Taladros y atornilladores", "Martillos percutores y demoledores", "Amoladoras y radiales", "Sierras", "Lijadoras y multiherramientas", "Llaves y atornilladores de impacto", "Medición y nivel láser", "Cortadoras de azulejo", "Aspiradores de obra", "Herramienta de albañil y pintor", "Brocas, discos y puntas", "Escaleras"],
   "Obra y protección": ["Herramienta eléctrica", "Herramienta de mano", "Brocas y tacos", "Escaleras", "Protección de obra", "Cierrapuertas"],
   "Ventiladores": ["Ventiladores de techo con luz", "Ventiladores de techo sin luz", "Ventiladores de pie y sobremesa", "Ventiladores de pared", "Mandos y accesorios"],
@@ -284,7 +296,7 @@ const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Puertas correderas", "Ventanas", "Armarios", "Pintura",
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Domótica", "Decoración y revestimientos", "Puertas", "Puertas correderas", "Ventanas", "Armarios", "Pintura",
   "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Herramientas", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
@@ -336,6 +348,9 @@ const MARCAS_AERO = marcas(["Daikin", "Panasonic", "Mitsubishi", "Vaillant", "Sa
 export const FACETAS = {
   "Calefacción y agua caliente": [
     { nombre: "Marca", aplica: (g) => /Aerotermia/.test(g), opciones: MARCAS_AERO },
+  ],
+  "Domótica": [
+    { nombre: "Marca", aplica: () => true, opciones: marcas(["Shelly", "SONOFF", "TP-Link / Tapo", "Philips Hue / Hue", "Aqara", "Netatmo", "tado", "Nuki", "Ring", "Eufy", "Google / Nest", "Amazon / Echo", "Xiaomi", "Somfy", "Yale", "Meross", "LEDVANCE"]) },
   ],
   "Herramientas": [
     { nombre: "Marca", aplica: () => true, opciones: MARCAS_HERR },

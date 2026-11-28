@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./amazon.mjs";
+import { AMAZON, amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
 import { esquema, medidas } from "./herramientas/esquemas.mjs";
@@ -72,6 +72,7 @@ const ICONOS = {
   "Climatización y agua caliente": '<rect x="8" y="14" width="48" height="18" rx="4"/><path d="M14 26h36M18 40c0 4 4 4 4 8s-4 4-4 8M32 40c0 4 4 4 4 8s-4 4-4 8M46 40c0 4 4 4 4 8s-4 4-4 8"/>',
   "Aislamiento": '<rect x="8" y="20" width="48" height="24" rx="2"/><path d="M8 28c6-6 10 6 16 0s10 6 16 0 10 6 16 0M8 36c6-6 10 6 16 0s10 6 16 0 10 6 16 0"/>',
   "Puertas correderas": '<path d="M8 12h48"/><rect x="26" y="16" width="22" height="38"/><path d="M14 34h8m-4-4l-4 4 4 4"/>',
+  "Domótica": '<path d="M12 30L32 14l20 16"/><rect x="18" y="28" width="28" height="24" rx="3"/><circle cx="32" cy="40" r="4"/><path d="M26 34a8 8 0 0 1 12 0"/>',
   "Herramientas": '<path d="M14 22h26l6 6v6H14z"/><path d="M24 34v16h8V34"/><path d="M46 28h6"/>',
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
@@ -139,7 +140,7 @@ function fotoObra(m) {
 }
 const ESQ = new Map();
 // Productos de Amazon: su dibujo esquemático (no copiamos fotos de Amazon).
-const CAT_DE_AREA = { "Cocina": "Baño y cocina", "Baño": "Baño y cocina", "Aire acondicionado": "Climatización y agua caliente", "Calefacción y agua caliente": "Climatización y agua caliente", "Ventiladores": "Climatización y agua caliente", "Iluminación": "Electricidad", "Ventanas": "Puertas y ventanas", "Puertas": "Puertas y ventanas", "Armarios": "Puertas y ventanas", "Puertas correderas": "Puertas y ventanas", "Herramientas": "Obra y protección" };
+const CAT_DE_AREA = { "Cocina": "Baño y cocina", "Baño": "Baño y cocina", "Aire acondicionado": "Climatización y agua caliente", "Calefacción y agua caliente": "Climatización y agua caliente", "Ventiladores": "Climatización y agua caliente", "Iluminación": "Electricidad", "Ventanas": "Puertas y ventanas", "Puertas": "Puertas y ventanas", "Armarios": "Puertas y ventanas", "Puertas correderas": "Puertas y ventanas", "Domótica": "Electricidad", "Herramientas": "Obra y protección" };
 function fotoAmazon(a, raiz) {
   const slug = "amz-" + slugify(a.nombre).slice(0, 90);
   if (!ESQ.has(slug)) ESQ.set(slug, esquema(CAT_DE_AREA[a.area] || a.area, a.nombre));
@@ -181,7 +182,7 @@ const AVISO_PRECIO = "Precio orientativo con IVA tomado de la web de la tienda e
 const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
 const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const categorias = [...new Set([...materiales.map((m) => m.categoria), ...catalogo.map((p) => p.categoria).filter((c) => SUBGRUPOS[c])])].sort((x, y) => (ORDEN.indexOf(x) + 1 || 99) - (ORDEN.indexOf(y) + 1 || 99));
+const categorias = [...new Set([...materiales.map((m) => m.categoria), ...catalogo.map((p) => p.categoria).filter((c) => SUBGRUPOS[c]), ...AMAZON.map((p) => p.area).filter((c) => SUBGRUPOS[c] && ORDEN.includes(c))])].sort((x, y) => (ORDEN.indexOf(x) + 1 || 99) - (ORDEN.indexOf(y) + 1 || 99));
 // Nombres en mayúsculas de algunas tiendas → frase normal.
 const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
 const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad", caja: "Caja", rollo: "Rollo", m: "Precio por metro" };
