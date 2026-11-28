@@ -293,10 +293,10 @@ main>*{min-width:0}
 .tipos-g a.on i{background:transparent;color:var(--acTx)}
 @media (max-width:640px){.tipos-g a{padding:0}.tipos-g a img,.tipos-g a i{height:92px}.tipos-g a span{padding:8px 10px 0;font-size:.95rem}.tipos-g a small{padding:0 10px 9px}}
 /* Miniatura en las listas de productos: foto del producto o foto propia del mismo tipo. */
-.prod-lista .pl-f{flex:0 0 64px;width:64px;height:48px;border-radius:8px;object-fit:cover;background:var(--li)}
+.prod-lista .pl-f{flex:0 0 88px;width:88px;height:66px;border-radius:8px;object-fit:cover;background:var(--li)}
 .prod-lista .pl-i{display:flex;align-items:center;justify-content:center;color:var(--ac);background:var(--sup)}
 .prod-lista .pl-i svg{width:28px;height:28px}
-@media (max-width:520px){.prod-lista a{flex-basis:calc(100% - 74px)}}
+@media (max-width:520px){.prod-lista a{flex-basis:calc(100% - 98px)}}
 .explica{background:var(--sup);border-left:4px solid var(--ac);padding:8px 12px;border-radius:6px;margin:6px 0 12px}
 /* Filtros por estilo, color, acabado… */
 .facetas{display:flex;flex-direction:column;gap:8px;margin:4px 0 14px}
@@ -325,3 +325,6 @@ main>*{min-width:0}
 .prod-lista .amz-ir{text-decoration:none;white-space:nowrap;background:#ffd814;border-color:#f0c400;color:#111}
 .prod-lista .amz-li .pl-t{color:#b45309}
 .amz-fila th{color:#b45309}
+
+/* Medidas y datos clave de cada producto, bien visibles también en el móvil. */
+.prod-lista .pl-d{display:block;margin-top:2px;font-size:.88rem;font-weight:700;color:var(--tx)}
