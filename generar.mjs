@@ -49,6 +49,7 @@ const ICONOS = {
   "Fontanería y saneamiento": '<path d="M10 26h22a8 8 0 0 1 8 8v20"/><path d="M10 34h18v20"/><path d="M40 20h14v8H40z"/>',
   "Pintura": '<rect x="12" y="12" width="34" height="14" rx="3"/><path d="M46 19h6v12H30v8"/><rect x="26" y="39" width="8" height="15" rx="2"/>',
   "Cocina": '<rect x="10" y="22" width="44" height="32" rx="3"/><circle cx="22" cy="32" r="5"/><circle cx="42" cy="32" r="5"/><path d="M10 42h44M18 48h28M26 22v-8h12v8"/>',
+  "Iluminación": '<path d="M24 40a14 14 0 1 1 16 0v6H24z"/><path d="M26 52h12M28 58h8M32 8V4M14 16l-3-3M50 16l3-3"/>',
   "Ventanas": '<rect x="12" y="10" width="40" height="44" rx="2"/><path d="M32 10v44M12 32h40"/>',
   "Armarios": '<rect x="12" y="8" width="40" height="48" rx="2"/><path d="M32 8v48M27 30v6M37 30v6"/>',
   "Baño": '<path d="M10 32h44v6a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12z"/><path d="M16 32V16a5 5 0 0 1 10 0"/><path d="M22 50l-2 6M42 50l2 6"/>',
