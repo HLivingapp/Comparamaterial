@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
-import { fotoPropia } from "./herramientas/fotos-propias.mjs";
+import { esquema } from "./herramientas/esquemas.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -83,8 +83,13 @@ function fotoGrupo(g, ms, c, raiz) {
   if (!f) { const m = ms.find((x) => imagenes[x.slug]); if (m) f = imagenes[m.slug].miniatura; }
   return f ? `<img src="${esc(/^https?:/.test(f) ? f : raiz + f)}" alt="" loading="lazy" decoding="async" width="240" height="180">` : `<i>${icono(c)}</i>`;
 }
-// Foto del producto: la suya si la tiene; si no, una foto propia de reforma del mismo tipo de producto.
-const fotoDe = (m) => imagenes[m.slug] || (fotoPropia(m.categoria, m.nombre) ? { miniatura: fotoPropia(m.categoria, m.nombre), propia: true } : null);
+// Foto del producto: solo una foto del producto exacto. Las fotos de reformas no se ponen en productos
+// sueltos (el azulejo, grifo o puerta real puede ser muy distinto): solo en las tarjetas de tipo y estilo.
+// Si no hay foto del producto exacto, un dibujo esquemático hecho con sus datos (formato, color, medidas…).
+const ESQ = new Map();
+const fotoDe = (m) => { const f = imagenes[m.slug]; if (f && !f.propia && !/reforma-/.test(f.miniatura)) return f;
+  if (!ESQ.has(m.slug)) ESQ.set(m.slug, esquema(m.categoria, m.nombre));
+  return ESQ.get(m.slug) ? { miniatura: `esq/${m.slug}.svg`, esquema: true } : null; };
 function imagen(m, raiz, grande = false) {
   const f = fotoDe(m);
   if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
@@ -93,7 +98,7 @@ function imagen(m, raiz, grande = false) {
 function credito(m) {
   const f = fotoDe(m);
   if (!f) return "";
-  if (f.propia) return `<p class="credito">Foto: reforma real terminada en Madrid. Imagen orientativa, no es el producto exacto.</p>`;
+  if (f.esquema) return `<p class="credito">Dibujo esquemático hecho con los datos del producto (formato, color, medidas). Mira la foto real en la tienda.</p>`;
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
 }
 
@@ -618,7 +623,7 @@ function listaProductos(ps, raiz, previa = 0, amz = []) {
   const items = ps.map((m) => ({ m, v: m.ofertas[0].precio, pz: esPieza(m.nombre) }));
   for (const a of conP) { const v = precioAmazon(a), pz = esPieza(a.nombre); const k = items.findIndex((x) => x.pz > pz || (x.pz === pz && x.v > v)); items.splice(k < 0 ? items.length : k, 0, { a, v, pz }); }
   for (const a of sinP) items.push({ a });
-  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: (() => { const f = fotoPropia(a.area, a.nombre); return f ? `<img class="pl-f" src="${esc(raiz + f)}" alt="" title="Foto orientativa: reforma real" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(a.area)}</span>`; })() }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
+  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: `<span class="pl-f pl-i">${icono(a.area)}</span>` }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
@@ -628,7 +633,7 @@ function paginaCategoria(c) {
   const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
   // Primero los productos completos, del más barato al más caro; las piezas sueltas al final.
   const orden = (a, b) => esPieza(a.nombre) - esPieza(b.nombre) || minimo(a) - minimo(b);
-  facetaDe = (m) => facetas(c, subgrupo(c, m.nombre), m.nombre);
+  facetaDe = (m) => facetas(c, subgrupo(c, m.nombre), m.nombre, Math.min(...(m.ofertas || [{ precio: 0 }]).map((o) => o.precio)));
   const todosP = [...ms, ...ps, ...amz.map((a) => ({ nombre: a.nombre + " " + (a.marca || "") }))];
   const filtrosF = (FACETAS[c] || []).map((f) => ({ nombre: f.nombre, ops: f.opciones.map(([et]) => ({ et, k: clave(f.nombre, et), n: todosP.filter((m) => facetaDe(m).includes(clave(f.nombre, et))).length })).filter((o) => o.n) })).filter((f) => f.ops.length);
   // En azulejos se mezclan tiendas y marcas: una de cada tienda por turno, cada una de más barata a más cara.
@@ -694,6 +699,8 @@ for (const m of productos) {
   rutas.push(ruta);
 }
 writeFileSync(join(salida, "indice.json"), indiceJSON);
+mkdirSync(join(salida, "esq"), { recursive: true });
+for (const [slug, svg] of ESQ) if (svg) { const f = join(salida, "esq", slug + ".svg"); mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, svg); }
 for (const f of [paginaComparativa, paginaCesta]) {
   const { ruta, html } = f();
   mkdirSync(join(salida, ruta), { recursive: true });
