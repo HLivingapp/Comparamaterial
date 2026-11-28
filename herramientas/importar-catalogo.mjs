@@ -20,6 +20,8 @@ const PATRON = {
   damiasolar: /^https:\/\/www\.damiasolar\.com\/[a-z0-9-]+\.html$/,
   barcelonaled: /^https:\/\/www\.barcelonaled\.com\/es-es\/products\/[a-z0-9-]+$/,
   masterled: /^https:\/\/masterled\.es\/es\/[a-z0-9-]+\/\d+-[a-z0-9-]+\.html$/,
+  mundoparquet: /^https:\/\/mundoparquet\.com\/products\/[a-z0-9-]+$/,
+  matcarrelage: /^https:\/\/matcarrelage\.com\/es\/[a-z0-9-]+\/\d+-[a-z0-9-]+\.html$/,
   woodly: /^https:\/\/woodly\.es\/[a-z0-9-]+\.html$/,
   bricomoraleja: /^https:\/\/www\.bricomoraleja\.com\/producto\/[a-z0-9-]+\/$/,
   pereda: /^https:\/\/saneamientospereda\.es\/[a-z0-9-]+\/[a-z0-9-]+\.html$/,
@@ -40,6 +42,7 @@ const PATRON = {
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
+  [/suelos? de exterior|c[eé]sped artificial|terraza|tarima exterior|composite|\bwpc\b/i, "Terrazas y patios"],
   [/muebles? de cocina|m[oó]dulos? de cocina|cocinas? completas?|\bmetod\b|\bdelinia\b|\benhet\b|\bknoxhult\b/i, "Baño y cocina"],
   [/\bba[ñn]eras?\b/i, "Baño y cocina"],
   [/ventilador(es)? de (techo|pie|pared|sobremesa)/i, "Climatización y agua caliente"],
@@ -60,7 +63,7 @@ const CATEGORIA = [
   [/columna de ducha|espejo/i, "Baño y cocina"],
   [/espuma de poliuretano|espumas de poliuretano/i, "Albañilería y morteros"],
   [/rodapi/i, "Suelos"],
-  [/placas? de cocina|vitrocer|inducci[oó]n|horno|campana|encimera|fregadero|lavabo|lavamanos/i, "Baño y cocina"],
+  [/placas? de cocina|vitrocer|inducci[oó]n|horno|campana|encimera|fregadero|lavabo|lavamanos|electrodom[eé]stic|frigor[ií]fico|refrigerador|nevera|congelador|vinoteca|lavavajillas|microondas|grupo filtrante/i, "Baño y cocina"],
   [/plaste|masilla(?!.*junta)/i, "Pintura"],
   [/panel(es)? led/i, "Electricidad"],
   [/herramienta|protecci[oó]n de obra|llana|paleta|talocha/i, "Obra y protección"],

@@ -95,6 +95,14 @@
     "masterled": {
       "nombre": "MasterLED",
       "web": "https://masterled.es"
+    },
+    "mundoparquet": {
+      "nombre": "Mundo Parquet",
+      "web": "https://mundoparquet.com"
+    },
+    "matcarrelage": {
+      "nombre": "Matcarrelage",
+      "web": "https://matcarrelage.com/es/"
     }
   },
   "materiales": [
