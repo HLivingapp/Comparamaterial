@@ -652,6 +652,7 @@ ${ctaReformista()}
 rmSync(salida, { recursive: true, force: true });
 mkdirSync(salida, { recursive: true });
 if (existsSync(join(aqui, "img"))) cpSync(join(aqui, "img"), join(salida, "img"), { recursive: true });
+if (existsSync(join(aqui, "videos"))) cpSync(join(aqui, "videos"), join(salida, "videos"), { recursive: true, filter: (f) => !f.endsWith(".md") });
 writeFileSync(join(salida, "index.html"), portada());
 const rutas = [""];
 for (const m of materiales) {
