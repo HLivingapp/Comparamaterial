@@ -10,7 +10,8 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { generarAmazon, bloqueAmazonArea, AMAZON } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
-import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza } from "./herramientas/subgrupos.mjs";
+import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA } from "./herramientas/subgrupos.mjs";
+import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -79,13 +80,15 @@ function fotoGrupo(g, ms, c, raiz) {
   if (!f) { const m = ms.find((x) => imagenes[x.slug]); if (m) f = imagenes[m.slug].miniatura; }
   return f ? `<img src="${esc(/^https?:/.test(f) ? f : raiz + f)}" alt="" loading="lazy" decoding="async" width="240" height="180">` : `<i>${icono(c)}</i>`;
 }
+// Foto del producto: la suya si la tiene; si no, una foto propia de reforma del mismo tipo de producto.
+const fotoDe = (m) => imagenes[m.slug] || (fotoPropia(m.categoria, m.nombre) ? { miniatura: fotoPropia(m.categoria, m.nombre), propia: true } : null);
 function imagen(m, raiz, grande = false) {
-  const f = imagenes[m.slug];
+  const f = fotoDe(m);
   if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
   return `<div class="foto"><img src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
 }
 function credito(m) {
-  const f = imagenes[m.slug];
+  const f = fotoDe(m);
   if (!f) return "";
   if (f.propia) return `<p class="credito">Foto: reforma real terminada en Madrid. Imagen orientativa, no es el producto exacto.</p>`;
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
@@ -580,7 +583,7 @@ function paginaProducto(m) {
   const cuerpo = `
 <nav class="migas"><a href="${raiz}">Materiales</a> › <a href="${raiz}${rutaCat(m.categoria)}">${esc(m.categoria)}</a></nav>
 <section class="ficha">
-<div class="ficha-foto">${imagen(m, raiz, true)}</div>
+<div class="ficha-foto">${imagen(m, raiz, true)}${credito(m)}</div>
 <div class="ficha-info">
 <h1>${esc(m.nombre)}</h1>
 <p class="sub">${esc(todasTiendas[o.tienda].nombre)} · ${esc(m.formato)} · precio con IVA consultado el ${fechaP}</p>
@@ -599,7 +602,7 @@ ${ctaReformista()}
 
 const VISTA_PREVIA = 6;
 function listaProductos(ps, raiz, previa = 0) {
-  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}"><a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
+  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
@@ -627,7 +630,7 @@ function paginaCategoria(c) {
 <div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
 <p class="sub">Agrupados por tipo de producto: primero lo principal y al final los accesorios. Dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
 <div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
-${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
+${EXPLICA[x.g] ? `<p class="explica">${esc(EXPLICA[x.g])}</p>` : ""}${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
 <script>(function(){var f=document.querySelector("[data-filtro]"),tg=document.querySelectorAll(".tipos-g [data-g]"),sb=document.querySelector(".subgrupos"),tp=document.querySelector(".tipos"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});

@@ -292,3 +292,9 @@ main>*{min-width:0}
 .tipos-g a small{padding:0 12px 11px}
 .tipos-g a.on i{background:transparent;color:var(--acTx)}
 @media (max-width:640px){.tipos-g a{padding:0}.tipos-g a img,.tipos-g a i{height:92px}.tipos-g a span{padding:8px 10px 0;font-size:.95rem}.tipos-g a small{padding:0 10px 9px}}
+/* Miniatura en las listas de productos: foto del producto o foto propia del mismo tipo. */
+.prod-lista .pl-f{flex:0 0 64px;width:64px;height:48px;border-radius:8px;object-fit:cover;background:var(--li)}
+.prod-lista .pl-i{display:flex;align-items:center;justify-content:center;color:var(--ac);background:var(--sup)}
+.prod-lista .pl-i svg{width:28px;height:28px}
+@media (max-width:520px){.prod-lista a{flex-basis:calc(100% - 74px)}}
+.explica{background:var(--sup);border-left:4px solid var(--ac);padding:8px 12px;border-radius:6px;margin:6px 0 12px}

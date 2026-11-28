@@ -97,10 +97,13 @@ export const SUBGRUPOS = {
   "Suelos": [
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /^\W*base|base aislante|perfil|espuma|underlay|transici/i],
-    ["Laminado", /laminad/i],
+    ["Laminado AC6", (n) => /laminad/i.test(n) && /\bac ?6\b|clase 34/i.test(n)],
+    ["Laminado AC5", (n) => /laminad/i.test(n) && /\bac ?5\b|clase 33/i.test(n)],
+    ["Laminado AC4", (n) => /laminad/i.test(n) && /\bac ?4\b|clase 32/i.test(n)],
+    ["Laminado (otras clases)", /laminad/i],
     ["Vinílico SPC/LVT", /vin[ií]lico|spc|lvt|pvc/i],
-    ["Madera y parquet", /parquet|madera|multicapa|tarima/i],
     ["Porcelánico imitación", /porcel|gres|azulejo|pavimento|baldosa|cer[aá]mic|m[aá]rmol/i],
+    ["Madera y parquet", /parquet|madera|multicapa|tarima/i],
   ],
   "Decoración y revestimientos": [
     ["Colas y herramientas para papel", /^\W*(cola|adhesivo|esp[aá]tula|cepillo|cuchilla|rodillo)/i],
@@ -184,7 +187,7 @@ export const VISTA = {
   "Iluminación": ["Downlights", "Paneles y pantallas LED", "Plafones", "Focos de carril", "Tiras LED y perfiles", "Bombillas", "Lámparas colgantes", "Apliques", "Exterior", "Drivers, conectores y accesorios"],
   "Fontanería y saneamiento": ["Tubería y PVC", "Codos, tes y uniones", "Llaves y válvulas", "Latiguillos y flexibles", "Desagües, sifones y sumideros", "Cisternas y mecanismos", "Canalones y bajantes"],
   "Cerámica y colocación": ["Formato medio (hasta 60 cm)", "Gran formato (más de 60 cm)", "Mosaico y formato pequeño (hasta 20 cm)", "Azulejos y pavimentos (otros)", "Peldaños, listelos y rodapiés", "Adhesivos, cementos cola e impermeabilizantes", "Juntas y masillas", "Perfiles, cantoneras y nivelación"],
-  "Suelos": ["Laminado", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
+  "Suelos": ["Laminado AC4", "Laminado AC5", "Laminado AC6", "Laminado (otras clases)", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
   "Decoración y revestimientos": ["Papel pintado vinílico", "Papel pintado tejido no tejido", "Papel pintado (otros)", "Papel pintado infantil", "Murales y fotomurales", "Pósters y láminas", "Paneles de listones y acústicos", "Frisos, zócalos y revestimientos de madera", "Colas y herramientas para papel"],
   "Puertas": ["Puertas de interior abatibles", "Puertas correderas", "Puertas de entrada y blindadas", "Manillas, pomos y condenas", "Tapajuntas y molduras", "Guías y herrajes"],
   "Ventanas": ["Ventanas de PVC", "Ventanas de aluminio", "Ventanas de madera", "Balconeras", "Persianas y mosquiteras"],
@@ -234,3 +237,10 @@ export function subgrupo(categoria, nombre) {
 }
 // Piezas sueltas (tapas, marcos, recambios…): dentro de cada subgrupo van después de los productos completos.
 export const esPieza = (n) => /^\W*(tapa|marco|premarco|tecla|embellecedor|recambio|repuesto|kit de|juego de tornillos|tornillo|soporte|tap[oó]n|conector|accesorio|adaptador|rejilla|v[aá]lvula|brazo|flexo|mango)\b/i.test(n);
+// Explicación corta que sale al principio de algunos subgrupos.
+export const EXPLICA = {
+  "Laminado AC4": "AC4 (clase 32): el más habitual en casa. Aguanta bien salón, pasillo y dormitorios con uso normal.",
+  "Laminado AC5": "AC5 (clase 33): más resistente a golpes y arañazos. Recomendable con niños, mascotas o mucho paso, y en locales pequeños.",
+  "Laminado AC6": "AC6 (clase 34): la máxima resistencia. Para zonas de mucho tráfico; en una vivienda normal suele bastar con AC4 o AC5.",
+  "Laminado (otras clases)": "Laminados en los que la tienda no indica la clase de uso. Fíjate en la ficha: para casa conviene AC4 o más.",
+};
