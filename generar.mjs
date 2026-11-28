@@ -673,9 +673,9 @@ function paginaCategoria(c) {
   const filtrosF = (FACETAS[c] || []).map((f) => ({ nombre: f.nombre, ops: f.opciones.map(([et]) => ({ et, k: clave(f.nombre, et), n: todosP.filter((m) => facetaDe(m).includes(clave(f.nombre, et))).length })).filter((o) => o.n) })).filter((f) => f.ops.length);
   // En azulejos se mezclan tiendas y marcas: una de cada tienda por turno, cada una de más barata a más cara.
   const rr = (xs) => { const por = new Map(); xs.forEach((m) => { const t = m.ofertas[0].tienda; if (!por.has(t)) por.set(t, []); por.get(t).push(m); }); const out = []; for (let i = 0; out.length < xs.length; i++) for (const l of por.values()) if (l[i]) out.push(l[i]); return out; };
-  // En azulejos se mezclan tiendas y marcas por turnos: primero los formatos más vendidos y luego el resto.
-  const mezcla = (todos) => c !== "Cerámica y colocación" ? todos : [...rr(todos.filter((m) => prioridad(c, m.nombre) < 99)), ...rr(todos.filter((m) => prioridad(c, m.nombre) >= 99))];
-  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: mezcla(ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden)), amz: amz.filter((p) => subgrupo(c, p.nombre) === g) }))
+  // En azulejos y muebles de cocina se mezclan tiendas por turnos (para comparar): primero lo más vendido y luego el resto.
+  const mezcla = (todos, g) => c !== "Cerámica y colocación" && g !== "Muebles de cocina" ? todos : [...rr(todos.filter((m) => prioridad(c, m.nombre) < 99)), ...rr(todos.filter((m) => prioridad(c, m.nombre) >= 99))];
+  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: mezcla(ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), g), amz: amz.filter((p) => subgrupo(c, p.nombre) === g) }))
     .map((x) => ({ ...x, n: x.ms.length + x.ps.length + x.amz.length })).filter((x) => x.n);
   const ruta = rutaCat(c);
   const raiz = "../../";
