@@ -13,7 +13,7 @@ if (existsSync(dir)) for (const f of readdirSync(dir).sort()) { const m = f.matc
 const AZ = (def) => (n) => /hidr[aá]ulic|patchwork|encaustic/i.test(n) ? "azulejo-hidraulico" : /\bmetro\b|subway|biselad/i.test(n) ? "azulejo-metro" : def;
 const ELEMENTO = {
   "Muebles de baño": "mueble-bano", "Inodoros y cisternas": (n) => /inodoro|taza|wc|suspendido|compacto/i.test(n) && !/tapa|asiento|cisterna|bastidor/i.test(n) ? "inodoro" : null,
-  "Lavabos": "lavabo", "Platos de ducha": "plato-ducha", "Bañeras": "banera", "Columnas y duchas": "columna-ducha", "Espejos": "espejo-bano",
+  "Ventiladores de techo con luz": "ventilador-techo", "Lavabos": "lavabo", "Platos de ducha": "plato-ducha", "Bañeras": "banera", "Columnas y duchas": "columna-ducha", "Espejos": "espejo-bano",
   "Mamparas": (n) => /negr|black/i.test(n) ? "mampara-negra" : "mampara",
   "Grifería de baño": (n) => /empotr/i.test(n) ? "grifo-empotrado" : /negr|black/i.test(n) ? "grifo-negro" : /dorad|\boro\b|gold/i.test(n) ? "grifo-dorado" : /crom/i.test(n) ? "grifo-cromo" : "grifo-lavabo",
   "Accesorios de baño": (n) => /toallero/i.test(n) ? "toallero" : null,
