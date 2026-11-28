@@ -12,6 +12,9 @@ import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./a
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
 import { esquema, medidas } from "./herramientas/esquemas.mjs";
+import { fotoSerie } from "./herramientas/fotos-serie.mjs";
+// Fotos de NAIS (autorizadas por NAIS por escrito, con crédito y enlace a nais.es): enlace del producto → id de imagen.
+let naisImg = {}; try { naisImg = JSON.parse(readFileSync(new URL("./datos/nais-imagenes.json", import.meta.url), "utf8")); } catch {}
 import { prioridad } from "./herramientas/mas-vendidos.mjs";
 import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
@@ -124,17 +127,23 @@ function fotoObra(m) {
 }
 const ESQ = new Map();
 const fotoDe = (m) => { const f = imagenes[m.slug]; if (f && !f.propia && !/reforma-/.test(f.miniatura)) return f;
+  const fSerie = fotoSerie(m.nombre); if (fSerie) return fSerie;
+  const nEnl = (m.ofertas || []).map((o) => o.enlace).find((e) => naisImg[e]);
+  if (nEnl) { if (!ESQ.has(m.slug)) ESQ.set(m.slug, esquema(m.categoria, m.nombre)); return { miniatura: `https://imagedelivery.net/IojTSSo_y4mfBlRQYXdrlg/${naisImg[nEnl]}/public`, nais: nEnl, respaldo: ESQ.get(m.slug) ? `esq/${m.slug}.svg` : "" }; }
   const o = fotoObra(m); if (o) return { miniatura: o, propia: true };
   if (!ESQ.has(m.slug)) ESQ.set(m.slug, esquema(m.categoria, m.nombre));
   return ESQ.get(m.slug) ? { miniatura: `esq/${m.slug}.svg`, esquema: true } : null; };
 function imagen(m, raiz, grande = false) {
   const f = fotoDe(m);
   if (!f) return `<div class="foto sinfoto">${icono(m.categoria)}</div>`;
-  return `<div class="foto"><img src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}></div>`;
+  const resp = f.respaldo ? ` onerror="this.onerror=null;this.src='${esc(raiz + f.respaldo)}'"` : "";
+  return `<div class="foto"><img src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="${esc(m.nombre)}" loading="lazy" decoding="async"${grande ? "" : ' width="480" height="360"'}${f.nais ? ' referrerpolicy="no-referrer"' : ""}${resp}></div>`;
 }
 function credito(m) {
   const f = fotoDe(m);
   if (!f) return "";
+  if (f.nais) return `<p class="credito">Imagen: <a href="${esc(f.nais)}" rel="noopener" target="_blank">NAIS</a> (nais.es), con su autorización. Es una foto de la colección en el mismo color; el formato puede variar.</p>`;
+  if (f.serie) return `<p class="credito">Foto de obra real nuestra con este azulejo: ${esc(f.serie)}. Es la misma serie y color; el formato puede variar.</p>`;
   if (f.propia) return `<p class="credito">Foto de obra real nuestra: mismo tipo de producto y color. El modelo exacto puede variar; mira la foto de la tienda.</p>`;
   if (f.esquema) return `<p class="credito">Dibujo esquemático hecho con los datos del producto (formato, color, medidas). Mira la foto real en la tienda.</p>`;
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
@@ -249,7 +258,7 @@ var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)re
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
 var pinta=function(){if(!I.length){if(q.value.trim()){res.innerHTML='<p class="br-nada">Buscando…</p>';res.hidden=false}carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
-res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br">'+(m.i?'<img src="'+R+(m.i.indexOf("/")>=0?m.i:'img/reforma-'+m.i+'.webp')+'" alt="" loading="lazy" width="56" height="42">':'')+'<a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><a class="br-web" href="https://'+m.u+'" rel="nofollow noopener" target="_blank">Ir a la web</a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
+res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br">'+(m.i?'<img src="'+(/^https?:/.test(m.i)?m.i:R+(m.i.indexOf("/")>=0?m.i:'img/reforma-'+m.i+'.webp'))+'" alt="" loading="lazy" width="56" height="42">':'')+'<a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><a class="br-web" href="https://'+m.u+'" rel="nofollow noopener" target="_blank">Ir a la web</a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
 q.addEventListener("input",pinta);q.addEventListener("focus",pinta);setTimeout(function(){carga()},1500);
 res.addEventListener("click",function(e){var o=e.target.closest("button[data-o]");if(o){e.stopPropagation();orden=o.getAttribute("data-o");pinta();q.focus();return}var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
 f.addEventListener("submit",function(e){if(!I.length)return;var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
