@@ -10,7 +10,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { generarAmazon, bloqueAmazonArea, AMAZON } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
-import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA } from "./herramientas/subgrupos.mjs";
+import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
 import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
@@ -53,6 +53,7 @@ const ICONOS = {
   "Pintura": '<rect x="12" y="12" width="34" height="14" rx="3"/><path d="M46 19h6v12H30v8"/><rect x="26" y="39" width="8" height="15" rx="2"/>',
   "Cocina": '<rect x="10" y="22" width="44" height="32" rx="3"/><circle cx="22" cy="32" r="5"/><circle cx="42" cy="32" r="5"/><path d="M10 42h44M18 48h28M26 22v-8h12v8"/>',
   "Aire acondicionado": '<rect x="8" y="14" width="48" height="18" rx="3"/><path d="M14 26h36M20 40l-3 8M32 40v10M44 40l3 8"/>',
+  "Ventiladores": '<circle cx="32" cy="28" r="4"/><path d="M32 24c-2-8 2-14 8-14-1 6-4 10-8 14M36 29c8-1 13 3 12 9-6-2-9-5-12-9M29 31c-5 6-12 7-15 2 5-3 10-3 15-2"/><path d="M32 32v22M24 56h16"/>',
   "Calefacción y agua caliente": '<rect x="20" y="6" width="24" height="44" rx="10"/><path d="M28 50v8M36 50v8M27 20h10M27 28h10"/>',
   "Decoración y revestimientos": '<rect x="10" y="10" width="44" height="44" rx="2"/><path d="M10 40l12-12 10 10 8-8 14 14"/><circle cx="40" cy="22" r="4"/>',
   "Iluminación": '<path d="M24 40a14 14 0 1 1 16 0v6H24z"/><path d="M26 52h12M28 58h8M32 8V4M14 16l-3-3M50 16l3-3"/>',
@@ -66,15 +67,17 @@ const ICONOS = {
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
+// Foto de baño real para cada estilo de azulejo (botones grandes de estilo).
+const FOTO_ESTILO = { "estilo:retro": ["estilo-retro-1", "azulejo-bano-5"], "estilo:elegante": ["estilo-elegante-1", "estilo-marmol-1", "toallero-4"], "estilo:natural": ["estilo-natural-1", "lavabo-1"], "estilo:minimal": ["estilo-minimal-1", "mampara-1"] };
+const fotoEstilo = (k) => (FOTO_ESTILO[k] || []).map((f) => `img/reforma-${f}.webp`).find((f) => existsSync(join(aqui, f)));
 // Foto de cada subgrupo en los botones de tipo: fotos propias de reformas cuando las hay.
 const FOTO_GRUPO = { "Muebles de baño": "mueble-bano-1", "Inodoros y cisternas": "inodoro-1", "Lavabos": "lavabo-1", "Platos de ducha": "plato-ducha-1", "Mamparas": "mampara-2", "Bañeras": "banera-2", "Columnas y duchas": "columna-ducha-1", "Grifería de baño": "grifo-lavabo-2", "Espejos": "espejo-bano-1", "Accesorios de baño": "toallero-1",
   "Fregaderos": "fregadero-1", "Grifería de cocina": "grifo-cocina-1", "Encimeras": "encimera-1", "Placas": "placa-1", "Hornos": "horno-2", "Campanas": "campana-1", "Lavavajillas y electrodomésticos": "muebles-cocina-1",
-  "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Downlights": "downlight-2", "Mecanismos: interruptores y enchufes": "enchufe-1", "Cables e hilos": "cableado-1",
+  "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Empotrados: downlights y paneles": "downlight-2", "Mecanismos: interruptores y enchufes": "enchufe-1",
   "Puertas de interior abatibles": "puerta-interior-1", "Puertas de entrada y blindadas": "puerta-entrada-1", "Manillas, pomos y condenas": "manilla-1", "Ventanas de PVC": "ventana-1", "Ventanas de aluminio": "ventana-2", "Balconeras": "balconera-1",
   "Armarios y módulos": "armario-1", "Frentes y puertas de armario": "armario-2", "Interiores: cajones, baldas y barras": "armario-4",
   "Laminado": "suelo-laminado-1", "Vinílico SPC/LVT": "suelo-laminado-3", "Madera y parquet": "suelo-madera-1", "Porcelánico imitación": "suelo-porcelanico-1", "Rodapiés": "rodapie-1",
-  "Formato medio (hasta 60 cm)": "azulejo-bano-2", "Gran formato (más de 60 cm)": "suelo-porcelanico-1", "Mosaico y formato pequeño (hasta 20 cm)": "azulejo-bano-3", "Azulejos y pavimentos (otros)": "azulejo-bano-1",
-  "Pintura plástica": "pintura-3", "Ladrillo y bloque": "ladrillo-1", "Tubería y PVC": "tuberia-pvc-1", "Placas de yeso": "pladur-1" };
+  "Formato medio (hasta 60 cm)": "azulejo-bano-2", "Gran formato (más de 60 cm)": "suelo-porcelanico-1", "Mosaico y formato pequeño (hasta 20 cm)": "azulejo-bano-3", "Azulejos y pavimentos (otros)": "azulejo-bano-1" };
 function fotoGrupo(g, ms, c, raiz) {
   let f = FOTO_GRUPO[g] && existsSync(join(aqui, "img", `reforma-${FOTO_GRUPO[g]}.webp`)) ? `img/reforma-${FOTO_GRUPO[g]}.webp` : null;
   if (!f) { const m = ms.find((x) => imagenes[x.slug]); if (m) f = imagenes[m.slug].miniatura; }
@@ -146,7 +149,7 @@ const ALIAS = [
   [/cable|manguera/i, "cableado electricidad"], [/plato de ducha|mampara|columna/i, "ducha"], [/pintura|esmalte|imprimación/i, "pintar"],
 ];
 const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
-const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
+const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(esPieza(m.nombre) || /\bpara\b|^\W*(juego|kit|llave|coquilla|tornillo|recambio|repuesto|soporte|tap[oó]n|tapa|flexo|v[aá]lvula|latiguillo|rejilla|mango)\b/i.test(m.nombre) ? { z: 1 } : {}), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -199,12 +202,12 @@ b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-
 var R="${raiz}",I=[],cargando=null;
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
 var carga=function(){if(!cargando)cargando=fetch(R+"indice.json").then(function(r){return r.json()}).then(function(d){I=d;I.forEach(function(m){m.nk=nor(m.n+" "+(m.a||""));m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))})}).catch(function(){});return cargando};
-var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){var t=" "+m.nk.replace(/[^a-z0-9]+/g," ")+" ";return w.every(function(x){return t.indexOf(" "+x+" ")>=0||t.indexOf(" "+x+"s ")>=0})?0:w.every(function(x){return m.nk.indexOf(x)>=0})?1:2};var pop=function(m){return en(m)+(m.x?1:0)};r.sort(orden==="precio"?function(a,b){return (en(a)-en(b))||(a.v-b.v)}:function(a,b){return (pop(a)-pop(b))||(a.v-b.v)});return r.slice(0,12)};var orden="precio";
+var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){var t=" "+m.nk.replace(/[^a-z0-9]+/g," ")+" ";return w.every(function(x){return t.indexOf(" "+x+" ")>=0||t.indexOf(" "+x+"s ")>=0})?0:w.every(function(x){return m.nk.indexOf(x)>=0})?1:2};var pr=function(m){var t=" "+m.nk.replace(/[^a-z0-9]+/g," ");return (m.z?3:0)+(t.indexOf(" "+w[0])===0?0:1)};var pop=function(m){return en(m)+(m.x?1:0)};r.sort(orden==="precio"?function(a,b){return (en(a)-en(b))||(pr(a)-pr(b))||(a.v-b.v)}:function(a,b){return (pop(a)-pop(b))||(pr(a)-pr(b))||(a.v-b.v)});return r.slice(0,12)};var orden="precio";
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
-var pinta=function(){if(!I.length){carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
+var pinta=function(){if(!I.length){if(q.value.trim()){res.innerHTML='<p class="br-nada">Buscando…</p>';res.hidden=false}carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
 res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
-q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
+q.addEventListener("input",pinta);q.addEventListener("focus",pinta);(window.requestIdleCallback||setTimeout)(function(){carga()},1500);
 res.addEventListener("click",function(e){var o=e.target.closest("button[data-o]");if(o){e.stopPropagation();orden=o.getAttribute("data-o");pinta();q.focus();return}var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
 f.addEventListener("submit",function(e){if(!I.length)return;var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
@@ -239,10 +242,13 @@ function filaOferta(o, ganador, slug) {
 </tr>`;
 }
 
+// Claves de filtro (estilo, color…) de cada producto mientras se pinta la página de un área.
+let facetaDe = null;
+const attrF = (m) => { const f = facetaDe && facetaDe(m); return f && f.length ? ` data-f="${f.join(" ")}"` : ""; };
 function tarjeta(m, raiz) {
   const g = mejor(m);
   const min = Math.min(...m.ofertas.map((o) => o.precio));
-  return `<li class="tarjeta"><a href="${raiz}${m.slug}/">
+  return `<li class="tarjeta"${attrF(m)}><a href="${raiz}${m.slug}/">
   ${imagen(m, raiz)}
   <span class="t-nombre">${esc(m.nombre)}</span>
   <span class="t-formato">${esc(m.formato)}</span>
@@ -602,7 +608,7 @@ ${ctaReformista()}
 
 const VISTA_PREVIA = 6;
 function listaProductos(ps, raiz, previa = 0) {
-  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
+  return `<ul class="prod-lista">${ps.map((m, i) => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; }).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
@@ -611,7 +617,12 @@ function paginaCategoria(c) {
   const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
   // Primero los productos completos, del más barato al más caro; las piezas sueltas al final.
   const orden = (a, b) => esPieza(a.nombre) - esPieza(b.nombre) || minimo(a) - minimo(b);
-  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden) }))
+  facetaDe = (m) => facetas(c, subgrupo(c, m.nombre), m.nombre);
+  const todosP = [...ms, ...ps];
+  const filtrosF = (FACETAS[c] || []).map((f) => ({ nombre: f.nombre, ops: f.opciones.map(([et]) => ({ et, k: clave(f.nombre, et), n: todosP.filter((m) => facetaDe(m).includes(clave(f.nombre, et))).length })).filter((o) => o.n) })).filter((f) => f.ops.length);
+  // En azulejos se mezclan tiendas y marcas: una de cada tienda por turno, cada una de más barata a más cara.
+  const mezcla = (xs) => { if (c !== "Cerámica y colocación") return xs; const por = new Map(); xs.forEach((m) => { const t = m.ofertas[0].tienda; if (!por.has(t)) por.set(t, []); por.get(t).push(m); }); const out = []; for (let i = 0; out.length < xs.length; i++) for (const l of por.values()) if (l[i]) out.push(l[i]); return out; };
+  const grupos = gruposVista(c).map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort(orden), ps: mezcla(ps.filter((m) => subgrupo(c, m.nombre) === g).sort(orden)) }))
     .filter((x) => x.ms.length + x.ps.length);
   const ruta = rutaCat(c);
   const raiz = "../../";
@@ -627,23 +638,31 @@ function paginaCategoria(c) {
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
 <p class="sub">${ms.length} materiales comparados${ps.length ? ` y ${ps.length} productos más` : ""} · precios con IVA · ${fechaTexto}</p>
 <nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.ms.length + x.ps.length}</small></a>`).join("")}</nav>
+${filtrosF.length ? `<div class="facetas">${filtrosF.map((f) => f.ops.every((o) => fotoEstilo(o.k)) ? `<div class="faceta faceta-fotos" data-fac="${esc(clave(f.nombre, "").replace(/:$/, ""))}"><h2>Elige un ${esc(f.nombre.toLowerCase())}</h2><div class="tipos-g">${f.ops.map((o) => `<button type="button" data-k="${o.k}"><img src="${raiz}${fotoEstilo(o.k)}" alt="" loading="lazy" decoding="async" width="240" height="180"><span>${esc(o.et)}</span><small>${o.n} productos de varias marcas</small></button>`).join("")}</div></div>` : `<div class="faceta" data-fac="${esc(clave(f.nombre, "").replace(/:$/, ""))}"><b>${esc(f.nombre)}:</b> ${f.ops.map((o) => `<button type="button" data-k="${o.k}">${esc(o.et)} <small>${o.n}</small></button>`).join("")}</div>`).join("")}</div>` : ""}
 <div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
 <p class="sub">Agrupados por tipo de producto: primero lo principal y al final los accesorios. Dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
 <div class="grupos resumen-g">${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
 ${EXPLICA[x.g] ? `<p class="explica">${esc(EXPLICA[x.g])}</p>` : ""}${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz, VISTA_PREVIA) : ""}${x.ps.length > VISTA_PREVIA ? `<p class="ver-todos"><a href="#${x.id}" data-g="${x.id}">Ver los ${x.ps.length + x.ms.length} de ${esc(x.g === "Otros" ? "otros productos" : x.g[0].toLowerCase() + x.g.slice(1))} →</a></p>` : ""}</section>`).join("\n")}</div>
 <script>(function(){var f=document.querySelector("[data-filtro]"),tg=document.querySelectorAll(".tipos-g [data-g]"),sb=document.querySelector(".subgrupos"),tp=document.querySelector(".tipos"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]"),vt=document.querySelectorAll(".ver-todos [data-g]"),cg=document.querySelector(".grupos");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
-function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
-ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
+var fk={},tj=document.querySelectorAll(".grupos .tarjeta");
+function fok(el){var d=" "+(el.getAttribute("data-f")||"")+" ";for(var k in fk)if(fk[k]&&d.indexOf(" "+fk[k]+" ")<0)return false;return true}
+function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value}),hay=Object.keys(fk).some(function(k){return fk[k]});
+cg.classList.toggle("resumen-g",!f.value&&!hay&&!location.hash);
+ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})||!fok(l)});
+tj.forEach(function(l){l.hidden=!fok(l)});
+gs.forEach(function(s){if(!hay&&!f.value){s.classList.remove("vacio");return}var v=[].some.call(s.querySelectorAll(".prod-lista li,.tarjeta"),function(l){return !l.hidden});s.classList.toggle("vacio",!v)})}
+document.querySelectorAll(".faceta button").forEach(function(b){b.addEventListener("click",function(){var fa=b.parentNode.getAttribute("data-fac"),k=b.getAttribute("data-k");fk[fa]=fk[fa]===k?"":k;b.parentNode.querySelectorAll("button").forEach(function(x){x.classList.toggle("on",fk[fa]===x.getAttribute("data-k"))});a()})});
 function g(id){cg.classList.toggle("resumen-g",!id);gs.forEach(function(s){s.hidden=!!id&&s.id!==id});[].concat([].slice.call(bs),[].slice.call(tg)).forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)});setTimeout(function(){var a1=sb.querySelector(".on");if(a1)sb.scrollLeft=a1.offsetLeft-20},120)}
 [].concat([].slice.call(bs),[].slice.call(vt),[].slice.call(tg)).forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);var d=id?document.getElementById(id):document.querySelector(".grupos");window.scrollTo({top:d.getBoundingClientRect().top+window.pageYOffset-70})})});
 if("IntersectionObserver" in window)new IntersectionObserver(function(e){sb.classList.toggle("fija",!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(tp);
 if(location.hash&&document.getElementById(location.hash.slice(1)))g(location.hash.slice(1));
-f.addEventListener("input",function(){cg.classList.toggle("resumen-g",!f.value&&!location.hash);a()});cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
+f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
 ${bloqueAmazonArea(c, raiz, { esc, eur, icono })}
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
 `;
+  facetaDe = null;
   return { ruta, html: pagina({ titulo, descripcion, ruta, cuerpo, jsonld: [lista, migas], raiz }) };
 }
 
