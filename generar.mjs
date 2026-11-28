@@ -8,6 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { SUBGRUPOS, subgrupo, area } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -25,13 +26,13 @@ const HOY = process.env.HOY || new Date().toISOString().slice(0, 10);
 const AVISO_DIAS = 3, OCULTAR_DIAS = 14;
 const dias = (f) => Math.round((Date.parse(HOY) - Date.parse(f)) / 864e5);
 const vigente = (x) => x.fecha && !x.noDisponible && dias(x.fecha) <= OCULTAR_DIAS;
-const materiales = datos.materiales.map((m) => ({ ...m, ofertas: m.ofertas.map((o) => ({ ...o, fecha: o.fecha || datos.fecha })).filter(vigente) })).filter((m) => m.ofertas.length);
+const materiales = datos.materiales.map((m) => ({ ...m, categoria: area(m.categoria, m.nombre), ofertas: m.ofertas.map((o) => ({ ...o, fecha: o.fecha || datos.fecha })).filter(vigente) })).filter((m) => m.ofertas.length);
 // Tiendas especializadas: solo catálogo (no entran en la comparativa de materiales básicos).
 const todasTiendas = { ...tiendas, ...(datos.tiendasExtra || {}) };
 const css = readFileSync(join(aqui, "estilos.css"), "utf8");
 // Catálogo amplio: un producto por tienda, leído de las páginas de categoría (datos/catalogo.json).
 let catalogo = [];
-try { catalogo = (JSON.parse(readFileSync(join(aqui, "datos", "catalogo.json"), "utf8")).productos || []).filter(vigente); } catch {}
+try { catalogo = (JSON.parse(readFileSync(join(aqui, "datos", "catalogo.json"), "utf8")).productos || []).filter(vigente).map((p) => ({ ...p, categoria: area(p.categoria, p.nombre) })); } catch {}
 // Fecha de referencia: la comprobación más reciente de cualquier precio publicado.
 const fecha = [...materiales.flatMap((m) => m.ofertas.map((o) => o.fecha)), ...catalogo.map((p) => p.fecha)].sort().pop() || datos.fecha;
 // Fotos con licencia libre (Wikimedia Commons), opcionales: slug → {miniatura, pagina, autor, licencia}.
@@ -47,7 +48,8 @@ const ICONOS = {
   "Electricidad": '<rect x="14" y="14" width="36" height="36" rx="6"/><circle cx="26" cy="32" r="2.5"/><circle cx="38" cy="32" r="2.5"/><path d="M32 14v-6M32 56v-6"/>',
   "Fontanería y saneamiento": '<path d="M10 26h22a8 8 0 0 1 8 8v20"/><path d="M10 34h18v20"/><path d="M40 20h14v8H40z"/>',
   "Pintura": '<rect x="12" y="12" width="34" height="14" rx="3"/><path d="M46 19h6v12H30v8"/><rect x="26" y="39" width="8" height="15" rx="2"/>',
-  "Baño y cocina": '<path d="M10 32h44v6a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12z"/><path d="M16 32V16a5 5 0 0 1 10 0"/><path d="M22 50l-2 6M42 50l2 6"/>',
+  "Cocina": '<rect x="10" y="22" width="44" height="32" rx="3"/><circle cx="22" cy="32" r="5"/><circle cx="42" cy="32" r="5"/><path d="M10 42h44M18 48h28M26 22v-8h12v8"/>',
+  "Baño": '<path d="M10 32h44v6a12 12 0 0 1-12 12H22a12 12 0 0 1-12-12z"/><path d="M16 32V16a5 5 0 0 1 10 0"/><path d="M22 50l-2 6M42 50l2 6"/>',
   "Suelos": '<path d="M8 44l24-12 24 12-24 12z"/><path d="M8 36l24-12 24 12"/><path d="M20 38l24 12M20 30l24 12" opacity=".6"/>',
   "Puertas y ventanas": '<rect x="16" y="8" width="32" height="48" rx="1"/><circle cx="41" cy="33" r="2"/><path d="M8 56h48"/>',
   "Climatización y agua caliente": '<rect x="8" y="14" width="48" height="18" rx="4"/><path d="M14 26h36M18 40c0 4 4 4 4 8s-4 4-4 8M32 40c0 4 4 4 4 8s-4 4-4 8M46 40c0 4 4 4 4 8s-4 4-4 8"/>',
@@ -579,7 +581,11 @@ function listaProductos(ps, raiz) {
 
 function paginaCategoria(c) {
   const ms = materiales.filter((m) => m.categoria === c);
-  const ps = productos.filter((m) => m.categoria === c).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  const ps = productos.filter((m) => m.categoria === c);
+  const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
+  const nombresG = [...(SUBGRUPOS[c] || []).map(([g]) => g), "Otros"];
+  const grupos = nombresG.map((g) => ({ g, id: "g-" + slugify(g), ms: ms.filter((m) => subgrupo(c, m.nombre) === g).sort((a, b) => minimo(a) - minimo(b)), ps: ps.filter((m) => subgrupo(c, m.nombre) === g).sort((a, b) => minimo(a) - minimo(b)) }))
+    .filter((x) => x.ms.length + x.ps.length);
   const ruta = rutaCat(c);
   const raiz = "../../";
   const cMin = c[0].toLowerCase() + c.slice(1);
@@ -591,17 +597,20 @@ function paginaCategoria(c) {
 <nav class="migas"><a href="${raiz}">Materiales</a> › ${esc(c)}</nav>
 <h1>Materiales de ${esc(cMin)} baratos en ${esc(zona)}: precios y ofertas</h1>
 <p class="resumen">Te decimos dónde comprar cada material de ${esc(cMin)} al mejor precio entre ${Object.keys(tiendas).map(tiendaCorta).join(" y ")}, con el enlace a cada producto.</p>
-<p class="sub">${ms.length} materiales comparados${ps.length ? ` y <a href="#todos">${ps.length} productos más</a>` : ""} · precios con IVA · ${fechaTexto}</p>
-${rejilla(ms, raiz)}
-${ps.length ? `<section class="bloque" id="todos"><div class="bloque-cab"><h2>Todos los productos de ${esc(cMin)} (${ps.length})</h2></div>
-<p class="sub">Precios públicos con IVA de cada tienda. Filtra por nombre o por tienda.</p>
-<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t)).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
-${listaProductos(ps, raiz)}</section>
-<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li");
+<p class="sub">${ms.length} materiales comparados${ps.length ? ` y ${ps.length} productos más` : ""} · precios con IVA · ${fechaTexto}</p>
+<nav class="subgrupos" aria-label="Tipos de producto"><button type="button" class="on" data-g="">Todo <small>${ms.length + ps.length}</small></button>${grupos.map((x) => `<a href="#${x.id}" data-g="${x.id}">${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>${x.ms.length + x.ps.length}</small></a>`).join("")}</nav>
+<div class="filtro-prod"><input type="search" placeholder="Filtrar: ej. 13 mm, hidrófuga, 25 kg…" aria-label="Filtrar productos" data-filtro><span class="filtro-t">${Object.keys(todasTiendas).filter((t) => ps.some((p) => p.ofertas[0].tienda === t) || ms.some((m) => m.ofertas.some((o) => o.tienda === t))).map((t) => `<label><input type="checkbox" checked value="${esc(tiendaCorta(t))}"> ${esc(tiendaCorta(t))}</label>`).join("")}</span></div>
+<p class="sub">Agrupados por tipo de producto y, dentro de cada grupo, del más barato al más caro. Precios públicos con IVA de cada tienda.</p>
+${grupos.map((x) => `<section class="bloque grupo" id="${x.id}"><div class="bloque-cab"><h2>${esc(x.g === "Otros" ? "Otros productos" : x.g)} <small>(${x.ms.length + x.ps.length})</small></h2></div>
+${x.ms.length ? `<p class="sub">Comparados entre tiendas</p>${rejilla(x.ms, raiz)}` : ""}${x.ps.length ? listaProductos(x.ps, raiz) : ""}</section>`).join("\n")}
+<script>(function(){var f=document.querySelector("[data-filtro]"),cs=document.querySelectorAll(".filtro-t input"),ls=document.querySelectorAll(".prod-lista li"),gs=document.querySelectorAll(".grupo"),bs=document.querySelectorAll(".subgrupos [data-g]");
 function n(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function a(){var w=n(f.value).split(/\\s+/).filter(Boolean),on=[].filter.call(cs,function(c){return c.checked}).map(function(c){return c.value});
 ls.forEach(function(l){var t=l.querySelector(".pl-t").textContent.split(" · ")[0];var txt=l.getAttribute("data-n")+" "+n(l.querySelector(".pl-n").textContent);l.hidden=on.indexOf(t)<0||!w.every(function(x){return txt.indexOf(x)>=0})})}
-f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>` : ""}
+function g(id){gs.forEach(function(s){s.hidden=!!id&&s.id!==id});bs.forEach(function(b){b.classList.toggle("on",b.getAttribute("data-g")===id)})}
+bs.forEach(function(b){b.addEventListener("click",function(e){var id=b.getAttribute("data-g");e.preventDefault();g(id);history.replaceState(null,"",id?"#"+id:location.pathname);window.scrollTo({top:document.querySelector(".subgrupos").offsetTop-10})})});
+if(location.hash&&document.getElementById(location.hash.slice(1)))g(location.hash.slice(1));
+f.addEventListener("input",a);cs.forEach(function(c){c.addEventListener("change",a)})})();</script>
 ${ctaReformista()}
 <section><h2>Otras categorías</h2><ul class="lista">${categorias.filter((x) => x !== c).map((x) => `<li><a href="${raiz}${rutaCat(x)}">Precios de ${esc(x[0].toLowerCase() + x.slice(1))}</a></li>`).join("")}</ul></section>
 `;

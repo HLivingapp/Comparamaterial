@@ -98,7 +98,8 @@
           "producto": "Cemento 32,5N 25 kg gris",
           "precio": 4.19,
           "porUnidad": "0,17 €/kg",
-          "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html"
+          "enlace": "https://www.obramat.es/productos/cemento-gris-32-5n-25-kg-10769164.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -122,7 +123,8 @@
           "precio": 1.63,
           "porUnidad": "0,10 €/kg",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html"
+          "enlace": "https://www.obramat.es/productos/yeso-controlado-longips-sn-17-kg-10966970.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -146,7 +148,8 @@
           "precio": 0.17,
           "porUnidad": "≈ 5,44 €/m²",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html"
+          "enlace": "https://www.obramat.es/productos/ladrillo-hueco-doble-24x11-5x8-cm-10741416.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -163,7 +166,8 @@
           "producto": "Mortero seco M7.5 25 kg gris",
           "precio": 1.79,
           "nota": "Precio muy bajo: confírmalo en tu tienda",
-          "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html"
+          "enlace": "https://www.obramat.es/productos/mortero-seco-m7-5-25-kg-gris-10395945.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -187,7 +191,8 @@
           "producto": "Mortero autonivelante Capafloor 20-50 mm 25 kg",
           "precio": 6.5,
           "porUnidad": "0,26 €/kg",
-          "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html"
+          "enlace": "https://www.obramat.es/productos/mortero-autonivelante-capafloor-20-50mm-25-kg-25069052.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -212,7 +217,8 @@
           "precio": 7.7,
           "porUnidad": "2,57 €/m²",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html"
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-ba-2500x1200x13-mm-10043054.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -229,7 +235,8 @@
           "producto": "Placa de yeso laminado Placo PPF 2500x1200x13 mm",
           "precio": 14.25,
           "porUnidad": "4,75 €/m²",
-          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html"
+          "enlace": "https://www.obramat.es/productos/placa-de-yeso-laminado-placo-ppf-2500x1200x13-mm-10402714.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -252,7 +259,8 @@
           "producto": "Montante Ingeperfil 48 mm 3 m",
           "precio": 2.34,
           "porUnidad": "0,78 €/m",
-          "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html"
+          "enlace": "https://www.obramat.es/productos/montante-ingeperfil-48-mm-3-m-25071458.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -275,7 +283,8 @@
           "producto": "Canal Ingeperfil 48 mm 3 m",
           "precio": 2,
           "porUnidad": "0,67 €/m",
-          "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html"
+          "enlace": "https://www.obramat.es/productos/canal-ingeperfil-48-mm-3-m-25071466.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -299,7 +308,8 @@
           "producto": "Pasta de juntas preparada Placomix Pro 20 kg",
           "precio": 18.89,
           "porUnidad": "0,94 €/kg",
-          "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html"
+          "enlace": "https://www.obramat.es/productos/pasta-de-juntas-preparada-placomix-pro-20-kg-10047282.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -348,7 +358,8 @@
           "precio": 7.55,
           "porUnidad": "0,30 €/kg",
           "nota": "Precio marcado como mejor precio por cantidad",
-          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html"
+          "enlace": "https://www.obramat.es/productos/cemento-cola-flex-duo-weber-c2te-25kg-gris-10547012.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -370,9 +381,11 @@
         {
           "tienda": "obramat",
           "producto": "Suelo porcelánico 60x60 Altea gris (caja 1,08 m²)",
-          "precio": 12.95,
+          "precio": 13.99,
           "porUnidad": "por m²",
-          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html"
+          "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html",
+          "fecha": "2026-11-28",
+          "precioAnterior": 12.95
         }
       ]
     },
@@ -397,7 +410,8 @@
           "producto": "Lámina impermeable Revestech Dry50 5×1,2 m (6 m²)",
           "precio": 47.3,
           "porUnidad": "7,88 €/m²",
-          "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html"
+          "enlace": "https://www.obramat.es/productos/lamina-impermeable-335-gr-m2-revestech-dry50-5x1-2-m-10768975.html",
+          "fecha": "2026-11-28"
         }
       ]
     },
@@ -453,10 +467,12 @@
         {
           "tienda": "obramat",
           "producto": "Tubo corrugado reforzado negro 20 mm 100 m",
-          "precio": 17.5,
+          "precio": 17.39,
           "porUnidad": "0,18 €/m",
           "nota": "Reforzado, no es exactamente el mismo producto",
-          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html"
+          "enlace": "https://www.obramat.es/productos/tubo-corrugado-reforzado-negro-20mm-100m-10979094.html",
+          "fecha": "2026-11-28",
+          "precioAnterior": 17.5
         },
         {
           "tienda": "bricoelectrico",
@@ -787,7 +803,7 @@
     {
       "slug": "termo-electrico-80l",
       "nombre": "Termo eléctrico 80 L",
-      "categoria": "Baño y cocina",
+      "categoria": "Climatización y agua caliente",
       "formato": "80 litros, vertical",
       "unidad": "ud",
       "consejo": "80 L suele bastar para 2-3 personas con una ducha. Verifica que la pared aguanta unos 130 kg con el termo lleno e instala la válvula de seguridad con desagüe.",
@@ -4088,7 +4104,284 @@
           "tienda": "damiasolar",
           "producto": "Panel solar Ecosolar Advanced 505W half cut monocristalino",
           "precio": 119,
-          "enlace": "https://www.damiasolar.com/panel-solar-ecosolar-advanced-505w-half-cut-monocristalino.html"
+          "enlace": "https://www.damiasolar.com/panel-solar-ecosolar-advanced-505w-half-cut-monocristalino.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "termo-ariston-blu1-b-80-l",
+      "nombre": "Termo eléctrico Ariston BLU1 B 80 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "80 litros",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda: compara solo el precio. Revisa que la pared aguante el peso con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "TERMO ELÉCTRICO 80 LITROS ARISTON BLU1 B",
+          "precio": 109,
+          "enlace": "https://www.obramat.es/productos/ul-termo-electrico-80-litros-ariston-blu1-b-25142066.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Termo eléctrico ARISTON BLU1 B 80l vertical",
+          "precio": 169,
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-ariston-blu1-b-80l-vertical-86870975.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "termo-cointra-tnc-plus-80-l-vertical",
+      "nombre": "Termo eléctrico Cointra TNC Plus 80 L vertical",
+      "categoria": "Climatización y agua caliente",
+      "formato": "80 litros",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda: compara solo el precio. Revisa que la pared aguante el peso con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "TERMO ELÉCTRICO 76 LITROS COINTRA TNC PLUS",
+          "precio": 153,
+          "enlace": "https://www.obramat.es/productos/termo-electrico-76-litros-cointra-tnc-plus-10899231.html",
+          "fecha": "2026-11-28",
+          "nota": "La tienda indica 76 L de capacidad real."
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Termo electrico COINTRA tnc-plus 80l",
+          "precio": 185.37,
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-cointra-tnc-plus-80l-19835921.html",
+          "fecha": "2026-11-28",
+          "nota": "Lo vende un vendedor externo dentro de la web de la tienda."
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Termo eléctrico Cointra TNC plus 80",
+          "precio": 343.64,
+          "enlace": "https://www.climahorro.es/termos-electricos/cointra-tnc-80-453.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "termo-ariston-velis-pro-wifi-80-l",
+      "nombre": "Termo eléctrico Ariston Velis Pro WiFi 80 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "80 litros",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda: compara solo el precio. Revisa que la pared aguante el peso con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Termo electrico Ariston Velis Pro wifi es 80 (65l) multiposición",
+          "precio": 358,
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-ariston-velis-pro-wifi-es-80-65l-multiposicion-91755347.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TERMO ELECTRICO 80L ARISTON VELIS PRO WIFI",
+          "precio": 359,
+          "enlace": "https://www.obramat.es/productos/termo-electrico-80l-ariston-velis-pro-wifi-25085395.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "termo-ariston-velis-pro-wifi-50-l",
+      "nombre": "Termo eléctrico Ariston Velis Pro WiFi 50 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "50 litros",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda: compara solo el precio. Revisa que la pared aguante el peso con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "leroy",
+          "producto": "Termo eléctrico Velis Pro wifi ES 50 (45l) multiposición",
+          "precio": 292,
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-velis-pro-wifi-es-50-45l-multiposicion-91755346.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "obramat",
+          "producto": "TERMO ELECTRICO 50L ARISTON VELIS PRO WIFI",
+          "precio": 299,
+          "enlace": "https://www.obramat.es/productos/termo-electrico-50l-ariston-velis-pro-wifi-25085388.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "termo-fleck-duo-7-50-l",
+      "nombre": "Termo eléctrico Fleck Duo 7 50 L",
+      "categoria": "Climatización y agua caliente",
+      "formato": "50 litros",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda: compara solo el precio. Revisa que la pared aguante el peso con el termo lleno e instala la válvula de seguridad con desagüe.",
+      "ofertas": [
+        {
+          "tienda": "climaprecio",
+          "producto": "Termo Eléctrico 50Litros FLECK Duo 7",
+          "precio": 309,
+          "enlace": "https://www.climaprecio.es/termos-electricos/termo-electrico-fleck-duo-7-50litros/",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Termo electrico Fleck Duo 7 50 (45l) multiposición",
+          "precio": 407,
+          "enlace": "https://www.leroymerlin.es/productos/termo-electrico-fleck-duo-7-50-45l-multiposicion-18926712.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "caldera-vaillant-ecotec-pure-vmw-236-7-2",
+      "nombre": "Caldera de condensación Vaillant ecoTEC pure VMW 236/7-2",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 24 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CALDERA DE GAS VAILLANT ECOTEC PURE 236",
+          "precio": 1297,
+          "enlace": "https://www.obramat.es/productos/caldera-de-gas-vaillant-ecotec-pure-236-25027031.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Caldera de condensación VAILLANT Ecotec Pure VMW 236",
+          "precio": 1479.9,
+          "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-vaillant-ecotec-pure-vmw-236-82039278.html",
+          "fecha": "2026-11-28",
+          "nota": "Lo vende un vendedor externo dentro de la web de la tienda."
+        }
+      ]
+    },
+    {
+      "slug": "caldera-ferroli-kalis-24-c",
+      "nombre": "Caldera de condensación Ferroli Kalis 24 C",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 24 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CALDERA DE GAS FERROLI KALIS 24C",
+          "precio": 720,
+          "enlace": "https://www.obramat.es/productos/caldera-de-gas-ferroli-kalis-24c-25053036.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Caldera de condensación de gas natural FERROLI KALIS 24 C",
+          "precio": 821,
+          "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-de-gas-natural-ferroli-kalis-24-c-83281986.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "caldera-ferroli-bluehelix-alpha-24-c",
+      "nombre": "Caldera de condensación Ferroli Bluehelix Alpha 24 C",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 24 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CALDERA DE GAS FERROLI BLUEHELIX ALPHA 24C",
+          "precio": 795,
+          "enlace": "https://www.obramat.es/productos/caldera-de-gas-ferroli-bluehelix-alpha-24c-10921225.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "CALDERA DE GAS FERROLI BLUEHELIX ALPHA 24 C",
+          "precio": 877.25,
+          "enlace": "https://www.climahorro.es/calderas-gas-condensacion/bluehelix-alpha-24-c-2297.html",
+          "fecha": "2026-11-28",
+          "nota": "Precio de campaña, puede subir."
+        }
+      ]
+    },
+    {
+      "slug": "caldera-baxi-neodens-lite-24-24-f",
+      "nombre": "Caldera de condensación Baxi Neodens Lite 24/24 F",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 24 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "climahorro",
+          "producto": "Caldera de condensación Baxi Neodens Lite 24/24F",
+          "precio": 899.03,
+          "enlace": "https://www.climahorro.es/calderas-gas-condensacion/caldera-de-condensacion-baxi-neodens-lite-2424f-2418.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "Caldera de gas natural NEODENS LITE 24/24F",
+          "precio": 1049.9,
+          "enlace": "https://www.leroymerlin.es/productos/caldera-de-gas-natural-neodens-lite-24-24f-85795577.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "caldera-ariston-clas-one-wifi-24-ff",
+      "nombre": "Caldera de condensación Ariston Clas One WiFi 24 FF",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 24 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "climaprecio",
+          "producto": "Caldera Ariston Clas One 24 FF Wifi",
+          "precio": 1208.79,
+          "enlace": "https://www.climaprecio.es/calderas-de-condensacion/ariston-clas-one-24ff-wifi/",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Caldera de gas de condensación Ariston CLAS ONE WIFI 24 FF",
+          "precio": 983.73,
+          "enlace": "https://www.climahorro.es/calderas-gas-condensacion/ariston-clas-one-wifi-24-ff-3931.html",
+          "fecha": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "slug": "caldera-saunier-duval-thema-condens-f25",
+      "nombre": "Caldera de condensación Saunier Duval Thema Condens F25",
+      "categoria": "Climatización y agua caliente",
+      "formato": "Gas natural, 25 kW, mixta (calefacción y agua caliente)",
+      "unidad": "ud",
+      "consejo": "Mismo modelo en cada tienda. El precio no incluye instalación ni puesta en marcha: la debe hacer un instalador habilitado, que además registra la instalación.",
+      "ofertas": [
+        {
+          "tienda": "obramat",
+          "producto": "CALDERA DE GAS SAUNIER THEMA CONDENS F25",
+          "precio": 1550,
+          "enlace": "https://www.obramat.es/productos/caldera-de-gas-saunier-thema-condens-f25-10587395.html",
+          "fecha": "2026-11-28"
+        },
+        {
+          "tienda": "leroy",
+          "producto": "CALDERA DE CONDENSACIÓN SAUNIER DUVAL THEMA CONDENS 25 kW",
+          "precio": 1699.9,
+          "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-saunier-duval-thema-condens-25-kw-85824924.html",
+          "fecha": "2026-11-28",
+          "nota": "Lo vende un vendedor externo dentro de la web de la tienda."
         }
       ]
     }

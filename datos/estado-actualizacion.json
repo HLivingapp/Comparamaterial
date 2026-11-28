@@ -1,0 +1,214 @@
+{
+  "fecha": "2026-11-28",
+  "webs": {
+    "www.leroymerlin.es": {
+      "total": 15,
+      "ok": 0,
+      "igual": 0,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 15
+    },
+    "www.obramat.es": {
+      "total": 15,
+      "ok": 14,
+      "igual": 12,
+      "cambiado": 2,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 1,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "leroymerlin.es": {
+      "total": 1,
+      "ok": 0,
+      "igual": 0,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 1
+    },
+    "www.damiasolar.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.bricoelectrico.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "banoidea.com": {
+      "total": 15,
+      "ok": 14,
+      "igual": 14,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 1,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "tienda.azulejospena.es": {
+      "total": 15,
+      "ok": 15,
+      "igual": 0,
+      "cambiado": 15,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.latiendadelazulejo.com": {
+      "total": 15,
+      "ok": 14,
+      "igual": 0,
+      "cambiado": 14,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 1,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.azulejoslamorenica.com": {
+      "total": 15,
+      "ok": 11,
+      "igual": 0,
+      "cambiado": 11,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 4,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "universoceramiche.es": {
+      "total": 15,
+      "ok": 15,
+      "igual": 0,
+      "cambiado": 15,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "nais.es": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.maperi.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 0,
+      "cambiado": 15,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.mytile.online": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.climaprecio.es": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.efectoled.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 14,
+      "cambiado": 1,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.tumaterialelectrico.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 15,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.ikea.com": {
+      "total": 15,
+      "ok": 14,
+      "igual": 14,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 1,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    },
+    "www.climahorro.es": {
+      "total": 15,
+      "ok": 0,
+      "igual": 0,
+      "cambiado": 0,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 15
+    },
+    "iluminashop.com": {
+      "total": 15,
+      "ok": 15,
+      "igual": 14,
+      "cambiado": 1,
+      "retirado": 0,
+      "sinPrecio": 0,
+      "rechazado": 0,
+      "bloqueado": 0,
+      "error": 0
+    }
+  }
+}
