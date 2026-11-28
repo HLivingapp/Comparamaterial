@@ -138,11 +138,20 @@ export const SUBGRUPOS = {
     ["Paneles de listones y acústicos", /list[oó]n|tablilla|ac[uú]stic|panel|paliller/i],
     ["Frisos, zócalos y revestimientos de madera", /friso|z[oó]calo|revestimiento|madera|lama|tablero|ranurad/i],
   ],
+  "Puertas correderas": [
+    ["Correderas empotradas (casoneto)", /casoneto|empotrad|armaz[oó]n|cajet[ií]n|scrigno|krona/i],
+    ["Kits de guía de superficie", (n) => /gu[ií]a|carril|herraje|kit|convertidor|pinza|guiador|freno|tope|rueda|soft ?close|amortiguador/i.test(n) && !/^\W*(\w+ )?(pack )?puerta|pack puerta|\+ ?gu[ií]a|con herrajes/i.test(n)],
+    ["Tiradores y uñeros", /^\W*(\w+ )?(tirador|u[ñn]ero|cazoleta|manilla)/i],
+    ["Packs puerta + guía de superficie", /pack|\+ ?gu[ií]a|con herrajes|con gu[ií]a|kit completo|incluye (gu[ií]a|carril|herraje)/i],
+    ["Puertas correderas de cristal", /cristal|vidrio/i],
+    ["Puertas de madera tipo granero", /pino|madera maciza|granero|r[uú]stic|barn|tablas/i],
+    ["Hojas correderas lacadas y melamina", /corredera|puerta/i],
+  ],
   "Puertas": [
+    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|\bext\./i],
+    ["Tapajuntas y molduras", /tapajuntas|tapeta|moldura|jamba|forrar marco/i],
     ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra|roseta|bomb[ií]n|set wc|bocallave|manill[oó]n|escudo|mirilla/i],
-    ["Guías y herrajes", /carril|gu[ií]a|rueda|kit|herraje|tope|convertidor|freno/i],
-    ["Tapajuntas y molduras", /tapajuntas|moldura|jamba/i],
-    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|entrada/i],
+    ["Guías y herrajes", (n) => /carril|gu[ií]a|rueda|kit|herraje|tope|convertidor|freno/i.test(n) && !/^\W*(\w+ )?(pack |conjunto de )?puerta/i.test(n)],
     ["Puertas correderas", /corredera|plegable/i],
     ["Puertas de interior abatibles", /puerta|hoja|block|conjunto/i],
   ],
@@ -234,6 +243,7 @@ export const VISTA = {
   "Terrazas y patios": ["Porcelánico de exterior y piscina", "Porcelánico de 2 cm (sobre plots)", "Tarima composite", "Tarima de madera", "Losetas y baldosas encajables", "Césped artificial", "Plots, rastreles y fijaciones", "Accesorios para césped"],
   "Suelos": ["Laminado AC4", "Laminado AC5", "Laminado AC6", "Laminado (otras clases)", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
   "Decoración y revestimientos": ["Papel pintado vinílico", "Papel pintado tejido no tejido", "Papel pintado (otros)", "Papel pintado infantil", "Murales y fotomurales", "Pósters y láminas", "Paneles de listones y acústicos", "Frisos, zócalos y revestimientos de madera", "Colas y herramientas para papel"],
+  "Puertas correderas": ["Packs puerta + guía de superficie", "Puertas correderas de cristal", "Puertas de madera tipo granero", "Hojas correderas lacadas y melamina", "Kits de guía de superficie", "Correderas empotradas (casoneto)", "Tiradores y uñeros"],
   "Puertas": ["Puertas de interior abatibles", "Puertas correderas", "Puertas de entrada y blindadas", "Manillas, pomos y condenas", "Tapajuntas y molduras", "Guías y herrajes"],
   "Ventanas": ["Ventanas de PVC", "Ventanas de aluminio", "Ventanas de madera", "Balconeras", "Persianas y mosquiteras"],
   "Armarios": ["Armarios y módulos", "Frentes y puertas de armario", "Interiores: cajones, baldas y barras"],
@@ -274,7 +284,7 @@ const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Puertas correderas", "Ventanas", "Armarios", "Pintura",
   "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Herramientas", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
@@ -284,6 +294,8 @@ export function area(categoria, nombre) {
   if (categoria === "Puertas y ventanas") {
     if (/ventana|balconera|persiana|mosquitera/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta|bloque de puerta|puerta (corredera|interior|abatible)/i.test(nombre)) return "Ventanas";
     if (/^\W*(spaceo|ikea)|evo'?m|komplement|para m[oó]dulo/i.test(nombre)) return "Armarios";
+    if (/^\W*armario|puerta corredera armario|corredera (de |para )?armario|armario/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta (de )?interior/i.test(nombre) && /armario/i.test(nombre)) return "Armarios";
+    if (/corredera|casoneto|guiador|kit convertidor|pinzas aluminio/i.test(nombre) && !/ventana|balconera|armario/i.test(nombre)) return "Puertas correderas";
     if (/armario|komplement|vestidor|casoneto|zapatero|pantalonero|balda|ikea|spaceo/i.test(nombre) && !/puerta (de )?(interior|entrada|blindad|corredera|abatible|paso)/i.test(nombre)) return "Armarios";
     return "Puertas";
   }
