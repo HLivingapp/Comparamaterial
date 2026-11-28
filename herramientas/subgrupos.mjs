@@ -287,7 +287,17 @@ const MOLD = /moldura|plaf[oó]n|cuarter[oó]n|\b\dc\b|\blola\b|cl[aá]sic|prove
 const RANURA = /\bvt\s?\d|\bvt\b|\bline\b|ranura|rayas|fresad|\b\dl\b|\blu\d/i;
 const GRIFO = /grifo|monomando|mezclador|termost[aá]tic|columna|teleducha|rociador|grifer/i;
 const color = [["Negro", /negr|black/i], ["Inox / acero", /inox|acero|steel|cepillad/i], ["Dorado", /dorad|\boro\b|gold|lat[oó]n cepillado|champagne/i], ["Cromo", /crom/i], ["Blanco", /blanc|white/i]];
+// Filtro «Marca»: [etiqueta, patrón] en orden de popularidad.
+const marcas = (l) => l.map((m) => [m, new RegExp("\\b(" + m.toLowerCase().replace(/ \/ /g, "|").replace(/ /g, "[ -]?") + ")\\b", "i")]);
+const MARCAS_AIRE = marcas(["Daikin", "Mitsubishi", "Panasonic", "LG", "Fujitsu / General", "Samsung", "Toshiba", "Haier", "Hisense", "Gree", "Daitsu", "Midea", "Giatsu", "Baxi", "Ferroli"]);
+const MARCAS_AERO = marcas(["Daikin", "Panasonic", "Mitsubishi", "Vaillant", "Saunier Duval", "Baxi", "Ferroli", "Ariston", "Thermor", "LG", "Samsung", "Domusa"]);
 export const FACETAS = {
+  "Calefacción y agua caliente": [
+    { nombre: "Marca", aplica: (g) => /Aerotermia/.test(g), opciones: MARCAS_AERO },
+  ],
+  "Aire acondicionado": [
+    { nombre: "Marca", aplica: (g) => !/Accesorios/.test(g), opciones: MARCAS_AIRE },
+  ],
   "Cerámica y colocación": [
     { nombre: "Estilo", aplica: (g) => /formato|Azulejos/.test(g), opciones: [
       ["Retro", /\bnais\b|retro|vintage|zellige|kasbah|artisan|craft|manual|hidr[aá]ulic|patchwork|encaustic|\bdeco\b|decorado|\bmetro\b|subway|biselad|majolica|colou?r/i],
