@@ -80,12 +80,8 @@
     "archivo": "File:Pile_of_Sand_for_Building_in_Anambra_State.jpg"
   },
   "ladrillo-hueco-doble": {
-    "miniatura": "img/ladrillo.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ACeramic_Brick_2020-07-10_017.jpg",
-    "autor": "Chris Light",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Ceramic_Brick_2020-07-10_017.jpg"
+    "miniatura": "img/reforma-ladrillo-1.webp",
+    "propia": true
   },
   "bloque-hormigon-40x20x20": {
     "miniatura": "img/bloque.webp",
@@ -160,24 +156,16 @@
     "archivo": "File:Sto_-_Insulation_boards_4.jpg"
   },
   "azulejo-pared-blanco": {
-    "miniatura": "img/reforma-azulejo-blanco.webp",
+    "miniatura": "img/reforma-azulejo-bano-2.webp",
     "propia": true
   },
   "tubo-pvc-110-mm-3-m": {
-    "miniatura": "img/pvc.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
-    "autor": "Steven Pavlov",
-    "licencia": "CC0",
-    "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+    "miniatura": "img/reforma-tuberia-pvc-1.webp",
+    "propia": true
   },
   "tubo-pvc-40-mm-3-m": {
-    "miniatura": "img/pvc.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
-    "autor": "Steven Pavlov",
-    "licencia": "CC0",
-    "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+    "miniatura": "img/reforma-tuberia-pvc-2.webp",
+    "propia": true
   },
   "sifon-lavabo": {
     "miniatura": "img/sifon.webp",
@@ -276,35 +264,35 @@
     "archivo": "File:Kartuschenpistole.jpg"
   },
   "inodoro-completo": {
-    "miniatura": "img/reforma-inodoro.webp",
+    "miniatura": "img/reforma-inodoro-1.webp",
     "propia": true
   },
   "mueble-bano-80": {
-    "miniatura": "img/reforma-mueble-bano.webp",
+    "miniatura": "img/reforma-mueble-bano-1.webp",
     "propia": true
   },
   "plato-ducha-resina-80x120": {
-    "miniatura": "img/reforma-ducha.webp",
+    "miniatura": "img/reforma-plato-ducha-1.webp",
     "propia": true
   },
   "mampara-frontal-120": {
-    "miniatura": "img/reforma-ducha.webp",
+    "miniatura": "img/reforma-mampara-1.webp",
     "propia": true
   },
   "grifo-lavabo-monomando": {
-    "miniatura": "img/reforma-grifo-lavabo.webp",
+    "miniatura": "img/reforma-grifo-lavabo-1.webp",
     "propia": true
   },
   "grifo-cocina-monomando": {
-    "miniatura": "img/reforma-fregadero.webp",
+    "miniatura": "img/reforma-grifo-cocina-1.webp",
     "propia": true
   },
   "columna-ducha-termostatica": {
-    "miniatura": "img/reforma-columna-ducha.webp",
+    "miniatura": "img/reforma-columna-ducha-1.webp",
     "propia": true
   },
   "fregadero-inox-1-seno": {
-    "miniatura": "img/reforma-fregadero.webp",
+    "miniatura": "img/reforma-fregadero-1.webp",
     "propia": true
   },
   "termo-electrico-80l": {
@@ -324,32 +312,24 @@
     "archivo": "File:Chaudière_à_gaz_Brötje_WGB_28_C_(extérieur).jpg"
   },
   "placa-induccion-60": {
-    "miniatura": "img/reforma-placa.webp",
+    "miniatura": "img/reforma-placa-1.webp",
     "propia": true
   },
   "encimera-laminada-3-m": {
-    "miniatura": "img/reforma-encimera.webp",
+    "miniatura": "img/reforma-encimera-1.webp",
     "propia": true
   },
   "suelo-laminado-ac4-8-mm": {
-    "miniatura": "img/reforma-suelo-madera.webp",
+    "miniatura": "img/reforma-suelo-laminado-1.webp",
     "propia": true
   },
   "rodapie-mdf-lacado-blanco-7-cm": {
-    "miniatura": "img/rodapie.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AFu%C3%9Fbodenleiste.JPG",
-    "autor": "Porsche 997 Carrera",
-    "licencia": "CC BY-SA 3.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "archivo": "File:Fußbodenleiste.JPG"
+    "miniatura": "img/reforma-rodapie-1.webp",
+    "propia": true
   },
   "manilla-puerta-interior-roseta": {
-    "miniatura": "img/manilla.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ADoor_handle.jpg",
-    "autor": "marya from San Luis Obispo, USA",
-    "licencia": "CC BY 2.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
-    "archivo": "File:Door_handle.jpg"
+    "miniatura": "img/reforma-manilla-2.webp",
+    "propia": true
   },
   "kit-herraje-puerta-corredera": {
     "miniatura": "img/corredera.webp",
@@ -360,28 +340,16 @@
     "archivo": "File:Gillman_Ranch,_Barn_Door_5-2012_(7414699686).jpg"
   },
   "ventana-pvc-oscilobatiente-1-hoja": {
-    "miniatura": "img/ventana.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AUPVC_Sash_Window.jpg",
-    "autor": "Durajoin",
-    "licencia": "CC BY 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
-    "archivo": "File:UPVC_Sash_Window.jpg"
+    "miniatura": "img/reforma-ventana-1.webp",
+    "propia": true
   },
   "puerta-entrada-blindada": {
-    "miniatura": "img/puerta-entrada.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ASenovazne_Namesti_994_2_Praha_1_VDV.jpg",
-    "autor": "Mojmir Churavy",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Senovazne_Namesti_994_2_Praha_1_VDV.jpg"
+    "miniatura": "img/reforma-puerta-entrada-1.webp",
+    "propia": true
   },
   "interruptor-conmutador": {
-    "miniatura": "img/interruptor.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ARocker_light_switch.jpg",
-    "autor": "DemonDays64",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Rocker_light_switch.jpg"
+    "miniatura": "img/reforma-interruptor-1.webp",
+    "propia": true
   },
   "magnetotermico-1p-n-16a": {
     "miniatura": "img/magnetotermico.webp",
@@ -400,59 +368,55 @@
     "archivo": "File:TEM_fitting_boxes.JPG"
   },
   "downlight-led-18w": {
-    "miniatura": "img/downlight.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ARecessed_square_fluorescent_light_fixture_with_two_CFLs.jpg",
-    "autor": "Pancho507",
-    "licencia": "CC BY 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/4.0",
-    "archivo": "File:Recessed_square_fluorescent_light_fixture_with_two_CFLs.jpg"
+    "miniatura": "img/reforma-downlight-2.webp",
+    "propia": true
   },
   "aire-acondicionado-split-3000-frigorias": {
-    "miniatura": "img/reforma-split.webp",
+    "miniatura": "img/reforma-split-1.webp",
     "propia": true
   },
   "toallero-electrico-500w": {
-    "miniatura": "img/reforma-toallero.webp",
+    "miniatura": "img/reforma-toallero-1.webp",
     "propia": true
   },
   "radiador-aluminio-6-elementos": {
-    "miniatura": "img/reforma-radiador.webp",
+    "miniatura": "img/reforma-radiador-1.webp",
     "propia": true
   },
   "inodoro-suspendido": {
-    "miniatura": "img/reforma-inodoro.webp",
+    "miniatura": "img/reforma-inodoro-2.webp",
     "propia": true
   },
   "mueble-bano-60": {
-    "miniatura": "img/reforma-mueble-bano.webp",
+    "miniatura": "img/reforma-mueble-bano-2.webp",
     "propia": true
   },
   "mampara-frontal-140": {
-    "miniatura": "img/reforma-ducha.webp",
+    "miniatura": "img/reforma-mampara-2.webp",
     "propia": true
   },
   "plato-ducha-80x140": {
-    "miniatura": "img/reforma-ducha.webp",
+    "miniatura": "img/reforma-plato-ducha-2.webp",
     "propia": true
   },
   "plato-ducha-70x100": {
-    "miniatura": "img/reforma-ducha.webp",
+    "miniatura": "img/reforma-plato-ducha-1.webp",
     "propia": true
   },
   "lavabo-sobre-encimera": {
-    "miniatura": "img/reforma-mueble-bano.webp",
+    "miniatura": "img/reforma-lavabo-1.webp",
     "propia": true
   },
   "horno-multifuncion": {
-    "miniatura": "img/reforma-horno.webp",
+    "miniatura": "img/reforma-horno-1.webp",
     "propia": true
   },
   "radiador-toallero-agua-500": {
-    "miniatura": "img/reforma-toallero.webp",
+    "miniatura": "img/reforma-toallero-2.webp",
     "propia": true
   },
   "aire-acondicionado-split-4500-frigorias": {
-    "miniatura": "img/reforma-split.webp",
+    "miniatura": "img/reforma-split-2.webp",
     "propia": true
   },
   "azulejo-metro-blanco-10x20": {
@@ -460,7 +424,55 @@
     "propia": true
   },
   "parquet-multicapa-roble": {
-    "miniatura": "img/reforma-suelo-madera.webp",
+    "miniatura": "img/reforma-suelo-madera-1.webp",
+    "propia": true
+  },
+  "banera-acrilica-170x70": {
+    "miniatura": "img/reforma-banera-1.webp",
+    "propia": true
+  },
+  "espejo-bano-led-80": {
+    "miniatura": "img/reforma-espejo-bano-1.webp",
+    "propia": true
+  },
+  "campana-decorativa-60": {
+    "miniatura": "img/reforma-campana-1.webp",
+    "propia": true
+  },
+  "puerta-interior-block-lacada-blanca-72-5": {
+    "miniatura": "img/reforma-puerta-interior-1.webp",
+    "propia": true
+  },
+  "suelo-vinilico-spc-click-con-base": {
+    "miniatura": "img/reforma-suelo-laminado-2.webp",
+    "propia": true
+  },
+  "porcelanico-60x60-gris": {
+    "miniatura": "img/reforma-suelo-porcelanico-1.webp",
+    "propia": true
+  },
+  "porcelanico-60x120-rectificado": {
+    "miniatura": "img/reforma-suelo-porcelanico-1.webp",
+    "propia": true
+  },
+  "rodapie-poliestireno-blanco-10-cm": {
+    "miniatura": "img/reforma-rodapie-2.webp",
+    "propia": true
+  },
+  "rodapie-pvc-wpc-blanco": {
+    "miniatura": "img/reforma-rodapie-1.webp",
+    "propia": true
+  },
+  "base-enchufe-schuko": {
+    "miniatura": "img/reforma-enchufe-1.webp",
+    "propia": true
+  },
+  "cable-h07v-k-2-5-mm-100-m": {
+    "miniatura": "img/reforma-cableado-1.webp",
+    "propia": true
+  },
+  "cable-h07v-k-1-5-mm-100-m": {
+    "miniatura": "img/reforma-cableado-2.webp",
     "propia": true
   }
 }
