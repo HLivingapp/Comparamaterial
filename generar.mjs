@@ -71,6 +71,7 @@ const ICONOS = {
   "Puertas y ventanas": '<rect x="16" y="8" width="32" height="48" rx="1"/><circle cx="41" cy="33" r="2"/><path d="M8 56h48"/>',
   "Climatización y agua caliente": '<rect x="8" y="14" width="48" height="18" rx="4"/><path d="M14 26h36M18 40c0 4 4 4 4 8s-4 4-4 8M32 40c0 4 4 4 4 8s-4 4-4 8M46 40c0 4 4 4 4 8s-4 4-4 8"/>',
   "Aislamiento": '<rect x="8" y="20" width="48" height="24" rx="2"/><path d="M8 28c6-6 10 6 16 0s10 6 16 0 10 6 16 0M8 36c6-6 10 6 16 0s10 6 16 0 10 6 16 0"/>',
+  "Herramientas": '<path d="M14 22h26l6 6v6H14z"/><path d="M24 34v16h8V34"/><path d="M46 28h6"/>',
   "Obra y protección": '<path d="M12 48h40M18 48V30l14-14 14 14v18"/><path d="M26 48V36h12v12"/>',
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
@@ -137,7 +138,7 @@ function fotoObra(m) {
 }
 const ESQ = new Map();
 // Productos de Amazon: su dibujo esquemático (no copiamos fotos de Amazon).
-const CAT_DE_AREA = { "Cocina": "Baño y cocina", "Baño": "Baño y cocina", "Aire acondicionado": "Climatización y agua caliente", "Calefacción y agua caliente": "Climatización y agua caliente", "Ventiladores": "Climatización y agua caliente", "Iluminación": "Electricidad", "Ventanas": "Puertas y ventanas", "Puertas": "Puertas y ventanas", "Armarios": "Puertas y ventanas" };
+const CAT_DE_AREA = { "Cocina": "Baño y cocina", "Baño": "Baño y cocina", "Aire acondicionado": "Climatización y agua caliente", "Calefacción y agua caliente": "Climatización y agua caliente", "Ventiladores": "Climatización y agua caliente", "Iluminación": "Electricidad", "Ventanas": "Puertas y ventanas", "Puertas": "Puertas y ventanas", "Armarios": "Puertas y ventanas", "Herramientas": "Obra y protección" };
 function fotoAmazon(a, raiz) {
   const slug = "amz-" + slugify(a.nombre).slice(0, 90);
   if (!ESQ.has(slug)) ESQ.set(slug, esquema(CAT_DE_AREA[a.area] || a.area, a.nombre));
