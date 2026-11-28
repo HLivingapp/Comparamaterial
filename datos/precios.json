@@ -386,6 +386,22 @@
           "enlace": "https://www.obramat.es/productos/suelo-porcelanico-60x60cm-altea-gris-25073517.html",
           "fecha": "2026-11-28",
           "precioAnterior": 12.95
+        },
+        {
+          "tienda": "universoceramiche",
+          "producto": "Marazzi Appeal Grey 60x60 rectificado",
+          "precio": 19.69,
+          "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-appeal-grey-60x60-cm-rettificato-m0vh",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Marazzi Appeal Grey (rectificado)"
+        },
+        {
+          "tienda": "mytile",
+          "producto": "Vives Bali Gris 60x60 Porcelánico mate",
+          "precio": 26,
+          "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-60x60-porcelanico-mate-7560.html",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Vives Bali Gris"
         }
       ]
     },
@@ -574,6 +590,14 @@
           "precio": 99,
           "nota": "Cisterna 3/6 L con mecanismo sin montar; tapa amortiguada.",
           "enlace": "https://www.obramat.es/productos/pack-wc-compaq-salida-dual-10872463.html"
+        },
+        {
+          "tienda": "banoidea",
+          "producto": "Roca The Gap Round inodoro rimless completo pie abierto salida dual, entrada lateral, tapa amortiguada",
+          "precio": 314.12,
+          "enlace": "https://banoidea.com/products/roca-the-gap-round-rimless-inodoro-pie-abierto-completo-salida-dual-blanco?variant=53682063114585",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Roca The Gap Round rimless, tapa amortiguada"
         }
       ]
     },
@@ -629,6 +653,14 @@
           "precio": 109,
           "nota": "Válvula vendida por separado.",
           "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-80x120x3cm-10720871.html"
+        },
+        {
+          "tienda": "azulejospena",
+          "producto": "Plato de ducha Smart Slate Nieve 120x80",
+          "precio": 254.1,
+          "enlace": "https://tienda.azulejospena.es/producto/platos_ducha/plato_de_ducha_smart_slate_nieve_120x80.html",
+          "fecha": "2026-11-28",
+          "nota": "Marca distinta: Smart Slate (textura pizarra)"
         }
       ]
     },
@@ -828,6 +860,14 @@
           "precio": 159,
           "enlace": "https://www.climaprecio.es/termos-electricos/termo-electrico-vertical-centro-confort-mediterraneo-80-litros/",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Termo eléctrico Svan ST8000",
+          "precio": 181.5,
+          "enlace": "https://www.climahorro.es/termos-electricos/svan-st8000-4388.html",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Svan ST8000"
         }
       ]
     },
@@ -992,6 +1032,22 @@
           "precio": 15.95,
           "porUnidad": "19,14 €/caja",
           "enlace": "https://www.obramat.es/productos/suelo-porcelanico-20x120cm-foresta-roble-25073660.html"
+        },
+        {
+          "tienda": "universoceramiche",
+          "producto": "Marazzi Nobilis Noce Classico 20x120 rectificado",
+          "precio": 30.09,
+          "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-nobilis-noce-classico-20x120-cm-rettificato-mq91",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Marazzi Nobilis (rectificado)"
+        },
+        {
+          "tienda": "lamorenica",
+          "producto": "Grespania Suelo Porcelánico Imitacion Madera Valdiviana 20x120",
+          "precio": 39.86,
+          "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-madera-grespania-valdiviana-20x120/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Grespania Valdiviana"
         }
       ]
     },
@@ -1218,6 +1274,14 @@
           "precio": 3.02,
           "enlace": "https://www.bricoelectrico.com/magnetotermico-1-polo-neutro/266325-interruptor-magnetotermico-alpha-residencial-1pn-16a-curva-c-6ka-ninguna-8445275004445.html",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "tumaterialelectrico",
+          "producto": "Magnetotérmico DPN 16A",
+          "precio": 7.5,
+          "enlace": "https://www.tumaterialelectrico.com/es/magnetotermicos-estrechos-dpn/magnetotermico-dpn-16a/p-176",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Solera DPN (estrecho)"
         }
       ]
     },
@@ -1287,6 +1351,14 @@
           "precio": 0.19,
           "enlace": "https://www.efectoled.com/es/comprar-cajas-de-registro-y-empalme/4502-caja-de-mecanismos-universal-empotrable-65x65x45-mm.html",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "iluminashop",
+          "producto": "Caja Universal de Mecanismos Enlazable 65x65x45 mm con Tornillos",
+          "precio": 0.19,
+          "enlace": "https://iluminashop.com/led-producto/material-electrico/cajas-de-registro-y-empalme/caja-universal-de-mecanismos-enlazable-65x65x45-mm-con-tornillos/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta"
         }
       ]
     },
@@ -1429,6 +1501,14 @@
           "precio": 10.57,
           "nota": "Con puerta blanca",
           "enlace": "https://www.obramat.es/productos/cuadro-electrico-para-empotrar-de-14-modulos-ip40-solera-10833081.html"
+        },
+        {
+          "tienda": "tumaterialelectrico",
+          "producto": "Cuadro eléctrico 14 elementos empotrar, Solera 5012",
+          "precio": 16.94,
+          "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-de-empotrar-sin-icp/cuadro-electrico-14-elementos-solera-5012/p-315",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Solera 5012"
         }
       ]
     },
@@ -1460,6 +1540,14 @@
           "precio": 339,
           "enlace": "https://www.climaprecio.es/split-1x1/aire-acondicionado-split-3000-frigorias/",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Ferroli GIADA S 12 WIFI",
+          "precio": 320,
+          "enlace": "https://www.climahorro.es/aire-acondicionado/ferroli-giada-s-12-wifi-3476.html",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Ferroli Giada S 12 WiFi"
         }
       ]
     },
@@ -1522,6 +1610,14 @@
           "precio": 269,
           "enlace": "https://www.climaprecio.es/calentadores-a-gas/calentador-estanco-giatsu-dual-11-l/",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Calentador gas Baxi 11 FI ECO Natural",
+          "precio": 361.79,
+          "enlace": "https://www.climahorro.es/calentadores-de-gas/calentador-a-gas-baxi-11-fi-eco-natural-5031.html",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Baxi 11 FI ECO"
         }
       ]
     },
@@ -2657,6 +2753,14 @@
           "precio": 132,
           "nota": "Resina; la válvula se vende por separado",
           "enlace": "https://www.obramat.es/productos/plato-de-ducha-resina-rectangular-blanco-80x140x3cm-10434011.html"
+        },
+        {
+          "tienda": "azulejospena",
+          "producto": "Plato de ducha Smart Slate Nieve 140x80",
+          "precio": 290.4,
+          "enlace": "https://tienda.azulejospena.es/producto/platos_ducha/plato_de_ducha_smart_slate_nieve_140x80.html",
+          "fecha": "2026-11-28",
+          "nota": "Marca distinta: Smart Slate (textura pizarra)"
         }
       ]
     },
@@ -2701,6 +2805,14 @@
           "producto": "INODORO SUSPENDIDO TEKA MANACOR PRO SALIDA HORIZONTAL",
           "precio": 127,
           "enlace": "https://www.obramat.es/productos/inodoro-suspendido-teka-manacor-pro-salida-horizontal-10927714.html"
+        },
+        {
+          "tienda": "banoidea",
+          "producto": "Roca The Gap Square Rimless Inodoro Suspendido Fijaciones Ocultas con tapa amortiguada",
+          "precio": 284.7,
+          "enlace": "https://banoidea.com/products/roca-a34647l000-the-gap-square-inodoro-suspendido-con-rimless?variant=53681995415897",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Roca The Gap Square rimless"
         }
       ]
     },
@@ -2995,6 +3107,14 @@
           "precio": 1359,
           "nota": "Incluye instalación básica (desmontaje, montaje, kit de humos y certificado). Oferta, antes 1.479 €",
           "enlace": "https://www.leroymerlin.es/productos/caldera-de-condensacion-gas-natural-baxi-neodens-plus-24kw-instalacion-basica-incluida-81968061.html"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Caldera gas Baxi Neodens Lite 24/24F",
+          "precio": 899.03,
+          "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-lite-24-24f-2418.html",
+          "fecha": "2026-11-27",
+          "nota": "Modelo distinto: Baxi Neodens Lite 24/24F"
         }
       ]
     },
@@ -3161,6 +3281,22 @@
           "precio": 9.95,
           "enlace": "https://www.efectoled.com/es/comprar-paneles-led-60x60cm/92773-panel-led-60x60-cm-42w-4200lm-philips-certadrive.html",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "iluminashop",
+          "producto": "Panel LED 60x60 42W Marco Blanco 4200lm No Flicker",
+          "precio": 12.99,
+          "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-lifud-no-flicker-marco-blanco-4200lm-no-flicker-5-anos-de-grantia/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta; 42 W, 4200 lm"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "PANEL LED BACKLIT 40W 600X600MM 4500K",
+          "precio": 22.65,
+          "enlace": "https://www.bricoelectrico.com/paneles-led/700444-40w-panel-backlit-600x600mm-4500k-5600947210934.html",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta; 40 W backlit, 4500 K"
         }
       ]
     },
@@ -3185,6 +3321,14 @@
           "precio": 41,
           "nota": "Marca Novovent, 92-95 m³/h según la ficha.",
           "enlace": "https://www.obramat.es/productos/extractor-axial-silencioso-100-novovent-10553144.html"
+        },
+        {
+          "tienda": "iluminashop",
+          "producto": "Extractor de Baños/Cocinas 14W Ø100 Silencioso 78 m3/h",
+          "precio": 12.35,
+          "enlace": "https://iluminashop.com/led-producto/material-electrico/componentes-electricos/extractores-de-bano-cocina/extractor-de-banos-cocinas-14w-100o-silencioso-78-m3-hora/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta"
         }
       ]
     },
@@ -3382,6 +3526,22 @@
           "precio": 1209,
           "nota": "Versión S2, con wifi integrado.",
           "enlace": "https://www.obramat.es/productos/aerotermo-acs-200l-nuos-fit-s2-ariston-25112024.html"
+        },
+        {
+          "tienda": "climaprecio",
+          "producto": "Bomba de calor ACS Haier HP200M3",
+          "precio": 1489,
+          "enlace": "https://www.climaprecio.es/depositos-acs/termo-bomba-calor-haier-hp200m3/",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Haier HP200M3"
+        },
+        {
+          "tienda": "climahorro",
+          "producto": "Bomba de calor ACS Ferroli Egea HT Pie 200",
+          "precio": 1942,
+          "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-ht-pie-200--3630.html",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Ferroli Egea HT 200"
         }
       ]
     },
@@ -3547,6 +3707,14 @@
           "precio": 0.65,
           "nota": "Rollo de 20 m.",
           "enlace": "https://www.obramat.es/productos/cinta-aislante-19-mm-x-20-m-blanca-10041885.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "Cinta aislante PVC 20 m x 19 mm blanca",
+          "precio": 1.39,
+          "enlace": "https://www.bricoelectrico.com/cinta-aislante-plymouth/649073-cinta-aislante-pvc-gama-nunez-12-20x19x015-blanca-8432736050851.html",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta"
         }
       ]
     },
@@ -3619,6 +3787,14 @@
           "producto": "Base múltiple 6 tomas con interruptor con cable 3x1.5mm2 1.5 metros",
           "precio": 9.87,
           "enlace": "https://www.obramat.es/productos/base-multiple-6-tomas-con-interruptor-con-cable-3x1-5mm2-1-5-metros-10041766.html"
+        },
+        {
+          "tienda": "bricoelectrico",
+          "producto": "Base múltiple 6 tomas con cable 1,5 m e interruptor",
+          "precio": 11.6,
+          "enlace": "https://www.bricoelectrico.com/bases-multiples-y-ladrones/229026-base-multiple-de-6-tomas-y-prolongacion-de-15m-con-interruptor-luminosocon-t-t-lateral-16a-250v-ninguna-8423220063907.html",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta"
         }
       ]
     },
@@ -3643,6 +3819,14 @@
           "precio": 31.55,
           "nota": "Cronotermostato wifi básico.",
           "enlace": "https://www.obramat.es/productos/cronotermostato-wifi-calor-frio-25061589.html"
+        },
+        {
+          "tienda": "climaprecio",
+          "producto": "Termostato Ferroli Connect Smart WIFI",
+          "precio": 189,
+          "enlace": "https://www.climaprecio.es/termostatos-y-programadores/termostato-ferroli-connect-smart-wifi/",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Ferroli Connect Smart WiFi"
         }
       ],
       "comparable": false
@@ -3674,6 +3858,14 @@
           "precio": 9.85,
           "enlace": "https://www.efectoled.com/es/comprar-plafones-led/519-plafon-led-24w-circular-o295-mm.html",
           "fecha": "2026-11-26"
+        },
+        {
+          "tienda": "iluminashop",
+          "producto": "Plafón LED Circular Techo 25W 2500lm",
+          "precio": 10.45,
+          "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-25w/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta; 25 W, 2500 lm"
         }
       ]
     },
@@ -3832,6 +4024,22 @@
           "precio": 23.99,
           "porUnidad": "Caja de 1,44 m² (34,55 €)",
           "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-marmi-efecto-marmol-white-60x120-cm-c1-artens-81970172.html"
+        },
+        {
+          "tienda": "lamorenica",
+          "producto": "Grespania Suelo/Azulejo Porcelánico Rectificado Lucena 60x120",
+          "precio": 31.68,
+          "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-lucena-60x120/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: Grespania Lucena"
+        },
+        {
+          "tienda": "maperi",
+          "producto": "Vives Doney 120x60",
+          "precio": 44.44,
+          "enlace": "https://www.maperi.com/producto/doney-120x60/",
+          "fecha": "2026-11-26",
+          "nota": "Marca distinta: Vives Doney"
         }
       ]
     },
@@ -3940,6 +4148,14 @@
           "porUnidad": "Caja de 1 m²",
           "nota": "Brillo.",
           "enlace": "https://www.obramat.es/productos/azulejo-pasta-roja-10x20cm-metrotile-blanco-25074938.html"
+        },
+        {
+          "tienda": "nais",
+          "producto": "NAIS Metro White Matt 10x20 cm",
+          "precio": 28.23,
+          "enlace": "https://nais.es/es/azulejos/coleccion_metro/producto_1032_metro-white-matt-10x20cm/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta: NAIS Metro White Matt"
         }
       ]
     },
@@ -3973,6 +4189,14 @@
           "precio": 9.95,
           "nota": "Cobertura de unos 6 m de diámetro.",
           "enlace": "https://www.obramat.es/productos/detector-movimiento-empotrar-techo-10593492.html"
+        },
+        {
+          "tienda": "iluminashop",
+          "producto": "Detector de Movimiento PIR 360º Empotrable Plata",
+          "precio": 8.02,
+          "enlace": "https://iluminashop.com/led-producto/material-electrico/detectores-de-presencia/detector-de-presencia-pir-360o-empotrable-plata/",
+          "fecha": "2026-11-27",
+          "nota": "Marca distinta"
         }
       ]
     },

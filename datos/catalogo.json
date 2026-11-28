@@ -10908,15 +10908,6 @@
     {
       "tienda": "azulejospena",
       "categoria": "Baño y cocina",
-      "nombre": "Plato de ducha Smart Slate Nieve 120x80",
-      "precio": 254.1,
-      "unidad": "ud",
-      "enlace": "https://tienda.azulejospena.es/producto/platos_ducha/plato_de_ducha_smart_slate_nieve_120x80.html",
-      "fecha": "2026-11-28"
-    },
-    {
-      "tienda": "azulejospena",
-      "categoria": "Baño y cocina",
       "nombre": "Plato de ducha Smart Slate Nieve 130x70",
       "precio": 254.1,
       "unidad": "ud",
@@ -10930,15 +10921,6 @@
       "precio": 266.2,
       "unidad": "ud",
       "enlace": "https://tienda.azulejospena.es/producto/platos_ducha/plato_de_ducha_smart_slate_nieve_140x70.html",
-      "fecha": "2026-11-28"
-    },
-    {
-      "tienda": "azulejospena",
-      "categoria": "Baño y cocina",
-      "nombre": "Plato de ducha Smart Slate Nieve 140x80",
-      "precio": 290.4,
-      "unidad": "ud",
-      "enlace": "https://tienda.azulejospena.es/producto/platos_ducha/plato_de_ducha_smart_slate_nieve_140x80.html",
       "fecha": "2026-11-28"
     },
     {
@@ -11736,15 +11718,6 @@
     {
       "tienda": "banoidea",
       "categoria": "Baño y cocina",
-      "nombre": "Roca The Gap Round inodoro rimless completo pie abierto salida dual, entrada lateral, tapa amortiguada",
-      "precio": 314.12,
-      "unidad": "lote",
-      "enlace": "https://banoidea.com/products/roca-the-gap-round-rimless-inodoro-pie-abierto-completo-salida-dual-blanco?variant=53682063114585",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "banoidea",
-      "categoria": "Baño y cocina",
       "nombre": "Roca The Gap Round inodoro rimless completo pie abierto salida dual, entrada lateral, tapa caída normal",
       "precio": 315.2,
       "unidad": "lote",
@@ -11821,15 +11794,6 @@
       "precio": 208.3,
       "unidad": "ud",
       "enlace": "https://banoidea.com/products/roca-a34647a000-the-gap-square-rimless-inodoro-suspendido-compacto?variant=53681996333401",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "banoidea",
-      "categoria": "Baño y cocina",
-      "nombre": "Roca The Gap Square Rimless Inodoro Suspendido Fijaciones Ocultas con tapa amortiguada",
-      "precio": 284.7,
-      "unidad": "ud",
-      "enlace": "https://banoidea.com/products/roca-a34647l000-the-gap-square-inodoro-suspendido-con-rimless?variant=53681995415897",
       "fecha": "2026-11-26"
     },
     {
@@ -19179,16 +19143,6 @@
     {
       "tienda": "lamorenica",
       "categoria": "Cerámica y colocación",
-      "nombre": "Grespania Suelo Porcelánico Imitacion Madera Valdiviana 20x120",
-      "precio": 39.86,
-      "unidad": "m²",
-      "precioM2": 39.86,
-      "enlace": "https://www.azulejoslamorenica.com/producto/porcelanico-efecto-madera-grespania-valdiviana-20x120/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "lamorenica",
-      "categoria": "Cerámica y colocación",
       "nombre": "Grespania Suelo porcelánico imitación piedra Fosil 80x80 R10",
       "precio": 38.36,
       "unidad": "m²",
@@ -21059,16 +21013,6 @@
     {
       "tienda": "lamorenica",
       "categoria": "Cerámica y colocación",
-      "nombre": "Grespania Suelo/Azulejo Porcelánico Rectificado Lucena 60x120",
-      "precio": 31.68,
-      "unidad": "m²",
-      "precioM2": 31.68,
-      "enlace": "https://www.azulejoslamorenica.com/producto/suelo-azulejo-porcelanico-rectificado-grespania-lucena-60x120/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "lamorenica",
-      "categoria": "Cerámica y colocación",
       "nombre": "Grespania Suelo/Azulejo Porcelánico Rectificado Metalizado Avenue Pulido 30x60",
       "precio": 38.34,
       "unidad": "m²",
@@ -21584,16 +21528,6 @@
     {
       "tienda": "universoceramiche",
       "categoria": "Cerámica y colocación",
-      "nombre": "Marazzi Appeal Grey 60x60 rectificado",
-      "precio": 19.69,
-      "unidad": "m²",
-      "precioM2": 19.69,
-      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-cemento-marazzi-appeal-grey-60x60-cm-rettificato-m0vh",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "universoceramiche",
-      "categoria": "Cerámica y colocación",
       "nombre": "Marazzi Appeal Sand 30x60 rectificado",
       "precio": 19.69,
       "unidad": "m²",
@@ -22019,16 +21953,6 @@
       "unidad": "m²",
       "precioM2": 58.9,
       "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-pietra-marazzi-mystone-silverstone20-antracite-60x60-cm-rettificato-mld3",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "universoceramiche",
-      "categoria": "Cerámica y colocación",
-      "nombre": "Marazzi Nobilis Noce Classico 20x120 rectificado",
-      "precio": 30.09,
-      "unidad": "m²",
-      "precioM2": 30.09,
-      "enlace": "https://universoceramiche.es/products/gres-porcellanato-effetto-legno-marazzi-nobilis-noce-classico-20x120-cm-rettificato-mq91",
       "fecha": "2026-11-26"
     },
     {
@@ -31332,16 +31256,6 @@
     {
       "tienda": "nais",
       "categoria": "Cerámica y colocación",
-      "nombre": "NAIS Metro White Matt 10x20 cm",
-      "precio": 28.23,
-      "unidad": "m²",
-      "precioM2": 28.23,
-      "enlace": "https://nais.es/es/azulejos/coleccion_metro/producto_1032_metro-white-matt-10x20cm/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "nais",
-      "categoria": "Cerámica y colocación",
       "nombre": "NAIS Metro White Matt 7.5x15 cm",
       "precio": 28.23,
       "unidad": "m²",
@@ -40211,16 +40125,6 @@
     {
       "tienda": "mytile",
       "categoria": "Cerámica y colocación",
-      "nombre": "Vives Bali Gris 60x60 Porcelánico mate",
-      "precio": 26,
-      "unidad": "m²",
-      "precioM2": 26,
-      "enlace": "https://www.mytile.online/bali-porcelanico-efecto-piedra-vives/vives-bali-gris-60x60-porcelanico-mate-7560.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "mytile",
-      "categoria": "Cerámica y colocación",
       "nombre": "Vives Bali Turquesa 30x30 Porcelánico Antideslizante",
       "precio": 20.1,
       "unidad": "m²",
@@ -40666,16 +40570,6 @@
       "unidad": "m²",
       "precioM2": 37.56,
       "enlace": "https://www.maperi.com/producto/32x99-danxia-r-crema/",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "maperi",
-      "categoria": "Cerámica y colocación",
-      "nombre": "Vives Doney 120x60",
-      "precio": 44.44,
-      "unidad": "m²",
-      "precioM2": 44.44,
-      "enlace": "https://www.maperi.com/producto/doney-120x60/",
       "fecha": "2026-11-26"
     },
     {
@@ -44522,15 +44416,6 @@
     {
       "tienda": "climahorro",
       "categoria": "Climatización y agua caliente",
-      "nombre": "Bomba de calor ACS Ferroli Egea HT Pie 200",
-      "precio": 1942,
-      "unidad": "ud",
-      "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-ht-pie-200--3630.html",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "climahorro",
-      "categoria": "Climatización y agua caliente",
       "nombre": "Bomba de calor ACS Ferroli Egea HT Pie 260",
       "precio": 1981,
       "unidad": "ud",
@@ -44554,15 +44439,6 @@
       "unidad": "ud",
       "enlace": "https://www.climahorro.es/bombas-de-calor-para-acs/ferroli-egea-lt-mural-90-lt-3621.html",
       "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "climaprecio",
-      "categoria": "Climatización y agua caliente",
-      "nombre": "Bomba de calor ACS Haier HP200M3",
-      "precio": 1489,
-      "unidad": "ud",
-      "enlace": "https://www.climaprecio.es/depositos-acs/termo-bomba-calor-haier-hp200m3/",
-      "fecha": "2026-11-26"
     },
     {
       "tienda": "climaprecio",
@@ -45035,15 +44911,6 @@
     {
       "tienda": "climahorro",
       "categoria": "Climatización y agua caliente",
-      "nombre": "Caldera gas Baxi Neodens Lite 24/24F",
-      "precio": 899.03,
-      "unidad": "ud",
-      "enlace": "https://www.climahorro.es/calderas-gas-condensacion/baxi-neodens-lite-24-24f-2418.html",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "climahorro",
-      "categoria": "Climatización y agua caliente",
       "nombre": "Caldera gas Baxi Neodens Lite 24AF",
       "precio": 1554,
       "unidad": "ud",
@@ -45489,15 +45356,6 @@
       "precio": 417.45,
       "unidad": "ud",
       "enlace": "https://www.climahorro.es/calentadores-de-gas/ariston-next-evo-x-sft-11-gas-natural-4627.html",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "climahorro",
-      "categoria": "Climatización y agua caliente",
-      "nombre": "Calentador gas Baxi 11 FI ECO Natural",
-      "precio": 361.79,
-      "unidad": "ud",
-      "enlace": "https://www.climahorro.es/calentadores-de-gas/calentador-a-gas-baxi-11-fi-eco-natural-5031.html",
       "fecha": "2026-11-27"
     },
     {
@@ -46336,15 +46194,6 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/facula-radiador-toallero-electrico-fluido-blanco-programable-400-w-75722883.html",
       "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "climahorro",
-      "categoria": "Climatización y agua caliente",
-      "nombre": "Ferroli GIADA S 12 WIFI",
-      "precio": 320,
-      "unidad": "ud",
-      "enlace": "https://www.climahorro.es/aire-acondicionado/ferroli-giada-s-12-wifi-3476.html",
-      "fecha": "2026-11-27"
     },
     {
       "tienda": "climahorro",
@@ -48768,15 +48617,6 @@
       "fecha": "2026-11-27"
     },
     {
-      "tienda": "climahorro",
-      "categoria": "Climatización y agua caliente",
-      "nombre": "Termo eléctrico Svan ST8000",
-      "precio": 181.5,
-      "unidad": "ud",
-      "enlace": "https://www.climahorro.es/termos-electricos/svan-st8000-4388.html",
-      "fecha": "2026-11-27"
-    },
-    {
       "tienda": "leroy",
       "categoria": "Climatización y agua caliente",
       "nombre": "Termo eléctrico TESY BILIGHT CLOUD WIFI de 50 litros de capacidad",
@@ -49008,15 +48848,6 @@
       "precio": 152.9,
       "unidad": "ud",
       "enlace": "https://www.climaprecio.es/termostatos-y-programadores/termostato-delta-dore-tybox-137/",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "climaprecio",
-      "categoria": "Climatización y agua caliente",
-      "nombre": "Termostato Ferroli Connect Smart WIFI",
-      "precio": 189,
-      "unidad": "ud",
-      "enlace": "https://www.climaprecio.es/termostatos-y-programadores/termostato-ferroli-connect-smart-wifi/",
       "fecha": "2026-11-26"
     },
     {
@@ -51638,15 +51469,6 @@
       "precio": 17.91,
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/bases-multiples-y-ladrones/229062-base-multiple-de-6-tomasy-prolongacion-15m-con-t-t-lateral-16a-250v-material-lh-blanco-ninguna-8423220901629.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "bricoelectrico",
-      "categoria": "Electricidad",
-      "nombre": "Base múltiple 6 tomas con cable 1,5 m e interruptor",
-      "precio": 11.6,
-      "unidad": "ud",
-      "enlace": "https://www.bricoelectrico.com/bases-multiples-y-ladrones/229026-base-multiple-de-6-tomas-y-prolongacion-de-15m-con-interruptor-luminosocon-t-t-lateral-16a-250v-ninguna-8423220063907.html",
       "fecha": "2026-11-26"
     },
     {
@@ -54559,15 +54381,6 @@
     {
       "tienda": "iluminashop",
       "categoria": "Electricidad",
-      "nombre": "Caja Universal de Mecanismos Enlazable 65x65x45 mm con Tornillos",
-      "precio": 0.19,
-      "unidad": "ud",
-      "enlace": "https://iluminashop.com/led-producto/material-electrico/cajas-de-registro-y-empalme/caja-universal-de-mecanismos-enlazable-65x65x45-mm-con-tornillos/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "iluminashop",
-      "categoria": "Electricidad",
       "nombre": "Caja Universal de Mecanismos Enlazable 68x45 mm para Pladur",
       "precio": 0.4,
       "unidad": "ud",
@@ -54986,15 +54799,6 @@
       "precio": 1.39,
       "unidad": "rollo",
       "enlace": "https://www.bricoelectrico.com/cinta-aislante-plymouth/649071-cinta-aislante-pvc-gama-nunez-12-20x19x015-azul-8432736050837.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "bricoelectrico",
-      "categoria": "Electricidad",
-      "nombre": "Cinta aislante PVC 20 m x 19 mm blanca",
-      "precio": 1.39,
-      "unidad": "rollo",
-      "enlace": "https://www.bricoelectrico.com/cinta-aislante-plymouth/649073-cinta-aislante-pvc-gama-nunez-12-20x19x015-blanca-8432736050851.html",
       "fecha": "2026-11-26"
     },
     {
@@ -56474,15 +56278,6 @@
       "fecha": "2026-11-26"
     },
     {
-      "tienda": "tumaterialelectrico",
-      "categoria": "Electricidad",
-      "nombre": "Cuadro eléctrico 14 elementos empotrar, Solera 5012",
-      "precio": 16.94,
-      "unidad": "ud",
-      "enlace": "https://www.tumaterialelectrico.com/es/cuadros-electricos-de-empotrar-sin-icp/cuadro-electrico-14-elementos-solera-5012/p-315",
-      "fecha": "2026-11-26"
-    },
-    {
       "tienda": "bricoelectrico",
       "categoria": "Electricidad",
       "nombre": "CUADRO ELÉCTRICO 14 MÓDULOS DE SUPERFICIE",
@@ -57344,15 +57139,6 @@
       "precio": 9.45,
       "unidad": "ud",
       "enlace": "https://iluminashop.com/led-producto/material-electrico/detectores-de-presencia/detector-de-movimiento-pir-360o-empotrable-superficie/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "iluminashop",
-      "categoria": "Electricidad",
-      "nombre": "Detector de Movimiento PIR 360º Empotrable Plata",
-      "precio": 8.02,
-      "unidad": "ud",
-      "enlace": "https://iluminashop.com/led-producto/material-electrico/detectores-de-presencia/detector-de-presencia-pir-360o-empotrable-plata/",
       "fecha": "2026-11-27"
     },
     {
@@ -59829,15 +59615,6 @@
       "unidad": "ud",
       "enlace": "https://www.tumaterialelectrico.com/es/pulsador-seta/etiqueta-parada-emergencia/p-671",
       "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "iluminashop",
-      "categoria": "Electricidad",
-      "nombre": "Extractor de Baños/Cocinas 14W Ø100 Silencioso 78 m3/h",
-      "precio": 12.35,
-      "unidad": "ud",
-      "enlace": "https://iluminashop.com/led-producto/material-electrico/componentes-electricos/extractores-de-bano-cocina/extractor-de-banos-cocinas-14w-100o-silencioso-78-m3-hora/",
-      "fecha": "2026-11-27"
     },
     {
       "tienda": "iluminashop",
@@ -63217,15 +62994,6 @@
     {
       "tienda": "tumaterialelectrico",
       "categoria": "Electricidad",
-      "nombre": "Magnetotérmico DPN 16A",
-      "precio": 7.5,
-      "unidad": "ud",
-      "enlace": "https://www.tumaterialelectrico.com/es/magnetotermicos-estrechos-dpn/magnetotermico-dpn-16a/p-176",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "tumaterialelectrico",
-      "categoria": "Electricidad",
       "nombre": "Magnetotérmico DPN 20A",
       "precio": 7.5,
       "unidad": "ud",
@@ -65269,15 +65037,6 @@
     {
       "tienda": "iluminashop",
       "categoria": "Electricidad",
-      "nombre": "Panel LED 60x60 42W Marco Blanco 4200lm No Flicker",
-      "precio": 12.99,
-      "unidad": "ud",
-      "enlace": "https://iluminashop.com/led-producto/paneles-led/paneles-led-empotrables/panel-led-60x60-cm-42w-lifud-no-flicker-marco-blanco-4200lm-no-flicker-5-anos-de-grantia/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "iluminashop",
-      "categoria": "Electricidad",
       "nombre": "Panel LED 60x60 42W Marco Blanco High Lumen 5040lm (desde)",
       "precio": 8.99,
       "unidad": "ud",
@@ -65363,15 +65122,6 @@
       "precio": 23.52,
       "unidad": "ud",
       "enlace": "https://www.bricoelectrico.com/paneles-led/1065841-398-panel-led-amber-60x60-profesional.html#/75-color_luz-4000k",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "bricoelectrico",
-      "categoria": "Electricidad",
-      "nombre": "PANEL LED BACKLIT 40W 600X600MM 4500K",
-      "precio": 22.65,
-      "unidad": "ud",
-      "enlace": "https://www.bricoelectrico.com/paneles-led/700444-40w-panel-backlit-600x600mm-4500k-5600947210934.html",
       "fecha": "2026-11-26"
     },
     {
@@ -66029,15 +65779,6 @@
       "precio": 5.75,
       "unidad": "ud",
       "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-de-techo-20w-2000lm/",
-      "fecha": "2026-11-27"
-    },
-    {
-      "tienda": "iluminashop",
-      "categoria": "Electricidad",
-      "nombre": "Plafón LED Circular Techo 25W 2500lm",
-      "precio": 10.45,
-      "unidad": "ud",
-      "enlace": "https://iluminashop.com/led-producto/plafones-led/plafones-led-redondos/plafon-led-circular-25w/",
       "fecha": "2026-11-27"
     },
     {
