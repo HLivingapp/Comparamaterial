@@ -93,7 +93,7 @@ let EXTRA = [];
 function lienzo(dibujo, etiquetas) {
   const clave = (e) => e.toLowerCase().replace(/litros/, "l").replace(/\s+/g, "");
   const vistos = new Set(); const t = [etiquetas[0], ...EXTRA, ...etiquetas.slice(1)].filter((e) => e && !vistos.has(clave(e)) && vistos.add(clave(e))).slice(0, 4);
-  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } if (y < 116) { y = 116; return ""; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
+  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x === 999) return ""; if (x + w > 234) { x = 6; y -= 30; } if (y < 116) { y = 116; x = 999; return ""; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
   // Si hay dos filas de etiquetas, el dibujo se reduce para que no lo tapen.
   const dos = y < 146, g = dos ? `<g transform="translate(24 -2) scale(.8)">${dibujo}</g>` : dibujo;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 240 188" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">${DEFS}<rect y="-8" width="240" height="188" fill="url(#fondo)"/>${g}${chips}</svg>`;
@@ -305,6 +305,38 @@ export function tarjeta(n) {
   return lienzo(d, []);
 }
 
+// Inodoros, tapas y cisternas: vista de perfil con el tipo real (suspendido, a pared, con cisterna, con bastidor).
+function inodoro(n) {
+  EXTRA = [];
+  const negro = /negro|black/i.test(n), c = negro ? "#2f3437" : "#fbfbfa", st = negro ? "#000" : "#8f989e";
+  const cuadr = /square|cuadrad|rectang/i.test(n);
+  const susp = /suspend|mural|colgad/i.test(n), btw = /\bbtw\b|a pared|adosad|back to wall|pie cerrado/i.test(n);
+  const bast = /bastidor|duplo|empotrad/i.test(n), cist = /completo|cisterna|compacto|pack inodoro|monobloc|tanque/i.test(n) && !susp && !bast;
+  const solo = /^\W*(?:\w+ ){0,3}(tapa|asiento)/i.test(n) && !/inodoro (completo|suspend)/i.test(n);
+  const soloCist = /^\W*(cisterna|casco de cisterna|bastidor|pulsador)/i.test(n) || /^\W*\w+ (\w+ )?(cisterna|bastidor)/i.test(n) && !/inodoro|taza|wc/i.test(n);
+  const ama = /amortigu|soft ?close|ca[ií]da lenta/i.test(n) ? "Tapa amortiguada" : "";
+  const rim = /rimless|sin brida|tornado/i.test(n) ? "Sin brida (rimless)" : "";
+  const smart = /inteligente|japon|bidet|in-wash|lavado/i.test(n);
+  const pared = `<rect x="20" y="4" width="14" height="140" fill="#e6e9eb" stroke="#c9cfd3"/>`;
+  if (solo) {
+    const d = `${suelo(120, 132, 70)}<path d="${cuadr ? "M70 120 L70 60 Q70 40 92 40 L148 40 Q170 40 170 60 L170 120 Z" : "M120 128 C72 128 66 86 70 66 C74 44 96 36 120 36 C144 36 166 44 170 66 C174 86 168 128 120 128 Z"}" fill="${c}" stroke="${st}" stroke-width="1.6"/><path d="${cuadr ? "M84 112 L84 66 Q84 54 96 54 L144 54 Q156 54 156 66 L156 112 Z" : "M120 114 C90 114 84 88 86 72 C88 58 102 52 120 52 C138 52 152 58 154 72 C156 88 150 114 120 114 Z"}" fill="#eef1f2" stroke="${st}" stroke-opacity=".5"/><rect x="96" y="26" width="48" height="10" rx="4" fill="${tono(c, 0.9)}" stroke="${st}"/><path d="M70 66 C74 44 96 36 120 36" fill="none" stroke="#fff" stroke-width="3" opacity=".6"/>`;
+    return lienzo(d, [cuadr ? "Cuadrada" : "Redonda", ama, /duroplast|termoest/i.test(n) ? "Duroplast" : /madera|mdf/i.test(n) ? "Madera" : "", negro ? "Negra" : "Blanca"]);
+  }
+  if (soloCist) {
+    const d = `${pared}${suelo(110, 142, 60)}<rect x="60" y="14" width="70" height="128" fill="none" stroke="#9aa3a8" stroke-width="3"/><line x1="60" y1="142" x2="130" y2="142" stroke="#9aa3a8" stroke-width="4"/><rect x="68" y="20" width="54" height="60" rx="6" fill="#4a6fa5" opacity=".85"/><rect x="134" y="38" width="42" height="28" rx="3" fill="${negro ? "#2f3437" : "#fbfbfa"}" stroke="${st}"/><rect x="138" y="44" width="16" height="16" rx="2" fill="#d5dade"/><rect x="156" y="44" width="16" height="16" rx="2" fill="#d5dade"/><line x1="130" y1="52" x2="134" y2="52" stroke="${st}"/>`;
+    return lienzo(d, [/bastidor/i.test(n) ? "Bastidor" : /pulsador/i.test(n) ? "Pulsador" : "Cisterna", /doble descarga|dual|3\/6|4\/2|doble/i.test(n) ? "Doble descarga" : "", /alta/i.test(n) ? "Alta" : /empotr|bastidor/i.test(n) ? "Empotrada" : ""]);
+  }
+  const taza = cuadr
+    ? `<path d="M${susp ? 34 : 40} ${susp ? 70 : 76} L176 ${susp ? 70 : 76} Q186 ${susp ? 70 : 76} 184 ${susp ? 84 : 90} L172 ${susp ? 112 : 118} Q160 ${susp ? 124 : 130} 120 ${susp ? 124 : 130} L${susp ? 34 : 100} ${susp ? 124 : 130}${susp ? "" : " Q60 114 40 76"} Z" fill="${c}" stroke="${st}" stroke-width="1.6"/>`
+    : `<path d="M${susp ? 34 : 40} ${susp ? 70 : 76} L170 ${susp ? 70 : 76} C196 ${susp ? 70 : 76} 186 ${susp ? 116 : 122} 150 ${susp ? 122 : 128} C130 ${susp ? 126 : 132} 100 ${susp ? 126 : 132} ${susp ? 34 : 96} ${susp ? 122 : 128}${susp ? "" : " Q60 112 40 76"} Z" fill="${c}" stroke="${st}" stroke-width="1.6"/>`;
+  const pie = susp ? "" : `<path d="M${btw ? 40 : 84} ${cuadr ? 130 : 128} L${btw ? 40 : 88} 142 L140 142 L146 ${cuadr ? 130 : 128} Z" fill="${tono(c, 0.95)}" stroke="${st}" stroke-width="1.4"/>`;
+  const tapa = `<rect x="${susp ? 36 : 42}" y="${susp ? 62 : 68}" width="${cuadr ? 146 : 140}" height="8" rx="4" fill="${tono(c, 0.93)}" stroke="${st}"/>`;
+  const tanque = cist ? `<rect x="40" y="10" width="44" height="58" rx="5" fill="${c}" stroke="${st}" stroke-width="1.6"/><rect x="40" y="10" width="44" height="58" rx="5" fill="url(#lz)"/><rect x="54" y="4" width="16" height="6" rx="2" fill="#c9cfd3"/>` : bast || susp ? `<rect x="22" y="28" width="10" height="7" rx="1" fill="${negro ? "#111" : "#dfe5e8"}" stroke="${st}" stroke-opacity=".6"/>` : "";
+  const panel = smart ? `<rect x="150" y="80" width="18" height="8" rx="2" fill="#4f565b"/><circle cx="155" cy="84" r="1.6" fill="#7fb3d5"/>` : "";
+  const d = `${pared}${suelo(110, 144, susp ? 70 : 64)}${tanque}${taza}<path d="M${susp ? 34 : 40} ${susp ? 70 : 76} L170 ${susp ? 70 : 76}" stroke="#fff" stroke-width="3" opacity=".7"/>${tapa}${pie}${panel}${susp ? `<path d="M60 ${126} v18" stroke="#9aa3a8" stroke-dasharray="2 3"/><text x="66" y="140" font-size="9" fill="#8f989e">sin pie</text>` : ""}`;
+  return lienzo(d, [susp ? "Suspendido" : btw ? "A pared (BTW)" : cist ? "Con cisterna" : "De pie", smart ? "Inteligente" : bast ? "Con bastidor" : rim, ama || (cuadr ? "Cuadrado" : "")].filter(Boolean).slice(0, 3));
+}
+
 function generico(n) {
   const f = formato(n);
   if (/\bsaco|\d\s*kg\b/i.test(n) && !f) {
@@ -336,6 +368,7 @@ function esquemaTipo(categoria, nombre) {
   if (/^termos?/i.test(g) || /\btermo\b|calentador el/i.test(nombre)) return termo(nombre);
   if (a === "Puertas" && /puerta/i.test(nombre) && !/armario/i.test(nombre)) return puerta(nombre);
   if (a === "Ventiladores" && /ventilador/i.test(nombre)) return ventilador(nombre);
+  if (a === "Baño" && /Inodoros/.test(g) && !/tornill|fijaci|junta|manguito|v[aá]lvula|mecanismo|flotador|recambio|kit de/i.test(nombre)) return inodoro(nombre);
   if (a === "Cocina" && /Muebles de cocina/.test(g)) return mueble(nombre);
   if (a === "Cocina" && /Frigor|Vinotecas|Placas|Campanas|Extractores/.test(g)) return electro(nombre, g);
   if (a === "Iluminación" && !/bombilla|driver|conector/i.test(g + nombre)) return luz(nombre, g);
