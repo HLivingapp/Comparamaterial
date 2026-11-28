@@ -633,7 +633,7 @@ function paginaCategoria(c) {
   const minimo = (m) => Math.min(...m.ofertas.map((o) => o.precio));
   // Primero los productos completos, del más barato al más caro; las piezas sueltas al final.
   const orden = (a, b) => esPieza(a.nombre) - esPieza(b.nombre) || minimo(a) - minimo(b);
-  facetaDe = (m) => facetas(c, subgrupo(c, m.nombre), m.nombre);
+  facetaDe = (m) => facetas(c, subgrupo(c, m.nombre), m.nombre, Math.min(...(m.ofertas || [{ precio: 0 }]).map((o) => o.precio)));
   const todosP = [...ms, ...ps, ...amz.map((a) => ({ nombre: a.nombre + " " + (a.marca || "") }))];
   const filtrosF = (FACETAS[c] || []).map((f) => ({ nombre: f.nombre, ops: f.opciones.map(([et]) => ({ et, k: clave(f.nombre, et), n: todosP.filter((m) => facetaDe(m).includes(clave(f.nombre, et))).length })).filter((o) => o.n) })).filter((f) => f.ops.length);
   // En azulejos se mezclan tiendas y marcas: una de cada tienda por turno, cada una de más barata a más cara.

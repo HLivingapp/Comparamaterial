@@ -267,6 +267,25 @@ export const FACETAS = {
     ] },
   ],
   "Baño": [
+    // Lavabos, muebles y espejos por estilo (los mismos 4 que en azulejos, con foto de baño real).
+    { nombre: "Estilo", aplica: (g) => /Lavabos|Muebles de baño|Espejos/.test(g), opciones: [
+      ["Retro", /retro|vintage|cl[aá]sic|pedestal|columna|art ?d[eé]co|victoria|ondulad|estriad|fluted|acanalad|verde|rosa|azul(?!ej)|terracota|lat[oó]n envejecido|ovalad[oa] con marco/i],
+      ["Elegante", /m[aá]rmol|marble|calacatta|carrara|[oó]nix|onyx|dorad|gold|oro|negro brillo|lacado brillo|cristal|vidrio|brillo/i],
+      ["Natural", /piedra|stone|madera|wood|teca|roble|nogal|oak|bamb[uú]|travertino|r[uú]stic|natur|terrazo|caliza|r[aá]tan|mimbre/i],
+      ["Minimal", (n) => /blanc|white|mate|rectangular|cuadrad|slim|fino|liso|solid ?surface|resina|minimal|porcel[aá]nic|gris|grey|antracita|negro mate/i.test(n) && !/m[aá]rmol|marble|madera|wood|roble|nogal|piedra|dorad|retro|vintage|pedestal|cl[aá]sic/i.test(n)],
+    ] },
+    // Gama de lavabos: baratos pero bonitos (con un estilo claro) o de gama superior (precio o marca).
+    { nombre: "Gama de lavabo", aplica: (g) => /Lavabos/.test(g), opciones: [
+      ["Económicos monísimos", (n, p) => p > 0 && p <= 90 && /m[aá]rmol|marble|piedra|stone|madera|wood|terrazo|retro|vintage|estriad|fluted|acanalad|negro|black|dorad|gold|verde|rosa|terracota|beige|ovalad|redond|bol\b|cer[aá]mica de color|mate/i.test(n)],
+      ["Gamas superiores", (n, p) => p >= 250 || /villeroy|duravit|laufen|porcelanosa|noken|cosentino|silestone|krion|geberit|catalano|flaminia|agape|antonio lupi|roca inspira|ideal standard ipalyss/i.test(n)],
+    ] },
+    { nombre: "Tipo de lavabo", aplica: (g) => /Lavabos/.test(g), opciones: [
+      ["Sobre encimera", /sobre ?encimera|sobreencimera|sobreponer|de apoyo|apoyo/i],
+      ["Encastrado", /encastr|bajo encimera|bajoencimera|empotr|semiencastr/i],
+      ["Suspendido", /suspendid|mural|de pared|colgad/i],
+      ["De pie o pedestal", /de pie|pedestal|columna|exento|freestanding|totem/i],
+      ["Con mueble", /con mueble|mueble/i],
+    ] },
     { nombre: "Instalación", aplica: (g) => /Grifer|Columnas/.test(g), opciones: [["Empotrada", /empotr/i], ["Vista (no empotrada)", (n) => GRIFO.test(n) && !/empotr/i.test(n)]] },
     { nombre: "Color", aplica: (g) => /Grifer|Columnas|Mamparas|Accesorios/.test(g), opciones: color },
   ],
@@ -289,11 +308,11 @@ export const FACETAS = {
     { nombre: "Marca", aplica: () => true, opciones: [["Sulion", /sulion/i], ["Faro", /\bfaro\b/i], ["CREATE / Ikohs", /create|ikohs/i], ["Cecotec", /cecotec/i], ["Leds-C4", /leds[- ]?c4/i], ["Westinghouse", /westinghouse/i], ["Orbegozo", /orbegozo/i], ["Taurus", /taurus/i]] },
   ],
 };
-const prueba = (t, n) => (typeof t === "function" ? t(n) : t.test(n));
+const prueba = (t, n, p) => (typeof t === "function" ? t(n, p) : t.test(n));
 // Claves de filtro de un producto («estilo:mármol color:negro»), según su área y subgrupo.
-export function facetas(area, g, nombre) {
+export function facetas(area, g, nombre, precio = 0) {
   const out = [];
-  for (const f of FACETAS[area] || []) if (f.aplica(g)) for (const [et, t] of f.opciones) if (prueba(t, nombre)) out.push(clave(f.nombre, et));
+  for (const f of FACETAS[area] || []) if (f.aplica(g)) for (const [et, t] of f.opciones) if (prueba(t, nombre, precio)) out.push(clave(f.nombre, et));
   return out;
 }
 export const clave = (f, o) => (f + ":" + o).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9:]+/g, "-");
