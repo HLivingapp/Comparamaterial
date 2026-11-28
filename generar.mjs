@@ -760,7 +760,7 @@ function paginaMarcas(lista) {
 <nav class="migas"><a href="${raiz}">Materiales</a> › Marcas</nav>
 <h1>Buscar por marca: quién la vende más barata</h1>
 <p class="resumen">Elige una marca y te enseñamos todos sus productos en las tiendas que comparamos, del más barato al más caro.</p>
-<div class="filtro-prod"><input type="search" placeholder="Escribe una marca: Grohe, Miele, Daikin…" aria-label="Buscar marca" data-filtro-marca></div>
+<div class="filtro-prod"><input type="search" placeholder="Escribe una marca: Grohe, Roca, Daikin…" aria-label="Buscar marca" data-filtro-marca></div>
 ${grupos.map(([g, l]) => `<section class="marcas-g"><h2>${esc(g)}</h2><ul class="marcas-l">${l.map((x) => `<li data-n="${esc(slugify(x.nombre).replace(/-/g, " "))}"><a href="${x.slug}/"><b>${esc(x.nombre)}</b><small>${x.ps.length} productos · desde ${eur(Math.min(...x.ps.map((p) => Math.min(...p.ofertas.map((o) => o.precio)))))}</small></a></li>`).join("")}</ul></section>`).join("")}
 <script>(function(){var q=document.querySelector("[data-filtro-marca]");function n(t){return t.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}q.addEventListener("input",function(){var w=n(q.value);document.querySelectorAll(".marcas-l li").forEach(function(li){li.hidden=w&&li.getAttribute("data-n").indexOf(w)<0});document.querySelectorAll(".marcas-g").forEach(function(s){s.hidden=!s.querySelector("li:not([hidden])")})})})();</script>`;
   return { ruta, html: pagina({ titulo: `Buscar materiales por marca: ${lista.slice(0, 6).map((x) => x.nombre).join(", ")} y más`, descripcion: `Compara el precio de ${lista.length} marcas de reforma (baño, cerámica, electrodomésticos, climatización) en varias tiendas.`, ruta, cuerpo, raiz }) };
