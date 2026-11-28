@@ -4,7 +4,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import GUIAS from "./datos/guias.mjs";
 
-export const AMAZON_TAG = (process.env.AMAZON_TAG || "").trim();
+// ID de afiliado de Amazon (no es secreto). Se puede cambiar con la variable AMAZON_TAG.
+export const AMAZON_TAG = (process.env.AMAZON_TAG || "comparamateri-21").trim();
 export const AVISO_AMAZON = "En calidad de Afiliado de Amazon, Comparamaterial obtiene ingresos por las compras adscritas que cumplen los requisitos aplicables. Comparamaterial participa en el Programa de Afiliados de Amazon EU.";
 export const guiasMenu = GUIAS.map((g) => ({ slug: g.slug, corto: g.corto }));
 
