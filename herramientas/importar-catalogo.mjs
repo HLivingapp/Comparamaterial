@@ -20,6 +20,8 @@ const PATRON = {
   damiasolar: /^https:\/\/www\.damiasolar\.com\/[a-z0-9-]+\.html$/,
   barcelonaled: /^https:\/\/www\.barcelonaled\.com\/es-es\/products\/[a-z0-9-]+$/,
   masterled: /^https:\/\/masterled\.es\/es\/[a-z0-9-]+\/\d+-[a-z0-9-]+\.html$/,
+  mundoparquet: /^https:\/\/mundoparquet\.com\/products\/[a-z0-9-]+$/,
+  matcarrelage: /^https:\/\/matcarrelage\.com\/es\/[a-z0-9-]+\/\d+-[a-z0-9-]+\.html$/,
   woodly: /^https:\/\/woodly\.es\/[a-z0-9-]+\.html$/,
   bricomoraleja: /^https:\/\/www\.bricomoraleja\.com\/producto\/[a-z0-9-]+\/$/,
   pereda: /^https:\/\/saneamientospereda\.es\/[a-z0-9-]+\/[a-z0-9-]+\.html$/,

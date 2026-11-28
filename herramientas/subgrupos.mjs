@@ -109,7 +109,7 @@ export const SUBGRUPOS = {
     ["Plots, rastreles y fijaciones", /\bplot|rastrel|travesa|\bclip|tornillo|apoyo|soporte|[aá]ngulo|remate|perfil/i],
     ["Césped artificial", /c[eé]sped/i],
     ["Losetas y baldosas encajables", /encajable|loseta|baldosa (de )?(madera|composite)|baldosa.*\b(madera|composite|wpc)\b/i],
-    ["Tarima composite", /composite|\bwpc\b/i],
+    ["Tarima composite", /composite|\bwpc\b|carbono|alveolar|sint[eé]tica/i],
     ["Tarima de madera", /lama|tarima|tabla|madera|pino|ipe|teca|cumar[uú]|tali|badi|acacia|bamb[uú]/i],
     ["Porcelánico de 2 cm (sobre plots)", (n) => /porcel|gres|cer[aá]mic|baldosa|azulejo/i.test(n) && /\b20 ?mm|\b2 ?cm\b|espesor 2\b/i.test(n)],
     ["Porcelánico de exterior y piscina", /porcel|gres|cer[aá]mic|baldosa|piscina|losa|azulejo/i],
