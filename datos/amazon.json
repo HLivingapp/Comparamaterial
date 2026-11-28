@@ -1,89 +1,1202 @@
 {
-  "nota": "Productos concretos de Amazon.es por ASIN. Sin precios ni fotos copiados: solo nombre propio, marca y enlace de afiliado. Precio y foto los añade herramientas/amazon-api.mjs cuando haya acceso a la API (datos/amazon-api.json).",
-  "productos": [
-    { "asin": "B0CJV21FGP", "area": "Iluminación", "grupo": "Downlights", "marca": "EMOS", "nombre": "Downlight LED empotrable 5 W ultraplano, apto baño" },
-    { "asin": "B09CY6V611", "area": "Iluminación", "grupo": "Downlights", "marca": "Aigostar", "nombre": "Downlight LED 6 W luz cálida 3000 K, corte 95–100 mm (pack de 6)" },
-    { "asin": "B09FP48RCB", "area": "Iluminación", "grupo": "Downlights", "marca": "", "nombre": "Downlight LED 6 W ultrafino 26 mm, corte 75–95 mm (pack de 6)" },
-    { "asin": "B081JJDX7K", "area": "Iluminación", "grupo": "Downlights", "marca": "BAGZY", "nombre": "Foco empotrable LED negro 7 W IP44, corte 80–90 mm (pack de 5)" },
-    { "asin": "B0DQVWSC1V", "area": "Iluminación", "grupo": "Downlights", "marca": "Alpinaluz", "nombre": "Downlight LED profesional 25 W Ø23 cm, CCT seleccionable" },
-    { "asin": "B07QFSBLYJ", "area": "Iluminación", "grupo": "Tiras LED y perfiles", "marca": "Litner", "nombre": "Perfil de aluminio para tira LED con difusor opaco (6 m)" },
-    { "asin": "B08DG6CX9B", "area": "Iluminación", "grupo": "Tiras LED y perfiles", "marca": "", "nombre": "Perfil de aluminio empotrable para tiras LED (2 m)" },
-    { "asin": "B084DFF4PD", "area": "Iluminación", "grupo": "Tiras LED y perfiles", "marca": "Brollux", "nombre": "Perfil LED de esquina 45° de aluminio (10 × 1 m)" },
-    { "asin": "B08GS842TH", "area": "Iluminación", "grupo": "Tiras LED y perfiles", "marca": "LED Gigant", "nombre": "Perfil de montaje negro para tiras LED de 16 mm con difusor" },
-    { "asin": "B0BZHKXPPS", "area": "Iluminación", "grupo": "Lámparas colgantes", "marca": "", "nombre": "Lámpara colgante lineal LED 120 cm negra, altura regulable" },
-    { "asin": "B0CB7GNDCX", "area": "Iluminación", "grupo": "Lámparas colgantes", "marca": "", "nombre": "Lámpara lineal LED regulable 100 cm para comedor o isla de cocina" },
-    { "asin": "B0B4NTSFHT", "area": "Iluminación", "grupo": "Lámparas colgantes", "marca": "", "nombre": "Colgante lineal LED 36 W negro con mando, 100 cm" },
-    { "asin": "B0CY4RK72V", "area": "Iluminación", "grupo": "Plafones", "marca": "OUILA", "nombre": "Plafón LED 24 W Ø28 cm IP44 para baño, cocina o pasillo" },
-    { "asin": "B0BFLJ1W16", "area": "Iluminación", "grupo": "Plafones", "marca": "M Ledme", "nombre": "Plafón LED 30 W IP44 luz neutra 4500 K" },
-    { "asin": "B082X9XPZF", "area": "Iluminación", "grupo": "Plafones", "marca": "", "nombre": "Plafón LED 15 W con sensor de movimiento, IP44, para pasillos y escaleras" },
-    { "asin": "B06X15QZWP", "area": "Iluminación", "grupo": "Plafones", "marca": "", "nombre": "Panel LED de superficie 60×30 cm 24 W" },
-    { "asin": "B0C59M6BPC", "area": "Iluminación", "grupo": "Apliques de baño", "marca": "UBUD", "nombre": "Aplique LED de espejo de baño 60 cm IP44 cromado" },
-    { "asin": "B0713XLGSV", "area": "Iluminación", "grupo": "Apliques de baño", "marca": "Lightess", "nombre": "Aplique LED para espejo de baño 70 cm con interruptor" },
-    { "asin": "B0CSK92NGM", "area": "Iluminación", "grupo": "Focos de carril", "marca": "Ledkia", "nombre": "Foco de carril LED trifásico 24 W, temperatura seleccionable" },
-    { "asin": "B0FLDTXTWP", "area": "Iluminación", "grupo": "Focos de carril", "marca": "FactorLED", "nombre": "Foco LED 30 W negro para carril monofásico 24°" },
-    { "asin": "B00PDTM1UK", "area": "Iluminación", "grupo": "Focos de carril", "marca": "B·LED Barcelona", "nombre": "Foco LED para carril magnético 48 V 12 W con zoom" },
-    { "asin": "B09ZBJJTLR", "area": "Iluminación", "grupo": "Bombillas", "marca": "Philips", "nombre": "Bombilla LED E27 8 W (60 W) luz cálida, pack de 3" },
-    { "asin": "B09ZBJNL1N", "area": "Iluminación", "grupo": "Bombillas", "marca": "Philips", "nombre": "Bombilla LED E27 13 W 1521 lm luz neutra, pack de 6" },
-    { "asin": "B07667LFPQ", "area": "Iluminación", "grupo": "Bombillas", "marca": "Philips", "nombre": "Bombilla LED filamento E27 7 W, pack de 6" },
-
-    { "asin": "B099RZC9RN", "area": "Puertas", "grupo": "Manillas", "marca": "Emuca", "nombre": "Manillas de puerta interior con roseta Ø50, aluminio negro (5 juegos)" },
-    { "asin": "B088FRB2X8", "area": "Puertas", "grupo": "Manillas", "marca": "", "nombre": "Manillas de puerta con roseta cromadas (5 juegos)" },
-    { "asin": "B0D9R2QTQH", "area": "Puertas", "grupo": "Manillas", "marca": "AZERODESIGN", "nombre": "Juego de manillas negras con roseta redonda 50 mm" },
-    { "asin": "B0C6TP2YVQ", "area": "Puertas", "grupo": "Manillas", "marca": "AZERODESIGN", "nombre": "Juego de manillas negras con roseta cuadrada 50 × 50 mm" },
-    { "asin": "B0C3J7K8NM", "area": "Puertas", "grupo": "Manillas", "marca": "AZERODESIGN", "nombre": "Manilla con roseta redonda níquel satinado" },
-    { "asin": "B07NLCTWXV", "area": "Puertas", "grupo": "Bisagras", "marca": "", "nombre": "Bisagras de acero inoxidable 100 × 70 mm (4 unidades)" },
-    { "asin": "B0CHN2Q14C", "area": "Puertas", "grupo": "Correderas", "marca": "", "nombre": "Kit de herraje para puerta corredera tipo granero, guía 2 m, hasta 130 kg" },
-    { "asin": "B0871FYCKQ", "area": "Puertas", "grupo": "Correderas", "marca": "", "nombre": "Herraje para puerta corredera de granero negro, 200 cm" },
-    { "asin": "B0B28QTH5L", "area": "Puertas", "grupo": "Correderas", "marca": "", "nombre": "Herraje corredera tipo flecha negro con guía de suelo, 200 cm" },
-    { "asin": "B0BFQ818JW", "area": "Puertas", "grupo": "Cerraduras", "marca": "DIDA", "nombre": "Pestillo de condena para puerta de baño o dormitorio, cromo" },
-    { "asin": "B08CD3NP2S", "area": "Puertas", "grupo": "Topes", "marca": "VIBORG", "nombre": "Tope de puerta magnético de suelo en acero inoxidable" },
-    { "asin": "B072LCFT6M", "area": "Puertas", "grupo": "Topes", "marca": "Stoppwerk", "nombre": "Tope de puerta magnético para suelo o pared" },
-    { "asin": "B0BPPNJKBC", "area": "Puertas", "grupo": "Topes", "marca": "", "nombre": "Topes de puerta adhesivos con imán (6 unidades)" },
-
-    { "asin": "B0BLZG742R", "area": "Baño", "grupo": "Inodoros", "marca": "Roca", "nombre": "Inodoro completo Roca Ona Rimless con tapa amortiguada" },
-    { "asin": "B081HG9BVM", "area": "Baño", "grupo": "Inodoros", "marca": "", "nombre": "Inodoro completo Navia Rimless, cisterna 3/6 L y tapa amortiguada" },
-    { "asin": "B08HDJZ1K7", "area": "Baño", "grupo": "Inodoros", "marca": "Bathme", "nombre": "Inodoro completo City Rimless blanco" },
-    { "asin": "B08NHSHZ5V", "area": "Baño", "grupo": "Inodoros", "marca": "", "nombre": "Inodoro completo cuadrado con cisterna extrafina" },
-    { "asin": "B0D8TXZ2JB", "area": "Baño", "grupo": "Inodoros", "marca": "Geberit", "nombre": "Geberit Renova Plan: inodoro suspendido Rimfree con asiento" },
-    { "asin": "B0BQ7KB3FX", "area": "Baño", "grupo": "Inodoros", "marca": "Geberit", "nombre": "Geberit iCon: inodoro suspendido sin brida, fondo reducido" },
-    { "asin": "B0CP43DT9G", "area": "Baño", "grupo": "Inodoros", "marca": "Geberit", "nombre": "Geberit Acanto: inodoro suspendido TurboFlush con asiento" },
-    { "asin": "B01E00R846", "area": "Baño", "grupo": "Cisternas empotradas", "marca": "Geberit", "nombre": "Geberit Kombifix: bastidor para inodoro suspendido 82 cm, cisterna Omega" },
-    { "asin": "B00NIPV7ZQ", "area": "Baño", "grupo": "Cisternas empotradas", "marca": "Geberit", "nombre": "Geberit Duofix: bastidor para inodoro suspendido 112 cm, cisterna Sigma" },
-    { "asin": "B00L2IE7L2", "area": "Baño", "grupo": "Recambios de cisterna", "marca": "Roca", "nombre": "Mecanismo de descarga Roca de doble pulsador" },
-    { "asin": "B00U2NUFRI", "area": "Baño", "grupo": "Recambios de cisterna", "marca": "S&M", "nombre": "Mecanismo de descarga universal de doble pulsador" },
-    { "asin": "B00H40PRDY", "area": "Baño", "grupo": "Tapas de WC", "marca": "WOLTU", "nombre": "Tapa de WC redonda con cierre lento" },
-    { "asin": "B0C65682V1", "area": "Baño", "grupo": "Tapas de WC", "marca": "WOLTU", "nombre": "Tapa de WC negra en forma de O, cierre lento y extracción rápida" },
-    { "asin": "B00CP6C0MS", "area": "Baño", "grupo": "Grifos de lavabo", "marca": "Grohe", "nombre": "Grohe Start Loop: grifo monomando de lavabo con vaciador (23349000)" },
-    { "asin": "B00KQLXHZI", "area": "Baño", "grupo": "Grifos de lavabo", "marca": "Grohe", "nombre": "Grohe Start Edge: grifo monomando de lavabo (23344000)" },
-    { "asin": "B07K95QZ95", "area": "Baño", "grupo": "Grifos de lavabo", "marca": "Grohe", "nombre": "Grohe Start Flow: grifo monomando de lavabo (23769000)" },
-    { "asin": "B072PRNLPH", "area": "Baño", "grupo": "Grifos de lavabo", "marca": "Grohe", "nombre": "Grohe Lineare: grifo de lavabo talla S (23106001)" },
-    { "asin": "B07B41MTXH", "area": "Baño", "grupo": "Grifos de lavabo", "marca": "Grohe", "nombre": "Grohe Atrio: grifo monomando de lavabo XL para lavabo sobre encimera" },
-    { "asin": "B00RTG1HSC", "area": "Baño", "grupo": "Grifos de ducha", "marca": "Grohe", "nombre": "Grohe Grohtherm 800: grifo termostático de ducha (34558000)" },
-    { "asin": "B00RTG0KHG", "area": "Baño", "grupo": "Grifos de ducha", "marca": "Grohe", "nombre": "Grohe Grohtherm 800: termostático de baño y ducha (34567000)" },
-    { "asin": "B00VFYP6HW", "area": "Baño", "grupo": "Grifos de ducha", "marca": "Grohe", "nombre": "Grohe Grohtherm 1000: termostático de ducha (34550000)" },
-    { "asin": "B008LJGS3A", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "hansgrohe", "nombre": "hansgrohe Croma 100 Vario: conjunto de ducha con termostato y barra 65 cm" },
-    { "asin": "B07TBTD4L1", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "hansgrohe", "nombre": "hansgrohe Croma E: columna de ducha termostática con rociador 280 × 170" },
-    { "asin": "B08VGXK42C", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "Imex", "nombre": "Imex Vigo: columna de ducha termostática (BTV013)" },
-    { "asin": "B08HVH3PWP", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "CECIPA", "nombre": "Columna de ducha termostática negra con teleducha" },
-    { "asin": "B001M9IUH8", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "hansgrohe", "nombre": "hansgrohe Croma 100: teleducha de 4 chorros (28535000)" },
-    { "asin": "B00PIGMJ64", "area": "Baño", "grupo": "Columnas y teleduchas", "marca": "hansgrohe", "nombre": "hansgrohe Croma Select E: teleducha ahorradora 3 chorros" },
-
-    { "asin": "B0BFB3PTVX", "area": "Cocina", "grupo": "Tiradores", "marca": "", "nombre": "Tiradores negros para muebles de cocina 128 mm (5 unidades)" },
-    { "asin": "B0BPY814TT", "area": "Cocina", "grupo": "Tiradores", "marca": "Heveer", "nombre": "Tiradores ocultos negros 200 mm (8 unidades)" },
-
-    { "asin": "B00SWR2AN8", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Thermor", "nombre": "Termo eléctrico Thermor Concept 80 L vertical" },
-    { "asin": "B00SZ00W6E", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Thermor", "nombre": "Termo eléctrico Thermor Concept 50 L" },
-    { "asin": "B00SWMX8KM", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Thermor", "nombre": "Termo eléctrico Thermor Concept 100 L vertical" },
-    { "asin": "B00SYIPTQ0", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Thermor", "nombre": "Termo eléctrico Thermor Ceramic Slim 50 L (resistencia cerámica)" },
-    { "asin": "B0CQ2X88J7", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Ariston", "nombre": "Termo eléctrico Ariston Lydos Wifi" },
-    { "asin": "B01EL8UQ14", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Bosch", "nombre": "Termo eléctrico Bosch ES 050 Slim 50 L" },
-    { "asin": "B0BM4KSKRV", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Edesa", "nombre": "Termo eléctrico Edesa Digital 80 L" },
-    { "asin": "B0BM4L3MTJ", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Edesa", "nombre": "Termo eléctrico Edesa Digital 100 L" },
-    { "asin": "B08Y8SBG65", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Cabel", "nombre": "Termo eléctrico plano Cabel Flat Duo 80 L multiposición" },
-    { "asin": "B09963RMFN", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Ferroli", "nombre": "Termo eléctrico Ferroli Tiber B 100 L" },
-    { "asin": "B01G9Z8WIQ", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Simat", "nombre": "Termo eléctrico Simat 100 L 1500 W" },
-    { "asin": "B06W5QRQS1", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "EAS Electric", "nombre": "Termo eléctrico EAS Electric 50 L" },
-    { "asin": "B0CB64RNQX", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "ACB", "nombre": "Termo eléctrico horizontal ACB 80 L" },
-    { "asin": "B08R7MSJRT", "area": "Calefacción y agua caliente", "grupo": "Termos eléctricos", "marca": "Regent", "nombre": "Termo eléctrico Regent 80 L horizontal" }
-  ]
+ "nota": "Productos concretos de Amazon.es por ASIN. Sin precios ni fotos copiados: solo nombre propio, marca y enlace de afiliado. Precio y foto los añade herramientas/amazon-api.mjs cuando haya acceso a la API (datos/amazon-api.json).",
+ "productos": [
+  {
+   "asin": "B0CJV21FGP",
+   "area": "Iluminación",
+   "grupo": "Downlights",
+   "marca": "EMOS",
+   "nombre": "Downlight LED empotrable 5 W ultraplano, apto baño"
+  },
+  {
+   "asin": "B09CY6V611",
+   "area": "Iluminación",
+   "grupo": "Downlights",
+   "marca": "Aigostar",
+   "nombre": "Downlight LED 6 W luz cálida 3000 K, corte 95–100 mm (pack de 6)"
+  },
+  {
+   "asin": "B09FP48RCB",
+   "area": "Iluminación",
+   "grupo": "Downlights",
+   "marca": "",
+   "nombre": "Downlight LED 6 W ultrafino 26 mm, corte 75–95 mm (pack de 6)"
+  },
+  {
+   "asin": "B081JJDX7K",
+   "area": "Iluminación",
+   "grupo": "Downlights",
+   "marca": "BAGZY",
+   "nombre": "Foco empotrable LED negro 7 W IP44, corte 80–90 mm (pack de 5)"
+  },
+  {
+   "asin": "B0DQVWSC1V",
+   "area": "Iluminación",
+   "grupo": "Downlights",
+   "marca": "Alpinaluz",
+   "nombre": "Downlight LED profesional 25 W Ø23 cm, CCT seleccionable"
+  },
+  {
+   "asin": "B07QFSBLYJ",
+   "area": "Iluminación",
+   "grupo": "Tiras LED y perfiles",
+   "marca": "Litner",
+   "nombre": "Perfil de aluminio para tira LED con difusor opaco (6 m)"
+  },
+  {
+   "asin": "B08DG6CX9B",
+   "area": "Iluminación",
+   "grupo": "Tiras LED y perfiles",
+   "marca": "",
+   "nombre": "Perfil de aluminio empotrable para tiras LED (2 m)"
+  },
+  {
+   "asin": "B084DFF4PD",
+   "area": "Iluminación",
+   "grupo": "Tiras LED y perfiles",
+   "marca": "Brollux",
+   "nombre": "Perfil LED de esquina 45° de aluminio (10 × 1 m)"
+  },
+  {
+   "asin": "B08GS842TH",
+   "area": "Iluminación",
+   "grupo": "Tiras LED y perfiles",
+   "marca": "LED Gigant",
+   "nombre": "Perfil de montaje negro para tiras LED de 16 mm con difusor"
+  },
+  {
+   "asin": "B0BZHKXPPS",
+   "area": "Iluminación",
+   "grupo": "Lámparas colgantes",
+   "marca": "",
+   "nombre": "Lámpara colgante lineal LED 120 cm negra, altura regulable"
+  },
+  {
+   "asin": "B0CB7GNDCX",
+   "area": "Iluminación",
+   "grupo": "Lámparas colgantes",
+   "marca": "",
+   "nombre": "Lámpara lineal LED regulable 100 cm para comedor o isla de cocina"
+  },
+  {
+   "asin": "B0B4NTSFHT",
+   "area": "Iluminación",
+   "grupo": "Lámparas colgantes",
+   "marca": "",
+   "nombre": "Colgante lineal LED 36 W negro con mando, 100 cm"
+  },
+  {
+   "asin": "B0CY4RK72V",
+   "area": "Iluminación",
+   "grupo": "Plafones",
+   "marca": "OUILA",
+   "nombre": "Plafón LED 24 W Ø28 cm IP44 para baño, cocina o pasillo"
+  },
+  {
+   "asin": "B0BFLJ1W16",
+   "area": "Iluminación",
+   "grupo": "Plafones",
+   "marca": "M Ledme",
+   "nombre": "Plafón LED 30 W IP44 luz neutra 4500 K"
+  },
+  {
+   "asin": "B082X9XPZF",
+   "area": "Iluminación",
+   "grupo": "Plafones",
+   "marca": "",
+   "nombre": "Plafón LED 15 W con sensor de movimiento, IP44, para pasillos y escaleras"
+  },
+  {
+   "asin": "B06X15QZWP",
+   "area": "Iluminación",
+   "grupo": "Plafones",
+   "marca": "",
+   "nombre": "Panel LED de superficie 60×30 cm 24 W"
+  },
+  {
+   "asin": "B0C59M6BPC",
+   "area": "Iluminación",
+   "grupo": "Apliques de baño",
+   "marca": "UBUD",
+   "nombre": "Aplique LED de espejo de baño 60 cm IP44 cromado"
+  },
+  {
+   "asin": "B0713XLGSV",
+   "area": "Iluminación",
+   "grupo": "Apliques de baño",
+   "marca": "Lightess",
+   "nombre": "Aplique LED para espejo de baño 70 cm con interruptor"
+  },
+  {
+   "asin": "B0CSK92NGM",
+   "area": "Iluminación",
+   "grupo": "Focos de carril",
+   "marca": "Ledkia",
+   "nombre": "Foco de carril LED trifásico 24 W, temperatura seleccionable"
+  },
+  {
+   "asin": "B0FLDTXTWP",
+   "area": "Iluminación",
+   "grupo": "Focos de carril",
+   "marca": "FactorLED",
+   "nombre": "Foco LED 30 W negro para carril monofásico 24°"
+  },
+  {
+   "asin": "B00PDTM1UK",
+   "area": "Iluminación",
+   "grupo": "Focos de carril",
+   "marca": "B·LED Barcelona",
+   "nombre": "Foco LED para carril magnético 48 V 12 W con zoom"
+  },
+  {
+   "asin": "B09ZBJJTLR",
+   "area": "Iluminación",
+   "grupo": "Bombillas",
+   "marca": "Philips",
+   "nombre": "Bombilla LED E27 8 W (60 W) luz cálida, pack de 3"
+  },
+  {
+   "asin": "B09ZBJNL1N",
+   "area": "Iluminación",
+   "grupo": "Bombillas",
+   "marca": "Philips",
+   "nombre": "Bombilla LED E27 13 W 1521 lm luz neutra, pack de 6"
+  },
+  {
+   "asin": "B07667LFPQ",
+   "area": "Iluminación",
+   "grupo": "Bombillas",
+   "marca": "Philips",
+   "nombre": "Bombilla LED filamento E27 7 W, pack de 6"
+  },
+  {
+   "asin": "B099RZC9RN",
+   "area": "Puertas",
+   "grupo": "Manillas",
+   "marca": "Emuca",
+   "nombre": "Manillas de puerta interior con roseta Ø50, aluminio negro (5 juegos)"
+  },
+  {
+   "asin": "B088FRB2X8",
+   "area": "Puertas",
+   "grupo": "Manillas",
+   "marca": "",
+   "nombre": "Manillas de puerta con roseta cromadas (5 juegos)"
+  },
+  {
+   "asin": "B0D9R2QTQH",
+   "area": "Puertas",
+   "grupo": "Manillas",
+   "marca": "AZERODESIGN",
+   "nombre": "Juego de manillas negras con roseta redonda 50 mm"
+  },
+  {
+   "asin": "B0C6TP2YVQ",
+   "area": "Puertas",
+   "grupo": "Manillas",
+   "marca": "AZERODESIGN",
+   "nombre": "Juego de manillas negras con roseta cuadrada 50 × 50 mm"
+  },
+  {
+   "asin": "B0C3J7K8NM",
+   "area": "Puertas",
+   "grupo": "Manillas",
+   "marca": "AZERODESIGN",
+   "nombre": "Manilla con roseta redonda níquel satinado"
+  },
+  {
+   "asin": "B07NLCTWXV",
+   "area": "Puertas",
+   "grupo": "Bisagras",
+   "marca": "",
+   "nombre": "Bisagras de acero inoxidable 100 × 70 mm (4 unidades)"
+  },
+  {
+   "asin": "B0CHN2Q14C",
+   "area": "Puertas",
+   "grupo": "Correderas",
+   "marca": "",
+   "nombre": "Kit de herraje para puerta corredera tipo granero, guía 2 m, hasta 130 kg"
+  },
+  {
+   "asin": "B0871FYCKQ",
+   "area": "Puertas",
+   "grupo": "Correderas",
+   "marca": "",
+   "nombre": "Herraje para puerta corredera de granero negro, 200 cm"
+  },
+  {
+   "asin": "B0B28QTH5L",
+   "area": "Puertas",
+   "grupo": "Correderas",
+   "marca": "",
+   "nombre": "Herraje corredera tipo flecha negro con guía de suelo, 200 cm"
+  },
+  {
+   "asin": "B0BFQ818JW",
+   "area": "Puertas",
+   "grupo": "Cerraduras",
+   "marca": "DIDA",
+   "nombre": "Pestillo de condena para puerta de baño o dormitorio, cromo"
+  },
+  {
+   "asin": "B08CD3NP2S",
+   "area": "Puertas",
+   "grupo": "Topes",
+   "marca": "VIBORG",
+   "nombre": "Tope de puerta magnético de suelo en acero inoxidable"
+  },
+  {
+   "asin": "B072LCFT6M",
+   "area": "Puertas",
+   "grupo": "Topes",
+   "marca": "Stoppwerk",
+   "nombre": "Tope de puerta magnético para suelo o pared"
+  },
+  {
+   "asin": "B0BPPNJKBC",
+   "area": "Puertas",
+   "grupo": "Topes",
+   "marca": "",
+   "nombre": "Topes de puerta adhesivos con imán (6 unidades)"
+  },
+  {
+   "asin": "B0BLZG742R",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "Roca",
+   "nombre": "Inodoro completo Roca Ona Rimless con tapa amortiguada"
+  },
+  {
+   "asin": "B081HG9BVM",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "",
+   "nombre": "Inodoro completo Navia Rimless, cisterna 3/6 L y tapa amortiguada"
+  },
+  {
+   "asin": "B08HDJZ1K7",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "Bathme",
+   "nombre": "Inodoro completo City Rimless blanco"
+  },
+  {
+   "asin": "B08NHSHZ5V",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "",
+   "nombre": "Inodoro completo cuadrado con cisterna extrafina"
+  },
+  {
+   "asin": "B0D8TXZ2JB",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "Geberit",
+   "nombre": "Geberit Renova Plan: inodoro suspendido Rimfree con asiento"
+  },
+  {
+   "asin": "B0BQ7KB3FX",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "Geberit",
+   "nombre": "Geberit iCon: inodoro suspendido sin brida, fondo reducido"
+  },
+  {
+   "asin": "B0CP43DT9G",
+   "area": "Baño",
+   "grupo": "Inodoros",
+   "marca": "Geberit",
+   "nombre": "Geberit Acanto: inodoro suspendido TurboFlush con asiento"
+  },
+  {
+   "asin": "B01E00R846",
+   "area": "Baño",
+   "grupo": "Cisternas empotradas",
+   "marca": "Geberit",
+   "nombre": "Geberit Kombifix: bastidor para inodoro suspendido 82 cm, cisterna Omega"
+  },
+  {
+   "asin": "B00NIPV7ZQ",
+   "area": "Baño",
+   "grupo": "Cisternas empotradas",
+   "marca": "Geberit",
+   "nombre": "Geberit Duofix: bastidor para inodoro suspendido 112 cm, cisterna Sigma"
+  },
+  {
+   "asin": "B00L2IE7L2",
+   "area": "Baño",
+   "grupo": "Recambios de cisterna",
+   "marca": "Roca",
+   "nombre": "Mecanismo de descarga Roca de doble pulsador"
+  },
+  {
+   "asin": "B00U2NUFRI",
+   "area": "Baño",
+   "grupo": "Recambios de cisterna",
+   "marca": "S&M",
+   "nombre": "Mecanismo de descarga universal de doble pulsador"
+  },
+  {
+   "asin": "B00H40PRDY",
+   "area": "Baño",
+   "grupo": "Tapas de WC",
+   "marca": "WOLTU",
+   "nombre": "Tapa de WC redonda con cierre lento"
+  },
+  {
+   "asin": "B0C65682V1",
+   "area": "Baño",
+   "grupo": "Tapas de WC",
+   "marca": "WOLTU",
+   "nombre": "Tapa de WC negra en forma de O, cierre lento y extracción rápida"
+  },
+  {
+   "asin": "B00CP6C0MS",
+   "area": "Baño",
+   "grupo": "Grifos de lavabo",
+   "marca": "Grohe",
+   "nombre": "Grohe Start Loop: grifo monomando de lavabo con vaciador (23349000)"
+  },
+  {
+   "asin": "B00KQLXHZI",
+   "area": "Baño",
+   "grupo": "Grifos de lavabo",
+   "marca": "Grohe",
+   "nombre": "Grohe Start Edge: grifo monomando de lavabo (23344000)"
+  },
+  {
+   "asin": "B07K95QZ95",
+   "area": "Baño",
+   "grupo": "Grifos de lavabo",
+   "marca": "Grohe",
+   "nombre": "Grohe Start Flow: grifo monomando de lavabo (23769000)"
+  },
+  {
+   "asin": "B072PRNLPH",
+   "area": "Baño",
+   "grupo": "Grifos de lavabo",
+   "marca": "Grohe",
+   "nombre": "Grohe Lineare: grifo de lavabo talla S (23106001)"
+  },
+  {
+   "asin": "B07B41MTXH",
+   "area": "Baño",
+   "grupo": "Grifos de lavabo",
+   "marca": "Grohe",
+   "nombre": "Grohe Atrio: grifo monomando de lavabo XL para lavabo sobre encimera"
+  },
+  {
+   "asin": "B00RTG1HSC",
+   "area": "Baño",
+   "grupo": "Grifos de ducha",
+   "marca": "Grohe",
+   "nombre": "Grohe Grohtherm 800: grifo termostático de ducha (34558000)"
+  },
+  {
+   "asin": "B00RTG0KHG",
+   "area": "Baño",
+   "grupo": "Grifos de ducha",
+   "marca": "Grohe",
+   "nombre": "Grohe Grohtherm 800: termostático de baño y ducha (34567000)"
+  },
+  {
+   "asin": "B00VFYP6HW",
+   "area": "Baño",
+   "grupo": "Grifos de ducha",
+   "marca": "Grohe",
+   "nombre": "Grohe Grohtherm 1000: termostático de ducha (34550000)"
+  },
+  {
+   "asin": "B008LJGS3A",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "hansgrohe",
+   "nombre": "hansgrohe Croma 100 Vario: conjunto de ducha con termostato y barra 65 cm"
+  },
+  {
+   "asin": "B07TBTD4L1",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "hansgrohe",
+   "nombre": "hansgrohe Croma E: columna de ducha termostática con rociador 280 × 170"
+  },
+  {
+   "asin": "B08VGXK42C",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "Imex",
+   "nombre": "Imex Vigo: columna de ducha termostática (BTV013)"
+  },
+  {
+   "asin": "B08HVH3PWP",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "CECIPA",
+   "nombre": "Columna de ducha termostática negra con teleducha"
+  },
+  {
+   "asin": "B001M9IUH8",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "hansgrohe",
+   "nombre": "hansgrohe Croma 100: teleducha de 4 chorros (28535000)"
+  },
+  {
+   "asin": "B00PIGMJ64",
+   "area": "Baño",
+   "grupo": "Columnas y teleduchas",
+   "marca": "hansgrohe",
+   "nombre": "hansgrohe Croma Select E: teleducha ahorradora 3 chorros"
+  },
+  {
+   "asin": "B0BFB3PTVX",
+   "area": "Cocina",
+   "grupo": "Tiradores",
+   "marca": "",
+   "nombre": "Tiradores negros para muebles de cocina 128 mm (5 unidades)"
+  },
+  {
+   "asin": "B0BPY814TT",
+   "area": "Cocina",
+   "grupo": "Tiradores",
+   "marca": "Heveer",
+   "nombre": "Tiradores ocultos negros 200 mm (8 unidades)"
+  },
+  {
+   "asin": "B00SWR2AN8",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Thermor",
+   "nombre": "Termo eléctrico Thermor Concept 80 L vertical"
+  },
+  {
+   "asin": "B00SZ00W6E",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Thermor",
+   "nombre": "Termo eléctrico Thermor Concept 50 L"
+  },
+  {
+   "asin": "B00SWMX8KM",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Thermor",
+   "nombre": "Termo eléctrico Thermor Concept 100 L vertical"
+  },
+  {
+   "asin": "B00SYIPTQ0",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Thermor",
+   "nombre": "Termo eléctrico Thermor Ceramic Slim 50 L (resistencia cerámica)"
+  },
+  {
+   "asin": "B0CQ2X88J7",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Ariston",
+   "nombre": "Termo eléctrico Ariston Lydos Wifi"
+  },
+  {
+   "asin": "B01EL8UQ14",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Bosch",
+   "nombre": "Termo eléctrico Bosch ES 050 Slim 50 L"
+  },
+  {
+   "asin": "B0BM4KSKRV",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Edesa",
+   "nombre": "Termo eléctrico Edesa Digital 80 L"
+  },
+  {
+   "asin": "B0BM4L3MTJ",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Edesa",
+   "nombre": "Termo eléctrico Edesa Digital 100 L"
+  },
+  {
+   "asin": "B08Y8SBG65",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Cabel",
+   "nombre": "Termo eléctrico plano Cabel Flat Duo 80 L multiposición"
+  },
+  {
+   "asin": "B09963RMFN",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Ferroli",
+   "nombre": "Termo eléctrico Ferroli Tiber B 100 L"
+  },
+  {
+   "asin": "B01G9Z8WIQ",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Simat",
+   "nombre": "Termo eléctrico Simat 100 L 1500 W"
+  },
+  {
+   "asin": "B06W5QRQS1",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "EAS Electric",
+   "nombre": "Termo eléctrico EAS Electric 50 L"
+  },
+  {
+   "asin": "B0CB64RNQX",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "ACB",
+   "nombre": "Termo eléctrico horizontal ACB 80 L"
+  },
+  {
+   "asin": "B08R7MSJRT",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Termos eléctricos",
+   "marca": "Regent",
+   "nombre": "Termo eléctrico Regent 80 L horizontal"
+  },
+  {
+   "asin": "B08696DRQS",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 90 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B097F7M2R8",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 120 × 200 cm, cristal 8 mm, perfil negro"
+  },
+  {
+   "asin": "B0869485T8",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 140 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B086953YBJ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara fija walk-in 100 × 200 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B0985JMSXB",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara frontal corredera (1 puerta + 1 fijo), cristal templado"
+  },
+  {
+   "asin": "B08W5G9CS7",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "Aurlane",
+   "nombre": "Mampara corredera cromada 120 × 200 cm, cristal 8 mm"
+  },
+  {
+   "asin": "B09LCMSXFB",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "Ducha Casa",
+   "nombre": "Mampara frontal corredera 135 × 195 cm, cristal 8 mm antical"
+  },
+  {
+   "asin": "B0BG2Y58LZ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara frontal corredera sin perfil inferior, 115–120 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B0B4WHZBZ2",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular 2 correderas + 2 fijos, 77–80 × 137–140 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B0BGJM2R58",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular negro mate sin perfil inferior, 77–79 × 97–99 cm"
+  },
+  {
+   "asin": "B0BZ4BGCBZ",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara angular corredera + lateral fijo negro mate, cristal 6 mm"
+  },
+  {
+   "asin": "B0CC5PHQMT",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara de bañera abatible 2 hojas, perfil negro mate, 100 × 140 cm"
+  },
+  {
+   "asin": "B09TP4BPBW",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "SONNI",
+   "nombre": "Mampara de bañera abatible 180° 120 × 140 cm con estabilizador"
+  },
+  {
+   "asin": "B08RWG1XKP",
+   "area": "Baño",
+   "grupo": "Mamparas",
+   "marca": "",
+   "nombre": "Mampara de bañera abatible 100 × 140 cm, cristal 6 mm"
+  },
+  {
+   "asin": "B096V1ZL71",
+   "area": "Baño",
+   "grupo": "Muebles de baño",
+   "marca": "El Baño Moderno",
+   "nombre": "Conjunto de mueble de baño 80 cm con lavabo"
+  },
+  {
+   "asin": "B0B17YQGBC",
+   "area": "Baño",
+   "grupo": "Espejos",
+   "marca": "",
+   "nombre": "Espejo de baño LED 80 × 60 cm antivaho, táctil, IP44"
+  },
+  {
+   "asin": "B0B52S34WV",
+   "area": "Baño",
+   "grupo": "Espejos",
+   "marca": "Finmrys",
+   "nombre": "Espejo de baño LED antivaho 100 × 60 cm"
+  },
+  {
+   "asin": "B00W2Q4CAY",
+   "area": "Baño",
+   "grupo": "Extractores",
+   "marca": "Soler & Palau",
+   "nombre": "Extractor de baño Silent-100 CHZ con humidostato y temporizador"
+  },
+  {
+   "asin": "B01M2V62OD",
+   "area": "Baño",
+   "grupo": "Extractores",
+   "marca": "STERR",
+   "nombre": "Extractor de baño 100 mm silencioso con LED"
+  },
+  {
+   "asin": "B089QPX8QN",
+   "area": "Baño",
+   "grupo": "Extractores",
+   "marca": "Airope",
+   "nombre": "Extractor de baño 100 mm silencioso con antirretorno"
+  },
+  {
+   "asin": "B0CJCFBFS6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: kit de enchufe schuko empotrable negro mate"
+  },
+  {
+   "asin": "B0CYQ6NWH3",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: enchufe schuko 16 A blanco mate"
+  },
+  {
+   "asin": "B0CYQ3NHJL",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: marco de 4 elementos blanco mate"
+  },
+  {
+   "asin": "B0DJ2WLFYQ",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270: kit de doble enchufe schuko negro"
+  },
+  {
+   "asin": "B0CLRZCCB6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 270 iO: kit de enchufe conectado blanco"
+  },
+  {
+   "asin": "B08SQPPXLQ",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 100 iO: tecla de interruptor regulable blanca"
+  },
+  {
+   "asin": "B072QSPFWN",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 100: tecla de interruptor negra"
+  },
+  {
+   "asin": "B0CFYZTBT6",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Simon",
+   "nombre": "Simon 10: marco de 2 elementos blanco"
+  },
+  {
+   "asin": "B00GQTT9B0",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor monopolar ancho 16 A blanco"
+  },
+  {
+   "asin": "B00GQTSSFS",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: enchufe con toma de tierra blanco"
+  },
+  {
+   "asin": "B0C9LZCD9L",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor antracita"
+  },
+  {
+   "asin": "B01N2QYHDU",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor de persiana blanco"
+  },
+  {
+   "asin": "B01N2QYFBS",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "Niessen",
+   "nombre": "Niessen Zenit: interruptor estanco IP55"
+  },
+  {
+   "asin": "B0CK5JMWXC",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "BSEED",
+   "nombre": "Enchufe empotrable con USB-A y USB-C"
+  },
+  {
+   "asin": "B0BMYGBYXC",
+   "area": "Electricidad",
+   "grupo": "Mecanismos",
+   "marca": "CNBINGO",
+   "nombre": "Enchufe empotrable con USB-C y USB-A, marco de cristal"
+  },
+  {
+   "asin": "B0F92X39RM",
+   "area": "Domótica",
+   "grupo": "Relés e interruptores",
+   "marca": "Shelly",
+   "nombre": "Shelly 1 Gen4: relé wifi/Zigbee/Matter para luces"
+  },
+  {
+   "asin": "B0D8YPG797",
+   "area": "Domótica",
+   "grupo": "Relés e interruptores",
+   "marca": "Shelly",
+   "nombre": "Shelly 1PM Gen3: relé wifi 16 A con medida de consumo"
+  },
+  {
+   "asin": "B0CRRT6HCB",
+   "area": "Domótica",
+   "grupo": "Relés e interruptores",
+   "marca": "Shelly",
+   "nombre": "Shelly 1PM Mini Gen3: microrrelé para caja de mecanismo"
+  },
+  {
+   "asin": "B0DJFQX8H4",
+   "area": "Domótica",
+   "grupo": "Persianas",
+   "marca": "Shelly",
+   "nombre": "Shelly 2PM Gen3: módulo para persianas y cortinas"
+  },
+  {
+   "asin": "B0DZJ1W814",
+   "area": "Domótica",
+   "grupo": "Persianas",
+   "marca": "Shelly",
+   "nombre": "Shelly 2PM Gen4: módulo de persianas con Matter"
+  },
+  {
+   "asin": "B0FJM3BRF1",
+   "area": "Domótica",
+   "grupo": "Persianas",
+   "marca": "SONOFF",
+   "nombre": "SONOFF MINI-RBS: módulo de persiana Matter (pack de 2)"
+  },
+  {
+   "asin": "B07T41P13Y",
+   "area": "Domótica",
+   "grupo": "Relés e interruptores",
+   "marca": "SONOFF",
+   "nombre": "SONOFF T0EU1C: interruptor táctil wifi de pared"
+  },
+  {
+   "asin": "B09BFT7NZJ",
+   "area": "Domótica",
+   "grupo": "Enchufes inteligentes",
+   "marca": "TP-Link Tapo",
+   "nombre": "Tapo P110: enchufe inteligente con medida de consumo"
+  },
+  {
+   "asin": "B0B7NKLDXW",
+   "area": "Domótica",
+   "grupo": "Enchufes inteligentes",
+   "marca": "TP-Link Tapo",
+   "nombre": "Tapo P110: enchufe inteligente (pack de 4)"
+  },
+  {
+   "asin": "B06ZXYYWPN",
+   "area": "Domótica",
+   "grupo": "Termostatos",
+   "marca": "Netatmo",
+   "nombre": "Netatmo: termostato inteligente wifi para caldera individual"
+  },
+  {
+   "asin": "B0CC67PYHY",
+   "area": "Domótica",
+   "grupo": "Termostatos",
+   "marca": "Netatmo",
+   "nombre": "Netatmo: termostato + 3 cabezales termostáticos inteligentes"
+  },
+  {
+   "asin": "B01BWUH8W4",
+   "area": "Domótica",
+   "grupo": "Termostatos",
+   "marca": "tado°",
+   "nombre": "tado°: termostato inteligente con cable"
+  },
+  {
+   "asin": "B0DX2FPQFQ",
+   "area": "Domótica",
+   "grupo": "Cerraduras inteligentes",
+   "marca": "Nuki",
+   "nombre": "Nuki Smart Lock Pro: cerradura inteligente wifi y Matter"
+  },
+  {
+   "asin": "B0CK4SDN4S",
+   "area": "Domótica",
+   "grupo": "Cerraduras inteligentes",
+   "marca": "Nuki",
+   "nombre": "Nuki Smart Lock 4.ª generación"
+  },
+  {
+   "asin": "B0FPX9YMYV",
+   "area": "Domótica",
+   "grupo": "Cerraduras inteligentes",
+   "marca": "Nuki",
+   "nombre": "Nuki Smart Lock Go + teclado"
+  },
+  {
+   "asin": "B0BZWQP9Z1",
+   "area": "Domótica",
+   "grupo": "Videoporteros",
+   "marca": "Ring",
+   "nombre": "Ring Battery Video Doorbell: videotimbre a batería"
+  },
+  {
+   "asin": "B0931VYGQJ",
+   "area": "Domótica",
+   "grupo": "Videoporteros",
+   "marca": "Ring",
+   "nombre": "Ring Video Doorbell 3"
+  },
+  {
+   "asin": "B0DWK8318H",
+   "area": "Domótica",
+   "grupo": "Sensores",
+   "marca": "Aqara",
+   "nombre": "Aqara Hub M100: controlador Matter, Thread y Zigbee"
+  },
+  {
+   "asin": "B07D37VDM3",
+   "area": "Domótica",
+   "grupo": "Sensores",
+   "marca": "Aqara",
+   "nombre": "Aqara: sensor de puerta y ventana"
+  },
+  {
+   "asin": "B0B9XZ1D51",
+   "area": "Domótica",
+   "grupo": "Sensores",
+   "marca": "Aqara",
+   "nombre": "Aqara P1: sensor de movimiento"
+  },
+  {
+   "asin": "B0D5QPH3T6",
+   "area": "Domótica",
+   "grupo": "Sensores",
+   "marca": "Aqara",
+   "nombre": "Aqara FP1E: sensor de presencia por radar"
+  },
+  {
+   "asin": "B0BJ6B1LPQ",
+   "area": "Domótica",
+   "grupo": "Sensores",
+   "marca": "X-Sense",
+   "nombre": "X-Sense: detectores de fugas de agua wifi (kit de 3)"
+  },
+  {
+   "asin": "B08LP6MB7H",
+   "area": "Herramientas",
+   "grupo": "Taladros y atornilladores",
+   "marca": "Bosch",
+   "nombre": "Bosch UniversalDrill 18V: taladro atornillador con 2 baterías"
+  },
+  {
+   "asin": "B081K5YWFH",
+   "area": "Herramientas",
+   "grupo": "Taladros y atornilladores",
+   "marca": "Bosch Professional",
+   "nombre": "Bosch Professional GSR 18V-55: atornillador con 2 baterías 4 Ah"
+  },
+  {
+   "asin": "B09PLLDCG4",
+   "area": "Herramientas",
+   "grupo": "Taladros y atornilladores",
+   "marca": "Bosch",
+   "nombre": "Bosch EasyDrill 18V-40: atornillador con batería"
+  },
+  {
+   "asin": "B08X6SVRRC",
+   "area": "Herramientas",
+   "grupo": "Martillos SDS",
+   "marca": "Bosch Professional",
+   "nombre": "Bosch Professional GBH 2-21: martillo perforador SDS-plus"
+  },
+  {
+   "asin": "B01M07Y8IR",
+   "area": "Herramientas",
+   "grupo": "Martillos SDS",
+   "marca": "Bosch Professional",
+   "nombre": "Bosch Professional GBH 2-26 F: martillo combinado SDS-plus"
+  },
+  {
+   "asin": "B00H3ZWN5U",
+   "area": "Herramientas",
+   "grupo": "Amoladoras",
+   "marca": "Makita",
+   "nombre": "Makita GA5040CF01: amoladora 125 mm 1400 W"
+  },
+  {
+   "asin": "B01E85JYZE",
+   "area": "Herramientas",
+   "grupo": "Amoladoras",
+   "marca": "DeWalt",
+   "nombre": "DeWalt DWE4057: miniamoladora 125 mm 800 W"
+  },
+  {
+   "asin": "B0748CVTQ6",
+   "area": "Herramientas",
+   "grupo": "Medir y nivelar",
+   "marca": "Bosch",
+   "nombre": "Bosch UniversalLevel 2: nivel láser de líneas cruzadas con trípode"
+  },
+  {
+   "asin": "B087MSBKB3",
+   "area": "Herramientas",
+   "grupo": "Medir y nivelar",
+   "marca": "Bosch",
+   "nombre": "Bosch UniversalLevel 360: nivel láser 360°"
+  },
+  {
+   "asin": "B01M9CBCG1",
+   "area": "Herramientas",
+   "grupo": "Medir y nivelar",
+   "marca": "Leica",
+   "nombre": "Leica DISTO D1: medidor láser 40 m con Bluetooth"
+  },
+  {
+   "asin": "B01D080IU0",
+   "area": "Herramientas",
+   "grupo": "Multiherramientas",
+   "marca": "Bosch",
+   "nombre": "Bosch PMF 250 CES: multiherramienta oscilante"
+  },
+  {
+   "asin": "B09DY91YN4",
+   "area": "Herramientas",
+   "grupo": "Cortadoras de azulejo",
+   "marca": "RUBI",
+   "nombre": "RUBI Star-63: cortadora manual de azulejo 63 cm"
+  },
+  {
+   "asin": "B0095IE8ME",
+   "area": "Herramientas",
+   "grupo": "Cortadoras de azulejo",
+   "marca": "RUBI",
+   "nombre": "RUBI Basic-50: cortadora manual con tope lateral"
+  },
+  {
+   "asin": "B09MD7GXXL",
+   "area": "Herramientas",
+   "grupo": "Aspiradores de obra",
+   "marca": "Kärcher",
+   "nombre": "Kärcher WD 3: aspirador sólidos y líquidos 17 L"
+  },
+  {
+   "asin": "B0CZ6V5GP3",
+   "area": "Herramientas",
+   "grupo": "Aspiradores de obra",
+   "marca": "Kärcher",
+   "nombre": "Kärcher WD 3 P: aspirador con toma para herramientas, 19 L inox"
+  },
+  {
+   "asin": "B00CWKEJD0",
+   "area": "Obra y protección",
+   "grupo": "Siliconas y adhesivos",
+   "marca": "Ceys",
+   "nombre": "Ceys Stop Moho: silicona baños y cocinas, secado rápido"
+  },
+  {
+   "asin": "B00N2SYQTS",
+   "area": "Obra y protección",
+   "grupo": "Siliconas y adhesivos",
+   "marca": "Sika",
+   "nombre": "Sika Sanisil: silicona antimoho blanca 300 ml"
+  },
+  {
+   "asin": "B009H0R372",
+   "area": "Obra y protección",
+   "grupo": "Siliconas y adhesivos",
+   "marca": "Pattex",
+   "nombre": "Pattex No Más Clavos Original: adhesivo de montaje"
+  },
+  {
+   "asin": "B01LB1DOCC",
+   "area": "Obra y protección",
+   "grupo": "Siliconas y adhesivos",
+   "marca": "Pattex",
+   "nombre": "Pattex No Más Clavos Cristal: adhesivo transparente"
+  },
+  {
+   "asin": "B075J51QN6",
+   "area": "Pintura",
+   "grupo": "Pintura plástica",
+   "marca": "Bruguer",
+   "nombre": "Bruguer Essential: pintura plástica blanca mate 15 L"
+  },
+  {
+   "asin": "B015EJOYEY",
+   "area": "Pintura",
+   "grupo": "Pintura plástica",
+   "marca": "Bruguer",
+   "nombre": "Bruguer Emultone: pintura plástica extramate blanca 15 L"
+  },
+  {
+   "asin": "B00UCMGEDI",
+   "area": "Pintura",
+   "grupo": "Pintura plástica",
+   "marca": "Bruguer",
+   "nombre": "Bruguer Techos: pintura blanca mate 2,5 L"
+  },
+  {
+   "asin": "B09PRBQNRG",
+   "area": "Pintura",
+   "grupo": "Cinta de pintor",
+   "marca": "tesa",
+   "nombre": "tesa Excellent: cinta de pintor 50 m × 30 mm (3 rollos)"
+  },
+  {
+   "asin": "B09GBG127K",
+   "area": "Pintura",
+   "grupo": "Cinta de pintor",
+   "marca": "tesa",
+   "nombre": "tesa Perfect+: cinta de pintor tipo washi 50 m × 19 mm"
+  },
+  {
+   "asin": "B0CH1NWR14",
+   "area": "Suelos",
+   "grupo": "Vinílico autoadhesivo",
+   "marca": "TIBBERS",
+   "nombre": "Suelo vinílico autoadhesivo imitación madera, 10 m²"
+  },
+  {
+   "asin": "B09RB81DJ7",
+   "area": "Suelos",
+   "grupo": "Rodapiés",
+   "marca": "ProfiPVC",
+   "nombre": "Rodapié flexible PVC autoadhesivo 50 × 20 mm, 20 m"
+  },
+  {
+   "asin": "B0BWRH7YZF",
+   "area": "Suelos",
+   "grupo": "Rodapiés",
+   "marca": "IVEOPPE",
+   "nombre": "Rodapié PVC autoadhesivo blanco 32 mm, 20 m"
+  },
+  {
+   "asin": "B005OTXSQA",
+   "area": "Decoración y revestimientos",
+   "grupo": "Papel pintado",
+   "marca": "EDEM",
+   "nombre": "Papel pintado vinílico con textura de paneles, blanco"
+  },
+  {
+   "asin": "B0BW4KCVVB",
+   "area": "Decoración y revestimientos",
+   "grupo": "Papel pintado",
+   "marca": "GAULAN",
+   "nombre": "Papel pintado vinílico con textura espiga, 10 m"
+  },
+  {
+   "asin": "B0D6N3N1QL",
+   "area": "Decoración y revestimientos",
+   "grupo": "Estores",
+   "marca": "",
+   "nombre": "Estor enrollable opaco blanco 140 × 175 cm"
+  },
+  {
+   "asin": "B0C4V2XSVC",
+   "area": "Decoración y revestimientos",
+   "grupo": "Estores",
+   "marca": "Estores Basic",
+   "nombre": "Estor opaco sin tornillos para ventana abatible"
+  },
+  {
+   "asin": "B08NWCH36B",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Toalleros eléctricos",
+   "marca": "",
+   "nombre": "Radiador toallero eléctrico 1200 × 500 mm"
+  },
+  {
+   "asin": "B0CNTRKKHF",
+   "area": "Calefacción y agua caliente",
+   "grupo": "Toalleros eléctricos",
+   "marca": "HJM",
+   "nombre": "HJM Noor 750: toallero eléctrico bajo consumo programable"
+  },
+  {
+   "asin": "B0H8DHNRPB",
+   "area": "Cocina",
+   "grupo": "Fregaderos",
+   "marca": "Korman",
+   "nombre": "Fregadero inox bajo encimera 50 × 40 cm"
+  }
+ ]
 }

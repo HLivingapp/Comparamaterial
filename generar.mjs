@@ -656,7 +656,7 @@ for (const c of categorias) {
   writeFileSync(join(salida, ruta, "index.html"), html);
   rutas.push(ruta);
 }
-generarAmazon({ salida, rutas, pagina, esc, eur, icono, SITE, mesTexto, rutaCat });
+generarAmazon({ salida, rutas, pagina, esc, eur, icono, SITE, mesTexto, rutaCat, categorias });
 generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
