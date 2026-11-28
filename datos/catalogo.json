@@ -5155,6 +5155,69 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "BASTIDOR CON CISTERNA ROCA DUPLO WC ONE COMPACT",
+      "precio": 238,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/bastidor-con-cisterna-roca-duplo-wc-one-compact-25069983.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor empotrable ROCA para inodoro suspendido, instalación en tabique ligero, altura 112 cm, descarga 2/4-6 L (A8900200Z0)",
+      "precio": 176,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-empotrable-roca-para-inodoro-suspendido-instalacion-en-tabique-ligero-altura-112-cm-descarga-2-4-6-l-a8900200z0-96652109.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor GROHE Arena para anclaje WC suspendido con cisterna",
+      "precio": 138.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-grohe-arena-para-anclaje-wc-suspendido-con-cisterna-81972286.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor GROHE by Sensea para anclaje WC suspendido con cisterna",
+      "precio": 153,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-grohe-by-sensea-para-anclaje-wc-suspendido-con-cisterna-91427285.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor GROHE Rapid SL bajo ventana para anclaje WC suspendido con cisterna",
+      "precio": 299,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-grohe-rapid-sl-bajo-ventana-para-anclaje-wc-suspendido-con-cisterna-82280492.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor para anclaje WC suspendido IDEAL STANDARD Prosys 115x50x9 cm cromo",
+      "precio": 153,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-para-anclaje-wc-suspendido-ideal-standard-prosys-115x50x9-cm-cromo-82423367.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor para anclaje WC suspendido ROCA Duplo One 112x47.5x16 cm",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-para-anclaje-wc-suspendido-roca-duplo-one-112x47-5x16-cm-83667185.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
       "nombre": "Bastidor Rapid SL + inodoro sin brida Swiss Aqua Technologies + Placa de accionamiento negro mate (RapidSL-SATrimless-KF0)",
@@ -5162,6 +5225,51 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/bastidor-rapid-sl-inodoro-sin-brida-swiss-aqua-technologies-placa-de-accionamiento-negro-mate-rapidsl-satrimless-kf0-92851507.html",
       "fecha": "2026-11-25"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor Roca Active One para anclaje WC suspendido con cisterna compacta",
+      "precio": 259,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-roca-active-one-para-anclaje-wc-suspendido-con-cisterna-compacta-83950710.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bastidor Roca Active one para anclaje WC suspendido inteligente Inwash Alpine Roca",
+      "precio": 329,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bastidor-roca-active-one-para-anclaje-wc-suspendido-inteligente-inwash-alpine-roca-75966265.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "BASTIDOR ROCA CON CISTERNA DUPLO ONE SMART 10.7CM",
+      "precio": 315,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/bastidor-roca-con-cisterna-duplo-one-smart-10-7cm-25056384.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "BASTIDOR WC TEKMODUL BAJO 12.5CM",
+      "precio": 145,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/bastidor-wc-tekmodul-bajo-12-5cm-10927700.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "BASTIDOR WC TEKMODUL SLIM 8.4CM",
+      "precio": 135,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/bastidor-wc-tekmodul-slim-8-4cm-10927693.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -6754,6 +6862,24 @@
       "precio": 96.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/costado-para-mueble-de-cocina-tokyo-blanco-mate-new-h-137-6-x-l-60-cm-88491573.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Delta 50 Placa de descarga doble pulsador, negro mate (115.119.14.1)",
+      "precio": 70.89,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/delta-50-placa-de-descarga-doble-pulsador-negro-mate-115-119-14-1-88460739.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Delta20 pulsador de dos toques, blanco alpino (115.127.11.1)",
+      "precio": 45.89,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/delta20-pulsador-de-dos-toques-blanco-alpino-115-127-11-1-84688383.html",
       "fecha": "2026-11-28"
     },
     {
@@ -9045,6 +9171,15 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Geberit Pack Duofix: bastidor con cisterna empotrada y pulsador Delta 01 blanco brillo (111.154.11.3)",
+      "precio": 239.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/geberit-pack-duofix-bastidor-con-cisterna-empotrada-y-pulsador-delta-01-blanco-brillo-111-154-11-3-84792463.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "GME - Mampara de Ducha Frontal de 130 cm en Negro Mate, 1 Fija + 1 Puerta Abatible, Serie Glass",
       "precio": 375,
       "unidad": "ud",
@@ -10139,6 +10274,24 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/grifos-de-ducha-de-bano-de-acero-inoxidable-grifo-de-banera-triple-grifo-mezclador-de-agua-fria-y-caliente-95197768.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Grohe Conjunto de bastidor de soporte Grohe Rapid SL (38811000)",
+      "precio": 209.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/grohe-conjunto-de-bastidor-de-soporte-grohe-rapid-sl-38811000-82280489.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "GROHE Even Placa de mando para inodoro negra",
+      "precio": 98.6,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/grohe-even-placa-de-mando-para-inodoro-negra-85114419.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -14337,6 +14490,24 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Pack Bastidor Duofix 112 cm + Pulsador Delta20 Cromo + Fijaciones de pared (458.134.21.3)",
+      "precio": 239.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pack-bastidor-duofix-112-cm-pulsador-delta20-cromo-fijaciones-de-pared-458-134-21-3-97231209.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pack bastidor Geberit Delta Duofix 112 cm + Placa de accionamiento blanca Delta01 + fijaciones murales (111.154.11.2)",
+      "precio": 210.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pack-bastidor-geberit-delta-duofix-112-cm-placa-de-accionamiento-blanca-delta01-fijaciones-murales-111-154-11-2-17365452.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "Pack Cisterna Rapid SL Grohe + taza Swiss Aqua Technologies sin bridas, fijaciones ocultas + placa Skate cromada",
       "precio": 318.99,
       "unidad": "ud",
@@ -15037,6 +15208,159 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento doble pulsador en plástico, negro mate (A890220206)",
+      "precio": 49.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-doble-pulsador-en-plastico-negro-mate-a890220206-84829187.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento PL7 Dual negro mate - ROCA",
+      "precio": 99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-pl7-dual-negro-mate-roca-85802058.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC Geberit Sigma20 redonda de doble pulsador - cromado mate/satinado - Ref. 115.882.JQ.1",
+      "precio": 62.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-geberit-sigma20-redonda-de-doble-pulsador-cromado-mate-satinado-ref-115-882-jq-1-78628889.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido GROHE Sensea cromado brillante",
+      "precio": 65.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-grohe-sensea-cromado-brillante-91427293.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido GROHE Sensea negro mate",
+      "precio": 59.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-grohe-sensea-negro-mate-91427294.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido GROHE Skate Air cromado brillante",
+      "precio": 45.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-grohe-skate-air-cromado-brillante-81971443.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido IDEAL STANDARD OLEAS dorado satinado",
+      "precio": 109,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-ideal-standard-oleas-dorado-satinado-93898261.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido IDEAL STANDARD Prosys negro mate",
+      "precio": 70.79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-ideal-standard-prosys-negro-mate-82423469.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido ROCA Active One negro mate",
+      "precio": 53.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-roca-active-one-negro-mate-83950718.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido ROCA Active One negro mate",
+      "precio": 49.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-roca-active-one-negro-mate-83950722.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido ROCA Pl1 blanco",
+      "precio": 44.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-roca-pl1-blanco-83667309.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de accionamiento WC suspendido ROCA Universal Teras/Heracles blanco brillante",
+      "precio": 31.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-roca-universal-teras-heracles-blanco-brillante-82908024.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de control Grohe Skate Cosmopolitan (38732DL0)",
+      "precio": 120.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-control-grohe-skate-cosmopolitan-38732dl0-90108511.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de control Grohe Skate Cosmopolitan, Cool Sunrise (38732GL0)",
+      "precio": 116,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-control-grohe-skate-cosmopolitan-cool-sunrise-38732gl0-90108518.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de descarga GEBERIT Sigma 01 3/6L - Blanca 115.770.11.5",
+      "precio": 44.21,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-descarga-geberit-sigma-01-3-6l-blanca-115-770-11-5-19385653.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de descarga Sigma30 Double Touch, negro mate (115.883.16.1)",
+      "precio": 56.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-descarga-sigma30-double-touch-negro-mate-115-883-16-1-68792466.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Placa de descarga Sigma30 Double Touch, negro mate (115.883.16.1)",
+      "precio": 82.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-descarga-sigma30-double-touch-negro-mate-115-883-16-1-82655088.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Baño y cocina",
       "nombre": "PLACA DE GAS 4 FUEGOS BEKO HIGG 64103 SXL",
@@ -15286,6 +15610,15 @@
       "precio": 355,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/placa-de-induccion-whirlpool-ws-b2360-bf-con-3-zonas-de-coccion-zona-grande-de-28cm-7200-w-negro-59-cm-84799914.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "PLACA DE MANDO MOD. SIGMA01 GEBERIT Cromo-Mate",
+      "precio": 105,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/placa-de-mando-mod-sigma01-geberitcromo-mate-94345528.html",
       "fecha": "2026-11-28"
     },
     {
@@ -16279,6 +16612,132 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador de descarga de doble botón Sigma01, cromo mate (115.770.JQ.5)",
+      "precio": 80,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-de-descarga-de-doble-boton-sigma01-cromo-mate-115-770-jq-5-85153057.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador delta 50, dos toques, blanco alpino (115.119.11.1)",
+      "precio": 49.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-delta-50-dos-toques-blanco-alpino-115-119-11-1-82508056.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR DUAL ANTIVANDALICO INOXIDABLE",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-dual-antivandalico-inoxidable-25023844.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR DUAL BLANCO",
+      "precio": 37.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-dual-blanco-10887604.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR DUAL CROMO",
+      "precio": 44,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-dual-cromo-10887625.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR DUAL NEGRO",
+      "precio": 46,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-dual-negro-25023762.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador dual SIGMA 01 en cromo brillante, compatible con bastidores SIGMA DUOFIX UP 320 y 720",
+      "precio": 38.29,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-dual-sigma-01-en-cromo-brillante-compatible-con-bastidores-sigma-duofix-up-320-y-720-90200667.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador GROHE Start cromado mate para cisterna WC suspendido",
+      "precio": 55.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-grohe-start-cromado-mate-para-cisterna-wc-suspendido-81972308.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador para inodoro DUOFIX Sigma 20, Negro mate (115.882.16.1)",
+      "precio": 49.3,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-para-inodoro-duofix-sigma-20-negro-mate-115-882-16-1-85474744.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador ROCA Active negro mate para cisterna WC suspendido",
+      "precio": 35.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-roca-active-negro-mate-para-cisterna-wc-suspendido-85122897.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Pulsador ROCA PL2 cromado para cisterna WC suspendido",
+      "precio": 107,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pulsador-roca-pl2-cromado-para-cisterna-wc-suspendido-83667253.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR TEKA CROMO",
+      "precio": 26,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-teka-cromo-10662603.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR TEKA STROHM BLANCO",
+      "precio": 17,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-teka-strohm-blanco-10927784.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "PULSADOR TEKA STROHM NEGRO",
+      "precio": 39,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/pulsador-teka-strohm-negro-10927742.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "pereda",
       "categoria": "Baño y cocina",
       "nombre": "R.27281000 conj.ducha term.crometta e 240 ecosmart Hansgrohe",
@@ -16376,6 +16835,15 @@
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/pack-wc-roca-adagio-con-tapa-amortiguada-93493845.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Roca Bastidor ROCA ACTIVE para inodoro suspendido (A89011001B)",
+      "precio": 139.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/roca-bastidor-roca-active-para-inodoro-suspendido-a89011001b-82926647.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -16731,6 +17199,33 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Roca Pack Active: bastidor con cisterna empotrada, pulsador blanco brillo y anclajes (A89011001B)",
+      "precio": 161.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/roca-pack-active-bastidor-con-cisterna-empotrada-pulsador-blanco-brillo-y-anclajes-a89011001b-90908858.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Roca Pack Duplo One: bastidor con cisterna empotrada y pulsador PL1 blanco brillo (A890070020)",
+      "precio": 219.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/roca-pack-duplo-one-bastidor-con-cisterna-empotrada-y-pulsador-pl1-blanco-brillo-a890070020-90525996.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Roca Pack Duplo One: bastidor con cisterna empotrada y pulsador PL7 negro mate (A890070020)",
+      "precio": 186.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/roca-pack-duplo-one-bastidor-con-cisterna-empotrada-y-pulsador-pl7-negro-mate-a890070020-90525998.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "Roca Pack Meridian: inodoro completo Rimless Vortex adosado a pared con salida dual, cisterna de alimentación inferior oculta y tapa amortiguada",
       "precio": 399,
       "unidad": "ud",
@@ -16880,6 +17375,15 @@
       "unidad": "lote",
       "enlace": "https://www.leroymerlin.es/productos/pack-wc-bastidor-roca-duplo-one-pulsador-pl10-blanco-mate-wc-koller-pool-round-smart-52-cm-blanco-brillo-soft-close-74761743.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "ROCA Placa de accionamiento doble pulsador en plástico, blanco (A890220200)",
+      "precio": 29.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/roca-placa-de-accionamiento-doble-pulsador-en-plastico-blanco-a890220200-75464223.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -79282,33 +79786,6 @@
     {
       "tienda": "leroy",
       "categoria": "Fontanería y saneamiento",
-      "nombre": "Geberit Delta Duofix pack bastidor 112 cm + placa Delta01 blanca + fijaciones (111.154.11.2)",
-      "precio": 202.99,
-      "unidad": "lote",
-      "enlace": "https://www.leroymerlin.es/productos/pack-bastidor-geberit-delta-duofix-112-cm-placa-de-accionamiento-blanca-delta01-fijaciones-murales-111-154-11-2-17365452.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Geberit Duofix Sigma20 pulsador negro mate 115.882.16.1",
-      "precio": 49.3,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/pulsador-para-inodoro-duofix-sigma-20-negro-mate-115-882-16-1-85474744.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Geberit Sigma01 placa de descarga 3/6 L blanca 115.770.11.5",
-      "precio": 44.21,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/placa-de-descarga-geberit-sigma-01-3-6l-blanca-115-770-11-5-19385653.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
       "nombre": "Grifo de bola de agua multifuncional 1\"",
       "precio": 20.62,
       "unidad": "ud",
@@ -79376,42 +79853,6 @@
       "precio": 9.44,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/grifo-para-manguera-regulable-3-4-1-con-toma-automatica-89817360.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Grohe Arena bastidor WC suspendido con cisterna",
-      "precio": 138.8,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-grohe-arena-para-anclaje-wc-suspendido-con-cisterna-81972286.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Grohe by Sensea bastidor para WC suspendido con cisterna",
-      "precio": 153,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-grohe-by-sensea-para-anclaje-wc-suspendido-con-cisterna-91427285.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Grohe Sensea placa de accionamiento WC suspendido negro mate",
-      "precio": 59.99,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-grohe-sensea-negro-mate-91427294.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Ideal Standard Prosys bastidor WC suspendido 115x50x9 cm",
-      "precio": 153,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-para-anclaje-wc-suspendido-ideal-standard-prosys-115x50x9-cm-cromo-82423367.html",
       "fecha": "2026-11-26"
     },
     {
@@ -79847,42 +80288,6 @@
       "fecha": "2026-11-28"
     },
     {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Pulsador WC dual antivandálico inoxidable",
-      "precio": 169,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-dual-antivandalico-inoxidable-25023844.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Pulsador WC dual blanco",
-      "precio": 37.1,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-dual-blanco-10887604.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Pulsador WC dual cromo",
-      "precio": 44,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-dual-cromo-10887625.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Pulsador WC dual negro",
-      "precio": 46,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-dual-negro-25023762.html",
-      "fecha": "2026-11-26"
-    },
-    {
       "tienda": "leroy",
       "categoria": "Fontanería y saneamiento",
       "nombre": "Racor Press de 16 mm de diámetro 1/2\"",
@@ -80137,33 +80542,6 @@
     {
       "tienda": "leroy",
       "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Active bastidor para inodoro suspendido (A89011001B)",
-      "precio": 139.9,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/roca-bastidor-roca-active-para-inodoro-suspendido-a89011001b-82926647.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Active One bastidor para WC suspendido inteligente Inwash Alpine",
-      "precio": 329,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-roca-active-one-para-anclaje-wc-suspendido-inteligente-inwash-alpine-roca-75966265.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Active One bastidor WC suspendido con cisterna compacta",
-      "precio": 259,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-roca-active-one-para-anclaje-wc-suspendido-con-cisterna-compacta-83950710.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
       "nombre": "Roca Basic Tank One Compact cisterna tanque alto",
       "precio": 145,
       "unidad": "ud",
@@ -80173,37 +80551,10 @@
     {
       "tienda": "leroy",
       "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca bastidor empotrable inodoro suspendido tabique ligero 112 cm 2/4-6 L (A8900200Z0)",
-      "precio": 137.8,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-empotrable-roca-para-inodoro-suspendido-instalacion-en-tabique-ligero-altura-112-cm-descarga-2-4-6-l-a8900200z0-96652109.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Duplo One bastidor WC suspendido 112x47,5x16 cm",
-      "precio": 199,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/bastidor-para-anclaje-wc-suspendido-roca-duplo-one-112x47-5x16-cm-83667185.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
       "nombre": "Roca Duplo One Smart bastidor para WC suspendido",
       "precio": 293.75,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/bastidor-roca-duplo-one-smart-para-anclaje-wc-suspendido-83667207.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Duplo WC One Compact bastidor con cisterna",
-      "precio": 238,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/bastidor-con-cisterna-roca-duplo-wc-one-compact-25069983.html",
       "fecha": "2026-11-26"
     },
     {
@@ -80240,42 +80591,6 @@
       "precio": 258.45,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/cisterna-de-ceramica-roca-meridian-35-5-x38-5-x14-cm-19976033.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Pack Active bastidor con cisterna empotrada, pulsador blanco brillo y anclajes",
-      "precio": 161.9,
-      "unidad": "lote",
-      "enlace": "https://www.leroymerlin.es/productos/roca-pack-active-bastidor-con-cisterna-empotrada-pulsador-blanco-brillo-y-anclajes-a89011001b-90908858.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Pack Duplo One bastidor con cisterna empotrada y pulsador PL1 blanco brillo",
-      "precio": 219.9,
-      "unidad": "lote",
-      "enlace": "https://www.leroymerlin.es/productos/roca-pack-duplo-one-bastidor-con-cisterna-empotrada-y-pulsador-pl1-blanco-brillo-a890070020-90525996.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca Pack Duplo One bastidor con cisterna empotrada y pulsador PL7 negro mate",
-      "precio": 219.9,
-      "unidad": "lote",
-      "enlace": "https://www.leroymerlin.es/productos/roca-pack-duplo-one-bastidor-con-cisterna-empotrada-y-pulsador-pl7-negro-mate-a890070020-90525998.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Roca PL1 placa de accionamiento WC suspendido blanco",
-      "precio": 44.9,
-      "unidad": "ud",
-      "enlace": "https://www.leroymerlin.es/productos/placa-de-accionamiento-wc-suspendido-roca-pl1-blanco-83667309.html",
       "fecha": "2026-11-26"
     },
     {
@@ -80816,51 +81131,6 @@
       "precio": 3.05,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/te-press-reducida-20-16-20-82068993.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Teka pulsador WC cromo",
-      "precio": 26,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-teka-cromo-10662603.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Teka Strohm pulsador WC blanco",
-      "precio": 17,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-teka-strohm-blanco-10927784.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Teka Strohm pulsador WC negro",
-      "precio": 39,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/pulsador-teka-strohm-negro-10927742.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Teka Tekmodul bastidor WC bajo 12,5 cm",
-      "precio": 145,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/bastidor-wc-tekmodul-bajo-12-5cm-10927700.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Fontanería y saneamiento",
-      "nombre": "Teka Tekmodul Slim bastidor WC 8,4 cm",
-      "precio": 135,
-      "unidad": "ud",
-      "enlace": "https://www.obramat.es/productos/bastidor-wc-tekmodul-slim-8-4cm-10927693.html",
       "fecha": "2026-11-26"
     },
     {
@@ -86237,6 +86507,51 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora Cable BOSCH PWS 750W - Disco 115 mm",
+      "precio": 46.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-cable-bosch-pws-750w-disco-115-mm-85114563.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora con cable BLACK+ DECKER Adbeg115 760 w disco 115mm + disco",
+      "precio": 38.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-con-cable-black-decker-adbeg115-760-w-disco-115mm-disco-89166416.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora con cable MAKITA Ga4530R 720W disco 115mm",
+      "precio": 61.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-con-cable-makita-ga4530r-720w-disco-115mm-80139218.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora de ángulo con cable BOSCH PROFESSIONAL - Disco ⌀ 115 mm - Potencia 750 W - 11.000 RPM",
+      "precio": 59.4,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-de-angulo-con-cable-bosch-professional-disco-115-mm-potencia-750-w-11-000-rpm-84157798.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora de ángulo con cable MAKITA Ga9050R 2000W disco 230mm",
+      "precio": 119,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-de-angulo-con-cable-makita-ga9050r-2000w-disco-230mm-80139228.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Obra y protección",
       "nombre": "AMOLADORA DEWALT DWE4056-QS 800W 115MM",
@@ -86248,11 +86563,38 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Amoladora DEXTER Power X-Change 18 V disco 125 mm + 1 batería 4,0 Ah + cargador",
+      "nombre": "Amoladora DEXTER - Disco ⌀ 125 mm - Potencia 800 W - 12.000 RPM",
+      "precio": 39.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-dexter-disco-125-mm-potencia-800-w-12-000-rpm-88962015.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora DEXTER POWER X-CHANGE 18 V - Disco ⌀ 125 mm + 1 Batería 4.0 Ah + Cargador",
       "precio": 99.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/amoladora-dexter-power-x-change-18-v-disco-125-mm-1-bateria-4-0-ah-cargador-93287720.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora EINHELL PROFESSIONAL AXXIO 18/125 Q - Sin batería - Compatible con Power X-Change",
+      "precio": 116.59,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-einhell-professional-axxio-18-125-q-sin-bateria-compatible-con-power-x-change-82973674.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora MAKITA 840W disco 125mm",
+      "precio": 79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-makita-840w-disco-125mm-82733190.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -86279,6 +86621,15 @@
       "precio": 117,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/amoladora-makita-ga9020r-2200w-230mm-10976791.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Amoladora sin cable MAKITA Dga454Z 18v disco de 115mm. Sin batería y cargador.",
+      "precio": 164.89,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/amoladora-sin-cable-makita-dga454z-18v-disco-de-115mm-sin-bateria-y-cargador-82389549.html",
       "fecha": "2026-11-28"
     },
     {
@@ -86309,12 +86660,129 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Aspirador de sólidos y líquidos KARCHER WD 3 depósito 17L y 1000 W",
+      "precio": 90.11,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aspirador-de-solidos-y-liquidos-karcher-wd-3-deposito-17l-y-1000-w-98903185.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Aspirador de sólidos y líquidos KARCHER WD 6 PS-1300 W- depósito 30 l y de acero inoxidable",
+      "precio": 225,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aspirador-de-solidos-y-liquidos-karcher-wd-6-ps-1300-w-deposito-30-l-y-de-acero-inoxidable-83802933.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Aspirador industrial DEXTER PRO - alimentación red eléctrica - 1500 W - Capacidad del depósito 30 L y de polipropileno",
+      "precio": 219,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aspirador-industrial-dexter-pro-alimentacion-red-electrica-1500-w-capacidad-del-deposito-30-l-y-de-polipropileno-96058797.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "ASPIRADOR KARCHER WD3 PREMIUM 1000W 17L",
+      "precio": 81,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/aspirador-karcher-wd3-premium-1000w-17l-10403736.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Aspirador para seco y húmedo DEXTER - alimentación red eléctrica - 1250 W - Capacidad del depósito 12 L y de propileno",
+      "precio": 37.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aspirador-para-seco-y-humedo-dexter-alimentacion-red-electrica-1250-w-capacidad-del-deposito-12-l-y-de-propileno-96058791.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Aspirador para seco y húmedo DEXTER PRO - alimentación red eléctrica - 1400 W - Capacidad del depósito 25 L y de acero",
+      "precio": 139,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aspirador-para-seco-y-humedo-dexter-pro-alimentacion-red-electrica-1400-w-capacidad-del-deposito-25-l-y-de-acero-96058796.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "ASPIRADOR STAYER BVAC 1420 1400W 20L",
+      "precio": 75,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/aspirador-stayer-bvac-1420-1400w-20l-25087517.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "ASPIRADOR STAYER VAC 2030 1600W 30L",
+      "precio": 249,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/aspirador-stayer-vac-2030-1600w-30l-25069384.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "ASPIRADOR STAYER VAC2050C 1200W 50L",
+      "precio": 189,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/aspirador-stayer-vac2050c-1200w-50l-10579695.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Obra y protección",
       "nombre": "ATORNILLADOR 3,6V 0,6AH",
       "precio": 9.95,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/atornillador-3-6v-0-6ah-10970470.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Atornillador a batería BLACK + DECKER 10.8V - 1 batería 1,5Ah de Litio, cargador 0,2A, caja y manual de instrucciones - BDCDD12-QW",
+      "precio": 49.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/atornillador-a-bateria-black-decker-10-8v-1-bateria-1-5ah-de-litio-cargador-0-2a-caja-y-manual-de-instrucciones-bdcdd12-qw-18766811.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Atornillador a batería BOSCH 12V - 2 Baterías y Xline 34 - Easydrill 1200",
+      "precio": 89.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/atornillador-a-bateria-bosch-12v-2-baterias-y-xline-34-easydrill-1200-84499574.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Atornillador a batería BOSCH 3.6V - 1 bateria - 10 puntas - IXO 7 Basic",
+      "precio": 62.13,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/atornillador-a-bateria-bosch-3-6v-1-bateria-10-puntas-ixo-7-basic-85295461.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Atornillador a batería MAKITA 18V Brushless - Sin bateria - Sin cargador - Sin maletín - DFS452Z",
+      "precio": 159.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/atornillador-a-bateria-makita-18v-brushless-sin-bateria-sin-cargador-sin-maletin-dfs452z-82357176.html",
       "fecha": "2026-11-28"
     },
     {
@@ -86617,6 +87085,123 @@
     {
       "tienda": "obramat",
       "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA ELECTRICO DU-200 EVO",
+      "precio": 329,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-electrico-du-200-evo-10700592.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA ELECTRICO RUBI",
+      "precio": 149,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-electrico-rubi-10706745.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA ELECTRICO RUBI",
+      "precio": 125,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-electrico-rubi-1030743.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA MANUAL FAST-85 RUBI 850MM CON BOLSA",
+      "precio": 199,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-manual-fast-85-rubi-850mm-con-bolsa-1250725.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA MANUAL PRACTIC-61 PLUS",
+      "precio": 62,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-manual-practic-61-plus-25120368.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA MANUAL RCH-1600 RUBI",
+      "precio": 644,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-manual-rch-1600-rubi-25120367.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR CERAMICA NEW MASTER 75 CORTAG",
+      "precio": 89,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-ceramica-new-master-75-cortag-25120400.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL 360CM SLIM CUTTER G2 RUBI",
+      "precio": 425,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-360cm-slim-cutter-g2-rubi-25063264.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL SLIM CUTTER G1 18959 RUBI 3600MM",
+      "precio": 418,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-slim-cutter-g1-18959-rubi-3600mm-10928106.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL SPEED-92 MAGNET RUBI 920MM",
+      "precio": 299,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-speed-92-magnet-rubi-920mm-10669645.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL TR710 RUBI 710MM",
+      "precio": 417,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-tr710-rubi-710mm-10669624.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL TX-1250MAX RUBI 1250MM",
+      "precio": 909,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-tx-1250max-rubi-1250mm-10806180.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "CORTADOR DE AZULEJOS MANUAL TZ-1550 RUBI 1550MM",
+      "precio": 1038,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/cortador-de-azulejos-manual-tz-1550-rubi-1550mm-10700571.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
       "nombre": "CUCHILLA INOX LISA CANTO REDONDO",
       "precio": 1.82,
       "unidad": "ud",
@@ -86795,6 +87380,123 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora de doble corte EINHELL EXPERT TE-MS 216 - Potencia 1500 W",
+      "precio": 349.48,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-de-doble-corte-einhell-expert-te-ms-216-potencia-1500-w-90210073.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "INGLETADORA DOBLE CORTE 1200W STAYER CS210 BW Ø DISCO 210MM",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ingletadora-doble-corte-1200w-stayer-cs210-bw-disco-210mm-10789751.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "INGLETADORA DOBLE CORTE 1500W VIRUTEX TM33W Ø DISCO 300MM",
+      "precio": 645,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ingletadora-doble-corte-1500w-virutex-tm33w-disco-300mm-10201646.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "INGLETADORA DOBLE CORTE 1650W MAKITA LH1040F Ø DISCO 260MM",
+      "precio": 454,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ingletadora-doble-corte-1650w-makita-lh1040f-disco-260mm-10534405.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora EINHELL TH-MS 2112 -Potencia 1600 W y disco 210 mm",
+      "precio": 108.26,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-einhell-th-ms-2112-potencia-1600-w-y-disco-210-mm-15405131.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora MAKITA LH1040F de 1650 w y disco 260 mm",
+      "precio": 479,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-makita-lh1040f-de-1650-w-y-disco-260-mm-82039911.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora METABO KGS 216 M",
+      "precio": 211.57,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-metabo-kgs-216-m-88396908.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora METABO KS 216 M Lasercut",
+      "precio": 148.37,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-metabo-ks-216-m-lasercut-88396906.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "INGLETADORA TELESCÓPICA 1200W BOSCH GCM 305-216 D Ø DISCO 216MM",
+      "precio": 399,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ingletadora-telescopica-1200w-bosch-gcm-305-216-d-disco-216mm-25046619.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "INGLETADORA TELESCÓPICA 1700W STAYER SCR216 Ø DISCO 210MM",
+      "precio": 175,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/ingletadora-telescopica-1700w-stayer-scr216-disco-210mm-10789786.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora telescópica DEXTER - Disco ⌀ 216 mm - Potencia 1700 W - 5500 RPM",
+      "precio": 175,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-telescopica-dexter-disco-216-mm-potencia-1700-w-5500-rpm-91225645.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora telescópica DEXTER - Disco ⌀ 254 mm - Potencia 2000 W - 5000 RPM",
+      "precio": 195,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-telescopica-dexter-disco-254-mm-potencia-2000-w-5000-rpm-91225647.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Ingletadora telescópica Makita LS0816F - 1200 W - Hoja 216 mm - Luz LED y extracción de polvo",
+      "precio": 332.81,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/ingletadora-telescopica-makita-ls0816f-1200-w-hoja-216-mm-luz-led-y-extraccion-de-polvo-91069052.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Obra y protección",
       "nombre": "JUEGO DE TORNILLOS PARA CISTERNA-INODORO",
@@ -86905,11 +87607,155 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Lijadora excéntrica DEXTER Power X-Change 18 V + 1 batería 2,0 Ah + cargador",
+      "nombre": "Láser Medición Distancia DEXTER - Alcance 20 Metros",
+      "precio": 25.79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/laser-medicion-distancia-dexter-alcance-20-metros-90835584.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Láser Medición Distancia DEXTER - Alcance 50 Metros",
+      "precio": 46.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/laser-medicion-distancia-dexter-alcance-50-metros-90846792.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora banda sander DEXTER 900W",
+      "precio": 84.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-banda-sander-dexter-900w-93840012.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora de pared BOSCH PROFESSIONAL 550 w de potencia + lija y maletín",
+      "precio": 306.39,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-de-pared-bosch-professional-550-w-de-potencia-lija-y-maletin-85063148.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora de pared EINHELL TC-DWS 225",
+      "precio": 94.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-de-pared-einhell-tc-dws-225-90209671.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora delta DEXTER 300W - Ideal para lijar en espacios reducidos y para superficies de madera, metal y plástico",
+      "precio": 39.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-delta-dexter-300w-ideal-para-lijar-en-espacios-reducidos-y-para-superficies-de-madera-metal-y-plastico-93840030.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA EXCENTRICA 300W MAKITA BO5041",
+      "precio": 114,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-excentrica-300w-makita-bo5041-10967894.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA EXCENTRICA A BATERIA 18V BOSCH GEX 18V-125 BRUSHLESS",
+      "precio": 123,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-excentrica-a-bateria-18v-bosch-gex-18v-125-brushless-20823656.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA EXCENTRICA A BATERIA 18V DEWALT DCW210N BRUSHLESS",
+      "precio": 155,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-excentrica-a-bateria-18v-dewalt-dcw210n-brushless-25006795.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora excéntrica DEXTER 420 W + Accesorios",
+      "precio": 54.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-excentrica-dexter-420-w-accesorios-93840028.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora Excéntrica DEXTER POWER X-CHANGE 18 V + 1 Batería 2.0 Ah + Cargador",
       "precio": 79.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/lijadora-excentrica-dexter-power-x-change-18-v-1-bateria-2-0-ah-cargador-92008059.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA ORBITAL 150W B&D BEW220-QS",
+      "precio": 27.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-orbital-150w-b-d-bew220-qs-10849720.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA ORBITAL 18V MAKITA DBO380 BRUSHLESS",
+      "precio": 127,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-orbital-18v-makita-dbo380-brushless-25056100.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA ORBITAL 190W MAKITA BO3711",
+      "precio": 77,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-orbital-190w-makita-bo3711-10069548.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA ORBITAL 200W MAKITA BO4566",
+      "precio": 77,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-orbital-200w-makita-bo4566-10613722.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "LIJADORA ORBITAL A BATERIA 18V BOSCH GSS 18V-10",
+      "precio": 115,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/lijadora-orbital-a-bateria-18v-bosch-gss-18v-10-25045617.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Lijadora Pared STANLEY FATMAX EE500S 750W 225mm + Accesorios + Bolsa",
+      "precio": 149,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lijadora-pared-stanley-fatmax-ee500s-750w-225mm-accesorios-bolsa-82248778.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -87083,6 +87929,15 @@
       "fecha": "2026-11-26"
     },
     {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "MAKITA M5802B - Sierra circular 1.050W 185mm",
+      "precio": 82.16,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/makita-m5802b-sierra-circular-1-050w-185mm-86347127.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "obramat",
       "categoria": "Obra y protección",
       "nombre": "MANGO PALETA 115MM BELLOTA M5842D",
@@ -87090,6 +87945,168 @@
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/mango-paleta-115mm-bellota-m5842d-10980585.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO BATERÍA BRUSHLESS DEWALT DCH172N 18V 1.4J",
+      "precio": 176,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-bateria-brushless-dewalt-dch172n-18v-1-4j-25055837.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO BATERÍA BRUSHLESS MAKITA DHR171Z 18V 1.2J",
+      "precio": 148,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-bateria-brushless-makita-dhr171z-18v-1-2j-10913245.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO BATERÍA MAKITA DHR202 18V 2J",
+      "precio": 123,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-bateria-makita-dhr202-18v-2j-932232.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO BOSCH GBH 3-28 DFR 800W 3.1J",
+      "precio": 327,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-bosch-gbh-3-28-dfr-800w-3-1j-10045038.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO BOSCH GBH 5-40 D 1100W 8.5J",
+      "precio": 558,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-bosch-gbh-5-40-d-1100w-8-5j-10967985.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO DEWALT D25481K 1050W 6.1J",
+      "precio": 422,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-dewalt-d25481k-1050w-6-1j-10753701.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO MAKITA HR2630 800W 2.4J",
+      "precio": 145,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-makita-hr2630-800w-2-4j-10534314.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO COMBINADO STAYER HD26BK 800W 2.8J",
+      "precio": 65,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-combinado-stayer-hd26bk-800w-2-8j-10534643.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO DEMOLEDOR BOSCH GSH5 7.5J 1100W SDS-MAX",
+      "precio": 399,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-demoledor-bosch-gsh5-7-5j-1100w-sds-max-25003491.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO DEMOLEDOR DEWALT D25810K 7.1J 1050W SDS-MAX",
+      "precio": 395,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-demoledor-dewalt-d25810k-7-1j-1050w-sds-max-10753694.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo demoledor DEXTER - 60 Julios - Potencia 1700 W",
+      "precio": 139,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-demoledor-dexter-60-julios-potencia-1700-w-91952294.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO DEMOLEDOR MAKITA HM0870C 1100W SDS-MAX",
+      "precio": 299,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-demoledor-makita-hm0870c-1100w-sds-max-10029616.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo Giratorio SDS Plus DEXTER - 3,5 Julios - Potencia 1100 W [Marca de la casa - Exclusivo en Leroy Merlin]",
+      "precio": 99.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-giratorio-sds-plus-dexter-3-5-julios-potencia-1100-w-marca-de-casa-exclusivo-en-leroy-merlin-85632143.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo giratorio sin cable STANLEY FATMAX 2.5 J",
+      "precio": 149,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-giratorio-sin-cable-stanley-fatmax-2-5-j-78404703.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo MAKITA DHR243ZJ (Cuerpo solo + MAKPAC 4)",
+      "precio": 262.81,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-makita-dhr243zj-cuerpo-solo-makpac-4-82248219.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MARTILLO PERFORADOR 18V SIN BATERIA BOSCH GBH 18V-24 C",
+      "precio": 206,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/martillo-perforador-18v-sin-bateria-bosch-gbh-18v-24-c-25047419.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo perforador DEWALT Brushless 18 V SDS Plus - 2,6 J de fuerza de impacto y 1550 RPM - Incluye empuñadura multi-posición y maletín TSTAK",
+      "precio": 171,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-dewalt-brushless-18-v-sds-plus-2-6-j-de-fuerza-de-impacto-y-1550-rpm-incluye-empunadura-multi-posicion-y-maletin-tstak-82041518.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo Perforador DEXTER - 5 Julios - Potencia 1500 W",
+      "precio": 79.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-dexter-5-julios-potencia-1500-w-82630782.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -87103,11 +88120,173 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Multiherramienta DEXTER Power X-Change 18 V + 1 batería 2,0 Ah + cargador",
+      "nombre": "Martillo perforador EINHELL PRO TP-HD 18/28 + Cargador y batería PXC 18V 4.0 Ah",
+      "precio": 236.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-einhell-pro-tp-hd-18-28-cargador-y-bateria-pxc-18v-4-0-ah-79840242.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo perforador EINHELL PROFESSIONAL TP-HD 18/28 - Con maletín y sin batería - Compatible con Power X-Change",
+      "precio": 197,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-einhell-professional-tp-hd-18-28-con-maletin-y-sin-bateria-compatible-con-power-x-change-92241948.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo perforador inalámbrico BOSCH UNIVESALHAMMER 18V, sin batería y cargador",
+      "precio": 103,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-inalambrico-bosch-univesalhammer-18v-sin-bateria-y-cargador-85686245.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo perforador SDS+ 3 Funciones WORX WT344 1250W 5,0J",
+      "precio": 150.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-perforador-sds-3-funciones-worx-wt344-1250w-5-0j-17083066.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Martillo vertical STANLEY FATMAX eEH220k 1010 W 8.5j",
+      "precio": 149,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/martillo-vertical-stanley-fatmax-eeh220k-1010-w-8-5j-82356352.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Mini herramienta eléctrica con cable DREMEL 3000 JS + 25 accesorios",
+      "precio": 80.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/mini-herramienta-electrica-con-cable-dremel-3000-js-25-accesorios-13141016.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Multiherramienta a batería DEWALT DCS356NT-XJ sin batería",
+      "precio": 183.35,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/multiherramienta-a-bateria-dewalt-dcs356nt-xj-sin-bateria-82405277.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Multiherramienta a batería WORX WX696",
+      "precio": 129.95,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/multiherramienta-a-bateria-worx-wx696-82677707.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Multiherramienta DEWALT oscilante 300W 37 accesorios",
+      "precio": 170,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/multiherramienta-dewalt-oscilante-300w-37-accesorios-81975761.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Multiherramienta DEXTER - Potencia 260 W + Accesorios",
+      "precio": 74.74,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/multiherramienta-dexter-potencia-260-w-accesorios-82630781.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Multiherramienta DEXTER POWER X-CHANGE 18V + 1 Batería 2.0Ah + Cargador",
       "precio": 89.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/multiherramienta-dexter-power-x-change-18v-1-bateria-2-0ah-cargador-92008064.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MULTIHERRAMIENTA OSCILANTE DEWALT XR 18V",
+      "precio": 153,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/multiherramienta-oscilante-dewalt-xr-18v-20299230.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "MULTILIJADORA 55W B&D BEW230BC-QS",
+      "precio": 29.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/multilijadora-55w-b-d-bew230bc-qs-25016663.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel Láser 360 Grados + Vertical DEXTER - Láser Verde",
+      "precio": 105.31,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-360-grados-vertical-dexter-laser-verde-90835582.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel Láser Autoestabilizante 3D (3 x 360º) DEXTER - Luz Verde",
+      "precio": 192.26,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-autoestabilizante-3d-3-x-360-dexter-luz-verde-90846797.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel Láser Autoestabilizante DEXTER - Luz Verde",
+      "precio": 41.53,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-autoestabilizante-dexter-luz-verde-90835580.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel láser DEWALT autoestabilizante para trípode de 3 mm a 10 m",
+      "precio": 175,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-dewalt-autoestabilizante-para-tripode-de-3-mm-a-10-m-82024877.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel Láser PRACTYL",
+      "precio": 20.52,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-practyl-90835581.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Nivel láser STANLEY para trípode de 6 mm a 10 m",
+      "precio": 56.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/nivel-laser-stanley-para-tripode-de-6-mm-a-10-m-81950772.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -87472,11 +88651,254 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Sierra circular DEXTER Power X-Change 18 V + 1 batería 4,0 Ah + cargador",
+      "nombre": "Sierra caladora EINHELL EXPERT TE-JS 18/800 + 4 Hojas Sierras - Sin batería - Compatible con Power X-Change",
+      "precio": 69.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-caladora-einhell-expert-te-js-18-800-4-hojas-sierras-sin-bateria-compatible-con-power-x-change-92241944.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR 400W B&D BES602-QS",
+      "precio": 27.95,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-400w-b-d-bes602-qs-25051497.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR 500W BOSCH PST 650",
+      "precio": 48,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-500w-bosch-pst-650-10980172.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR 710W BOSCH GST 8000 E",
+      "precio": 98,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-710w-bosch-gst-8000-e-25003274.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR 720W MAKITA 4350CT",
+      "precio": 189,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-720w-makita-4350ct-25046510.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR 750W STAYER S90 PE",
+      "precio": 75,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-750w-stayer-s90-pe-10534776.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR BATERÍA BRUSHLESS 18V BOSCH GST 18V-95 B",
+      "precio": 129,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-bateria-brushless-18v-bosch-gst-18v-95-b-25087500.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR BATERÍA BRUSHLESS 18V DEWALT DCS334N",
+      "precio": 185,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-bateria-brushless-18v-dewalt-dcs334n-25006801.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CALAR BATERÍA BRUSHLESS 18V MAKITA DJV184",
+      "precio": 159,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-calar-bateria-brushless-18v-makita-djv184-25056110.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra calar DEXTER 750 W",
+      "precio": 62.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-calar-dexter-750-w-91468358.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra calar maKita 18v 26mm djv180z",
+      "precio": 153,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-calar-makita-18v-26mm-djv180z-91982204.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra calar sin cable BOSCH EASYSAW de 18 v -70, sin batería ni cargador",
+      "precio": 62.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-calar-sin-cable-bosch-easysaw-de-18-v-70-sin-bateria-ni-cargador-84795071.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR BATERÍA BOSCH GKS 18V-57 18V 165MM",
+      "precio": 178,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-bateria-bosch-gks-18v-57-18v-165mm-25045670.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR BATERÍA MAKITA DSS610Z 18V 165MM",
+      "precio": 150,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-bateria-makita-dss610z-18v-165mm-10913266.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR BOSCH GKS 190 1400W 190MM",
+      "precio": 147,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-bosch-gks-190-1400w-190mm-10045054.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra circular cable DEXTER - Potencia 1400 W - Disco ø 190 mm + Accesorios",
+      "precio": 83.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-circular-cable-dexter-potencia-1400-w-disco-190-mm-accesorios-92101389.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra circular con cable BLACK+DECKER CS1250L-QS, 1250 w potencia ø 190 mm",
+      "precio": 68.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-circular-con-cable-black-decker-cs1250l-qs-1250-w-potencia-190-mm-31792866.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra circular de incisión MAKITA SP6000J, 1300 w potencia ø 165mm",
+      "precio": 300.56,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-circular-de-incision-makita-sp6000j-1300-w-potencia-165mm-82357125.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR DEWALT BRUSHLESS DCS570N 18V 184MM",
+      "precio": 169,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-dewalt-brushless-dcs570n-18v-184mm-25006802.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra Circular DEXTER POWER X-CHANGE 18 V + 1 Batería 4.0 Ah + Cargador",
       "precio": 99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/sierra-circular-dexter-power-x-change-18-v-1-bateria-4-0-ah-cargador-92008058.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra circular EINHELL PRO TP-CS 18/1900 Z + Cargador y batería PXC 18V 4.0 Ah",
+      "precio": 178.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-circular-einhell-pro-tp-cs-18-1900-z-cargador-y-bateria-pxc-18v-4-0-ah-79839088.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR MAKITA HS6601 1100W 165MM",
+      "precio": 123,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-makita-hs6601-1100w-165mm-10538605.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra circular Makita Hs6601J",
+      "precio": 104,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-circular-makita-hs6601j-82775002.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "SIERRA CIRCULAR STAYER CP 190 G 1600W 190MM",
+      "precio": 90,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/sierra-circular-stayer-cp-190-g-1600w-190mm-25056530.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra de calar a batería DEWALT 18 V - Incluye maletín. Sin batería ni cargador. - DCS334NT",
+      "precio": 213.67,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-de-calar-a-bateria-dewalt-18-v-incluye-maletin-sin-bateria-ni-cargador-dcs334nt-82040228.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra de calar BOSCH PROFESSIONAL GST 8000 E 710 W",
+      "precio": 103,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-de-calar-bosch-professional-gst-8000-e-710-w-19386920.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra de Calar con cable BLACK+DECKER BES610 650W con acción pendular",
+      "precio": 64.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-de-calar-con-cable-black-decker-bes610-650w-con-accion-pendular-82223121.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Sierra de Calar con Cable BOSCH PST 650 de 500 W",
+      "precio": 53.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/sierra-de-calar-con-cable-bosch-pst-650-de-500-w-14748790.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -87607,11 +89029,11 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Taladro atornillador a batería DEXTER Power X-Change 18 V + 1 batería 1,5 Ah + cargador",
+      "nombre": "Taladro atornillador a batería DEXTER POWER X-CHANGE 18V - 1 batería 1.5 Ah - Cargador de batería",
       "precio": 63.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/taladro-atornillador-a-bateria-dexter-power-x-change-18v-1-bateria-1-5-ah-cargador-de-bateria-92008062.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -87620,6 +89042,42 @@
       "precio": 149,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/taladro-atornillador-de-bateria-12v-2ah-makita-df333dsae-10806222.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro con cable BLACK + DECKER 710W - Incluye 4 brocas (2 brocas para madera 4/6mm, 2 brocas para mampostería 4/6mm) empuñadura lateral y maletín y tope de profundidad - BEH710K-QS",
+      "precio": 47.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-con-cable-black-decker-710w-incluye-4-brocas-2-brocas-para-madera-4-6mm-2-brocas-para-mamposteria-4-6mm-empunadura-lateral-y-maletin-y-tope-de-profundidad-beh710k-qs-81965236.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro con cable BOSCH PROFESSIONAL 600W - Incluye 3 brocas para mampostería. Portabrocas de sujeción rápida de 13mm. Tope de profundidad. Empuñadura adicional - GSB 13 Professional",
+      "precio": 79.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-con-cable-bosch-professional-600w-incluye-3-brocas-para-mamposteria-portabrocas-de-sujecion-rapida-de-13mm-tope-de-profundidad-empunadura-adicional-gsb-13-professional-19387032.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro con cable BOSCH PROFESSIONAL de 750W- Incluye 7 brocas para mampostería. Portabrocas de sujeción rápida 13mm. Tope de profundidad 210mm. Empuñadura adicional. Maletín - GSB 16 Professional",
+      "precio": 165,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-con-cable-bosch-professional-de-750w-incluye-7-brocas-para-mamposteria-portabrocas-de-sujecion-rapida-13mm-tope-de-profundidad-210mm-empunadura-adicional-maletin-gsb-16-professional-19387060.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro de columna EINHELL TC-BD 500 - Potencia 500 W",
+      "precio": 167,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-de-columna-einhell-tc-bd-500-potencia-500-w-83712545.html",
       "fecha": "2026-11-28"
     },
     {
@@ -87652,6 +89110,24 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
+      "nombre": "Taladro percutor a batería BOSCH 18V - 2 baterías - Cargador AL18V-20 - Maletín - EasyImpact 18V 40 2 Baterías 2,0Ah",
+      "precio": 121.18,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-percutor-a-bateria-bosch-18v-2-baterias-cargador-al18v-20-maletin-easyimpact-18v-40-2-baterias-2-0ah-83518470.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro percutor a batería BOSCH 18V Sin escobillas - 2 baterías - Universal Impact 18 60 2 Baterías 2,0Ah",
+      "precio": 145,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-percutor-a-bateria-bosch-18v-sin-escobillas-2-baterias-universal-impact-18-60-2-baterias-2-0ah-83518467.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
       "nombre": "Taladro percutor a batería DEWALT 18 V Brushless + 2 baterías 5 Ah + cargador DCK2080P2T-QW",
       "precio": 419,
       "unidad": "ud",
@@ -87661,20 +89137,20 @@
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Taladro percutor a batería DEXTER Power X-Change 18 V + 1 batería 2,5 Ah + cargador",
+      "nombre": "Taladro percutor a batería DEXTER POWER X-CHANGE 18V - 1 batería 2.5 Ah - Cargador de batería",
       "precio": 71.99,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/taladro-percutor-a-bateria-dexter-power-x-change-18v-1-bateria-2-5-ah-cargador-de-bateria-92008061.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
       "categoria": "Obra y protección",
-      "nombre": "Taladro percutor a batería DEXTER Power X-Change 18 V Brushless + 2 baterías 2,0 Ah + cargador",
+      "nombre": "Taladro percutor a batería DEXTER POWER X-CHANGE 18V Brushless - 2 baterías 2.0 Ah - Cargador de batería",
       "precio": 123,
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/taladro-percutor-a-bateria-dexter-power-x-change-18v-brushless-2-baterias-2-0-ah-cargador-de-bateria-92008060.html",
-      "fecha": "2026-11-26"
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "obramat",
@@ -87689,7 +89165,7 @@
       "tienda": "obramat",
       "categoria": "Obra y protección",
       "nombre": "TALADRO PERCUTOR BATERÍA BOSCH GSB 18V-45 18V 45Nm",
-      "precio": 95,
+      "precio": 94,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/taladro-percutor-bateria-bosch-gsb-18v-45-18v-45nm-25047526.html",
       "fecha": "2026-11-28"
@@ -87715,8 +89191,17 @@
     {
       "tienda": "obramat",
       "categoria": "Obra y protección",
+      "nombre": "TALADRO PERCUTOR BATERÍA DEWALT DCD709M2T-QW 18V BRUSHLESS 4AH",
+      "precio": 244,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/taladro-percutor-bateria-dewalt-dcd709m2t-qw-18v-brushless-4ah-25059727.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
       "nombre": "TALADRO PERCUTOR BATERÍA DEWALT DCD796D2-QW 18V BRUSHLESS 2AH",
-      "precio": 162,
+      "precio": 158,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/taladro-percutor-bateria-dewalt-dcd796d2-qw-18v-brushless-2ah-10761086.html",
       "fecha": "2026-11-28"
@@ -87728,6 +89213,15 @@
       "precio": 288,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/taladro-percutor-bateria-dewalt-dcd996p1-18v-brushless-5ah-10946033.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Obra y protección",
+      "nombre": "TALADRO PERCUTOR BATERÍA MAKITA DHP485 18V BRUSHLESS",
+      "precio": 75,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/taladro-percutor-bateria-makita-dhp485-18v-brushless-25055644.html",
       "fecha": "2026-11-28"
     },
     {
@@ -87782,6 +89276,15 @@
       "precio": 69,
       "unidad": "ud",
       "enlace": "https://www.obramat.es/productos/taladro-percutor-bosch-gsb600-600w-10790262.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Obra y protección",
+      "nombre": "Taladro percutor con cable DEXTER - 650 W - 16 Nm - Longitud del cable de 3 metros",
+      "precio": 35.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/taladro-percutor-con-cable-dexter-650-w-16-nm-longitud-del-cable-de-3-metros-82550078.html",
       "fecha": "2026-11-28"
     },
     {
