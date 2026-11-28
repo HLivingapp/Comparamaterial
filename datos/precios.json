@@ -83,6 +83,18 @@
     "pereda": {
       "nombre": "Saneamientos Pereda",
       "web": "https://saneamientospereda.es"
+    },
+    "woodly": {
+      "nombre": "Woodly",
+      "web": "https://woodly.es"
+    },
+    "barcelonaled": {
+      "nombre": "BarcelonaLED",
+      "web": "https://www.barcelonaled.com"
+    },
+    "masterled": {
+      "nombre": "MasterLED",
+      "web": "https://masterled.es"
     }
   },
   "materiales": [

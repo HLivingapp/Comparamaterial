@@ -38,6 +38,16 @@ export function reglasRobots(texto, agente = AGENTE) {
   const propio = grupos.filter((g) => g.agentes.some((a) => a !== "*" && nombre.includes(a)));
   return (propio.length ? propio : grupos.filter((g) => g.agentes.includes("*"))).flatMap((g) => g.reglas);
 }
+// Crawl-delay (segundos) del grupo «*» o del nuestro, si la web lo pide.
+export function esperaRobots(texto) {
+  let enGrupo = false, espera = 0;
+  for (const bruta of texto.split(/\r?\n/)) {
+    const l = bruta.replace(/#.*/, "").trim(); const [k, ...r] = l.split(":"); const v = r.join(":").trim().toLowerCase();
+    if (/^user-agent$/i.test(k.trim())) enGrupo = v === "*" || "comparamaterialbot".includes(v);
+    else if (/^crawl-delay$/i.test(k.trim()) && enGrupo) espera = Math.max(espera, Number(v) || 0);
+  }
+  return espera * 1000;
+}
 export function permitido(reglas, ruta) {
   let mejor = null;
   for (const [permite, patron] of reglas) {
@@ -107,13 +117,14 @@ async function main() {
     const rob = await pedir(`https://${host}/robots.txt`);
     if (rob.estado >= 500 || rob.estado === 0) { r.bloqueado = lista.length; r.nota = "robots.txt no accesible"; return; }
     const reglas = rob.estado === 200 ? reglasRobots(rob.texto) : [];
+    const pausa = Math.max(PAUSA_MS, rob.estado === 200 ? esperaRobots(rob.texto) : 0);
     let fallosSeguidos = 0;
     for (const it of lista) {
       const u = new URL(it.obj.enlace);
       if (!permitido(reglas, u.pathname + u.search)) { r.bloqueado++; continue; }
       if (fallosSeguidos >= 15) { r.error++; continue; } // la web nos está rechazando: no insistir
       const res = await pedir(it.obj.enlace);
-      await dormir(PAUSA_MS);
+      await dormir(pausa);
       if (res.estado === 404 || res.estado === 410) { it.obj.noDisponible = HOY; r.retirado++; fallosSeguidos = 0; continue; }
       if (res.estado !== 200) { r.error++; fallosSeguidos++; if (res.estado === 403 || res.estado === 429) await dormir(PAUSA_MS * 4); continue; }
       fallosSeguidos = 0;
