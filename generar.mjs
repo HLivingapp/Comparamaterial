@@ -68,16 +68,16 @@ const ICONOS = {
 };
 const icono = (c) => `<svg viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">${ICONOS[c] || ICONOS["Obra y protección"]}</svg>`;
 // Foto de baño real para cada estilo de azulejo (botones grandes de estilo).
-const FOTO_ESTILO = { "estilo:retro": ["estilo-retro-1", "azulejo-bano-5"], "estilo:elegante": ["estilo-elegante-1", "estilo-marmol-1", "toallero-4"], "estilo:natural": ["estilo-natural-1", "lavabo-1"], "estilo:minimal": ["estilo-minimal-1", "mampara-1"] };
+const FOTO_ESTILO = { "estilo:retro": ["estilo-retro-1", "azulejo-bano-5"], "estilo:elegante": ["estilo-marmol-1", "toallero-4"], "estilo:natural": ["estilo-natural-1", "lavabo-1"], "estilo:minimal": ["estilo-minimal-2", "mampara-1"] };
 const fotoEstilo = (k) => (FOTO_ESTILO[k] || []).map((f) => `img/reforma-${f}.webp`).find((f) => existsSync(join(aqui, f)));
 // Foto de cada subgrupo en los botones de tipo: fotos propias de reformas cuando las hay.
-const FOTO_GRUPO = { "Muebles de baño": "mueble-bano-1", "Inodoros y cisternas": "inodoro-1", "Lavabos": "lavabo-1", "Platos de ducha": "plato-ducha-1", "Mamparas": "mampara-2", "Bañeras": "banera-2", "Columnas y duchas": "columna-ducha-1", "Grifería de baño": "grifo-lavabo-2", "Espejos": "espejo-bano-1", "Accesorios de baño": "toallero-1",
+const FOTO_GRUPO = { "Muebles de baño": "mueble-bano-1", "Inodoros y cisternas": "inodoro-1", "Lavabos": "lavabo-1", "Platos de ducha": "plato-ducha-1", "Mamparas": "mampara-negra-1", "Bañeras": "banera-2", "Columnas y duchas": "columna-ducha-1", "Grifería de baño": "grifo-lavabo-2", "Espejos": "espejo-bano-1", "Accesorios de baño": "toallero-1",
   "Fregaderos": "fregadero-1", "Grifería de cocina": "grifo-cocina-1", "Encimeras": "encimera-1", "Placas": "placa-1", "Hornos": "horno-2", "Campanas": "campana-1", "Lavavajillas y electrodomésticos": "muebles-cocina-1",
-  "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Empotrados: downlights y paneles": "downlight-2", "Mecanismos: interruptores y enchufes": "enchufe-1",
-  "Puertas de interior abatibles": "puerta-interior-1", "Puertas de entrada y blindadas": "puerta-entrada-1", "Manillas, pomos y condenas": "manilla-1", "Ventanas de PVC": "ventana-1", "Ventanas de aluminio": "ventana-2", "Balconeras": "balconera-1",
+  "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Empotrados: downlights y paneles": "downlight-2", "Focos de superficie y carril": "foco-carril-1", "Iluminación decorativa: colgantes, apliques y lámparas": "lampara-colgante-3", "Plafones": "plafon-1", "Tiras LED y perfiles": "tira-led-1", "Termos hasta 50 L": "termo-electrico-1", "Termos de 65 a 90 L": "termo-electrico-2", "Termos de 100 L o más": "termo-electrico-2", "Calderas de gas": "caldera-2", "Puertas correderas": "puerta-corredera-1", "Paneles de listones y acústicos": "panel-listones-1", "Mecanismos: interruptores y enchufes": "enchufe-1",
+  "Puertas de interior abatibles": "puerta-molduras-1", "Puertas de entrada y blindadas": "puerta-entrada-1", "Manillas, pomos y condenas": "manilla-1", "Ventanas de PVC": "ventana-1", "Ventanas de aluminio": "ventana-2", "Balconeras": "balconera-1",
   "Armarios y módulos": "armario-1", "Frentes y puertas de armario": "armario-2", "Interiores: cajones, baldas y barras": "armario-4",
-  "Laminado": "suelo-laminado-1", "Vinílico SPC/LVT": "suelo-laminado-3", "Madera y parquet": "suelo-madera-1", "Porcelánico imitación": "suelo-porcelanico-1", "Rodapiés": "rodapie-1",
-  "Formato medio (hasta 60 cm)": "azulejo-bano-2", "Gran formato (más de 60 cm)": "suelo-porcelanico-1", "Mosaico y formato pequeño (hasta 20 cm)": "azulejo-bano-3", "Azulejos y pavimentos (otros)": "azulejo-bano-1" };
+  "Laminado": "suelo-laminado-1", "Vinílico SPC/LVT": "suelo-laminado-3", "Madera y parquet": "parquet-1", "Porcelánico imitación": "suelo-porcelanico-1", "Rodapiés": "rodapie-1",
+  "Formato medio (hasta 60 cm)": "azulejo-bano-2", "Gran formato (más de 60 cm)": "azulejo-gran-formato-1", "Mosaico y formato pequeño (hasta 20 cm)": "azulejo-bano-3", "Azulejos y pavimentos (otros)": "azulejo-bano-1" };
 function fotoGrupo(g, ms, c, raiz) {
   let f = FOTO_GRUPO[g] && existsSync(join(aqui, "img", `reforma-${FOTO_GRUPO[g]}.webp`)) ? `img/reforma-${FOTO_GRUPO[g]}.webp` : null;
   if (!f) { const m = ms.find((x) => imagenes[x.slug]); if (m) f = imagenes[m.slug].miniatura; }
@@ -149,7 +149,7 @@ const ALIAS = [
   [/cable|manguera/i, "cableado electricidad"], [/plato de ducha|mampara|columna/i, "ducha"], [/pintura|esmalte|imprimación/i, "pintar"],
 ];
 const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
-const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(esPieza(m.nombre) || /\bpara\b|^\W*(juego|kit|llave|coquilla|tornillo|recambio|repuesto|soporte|tap[oó]n|tapa|flexo|v[aá]lvula|latiguillo|rejilla|mango)\b/i.test(m.nombre) ? { z: 1 } : {}), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
+const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(esPieza(m.nombre) || /\bpara\b|^\W*(juego|kit|llave|coquilla|tornillo|recambio|repuesto|soporte|tap[oó]n|tapa|flexo|v[aá]lvula|latiguillo|rejilla|mango)\b/i.test(m.nombre) ? { z: 1 } : {}), ...(fotoDe(m) ? { i: fotoDe(m).miniatura.replace(/^img\/reforma-|\.webp$/g, "") } : {}), u: [...m.ofertas].sort((a, b) => a.precio - b.precio)[0].enlace.replace(/^https:\/\//, ""), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -206,8 +206,8 @@ var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)re
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
 var pinta=function(){if(!I.length){if(q.value.trim()){res.innerHTML='<p class="br-nada">Buscando…</p>';res.hidden=false}carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
-res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
-q.addEventListener("input",pinta);q.addEventListener("focus",pinta);(window.requestIdleCallback||setTimeout)(function(){carga()},1500);
+res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br">'+(m.i?'<img src="'+R+(m.i.indexOf("/")>=0?m.i:'img/reforma-'+m.i+'.webp')+'" alt="" loading="lazy" width="56" height="42">':'')+'<a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><a class="br-web" href="https://'+m.u+'" rel="nofollow noopener" target="_blank">Ir a la web</a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
+q.addEventListener("input",pinta);q.addEventListener("focus",pinta);setTimeout(function(){carga()},1500);
 res.addEventListener("click",function(e){var o=e.target.closest("button[data-o]");if(o){e.stopPropagation();orden=o.getAttribute("data-o");pinta();q.focus();return}var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
 f.addEventListener("submit",function(e){if(!I.length)return;var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
@@ -494,11 +494,12 @@ function paginaCesta() {
   </aside>
 </div>
 <section class="bloque">
-  <div class="bloque-cab"><h2>Añadir materiales</h2></div>
+  <div class="bloque-cab"><h2 id="t-buscar">Buscar y añadir materiales</h2></div>
   <label class="buscador"><span>Buscar material</span><input id="cesta-buscar" type="search" placeholder="Ej.: cemento, cable, pintura…" autocomplete="off"></label>
   <label class="orden-sel" hidden><span>Ordenar por</span><select id="cesta-orden"><option value="precio">Precio: de más barato a más caro</option><option value="pop">Popularidad</option></select></label>
   <div id="cesta-catalogo" class="cesta-catalogo"></div>
 </section>
+<a id="cesta-flot" class="cesta-flot" href="#t-sel" hidden>Ver mi cesta (<b>0</b>) ↓</a>
 <p class="nota">Los precios son orientativos: cambian según la tienda física elegida y las ofertas del día. Cuando los formatos no son iguales entre tiendas (por ejemplo, rollos de distinta longitud) lo avisamos en la línea.</p>
 ${ctaReformista()}
 <script id="datos-cesta" type="application/json">${JSON.stringify(datosCesta).replace(/</g, "\\u003c")}</script>
@@ -548,10 +549,10 @@ function catalogo(q){
   q=(q||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
   var C=document.getElementById("cesta-catalogo"),h="",cat="";
   var w=q.split(/\\s+/).filter(Boolean),cuantos=0,O=document.getElementById("cesta-orden"),ord=O?O.value:"precio";
-  var lista=D.materiales.slice();if(w.length){if(O)O.parentNode.hidden=false;lista.sort(ord==="precio"?function(a,b){return a.o[minT(a)][0]-b.o[minT(b)][0]}:function(a,b){return (a.k?1:0)-(b.k?1:0)||a.o[minT(a)][0]-b.o[minT(b)][0]})}else if(O)O.parentNode.hidden=true;
+  var lista=D.materiales.slice();if(w.length){if(O)O.parentNode.hidden=false;var rel=function(m){var t=" "+m.n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ");return (/ para |^ (juego|kit|llave|coquilla|tornillo|recambio|repuesto|soporte|tapon|tapa|flexo|valvula|latiguillo|rejilla|mango|marco|tecla) /.test(t)?3:0)+(t.indexOf(" "+w[0])===0?0:1)};lista.sort(ord==="precio"?function(a,b){return rel(a)-rel(b)||a.o[minT(a)][0]-b.o[minT(b)][0]}:function(a,b){return rel(a)-rel(b)||(a.k?1:0)-(b.k?1:0)||a.o[minT(a)][0]-b.o[minT(b)][0]})}else if(O)O.parentNode.hidden=true;
   lista.forEach(function(m){if(!w.length&&m.k)return;var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(w.length&&!w.every(function(x){return txt.indexOf(x)>=0}))return;if(++cuantos>120)return;
     var gc=w.length?"Resultados":m.c;if(gc!==cat){if(cat)h+='</ul>';cat=gc;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
-    var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir</button></li>'});
+    var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><a class="boton secundario peq ir-web" href="'+m.o[b][1]+'" rel="nofollow noopener" target="_blank">Ir a la web</a><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir a mi cesta</button></li>'});
   if(cat)h+='</ul>';C.innerHTML=h||'<p class="nota">No hay materiales con ese nombre.</p>';
   C.querySelectorAll("button[data-s]").forEach(function(bt){bt.onclick=function(){var s=bt.dataset.s;c[s]=(c[s]||0)+1;guarda();pinta();bt.textContent="✓ Añadido ("+c[s]+")"}})}
 document.getElementById("cesta-buscar").oninput=function(e){catalogo(e.target.value)};
@@ -559,7 +560,11 @@ var Oc=document.getElementById("cesta-orden");if(Oc)Oc.onchange=function(){catal
 document.addEventListener("cm-cesta",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}pinta()});
 document.getElementById("cesta-vaciar").onclick=function(){c={};el={};guarda();pinta()};
 catalogo("");pinta();
-var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getElementById("cesta-buscar");ib.value=q0;catalogo(q0)}
+var q0=new URLSearchParams(location.search).get("q");if(q0){var ib=document.getElementById("cesta-buscar");ib.value=q0;catalogo(q0);
+  var sb=document.getElementById("t-buscar").closest("section"),cz=document.querySelector(".cesta");cz.parentNode.insertBefore(sb,cz);
+  var h1=document.querySelector(".hero h1");h1.textContent="Resultados para «"+q0+"»";document.querySelector(".hero .sub").textContent="Pulsa «Añadir» para llevarlo a tu cesta y comparar el total en cada tienda.";
+  document.getElementById("t-sel").textContent="Tu cesta";}
+var fl=document.getElementById("cesta-flot");var pf=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;fl.hidden=!n||!q0;fl.querySelector("b").textContent=n};pf();document.addEventListener("cm-cesta",pf);document.getElementById("cesta-catalogo").addEventListener("click",function(){setTimeout(pf,50)});
 })();
 </script>
 `;
