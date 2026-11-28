@@ -23,9 +23,11 @@ const hora = (d) => new Date(d.fecha).toLocaleString("es-ES", { timeZone: "Europ
 export const amazonDeArea = (c) => AMAZON.filter((p) => p.area === c);
 
 // Fila con el mismo formato que la lista de productos (.prod-lista li), para que el filtro por tienda la trate como «Amazon».
-export function filaAmazon(p, { esc, eur, slugify }, mas = false) {
+// attrF: atributo data-f de los filtros (estilo, color, marca…); foto: miniatura pl-f (la de la API o, si no hay, una foto orientativa propia).
+export function filaAmazon(p, { esc, eur, slugify, attrF = "", foto = "" }, mas = false) {
   const d = datoApi(p);
-  return `<li class="amz-li${mas ? " mas" : ""}" data-n="${esc(slugify(p.nombre + " " + (p.marca || "")).replace(/-/g, " "))}"><a href="${esc(urlAmazon(p.asin))}" rel="sponsored nofollow noopener" target="_blank"><span class="pl-n">${esc(p.nombre)}</span><span class="pl-t">Amazon · ${d ? `precio de las ${esc(hora(d))}` : "enlace de afiliado"}</span></a>${d ? `<b class="pl-p">${eur(d.precio)}</b>` : ""}<a class="t-add peq amz-ir" href="${esc(urlAmazon(p.asin))}" rel="sponsored nofollow noopener" target="_blank">${d ? "Ver en Amazon" : "Ver precio en Amazon"}</a></li>`;
+  const img = d && d.imagen ? `<img class="pl-f" src="${esc(d.imagen)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : foto;
+  return `<li class="amz-li${mas ? " mas" : ""}"${attrF} data-n="${esc(slugify(p.nombre + " " + (p.marca || "")).replace(/-/g, " "))}">${img}<a href="${esc(urlAmazon(p.asin))}" rel="sponsored nofollow noopener" target="_blank"><span class="pl-n">${esc(p.nombre)}</span><span class="pl-t">Amazon · ${d ? `precio de las ${esc(hora(d))}` : "enlace de afiliado"}</span></a>${d ? `<b class="pl-p">${eur(d.precio)}</b>` : ""}<a class="t-add peq amz-ir" href="${esc(urlAmazon(p.asin))}" rel="sponsored nofollow noopener" target="_blank">${d ? "Ver en Amazon" : "Ver precio en Amazon"}</a></li>`;
 }
 
 // Fila de Amazon como una tienda más en la tabla de un material comparado.
