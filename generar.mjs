@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { SUBGRUPOS, subgrupo, area } from "./herramientas/subgrupos.mjs";
+import { SUBGRUPOS, subgrupo, area, ORDEN } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -49,6 +49,8 @@ const ICONOS = {
   "Fontanería y saneamiento": '<path d="M10 26h22a8 8 0 0 1 8 8v20"/><path d="M10 34h18v20"/><path d="M40 20h14v8H40z"/>',
   "Pintura": '<rect x="12" y="12" width="34" height="14" rx="3"/><path d="M46 19h6v12H30v8"/><rect x="26" y="39" width="8" height="15" rx="2"/>',
   "Cocina": '<rect x="10" y="22" width="44" height="32" rx="3"/><circle cx="22" cy="32" r="5"/><circle cx="42" cy="32" r="5"/><path d="M10 42h44M18 48h28M26 22v-8h12v8"/>',
+  "Aire acondicionado": '<rect x="8" y="14" width="48" height="18" rx="3"/><path d="M14 26h36M20 40l-3 8M32 40v10M44 40l3 8"/>',
+  "Calefacción y agua caliente": '<rect x="20" y="6" width="24" height="44" rx="10"/><path d="M28 50v8M36 50v8M27 20h10M27 28h10"/>',
   "Iluminación": '<path d="M24 40a14 14 0 1 1 16 0v6H24z"/><path d="M26 52h12M28 58h8M32 8V4M14 16l-3-3M50 16l3-3"/>',
   "Ventanas": '<rect x="12" y="10" width="40" height="44" rx="2"/><path d="M32 10v44M12 32h40"/>',
   "Armarios": '<rect x="12" y="8" width="40" height="48" rx="2"/><path d="M32 8v48M27 30v6M37 30v6"/>',
@@ -85,7 +87,7 @@ const AVISO_PRECIO = "Precio orientativo con IVA tomado de la web de la tienda e
 const mesTexto = `${MESES[mes - 1]} ${anio}`;
 
 const slugify = (t) => t.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-const categorias = [...new Set([...materiales.map((m) => m.categoria), ...catalogo.map((p) => p.categoria).filter((c) => SUBGRUPOS[c])])];
+const categorias = [...new Set([...materiales.map((m) => m.categoria), ...catalogo.map((p) => p.categoria).filter((c) => SUBGRUPOS[c])])].sort((x, y) => (ORDEN.indexOf(x) + 1 || 99) - (ORDEN.indexOf(y) + 1 || 99));
 // Nombres en mayúsculas de algunas tiendas → frase normal.
 const bonito = (t) => (t.replace(/[^A-ZÁÉÍÓÚÑ]/g, "").length > t.replace(/[^a-záéíóúñ]/g, "").length ? t.toLowerCase().replace(/^./, (x) => x.toUpperCase()) : t);
 const FORMATO = { "m²": "Precio por m²", lote: "Lote", ud: "Unidad", caja: "Caja", rollo: "Rollo", m: "Precio por metro" };
