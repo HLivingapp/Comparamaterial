@@ -25,17 +25,39 @@ function formato(n) {
   const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)(?:\s*[x×]\s*\d+(?:[.,]\d+)?)?\s*(mm|cm)?/i);
   if (!m) return null;
   let a = num(m[1]), b = num(m[2]);
-  if ((m[3] || "").toLowerCase() === "mm" || a > 400 || b > 400) { a /= 10; b /= 10; }
+  if ((m[3] || "").toLowerCase() === "mm") { a /= 10; b /= 10; } else { if (a > 400) a /= 10; if (b > 400) b /= 10; }
   return a > 0 && b > 0 ? { a, b } : null;
+}
+// Medidas y datos clave que trae el nombre: formato, grosor, Ø, litros, potencia, peso, superficie, clase…
+export function medidas(n) {
+  n = String(n); const out = [];
+  const f3 = n.match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)(?:\s*[x×]\s*(\d+(?:[.,]\d+)?))?\s*(mm|cm|m\b)?/i);
+  if (f3) { const u = (f3[4] || "").toLowerCase(); let v = [f3[1], f3[2], f3[3]].filter(Boolean).map(num); if (u === "mm") v = v.map((x) => x / 10); else if (!u) v = v.map((x) => (x > 400 ? x / 10 : x)); else if (u === "m") v = v.map((x) => x * 100); out.push(v.map(cm).join("×") + " cm"); }
+  const d = n.match(/[øØ]\s*(\d+(?:[.,]\d+)?)\s*(mm|cm)?/); if (d) out.push(`Ø ${d[1].replace(".", ",")} ${d[2] || "cm"}`);
+  const mm = !f3 && n.match(/(\d+(?:[.,]\d+)?)(?:\s*\+\s*\d+)?\s*mm\b/i); if (mm) out.push(`${mm[1].replace(".", ",")} mm`);
+  const l = n.match(/(\d+(?:[.,]\d+)?)\s*(l|litros)\b/i); if (l) out.push(`${l[1].replace(".", ",")} L`);
+  const kg = n.match(/(\d+(?:[.,]\d+)?)\s*kg\b/i); if (kg) out.push(`${kg[1].replace(".", ",")} kg`);
+  const fr = n.match(/(\d{3,5})\s*(frigor[ií]as|fg)\b/i); if (fr) out.push(`${fr[1]} frigorías`);
+  const kw = n.match(/(\d+(?:[.,]\d+)?)\s*kw\b/i); if (kw) out.push(`${kw[1].replace(".", ",")} kW`);
+  const w = !kw && n.match(/(\d+(?:[.,]\d+)?)\s*w\b/i); if (w) out.push(`${w[1].replace(".", ",")} W`);
+  const m2 = n.match(/(\d+(?:[.,]\d+)?)\s*m(²|2)\b/i); if (m2) out.push(`${m2[1].replace(".", ",")} m²`);
+  const ml = !f3 && n.match(/(\d+(?:[.,]\d+)?)\s*(m|metros)(?![a-záéíóúñ²0-9])/i); if (ml) out.push(`${ml[1].replace(".", ",")} m`);
+  const ac = n.match(/\bac ?([3-6])\b/i); if (ac) out.push(`AC${ac[1]}`);
+  const k = n.match(/(\d{4})\s*k\b/i); if (k) out.push(`${k[1]} K`);
+  const ip = n.match(/\bip ?(\d{2})\b/i); if (ip) out.push(`IP${ip[1]}`);
+  return [...new Set(out)];
 }
 const cm = (x) => (Math.round(x * 10) / 10).toString().replace(".", ",");
 const brillo = (n) => /brill|pulid|polished|gloss|lappat/i.test(n) ? "Brillo" : /mate|matt|antidesliz/i.test(n) ? "Mate" : "";
 const oscuro = (hex) => { const v = parseInt(hex.slice(1), 16); return ((v >> 16) * 0.3 + ((v >> 8) & 255) * 0.59 + (v & 255) * 0.11) < 120; };
 
 // Lienzo 240×180: dibujo arriba, etiquetas de características abajo.
+let EXTRA = [];
+// Etiquetas grandes para que se lean también en miniatura; si no caben en una fila, se pasan a una segunda.
 function lienzo(dibujo, etiquetas) {
-  const t = etiquetas.filter(Boolean).slice(0, 3);
-  let x = 8; const chips = t.map((e) => { const w = Math.min(112, 10 + e.length * 6.4); const s = `<rect x="${x}" y="150" width="${w}" height="22" rx="11" fill="#ffffff" stroke="#d5d9dc"/><text x="${x + w / 2}" y="165" text-anchor="middle" font-size="11.5" font-weight="600" fill="#33393d">${esc(e)}</text>`; x += w + 5; return s; }).join("");
+  const clave = (e) => e.toLowerCase().replace(/litros/, "l").replace(/\s+/g, "");
+  const vistos = new Set(); const t = [etiquetas[0], ...EXTRA, ...etiquetas.slice(1)].filter((e) => e && !vistos.has(clave(e)) && vistos.add(clave(e))).slice(0, 4);
+  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 240 188" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect y="-8" width="240" height="188" fill="#f4f6f7"/>${dibujo}${chips}</svg>`;
 }
 
@@ -76,7 +98,7 @@ function grifo(n, g) {
 function termo(n) {
   const l = litros(n);
   return lienzo(`<rect x="88" y="16" width="64" height="122" rx="30" fill="#ffffff" stroke="#9aa3a8" stroke-width="2"/><rect x="104" y="58" width="32" height="18" rx="4" fill="#e7ecef" stroke="#9aa3a8"/><line x1="108" y1="138" x2="108" y2="146" stroke="#9aa3a8" stroke-width="4"/><line x1="132" y1="138" x2="132" y2="146" stroke="#9aa3a8" stroke-width="4"/><text x="120" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#33393d">${l ? l + " L" : ""}</text>`,
-    [l ? `${l} litros` : "", /bomba|aerot/i.test(n) ? "Bomba de calor" : /gas/i.test(n) ? "Gas" : "Eléctrico", /wifi/i.test(n) ? "WiFi" : ""]);
+    [l ? `${l} L` : "", /bomba|aerot/i.test(n) ? "Bomba de calor" : /gas/i.test(n) ? "Gas" : "Eléctrico", /wifi/i.test(n) ? "WiFi" : ""]);
 }
 
 function puerta(n) {
@@ -110,8 +132,23 @@ function luz(n, g) {
   return lienzo(d, [tipo, w ? `${w.replace(".", ",")} W` : "", k ? `${k} K` : ""]);
 }
 
-// Devuelve el SVG del producto, o null si no hay un dibujo útil para ese tipo.
+// Dibujo genérico con medidas: saco (kg), rollo (m), pieza con cotas (formato) o paquete.
+function generico(n) {
+  const f = formato(n);
+  if (/\bsaco|\d\s*kg\b/i.test(n) && !f) return lienzo(`<path d="M78 22 L162 22 L170 128 Q120 140 70 128 Z" fill="#efe9dc" stroke="#9aa3a8" stroke-width="2"/><line x1="78" y1="34" x2="162" y2="34" stroke="#9aa3a8"/>`, []);
+  if (/rollo|bobina|\d\s*(m|metros)(?![a-záéíóúñ²0-9])/i.test(n) && !f) return lienzo(`<ellipse cx="90" cy="70" rx="26" ry="44" fill="#ffffff" stroke="#9aa3a8" stroke-width="2"/><ellipse cx="90" cy="70" rx="8" ry="14" fill="#e7ecef" stroke="#9aa3a8"/><path d="M90 26 L190 26 L190 114 L90 114" fill="#ffffff" stroke="#9aa3a8" stroke-width="2"/>`, []);
+  if (f) { const k = Math.min(170 / f.a, 96 / f.b); const w = Math.max(16, f.a * k), h = Math.max(16, f.b * k), x = 110 - w / 2, y = 64 - h / 2;
+    return lienzo(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3" fill="#ffffff" stroke="#9aa3a8" stroke-width="2"/><g stroke="#6b7378" fill="#6b7378" font-size="12" font-weight="600"><line x1="${x}" y1="${y - 6}" x2="${x + w}" y2="${y - 6}"/><text x="${x + w / 2}" y="${y - 9}" text-anchor="middle" stroke="none">${cm(f.a)}</text><line x1="${x + w + 6}" y1="${y}" x2="${x + w + 6}" y2="${y + h}"/><text x="${x + w + 9}" y="${y + h / 2 + 4}" stroke="none">${cm(f.b)}</text></g>`, []); }
+  return lienzo(`<path d="M70 40 L120 18 L170 40 L170 104 L120 126 L70 104 Z" fill="#ffffff" stroke="#9aa3a8" stroke-width="2"/><path d="M70 40 L120 62 L170 40 M120 62 L120 126" fill="none" stroke="#9aa3a8" stroke-width="2"/>`, []);
+}
+
+// Devuelve el SVG del producto (dibujo + datos clave y medidas), o null si no hay datos útiles.
 export function esquema(categoria, nombre) {
+  EXTRA = medidas(nombre);
+  const svg = esquemaTipo(categoria, nombre);
+  return svg || (EXTRA.length ? generico(nombre) : null);
+}
+function esquemaTipo(categoria, nombre) {
   const a = area(categoria, nombre), g = subgrupo(a, nombre) || "";
   if (/recambio|accesorio|driver|conector|manilla|pomo|rodapi|perfil de|adhesivo|cemento|mortero|junta/i.test(g) && !/tira/i.test(g)) return null;
   if (a === "Cerámica y colocación" || /porcel[aá]nico|azulejo|baldos/i.test(g)) return /azulejo|porcel|gres|baldos|cer[aá]mic|pavimento|revestimiento|mosaico|\d\s*[x×]\s*\d/i.test(nombre) ? azulejo(nombre) : null;

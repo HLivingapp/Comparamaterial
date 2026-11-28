@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./amazon.mjs";
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
-import { esquema } from "./herramientas/esquemas.mjs";
+import { esquema, medidas } from "./herramientas/esquemas.mjs";
 import { prioridad } from "./herramientas/mas-vendidos.mjs";
 import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
@@ -657,7 +657,7 @@ function listaProductos(ps, raiz, previa = 0, amz = []) {
   const items = ps.map((m) => ({ m, v: m.ofertas[0].precio, pz: esPieza(m.nombre) }));
   for (const a of conP) { const v = precioAmazon(a), pz = esPieza(a.nombre); const k = items.findIndex((x) => x.pz > pz || (x.pz === pz && x.v > v)); items.splice(k < 0 ? items.length : k, 0, { a, v, pz }); }
   for (const a of sinP) items.push({ a });
-  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: `<span class="pl-f pl-i">${icono(a.area)}</span>` }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="64" height="48">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span></a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
+  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: `<span class="pl-f pl-i">${icono(a.area)}</span>` }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="88" height="66">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span>${(() => { const d = medidas(m.nombre).slice(0, 4); return d.length ? `<span class="pl-d">${d.map(esc).join(" · ")}</span>` : ""; })()}</a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
