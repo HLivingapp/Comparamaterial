@@ -170,7 +170,7 @@ export const SUBGRUPOS = {
     ["Protección de obra", /pl[aá]stico|lona|fieltro|cart[oó]n|cinta|protec|saco|escombro/i],
   ],
   "Ventiladores": [
-    ["Ventiladores de techo con luz", (n) => /techo/i.test(n) && /luz|led|l[aá]mpara|light/i.test(n)],
+    ["Ventiladores de techo con luz", (n) => /techo/i.test(n) && /luz|led|l[aá]mpara|light/i.test(n) && !/sin (luz|l[aá]mpara|iluminaci)|without light/i.test(n)],
     ["Ventiladores de techo sin luz", /techo/i],
     ["Ventiladores de pie y sobremesa", /pie|sobremesa|mesa|torre|columna/i],
     ["Ventiladores de pared", /pared/i],

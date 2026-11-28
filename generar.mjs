@@ -74,7 +74,7 @@ const FOTO_ESTILO = { "estilo:retro": ["estilo-retro-1", "azulejo-bano-5"], "est
 const fotoEstilo = (k) => (FOTO_ESTILO[k] || []).map((f) => `img/reforma-${f}.webp`).find((f) => existsSync(join(aqui, f)));
 // Foto de cada subgrupo en los botones de tipo: fotos propias de reformas cuando las hay.
 const FOTO_GRUPO = { "Muebles de baño": "mueble-bano-1", "Inodoros y cisternas": "inodoro-1", "Lavabos": "lavabo-1", "Platos de ducha": "plato-ducha-1", "Mamparas": "mampara-negra-1", "Bañeras": "banera-2", "Columnas y duchas": "columna-ducha-1", "Grifería de baño": "grifo-lavabo-2", "Espejos": "espejo-bano-1", "Accesorios de baño": "toallero-1",
-  "Fregaderos": "fregadero-1", "Grifería de cocina": "grifo-cocina-1", "Encimeras": "encimera-1", "Placas": "placa-1", "Hornos": "horno-2", "Campanas": "campana-1", "Lavavajillas y electrodomésticos": "muebles-cocina-1",
+  "Fregaderos": "fregadero-1", "Grifería de cocina": "grifo-cocina-1", "Encimeras": "encimera-1", "Placas": "placa-1", "Hornos": "horno-2", "Campanas": "campana-1", "Lavavajillas y electrodomésticos": "muebles-cocina-1", "Muebles de cocina": "muebles-cocina-2", "Ventiladores de techo con luz": "ventilador-techo-1",
   "Radiadores y emisores": "radiador-1", "Splits de pared": "split-1", "Splits y unidades (otros)": "split-2", "Empotrados: downlights y paneles": "downlight-2", "Focos de superficie y carril": "foco-carril-1", "Iluminación decorativa: colgantes, apliques y lámparas": "lampara-colgante-3", "Plafones": "plafon-1", "Tiras LED y perfiles": "tira-led-1", "Termos hasta 50 L": "termo-electrico-1", "Termos de 65 a 90 L": "termo-electrico-2", "Termos de 100 L o más": "termo-electrico-2", "Calderas de gas": "caldera-2", "Puertas correderas": "puerta-corredera-1", "Paneles de listones y acústicos": "panel-listones-1", "Mecanismos: interruptores y enchufes": "enchufe-1",
   "Puertas de interior abatibles": "puerta-molduras-1", "Puertas de entrada y blindadas": "puerta-entrada-1", "Manillas, pomos y condenas": "manilla-1", "Ventanas de PVC": "ventana-1", "Ventanas de aluminio": "ventana-2", "Balconeras": "balconera-1",
   "Armarios y módulos": "armario-1", "Frentes y puertas de armario": "armario-2", "Interiores: cajones, baldas y barras": "armario-4",
@@ -108,6 +108,8 @@ const POOL = {
   "manilla": (n) => NEGRO.test(n) ? ["manilla", [2]] : DORADO.test(n) && ["manilla", [1]],
   // Platos: solo fotos de plato de superficie (1 y 2 blancos, 4 gris). La 3 es una ducha de obra y no vale para un plato que se compra.
   "plato-ducha": (n) => /gris|grey|cemento|antracita/i.test(n) ? ["plato-ducha", [4]] : (/blanc|white/i.test(n) || sinColor(n)) && ["plato-ducha", [1, 2]],
+  // Ventiladores de techo con luz de nuestras obras: 1 níquel/plata, 2 aspas de madera oscura, 3 blanco con aspas de madera clara.
+  "ventilador-techo": (n) => /n[ií]quel|plata|plateado|silver|acero|inox|cromo/i.test(n) ? ["ventilador-techo", [1]] : /nogal|walnut|madera oscura|wengu/i.test(n) ? ["ventilador-techo", [2]] : /blanc|white/i.test(n) && /madera|wood|roble|haya|pino/i.test(n) && ["ventilador-techo", [3]],
   "fregadero": (n) => NEGRO.test(n) ? ["fregadero", [3]] : !/granit|sint[eé]tic|blanc|gris|beige/i.test(n) && ["fregadero", [1, 2, 4]],
 };
 const SIEMPRE = /^(termo-electrico|caldera|termostato|downlight|panel-led|foco-carril|tira-led|plafon|inodoro|radiador|split|enchufe|interruptor|ventana|balconera|toallero|placa|horno|campana|suelo-laminado|suelo-madera|parquet|banera)$/;
