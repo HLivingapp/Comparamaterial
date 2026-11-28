@@ -106,9 +106,11 @@ const POOL = {
   "puerta-lisa": (n) => /blanc|lacad/i.test(n) && ["puerta-lisa", [2, 3, 4]], "puerta-molduras": (n) => /blanc|lacad/i.test(n) && ["puerta-molduras", 5],
   "puerta-corredera": (n) => /blanc|lacad|vidrio|cristal/i.test(n) && ["puerta-corredera", 1],
   "manilla": (n) => NEGRO.test(n) ? ["manilla", [2]] : DORADO.test(n) && ["manilla", [1]],
+  // Platos: solo fotos de plato de superficie (1 y 2 blancos, 4 gris). La 3 es una ducha de obra y no vale para un plato que se compra.
+  "plato-ducha": (n) => /gris|grey|cemento|antracita/i.test(n) ? ["plato-ducha", [4]] : (/blanc|white/i.test(n) || sinColor(n)) && ["plato-ducha", [1, 2]],
   "fregadero": (n) => NEGRO.test(n) ? ["fregadero", [3]] : !/granit|sint[eé]tic|blanc|gris|beige/i.test(n) && ["fregadero", [1, 2, 4]],
 };
-const SIEMPRE = /^(termo-electrico|caldera|termostato|downlight|panel-led|foco-carril|tira-led|plafon|inodoro|plato-ducha|radiador|split|enchufe|interruptor|ventana|balconera|toallero|placa|horno|campana|suelo-laminado|suelo-madera|parquet|banera)$/;
+const SIEMPRE = /^(termo-electrico|caldera|termostato|downlight|panel-led|foco-carril|tira-led|plafon|inodoro|radiador|split|enchufe|interruptor|ventana|balconera|toallero|placa|horno|campana|suelo-laminado|suelo-madera|parquet|banera)$/;
 const hashN = (t) => { let h = 0; for (const c of t) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
 function fotoObra(m) {
   const f = fotoPropia(m.categoria, m.nombre); if (!f) return null;
