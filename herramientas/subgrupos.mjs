@@ -96,6 +96,16 @@ export const SUBGRUPOS = {
     ["Gran formato (más de 60 cm)", (n) => lado(n) > 61],
     ["Azulejos y pavimentos (otros)", /./],
   ],
+  "Terrazas y patios": [
+    ["Accesorios para césped", (n) => /grapa|piqueta|banda de uni|cinta|adhesiv|malla|rodillo|geotextil/i.test(n) && !/^\W*(rollo (de )?)?c[eé]sped/i.test(n)],
+    ["Plots, rastreles y fijaciones", /\bplot|rastrel|travesa|\bclip|tornillo|apoyo|soporte|[aá]ngulo|remate|perfil/i],
+    ["Césped artificial", /c[eé]sped/i],
+    ["Losetas y baldosas encajables", /encajable|loseta|baldosa (de )?(madera|composite)|baldosa.*\b(madera|composite|wpc)\b/i],
+    ["Tarima composite", /composite|\bwpc\b/i],
+    ["Tarima de madera", /lama|tarima|tabla|madera|pino|ipe|teca|cumar[uú]|tali|badi|acacia|bamb[uú]/i],
+    ["Porcelánico de 2 cm (sobre plots)", (n) => /porcel|gres|cer[aá]mic|baldosa|azulejo/i.test(n) && /\b20 ?mm|\b2 ?cm\b|espesor 2\b/i.test(n)],
+    ["Porcelánico de exterior y piscina", /porcel|gres|cer[aá]mic|baldosa|piscina|losa|azulejo/i],
+  ],
   "Suelos": [
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /^\W*base|base aislante|perfil|espuma|underlay|transici/i],
@@ -196,6 +206,7 @@ export const VISTA = {
   "Iluminación": ["Empotrados: downlights y paneles", "Focos de superficie y carril", "Iluminación decorativa: colgantes, apliques y lámparas", "Plafones", "Tiras LED y perfiles", "Pantallas y regletas", "Bombillas", "Exterior", "Drivers, conectores y accesorios"],
   "Fontanería y saneamiento": ["Tubería y PVC", "Codos, tes y uniones", "Llaves y válvulas", "Latiguillos y flexibles", "Desagües, sifones y sumideros", "Cisternas y mecanismos", "Canalones y bajantes"],
   "Cerámica y colocación": ["Formato medio (hasta 60 cm)", "Gran formato (más de 60 cm)", "Mosaico y formato pequeño (hasta 20 cm)", "Azulejos y pavimentos (otros)", "Peldaños, listelos y rodapiés", "Adhesivos, cementos cola e impermeabilizantes", "Juntas y masillas", "Perfiles, cantoneras y nivelación"],
+  "Terrazas y patios": ["Porcelánico de exterior y piscina", "Porcelánico de 2 cm (sobre plots)", "Tarima composite", "Tarima de madera", "Losetas y baldosas encajables", "Césped artificial", "Plots, rastreles y fijaciones", "Accesorios para césped"],
   "Suelos": ["Laminado AC4", "Laminado AC5", "Laminado AC6", "Laminado (otras clases)", "Vinílico SPC/LVT", "Madera y parquet", "Porcelánico imitación", "Rodapiés", "Bases y accesorios"],
   "Decoración y revestimientos": ["Papel pintado vinílico", "Papel pintado tejido no tejido", "Papel pintado (otros)", "Papel pintado infantil", "Murales y fotomurales", "Pósters y láminas", "Paneles de listones y acústicos", "Frisos, zócalos y revestimientos de madera", "Colas y herramientas para papel"],
   "Puertas": ["Puertas de interior abatibles", "Puertas correderas", "Puertas de entrada y blindadas", "Manillas, pomos y condenas", "Tapajuntas y molduras", "Guías y herrajes"],
@@ -228,6 +239,8 @@ export function anchoMod(n) {
   const v = parseFloat((altoPrimero ? m[2] : m[1]).replace(",", "."));
   return v > 300 ? v / 10 : v;
 }
+// Altura del césped en mm.
+export function mmC(n) { const m = String(n).match(/(\d{1,2})\s*mm/i); return m ? Number(m[1]) : 0; }
 // Lado mayor en cm de un formato tipo «30x60», «7,5x30 cm».
 export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s*(\d+(?:[.,]\d+)?)/i); return m ? Math.max(parseFloat(m[1].replace(",", ".")), parseFloat(m[2].replace(",", "."))) : 0; }
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
@@ -235,7 +248,7 @@ const COCINA = /\b(metod|delinia|enhet|knoxhult)\b|fregadero|encimera|placa (de 
 // La iluminación sale de Electricidad a un área propia.
 const LUZ = /downlight|dicroica|mr16|gu10|placa led|perfil led|controlador tiras|kit de superficie panel|fuente alimentaci[oó]n .*(12|24) ?v|bombilla|plaf[oó]n|aplique|colgante|l[aá]mpara|tira (de )?led|tira led|foco|panel led|pantalla led|proyector|baliza|farola|portal[aá]mparas|carril|\baro\b|luminaria|regleta led|neón|neon led/i;
 // Orden del menú: primero acabados y equipos, al final el material de obra.
-export const ORDEN = ["Cerámica y colocación", "Suelos", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
+export const ORDEN = ["Cerámica y colocación", "Suelos", "Terrazas y patios", "Baño", "Cocina", "Iluminación", "Ventiladores", "Calefacción y agua caliente", "Aire acondicionado", "Fotovoltaica", "Decoración y revestimientos", "Puertas", "Ventanas", "Armarios", "Pintura",
   "Electricidad", "Fontanería y saneamiento", "Albañilería y morteros", "Tabiquería seca", "Aislamiento", "Obra y protección"];
 const AIRE = /^(giatsu|gree|haier|hec|hisense|midea|lg|daikin|mitsubishi|panasonic|fujitsu|general|samsung|toshiba|daitsu|ciarra|mundoclima|kaysun|hyundai|tcl|cecotec)\b|fan coil|aire acondicionado|split|cassette|conductos|port[aá]til|calefactor|ventilador|frigor|\bmudo\b|kios|anori|giada|\b(asy|asg|aug)\b|garrafa|amortiguador|silentblock|bomba de condensados|canal clima|unidad (interior|exterior)/i;
 export function area(categoria, nombre) {
@@ -259,6 +272,11 @@ export function subgrupo(categoria, nombre) {
 export const esPieza = (n) => /^\W*(tapa|marco|premarco|tecla|embellecedor|recambio|repuesto|kit de|juego de tornillos|tornillo|soporte|tap[oó]n|conector|accesorio|adaptador|rejilla|v[aá]lvula|brazo|flexo|mango)\b/i.test(n);
 // Explicación corta que sale al principio de algunos subgrupos.
 export const EXPLICA = {
+  "Porcelánico de 2 cm (sobre plots)": "Baldosas gruesas de 2 cm para colocar en seco sobre soportes regulables (plots): no hace falta obra, el agua drena por debajo y se pueden levantar.",
+  "Porcelánico de exterior y piscina": "Para exterior conviene antideslizante C3 (o R11) y resistente a la helada. Compara siempre el precio por m².",
+  "Tarima composite": "Composite (madera y plástico): casi sin mantenimiento, no se astilla ni hay que barnizarla. Se coloca sobre rastreles.",
+  "Tarima de madera": "Madera natural tratada para exterior (pino autoclave, ipe, cumaru…): más cálida, pero pide aceite o lasur cada año.",
+  "Césped artificial": "Compara el precio por m². Más altura (30-40 mm) es más mullido y natural; 15-20 mm es más barato y fácil de limpiar. Más puntadas por m² = más denso.",
   "Laminado AC4": "AC4 (clase 32): el más habitual en casa. Aguanta bien salón, pasillo y dormitorios con uso normal.",
   "Laminado AC5": "AC5 (clase 33): más resistente a golpes y arañazos. Recomendable con niños, mascotas o mucho paso, y en locales pequeños.",
   "Laminado AC6": "AC6 (clase 34): la máxima resistencia. Para zonas de mucho tráfico; en una vivienda normal suele bastar con AC4 o AC5.",
@@ -337,6 +355,11 @@ export const FACETAS = {
   ],
   "Iluminación": [
     { nombre: "Color", aplica: () => true, opciones: [["Blanco", /blanc|white/i], ["Negro", /negr|black/i], ["Dorado", /dorad|\boro\b|gold|lat[oó]n/i], ["Madera", /madera|ratán|ratan|mimbre|bamb[uú]/i]] },
+  ],
+  "Terrazas y patios": [
+    { nombre: "Altura del césped", aplica: (g) => /Césped/.test(g), opciones: [["Hasta 15 mm", (n) => mmC(n) > 0 && mmC(n) <= 15], ["De 20 a 30 mm", (n) => mmC(n) >= 16 && mmC(n) <= 30], ["Más de 30 mm", (n) => mmC(n) > 30]] },
+    { nombre: "Color", aplica: (g) => /Porcel|Tarima|Losetas/.test(g), opciones: [["Gris", /gris|grey|gray|cemento|ash|perla|pearl|plata/i], ["Madera o marrón", /madera|wood|roble|oak|marr[oó]n|teca|nogal|tabaco|cumar|ipe|pino|acacia|teja/i], ["Beige o arena", /beige|arena|sand|crema|cream|bone|hueso|ivory|marfil|moka/i], ["Negro o antracita", /negr|black|antracita|grafito/i], ["Blanco", /blanc|white/i]] },
+    { nombre: "Antideslizante", aplica: (g) => /Porcel/.test(g), opciones: [["Antideslizante (C3, R11…)", /antidesliz|\bc3\b|\br1[1-3]\b|antislip/i]] },
   ],
   "Ventiladores": [
     { nombre: "Marca", aplica: () => true, opciones: [["Sulion", /sulion/i], ["Faro", /\bfaro\b/i], ["CREATE / Ikohs", /create|ikohs/i], ["Cecotec", /cecotec/i], ["Leds-C4", /leds[- ]?c4/i], ["Westinghouse", /westinghouse/i], ["Orbegozo", /orbegozo/i], ["Taurus", /taurus/i]] },

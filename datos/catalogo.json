@@ -20423,16 +20423,6 @@
       "fecha": "2026-11-25"
     },
     {
-      "tienda": "obramat",
-      "categoria": "Cerámica y colocación",
-      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM GREDOS NATURAL",
-      "precio": 6.95,
-      "unidad": "m²",
-      "precioM2": 6.95,
-      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-gredos-natural-25073483.html",
-      "fecha": "2026-11-26"
-    },
-    {
       "tienda": "latiendadelazulejo",
       "categoria": "Cerámica y colocación",
       "nombre": "Bestile Altai Green porcelánico",
@@ -96457,15 +96447,6 @@
     {
       "tienda": "leroy",
       "categoria": "Suelos",
-      "nombre": "Azulejo de piso Ambient light grey para exterior 80 x 80 cm Sp. 2cm rectificado - efecto piedra R11",
-      "precio": 42.33,
-      "unidad": "m²",
-      "enlace": "https://www.leroymerlin.es/productos/azulejo-de-piso-ambient-light-grey-para-exterior-80-x-80-cm-sp-2cm-rectificado-efecto-piedra-r11-76635093.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "leroy",
-      "categoria": "Suelos",
       "nombre": "Azulejo Hidráulico Antracita 20 x 20 cm",
       "precio": 21.25,
       "unidad": "m²",
@@ -96520,16 +96501,6 @@
       "precioM2": 35.33,
       "enlace": "https://www.leroymerlin.es/productos/azulejo-porcelanico-suelo-pared-argile-brun-20x20-cm-93520915.html",
       "fecha": "2026-11-25"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Suelos",
-      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X120CM CELENO CEMENTO",
-      "precio": 13.95,
-      "unidad": "m²",
-      "precioM2": 13.95,
-      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x120cm-celeno-cemento-25106950.html",
-      "fecha": "2026-11-26"
     },
     {
       "tienda": "leroy",
@@ -96942,46 +96913,6 @@
       "unidad": "caja",
       "precioM2": 15.95,
       "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-colorado-perla-antideslizante-25073653.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Suelos",
-      "nombre": "PORCELÁNICO PISCINA 37X75CM NORITA RAMDON",
-      "precio": 15.48,
-      "unidad": "caja",
-      "precioM2": 13.95,
-      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-norita-ramdon-25073518.html",
-      "fecha": "2026-11-26"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Suelos",
-      "nombre": "PORCELÁNICO PISCINA 37X75CM SALADA GOLD",
-      "precio": 12.95,
-      "unidad": "m²",
-      "precioM2": 12.95,
-      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-salada-gold-25073533.html",
-      "fecha": "2026-11-25"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Suelos",
-      "nombre": "PORCELÁNICO PISCINA 37X75CM SALOR LIGHT",
-      "precio": 9.95,
-      "unidad": "m²",
-      "precioM2": 9.95,
-      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-salor-light-25073715.html",
-      "fecha": "2026-11-25"
-    },
-    {
-      "tienda": "obramat",
-      "categoria": "Suelos",
-      "nombre": "PORCELÁNICO PISCINA 37X75CM VENETO GREY",
-      "precio": 14.37,
-      "unidad": "caja",
-      "precioM2": 12.95,
-      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-veneto-grey-25073546.html",
       "fecha": "2026-11-26"
     },
     {
@@ -100539,6 +100470,2727 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/techo-continuo-carton-yeso-3-m-para-techos-suspendidos-18654363.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "100 clips + 100 tornillos inoxidables",
+      "precio": 39,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/100-clips-100-tornillos-inoxidables-95898288.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "100 clips+100 tornillos inoxidables Natix",
+      "precio": 19.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/100-clips-100-tornillos-inoxidables-natix-95898287.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "30 clips inicio/fin +30 tornillos inoxidable NATERIAL",
+      "precio": 30.89,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/30-clips-inicio-fin-30-tornillos-inoxidable-naterial-95898285.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "30 clips inicio/fin +30 tornillos inoxidables",
+      "precio": 13.39,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/30-clips-inicio-fin-30-tornillos-inoxidables-95898286.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "ÁNGULO COMPOSITE 5X6 CM 2.2 M MARRÓN",
+      "precio": 5,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/angulo-composite-5x6-cm-2-2-m-marron-10920931.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Azulejo de piso Ambient light grey para exterior 80 x 80 cm Sp. 2cm rectificado - efecto piedra R11",
+      "precio": 33.86,
+      "unidad": "caja",
+      "enlace": "https://www.leroymerlin.es/productos/azulejo-de-piso-ambient-light-grey-para-exterior-80-x-80-cm-sp-2cm-rectificado-efecto-piedra-r11-76635093.html",
+      "fecha": "2026-11-28",
+      "precioM2": 52.91
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Azulejo de piso Bluestone light para exterior 60 x 60 cm Sp. 2cm rectificado - efecto piedra R11",
+      "precio": 27.02,
+      "unidad": "caja",
+      "precioM2": 37.53,
+      "enlace": "https://www.leroymerlin.es/productos/azulejo-de-piso-bluestone-light-para-exterior-60-x-60-cm-sp-2cm-rectificado-efecto-piedra-r11-79679155.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa acacia 30x30cm y 25mm",
+      "precio": 3.29,
+      "unidad": "ud",
+      "precioM2": 36.56,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-acacia-30x30cm-y-25mm-93174183.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa composite 30 x 30 cm y 22 mm gris XYLTECH clase de uso 4",
+      "precio": 5.39,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-composite-30-x-30-cm-y-22-mm-gris-xyltech-clase-de-uso-4-82904097.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa composite 30 x 30 cm y 22 mm marrón XYLTECH clase de uso 4",
+      "precio": 5.39,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-composite-30-x-30-cm-y-22-mm-marron-xyltech-clase-de-uso-4-44725821.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa composite 55.5 x 55.5 cm y 11 mm marrón ONEK",
+      "precio": 5.73,
+      "unidad": "ud",
+      "precioM2": 18.48,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-composite-55-5-x-55-5-cm-y-11-mm-marron-onek-19471046.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa composite 90 x 90 cm y 50 mm marrón DIOCO",
+      "precio": 65.99,
+      "unidad": "ud",
+      "precioM2": 81.47,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-composite-90-x-90-cm-y-50-mm-marron-dioco-94301837.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa de exterior de madera de pino 100x100x2,8 cm",
+      "precio": 20.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-de-exterior-de-madera-de-pino-100x100x2-8-cm-98677358.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera 40 x 120 cm y 25 mm gris ONEK",
+      "precio": 26.99,
+      "unidad": "ud",
+      "precioM2": 56.23,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-40-x-120-cm-y-25-mm-gris-onek-84279795.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera Acacia 30 x 60 cm y 25 mm amarillo ONEK",
+      "precio": 5.99,
+      "unidad": "ud",
+      "precioM2": 33.28,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-acacia-30-x-60-cm-y-25-mm-amarillo-onek-84279768.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera Kapur Bangkirai 50 x 50 cm y 24 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 9.89,
+      "unidad": "ud",
+      "precioM2": 39.56,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-kapur-bangkirai-50-x-50-cm-y-24-mm-marron-mibawood-clase-de-uso-4-97395834.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera maciza Acacia 30 x 30 cm y 25 mm amarillo ONEK",
+      "precio": 2.97,
+      "unidad": "ud",
+      "precioM2": 33,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-maciza-acacia-30-x-30-cm-y-25-mm-amarillo-onek-36277360.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera Pino 40 x 40 cm y 25 mm marrón ONEK",
+      "precio": 9.92,
+      "unidad": "ud",
+      "precioM2": 62,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-pino-40-x-40-cm-y-25-mm-marron-onek-84279775.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa encajable madera Pino 60 x 60 cm y 25 mm marrón ONEK",
+      "precio": 20.16,
+      "unidad": "ud",
+      "precioM2": 56,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-encajable-madera-pino-60-x-60-cm-y-25-mm-marron-onek-82973741.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR 33.3X33.3CM NUBLE STONE",
+      "precio": 8.95,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-33-3x33-3cm-nuble-stone-25110785.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM COTTO ANTIDESLIZANTE",
+      "precio": 7.95,
+      "unidad": "caja",
+      "precioM2": 7.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-cotto-antideslizante-25073630.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM GREDOS NATURAL",
+      "precio": 6.95,
+      "unidad": "caja",
+      "precioM2": 6.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-gredos-natural-25073483.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM RAYASTHAN OCRE",
+      "precio": 7.95,
+      "unidad": "caja",
+      "precioM2": 7.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-rayasthan-ocre-25074928.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM RAYASTHAN PIZARRA",
+      "precio": 8.95,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-rayasthan-pizarra-25073465.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR GRES ESPESORADO 33.3X33.3CM SURVIVAL GRIS",
+      "precio": 8.95,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-gres-espesorado-33-3x33-3cm-survival-gris-25074942.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 32.5X32.5CM LIMIA GREY MATE",
+      "precio": 8.84,
+      "unidad": "caja",
+      "precioM2": 6.45,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-32-5x32-5cm-limia-grey-mate-25073422.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 32.5X32.5CM TERRACINA GRIS",
+      "precio": 12.26,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-32-5x32-5cm-terracina-gris-25073442.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 32.5X32.5CM VILLAFAMES COTTO MATE",
+      "precio": 12.26,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-32-5x32-5cm-villafames-cotto-mate-25073536.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 33.3X33.3CM BURGUILLOS MIEL ANTIDESLIZANTE",
+      "precio": 10.77,
+      "unidad": "caja",
+      "precioM2": 6.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-33-3x33-3cm-burguillos-miel-antideslizante-25073654.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 33.3X33.3CM GREDOS TEJA ANTIDESLIZANTE",
+      "precio": 12.32,
+      "unidad": "caja",
+      "precioM2": 7.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-33-3x33-3cm-gredos-teja-antideslizante-25083000.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 33.3X33.3CM TER COTTON ANTIDESLIZANTE",
+      "precio": 12.32,
+      "unidad": "caja",
+      "precioM2": 7.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-33-3x33-3cm-ter-cotton-antideslizante-25105518.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM ALAMO MOKA",
+      "precio": 16.12,
+      "unidad": "caja",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-alamo-moka-25131473.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM ALAMO MOKA ANTIDESLIZANTE",
+      "precio": 9.94,
+      "unidad": "caja",
+      "precioM2": 7,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-alamo-moka-antideslizante-25073624.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM ALHAMBRA",
+      "precio": 19.35,
+      "unidad": "caja",
+      "precioM2": 11.94,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-alhambra-25131540.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM GALENDE GREY",
+      "precio": 12.71,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-galende-grey-25073699.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM SALOR NATURAL",
+      "precio": 16.97,
+      "unidad": "caja",
+      "precioM2": 11.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-salor-natural-25073693.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM TER ASH ANTIDESLIZANTE",
+      "precio": 12.71,
+      "unidad": "caja",
+      "precioM2": 8.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-ter-ash-antideslizante-25073463.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM VILANOVA",
+      "precio": 15.55,
+      "unidad": "caja",
+      "precioM2": 10.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-vilanova-25110784.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 45X45CM VILANOVA COTTO",
+      "precio": 14.13,
+      "unidad": "caja",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-45x45cm-vilanova-cotto-25073474.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 59.5X120CM AMSTEL ANTRACITA",
+      "precio": 22.81,
+      "unidad": "caja",
+      "precioM2": 15.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-59-5x120cm-amstel-antracita-25073591.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 59.5X120CM AMSTEL CEMENTO",
+      "precio": 22.81,
+      "unidad": "caja",
+      "precioM2": 15.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-59-5x120cm-amstel-cemento-25073583.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60.5X60.5CM STONE TAUPE",
+      "precio": 18.91,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60-5x60-5cm-stone-taupe-25105519.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X120CM CELENO ANTRACITA",
+      "precio": 19.92,
+      "unidad": "caja",
+      "precioM2": 13.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x120cm-celeno-antracita-25106947.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X120CM CELENO CEMENTO",
+      "precio": 19.92,
+      "unidad": "caja",
+      "precioM2": 13.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x120cm-celeno-cemento-25106950.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X120CM KLUE GRIS",
+      "precio": 20.11,
+      "unidad": "caja",
+      "precioM2": 13.97,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x120cm-klue-gris-25073462.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM AUSTIN GREY",
+      "precio": 12,
+      "unidad": "caja",
+      "precioM2": 16.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-austin-grey-25106949.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM AUSTIN IVORY",
+      "precio": 12,
+      "unidad": "caja",
+      "precioM2": 16.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-austin-ivory-25106957.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM CROMA GREIGE",
+      "precio": 13.99,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-croma-greige-25107773.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM CROMA GREY",
+      "precio": 13,
+      "unidad": "caja",
+      "precioM2": 12.04,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-croma-grey-25107774.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM MARRACHI IVORY",
+      "precio": 13.75,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-marrachi-ivory-25106959.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM MONOLITH PEARL",
+      "precio": 10,
+      "unidad": "caja",
+      "precioM2": 13.89,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-monolith-pearl-25073552.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA EXTERIOR PORCELÁNICO 60X60CM TAMUJAR NATURAL",
+      "precio": 13.99,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/baldosa-exterior-porcelanico-60x60cm-tamujar-natural-25073704.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "BALDOSA FILTRANTE TEXLOSA 40/35 MM 60X60 CM",
+      "precio": 10.64,
+      "unidad": "ud",
+      "precioM2": 29.56,
+      "enlace": "https://www.obramat.es/productos/baldosa-filtrante-texlosa-40-35-mm-60x60-cm-25071494.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa madera de pino 120 x 210 cm y 15 mm verde CARMO clase de uso 4",
+      "precio": 159.9,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-madera-de-pino-120-x-210-cm-y-15-mm-verde-carmo-clase-de-uso-4-82609074.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa madera de pino 50 x 50 cm y 30 mm verde CERLAND clase de uso 3",
+      "precio": 5.25,
+      "unidad": "ud",
+      "precioM2": 21,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-madera-de-pino-50-x-50-cm-y-30-mm-verde-cerland-clase-de-uso-3-92306683.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa madera de pino 90 x 200 cm y 19 mm beige CERLAND clase de uso 4",
+      "precio": 46.99,
+      "unidad": "ud",
+      "precioM2": 26.11,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-madera-de-pino-90-x-200-cm-y-19-mm-beige-cerland-clase-de-uso-4-82809507.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa madera Pino 100 x 100 cm y 38 mm marrón CERLAND clase de uso 4",
+      "precio": 41.99,
+      "unidad": "ud",
+      "precioM2": 41.99,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-madera-pino-100-x-100-cm-y-38-mm-marron-cerland-clase-de-uso-4-92306679.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa madera Pino silvestre 100 x 100 cm y 30 mm marrón CERLAND clase de uso 3",
+      "precio": 27.99,
+      "unidad": "ud",
+      "precioM2": 27.99,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-madera-pino-silvestre-100-x-100-cm-y-30-mm-marron-cerland-clase-de-uso-3-92306681.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa Renala 30x30cm antracita NATERIAL",
+      "precio": 4.99,
+      "unidad": "ud",
+      "precioM2": 55.44,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-renala-30x30cm-antracita-naterial-82661070.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa Renala 30x30cm chocolate NATERIAL",
+      "precio": 5.14,
+      "unidad": "ud",
+      "precioM2": 57.11,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-renala-30x30cm-chocolate-naterial-82661069.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa renala 30x30cm color miel NATERIAL",
+      "precio": 5.09,
+      "unidad": "ud",
+      "precioM2": 56.56,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-renala-30x30cm-color-miel-naterial-95898308.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Baldosa Renala 30x30cm gris NATERIAL",
+      "precio": 5.14,
+      "unidad": "ud",
+      "precioM2": 57.11,
+      "enlace": "https://www.leroymerlin.es/productos/baldosa-renala-30x30cm-gris-naterial-95898306.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cartucho de adhesivo para montaje de césped artificial 300 ml",
+      "precio": 14.4,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cartucho-de-adhesivo-para-montaje-de-cesped-artificial-300-ml-14458255.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial 7mm Premium 1x10m | SoftTouch 7mm para Terrazas y Jardines",
+      "precio": 47.3,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-7mm-premium-1x10m-softtouch-7mm-para-terrazas-y-jardines-72695862.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial 7mm Premium 2x10m | SoftTouch 7mm para Terrazas y Jardines",
+      "precio": 53.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-7mm-premium-2x10m-softtouch-7mm-para-terrazas-y-jardines-72649970.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped artificial al corte NATERIAL SANTORINI 2m de ancho 35 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 22.99,
+      "unidad": "m²",
+      "precioM2": 22.99,
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-al-corte-naterial-santorini-2m-de-ancho-35-mm-de-altura-de-fibras-y-15750-puntadas-m2-82528614.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped artificial al corte NATERIAL Solta 2m de ancho 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 10.99,
+      "unidad": "m²",
+      "precioM2": 10.99,
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-al-corte-naterial-solta-2m-de-ancho-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-92186707.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped artificial al corte NATERIAL Solta 4m de ancho 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 10.99,
+      "unidad": "m²",
+      "precioM2": 10.99,
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-al-corte-naterial-solta-4m-de-ancho-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-92186717.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped artificial Isis 2x2 metros y de 35 mm de espesor de color verde 24150 puntadas/m2",
+      "precio": 35.99,
+      "unidad": "rollo",
+      "precioM2": 9,
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-isis-2x2-metros-y-de-35-mm-de-espesor-de-color-verde-24150-puntadas-m2-76862529.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial Moqueta 12mm-Rollo 1x25m-60.000 puntadas-Terraza-Jardín | Para Mascotas y Niños | Protección UV-Ignífugo-Drenaje Eficaz",
+      "precio": 149.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-nbsp-moqueta-nbsp-12mm-rollo-1x25m-60-000-puntadas-terraza-jardin-para-mascotas-y-ninos-proteccion-uv-ignifugo-drenaje-eficaz-77524862.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial Moqueta 7mm-Rollo 2x25m-60.000 puntadas-Terraza-Jardín | Para Mascotas y Niños | Protección UV-Ignífugo-Drenaje Eficaz",
+      "precio": 199.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-nbsp-moqueta-nbsp-7mm-rollo-2x25m-60-000-nbsp-puntadas-terraza-jardin-para-mascotas-y-ninos-proteccion-uv-ignifugo-drenaje-eficaz-77524291.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial Moqueta7mm-Rollo 1x25m-60.000 puntadas-Terraza-Jardín | Para Mascotas y Niños | Protección UV-Ignífugo-Drenaje Eficaz",
+      "precio": 119.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-nbsp-moqueta7mm-rollo-1x25m-60-000-nbsp-puntadas-terraza-jardin-para-mascotas-y-ninos-proteccion-uv-ignifugo-drenaje-eficaz-77598219.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial rollo 2x10m| Mullido 30mm|Suave| Terraza-Jardín. Apto para Mascotas y Niños| 15.750 puntadas| Ignífugo-Drenaje Eficaz-Garantía 7",
+      "precio": 160.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-rollo-2x10m-mullido-30mm-suave-nbsp-terraza-jardin-apto-para-mascotas-y-ninos-15-750-puntadas-ignifugo-drenaje-eficaz-garantia-7-70849868.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial rollo 2x10m| Mullido 40mm PREMIUM| Suave| Terraza-Jardín. Apto para Mascotas y Niños| 16.800 puntadas| Ignífugo-Drenaje Eficaz",
+      "precio": 248.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-rollo-2x10m-mullido-40mm-premium-suave-terraza-jardin-apto-para-mascotas-y-ninos-16-800-puntadas-ignifugo-drenaje-eficaz-70849923.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial rollo 2x25m | EXTRAmullido 40mm PREMIUM | EXTRAsuave | 28.350 puntadas | Terraza-Jardín. Apto para Mascotas y Niños | Ignífugo",
+      "precio": 842.1,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-rollo-2x25m-extramullido-40mm-premium-extrasuave-28-350-puntadas-nbsp-terraza-jardin-apto-para-mascotas-y-ninos-ignifugo-78892664.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Césped Artificial rollo 2x5m| Mullido 30mm| Suave| Terraza-Jardín. Apto para Mascotas y Niños| 15.750 puntadas| Ignífugo-Drenaje Eficaz-Garantía 7",
+      "precio": 99.45,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-rollo-2x5m-mullido-30mm-suave-nbsp-terraza-jardin-apto-para-mascotas-y-ninos-15-750-puntadas-ignifugo-drenaje-eficaz-garantia-7-70849838.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 1X5M (Ancho X Largo)| Grosor 20MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 25.02,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-1x5m-ancho-x-largo-grosor-20mm-suave-mullido-jardin-exterior-tipo-sintetico-85411847.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 1X5M (Ancho X Largo)| Grosor 40MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 65.71,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-1x5m-ancho-x-largo-grosor-40mm-suave-mullido-jardin-exterior-tipo-sintetico-85414982.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X10M (Ancho X Largo)| Grosor 25MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 113.96,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x10m-ancho-x-largo-grosor-25mm-suave-mullido-jardin-exterior-tipo-sintetico-85411865.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X10M (Ancho X Largo)| Grosor 40MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 152.81,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x10m-ancho-x-largo-grosor-40mm-suave-mullido-jardin-exterior-tipo-sintetico-85414988.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X2,5M (Ancho X Largo)| Grosor 40MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 68.28,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x2-5m-ancho-x-largo-grosor-40mm-suave-mullido-jardin-exterior-tipo-sintetico-85411990.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X4M (Ancho X Largo)| Grosor 40MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 109.25,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x4m-ancho-x-largo-grosor-40mm-suave-mullido-jardin-exterior-tipo-sintetico-86405992.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X5M (Ancho X Largo)| Grosor 20MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 50.04,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x5m-ancho-x-largo-grosor-20mm-suave-mullido-jardin-exterior-tipo-sintetico-85411856.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cesped Artificial| 2X5M (Ancho X Largo)| Grosor 40MM| Suave| Mullido| Jardin Exterior| Tipo Sintético",
+      "precio": 76.41,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/cesped-artificial-2x5m-ancho-x-largo-grosor-40mm-suave-mullido-jardin-exterior-tipo-sintetico-85414984.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cinta adhesiva doble cara para instalación de césped artificial 25 m",
+      "precio": 29.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cinta-adhesiva-doble-cara-para-instalacion-de-cesped-artificial-25-m-93013471.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cinta adhesiva dos caras para instalación de césped artificial 0.05 x 10 m",
+      "precio": 13.29,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cinta-adhesiva-dos-caras-para-instalacion-de-cesped-artificial-0-05-x-10-m-19772522.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cinta de unión autoadhesiva para instalación de césped artificial 0.15 x 10 m",
+      "precio": 19.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cinta-de-union-autoadhesiva-para-instalacion-de-cesped-artificial-0-15-x-10-m-84532544.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Cinta de unión autoadhesiva para instalación de césped artificial 0.15 x 5.0 m",
+      "precio": 13.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/cinta-de-union-autoadhesiva-para-instalacion-de-cesped-artificial-0-15-x-5-0-m-84532543.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Clip de acero inoxidable de 30 mm",
+      "precio": 4.69,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/clip-de-acero-inoxidable-de-30-mm-82280796.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Clip para instalación de césped artificial 17x3,5 cm caja 50 uds",
+      "precio": 15.29,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/clip-para-instalacion-de-cesped-artificial-17x3-5-cm-caja-50-uds-93408005.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "CLIP UNION COMPOSITE INOX + TORNILLO 25 UDS",
+      "precio": 8.5,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/clip-union-composite-inox-tornillo-25-uds-10828391.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "CLIP UNION COMPOSITE NYLON + TORNILLO 25 UDS",
+      "precio": 4.15,
+      "unidad": "lote",
+      "enlace": "https://www.obramat.es/productos/clip-union-composite-nylon-tornillo-25-uds-10828405.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Grapas de fijación para césped artificial 10U",
+      "precio": 3.08,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/grapas-de-fijacion-para-cesped-artificial-10u-15062572.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Gres Porcelánico Exterior 20mm R11 Efecto Cemento Rayado Antracita 60x60 - CEGP-2021 (Ceramishop.es)",
+      "precio": 33.84,
+      "unidad": "caja",
+      "precioM2": 47,
+      "enlace": "https://www.leroymerlin.es/productos/gres-porcelanico-exterior-20mm-r11-efecto-cemento-rayado-antracita-60x60-cegp-2021-ceramishop-es-79849141.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Gres Porcelánico Exterior 20mm R11 Efecto Cemento Rayado Beige 100x100 - CEGP-2024 (Ceramishop.es)",
+      "precio": 53.98,
+      "unidad": "caja",
+      "precioM2": 53.98,
+      "enlace": "https://www.leroymerlin.es/productos/gres-porcelanico-exterior-20mm-r11-efecto-cemento-rayado-beige-100x100-cegp-2024-ceramishop-es-79847247.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Gres Porcelánico Exterior 20mm R11 Efecto Cemento Rayado Gris 60x60 - CEGP-2019 (Ceramishop.es)",
+      "precio": 35.76,
+      "unidad": "caja",
+      "precioM2": 49.67,
+      "enlace": "https://www.leroymerlin.es/productos/gres-porcelanico-exterior-20mm-r11-efecto-cemento-rayado-gris-60x60-cegp-2019-ceramishop-es-79848837.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Kit 16 unidades Tarima exterior WPC Urban Deck Gris Perla 2200x146x23 mm",
+      "precio": 303.89,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/kit-16-unidades-tarima-exterior-wpc-urban-deck-gris-perla-2200x146x23-mm-61164607.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Kit 16 unidades Tarima exterior WPC Urban Deck Marron Glace 2200x146x23 mm",
+      "precio": 303.89,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/kit-16-unidades-tarima-exterior-wpc-urban-deck-marron-glace-2200x146x23-mm-61164492.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Kit de fijación para suelo de composite",
+      "precio": 17.59,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/kit-de-fijacion-para-suelo-de-composite-14104391.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 12 x 220 cm y 19 mm negro XYLTECH",
+      "precio": 10.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-12-x-220-cm-y-19-mm-negro-xyltech-82200353.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 14 x 240 cm y 25 mm gris XYLTECH",
+      "precio": 21.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-14-x-240-cm-y-25-mm-gris-xyltech-44834783.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 14 x 240 cm y 25 mm marrón chocolate XYLTECH",
+      "precio": 20.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-14-x-240-cm-y-25-mm-marron-chocolate-xyltech-44834790.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 14 x 360 cm y 25 mm marrón chocolate XYLTECH",
+      "precio": 29.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-14-x-360-cm-y-25-mm-marron-chocolate-xyltech-87886600.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 14 x 360 cm y 25 mm marrón rojizo XYLTECH",
+      "precio": 29.37,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-14-x-360-cm-y-25-mm-marron-rojizo-xyltech-82910435.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite 14.2 x 240 cm y 22 mm gris NATERIAL",
+      "precio": 20.84,
+      "unidad": "ud",
+      "precioM2": 59.89,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-14-2-x-240-cm-y-22-mm-gris-naterial-95898312.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "LAMA COMPOSITE 14.5X2.1 CM 2.2 M GRIS Y ARENA",
+      "precio": 10,
+      "unidad": "ud",
+      "precioM2": 31.25,
+      "enlace": "https://www.obramat.es/productos/lama-composite-14-5x2-1-cm-2-2-m-gris-y-arena-25058923.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite de álamo 15 x 120 cm y 23 mm gris NATERIAL",
+      "precio": 3.96,
+      "unidad": "ud",
+      "precioM2": 22,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-de-alamo-15-x-120-cm-y-23-mm-gris-naterial-82661072.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Dolma 240x14,5x2,1cm antracita NATERIAL",
+      "precio": 14.99,
+      "unidad": "ud",
+      "precioM2": 43.07,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-dolma-240x14-5x2-1cm-antracita-naterial-95898303.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Dolma 240x14,5x2,1cm arena NATERIAL",
+      "precio": 14.96,
+      "unidad": "ud",
+      "precioM2": 42.99,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-dolma-240x14-5x2-1cm-arena-naterial-95898307.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Dolma 240x14,5x2,1cm chocolate NATERIAL",
+      "precio": 14.99,
+      "unidad": "ud",
+      "precioM2": 43.07,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-dolma-240x14-5x2-1cm-chocolate-naterial-95898305.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Dolma 240x14,5x2,1cm miel NATERIAL",
+      "precio": 14.99,
+      "unidad": "ud",
+      "precioM2": 43.07,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-dolma-240x14-5x2-1cm-miel-naterial-95898299.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Himya 240x14,5x2,1cm antracita NATERIAL",
+      "precio": 20.84,
+      "unidad": "ud",
+      "precioM2": 59.89,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-himya-240x14-5x2-1cm-antracita-naterial-95898302.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Himya 240x14,5x2,1cm color madera oscuro NATERIAL",
+      "precio": 20.84,
+      "unidad": "ud",
+      "precioM2": 59.89,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-himya-240x14-5x2-1cm-color-madera-oscuro-naterial-95898314.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Himya 240x14,5x2,1cm madera natural NATERIAL",
+      "precio": 22.62,
+      "unidad": "ud",
+      "precioM2": 65,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-himya-240x14-5x2-1cm-madera-natural-naterial-95898304.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Himya 240x14,5x2,1cm teka NATERIAL",
+      "precio": 20.84,
+      "unidad": "ud",
+      "precioM2": 59.89,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-himya-240x14-5x2-1cm-teka-naterial-95898315.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Siglo Choco 12 x 220 cm y 19 mm marrón",
+      "precio": 10.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-siglo-choco-12-x-220-cm-y-19-mm-marron-82910427.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama composite Tatria 220x11x2cm chocolate",
+      "precio": 9.99,
+      "unidad": "ud",
+      "precioM2": 41.28,
+      "enlace": "https://www.leroymerlin.es/productos/lama-composite-tatria-220x11x2cm-chocolate-95898309.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama compuesto 14.2 x 220 cm y 23 mm beige DIOCO",
+      "precio": 17.46,
+      "unidad": "ud",
+      "precioM2": 55.96,
+      "enlace": "https://www.leroymerlin.es/productos/lama-compuesto-14-2-x-220-cm-y-23-mm-beige-dioco-94301852.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "LAMA MADERA COMPOSITE NEOMECK SAND 15x2x220 cm",
+      "precio": 14.13,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-composite-neomeck-sand-15x2x220-cm-90171169.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 12 x 240 cm y 21 mm marrón CERLAND clase de uso 3",
+      "precio": 7.74,
+      "unidad": "ud",
+      "precioM2": 26.88,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-12-x-240-cm-y-21-mm-marron-cerland-clase-de-uso-3-80124830.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 12 x 240 cm y 21 mm marrón CERLAND clase de uso 3",
+      "precio": 8.15,
+      "unidad": "ud",
+      "precioM2": 28.3,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-12-x-240-cm-y-21-mm-marron-cerland-clase-de-uso-3-92306672.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 12 x 240 cm y 21 mm marrón ISB clase de uso 4",
+      "precio": 8.79,
+      "unidad": "ud",
+      "precioM2": 30.52,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-12-x-240-cm-y-21-mm-marron-isb-clase-de-uso-4-92306677.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 12 x 240 cm y 21 mm verde ISB clase de uso 4",
+      "precio": 8.9,
+      "unidad": "ud",
+      "precioM2": 30.9,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-12-x-240-cm-y-21-mm-verde-isb-clase-de-uso-4-92306669.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 14.5 x 240 cm y 27 mm verde ISB clase de uso 4",
+      "precio": 9.66,
+      "unidad": "ud",
+      "precioM2": 27.76,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-14-5-x-240-cm-y-27-mm-verde-isb-clase-de-uso-4-92306673.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino 9.6 x 240 cm y 19 mm marrón CERLAND clase de uso 3",
+      "precio": 6.55,
+      "unidad": "ud",
+      "precioM2": 28.48,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-9-6-x-240-cm-y-19-mm-marron-cerland-clase-de-uso-3-12717092.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino silvestre 12 x 240 cm y 21 mm madera ISB clase de uso 3b",
+      "precio": 10.97,
+      "unidad": "ud",
+      "precioM2": 38.09,
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-silvestre-12-x-240-cm-y-21-mm-madera-isb-clase-de-uso-3b-92306668.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lama madera de pino silvestre 14.5 x 210 cm y 22 mm marrón CARMO clase de uso 4",
+      "precio": 6.35,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lama-madera-de-pino-silvestre-14-5-x-210-cm-y-22-mm-marron-carmo-clase-de-uso-4-82182559.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lorvik Rollo Césped Artificial 30 mm — 1×5 m (5 m²) para Jardín y Zona de Descanso",
+      "precio": 49.56,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/lorvik-rollo-cesped-artificial-30-mm-1-5-m-5-m2-para-jardin-y-zona-de-descanso-70548027.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lote 12 plots H20/30 mm baldosa de polipropileno",
+      "precio": 30.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-12-plots-h20-30-mm-baldosa-de-polipropileno-84318222.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lote 8 plots H50/80 mm baldosa de polipropileno",
+      "precio": 20.59,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/lote-8-plots-h50-80-mm-baldosa-de-polipropileno-88149722.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Lote de 10 grapas en U de acero para geotextil y césped artificial",
+      "precio": 4,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/lote-de-10-grapas-en-u-de-acero-para-geotextil-y-cesped-artificial-85516887.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierba | 1 X 100 M (AnchoXLargo) | 90 g/m2 | Polietileno Alta Densidad | Cuadros 33X33 CM | Color Negro",
+      "precio": 86.04,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierba-1-x-100-m-anchoxlargo-90-g-m2-polietileno-alta-densidad-cuadros-33x33-cm-color-negro-85494411.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierba | 1,5X100 M (AnchoXLargo) | 90 g/m2 | Polietileno Alta Densidad | Cuadros 33X33 CM | Color Negro",
+      "precio": 133.55,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierba-1-5x100-m-anchoxlargo-90-g-m2-polietileno-alta-densidad-cuadros-33x33-cm-color-negro-85494395.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierba | 2 X 100 M (AnchoXLargo) | 90 g/m2 | Polietileno Alta Densidad | Cuadros 33X33 CM | Color Negro",
+      "precio": 177.91,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierba-2-x-100-m-anchoxlargo-90-g-m2-polietileno-alta-densidad-cuadros-33x33-cm-color-negro-85494409.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla antihierba de 1,25x10 m + 10 piquetas de fijación",
+      "precio": 17.29,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierba-de-1-25x10-m-10-piquetas-de-fijacion-16372545.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "MALLA ANTIHIERBAS 1.6X10 M MARRÓN",
+      "precio": 13.2,
+      "unidad": "ud",
+      "precioM2": 0.83,
+      "enlace": "https://www.obramat.es/productos/malla-antihierbas-1-6x10-m-marron-10903046.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "MALLA ANTIHIERBAS PLÁSTICA 90 GR/M2 2.10X25 M VERDE",
+      "precio": 38.79,
+      "unidad": "ud",
+      "precioM2": 0.74,
+      "enlace": "https://www.obramat.es/productos/malla-antihierbas-plastica-90-gr-m2-2-10x25-m-verde-10903032.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierbas Tejida SucceBuy 0,9 × 76,2 m, 170 g/m², Tela Geotextil de PP para Jardines, Huertos y Caminos",
+      "precio": 39.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierbas-tejida-succebuy-0-9-76-2-m-170-g-m2-tela-geotextil-de-pp-para-jardines-huertos-y-caminos-95325275.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierbas Tejida SucceBuy 1,2 × 30,5 m, 108 g/m², Tela Geotextil de PP para Jardines, Huertos y Caminos",
+      "precio": 17.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierbas-tejida-succebuy-1-2-30-5-m-108-g-m2-tela-geotextil-de-pp-para-jardines-huertos-y-caminos-95325336.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Malla Antihierbas Tejida SucceBuy 2 × 100,6 m, 108 g/m², Tela Geotextil de PP para Jardines, Huertos y Caminos",
+      "precio": 76.99,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/malla-antihierbas-tejida-succebuy-2-100-6-m-108-g-m2-tela-geotextil-de-pp-para-jardines-huertos-y-caminos-95274887.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Muestra de Césped artificial NATERIAL Maldivas 20x30 cm de 40 mm de altura de fibras y 18900 puntadas m2",
+      "precio": 1.49,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/muestra-de-cesped-artificial-naterial-maldivas-20x30-cm-de-40-mm-de-altura-de-fibras-y-18900-puntadas-m2-98746969.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 10 Baldosas Madera Tropical 500x500x30mm con Aceite protector (2,5m²) (m²: 31,96€)",
+      "precio": 79.9,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-10-baldosas-madera-tropical-500x500x30mm-con-aceite-protector-2-5m2-m2-31-96-euro-74118899.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 10 Soportes Regulables 60-138mm para Tarimas de Madera y Composite - Negro",
+      "precio": 37.7,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-10-soportes-regulables-60-138mm-para-tarimas-de-madera-y-composite-negro-76098706.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 11 unidades plot regulable para madera 140 - 230 mm",
+      "precio": 35,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-11-unidades-plot-regulable-para-madera-140-230-mm-97106310.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 11 unidades plot regulable para madera 40 - 60 mm",
+      "precio": 23.49,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-11-unidades-plot-regulable-para-madera-40-60-mm-97106312.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 11 unidades plot regulable para madera 50 - 80 mm",
+      "precio": 27.29,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-11-unidades-plot-regulable-para-madera-50-80-mm-97106311.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 11 unidades plot regulable para madera 80 - 140 mm",
+      "precio": 31.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-11-unidades-plot-regulable-para-madera-80-140-mm-97106309.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 20 Soportes Regulables 18-30mm para Tarimas de Madera y Composite - Negro",
+      "precio": 31.61,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-20-soportes-regulables-18-30mm-para-tarimas-de-madera-y-composite-negro-75451264.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 3 lamas madera maciza Bambú 15.5 x 200 cm y 20 mm marrón MIBAWOOD clase de uso 3",
+      "precio": 76.99,
+      "unidad": "caja",
+      "precioM2": 82.78,
+      "enlace": "https://www.leroymerlin.es/productos/pack-3-lamas-madera-maciza-bambu-15-5-x-200-cm-y-20-mm-marron-mibawood-clase-de-uso-3-97395836.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 baldosas composite 50 x 50 cm y 25 mm marrón claro NATERIAL",
+      "precio": 46.82,
+      "unidad": "caja",
+      "precioM2": 46.82,
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-baldosas-composite-50-x-50-cm-y-25-mm-marron-claro-naterial-95898300.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 baldosas composite 50 x 50 cm y 25 mm marrón oscuro NATERIAL",
+      "precio": 69.99,
+      "unidad": "caja",
+      "precioM2": 69.99,
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-baldosas-composite-50-x-50-cm-y-25-mm-marron-oscuro-naterial-95898313.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 baldosas Serava composite 50 x 50 cm y 25 mm gris NATERIAL",
+      "precio": 46.4,
+      "unidad": "caja",
+      "precioM2": 46.4,
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-baldosas-serava-composite-50-x-50-cm-y-25-mm-gris-naterial-95898298.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 Rastrel de madera Tropical 1500x30x21mm",
+      "precio": 15.4,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-rastrel-de-madera-tropical-1500x30x21mm-94508622.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 rastrel madera tropical Tali1500x38x60mm",
+      "precio": 35,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-rastrel-madera-tropical-tali1500x38x60mm-92477425.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 4 rastreles de madera tropical Tali 6 x 225 cm y 38 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 58.9,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-4-rastreles-de-madera-tropical-tali-6-x-225-cm-y-38-mm-marron-mibawood-clase-de-uso-4-89743394.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 40 lamas (10,08 m2) de Madera de Pino Tratado 21x140x1800 mm",
+      "precio": 375,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-40-lamas-10-08-m2-de-madera-de-pino-tratado-21x140x1800-mm-95199595.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Badi 9 x 180 cm y 19 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 46.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-badi-9-x-180-cm-y-19-mm-marron-mibawood-clase-de-uso-4-90671682.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Badi 9 x 210 cm y 19 mm amarillo MIBAWOOD clase de uso 4",
+      "precio": 61.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-badi-9-x-210-cm-y-19-mm-amarillo-mibawood-clase-de-uso-4-92564420.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Cumaru 14.5 x 125 cm y 21 mm marrón clase de uso 4",
+      "precio": 64,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-cumaru-14-5-x-125-cm-y-21-mm-marron-clase-de-uso-4-88594745.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Cumaru 14.5 x 210 cm y 21 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 117,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-cumaru-14-5-x-210-cm-y-21-mm-marron-mibawood-clase-de-uso-4-96609148.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Tali 9 x 120 cm y 19 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 37.25,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-tali-9-x-120-cm-y-19-mm-marron-mibawood-clase-de-uso-4-90178126.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 5 lamas madera tropical Tali 9 x 210 cm y 19 mm marrón MIBAWOOD clase de uso 4",
+      "precio": 62.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-5-lamas-madera-tropical-tali-9-x-210-cm-y-19-mm-marron-mibawood-clase-de-uso-4-89743391.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 50 plots regulables 18-30mm para tarimas de madera y composite - Negro",
+      "precio": 68.36,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-50-plots-regulables-18-30mm-para-tarimas-de-madera-y-composite-negro-75512119.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack 9 lamas madera tropical Acacia 31.5 x 32 cm y 16 mm marrón CATRAL GARDEN AND HOME",
+      "precio": 25.91,
+      "unidad": "caja",
+      "precioM2": 31.99,
+      "enlace": "https://www.leroymerlin.es/productos/pack-9-lamas-madera-tropical-acacia-31-5-x-32-cm-y-16-mm-marron-catral-garden-and-home-81972584.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 10 piquetas de fijación de acero galvanizado en forma de J - ø 6mm",
+      "precio": 17,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-10-piquetas-de-fijacion-de-acero-galvanizado-en-forma-de-j-6mm-76814445.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 100 piquetas de fijación de acero galvanizado en forma de U - ø 3,6 mm",
+      "precio": 13,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-100-piquetas-de-fijacion-de-acero-galvanizado-en-forma-de-u-3-6-mm-76814494.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "PACK DE 3 LAMAS PARA SUELO DE COMPOSITE WPC BI REVERSIBLE GRIS/NEGRO 23x139x2200mm (m²: 76.2€)",
+      "precio": 69.9,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-3-lamas-para-suelo-de-composite-wpc-bi-reversible-gris-negro-23x139x2200mm-m2-76-2-euro-72984371.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "PACK DE 3 LAMAS PARA SUELO DE COMPOSITE WPC BI REVERSIBLE MARRÓN/OAK 23x139x2200mm (m²: 76.2€)",
+      "precio": 69.9,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-3-lamas-para-suelo-de-composite-wpc-bi-reversible-marron-oak-23x139x2200mm-m2-76-2-euro-73633275.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 4 rastreles de bambú MIBAWOOD 40X60X1860MM",
+      "precio": 53.57,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-4-rastreles-de-bambu-mibawood-40x60x1860mm-78714678.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 60 lamas de exterior MIBAWOOD de madera tropical IPE 19mm color marrón 10 m²/palet clase 4",
+      "precio": 1049,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-60-lamas-de-exterior-mibawood-de-madera-tropical-ipe-19mm-color-marron-10-m2-palet-clase-4-73022076.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 8 Lamas Composite Urban Deck Top Duo Gris-Marfil 220x13,8x2,3 cm Reversible",
+      "precio": 193.15,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-8-lamas-composite-urban-deck-top-duo-gris-marfil-220x13-8x2-3-cm-reversible-71275252.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Pack de 8 Lamas Composite Urban Deck Up Duo Mongoy-Ébano 220x13,8x2,3 cm Reversible",
+      "precio": 243.62,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/pack-de-8-lamas-composite-urban-deck-up-duo-mongoy-ebano-220x13-8x2-3-cm-reversible-71458450.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Palet de 15 m2 de lama de exterior Coex Protect Gris Claro de 14,5x260 cm reversible",
+      "precio": 1399,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/palet-de-15-m2-de-lama-de-exterior-coex-protect-gris-claro-de-14-5x260-cm-reversible-76728440.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Palet de 5 m² de lama de exterior Olveolar Antracita de 14,6x260 cm reversible",
+      "precio": 659,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/palet-de-5-m2-de-lama-de-exterior-olveolar-antracita-de-14-6x260-cm-reversible-76728600.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PLOT BSP2 50-80MM PZA",
+      "precio": 2.1,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/plot-bsp2-50-80mm-pza-25121802.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PLOT MOD SP1 PZA",
+      "precio": 2.45,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/plot-mod-sp1-pza-10591700.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable de 18-30 mm para tarimas de madera y composite - Negro",
+      "precio": 1.17,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-de-18-30-mm-para-tarimas-de-madera-y-composite-negro-82910590.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable de 30-60 mm para tarimas de madera y composite - Negro",
+      "precio": 1.67,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-de-30-60-mm-para-tarimas-de-madera-y-composite-negro-82910585.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable de 66-145 mm para tarimas de madera y composite - Negro",
+      "precio": 3.4,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-de-66-145-mm-para-tarimas-de-madera-y-composite-negro-82846937.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable para baldosa H40/60 mm de polipropileno 8 uds",
+      "precio": 27.49,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-para-baldosa-h40-60-mm-de-polipropileno-8-uds-88149720.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable para madera H20/30 mm de polipropileno 12 uds",
+      "precio": 31.99,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-para-madera-h20-30-mm-de-polipropileno-12-uds-88150111.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot regulable para madera H50/80 mm de polipropileno 8 uds",
+      "precio": 27.29,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/plot-regulable-para-madera-h50-80-mm-de-polipropileno-8-uds-88150113.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot Soporte regulable MAXIPLOT H296 a 390 mm - Junta 4 mm",
+      "precio": 7.5,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/plot-soporte-regulable-maxiplot-h296-a-390-mm-junta-4-mm-72721464.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Plot terraza baldosa regulable de 70 a 110 mm - Vérindal - A la unidad",
+      "precio": 2.43,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/plot-terraza-baldosa-regulable-de-70-a-110-mm-verindal-a-unidad-86653786.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 30.3X61.3CM KARMA GREEN",
+      "precio": 22.04,
+      "unidad": "caja",
+      "precioM2": 16.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-30-3x61-3cm-karma-green-25073668.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 30.3X61.3CM KARMA SAGE",
+      "precio": 12.93,
+      "unidad": "caja",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-30-3x61-3cm-karma-sage-25073666.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM COLORADO PERLA ANTIDESLIZANTE",
+      "precio": 19.95,
+      "unidad": "caja",
+      "precioM2": 14.35,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-colorado-perla-antideslizante-25097870.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM FLORIDA ANTRACITA ANTIDESLIZANTE",
+      "precio": 22.17,
+      "unidad": "caja",
+      "precioM2": 15.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-florida-antracita-antideslizante-25097871.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM FLORIDA ANTRACITA ANTIDESLIZANTE",
+      "precio": 20.84,
+      "unidad": "caja",
+      "precioM2": 18.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-florida-antracita-antideslizante-25073633.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM ILMEN GALENA",
+      "precio": 16.59,
+      "unidad": "caja",
+      "precioM2": 14.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-ilmen-galena-25073532.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM LOSA MARFIL",
+      "precio": 15.69,
+      "unidad": "caja",
+      "precioM2": 13.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-losa-marfil-25106487.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM MARRACHI IVORY ANTIDESLIZANTE",
+      "precio": 16.3,
+      "unidad": "caja",
+      "precioM2": 14.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-marrachi-ivory-antideslizante-25085875.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM NORITA RAMDON",
+      "precio": 13,
+      "unidad": "caja",
+      "precioM2": 11.71,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-norita-ramdon-25073518.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM NUBLE STONE ANTIDESLIZANTE",
+      "precio": 16.3,
+      "unidad": "caja",
+      "precioM2": 14.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-nuble-stone-antideslizante-25085874.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM SALADA GOLD",
+      "precio": 14.37,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-salada-gold-25073533.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM SALOR LIGHT",
+      "precio": 11.04,
+      "unidad": "caja",
+      "precioM2": 9.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-salor-light-25073715.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM STONE TAUPE ANTIDESLIZANTE",
+      "precio": 22.17,
+      "unidad": "caja",
+      "precioM2": 15.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-stone-taupe-antideslizante-25105542.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM TER ASH ANTIDESLIZANTE",
+      "precio": 22.17,
+      "unidad": "caja",
+      "precioM2": 15.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-ter-ash-antideslizante-25099514.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM TER COTTON ANTIDESLIZANTE",
+      "precio": 19.39,
+      "unidad": "caja",
+      "precioM2": 13.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-ter-cotton-antideslizante-25099166.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM VENETO GREY",
+      "precio": 14.37,
+      "unidad": "caja",
+      "precioM2": 12.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-veneto-grey-25073546.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "PORCELÁNICO PISCINA 37X75CM VULCAN GREY ANTIDESLIZANTE",
+      "precio": 15.76,
+      "unidad": "caja",
+      "precioM2": 13.95,
+      "enlace": "https://www.obramat.es/productos/porcelanico-piscina-37x75cm-vulcan-grey-antideslizante-25106540.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "RASTREL COMPOSITE 4X3 CM 2.2 M",
+      "precio": 6,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/rastrel-composite-4x3-cm-2-2-m-10828356.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rastrel Composite macizo para tarimas de exterior 2400x40x25 mm",
+      "precio": 10.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/rastrel-composite-macizo-para-tarimas-de-exterior-2400x40x25-mm-64761717.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rodillo para instalación de césped artificial 0.15 x 5 m",
+      "precio": 18.49,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/rodillo-para-instalacion-de-cesped-artificial-0-15-x-5-m-19772515.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo Césped Artificial Premium 20 mm",
+      "precio": 61.85,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-cesped-artificial-premium-20-mm-71099817.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo Césped Artificial Premium 30 mm",
+      "precio": 42.3,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-cesped-artificial-premium-30-mm-71034851.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo Césped Artificial Premium 40 mm",
+      "precio": 88.5,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-cesped-artificial-premium-40-mm-71033457.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo Césped Artificial Premium 40 mm",
+      "precio": 106.19,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-cesped-artificial-premium-40-mm-71033366.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo Césped Artificial Premium 40 mm",
+      "precio": 187.62,
+      "unidad": "rollo",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-cesped-artificial-premium-40-mm-71033388.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de césped artificial ALBATROS 2x10m de 15 mm de altura de fibras y 70000 puntadas m²",
+      "precio": 117.8,
+      "unidad": "rollo",
+      "precioM2": 5.89,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-albatros-2x10m-de-15-mm-de-altura-de-fibras-y-70000-puntadas-m2-92618311.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial BIRDIE 2x10m de 7 mm de altura de fibras y 70000 puntadas m2",
+      "precio": 87.8,
+      "unidad": "rollo",
+      "precioM2": 4.39,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-birdie-2x10m-de-7-mm-de-altura-de-fibras-y-70000-puntadas-m2-89531060.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial CONIL 2x10m de 25 mm de altura de fibras y 27300 puntadas m2",
+      "precio": 269.8,
+      "unidad": "rollo",
+      "precioM2": 13.49,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-conil-2x10m-de-25-mm-de-altura-de-fibras-y-27300-puntadas-m2-97128738.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial CONIL 2x5m de 25 mm de altura de fibras y 27300 puntadas m2",
+      "precio": 129.9,
+      "unidad": "rollo",
+      "precioM2": 12.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-conil-2x5m-de-25-mm-de-altura-de-fibras-y-27300-puntadas-m2-97128736.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial Grass 1x5m de 7 mm de altura de fibras y 69300 puntadas m2",
+      "precio": 19.95,
+      "unidad": "rollo",
+      "precioM2": 3.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-grass-1x5m-de-7-mm-de-altura-de-fibras-y-69300-puntadas-m2-92186713.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial Grass 2x5m de 7 mm de altura de fibras y 69300 puntadas m2",
+      "precio": 39.9,
+      "unidad": "rollo",
+      "precioM2": 3.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-grass-2x5m-de-7-mm-de-altura-de-fibras-y-69300-puntadas-m2-92186714.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial Laredo 2x10m de 33 mm de altura de fibras y 27300 puntadas m2",
+      "precio": 327,
+      "unidad": "rollo",
+      "precioM2": 16.35,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-laredo-2x10m-de-33-mm-de-altura-de-fibras-y-27300-puntadas-m2-89531072.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial Laredo 2x5m de 33 mm de altura de fibras y 27300 puntadas m2",
+      "precio": 169.9,
+      "unidad": "rollo",
+      "precioM2": 16.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-laredo-2x5m-de-33-mm-de-altura-de-fibras-y-27300-puntadas-m2-86393000.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Deva 1x5m de 25 mm de altura de fibras y 14700 puntadas m2",
+      "precio": 69.95,
+      "unidad": "rollo",
+      "precioM2": 13.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-deva-1x5m-de-25-mm-de-altura-de-fibras-y-14700-puntadas-m2-92360786.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Deva 2x25m de 25 mm de altura de fibras y 14700 puntadas m2",
+      "precio": 655,
+      "unidad": "rollo",
+      "precioM2": 13.1,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-deva-2x25m-de-25-mm-de-altura-de-fibras-y-14700-puntadas-m2-98149359.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Deva 2x5m de 25 mm de altura de fibras y 14700 puntadas m2",
+      "precio": 129.9,
+      "unidad": "rollo",
+      "precioM2": 12.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-deva-2x5m-de-25-mm-de-altura-de-fibras-y-14700-puntadas-m2-92360790.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Ibiza 2x5m de 30 mm de altura de fibras y 28350 puntadas m2",
+      "precio": 179.9,
+      "unidad": "rollo",
+      "precioM2": 17.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-ibiza-2x5m-de-30-mm-de-altura-de-fibras-y-28350-puntadas-m2-92186703.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Maldivas 2x10m de 40 mm de altura de fibras y 18900 puntadas m2",
+      "precio": 478,
+      "unidad": "rollo",
+      "precioM2": 23.9,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-maldivas-2x10m-de-40-mm-de-altura-de-fibras-y-18900-puntadas-m2-97516714.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Maldivas 2x5m de 40 mm de altura de fibras y 18900 puntadas m2",
+      "precio": 239,
+      "unidad": "rollo",
+      "precioM2": 23.9,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-maldivas-2x5m-de-40-mm-de-altura-de-fibras-y-18900-puntadas-m2-96800571.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Panamá 2x5m de 35 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 199,
+      "unidad": "rollo",
+      "precioM2": 19.9,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-panama-2x5m-de-35-mm-de-altura-de-fibras-y-16800-puntadas-m2-96800558.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL SANTORINI 1x5m de 35 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 109.95,
+      "unidad": "rollo",
+      "precioM2": 21.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-santorini-1x5m-de-35-mm-de-altura-de-fibras-y-15750-puntadas-m2-82491120.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL SANTORINI 2x10m de 35 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 459.8,
+      "unidad": "rollo",
+      "precioM2": 22.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-santorini-2x10m-de-35-mm-de-altura-de-fibras-y-15750-puntadas-m2-84780739.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL SANTORINI 2x25m de 35 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 1224.5,
+      "unidad": "rollo",
+      "precioM2": 24.49,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-santorini-2x25m-de-35-mm-de-altura-de-fibras-y-15750-puntadas-m2-84131767.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL SANTORINI 2x5m de 35 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 219.9,
+      "unidad": "rollo",
+      "precioM2": 21.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-santorini-2x5m-de-35-mm-de-altura-de-fibras-y-15750-puntadas-m2-82491121.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Solta 1x5m de 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 49.95,
+      "unidad": "rollo",
+      "precioM2": 9.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-solta-1x5m-de-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-92186704.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Solta 2x10m de 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 169.8,
+      "unidad": "rollo",
+      "precioM2": 8.49,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-solta-2x10m-de-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-92186715.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Solta 2x25m de 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 439,
+      "unidad": "rollo",
+      "precioM2": 8.78,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-solta-2x25m-de-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-98149362.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial NATERIAL Solta 2x5m de 20 mm de altura de fibras y 16800 puntadas m2",
+      "precio": 99.9,
+      "unidad": "rollo",
+      "precioM2": 9.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-naterial-solta-2x5m-de-20-mm-de-altura-de-fibras-y-16800-puntadas-m2-92186706.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de césped artificial Pradera 2x10m 7 mm de altura de fibras y 60480 puntadas m²",
+      "precio": 81.8,
+      "unidad": "rollo",
+      "precioM2": 4.09,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-pradera-2x10m-7-mm-de-altura-de-fibras-y-60480-puntadas-m2-95807442.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de Césped artificial Valsesia 2x5m de 30 mm de altura de fibras y 15750 puntadas m2",
+      "precio": 169.9,
+      "unidad": "rollo",
+      "precioM2": 16.99,
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cesped-artificial-valsesia-2x5m-de-30-mm-de-altura-de-fibras-y-15750-puntadas-m2-83982673.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo de cinta permanente doble cara para instalar césped artificial 5cm x 10m",
+      "precio": 9.79,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-de-cinta-permanente-doble-cara-para-instalar-cesped-artificial-5cm-x-10m-84737482.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Rollo malla antihierba geotextil 1x10m",
+      "precio": 12.29,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/rollo-malla-antihierba-geotextil-1x10m-93509502.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Soporte Regulable de 60-138mm para Tarimas de Madera y Composite - Negro",
+      "precio": 2.41,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/soporte-regulable-de-60-138mm-para-tarimas-de-madera-y-composite-negro-82910588.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo exterior porcelánico Levante efecto cemento bone 60x60 cm C3 ARTENS",
+      "precio": 21.59,
+      "unidad": "caja",
+      "precioM2": 29.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-exterior-porcelanico-levante-efecto-cemento-bone-60x60-cm-c3-artens-98829737.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo piscina porcelánico Levante efecto piedra bone 120x120 cm C3 ARTENS",
+      "precio": 50.39,
+      "unidad": "caja",
+      "precioM2": 34.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-piscina-porcelanico-levante-efecto-piedra-bone-120x120-cm-c3-artens-98829735.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo piscina porcelánico Lyra efecto piedra beige 60x60 cm 20 mm espesor C3 ARTENS - Pack de 2",
+      "precio": 24.07,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/suelo-piscina-porcelanico-lyra-efecto-piedra-beige-60x60-cm-20-mm-espesor-c3-artens-pack-de-2-96071284.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Arcano efecto cemento gris mate 60x60 cm C3 ARTENS",
+      "precio": 15.11,
+      "unidad": "caja",
+      "precioM2": 13.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-arcano-efecto-cemento-gris-mate-60x60-cm-c3-artens-83020754.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Area efecto terracota gris 61x61 cm C3",
+      "precio": 31.07,
+      "unidad": "caja",
+      "precioM2": 41.76,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-area-efecto-terracota-gris-61x61-cm-c3-79373301.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Bela efecto piedra black 60x120 cm 20 mm espesor C3",
+      "precio": 46.07,
+      "unidad": "caja",
+      "precioM2": 63.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-bela-efecto-piedra-black-60x120-cm-20-mm-espesor-c3-93622386.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Bela efecto piedra desert 60x120 cm 20 mm espesor C3",
+      "precio": 46.07,
+      "unidad": "caja",
+      "precioM2": 63.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-bela-efecto-piedra-desert-60x120-cm-20-mm-espesor-c3-93622385.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Bellevue efecto piedra white 59.5x59.5 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 20.99,
+      "unidad": "caja",
+      "precioM2": 29.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-bellevue-efecto-piedra-white-59-5x59-5-cm-20-mm-espesor-c3-pack-de-2-86228536.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Caletta efecto piedra gris antracita 30x60 cm C3 ARTENS",
+      "precio": 17.63,
+      "unidad": "caja",
+      "precioM2": 13.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-caletta-efecto-piedra-gris-antracita-30x60-cm-c3-artens-84737434.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Concept Classic efecto cemento gris 60x60 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 35.99,
+      "unidad": "caja",
+      "precioM2": 49.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-concept-classic-efecto-cemento-gris-60x60-cm-20-mm-espesor-c3-pack-de-2-93223953.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Core efecto cemento gris claro 60x60 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 28.79,
+      "unidad": "caja",
+      "precioM2": 39.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-core-efecto-cemento-gris-claro-60x60-cm-20-mm-espesor-c3-pack-de-2-94342390.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Cronos efecto cemento gris 100x100 cm C3 ECOCERAMIC",
+      "precio": 37.98,
+      "unidad": "caja",
+      "precioM2": 18.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-cronos-efecto-cemento-gris-100x100-cm-c3-ecoceramic-96241840.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Cronos efecto cemento gris 60x120 cm C3",
+      "precio": 21.59,
+      "unidad": "caja",
+      "precioM2": 14.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-cronos-efecto-cemento-gris-60x120-cm-c3-87892863.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Elegant efecto madera beige 23x120 cm C3 ARTENS",
+      "precio": 20.69,
+      "unidad": "caja",
+      "precioM2": 14.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-elegant-efecto-madera-beige-23x120-cm-c3-artens-90046731.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Harmony Granada efecto madera gris 22.5x90 cm C3 ARTENS",
+      "precio": 18.29,
+      "unidad": "caja",
+      "precioM2": 14.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-harmony-granada-efecto-madera-gris-22-5x90-cm-c3-artens-81967992.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Ipanema efecto madera taupe 20x75 cm C3 ARTENS",
+      "precio": 14.69,
+      "unidad": "caja",
+      "precioM2": 13.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-ipanema-efecto-madera-taupe-20x75-cm-c3-artens-84491619.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Managua efecto madera haya 20x120 cm C3 ARTENS",
+      "precio": 31.9,
+      "unidad": "caja",
+      "precioM2": 18.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-managua-efecto-madera-haya-20x120-cm-c3-artens-84316137.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Martins efecto cemento arena 60x120 cm C3 ARTENS",
+      "precio": 38.87,
+      "unidad": "caja",
+      "precioM2": 26.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-martins-efecto-cemento-arena-60x120-cm-c3-artens-89889782.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Martins efecto cemento gris 61x61 cm 20 mm espesor C3 ARTENS - Pack de 2",
+      "precio": 25.15,
+      "unidad": "caja",
+      "precioM2": 33.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-martins-efecto-cemento-gris-61x61-cm-20-mm-espesor-c3-artens-pack-de-2-85660351.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Maverick efecto piedra grey 59.5x59.5 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 23.79,
+      "unidad": "caja",
+      "precioM2": 33.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-maverick-efecto-piedra-grey-59-5x59-5-cm-20-mm-espesor-c3-pack-de-2-82431123.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Norton efecto cemento ambre 60x60 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 26.63,
+      "unidad": "caja",
+      "precioM2": 36.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-norton-efecto-cemento-ambre-60x60-cm-20-mm-espesor-c3-pack-de-2-94342384.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Norton efecto piedra beige 60x120 cm C3 ARTENS",
+      "precio": 28.79,
+      "unidad": "caja",
+      "precioM2": 19.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-norton-efecto-piedra-beige-60x120-cm-c3-artens-70693162.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Nuances efecto piedra pearl 75x37 cm C3",
+      "precio": 16.34,
+      "unidad": "caja",
+      "precioM2": 14.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-nuances-efecto-piedra-pearl-75x37-cm-c3-90321388.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Orion efecto piedra blanco 40.8x66.2 cm C3",
+      "precio": 18.35,
+      "unidad": "caja",
+      "precioM2": 16.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-orion-efecto-piedra-blanco-40-8x66-2-cm-c3-19637821.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Plaster efecto cemento grey 59.5x59.5 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 23.79,
+      "unidad": "caja",
+      "precioM2": 33.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-plaster-efecto-cemento-grey-59-5x59-5-cm-20-mm-espesor-c3-pack-de-2-86228539.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Rosas efecto terracota gris 33.3x33.3 cm C3",
+      "precio": 14.62,
+      "unidad": "caja",
+      "precioM2": 10.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-rosas-efecto-terracota-gris-33-3x33-3-cm-c3-87892879.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Storm efecto piedra gris 60x60 cm 20 mm espesor C3 - Pack de 2",
+      "precio": 28.79,
+      "unidad": "caja",
+      "precioM2": 39.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-storm-efecto-piedra-gris-60x60-cm-20-mm-espesor-c3-pack-de-2-94342370.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Tokyo efecto madera natural 20x75 cm C3",
+      "precio": 13.64,
+      "unidad": "caja",
+      "precioM2": 12.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-tokyo-efecto-madera-natural-20x75-cm-c3-90235006.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Suelo porcelánico Vesta efecto piedra natural 60x60 cm C3",
+      "precio": 16.19,
+      "unidad": "caja",
+      "precioM2": 14.99,
+      "enlace": "https://www.leroymerlin.es/productos/suelo-porcelanico-vesta-efecto-piedra-natural-60x60-cm-c3-90321404.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA PINO MACIZO TRATAMIENTO AUTOCLAVE 2.2X9.5X250 CM",
+      "precio": 4.95,
+      "unidad": "ud",
+      "precioM2": 20.8,
+      "enlace": "https://www.obramat.es/productos/tabla-pino-macizo-tratamiento-autoclave-2-2x9-5x250-cm-10274516.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA PINO MACIZO TRATAMIENTO AUTOCLAVE 2.2X9.5X250 CM",
+      "precio": 5.67,
+      "unidad": "ud",
+      "precioM2": 23.82,
+      "enlace": "https://www.obramat.es/productos/tabla-pino-macizo-tratamiento-autoclave-2-2x9-5x250-cm-25058782.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA PINO MACIZO TRATAMIENTO AUTOCLAVE 2.2X9.5X250 CM",
+      "precio": 4.8,
+      "unidad": "ud",
+      "precioM2": 21.33,
+      "enlace": "https://www.obramat.es/productos/tabla-pino-macizo-tratamiento-autoclave-2-2x9-5x250-cm-25059065.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA PINO MACIZO TRATAMIENTO AUTOCLAVE 2.2X9.5X250 CM",
+      "precio": 4.57,
+      "unidad": "ud",
+      "precioM2": 20.31,
+      "enlace": "https://www.obramat.es/productos/tabla-pino-macizo-tratamiento-autoclave-2-2x9-5x250-cm-25034636.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA SUELO PINO MACIZO TRATAMIENTO RANURADO 2.7X14.5X300 CM",
+      "precio": 11.09,
+      "unidad": "ud",
+      "precioM2": 25.49,
+      "enlace": "https://www.obramat.es/productos/tabla-suelo-pino-macizo-tratamiento-ranurado-2-7x14-5x300-cm-10386432.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA SUELO PINO MACIZO TRATAMIENTO RANURADO 2.7X14.5X300 CM",
+      "precio": 10.5,
+      "unidad": "ud",
+      "precioM2": 24.14,
+      "enlace": "https://www.obramat.es/productos/tabla-suelo-pino-macizo-tratamiento-ranurado-2-7x14-5x300-cm-25059068.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA SUELO PINO MACIZO TRATAMIENTO RANURADO 2.7X14.5X300 CM",
+      "precio": 12.5,
+      "unidad": "ud",
+      "precioM2": 28.74,
+      "enlace": "https://www.obramat.es/productos/tabla-suelo-pino-macizo-tratamiento-ranurado-2-7x14-5x300-cm-25058694.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Terrazas y patios",
+      "nombre": "TABLA SUELO PINO MACIZO TRATAMIENTO RANURADO 2.7X14.5X300 CM",
+      "precio": 10.27,
+      "unidad": "ud",
+      "precioM2": 23.61,
+      "enlace": "https://www.obramat.es/productos/tabla-suelo-pino-macizo-tratamiento-ranurado-2-7x14-5x300-cm-25034650.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Tarima exterior composite coextruida reversible Supra - Carbón/Caoba, 23mm",
+      "precio": 43.24,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/tarima-exterior-composite-coextruida-reversible-supra-carbon-caoba-23mm-82910441.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño aluminio 240x5x3cm 2mm NATERIAL",
+      "precio": 27.8,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-aluminio-240x5x3cm-2mm-naterial-95898310.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño composite 240x5x3cm NATERIAL",
+      "precio": 12.46,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-composite-240x5x3cm-naterial-95898311.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño madera pino 2400x45x70mm clase de uso 4",
+      "precio": 8.23,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-madera-pino-2400x45x70mm-clase-de-uso-4-92306665.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño para suelo acero ancho de 4.7 cm y largo de 2.4m",
+      "precio": 9.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-para-suelo-acero-ancho-de-4-7-cm-y-largo-de-2-4m-93239538.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño para suelo de composite 5x200 cm",
+      "precio": 13.49,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-para-suelo-de-composite-5x200-cm-14104265.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "Travesaño para suelo madera ancho de 3 cm y largo de 2.2m",
+      "precio": 12.3,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/travesano-para-suelo-madera-ancho-de-3-cm-y-largo-de-2-2m-81964048.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "YOEVU - Pack de 11 baldosas exterior de madera de acacia (1m²) 6 láminas 30x30x2,4cm - Marrón",
+      "precio": 39.85,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/yoevu-pack-de-11-baldosas-exterior-de-madera-de-acacia-1m2-6-laminas-30x30x2-4cm-marron-92772440.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "YOEVU - Set de 11 baldosas de composite antracita WPC 30cm x 30cm y 2,2cm",
+      "precio": 38.95,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/yoevu-set-de-11-baldosas-de-composite-antracita-wpc-30cm-x-30cm-y-2-2cm-92592482.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Terrazas y patios",
+      "nombre": "YOEVU - Set de 11 baldosas encajables de madera de composite marrón café WPC 30cmx30cm y 2,2cm",
+      "precio": 37.64,
+      "unidad": "lote",
+      "enlace": "https://www.leroymerlin.es/productos/yoevu-set-de-11-baldosas-encajables-de-madera-de-composite-marron-cafe-wpc-30cmx30cm-y-2-2cm-92592481.html",
+      "fecha": "2026-11-28"
     }
   ]
 }

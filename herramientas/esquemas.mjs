@@ -93,7 +93,7 @@ let EXTRA = [];
 function lienzo(dibujo, etiquetas) {
   const clave = (e) => e.toLowerCase().replace(/litros/, "l").replace(/\s+/g, "");
   const vistos = new Set(); const t = [etiquetas[0], ...EXTRA, ...etiquetas.slice(1)].filter((e) => e && !vistos.has(clave(e)) && vistos.add(clave(e))).slice(0, 4);
-  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
+  let x = 6, y = 146; const chips = t.map((e) => { const w = Math.min(228, 16 + e.length * 9.3); if (x + w > 234) { x = 6; y -= 30; } if (y < 116) { y = 116; return ""; } const s = `<rect x="${x}" y="${y}" width="${w}" height="26" rx="13" fill="#ffffff" stroke="#c9cfd3"/><text x="${x + w / 2}" y="${y + 18}" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2529">${esc(e)}</text>`; x += w + 4; return s; }).join("");
   // Si hay dos filas de etiquetas, el dibujo se reduce para que no lo tapen.
   const dos = y < 146, g = dos ? `<g transform="translate(24 -2) scale(.8)">${dibujo}</g>` : dibujo;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -8 240 188" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">${DEFS}<rect y="-8" width="240" height="188" fill="url(#fondo)"/>${g}${chips}</svg>`;
@@ -222,6 +222,17 @@ function mueble(n) {
   return lienzo(`<g transform="translate(14 0) scale(.88)">${d}${cota}</g>`, [tipo, c.et]);
 }
 
+function cesped(n) {
+  const mm = (n.match(/(\d{1,2})\s*mm/i) || [])[1], h = mm ? Math.min(64, 14 + Number(mm) * 1.2) : 40, pt = (n.match(/(\d{2,3}[.,]?\d{3})\s*puntadas/i) || [])[1];
+  // Corte del césped en perspectiva: base, briznas de dos verdes y cota de la altura de la fibra.
+  let hojas = "";
+  for (let i = 0; i < 70; i++) { const x = 30 + i * 2.6, a = ((i * 37) % 11) - 5, hh = h * (0.75 + ((i * 53) % 10) / 40); hojas += `<path d="M${x} 112 q${a / 2} ${-hh / 2} ${a} ${-hh}" stroke="${i % 3 ? "#5f9e4a" : "#87b85e"}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`; }
+  const rollo = (n.match(/(\d+(?:[.,]\d+)?)\s*x\s*(\d+(?:[.,]\d+)?)\s*m\b/i) || []);
+  EXTRA = [];
+  return lienzo(`<g transform="translate(-14 -40) scale(1.12)">${suelo(122, 122, 98)}<path d="M26 112 h190 l8 -6 h-190 z" fill="#c9b99a"/><rect x="26" y="112" width="190" height="8" fill="#a8977a"/>${hojas}<path d="M34 112 l8 -6" stroke="#8a7a5f"/></g>${mm ? etq(120, 98, `fibra ${mm} mm`) : ""}`,
+    [mm ? `${mm} mm` : "Césped", pt ? `${pt.replace(/[.,]/, ".")} pt/m²` : "", rollo[1] ? `Rollo ${rollo[1]}×${rollo[2]} m` : ""]);
+}
+
 function generico(n) {
   const f = formato(n);
   if (/\bsaco|\d\s*kg\b/i.test(n) && !f) {
@@ -245,6 +256,7 @@ function esquemaTipo(categoria, nombre) {
   if (/recambio|accesorio|driver|conector|manilla|pomo|rodapi|perfil de|adhesivo|cemento|mortero|junta/i.test(g) && !/tira/i.test(g)) return null;
   if (a === "Cerámica y colocación" || /porcel[aá]nico|azulejo|baldos/i.test(g)) return /azulejo|porcel|gres|baldos|cer[aá]mic|pavimento|revestimiento|mosaico|\d\s*[x×]\s*\d/i.test(nombre) ? azulejo(nombre) : null;
   if (/laminado|vin[ií]lico|parquet|madera/i.test(g) && a === "Suelos") return laminado(nombre);
+  if (a === "Terrazas y patios") return /Césped artificial/.test(g) ? cesped(nombre) : /Tarima|Losetas/.test(g) ? laminado(nombre) : /Porcel/.test(g) ? azulejo(nombre) : null;
   if (/grifer/i.test(g)) return grifo(nombre, g);
   if (/^termos?/i.test(g) || /\btermo\b|calentador el/i.test(nombre)) return termo(nombre);
   if (a === "Puertas" && /puerta/i.test(nombre) && !/armario/i.test(nombre)) return puerta(nombre);

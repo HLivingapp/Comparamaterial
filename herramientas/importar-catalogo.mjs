@@ -40,6 +40,7 @@ const PATRON = {
   tumaterialelectrico: /^https:\/\/www\.tumaterialelectrico\.com\/es\/[^\s]+\/p-\d+$/,
 };
 const CATEGORIA = [
+  [/suelos? de exterior|c[eé]sped artificial|terraza|tarima exterior|composite|\bwpc\b/i, "Terrazas y patios"],
   [/muebles? de cocina|m[oó]dulos? de cocina|cocinas? completas?|\bmetod\b|\bdelinia\b|\benhet\b|\bknoxhult\b/i, "Baño y cocina"],
   [/\bba[ñn]eras?\b/i, "Baño y cocina"],
   [/ventilador(es)? de (techo|pie|pared|sobremesa)/i, "Climatización y agua caliente"],
