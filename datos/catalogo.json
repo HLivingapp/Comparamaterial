@@ -4320,6 +4320,15 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "AICA Bañera acrílica exenta ovalada 1500x720x650mm color blanco, incluye manguera y desagüe",
+      "precio": 687.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/aica-banera-acrilica-exenta-lujosa-y-duradera-1500x720x650mm-estilo-ovalado-color-blanco-incluye-manguera-desague-95507676.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "AICA Mampara de Ducha Cuadrada Abatible Perfil Cromado Vidrio Antical 6mm (780-800)x(780-800)x1900mm",
       "precio": 277.99,
       "unidad": "ud",
@@ -4732,6 +4741,366 @@
       "fecha": "2026-11-28"
     },
     {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera chapa de acero Roca Contesa 120x70 cm",
+      "precio": 123,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-chapa-de-acero-roca-contesa-120x70cm-10097164.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera chapa de acero Roca Contesa 140x70 cm",
+      "precio": 129,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-chapa-de-acero-roca-contesa-140x70cm-10097206.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera chapa de acero Roca Contesa 160x70 cm",
+      "precio": 145,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-chapa-de-acero-roca-contesa-160x70cm-10097290.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera de asiento - 120 x 75 x 65 cm - Blanca - 165 L - PICCOLA",
+      "precio": 518.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-de-asiento-120-x-75-x-65-cm-blanca-165-l-piccola-90879521.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico BODEN 170x80x59 cm blanco mate",
+      "precio": 899,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-boden-170x80x59-cm-blanco-mate-75347003.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico CALA OBATH 150x75x62 cm blanco brillante",
+      "precio": 599,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-cala-obath-150x75x62-cm-blanco-brillante-94969494.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico City OBATH 170x80x58 cm blanco brillante",
+      "precio": 959,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-city-obath-170x80x58-cm-blanco-brillante-82268479.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Cup OBATH 150x75x60 cm blanco brillante",
+      "precio": 729,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-cup-obath-150x75x60-cm-blanco-brillante-82268446.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Cup OBATH 160x75x60 cm blanco brillante",
+      "precio": 749,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-cup-obath-160x75x60-cm-blanco-brillante-86989890.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Cup OBATH 160x75x61 cm gris",
+      "precio": 999,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-cup-obath-160x75x61-cm-gris-94970495.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Cup OBATH 170x80x58 cm blanco brillante",
+      "precio": 759,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-cup-obath-170x80x58-cm-blanco-brillante-82268457.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico mate Lario 170x80x58 cm blanco",
+      "precio": 999,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-mate-lario-170x80x58-cm-blanco-75347014.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico NERETVA 170x72.5x60 cm blanco mate",
+      "precio": 959,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-neretva-170x72-5x60-cm-blanco-mate-75347032.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Orta 170x80x60 cm blanco mate",
+      "precio": 1229,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-orta-170x80x60-cm-blanco-mate-75346968.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico Trasimeno 170x77x70 cm blanco mate",
+      "precio": 999,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-trasimeno-170x77x70-cm-blanco-mate-75346913.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de acrílico VANERN 140x75x57 cm blanco mate",
+      "precio": 999,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-acrilico-vanern-140x75x57-cm-blanco-mate-75346917.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de Solid surface Almond BAÑOS 10 180x85x55 cm blanco mate",
+      "precio": 1799,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-solid-surface-almond-banos-10-180x85x55-cm-blanco-mate-70599107.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de Solid surface CONSTANCE 150x72x55 cm blanco mate",
+      "precio": 1099,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-solid-surface-constance-150x72x55-cm-blanco-mate-75346872.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de Solid surface CONSTANCE 170x75x55 cm blanco mate",
+      "precio": 1199,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-solid-surface-constance-170x75x55-cm-blanco-mate-75346898.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta de Solid surface Mira BAÑOS 10 160x75x55 cm blanco mate",
+      "precio": 1499,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-de-solid-surface-mira-banos-10-160x75x55-cm-blanco-mate-70599113.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta FINDLAY Anti-Slide 149 cm",
+      "precio": 539.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-findlay-anti-slide-149-cm-84294999.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta FINDLAY Anti-Slide 171 cm",
+      "precio": 619.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-findlay-anti-slide-171-cm-84294952.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta ovalada - 130 x 70 x 57 cm - Acrílico - Blanco brillante - 186 L - MOBULA",
+      "precio": 651.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-ovalada-130-x-70-x-57-cm-acrilico-blanco-brillante-186-l-mobula-96261892.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta ovalada - 130 x 70 x 58.5 cm - Acrílico - Blanco - 185 L - TUMELI",
+      "precio": 527.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-ovalada-130-x-70-x-58-5-cm-acrilico-blanco-185-l-tumeli-61125886.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera exenta ovalada Nassau 150x76 cm",
+      "precio": 590,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-exenta-ovalada-nassau-150x76cm-25060475.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Exenta Ovalada Venecia 170 Noire (negro) L170 X L80 X H57 Cm, By Spalina",
+      "precio": 849,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-exenta-ovalada-venecia-170-noire-negro-l170-x-l80-x-h57-cm-by-spalina-84799302.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje BAÑOS 10 Cosmos 160x70 cm",
+      "precio": 689,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-hidromasaje-banos-10-cosmos-160x70-cm-70663602.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje BAÑOS 10 Look 160x70 cm",
+      "precio": 499,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-hidromasaje-banos-10-look-160x70-cm-70663518.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje Cerea 170x75 cm",
+      "precio": 605,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-hidromasaje-cerea-170x75cm-10777312.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje OBATH Cosmos blanco 170x170 cm",
+      "precio": 459,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-hidromasaje-obath-cosmos-blanco-170x170-cm-86990051.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje OBATH Look blanco 170x75 cm",
+      "precio": 849,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-hidromasaje-obath-look-blanco-170x75-cm-82268429.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "obramat",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera hidromasaje Space 170x70 cm",
+      "precio": 395,
+      "unidad": "ud",
+      "enlace": "https://www.obramat.es/productos/banera-hidromasaje-space-170x70cm-10706164.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera independiente CEDROS 170 x 75 cm Blanco",
+      "precio": 629.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-independiente-cedros-170-x-75-cm-blanco-76186691.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Semi-exenta Mural Cobalt 170 Blanche (blanco) L170 X L75 X H56 Cm, By Spalina",
+      "precio": 791,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semi-exenta-mural-cobalt-170-blanche-blanco-l170-x-l75-x-h56-cm-by-spalina-87660824.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Semi-exenta Mural De Esquina Capri 170 Droite Blanche (blanco) L170 X L76 X H58 Cm, By Spalina",
+      "precio": 799,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semi-exenta-mural-de-esquina-capri-170-droite-blanche-blanco-l170-x-l76-x-h58-cm-by-spalina-84460708.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Semi-exenta Mural De Esquina Capri 170 Gauche Blanche (blanco) L170 X L76 X H58 Cm, By Spalina",
+      "precio": 759,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semi-exenta-mural-de-esquina-capri-170-gauche-blanche-blanco-l170-x-l76-x-h58-cm-by-spalina-84584042.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Semi-exenta Mural De Esquina Capri 180 Droite Blanche (blanco) L180 X L81 X H58 Cm, By Spalina",
+      "precio": 759,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semi-exenta-mural-de-esquina-capri-180-droite-blanche-blanco-l180-x-l81-x-h58-cm-by-spalina-87660825.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera Semi-exenta Mural De Esquina Capri 180 Gauche Blanche (blanco) L180 X L81 X H58 Cm, By Spalina",
+      "precio": 934,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semi-exenta-mural-de-esquina-capri-180-gauche-blanche-blanco-l180-x-l81-x-h58-cm-by-spalina-87660819.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera semiexenta - 130 x 72 x 58 cm - Acrílico - Blanca - 167 L - AMOSARI",
+      "precio": 630.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semiexenta-130-x-72-x-58-cm-acrilico-blanca-167-l-amosari-96261886.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Bañera semiexenta rectangular - 150 x 75 x 58 cm - Acrílico - Blanca - 250 L - PIKAIA",
+      "precio": 676.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/banera-semiexenta-rectangular-150-x-75-x-58-cm-acrilico-blanca-250-l-pikaia-90184480.html",
+      "fecha": "2026-11-28"
+    },
+    {
       "tienda": "pereda",
       "categoria": "Baño y cocina",
       "nombre": "Barra ducha (sólo barra) ordunte de 65,5 cm cromo brillo latón",
@@ -4860,6 +5229,24 @@
     {
       "tienda": "leroy",
       "categoria": "Baño y cocina",
+      "nombre": "Beliani Bañera de hidromasaje independiente con LED NEVIS 170 x 80 cm Blanco",
+      "precio": 839.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/beliani-banera-de-hidromasaje-independiente-con-led-nevis-170-x-80-cm-blanco-89652468.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "Beliani Bañera independiente CARRERA 180 x 80 cm Blanco",
+      "precio": 809.99,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/beliani-banera-independiente-carrera-180-x-80-cm-blanco-89651862.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
       "nombre": "BELLOBATH - Mueble de baño suspendido con lavabo de cerámica, Mueble con 2 Cajones, 60 x 55 x 46 cm, Mueble roble",
       "precio": 263.49,
       "unidad": "ud",
@@ -4910,6 +5297,60 @@
       "unidad": "ud",
       "enlace": "https://www.leroymerlin.es/productos/bellobath-plato-de-ducha-de-resina-antideslizante-textura-pizarra-suave-plato-ducha-incluye-valvula-desague-y-rejilla-blanco-80-x-120-nbsp-cm-89491447.html",
       "fecha": "2026-11-26"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera acrílica de diseño moderno en isla para cuarto de baño, aislamiento térmico - Blanco brillo - 170x80x58cm - BELAQUA",
+      "precio": 838.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-acrilica-de-diseno-moderno-en-isla-para-cuarto-de-bano-aislamiento-termico-blanco-brillo-170x80x58cm-belaqua-89951804.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera acrílica ovalada con desagüe - Blanca - 160x75x59cm - Alta calidad, borde grueso - JAZZ PLUS 2.0",
+      "precio": 838.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-acrilica-ovalada-con-desague-blanca-160x75x59cm-alta-calidad-borde-grueso-jazz-plus-2-0-89707586.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera acrílica sanitaria SIENA con efecto pan de oro - 173x73x75cm",
+      "precio": 1538.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-acrilica-sanitaria-siena-con-efecto-pan-de-oro-173x73x75cm-89706695.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera independiente ovalada de acrílico 160x80x60cm blanco mate + Desagüe y rebosadero - TERRA 2.0",
+      "precio": 910.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-independiente-ovalada-de-acrilico-160x80x60cm-blanco-mate-desague-y-rebosadero-terra-2-0-95165929.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera independiente ovalada moderna para baño Acrílico - 5 años de garantía - Blanco brillo - 165,5x74,5x58cm - ROMA PLUS 2.0",
+      "precio": 786.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-independiente-ovalada-moderna-para-bano-acrilico-5-anos-de-garantia-blanco-brillo-165-5x74-5x58cm-roma-plus-2-0-93239578.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "BERNSTEIN - Bañera semiautónoma de esquina Acrílico 170x78x60cm Blanco brillo + Desagüe y rebosadero - instalación izquierda - NOVA SLIM LINE",
+      "precio": 970.92,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/bernstein-banera-semiautonoma-de-esquina-acrilico-170x78x60cm-blanco-brillo-desague-y-rebosadero-instalacion-izquierda-nova-slim-line-89787267.html",
+      "fecha": "2026-11-28"
     },
     {
       "tienda": "leroy",
@@ -11020,6 +11461,15 @@
       "precio": 61.02,
       "unidad": "ud",
       "enlace": "https://saneamientospereda.es/grifo-de-cocina/metropol-l-fregadero-cromo-stock.html",
+      "fecha": "2026-11-28"
+    },
+    {
+      "tienda": "leroy",
+      "categoria": "Baño y cocina",
+      "nombre": "METROPOLE - Bañera exenta HUDSON blanco - 150x75cm",
+      "precio": 539,
+      "unidad": "ud",
+      "enlace": "https://www.leroymerlin.es/productos/metropole-banera-exenta-hudson-blanco-150x75cm-93364541.html",
       "fecha": "2026-11-28"
     },
     {

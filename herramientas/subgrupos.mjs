@@ -286,6 +286,15 @@ export const FACETAS = {
       ["De pie o pedestal", /de pie|pedestal|columna|exento|freestanding|totem/i],
       ["Con mueble", /con mueble|mueble/i],
     ] },
+    { nombre: "Tipo de bañera", aplica: (g) => /Bañeras/.test(g), opciones: [
+      ["Exenta", /exenta|independiente|freestanding|isla/i],
+      ["Para empotrar", (n) => /empotr|encastr|rectangular|de obra|chapa de acero|contesa/i.test(n) && !/exenta|independiente/i.test(n)],
+      ["Rinconera o asimétrica", /rincon|angular|asim[eé]tric|esquina/i],
+      ["Hidromasaje", /hidromasaje|jacuzzi|whirlpool|spa\b|burbujas/i],
+    ] },
+    { nombre: "Material de bañera", aplica: (g) => /Bañeras/.test(g), opciones: [
+      ["Acrílica", /acr[ií]lic/i], ["Acero", /acero|chapa/i], ["Resina / solid surface", /resina|solid ?surface|mineral|piedra|krion|cast stone/i], ["Hierro fundido", /hierro|fundici/i],
+    ] },
     { nombre: "Instalación", aplica: (g) => /Grifer|Columnas/.test(g), opciones: [["Empotrada", /empotr/i], ["Vista (no empotrada)", (n) => GRIFO.test(n) && !/empotr/i.test(n)]] },
     { nombre: "Color", aplica: (g) => /Grifer|Columnas|Mamparas|Accesorios/.test(g), opciones: color },
   ],
