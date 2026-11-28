@@ -77,14 +77,25 @@ export const SUBGRUPOS = {
     ["Rodapiés", /rodapi/i],
     ["Bases y accesorios", /base|perfil|espuma|underlay/i],
   ],
-  "Puertas y ventanas": [
-    ["Puertas de interior", /puerta (de )?(interior|paso|abatible|corredera|plegable)|puerta block|puerta lacada|hoja/i],
-    ["Puertas de entrada", /blindad|acorazad|entrada/i],
-    ["Ventanas y balconeras", /ventana|balconera|oscilobatiente/i],
-    ["Armarios y frentes", /armario|komplement|caj[oó]n|zapatero|barra para ropa|cesta|colgador|pantalonero|divisor|frente|balda|costado|trasera|casoneto|vestidor/i],
-    ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra/i],
-    ["Correderas y guías", /carril|gu[ií]a|corredera|rueda|kit/i],
-    ["Puertas (otras)", /puerta/i],
+  "Puertas": [
+    ["Puertas de entrada y blindadas", /blindad|acorazad|puerta de entrada|entrada/i],
+    ["Puertas correderas", /corredera|plegable/i],
+    ["Puertas de interior abatibles", /puerta|hoja|block|conjunto/i],
+    ["Manillas, pomos y condenas", /manilla|pomo|condena|tirador|cerrojo|pasador|muletilla|cerradura|bisagra|roseta|bomb[ií]n|set wc/i],
+    ["Tapajuntas y molduras", /tapajuntas|moldura|jamba/i],
+    ["Guías y herrajes", /carril|gu[ií]a|rueda|kit|herraje|tope/i],
+  ],
+  "Ventanas": [
+    ["Balconeras", /balconera/i],
+    ["Ventanas de PVC", /pvc/i],
+    ["Ventanas de aluminio", /alumini/i],
+    ["Ventanas de madera", /madera/i],
+    ["Persianas y mosquiteras", /persiana|mosquitera|caj[oó]n/i],
+  ],
+  "Armarios": [
+    ["Frentes y puertas de armario", /frente|puerta|hoja/i],
+    ["Interiores: cajones, baldas y barras", /komplement|caj[oó]n|balda|barra|zapatero|cesta|colgador|pantalonero|divisor|bandeja|riel/i],
+    ["Armarios y módulos", /armario|casoneto|m[oó]dulo|estructura|vestidor|costado|trasera/i],
   ],
   "Pintura": [
     ["Pintura plástica", /pintura|pl[aá]stica|revestimiento|fachada/i],
@@ -136,6 +147,11 @@ export function lado(n) { const m = String(n).match(/(\d+(?:[.,]\d+)?)\s*[x×]\s
 // «Baño y cocina» en los datos se separa en dos áreas: Cocina y Baño.
 const COCINA = /fregadero|encimera|placa (de )?(cocina|inducci|vitro|gas)|placa de inducci|vitrocer|inducci[oó]n|horno|campana|lavavajillas|frigor[ií]fico|nevera|microondas|grifo (de )?cocina|cocina/i;
 export function area(categoria, nombre) {
+  if (categoria === "Puertas y ventanas") {
+    if (/ventana|balconera|persiana|mosquitera/i.test(nombre) && !/^\W*(\w+ )?(pack )?puerta|bloque de puerta|puerta (corredera|interior|abatible)/i.test(nombre)) return "Ventanas";
+    if (/armario|komplement|vestidor|casoneto|zapatero|pantalonero|balda|ikea|spaceo/i.test(nombre) && !/puerta (de )?(interior|entrada|blindad|corredera|abatible|paso)/i.test(nombre)) return "Armarios";
+    return "Puertas";
+  }
   if (categoria !== "Baño y cocina") return categoria;
   return COCINA.test(nombre) && !/ba[ñn]o|lavabo|ducha|inodoro|mampara/i.test(nombre) ? "Cocina" : "Baño";
 }
