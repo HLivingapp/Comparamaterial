@@ -1280,21 +1280,21 @@
   },
   {
    "asin": "B0BPZ212BY",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence Aero 5275 motor DC"
   },
   {
    "asin": "B0BPYR79B5",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence 4800 Light negro"
   },
   {
    "asin": "B0983BK3QM",
-   "area": "Aire acondicionado",
+   "area": "Ventiladores",
    "grupo": "Calefactores y ventiladores",
    "marca": "Cecotec",
    "nombre": "Ventilador de techo con luz Cecotec EnergySilence Aero 4800 Style inox"
@@ -1970,6 +1970,412 @@
    "grupo": "Cuadro y protecciones",
    "marca": "Hager",
    "nombre": "Interruptor diferencial Hager 63 A 30 mA 2 polos tipo A"
+  },
+  {
+   "asin": "B083WNZ4J7",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm blanco aspas madera Ø132 cm motor DC"
+  },
+  {
+   "asin": "B083WNG21H",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm blanco Ø132 cm mando"
+  },
+  {
+   "asin": "B083WPC8S4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm negro aspas madera oscura Ø132 cm"
+  },
+  {
+   "asin": "B0F4DKL4XQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm S blanco madera Ø112 cm"
+  },
+  {
+   "asin": "B0DYNVYT4J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Wind Calm ratán madera Ø132 cm"
+  },
+  {
+   "asin": "B0F4D5BH81",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm M verde salvia WiFi Ø132 cm"
+  },
+  {
+   "asin": "B094NQDK5V",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm negro WiFi Ø132 cm"
+  },
+  {
+   "asin": "B083WP3SGT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "CREATE",
+   "nombre": "Ventilador de techo con luz CREATE Windcalm níquel madera clara Ø132 cm"
+  },
+  {
+   "asin": "B0HBT7QD22",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Carla L motor DC blanco Ø132 cm"
+  },
+  {
+   "asin": "B0C865TPP3",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Rainbow motor DC Ø75 cm"
+  },
+  {
+   "asin": "B0CDX1TTYT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz LED Sulion Anne minimalista motor DC"
+  },
+  {
+   "asin": "B07QGFMT53",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz Sulion Baloo 2xE27 motor AC"
+  },
+  {
+   "asin": "B07G5LS9DP",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Sulion",
+   "nombre": "Ventilador de techo con luz Sulion Islas blanco"
+  },
+  {
+   "asin": "B08318RTR4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Morea marrón claro motor DC"
+  },
+  {
+   "asin": "B07LG6J2XB",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Morea marrón motor DC 3 palas"
+  },
+  {
+   "asin": "B09QMLKTNK",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Andros gris motor DC"
+  },
+  {
+   "asin": "B07LG897RW",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo sin iluminación, Faro Barcelona Nuu blanco motor DC 3 palas"
+  },
+  {
+   "asin": "B083192WHQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Rodas marrón motor DC"
+  },
+  {
+   "asin": "B08SW8Z2HB",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Winche cromo motor DC"
+  },
+  {
+   "asin": "B08SW9WC8G",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Deco Fan negro/madera motor DC"
+  },
+  {
+   "asin": "B078XG7JTG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Leyte marrón motor DC"
+  },
+  {
+   "asin": "B08SWBHVQL",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Mini Tube Fan negro mate"
+  },
+  {
+   "asin": "B08318V77H",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Faro Barcelona",
+   "nombre": "Ventilador de techo con luz LED Faro Barcelona Hydra blanco motor DC"
+  },
+  {
+   "asin": "B0C9WXW8JN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Genérico",
+   "nombre": "Ventilador de techo sin iluminación, madera motor DC Ø132 cm con mando, apto exterior"
+  },
+  {
+   "asin": "B00WEVOO3W",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Westinghouse",
+   "nombre": "Ventilador de techo sin iluminación, Westinghouse Techno titanio"
+  },
+  {
+   "asin": "B07CV9NR4F",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 96160 Ø160 cm"
+  },
+  {
+   "asin": "B07R738DCZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 99132 blanco Ø132 cm"
+  },
+  {
+   "asin": "B007PRWBQC",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 72120 inox Ø120 cm con mando"
+  },
+  {
+   "asin": "B00D87WJDI",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 77132 plateado Ø132 cm con mando"
+  },
+  {
+   "asin": "B085XH3RJS",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 103132 Ø132 cm silencioso"
+  },
+  {
+   "asin": "B085WML4DZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz LED Orbegozo CP 106132 Ø132 cm 35 W"
+  },
+  {
+   "asin": "B007PRWB3A",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de techo con luz Orbegozo CP 50120 cromo 6 aspas"
+  },
+  {
+   "asin": "B0BPZFTLHZ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de techo con luz Cecotec EnergySilence LampAero 600 beige motor DC"
+  },
+  {
+   "asin": "B0BQ1PFZ6S",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de techo con luz",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de techo con luz Cecotec EnergySilence 4800 Light negro y dorado"
+  },
+  {
+   "asin": "B092JBQWXW",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 540 Smart con mando"
+  },
+  {
+   "asin": "B0CV4FM273",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 560 Max Smart con mando"
+  },
+  {
+   "asin": "B0BQ1C77KT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1600 Moskito antimosquitos"
+  },
+  {
+   "asin": "B0BPZK2GT6",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence FanLamp con aro de luz LED motor DC"
+  },
+  {
+   "asin": "B0BPZWMC2L",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1000 Smart Control motor DC"
+  },
+  {
+   "asin": "B0BPZY1D43",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 620 Retrostyle cromado"
+  },
+  {
+   "asin": "B092J642D3",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de pie Cecotec EnergySilence 1010 ExtremeConnected"
+  },
+  {
+   "asin": "B0BQ1DGJ7C",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 9150 Skyline Smart 46\""
+  },
+  {
+   "asin": "B0BPZ1GV9J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 8150 Skyline 42\""
+  },
+  {
+   "asin": "B0BQ1P2WZG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre sin aspas Cecotec EnergySilence 9890 Skyline Bladeless"
+  },
+  {
+   "asin": "B092JB4Z7J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 800 Skyline Smart 36\""
+  },
+  {
+   "asin": "B0BQ1434VV",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Cecotec",
+   "nombre": "Ventilador de torre Cecotec EnergySilence 9090 Skyline Smart Light"
+  },
+  {
+   "asin": "B00AZQL7FQ",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta 80 cm negro/plata con temporizador"
+  },
+  {
+   "asin": "B0BVRGX1LN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta Eole VU6871 ultra silencioso con mando"
+  },
+  {
+   "asin": "B0DSWLKS33",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de torre Rowenta Eole Compact VU6220"
+  },
+  {
+   "asin": "B08TV5D5RN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Rowenta",
+   "nombre": "Ventilador de pie Rowenta Urban Cool VU6720"
+  },
+  {
+   "asin": "B007PRWD9M",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de sobremesa Orbegozo TF 0121"
+  },
+  {
+   "asin": "B00CSU32OG",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de sobremesa Orbegozo TM 1915 cabezal orientable"
+  },
+  {
+   "asin": "B07NSLW3JT",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pie y sobremesa",
+   "marca": "Taurus",
+   "nombre": "Ventilador de sobremesa Taurus Greco 16 Elegance 40 W"
+  },
+  {
+   "asin": "B007PRW9S2",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0242 blanco con mando"
+  },
+  {
+   "asin": "B007PRW9Q4",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0139"
+  },
+  {
+   "asin": "B085WCSP9W",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0243"
+  },
+  {
+   "asin": "B085WD5HPN",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0141 negro 40 cm"
+  },
+  {
+   "asin": "B07F76NW7J",
+   "area": "Ventiladores",
+   "grupo": "Ventiladores de pared",
+   "marca": "Orbegozo",
+   "nombre": "Ventilador de pared Orbegozo WF 0145 5 aspas 80 W"
   }
  ]
 }
