@@ -55,14 +55,6 @@
     "licenciaUrl": "",
     "archivo": "File:Portland_Cement_Bags.jpg"
   },
-  "junta-ceramica-5-kg": {
-    "miniatura": "img/saco-cemento.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3APortland_Cement_Bags.jpg",
-    "autor": "KVDP",
-    "licencia": "Public domain",
-    "licenciaUrl": "",
-    "archivo": "File:Portland_Cement_Bags.jpg"
-  },
   "yeso-controlado-17-kg": {
     "miniatura": "img/saco-yeso.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
@@ -72,14 +64,6 @@
     "archivo": "File:A_bags_of_Cement_in_Awka.jpg"
   },
   "yeso-escayola-20-kg": {
-    "miniatura": "img/saco-yeso.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
-    "autor": "Johnnybam",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:A_bags_of_Cement_in_Awka.jpg"
-  },
-  "plaste-5-kg": {
     "miniatura": "img/saco-yeso.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3AA_bags_of_Cement_in_Awka.jpg",
     "autor": "Johnnybam",
@@ -151,14 +135,6 @@
     "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
     "archivo": "File:Metal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._(CM014B,_07-18-2018)_(28645816477).jpg"
   },
-  "guardavivos-pyl": {
-    "miniatura": "img/perfiles.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AMetal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._%28CM014B%2C_07-18-2018%29_%2828645816477%29.jpg",
-    "autor": "MTA Capital Construction Mega Projects",
-    "licencia": "CC BY 2.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by/2.0",
-    "archivo": "File:Metal_stud_framing_for_the_engineering_rooms_located_in_the_LIRR_concourse_area._(CM014B,_07-18-2018)_(28645816477).jpg"
-  },
   "tornillo-placa-yeso-25-mm": {
     "miniatura": "img/tornillos.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3ADrywall_screw.png",
@@ -203,23 +179,7 @@
     "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
   },
-  "bote-sifonico-110": {
-    "miniatura": "img/pvc.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AFernco_PVC_Drain_Trap_J-Bend.jpg",
-    "autor": "Steven Pavlov",
-    "licencia": "CC0",
-    "licenciaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "archivo": "File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
-  },
   "sifon-lavabo": {
-    "miniatura": "img/sifon.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ABrass_P_trap.jpg",
-    "autor": "Raquel Baranow",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Brass_P_trap.jpg"
-  },
-  "valvula-clic-clac": {
     "miniatura": "img/sifon.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3ABrass_P_trap.jpg",
     "autor": "Raquel Baranow",
@@ -319,10 +279,6 @@
     "miniatura": "img/reforma-inodoro.webp",
     "propia": true
   },
-  "cisterna-empotrada-bastidor": {
-    "miniatura": "img/reforma-inodoro.webp",
-    "propia": true
-  },
   "mueble-bano-80": {
     "miniatura": "img/reforma-mueble-bano.webp",
     "propia": true
@@ -379,35 +335,7 @@
     "miniatura": "img/reforma-suelo-madera.webp",
     "propia": true
   },
-  "suelo-vinilico-spc-click-con-base": {
-    "miniatura": "img/reforma-suelo-madera.webp",
-    "propia": true
-  },
-  "base-aislante-laminado": {
-    "miniatura": "img/laminado.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
-    "autor": "Wasrts",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
-  },
-  "porcelanico-imitacion-madera-20x120": {
-    "miniatura": "img/laminado.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ALaminate_floor_assembly_-_setting_tongue_and_groove.JPG",
-    "autor": "Wasrts",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Laminate_floor_assembly_-_setting_tongue_and_groove.JPG"
-  },
   "rodapie-mdf-lacado-blanco-7-cm": {
-    "miniatura": "img/rodapie.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3AFu%C3%9Fbodenleiste.JPG",
-    "autor": "Porsche 997 Carrera",
-    "licencia": "CC BY-SA 3.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "archivo": "File:Fußbodenleiste.JPG"
-  },
-  "tapajuntas-lacado-blanco-juego": {
     "miniatura": "img/rodapie.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3AFu%C3%9Fbodenleiste.JPG",
     "autor": "Porsche 997 Carrera",
@@ -456,22 +384,6 @@
     "archivo": "File:Rocker_light_switch.jpg"
   },
   "magnetotermico-1p-n-16a": {
-    "miniatura": "img/magnetotermico.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
-    "autor": "Zimin.V.G.",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Schneider_Electric_circuit_breakers_Acti9_series_01.jpg"
-  },
-  "diferencial-2p-40a-30ma": {
-    "miniatura": "img/magnetotermico.webp",
-    "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
-    "autor": "Zimin.V.G.",
-    "licencia": "CC BY-SA 4.0",
-    "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "archivo": "File:Schneider_Electric_circuit_breakers_Acti9_series_01.jpg"
-  },
-  "cuadro-electrico-empotrable": {
     "miniatura": "img/magnetotermico.webp",
     "pagina": "https://commons.wikimedia.org/wiki/File%3ASchneider_Electric_circuit_breakers_Acti9_series_01.jpg",
     "autor": "Zimin.V.G.",
@@ -531,16 +443,8 @@
     "miniatura": "img/reforma-mueble-bano.webp",
     "propia": true
   },
-  "campana-decorativa-60": {
-    "miniatura": "img/reforma-cocina-2.webp",
-    "propia": true
-  },
   "horno-multifuncion": {
     "miniatura": "img/reforma-horno.webp",
-    "propia": true
-  },
-  "lavavajillas-integrable-60": {
-    "miniatura": "img/reforma-encimera.webp",
     "propia": true
   },
   "radiador-toallero-agua-500": {
@@ -557,18 +461,6 @@
   },
   "parquet-multicapa-roble": {
     "miniatura": "img/reforma-suelo-madera.webp",
-    "propia": true
-  },
-  "espejo-bano-led-80": {
-    "miniatura": "img/reforma-bano.webp",
-    "propia": true
-  },
-  "banera-acrilica-170x70": {
-    "miniatura": "img/reforma-ducha.webp",
-    "propia": true
-  },
-  "grifo-banera-ducha-monomando": {
-    "miniatura": "img/reforma-columna-ducha.webp",
     "propia": true
   }
 }

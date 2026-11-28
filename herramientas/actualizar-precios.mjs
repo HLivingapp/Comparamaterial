@@ -15,7 +15,8 @@ const aqui = join(dirname(fileURLToPath(import.meta.url)), "..");
 const AGENTE = "ComparamaterialBot/1.0 (+https://comparamaterial.com)";
 const PAUSA_MS = Number(process.env.PAUSA_MS || 2500);
 const TIEMPO_MS = 20000;
-const MAX_CAMBIO = 0.6; // un precio que cambia más de un 60 % no se acepta sin revisión
+const MAX_CAMBIO = 0.35; // un precio que cambia más de un 35 % no se acepta sin revisión
+const SIN_IVA = 1 / 1.21;
 const args = process.argv.slice(2);
 const opt = (n) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
 const LIMITE = Number(opt("--limite") || Infinity);
@@ -120,8 +121,13 @@ async function main() {
       if (!l) { r.sinPrecio++; continue; }
       // Precio por m² en el catálogo: solo se acepta si la ficha da el mismo tipo de precio (cambio razonable).
       const antes = it.obj.precio;
-      if (antes && Math.abs(l.precio - antes) / antes > MAX_CAMBIO) { r.rechazado++; continue; }
-      const nuevo = Math.round(l.precio * 100) / 100;
+      let leido = l.precio;
+      // Algunas webs ponen en los datos estructurados el precio SIN IVA: si sale justo el precio con IVA / 1,21, se corrige.
+      if (antes && Math.abs(leido / antes - SIN_IVA) < 0.004) leido = leido * 1.21;
+      // En azulejos el catálogo guarda €/m² y la ficha suele dar el precio de la pieza o de la caja: solo vale si coincide.
+      if (it.obj.unidad === "m²" && antes && Math.abs(leido - antes) / antes > 0.02) { r.otraUnidad = (r.otraUnidad || 0) + 1; continue; }
+      if (antes && Math.abs(leido - antes) / antes > MAX_CAMBIO) { r.rechazado++; continue; }
+      const nuevo = Math.round(leido * 100) / 100;
       if (nuevo !== antes) { r.cambiado++; it.obj.precioAnterior = antes; it.obj.precio = nuevo; if (it.obj.precioM2 && it.obj.unidad === "m²") it.obj.precioM2 = nuevo; } else r.igual++;
       it.obj.fecha = HOY; delete it.obj.noDisponible; r.ok++;
       if (!l.disponible) it.obj.agotado = HOY; else delete it.obj.agotado;

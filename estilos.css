@@ -239,3 +239,12 @@ table.comparativa small{font-weight:400}
 .g-lista span{color:#4b5563;font-size:.92rem}
 .g-tabla th,.g-tabla td{white-space:normal}
 @media (max-width:560px){.g-tabla thead{display:none}.g-tabla tr{display:block;border-bottom:1px solid var(--li);padding:8px 0}.g-tabla th,.g-tabla td{display:block;border:0;padding:2px 0}}
+/* Subgrupos de cada área: se pinchan para ver solo ese tipo de producto */
+.subgrupos{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 10px;position:sticky;top:0;z-index:5;background:var(--bg);padding:8px 0}
+.subgrupos a,.subgrupos button{font:inherit;font-size:.92rem;padding:7px 12px;border:1px solid var(--li);border-radius:999px;background:var(--sup);color:inherit;text-decoration:none;cursor:pointer;white-space:nowrap}
+.subgrupos small{opacity:.6;margin-left:2px}
+.subgrupos .on{background:var(--ac);border-color:var(--ac);color:var(--acTx)}
+.grupo h2 small{font-weight:400;opacity:.6;font-size:.8em}
+@media (max-width:640px){.subgrupos{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}}
+.grupo[hidden]{display:none}
+.subgrupos small{display:inline}
