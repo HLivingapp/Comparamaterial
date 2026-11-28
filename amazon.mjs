@@ -6,12 +6,14 @@ import { readFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { AMAZON_TAG } from "./guias.mjs";
+import { ORDEN } from "./herramientas/subgrupos.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const leer = (f, d) => { try { return JSON.parse(readFileSync(join(aqui, "datos", f), "utf8")); } catch { return d; } };
-// Áreas de Amazon que no tienen página propia en la web: van al área más cercana.
-const AREA = { "Domótica": "Electricidad", "Herramientas": "Obra y protección" };
-export const AMAZON = AMAZON_TAG ? (leer("amazon.json", {}).productos || []).map((p) => ({ ...p, area: AREA[p.area] || p.area })) : [];
+// Áreas de Amazon que no tienen página propia en la web: van al área más cercana (solo mientras el área no exista en ORDEN).
+const AREA = { "Domótica": "Electricidad", "Herramientas": "Obra y protección", "Terrazas y patios": "Suelos" };
+const areaWeb = (a) => ORDEN.includes(a) ? a : AREA[a] || a;
+export const AMAZON = AMAZON_TAG ? (leer("amazon.json", {}).productos || []).map((p) => ({ ...p, area: areaWeb(p.area) })) : [];
 // Datos de la API: { asin: { precio, imagen, titulo, fecha } }. Amazon exige mostrar la hora del precio y refrescarlo cada 24 h:
 // si el dato tiene más de 24 h, no se muestra.
 const API = leer("amazon-api.json", {});
