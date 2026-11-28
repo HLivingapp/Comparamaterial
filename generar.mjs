@@ -12,6 +12,7 @@ import { amazonDeArea, filaAmazon, filasAmazonMaterial, precioAmazon } from "./a
 import { generarGuias, botonAmazon, AMAZON_TAG, AVISO_AMAZON } from "./guias.mjs";
 import { SUBGRUPOS, subgrupo, area, ORDEN, gruposVista, esPieza, EXPLICA, FACETAS, facetas, clave } from "./herramientas/subgrupos.mjs";
 import { esquema } from "./herramientas/esquemas.mjs";
+import { fotoPropia } from "./herramientas/fotos-propias.mjs";
 
 const aqui = dirname(fileURLToPath(import.meta.url));
 const salida = process.argv[2] || join(aqui, "dist");
@@ -86,8 +87,39 @@ function fotoGrupo(g, ms, c, raiz) {
 // Foto del producto: solo una foto del producto exacto. Las fotos de reformas no se ponen en productos
 // sueltos (el azulejo, grifo o puerta real puede ser muy distinto): solo en las tarjetas de tipo y estilo.
 // Si no hay foto del producto exacto, un dibujo esquemático hecho con sus datos (formato, color, medidas…).
+// Foto de obra real solo si muestra un producto equivalente (mismo tipo y color): grifo negro empotrado →
+// foto de grifo negro empotrado; termo → termo. Azulejos, suelos, encimeras, lámparas o muebles cambian
+// mucho de un modelo a otro: ahí, dibujo esquemático.
+// Fotos de obra que muestran bien un producto nuevo de ese tipo. Donde la foto lleva un color concreto,
+// se elige la que coincide con el color del producto; si no coincide ninguna, dibujo esquemático.
+const NEGRO = /negr|black/i, DORADO = /dorad|\boro\b|gold|lat[oó]n cepillado|champagne/i, CROMO = /crom|plata|silver|inox|acero/i;
+const sinColor = (n) => !NEGRO.test(n) && !DORADO.test(n) && !/blanc|white|gris|grey|rosa|verde|azul(?!ej)|bronce|cobre/i.test(n);
+const POOL = {
+  "grifo-negro": (n) => NEGRO.test(n) && ["grifo-negro", 5], "grifo-dorado": (n) => DORADO.test(n) && ["grifo-dorado", 3],
+  "grifo-cocina-dorado": (n) => DORADO.test(n) && ["grifo-cocina-dorado", 2], "grifo-cromo": (n) => (CROMO.test(n) || sinColor(n)) && ["grifo-cromo", 3],
+  "grifo-lavabo": (n) => NEGRO.test(n) ? ["grifo-negro", 5] : DORADO.test(n) ? ["grifo-dorado", 3] : (CROMO.test(n) || sinColor(n)) && ["grifo-cromo", 3],
+  "grifo-empotrado": (n) => NEGRO.test(n) ? ["grifo-empotrado", [2, 3, 4]] : (CROMO.test(n) || sinColor(n)) && ["grifo-empotrado", [5]],
+  "mampara-negra": (n) => NEGRO.test(n) && ["mampara-negra", 5], "mampara": (n) => NEGRO.test(n) && ["mampara", 5],
+  "lavabo": (n) => NEGRO.test(n) ? ["lavabo", [2]] : (/blanc|white/i.test(n) || sinColor(n)) && ["lavabo", [1, 3, 4, 5]],
+  "columna-ducha": (n) => NEGRO.test(n) ? ["columna-ducha", [3]] : (CROMO.test(n) || sinColor(n)) && ["columna-ducha", [1, 2]],
+  "puerta-lisa": (n) => /blanc|lacad/i.test(n) && ["puerta-lisa", [2, 3, 4]], "puerta-molduras": (n) => /blanc|lacad/i.test(n) && ["puerta-molduras", 5],
+  "puerta-corredera": (n) => /blanc|lacad|vidrio|cristal/i.test(n) && ["puerta-corredera", 1],
+  "manilla": (n) => NEGRO.test(n) ? ["manilla", [2]] : DORADO.test(n) && ["manilla", [1]],
+  "fregadero": (n) => NEGRO.test(n) ? ["fregadero", [3]] : !/granit|sint[eé]tic|blanc|gris|beige/i.test(n) && ["fregadero", [1, 2, 4]],
+};
+const SIEMPRE = /^(termo-electrico|caldera|termostato|downlight|panel-led|foco-carril|tira-led|plafon|inodoro|plato-ducha|radiador|split|enchufe|interruptor|ventana|balconera|toallero|placa|horno|campana|suelo-laminado|suelo-madera|parquet|banera)$/;
+const hashN = (t) => { let h = 0; for (const c of t) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
+function fotoObra(m) {
+  const f = fotoPropia(m.categoria, m.nombre); if (!f) return null;
+  const el = (f.match(/reforma-(.+)-\d+\.webp$/) || [])[1] || "";
+  if (SIEMPRE.test(el)) return f;
+  const r = POOL[el] && POOL[el](m.nombre); if (!r) return null;
+  const [e, ids] = r; const lista = (Array.isArray(ids) ? ids : Array.from({ length: ids }, (_, k) => k + 1)).map((k) => `img/reforma-${e}-${k}.webp`).filter((x) => existsSync(join(aqui, x)));
+  return lista.length ? lista[hashN(m.nombre) % lista.length] : null;
+}
 const ESQ = new Map();
 const fotoDe = (m) => { const f = imagenes[m.slug]; if (f && !f.propia && !/reforma-/.test(f.miniatura)) return f;
+  const o = fotoObra(m); if (o) return { miniatura: o, propia: true };
   if (!ESQ.has(m.slug)) ESQ.set(m.slug, esquema(m.categoria, m.nombre));
   return ESQ.get(m.slug) ? { miniatura: `esq/${m.slug}.svg`, esquema: true } : null; };
 function imagen(m, raiz, grande = false) {
@@ -98,6 +130,7 @@ function imagen(m, raiz, grande = false) {
 function credito(m) {
   const f = fotoDe(m);
   if (!f) return "";
+  if (f.propia) return `<p class="credito">Foto de obra real nuestra: mismo tipo de producto y color. El modelo exacto puede variar; mira la foto de la tienda.</p>`;
   if (f.esquema) return `<p class="credito">Dibujo esquemático hecho con los datos del producto (formato, color, medidas). Mira la foto real en la tienda.</p>`;
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
 }
