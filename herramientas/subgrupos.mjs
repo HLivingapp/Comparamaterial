@@ -9,7 +9,7 @@ const VINOTECA = /vinoteca|nevera (de|para) vinos?|enfriador de vinos?|armario (
 export const MUEBLE_COCINA = /composici[oó]n de cocina|columna de cocina|semi ?columna|frente de caj[oó]n|m[oó]dulo (de )?cocina|casco (de )?cocina|puerta (de )?cocina|muebles? (bajo|alto|de cocina|fregadero|para fregadero|columna|horno|esquin|rinc)|m[oó]dulo (bajo|alto|columna|de cocina|fregadero|horno|esquin)|columna (de |para )?(horno|frigo|nevera|despensa)|armario (bajo|alto|de pared|de columna|de esquina|para (horno|frigo|fregadero))|cocina (completa|modular|en kit|lineal)|kit de cocina|frente de (cocina|lavavajillas)|puerta (de|para) (mueble de )?cocina|\b(metod|delinia|enhet|knoxhult)\b/i;
 export const SUBGRUPOS = {
   "Baño": [
-    ["Pulsadores de inodoro", /pulsador|placa de accionamiento|placa de descarga|sigma\s?\d|placa (de )?mando/i],
+    ["Pulsadores de inodoro", (n) => /pulsador|placa de (accionamiento|descarga|control)|sigma\s?\d|placa (de )?mando/i.test(n) && !/bastidor|duofix:|^\W*(\w+ )?pack\b/i.test(n)],
     ["Bastidores y cisternas empotradas", (n) => /bastidor|cisterna empotrad|cisterna oculta|duplo|\brapid ?sl\b|tece ?profil|in-?wall|pack wc bastidor/i.test(n) && !/^\W*(inodoro|taza)/i.test(n)],
     ["Recambios, desagües y fijaciones", /tornillo|recambio|repuesto|v[aá]lvula|rejilla|rejlla|brazo (de )?sujeci|bisagra|\bjunta|flexo|latiguillo|desag[uü]e|sif[oó]n|fijaci|perlizador|aireador|cartucho|maneta|tap[oó]n|silicona|embellecedor|llave de escuadra|base lavabo|kit de/i],
     ["Muebles de baño", /mueble|conjunto de ba[ñn]o|composici[oó]n|columna auxiliar|armario de ba|armario colgar|m[oó]dulo|pilar/i],
@@ -203,15 +203,15 @@ export const SUBGRUPOS = {
   ],
   "Herramientas": [
     ["Kits y combos de batería", /^\W*(kit|combo|pack)\b.*(taladro|atornillador|amoladora|sierra|martillo|bater[ií]a)/i],
-    ["Brocas, discos y puntas", /\bbroca|\bdisco|\bpuntas?\b|\btaco|corona/i],
+    ["Brocas, discos y puntas", /^\W*((juego|set|kit|pack|lote|estuche) (de )?(\d+ )?)?(brocas?|discos?|puntas?|tacos?|coronas?)\b/i],
     ["Llaves y atornilladores de impacto", /impacto/i],
     ["Martillos percutores y demoledores", /martillo (percutor|perforador|demoledor|combinado)|perforador|cinceladora|demoledor|\bsds-?plus\b.*martillo/i],
     ["Taladros y atornilladores", /taladro|atornillador|drill/i],
     ["Amoladoras y radiales", /amoladora|radial|miniamoladora/i],
     ["Sierras", /sierra|tronzadora|ingletadora/i],
-    ["Lijadoras y multiherramientas", /lijadora|multiherramienta|oscilante|cepillo el[eé]ctrico|fresadora/i],
+    ["Lijadoras y multiherramientas", /lijadora|multiherramienta|mini ?herramienta|dremel|oscilante|cepillo el[eé]ctrico|fresadora/i],
     ["Medición y nivel láser", /l[aá]ser|nivel|\bmetro\b|flex[oó]metro|medidor|disto/i],
-    ["Cortadoras de azulejo", /cortadora|corta ?azulejo|cortador de cer/i],
+    ["Cortadoras de azulejo", /cortadora|corta ?azulejo|cortador (de )?(cer|azulejo)/i],
     ["Aspiradores de obra", /aspirador/i],
     ["Herramienta de albañil y pintor", /paleta|llana|peine|esp[aá]tula|remolinador|rascador|talocha|palet[ií]n|cuchilla|martillo|maza|cincel|cortafr/i],
     ["Escaleras", /escalera/i],
@@ -312,7 +312,7 @@ export function area(categoria, nombre) {
     return "Puertas";
   }
   // Herramientas de obra y bricolaje: área propia (en los datos vienen en «Obra y protección»).
-  if (categoria === "Obra y protección" && !/pl[aá]stico|\blona\b|fieltro|cart[oó]n|burbuja|protecci[oó]n|cierrapuertas|cuerpo (de )?cierr|\bbrazo\b|cisterna|inodoro|fijaci[oó]n|calentador|escarpia|recambio de rodillo/i.test(nombre)) return "Herramientas";
+  if (categoria === "Obra y protección" && (/^\W*(lijadora|taladro|amoladora|sierra|martillo|atornillador|ingletadora)/i.test(nombre) || !/pl[aá]stico|\blona\b|fieltro|cart[oó]n|burbuja|protecci[oó]n|cierrapuertas|cuerpo (de )?cierr|\bbrazo\b|cisterna|inodoro|fijaci[oó]n|calentador|escarpia|recambio de rodillo/i.test(nombre))) return "Herramientas";
   if (categoria !== "Baño y cocina") return categoria;
   return COCINA.test(nombre) && !/ba[ñn]o|lavabo|ducha|inodoro|mampara/i.test(nombre) ? "Cocina" : "Baño";
 }
