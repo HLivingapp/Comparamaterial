@@ -136,6 +136,13 @@ function fotoObra(m) {
   return lista.length ? lista[hashN(m.nombre) % lista.length] : null;
 }
 const ESQ = new Map();
+// Productos de Amazon: su dibujo esquemático (no copiamos fotos de Amazon).
+const CAT_DE_AREA = { "Cocina": "Baño y cocina", "Baño": "Baño y cocina", "Aire acondicionado": "Climatización y agua caliente", "Calefacción y agua caliente": "Climatización y agua caliente", "Ventiladores": "Climatización y agua caliente", "Iluminación": "Electricidad", "Ventanas": "Puertas y ventanas", "Puertas": "Puertas y ventanas", "Armarios": "Puertas y ventanas" };
+function fotoAmazon(a, raiz) {
+  const slug = "amz-" + slugify(a.nombre).slice(0, 90);
+  if (!ESQ.has(slug)) ESQ.set(slug, esquema(CAT_DE_AREA[a.area] || a.area, a.nombre));
+  return ESQ.get(slug) ? `<img class="pl-f" src="${raiz}esq/${slug}.svg" alt="" loading="lazy" decoding="async" width="88" height="66">` : `<span class="pl-f pl-i">${icono(a.area)}</span>`;
+}
 const fotoDe = (m) => { const f = imagenes[m.slug]; if (f && !f.propia && !/reforma-/.test(f.miniatura)) return f;
   const fSerie = fotoSerie(m.nombre); if (fSerie) return fSerie;
   const nEnl = (m.ofertas || []).map((o) => o.enlace).find((e) => naisImg[e]);
@@ -680,7 +687,7 @@ function listaProductos(ps, raiz, previa = 0, amz = []) {
   const items = ps.map((m) => ({ m, v: m.ofertas[0].precio, pz: esPieza(m.nombre) }));
   for (const a of conP) { const v = precioAmazon(a), pz = esPieza(a.nombre); const k = items.findIndex((x) => x.pz > pz || (x.pz === pz && x.v > v)); items.splice(k < 0 ? items.length : k, 0, { a, v, pz }); }
   for (const a of sinP) items.push({ a });
-  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: `<span class="pl-f pl-i">${icono(a.area)}</span>` }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="88" height="66">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span>${(() => { const d = medidas(m.nombre).slice(0, 4); return d.length ? `<span class="pl-d">${d.map(esc).join(" · ")}</span>` : ""; })()}</a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
+  return `<ul class="prod-lista">${items.map(({ m, a }, i) => a ? filaAmazon(a, { esc, eur, slugify, attrF: attrF({ nombre: a.nombre + " " + (a.marca || "") }), foto: fotoAmazon(a, raiz) }, previa && i >= previa) : (() => { const o = m.ofertas[0]; return `<li${previa && i >= previa ? ' class="mas"' : ""}${attrF(m)} data-n="${esc(slugify(m.nombre).replace(/-/g, " "))}">${(() => { const f = fotoDe(m); return f ? `<img class="pl-f" src="${esc(/^https?:/.test(f.miniatura) ? f.miniatura : raiz + f.miniatura)}" alt="" loading="lazy" decoding="async" width="88" height="66">` : `<span class="pl-f pl-i">${icono(m.categoria)}</span>`; })()}<a href="${raiz}${m.slug}/"><span class="pl-n">${esc(m.nombre)}</span><span class="pl-t">${esc(tiendaCorta(o.tienda))} · ${esc(m.formato)}</span>${(() => { const d = medidas(m.nombre).slice(0, 4); return d.length ? `<span class="pl-d">${d.map(esc).join(" · ")}</span>` : ""; })()}</a><b class="pl-p">${eur(o.precio)}</b><button type="button" class="t-add peq" data-add="${esc(m.slug)}">+ Cesta</button></li>`; })()).join("")}</ul>`;
 }
 
 function paginaCategoria(c) {
@@ -803,8 +810,6 @@ for (const m of productos) {
   rutas.push(ruta);
 }
 writeFileSync(join(salida, "indice.json"), indiceJSON);
-mkdirSync(join(salida, "esq"), { recursive: true });
-for (const [slug, svg] of ESQ) if (svg) { const f = join(salida, "esq", slug + ".svg"); mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, svg); }
 for (const f of [paginaComparativa, paginaCesta]) {
   const { ruta, html } = f();
   mkdirSync(join(salida, ruta), { recursive: true });
@@ -820,6 +825,9 @@ for (const c of categorias) {
 { const lm = marcasConProductos();
   for (const { ruta, html } of [paginaMarcas(lm), ...lm.map(paginaMarca)]) { mkdirSync(join(salida, ruta), { recursive: true }); writeFileSync(join(salida, ruta, "index.html"), html); rutas.push(ruta); } }
 generarGuias({ salida, rutas, pagina, esc, SITE, materiales, productos, rejilla, listaProductos, ctaReformista, fechaTexto, mesTexto, fecha });
+// Los dibujos se escriben al final, cuando ya se han pintado todas las páginas que los usan.
+mkdirSync(join(salida, "esq"), { recursive: true });
+for (const [slug, svg] of ESQ) if (svg) { const f = join(salida, "esq", slug + ".svg"); mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, svg); }
 writeFileSync(join(salida, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${rutas.map((r) => `  <url><loc>${SITE}/${r}</loc><lastmod>${fecha}</lastmod></url>`).join("\n")}

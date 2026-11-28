@@ -279,6 +279,32 @@ function electro(n, g) {
   return null;
 }
 
+// Saco (cemento, mortero, yeso, cola, junta…): el tipo, el peso y la clase impresos en el propio saco.
+const TIPO_SACO = [[/cemento cola|adhesivo cement|\bcola\b/i, "Cemento cola"], [/autonivel/i, "Autonivelante"], [/junta|rejunt|borada/i, "Mortero de juntas"], [/hormig[oó]n/i, "Hormigón seco"], [/mortero/i, "Mortero"], [/cemento/i, "Cemento"], [/escayola/i, "Escayola"], [/yeso/i, "Yeso"], [/\bcal\b|cal hidr/i, "Cal"], [/arena|grava|gravilla|[aá]rido/i, "Árido"], [/masilla|plaste/i, "Masilla"], [/impermeab/i, "Impermeabilizante"]];
+export function esSaco(n) { return /\bsaco|\d\s*kg\b/i.test(n) && TIPO_SACO.some(([r]) => r.test(n)); }
+function saco(n) {
+  EXTRA = [];
+  const kg = (n.match(/(\d+(?:[.,]\d+)?)\s*kg\b/i) || [])[1];
+  const tipo = (TIPO_SACO.find(([r]) => r.test(n)) || [, "Material"])[1];
+  const clase = (n.match(/\b(C[12]\s?(?:T|E|S[12]|F)*(?:\s?(?:T|E|S[12]))*|CG2\s?W?A?|CEM\s?I{1,3}V?(?:\/[AB](?:-[A-Z]+)?)?(?:\s?\d{2}[.,]5\s?[NR])?|\d{2}[.,]5\s?[NR]|M\s?-?\s?(?:2[.,]5|5|7[.,]5|10|15)|B1|YG|YF|HA-?\d{2})\b/i) || [])[1];
+  const blanco = /blanc|white/i.test(n), gris = /gris|grey/i.test(n);
+  const uso = /exterior|fachada/i.test(n) ? "Exterior" : /interior/i.test(n) ? "Interior" : "";
+  const extra = /r[aá]pid|fraguado r/i.test(n) ? "Rápido" : /flexib|deformab/i.test(n) ? "Flexible" : /hidr[oó]fug|impermeab|repelente/i.test(n) ? "Hidrófugo" : /porcel[aá]nic|gran formato/i.test(n) ? "Para porcelánico" : /refractari/i.test(n) ? "Refractario" : "";
+  const fondo = blanco ? "#f7f5ef" : gris ? "#e4e2dc" : "#efe7d6", banda = tipo === "Cemento cola" ? "#1f5fd6" : tipo === "Yeso" || tipo === "Escayola" ? "#d98a1f" : /junta/i.test(tipo) ? "#2f9e6e" : "#6b7378";
+  const t = tipo.length > 14 ? 9.5 : tipo.length > 11 ? 11 : 13;
+  const d = `${suelo(120, 140, 62)}<path d="M66 24 Q120 15 174 24 L182 128 Q120 142 58 128 Z" fill="${fondo}" stroke="#8f989e" stroke-width="1.5"/><path d="M66 24 Q120 15 174 24 L176 38 Q120 30 64 38 Z" fill="${tono(fondo, 0.9)}"/><path d="M62 54 Q120 47 178 54 L179 70 Q120 63 61 70 Z" fill="${banda}"/><text x="120" y="65" text-anchor="middle" font-size="${t}" font-weight="800" fill="#fff">${esc(tipo.toUpperCase())}</text><text x="120" y="100" text-anchor="middle" font-size="24" font-weight="800" fill="#33393d">${kg ? kg.replace(".", ",") + " kg" : ""}</text>${clase ? `<text x="120" y="118" text-anchor="middle" font-size="11" font-weight="700" fill="#5f6b73">${esc(clase.toUpperCase().replace(/\s+/g, " "))}</text>` : ""}<path d="M66 24 Q120 15 174 24 L182 128 Q120 142 58 128 Z" fill="url(#lz)"/>`;
+  return lienzo(d, [clase ? `Clase ${clase.toUpperCase().replace(/\s+/g, " ")}` : "", blanco ? "Blanco" : gris ? "Gris" : "", uso, extra]);
+}
+
+// Cuando no hay dibujo propio: caja con el tipo de producto escrito y sus medidas o datos.
+export function tarjeta(n) {
+  const pal = String(n).replace(/^\W*(?:(?:pack|kit|juego|set|lote) (?:de )?\d*\s*)?/i, "").split(/[\s,(]+/).filter((w) => w && !/\d/.test(w));
+  let tipo = ""; for (const w of pal.slice(0, 4)) { if ((tipo + " " + w).trim().length > 22) break; tipo = (tipo + " " + w).trim(); }
+  tipo = tipo.replace(/\s+(de|para|con|y|en|el|la)$/i, "").replace(/^./, (x) => x.toUpperCase()) || "Producto";
+  const d = `${suelo(122, 128, 60)}${caja(70, 44, 100, 80, 34, "#f1f3f4", "#8f989e")}<path d="M70 44 l24 -15 M120 44 l24 -15" stroke="#c9cfd3"/><rect x="78" y="70" width="84" height="28" rx="4" fill="#fff" stroke="#d5dade"/><text x="120" y="89" text-anchor="middle" font-size="${tipo.length > 13 ? 9.5 : 12.5}" font-weight="800" fill="#33393d">${esc(tipo)}</text>`;
+  return lienzo(d, []);
+}
+
 function generico(n) {
   const f = formato(n);
   if (/\bsaco|\d\s*kg\b/i.test(n) && !f) {
@@ -294,8 +320,11 @@ function generico(n) {
 // Devuelve el SVG del producto (dibujo + datos clave y medidas), o null si no hay datos útiles.
 export function esquema(categoria, nombre) {
   EXTRA = medidas(nombre);
+  if (esSaco(nombre)) return saco(nombre);
   const svg = esquemaTipo(categoria, nombre);
-  return svg || (EXTRA.length ? generico(nombre) : null);
+  if (svg) return svg;
+  if (/tornill|taco|clavo|tirafond|arandela|tuerca|remache|grapa|brida/i.test(nombre)) { EXTRA = EXTRA.filter((e) => !/cm$/.test(e)); return tarjeta(nombre); }
+  return EXTRA.length ? generico(nombre) : tarjeta(nombre);
 }
 function esquemaTipo(categoria, nombre) {
   const a = area(categoria, nombre), g = subgrupo(a, nombre) || "";
