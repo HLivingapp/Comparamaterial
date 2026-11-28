@@ -37,8 +37,8 @@ p{margin:0;max-width:70ch}
 .tarjeta a{display:grid;grid-template-rows:auto auto auto 1fr auto;gap:4px;height:100%;background:var(--sup);border:1px solid var(--li);border-radius:12px;padding:10px 10px 12px;color:var(--tx);text-decoration:none;transition:box-shadow .15s,border-color .15s}
 .tarjeta a:hover{border-color:#c6cfdc;box-shadow:0 6px 18px rgba(15,47,107,.10)}
 .tarjeta a:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
-.foto{aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:var(--gris);display:grid;place-items:center;margin-bottom:6px}
-.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.foto{aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:#fff;border:1px solid var(--li);display:grid;place-items:center;margin-bottom:6px}
+.foto img{width:100%;height:100%;object-fit:contain;padding:6%;box-sizing:border-box;display:block}
 .sinfoto svg{width:42%;height:42%;color:#8fa6cf}
 .t-nombre{font-weight:650;line-height:1.3}
 .t-formato{color:var(--mu);font-size:.85rem}
@@ -213,3 +213,7 @@ table.comparativa small{font-weight:400}
 .br-orden button.on{background:#1f5fd6;color:#fff;border-color:#1f5fd6}
 .orden-sel{display:flex;gap:8px;align-items:center;font-size:.9rem;margin:.4rem 0}
 .orden-sel select{font:inherit;padding:4px 8px;border-radius:8px;border:1px solid var(--li)}
+.f-fecha{display:block;font-size:.72rem;color:#6b7280;font-weight:400;margin-top:2px}
+.f-fecha.viejo{color:#b45309}
+.aviso-viejo{background:#fff7ed;border:1px solid #fdba74;color:#9a3412;border-radius:10px;padding:10px 12px;font-size:.9rem}
+.aviso-precio{font-size:.85rem;color:#4b5563;margin:.6rem 0 1.2rem}
