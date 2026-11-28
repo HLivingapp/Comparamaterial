@@ -248,3 +248,22 @@ table.comparativa small{font-weight:400}
 @media (max-width:640px){.subgrupos{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch}}
 .grupo[hidden]{display:none}
 .subgrupos small{display:inline}
+/* Selección en Amazon */
+.amz-g{font-size:1rem;margin:1.2rem 0 .5rem;color:#374151}
+.amz-rejilla{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
+.amz-t a{display:flex;flex-direction:column;gap:6px;height:100%;border:1px solid var(--li);border-radius:14px;padding:12px;background:#fff;color:inherit;text-decoration:none}
+.amz-t a:hover{border-color:#ff9900}
+.amz-foto{display:flex;align-items:center;justify-content:center;height:110px;border-radius:10px;background:#f3f6fc;color:#1f5fd6}
+.amz-foto svg{width:56px;height:56px}
+.amz-foto img{max-height:110px;max-width:100%;object-fit:contain}
+.amz-marca{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#6b7280}
+.amz-nombre{font-weight:600;font-size:.95rem;line-height:1.35;flex:1}
+.amz-precio{font-weight:800;font-size:1.1rem}
+.amz-precio small{display:block;font-weight:400;font-size:.72rem;color:#6b7280}
+.amz-btn{display:block;text-align:center;background:#ffd814;border-radius:999px;padding:7px 10px;font-weight:700;font-size:.88rem;color:#111}
+@media (max-width:520px){.amz-rejilla{grid-template-columns:1fr 1fr}.amz-foto{height:80px}}
+main>*{min-width:0}
+.bloque-cab{flex-wrap:wrap}
+.bloque-cab a{white-space:normal}
+.filtro-t{flex-wrap:wrap}
+.amz-rejilla{grid-template-columns:repeat(auto-fill,minmax(min(200px,100%),1fr))}

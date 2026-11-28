@@ -26,6 +26,12 @@ jobs:
         with:
           node-version: 20
       - uses: actions/configure-pages@v5
+      # Precios y fotos de Amazon por su API (solo si existen los secretos; si no, no hace nada)
+      - run: node herramientas/amazon-api.mjs
+        continue-on-error: true
+        env:
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
       - run: node generar.mjs dist
         env:
           SITE_URL: https://comparamaterial.com

@@ -28,7 +28,7 @@ export function generarGuias(ctx) {
     const comparados = g.materiales.map((s) => porSlug.get(s)).filter(Boolean);
     const usados = new Set();
     const selecciones = g.filtros.map((f) => {
-      const ps = productos.filter((p) => p.categoria === f.categoria && f.nombre.test(p.nombre) && !usados.has(p.slug));
+      const ps = productos.filter((p) => [].concat(f.categoria).includes(p.categoria) && f.nombre.test(p.nombre) && !usados.has(p.slug));
       const sel = muestra(ps, f.n);
       sel.forEach((p) => usados.add(p.slug));
       return sel;
