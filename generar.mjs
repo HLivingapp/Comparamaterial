@@ -54,6 +54,7 @@ function imagen(m, raiz, grande = false) {
 function credito(m) {
   const f = imagenes[m.slug];
   if (!f) return "";
+  if (f.propia) return `<p class="credito">Foto: reforma real terminada en Madrid. Imagen orientativa, no es el producto exacto.</p>`;
   return `<p class="credito">Foto: <a href="${esc(f.pagina)}" rel="nofollow noopener" target="_blank">${esc(f.autor || "Wikimedia Commons")}</a>, ${f.licenciaUrl ? `<a href="${esc(f.licenciaUrl)}" rel="nofollow noopener" target="_blank">${esc(f.licencia)}</a>` : esc(f.licencia)}, vía Wikimedia Commons (recortada y reducida). Imagen orientativa, no es el producto exacto.</p>`;
 }
 
@@ -105,7 +106,7 @@ const ALIAS = [
   [/cable|manguera/i, "cableado electricidad"], [/plato de ducha|mampara|columna/i, "ducha"], [/pintura|esmalte|imprimación/i, "pintar"],
 ];
 const alias = (m) => ALIAS.filter(([r]) => r.test(m.nombre + " " + m.categoria)).map(([, a]) => a).join(" ");
-const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
+const indiceJSON = JSON.stringify(todos.map((m) => ({ s: m.slug, n: m.nombre, f: m.formato, c: m.categoria, a: alias(m), p: eur(Math.min(...m.ofertas.map((o) => o.precio))), v: Math.min(...m.ofertas.map((o) => o.precio)), ...(m.catalogo ? { x: 1, t: tiendaCorta(m.ofertas[0].tienda) } : {}) })));
 function pagina({ titulo, descripcion, ruta, cuerpo, jsonld, raiz }) {
   const canonical = SITE + "/" + ruta;
   return `<!doctype html>
@@ -158,13 +159,13 @@ b.addEventListener("click",function(){try{c=JSON.parse(localStorage.getItem("cm-
 var R="${raiz}",I=[],cargando=null;
 var nor=function(t){return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")};
 var carga=function(){if(!cargando)cargando=fetch(R+"indice.json").then(function(r){return r.json()}).then(function(d){I=d;I.forEach(function(m){m.nk=nor(m.n+" "+(m.a||""));m.k=nor(m.n+" "+m.f+" "+m.c+" "+(m.a||""))})}).catch(function(){});return cargando};
-var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){return w.every(function(x){return m.nk.indexOf(x)>=0})?0:2};r.sort(function(a,b){return (en(a)+(a.x?1:0))-(en(b)+(b.x?1:0))});return r.slice(0,10)};
+var busca=function(t){var w=nor(t).split(/\\s+/).filter(Boolean);if(!w.length)return[];var r=I.filter(function(m){return w.every(function(x){return m.k.indexOf(x)>=0})});var en=function(m){var t=" "+m.nk.replace(/[^a-z0-9]+/g," ")+" ";return w.every(function(x){return t.indexOf(" "+x+" ")>=0||t.indexOf(" "+x+"s ")>=0})?0:w.every(function(x){return m.nk.indexOf(x)>=0})?1:2};var pop=function(m){return en(m)+(m.x?1:0)};r.sort(orden==="precio"?function(a,b){return (en(a)-en(b))||(a.v-b.v)}:function(a,b){return (pop(a)-pop(b))||(a.v-b.v)});return r.slice(0,12)};var orden="precio";
 var cuenta=function(){var n=0;for(var k in c)n+=c[k]>0?1:0;document.querySelectorAll(".cesta-n").forEach(function(e){e.textContent=n;e.hidden=!n})};
 document.querySelectorAll(".busca").forEach(function(f){var q=f.querySelector("input"),res=f.querySelector(".busca-res");
 var pinta=function(){if(!I.length){carga().then(function(){if(I.length)pinta()});return}var r=busca(q.value);if(!q.value.trim()){res.hidden=true;return}
-res.innerHTML=r.length?r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
+res.innerHTML=r.length?'<div class="br-orden">Ordenar por: <button type="button" data-o="precio"'+(orden==="precio"?' class="on"':'')+'>Precio</button><button type="button" data-o="pop"'+(orden==="pop"?' class="on"':'')+'>Popularidad</button></div>'+r.map(function(m){return '<div class="br"><a href="'+R+m.s+'/"><b>'+m.n+'</b><small>'+m.f+' · desde '+m.p+'</small></a><button type="button" data-s="'+m.s+'">'+(c[m.s]?"✓ En cesta":"+ Cesta")+'</button></div>'}).join("")+'<a class="br-todo" href="'+R+'cesta/?q='+encodeURIComponent(q.value)+'">Ver mi cesta y comparar tiendas →</a>':'<p class="br-nada">No tenemos «'+q.value.replace(/[<>&"]/g,"")+'» todavía. Prueba con otra palabra.</p>';res.hidden=false};
 q.addEventListener("input",pinta);q.addEventListener("focus",pinta);
-res.addEventListener("click",function(e){var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
+res.addEventListener("click",function(e){var o=e.target.closest("button[data-o]");if(o){e.stopPropagation();orden=o.getAttribute("data-o");pinta();q.focus();return}var b=e.target.closest("button[data-s]");if(!b)return;var s=b.getAttribute("data-s");try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(x){}c[s]=(c[s]||0)+1;try{localStorage.setItem("cm-cesta",JSON.stringify(c))}catch(x){}b.textContent="✓ En cesta";cuenta();document.dispatchEvent(new Event("cm-cesta"))});
 f.addEventListener("submit",function(e){if(!I.length)return;var r=busca(q.value);if(r.length===1){e.preventDefault();location.href=R+r[0].s+"/"}});
 document.addEventListener("click",function(e){if(!f.contains(e.target))res.hidden=true});
 q.addEventListener("keydown",function(e){if(e.key==="Escape")res.hidden=true});
@@ -448,6 +449,7 @@ function paginaCesta() {
 <section class="bloque">
   <div class="bloque-cab"><h2>Añadir materiales</h2></div>
   <label class="buscador"><span>Buscar material</span><input id="cesta-buscar" type="search" placeholder="Ej.: cemento, cable, pintura…" autocomplete="off"></label>
+  <label class="orden-sel" hidden><span>Ordenar por</span><select id="cesta-orden"><option value="precio">Precio: de más barato a más caro</option><option value="pop">Popularidad</option></select></label>
   <div id="cesta-catalogo" class="cesta-catalogo"></div>
 </section>
 <p class="nota">Los precios son orientativos: cambian según la tienda física elegida y las ofertas del día. Cuando los formatos no son iguales entre tiendas (por ejemplo, rollos de distinta longitud) lo avisamos en la línea.</p>
@@ -498,13 +500,15 @@ function pinta(){
 function catalogo(q){
   q=(q||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
   var C=document.getElementById("cesta-catalogo"),h="",cat="";
-  var w=q.split(/\\s+/).filter(Boolean),cuantos=0;
-  D.materiales.forEach(function(m){if(!w.length&&m.k)return;var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(w.length&&!w.every(function(x){return txt.indexOf(x)>=0}))return;if(++cuantos>120)return;
-    if(m.c!==cat){if(cat)h+='</ul>';cat=m.c;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
+  var w=q.split(/\\s+/).filter(Boolean),cuantos=0,O=document.getElementById("cesta-orden"),ord=O?O.value:"precio";
+  var lista=D.materiales.slice();if(w.length){if(O)O.parentNode.hidden=false;lista.sort(ord==="precio"?function(a,b){return a.o[minT(a)][0]-b.o[minT(b)][0]}:function(a,b){return (a.k?1:0)-(b.k?1:0)||a.o[minT(a)][0]-b.o[minT(b)][0]})}else if(O)O.parentNode.hidden=true;
+  lista.forEach(function(m){if(!w.length&&m.k)return;var txt=(m.n+" "+m.c).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");if(w.length&&!w.every(function(x){return txt.indexOf(x)>=0}))return;if(++cuantos>120)return;
+    var gc=w.length?"Resultados":m.c;if(gc!==cat){if(cat)h+='</ul>';cat=gc;h+='<h3>'+esc(cat)+'</h3><ul class="cat-lista">'}
     var b=minT(m);h+='<li><span>'+esc(m.n)+'<small>'+esc(m.f)+' · desde '+eur(m.o[b][0])+'</small></span><button type="button" class="boton secundario peq" data-s="'+m.s+'">Añadir</button></li>'});
   if(cat)h+='</ul>';C.innerHTML=h||'<p class="nota">No hay materiales con ese nombre.</p>';
   C.querySelectorAll("button[data-s]").forEach(function(bt){bt.onclick=function(){var s=bt.dataset.s;c[s]=(c[s]||0)+1;guarda();pinta();bt.textContent="✓ Añadido ("+c[s]+")"}})}
 document.getElementById("cesta-buscar").oninput=function(e){catalogo(e.target.value)};
+var Oc=document.getElementById("cesta-orden");if(Oc)Oc.onchange=function(){catalogo(document.getElementById("cesta-buscar").value)};
 document.addEventListener("cm-cesta",function(){try{c=JSON.parse(localStorage.getItem("cm-cesta")||"{}")}catch(e){}pinta()});
 document.getElementById("cesta-vaciar").onclick=function(){c={};el={};guarda();pinta()};
 catalogo("");pinta();

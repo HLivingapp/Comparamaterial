@@ -208,3 +208,8 @@ table.comparativa small{font-weight:400}
 .por-tienda .pt-g{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .por-tienda .pt-ir{font-size:.85em;white-space:nowrap}
 @media (max-width:520px){.por-tienda{flex-direction:column;align-items:flex-start}.por-tienda .pt-g{flex-wrap:wrap;white-space:normal;max-width:100%}.por-tienda button.pt{white-space:normal;text-align:left}}
+.br-orden{display:flex;gap:6px;align-items:center;font-size:.8rem;color:#4b5563;padding:6px 10px;border-bottom:1px solid var(--li)}
+.br-orden button{border:1px solid var(--li);background:#fff;border-radius:999px;padding:3px 10px;font:inherit;cursor:pointer}
+.br-orden button.on{background:#1f5fd6;color:#fff;border-color:#1f5fd6}
+.orden-sel{display:flex;gap:8px;align-items:center;font-size:.9rem;margin:.4rem 0}
+.orden-sel select{font:inherit;padding:4px 8px;border-radius:8px;border:1px solid var(--li)}
